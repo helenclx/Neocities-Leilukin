@@ -382,27 +382,27 @@
 <nav class="changelog__nav">
     <p class="changelog__nav--title">Changelog Archive:</p>
     <ul class="changelog__nav--links">
-        <li>
-            <a  href="/changelogs">Latest</a>
-        </li>
-        |
-        
-            <li>
-                <a  href="/changelogs/2024/">2024</a>
-            </li>
-            |
-            <li>
-                <a  href="/changelogs/2023/">2023</a>
-            </li>
-            |
-            <li>
-                <a  href="/changelogs/2022/">2022</a>
-            </li>
-            |
-            <li>
-                <a  href="/changelogs/layouts/">Website Layouts</a>
-            </li>
+        <li><a
             
+            href="/changelogs"
+        >Latest</a></li>
+        
+            <li><a
+                
+                href="/changelogs/2024/"
+            >2024</a></li>
+            <li><a
+                
+                href="/changelogs/2023/"
+            >2023</a></li>
+            <li><a
+                
+                href="/changelogs/2022/"
+            >2022</a></li>
+            <li><a
+                
+                href="/changelogs/layouts/"
+            >Website Layouts</a></li>
     </ul>
 </nav>
 
@@ -611,6 +611,11 @@
         align-self: center;
     }
 
+    .changelog__nav--links li:not(:last-child)::after {
+        content: '|';
+        padding-left: 0.5em;
+    }
+
     .changelog__nav--links [aria-current="page"] {
         text-decoration: none;
         color: var(--clr-bold-txt);
@@ -649,14 +654,14 @@
 
     
     <ul class="footer__links">
-        <li>
-            <a  href="/sitemap/">Site Map</a>
-        </li>
-        |
-        <li>
-            <a  href="/changelogs/">Changelogs</a>
-        </li>
-        |
+        <li><a
+            
+            href="/sitemap/
+        ">Site Map</a></li>
+        <li><a
+            
+            href="/changelogs/"
+        >Changelogs</a></li>
         <li><a href="/feed.xml">RSS</a></li>
     </ul>
 
@@ -682,6 +687,11 @@
         padding: 0;
         display: flex;
         gap: 0.7em;
+    }
+
+    .footer__links li:not(:last-child)::after {
+        content: '|';
+        padding-left: 0.6em;
     }
 
     @media only screen and (min-width: 600px) {

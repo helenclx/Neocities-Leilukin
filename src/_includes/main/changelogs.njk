@@ -7,16 +7,16 @@ layout: main/content
 <nav class="changelog__nav">
     <p class="changelog__nav--title">Changelog Archive:</p>
     <ul class="changelog__nav--links">
-        <li>
-            <a {% if currentUrl === "/changelogs/" %}aria-current="page"{% endif %} href="/changelogs">Latest</a>
-        </li>
-        |
+        <li><a
+            {% if currentUrl === "/changelogs/" %}aria-current="page"{% endif %}
+            href="/changelogs"
+        >Latest</a></li>
         {% set navPages = collections.all | eleventyNavigation("Changelogs") | reverse %}
         {%- for entry in navPages %}
-            <li>
-                <a {% if entry.url == page.url %}aria-current="page"{% endif %} href="{{ entry.url }}">{{ entry.title }}</a>
-            </li>
-            {% if not loop.last %}|{% endif %}
+            <li><a
+                {% if entry.url == page.url %}aria-current="page"{% endif %}
+                href="{{ entry.url }}"
+            >{{ entry.title }}</a></li>
         {%- endfor %}
     </ul>
 </nav>
@@ -61,6 +61,11 @@ layout: main/content
     .changelog__nav--links li {
         text-align: center;
         align-self: center;
+    }
+
+    .changelog__nav--links li:not(:last-child)::after {
+        content: '|';
+        padding-left: 0.5em;
     }
 
     .changelog__nav--links [aria-current="page"] {

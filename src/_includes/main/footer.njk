@@ -5,14 +5,14 @@
 
     {% set currentUrl %}{{ page.url }}{% endset %}
     <ul class="footer__links">
-        <li>
-            <a {% if currentUrl === "/sitemap/" %}aria-current="page"{% endif %} href="/sitemap/">Site Map</a>
-        </li>
-        |
-        <li>
-            <a {% if currentUrl === "/changelogs/" %}aria-current="page"{% endif %} href="/changelogs/">Changelogs</a>
-        </li>
-        |
+        <li><a
+            {% if currentUrl === "/sitemap/" %}aria-current="page"{% endif %}
+            href="/sitemap/
+        ">Site Map</a></li>
+        <li><a
+            {% if currentUrl === "/changelogs/" %}aria-current="page"{% endif %}
+            href="/changelogs/"
+        >Changelogs</a></li>
         <li><a href="/feed.xml">RSS</a></li>
     </ul>
 {% endblock %}

@@ -610,14 +610,14 @@
 
     
     <ul class="footer__links">
-        <li>
-            <a  href="/sitemap/">Site Map</a>
-        </li>
-        |
-        <li>
-            <a  href="/changelogs/">Changelogs</a>
-        </li>
-        |
+        <li><a
+            
+            href="/sitemap/
+        ">Site Map</a></li>
+        <li><a
+            
+            href="/changelogs/"
+        >Changelogs</a></li>
         <li><a href="/feed.xml">RSS</a></li>
     </ul>
 
@@ -643,6 +643,11 @@
         padding: 0;
         display: flex;
         gap: 0.7em;
+    }
+
+    .footer__links li:not(:last-child)::after {
+        content: '|';
+        padding-left: 0.6em;
     }
 
     @media only screen and (min-width: 600px) {
