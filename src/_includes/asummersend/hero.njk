@@ -1,0 +1,59 @@
+{% extends "global/hero.njk" %}
+
+{% block heroImg %}
+    <picture>
+        <source srcset="/assets/asummersend/images/asummersend-header-320.png" media="(orientation: landscape)" />
+        <img src="/assets/asummersend/images/asummersend-header.png" alt="Banner of A Summer's End — Hong Kong 1986 Shrine" />
+    </picture>
+{% endblock %}
+
+{% block eventScript %}
+    if (todayEvent != "No event") {
+        heroTopBarEl.classList.remove('hidden');
+        heroTopBarEl.innerHTML = getBlurbHtml(todayEvent);
+    }
+
+    function getTodayEvent() {
+        const date = new Date();
+        const month = date.getMonth() + 1;
+        const day = date.getDate();
+
+        if (month == 2 && day == 16)
+            return "Michelle's Birthday";
+        else if (month == 4 && day == 23)
+            return "ASE Anniversary";
+        else if (month == 8 && day == 9)
+            return "Cecelia's Birthday";
+        else if (month == 12 && day == 28)
+            return "Sam's Birthday";
+        else
+            return "No event";
+    }
+
+    function getBlurbHtml(day) {
+        switch (day) {
+            case "Michelle's Birthday":
+                return `
+                    Today is Michelle Cheung's birthday. Happy Birthday Michelle!
+                `;
+                break;
+            case "ASE Anniversary":
+                return `
+                    Today is the anniversary of the release of <cite>A Summer’s End — Hong Kong 1986</cite>!
+                `;
+                break;
+            case "Cecelia's Birthday":
+                return `
+                    Today is Cecelia Cortes' birthday. Happy Birthday Cecelia!
+                `;
+                break;
+            case "Sam's Birthday":
+                return `
+                    Today is Sam Wong's birthday. Happy Birthday Sam!
+                `;
+                break;
+            default:
+                return ``;
+        }
+    }
+{% endblock %}

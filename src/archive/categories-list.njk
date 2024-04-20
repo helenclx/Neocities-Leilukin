@@ -1,0 +1,16 @@
+---
+title: Content Categories
+permalink: /categories/
+eleventyComputed:
+    desc: All content categories on {{ sitemeta.siteName | safe }}.
+---
+
+<ul>
+    {% for category in collections.categories %}
+        {% set categoryUrl %}/categories/{{ category | slugify }}/{% endset %}
+        {% set categoryPostCount = collections.contents | filterByCategory(category) | length %}
+        <li><a href="{{ categoryUrl }}">{{ category }}</a> ({{ categoryPostCount }})</li>
+    {% endfor %}
+</ul>
+
+<p>See all contents on this website in the <a href="/archive/">archive</a>.</p>

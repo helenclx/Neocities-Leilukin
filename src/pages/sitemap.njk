@@ -1,0 +1,68 @@
+---
+layout: main/content
+title: Site Map
+eleventyExcludeFromCollections: true
+eleventyComputed:
+    desc: Site map of {{ sitemeta.siteName | safe }}.
+---
+
+<p>This page lists the links to the pages on my website for easier navigation.</p>
+
+{% set navPages = collections.all | eleventyNavigation %}
+{% macro renderNavListItem(entry) -%}
+    <li{% if entry.url == page.url %} class="my-active-class"{% endif %}>
+        <a href="{{ entry.url }}">{{ entry.title }}</a>
+    {%- if entry.children.length -%}
+        <ul>
+            {%- for child in entry.children %}{{ renderNavListItem(child) }}{% endfor -%}
+        </ul>
+    {%- endif -%}
+    </li>
+{%- endmacro %}
+
+<ul role="list" class="sitemap">
+    {%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
+</ul>
+
+<style>
+    main ul {
+        display: grid;
+        gap: 0.5rem;
+        margin-top: 0.3em;
+    }
+
+    .sitemap {
+        margin: 1em 0;
+        padding: 0 0 0 1em;
+        list-style: none;
+    }
+
+    .sitemap a:focus {
+        outline: 0.15rem solid var(--clr-link);
+    }
+
+    .sitemap li {
+        padding-left: 0.5em;
+        align-items: start;
+    }
+
+    .sitemap li::marker {
+        content: "▶";
+    }
+
+    .sitemap ul {
+        padding-left: 1.4em;
+    }
+
+    .sitemap ul li::marker {
+        content: "★";
+    }
+
+    .sitemap ul ul li::marker {
+        content: "♥";
+    }
+
+    .sitemap ul ul ul li::marker {
+        content: "❣";
+    }
+</style>

@@ -1,0 +1,36 @@
+---
+layout: main/changelogs
+title: Changelogs
+pageTitle: Website Changelogs
+desc: Changelogs of my website.
+metadata:
+    type: article
+pagination:
+    data: collections["changelogs"]
+    size: 20
+    alias: changelogs
+    reverse: true
+permalink: "/{{ page.fileSlug }}{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber + 1 }}{% endif %}/"
+eleventyNavigation:
+    key: Changelogs
+---
+
+<article>
+    <h2>Latest Changelogs</h2>
+    {% for log in changelogs %}
+        <h3 class="date-style">{{ log.data.date | niceDate }}</h3>
+        {{ log.templateContent | safe }}
+    {%- endfor %}
+</article>
+
+{% include "global/pagination-oldnew.njk" %}
+
+<style>
+    h2 + h3 {
+        margin-top: 1.5em;
+    }
+
+    h3 + ul {
+        margin-bottom: 3em;
+    }
+</style>

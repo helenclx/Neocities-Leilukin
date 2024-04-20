@@ -1,0 +1,13 @@
+---
+layout: main/changelogs
+title: "Website Changelog Archive: 2024"
+desc: Changelog of my website during the year of 2024.
+changelogNav: 2024
+metadata:
+    type: article
+eleventyNavigation:
+    order: 4
+---
+
+{% set changelogList = collections["changelog 2024"] %}
+{% include "main/changelogs-list.njk" %}

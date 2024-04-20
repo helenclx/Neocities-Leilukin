@@ -1,0 +1,66 @@
+---
+layout: main/content
+title: Blog
+desc: Blog hosted on Leilukin's personal website.
+tags: blog pages
+date: 2022-01-04
+pageTitle: Welcome to Leilukin's Hub Blog!
+navTitle: Blog Home
+pagination:
+    data: collections.posts
+    size: 5
+    alias: postList
+    reverse: true
+permalink: "/{{ page.fileSlug }}{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber + 1 }}{% endif %}/"
+eleventyNavigation:
+    key: Blog
+---
+
+<ul class="blog__posts">
+    {% for post in postList %}
+        <li class="blog__post">
+            <h2 class="blog__post--title">
+                <a href="{{ post.url }}">
+                    {% if post.data.title %}{{ post.data.articleTitle }}
+                    {% else %}
+                        <code>{{ post.url }}</code>
+                    {% endif %}
+                </a>
+            </h2>
+            <time>{{ post.date | niceDate }}</time>
+            <p>{{ post.data.desc }}</p>
+        </li>
+    {% endfor %}
+</ul>
+
+{% include "global/pagination-oldnew.njk" %}
+
+<style>
+    .blog__posts,
+    .blog__post {
+        display: grid;
+    }
+
+    .blog__posts {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        gap: 1.5em;
+    }
+
+    .blog__post {
+        gap: 0.6em;
+        padding-bottom: 1.5em;
+        border-bottom: 0.2em solid var(--clr-quote-border);
+    }
+
+    .blog__post--title {
+        font-size: clamp(1.55rem, 1rem + 3vw, 1.8rem);
+        line-height: 1.3;
+    }
+
+    .blog__post time {
+        color: var(--clr-sub-heading);
+        font-weight: 600;
+    }
+</style>

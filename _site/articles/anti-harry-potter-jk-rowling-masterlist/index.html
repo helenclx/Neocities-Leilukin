@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" id="page-top">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        
+            <meta property="og:title" content="Anti-Harry Potter and Anti-J.K. Rowling Masterlist | Articles">
+        
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="My masterlist of criticisms of the Harry Potter series and J.K. Rowling.">
+<meta name="generator" content="Eleventy v2.0.1">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://leilukin.neocities.org/articles/anti-harry-potter-jk-rowling-masterlist/">
+<meta property="og:site_name" content="Leilukin's Hub">
+<meta property="og:locale" content="en_MY">
+<meta property="og:description" content="My masterlist of criticisms of the Harry Potter series and J.K. Rowling.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="https://leilukin.neocities.org/articles/anti-harry-potter-jk-rowling-masterlist/">
+<meta name="twitter:description" content="My masterlist of criticisms of the Harry Potter series and J.K. Rowling.">
+<link rel="canonical" href="https://leilukin.neocities.org/articles/anti-harry-potter-jk-rowling-masterlist/">
+
+
+        
+        <link rel="stylesheet" href="/assets/css/main.css">
+        
+
+        
+        <link rel="stylesheet" href="/assets/fonts/noto-sans/noto-sans.css">
+
+        
+        <link href="/assets/fonts/fontawesome/css/fontawesome.css" rel="stylesheet" />
+        <link href="/assets/fonts/fontawesome/css/brands.css" rel="stylesheet" />
+        <link href="/assets/fonts/fontawesome/css/solid.css" rel="stylesheet" />
+
+        
+        
+            <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+            <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+            <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+            <link rel="manifest" href="/assets/favicon/site.webmanifest">
+        
+
+        <title>
+            Anti-Harry Potter and Anti-J.K. Rowling Masterlist | Articles | Leilukin's Hub
+        </title>
+    </head>
+    <body>
+        <header class="hero">
+    <div class="hero__top-bar hidden"></div>
+    <div class="hero__img">
+        
+    <img src="/assets/leilukin/Leilukins-Hub-website-banner.png" alt="Banner of Leilukin's Hub">
+
+    </div>
+</header>
+
+<style>
+    .hero {
+        width: 100%;
+        background-color: var(--clr-hero-bg);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero__top-bar {
+        background-color: var(--clr-navbar-bg);
+        width: 100%;
+        padding: 0.5em 0;
+    }
+
+    .hero__img {
+        display: grid;
+        place-content: center;
+    }
+
+    .hero img {
+        object-fit: scale-down;
+        overflow: hidden;
+        filter: drop-shadow(0.1rem 0.1rem 0.2rem black);
+        max-height: 20rem;
+    }
+</style>
+
+<script defer>
+    const hero = document.querySelector(".hero");
+    const todayEvent = getTodayEvent();
+    const heroTopBarEl = document.querySelector(".hero__top-bar");
+    const headerImgEl = document.querySelector(".hero__img");
+
+    
+    if (todayEvent != "No event") {
+        heroTopBarEl.classList.remove('hidden');
+
+        if (todayEvent == "Leilukin's Birthday" || todayEvent == "Leilukin's Hub Anniversary") {
+            heroTopBarEl.innerHTML = getBlurbHtml(todayEvent);
+        } else {
+            headerImgEl.classList.add(getBanner(todayEvent));
+            heroTopBarEl.innerHTML = getBlurbHtml(todayEvent);
+        }
+    }
+
+    function getTodayEvent() {
+        const date = new Date();
+        const month = date.getMonth() + 1;
+        const day = date.getDate();
+
+        if (month == 3 && day == 1)
+            return "Zero Discrimination Day";
+        else if (month == 3 && day == 31)
+            return "Trans Day of Visibility";
+        else if (month == 4 && day == 6)
+            return "International Asexuality Day";
+        else if (month == 4 && day == 26)
+            return "Lesbian Visibility Day";
+        else if (month == 5 && day == 17)
+            return "IDAHOBIT";
+        else if (month == 5 && day == 19)
+            return "Agender Pride Day";
+        else if (month == 5 && day == 25)
+            return "Pansexual and Panromantic Awareness & Visibility Day";
+        else if (month == 6)
+            return "Pride Month";
+        else if (month == 7 && day == 14)
+            return "Non-Binary People's Day";
+        else if (month == 7 && day == 28)
+            return "Leilukin's Birthday";
+        else if (month == 9 && day == 11)
+            return "Leilukin's Hub Anniversary";
+        else if (month == 9 && day == 23)
+            return "Bi Visibility Day";
+        else if (month == 10 && day == 8)
+            return "International Lesbian Day";
+        else if (month == 10 && day == 11)
+            return "National Coming Out Day";
+        else if (month == 10 && day == 26)
+            return "Intersex Awareness Day";
+        else
+            return "No event";
+    }
+
+    function getBanner(day) {
+        switch (day) {
+            case "Zero Discrimination Day":
+                return "flag-progress-intersex";
+                break;
+            case "Trans Day of Visibility":
+                return "flag-trans";
+                break;
+            case "International Asexuality Day":
+                return "flag-ace";
+                break;
+            case "Lesbian Visibility Day":
+                return "flag-lesbian";
+                break;
+            case "IDAHOBIT":
+                return "flag-progress";
+                break;
+            case "Agender Pride Day":
+                return "flag-agender";
+                break;
+            case "Pansexual and Panromantic Awareness & Visibility Day":
+                return "flag-pan";
+                break;
+            case "Pride Month":
+                return "flag-progress-intersex";
+                break;
+            case "Non-Binary People's Day":
+                return "flag-non-binary";
+                break;
+            case "Bi Visibility Day":
+                return "flag-bi";
+                break;
+            case "International Lesbian Day":
+                return "flag-lesbian";
+                break;
+            case "National Coming Out Day":
+                return "flag-rainbow";
+                break;
+            case "Intersex Awareness Day":
+                return "flag-intersex";
+                break;
+            default:
+                return "";
+        }
+    }
+
+    function getBlurbHtml(day) {
+        switch (day) {
+            case "Zero Discrimination Day":
+                return `
+                    Today is <a href="https://www.unaids.org/en/zero-discrimination-day" target="_blank">Zero Discrimination Day</a>
+                `;
+                break;
+            case "Trans Day of Visibility":
+                return `
+                    Today is <a href="https://www.manygendersonevoice.org/tdov.html" target="_blank">Trans Day of Visibility</a>
+                `;
+                break;
+            case "International Asexuality Day":
+                return `
+                    Today is <a href="https://internationalasexualityday.org/en" target="_blank">International Asexuality Day</a>
+                `;
+                break;
+            case "Lesbian Visibility Day":
+                return `
+                    Today is <a href="https://www.lesbianvisibilityweek.com" target="_blank">Lesbian Visibility Day</a>
+                `;
+                break;
+            case "IDAHOBIT":
+                return `
+                    Today is <a href="https://may17.org" target="_blank">International Day Against Homophobia, Biphobia and Transphobia</a></span>
+                `;
+                break;
+            case "Agender Pride Day":
+                return `
+                    Today is <a href="https://www.believeoutloud.com/voices/article/agender-pride-day/" target="_blank">Agender Pride Day</a></span>
+                `;
+                break;
+            case "Pansexual and Panromantic Awareness & Visibility Day":
+                return `
+                    Today is <a href="https://genderedintelligence.co.uk/panvisibilityday" target="_blank">Pansexual and Panromantic Visibility Day</a>
+                `;
+                break;
+            case "Pride Month":
+                return `
+                    Happy <a href="https://www.loc.gov/lgbt-pride-month/about/" target="_blank">Pride Month</a>!
+                `;
+                break;
+            case "Non-Binary People's Day":
+                return `
+                    Today is <a href="https://www.manygendersonevoice.org/non-binary-peoples-day.html" target="_blank">Non-Binary People's Day</a>
+                `;
+                break;
+            case "Leilukin's Birthday":
+                return `
+                    Today is Leilukin's birthday
+                `;
+                break;
+            case "Leilukin's Hub Anniversary":
+                return `
+                    Today is the anniversary of the launch of Leilukin's Hub
+                `;
+                break;
+            case "Bi Visibility Day":
+                return `
+                    Today is <a href="https://bivisibilityday.com/about" target="_blank">Bi Visibility Day</a>
+                `;
+                break;
+            case "International Lesbian Day":
+                return `
+                    Today is <a href="https://www.lgbtiqhealth.org.au/international_lesbian_day2" target="_blank">International Lesbian Day</a>
+                `;
+                break;
+            case "National Coming Out Day":
+                return `
+                    Today is <a href="https://www.hrc.org/resources/national-coming-out-day" target="_blank">National Coming Out Day</a>
+                `;
+                break;
+            case "Intersex Awareness Day":
+                return `
+                    Today is <a href="https://interactadvocates.org/intersex-awareness-day" target="_blank">Intersex Awareness Day</a>
+                `;
+                break;
+            default:
+                return ``;
+        }
+    }
+
+</script>
+        <nav class="navbar">
+    <ul class="nav__menu">
+        
+    
+    
+        <li>
+            <a  href="/">
+                Home
+            </a>
+        </li>
+        <li>
+            <a  href="/about/">
+                About
+            </a>
+        </li>
+        <li>
+            <a  href="/now/">
+                Now
+            </a>
+        </li>
+        <li>
+            <a  href="/blog/">
+                Blog
+            </a>
+        </li>
+        <li>
+            <a  href="/articles/">
+                Articles
+            </a>
+        </li>
+        <li>
+            <a  href="/projects/">
+                Projects
+            </a>
+        </li>
+        <li>
+            <a  href="/shrines/">
+                Shrines
+            </a>
+        </li>
+        <li>
+            <a  href="/links/">
+                Links
+            </a>
+        </li>
+    <li><a href="https://leilukin.123guestbook.com/">Guestbook</a></li>
+
+    </ul>
+</nav>
+
+<style>
+    .navbar {
+        background: var(--clr-navbar-bg);
+        padding: 0 0.6rem;
+        width: 100%;
+        z-index: 999;
+        position: sticky;
+        top: 0;
+    }
+
+    .navbar a {
+        color: var(--clr-navbar-link);
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .navbar a:hover {
+        color: var(--clr-link-hover);
+    }
+
+    .navbar a:focus {
+        outline-offset: 0.3em;
+        outline: 0.15em solid var(--clr-navbar-link);
+    }
+
+    .nav__menu {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+</style>
+
+        <main>
+            <header class="main__header">
+    
+        <ul class="breadcrumbs">
+            
+            <li>
+                <a href="/articles/" >Articles</a>
+            </li>
+            ➔
+        </ul>
+    
+
+    
+        <h1>Anti-Harry Potter and Anti-J.K. Rowling Masterlist</h1>
+        <div class="article__info">
+            <p>Posted on 19 March 2023 by Leilukin
+            
+                • Last updated on 9 January 2024</p>
+            
+            
+                <p>Categories:
+                    
+                        <a href="/categories/anti-harry-potter">anti harry potter</a>, 
+                    
+                        <a href="/categories/anti-jk-rowling">anti jk rowling</a>
+                    
+                </p>
+            
+            <p>🍿  3 min. read</p>
+        </div>
+    
+</header>
+
+<div class="content__wrapper">
+    
+
+    
+        <article class="article">
+            <figure style="margin: 1rem 0;">
+    <img src="/assets/banners/harry-potter-free-site.png" alt="A banner of an anime girl with a Harry Potter-free message" style="margin: 0 auto;">
+    <figcaption class="center-text" style="font-size: 0.9em;">
+        This site is Harry Potter free. Lookin [<i>sic</i>] for it? Leave.
+    </figcaption>
+</figure>
+<p class="center-text">(Credit to Tumblr user <a href="https://comradesaucegay.tumblr.com/post/621403039459426304" target="blank">comradesaucegay</a> for this Harry Potter-free website banner)
+</p>
+<p>Like many millennials, I grew up with the <cite>Harry Potter</cite> series and was a major fan of the series. I had read the original 7 books and watched their film adaptations. The series was a passion of mine throughout my early- to mid-teen years. While the Harry Potter novels were far from the first books I read, they were the first fantasy novels I read, and the series’ concept of a magical world set in a contemporary setting fascinated teenage me.</p>
+<p>However, even during my <cite>Harry Potter</cite> fixation years, there were things from the series that bothered me, from the idea of house elves being a slave race that naturally love being slaves, to Snape’s unconvincing “redemption” arc. As I got older and became more aware of social issues, I started to notice more problems with the series. In addition, reading more books has also made me realise that even on a technical writing level, the Harry Potter series was mediocre at best. As a result, I had stopped becoming a Harry Potter fan even before J.K. Rowling’s transphobia got mainstream attention.</p>
+<p>Unfortunately, many adults with nostalgia goggles still refuse to let go of <cite>Harry Potter</cite>, and they believe <cite>Harry Potter</cite> can be separated or “reclaimed” by J.K. Rowling, despite how much Rowling’s worldview and prejudice are inextricably linked to her writing.</p>
+<p>Therefore, I am compiling this masterlist by curating various materials that are critical of the <cite>Harry Potter</cite> series and J.K. Rowling. Items are ordered in chronological order. This is far from a comprehensive list of all the pieces that criticise <cite>Harry Potter</cite> and Rowling; this list is my curated list of ones that I have read, watched or listened to, and I personally endorse.</p>
+<div class="heading-wrapper h2">
+<h2 id="articles">Articles</h2>
+<a class="heading-anchor" href="#articles" aria-labelledby="articles"><span hidden>#</span></a></div>
+<ul class="content-list">
+    <li><a href="https://alinautrata.medium.com/all-the-things-that-are-fucked-up-about-harry-potter-58267e1bf3ee" target="_blank">Harry Potter and the Universal Declaration of Human Rights</a> by Alina Utrata (28 October 2016)</li>
+    <li><a href="https://katymontgomerie.medium.com/addressing-the-claims-in-jk-rowlings-justification-for-transphobia-7b6f761e8f8f" target="_blank">Addressing The Claims In JK Rowling’s Justification For Transphobia</a> by Katy Montgomerie (16 June 2020)</li>
+    <li><a href="https://www.themarysue.com/is-hogwarts-legacy-anti-semitic-hogwarts-legacy-anti-semitic-allegations-explained/" target="_blank">The Antisemitism of ‘Harry Potter’ Returns in ‘Hogwarts Legacy’</a> by Jack Doyle (8 February 2023)</li>
+    <li><a href="https://www.polygon.com/reviews/23603142/hogwarts-legacy-review-harry-potter-jk-rowling-transphobic-ps5-pc-xbox" target="blank">Hogwarts Legacy wants to make everyone happy, but Harry Potter gets in the way</a> by Gita Jackson (17 February, 2023)</li>
+    <li><a href="https://www.vox.com/culture/23622610/jk-rowling-transphobic-statements-timeline-history-controversy" target="_blank">Is J.K. Rowling transphobic? Let’s let her speak for herself.</a> by Aja Romano (Updated 16 March 2023)</li>
+</ul>
+<div class="heading-wrapper h2">
+<h2 id="videos">Videos</h2>
+<a class="heading-anchor" href="#videos" aria-labelledby="videos"><span hidden>#</span></a></div>
+<ul class="content-list">
+    <li><a href="https://www.youtube.com/watch?v=wPwWb9z3XSY" target="_blank">Harry Potter is GARBAGE, and Here's Why</a> by satenmadpun (25 August 2020)</li>
+    <li><a href="https://www.youtube.com/watch?v=4AziZgoi3q0" target="_blank">We need to talk about Dudley Dursley- Harry Potter and Fatphobia</a> by Ok2BeFat (30 May 2021)</li>
+    <li><a href="https://www.youtube.com/watch?v=-1iaJWSwUZs" target="_blank">Harry Potter</a> by Shaun (4 March 2023)</li>
+    <li><a href="https://www.youtube.com/watch?v=Ou_xvXJJk7k" target="_blank">JK Rowling's New Friends</a> by Shaun (14 October 2022)</li>
+    <li><a href="https://www.youtube.com/watch?v=UBftW7FzOVI" target="_blank">The Consumerist Dystopia of Harry Potter</a> by verilybitchie (21 January 2023)</li>
+    <li><a href="https://www.youtube.com/watch?v=_GBUArD51KY" target="_blank">I'm Done With JK Rowling</a> by Jessie Gender (27 January 2023)</li>
+    <li><a href="https://www.youtube.com/watch?v=K1mHwn6eUUk" target="_blank">Hogwarts Legacy and the Politics of Potter</a> by Wisecrack (11 February 2023)</li>
+    <li><a href="https://www.youtube.com/watch?v=uNKyQVsgKLg" target="_blank">Hogwarts: A Legacy Of Hate  (The Jimquisition)</a> by James Stephanie Sterling (13 February 2023)</li>
+    <li><a href="https://www.youtube.com/watch?v=9ncYTEY7aVk" target="_blank">The ALLEGED Witch Trials of J.K. Rowling (What The Megan Phelps Podcast Won't Tell You)</a> by Caelan Conrad (18 March 2023)</li>
+    <li><a href="https://www.youtube.com/watch?v=2pggtSI_95A" target="blank">Maybe The Wizard Game Just Wasn't Very Good (The Jimquisition)</a> by James Stephanie Sterling (20 November 2023)</li>
+</ul>
+<div class="heading-wrapper h2">
+<h2 id="podcasts">Podcasts</h2>
+<a class="heading-anchor" href="#podcasts" aria-labelledby="podcasts"><span hidden>#</span></a></div>
+<ul class="content-list">
+    <li><a href="https://soundcloud.com/shriekingshack" target="_blank">The Shrieking Shack</a> — A book reading podcast hosted by Xeecee and Liz. Originally a <cite>Harry Potter</cite> reread podcast made by and for lapsed fans that goes through every chapter of the <cite>Harry Potter</cite> books and their film adaptations and analyses the writing and politics of the series and J.K. Rowling.</li>
+</ul>
+
+        </article>
+    
+
+    
+        <aside class="right-sidebar">
+    <nav class="content__nav sidebar--sticky">
+        <h2 class="content__nav--title">My Contents</h2>
+        <ul class="content__nav--links">
+            
+                <li><a href="/categories/">Content Categories</a></li>
+            
+                <li><a href="/archive/">Archive</a></li>
+            
+            <li><a href="/articles/">Articles</a></li>
+            
+                <li><a href="/blog/">Blog Home</a></li>
+            
+                <li><a href="/blog/posts/">Blog Archive</a></li>
+            
+        </ul>
+    </nav>
+</aside>
+
+<style>
+    .content__nav {
+        padding: 1.2em clamp(1em, 5%, 1.5em);
+        background-color: var(--clr-content-bg);
+    }
+
+    .content__nav--title {
+        font-size: 1.7rem;
+    }
+</style>
+    
+
+    
+</div>
+
+<style>
+    .breadcrumbs {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 0.7em 0;
+        display: flex;
+        gap: 0.5em;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+</style>
+        </main>
+        <footer class="footer">
+    
+    <p>Made with ♥ by Leilukin since <time>11 September 2022</time></p>
+
+    
+    <ul class="footer__links">
+        <li>
+            <a  href="/sitemap/">Site Map</a>
+        </li>
+        |
+        <li>
+            <a  href="/changelogs/">Changelogs</a>
+        </li>
+        |
+        <li><a href="/feed.xml">RSS</a></li>
+    </ul>
+
+</footer>
+
+<style>
+    .footer {
+        margin-top: auto;
+        background: var(--clr-main-footer-bg);
+        padding: 0.8rem;
+        text-align: center;
+        display: grid;
+    }
+
+    .footer p {
+        padding: 0;
+    }
+
+    .footer__links {
+        justify-self: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 0.7em;
+    }
+
+    @media only screen and (min-width: 600px) {
+        .footer {
+            width: 100%;
+        }
+    }
+</style>
+        <button class="top-btn hidden">
+    <img src="/assets/images/elements/chevron-up.svg" alt="Scroll to top">
+</button>
+
+<style>
+    .top-btn {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        z-index: 999;
+        border: none;
+        background-color: var(--clr-top-btn);
+        border-radius: 50em;
+        padding: 0.3em;
+    }
+
+    .top-btn:focus {
+        outline: 0.25em solid var(--clr-top-btn);
+        outline-offset: 0.15em;
+    }
+
+    .top-btn img {
+        width: 1.5rem;
+        aspect-ratio: 1 / 1;
+    }
+</style>
+
+<script defer>
+    const topButton = document.querySelector(".top-btn");
+
+    window.onscroll = () => {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            topButton.classList.remove("hidden");
+        } else {
+            topButton.classList.add("hidden");
+        }
+    }
+
+    topButton.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: "smooth",
+        });
+    });
+</script>
+    </body>
+</html>

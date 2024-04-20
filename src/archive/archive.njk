@@ -1,0 +1,8 @@
+---
+title: Archive
+eleventyComputed:
+    desc: All contents published on {{ sitemeta.siteName | safe }}.
+---
+
+{% set contentList = collections.contents | reverse %}
+{% include "main/content-list.njk" %}

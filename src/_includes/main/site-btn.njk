@@ -1,0 +1,49 @@
+<p>You can link to my website with this button:</p>
+
+<div class="site-btn__container">
+    <div>
+        <a href="https://leilukin.neocities.org/" target="_blank"><img src="/assets/leilukin/Leilukins-Hub-button.png" alt="Button of Leilukin's Hub" title="Leilukin's Hub"></a>
+    </div>
+    <textarea aria-label="HTML of Leilukin's Hub website button" class="site-btn__textarea textarea-for-copy" rows="4"><a href="https://leilukin.neocities.org/" target="_blank"><img src="https://leilukin.neocities.org/assets/leilukin/Leilukins-Hub-button.png" alt="Button of Leilukin's Hub" title="Leilukin's Hub"></a></textarea>
+    <button class="copy-txt-btn">Copy HTML</button>
+</div>
+
+<p>Credit to <a href="https://github.com/hekate2" target="_blank">hekate2</a> for their <a href="https://hekate2.github.io/buttonmaker/" target="_blank">88x31 Web Button Maker</a>!</p>
+
+<style>
+    .site-btn__container {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        margin: 0.5rem 0;
+    }
+
+    .site-btn__textarea {
+        width: 10rem;
+        height: 4rem;
+        font-size: 0.75rem;
+        background-color:black;
+        color: var(--clr-body-txt);
+    }
+
+    .copy-txt-btn {
+        border: none;
+        background: var(--clr-link-btn-bg);
+        color: var(--clr-body-txt);
+        padding: 0.3rem 0.8rem;
+        border-radius: 0.5rem;
+        font-size: 0.9rem;
+        font-weight: bold;
+    }
+
+    .copy-txt-btn:hover {
+        background: var(--clr-link-hover);
+    }
+</style>
+
+<script defer>
+    document.querySelector(".copy-txt-btn").onclick = () => {
+        document.querySelector(".textarea-for-copy").select();
+        document.execCommand('copy');
+    }
+</script>

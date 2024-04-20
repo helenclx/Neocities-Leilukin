@@ -1,0 +1,13 @@
+{% extends "global/navbar.njk" %}
+
+{% block navbarLinks %}
+    {% set currentUrl %}{{ page.url }}{% endset %}
+    {% for page in collections.pages %}
+        <li>
+            <a {% if currentUrl === page.url %}aria-current="page"{% endif %} href="{{ page.url }}">
+                {{ page.data.title or page.data.metadata.title }}
+            </a>
+        </li>
+    {%- endfor %}
+    <li><a href="https://leilukin.123guestbook.com/">Guestbook</a></li>
+{% endblock %}

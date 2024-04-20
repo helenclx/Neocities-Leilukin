@@ -1,0 +1,4 @@
+{
+    "tags": "featured articles",
+    "permalink": "/articles/{{ page.fileSlug }}/"
+}

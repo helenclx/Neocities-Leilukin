@@ -1,0 +1,10 @@
+{
+    "tags": "archive",
+    "layout": "main/content",
+    "permalink": "/{{ page.fileSlug }}/",
+    "eleventyComputed":{
+        "eleventyNavigation":{
+            "key": "{{ title }}"
+        }
+    }
+}

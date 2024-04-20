@@ -1,0 +1,698 @@
+/* ------------------- */
+/* Custom Properties   */
+/* ------------------- */
+:root {
+    --clr-body-bg: #08031A;
+    /* --img-body-bg: url('/assets/images/bg/starsforever.png'); */
+    --clr-body-txt: #fceaff;
+    --clr-content-bg: #3d2163;
+
+    --clr-top-btn: #FFD05A;
+
+    --clr-main-heading: #ED64F5;
+    --clr-sub-heading: #e8b86f;
+    --clr-title-border: #d3aad5;
+    --clr-bold-txt: #ff9933;
+    --clr-link: #ED64F5;
+    --clr-link-hover: #c355c9;
+    --clr-quote-bg: #13092D;
+    --clr-quote-border: #999999;
+
+    --clr-code-bg: #241445;
+    --clr-code-border: #82668f;
+    --clr-dates: rgb(121, 184, 255);
+
+    --clr-link-btn-bg: #873eb5;
+    --clr-link-btn-txt: white;
+    --clr-link-btn-hover: #241445;
+
+    --clr-hero-bg: black;
+    --clr-navbar-bg: #222;
+    --clr-navbar-link: white;
+
+    --clr-main-footer-bg: #13092D;
+
+    --clr-mod-entry-bg: #241445;
+
+    --ff-primary: 'Noto Sans';
+
+    --ms-paragraph-margin: 1.15em;
+}
+
+/* ------------------- */
+/* CSS Reset           */
+/* ------------------- */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Prevent font size inflation */
+html {
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body, h1, h2, h3, h4, p,
+figure, blockquote, dl, dd {
+    margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+}
+
+/* Set core body defaults */
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1, h2, h3, h4,
+button, input, label {
+    line-height: 1.1;
+}
+
+/* Balance text wrapping on headings */
+h1, h2,
+h3, h4 {
+    text-wrap: balance;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input, button,
+textarea, select {
+    font: inherit;
+}
+
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) {
+    min-height: 10em;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+    scroll-margin-block: 5ex;
+}
+
+/* ------------------- */
+/* STYLING BEGINS      */
+/* ------------------- */
+
+/* General Styles */
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: var(--ff-primary), Arial, Helvetica, sans-serif;
+    color: var(--clr-body-txt);
+    background-color: var(--clr-body-bg);
+    background-image: var(--img-body-bg);
+    background-attachment: fixed;
+}
+
+h1 {
+    color: var(--clr-main-heading);
+    font-size: clamp(2rem, 1rem + 5vw, 3rem);
+    border-bottom: 0.18rem solid var(--clr-title-border);
+    padding-bottom: 0.3em;
+    margin-bottom: 0.5em;
+}
+
+h2, h3, h4, h5, h6 {
+    color: var(--clr-sub-heading);
+}
+
+h1, h2, h3 {
+    line-height: 1.2;
+}
+
+h2, .h2 {
+    font-size: clamp(1.55rem, 1rem + 3vw, 2.15rem);
+}
+
+h3, .h3 {
+    font-size: clamp(1.55rem, 1rem + 3vw, 1.8rem);
+}
+
+h2:has(+ *[class]), .h2:has(+ *[class]),
+h3:has(+ *[class]), .h3:has(+ *[class]) {
+    margin-bottom: 0.5em;
+}
+
+hr {
+    border: 0.05rem solid var(--clr-title-border);
+}
+
+strong {
+    color: var(--clr-bold-txt);
+}
+
+:focus {
+    outline: 0.15em solid var(--clr-body-txt);
+}
+
+a {
+    font-weight: 700;
+    color: var(--clr-link);
+}
+
+a:hover {
+    color: var(--clr-link-hover);
+}
+
+a:not([class]):focus {
+    outline: 0.15rem solid var(--clr-link);
+}
+
+a:focus img {
+    outline: 0.2em solid var(--clr-body-txt);
+}
+
+blockquote {
+	padding: 1em 1.4em 1.4em;
+	border-inline-start: 0.1em solid var(--clr-main-heading);
+    background-color: var(--clr-quote-bg);
+    margin-bottom: 1em;
+}
+
+blockquote > * + :not([class]) {
+    margin-top: var(--ms-paragraph-margin);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:focus,
+details:focus {
+    outline-offset: 0.2em;
+}
+
+code {
+    font-family: monospace;
+    border: 0.07rem solid var(--clr-code-border);
+    padding: 0.125rem 0.3rem;
+    margin: 0 0.125rem;
+    background: var(--clr-code-bg);
+}
+
+pre {
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+pre code {
+    background: var(--clr-code-bg);
+    display: block;
+    padding: 0.5em 0.8rem;
+    overflow-x: auto;
+    word-break: keep-all;
+}
+
+summary {
+    cursor: pointer;
+}
+
+dl {
+    display: grid;
+    grid-gap: 0.5rem 1rem;
+    grid-template-columns: max-content;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    grid-column-start: 2;
+}
+
+/* MAIN CONTENT */
+main,
+.content__wrapper,
+.content--divided {
+    display: grid;
+}
+
+main,
+.content__wrapper {
+    font-size: 1.2rem;
+}
+
+main {
+    width: 100%;
+}
+
+.content__wrapper,
+.content--divided {
+    gap: 1rem;
+}
+
+.content__wrapper {
+    justify-self: center;
+}
+
+.article,
+.content:not(.content--divided),
+.content__section {
+    padding: 1.5rem clamp(1rem, 5%, 3rem);
+}
+
+.main__header {
+    padding: 2.5rem clamp(1rem, 5%, 3rem);
+    text-align: center;
+    display: grid;
+}
+
+.article,
+.content:not(.content--divided),
+.content__section {
+    background-color: var(--clr-content-bg);
+}
+
+.article__info {
+    text-align: center;
+    display: grid;
+    gap: 0.2em;
+}
+
+.content > * + .h2,
+.content__section > * + .h2,
+.article > * + .h2 {
+    margin-top: 2em;
+}
+
+.content > * + :not([class]),
+.content__section > * + :not([class]),
+.article > * + :not([class]) {
+    margin-top: var(--ms-paragraph-margin);
+}
+
+.sidebar--sticky {
+    position: sticky;
+    top: 4rem;
+}
+
+/* Desktop main content layout */
+@media only screen and (min-width: 60rem) {
+    .content__wrapper {
+        grid-template-areas: 'leftbar article rightbar';
+        grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    }
+
+    .article,
+    .content {
+        grid-area: article;
+    }
+
+    .left-sidebar {
+        grid-area: leftbar;
+    }
+
+    .right-sidebar {
+        grid-area: rightbar;
+    }
+}
+
+@media only screen and (min-width: 80rem) {
+    .content__wrapper {
+        max-width: 80rem;
+    }
+}
+
+/* HEADING WRAPPER AND ANCHOR */
+.heading-wrapper {
+    display: flex;
+    gap: 0.3em;
+    margin-top: 1.5rem;
+    align-items: baseline;
+}
+
+.heading-anchor {
+    line-height: 1;
+    opacity: 0.8;
+    order: -1;
+    text-decoration: none;
+}
+
+.heading-anchor:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.1em;
+    opacity: 1;
+}
+
+.heading-anchor:focus {
+    outline: 2px solid currentColor;
+    outline-offset: 0.15em;
+}
+
+.heading-anchor [hidden] {
+    display: block;
+}
+
+:not(.heading-wrapper) +.heading-wrapper {
+    margin-top: 1.7em;
+}
+
+/* SPECIAL ELEMENTS */
+.text-box {
+    background: var(--clr-quote-bg);
+    border: 0.1em solid var(--clr-main-heading);
+    padding: 0.8em;
+    margin: 0.5em 0;
+}
+
+.mod-entry,
+.mod-entry__downloads {
+    display: grid;
+    align-items: center;
+}
+
+.mod-entry {
+    gap: 1em;
+    background: var(--clr-mod-entry-bg);
+    margin: 1em 0;
+    padding: 1em;
+}
+
+.mod-entry__downloads {
+    gap: 0.5em;
+}
+
+
+/* Tablet screen size */
+@media only screen and (min-width: 37.5rem) {
+    .mod-entry__downloads {
+        grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    }
+}
+
+/* Link button */
+.link-btn {
+    font-size: 1.3rem;
+    text-align: center;
+    display: inline-block;
+    border: 0.15em solid var(--clr-link-btn-bg);
+    border-radius: 0.6em;
+    padding: 0.5em 1em;
+    background: var(--clr-link-btn-bg);
+    color: var(--clr-link-btn-txt);
+    cursor: pointer;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.link-btn,
+.link-btn:hover,
+.link-btn:visited {
+    text-decoration: none;
+}
+
+.link-btn:hover {
+    cursor: pointer;
+    background: var(--clr-link-btn-hover);
+    transition: 0.5s;
+}
+
+.link-btn:focus {
+    outline-offset: 0.2em;
+    outline: 0.15em solid var(--clr-link);
+}
+
+/* Q&A accordion */
+.qna-accordion {
+    padding: 1rem 0;
+}
+
+.qna-accordion__question {
+    font-weight: 700;
+}
+
+.qna-accordion__answer {
+    padding: 0.7em 1.3em 1.5em;
+    margin-top: 0.5em;
+    background: hsla(0, 0%, 100%, 0.15);
+}
+
+.qna-accordion__answer p + p {
+    margin-top: 1em;
+}
+
+/* Spoiler Accordion */
+* + .spoiler-accordion {
+    margin-top: var(--ms-paragraph-margin);
+}
+
+.spoiler-accordion {
+    padding: 0.5em 0;
+}
+
+.spoiler-accordion__hint {
+    font-weight: 700;
+}
+
+.spoiler-accordion__spoiler {
+    padding: 0.5em 1em;
+}
+
+.spoiler-accordion__spoiler p + p {
+    margin-top: 1em;
+}
+
+/* Web button lists */
+.web-btn-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+/* UTILITY CLASSES */
+.bold-text {
+    font-weight: 700;
+}
+
+.center-el {
+    display: grid;
+    place-content: center;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.indent-text {
+    padding: 1em 0 1em 2em;
+    display: grid;
+    gap: 1em;
+}
+
+.date-style {
+    font-weight: 700;
+    color: var(--clr-dates);
+}
+
+.hidden {
+    display: none;
+}
+
+.content-list {
+    display: grid;
+    gap: 0.7em;
+}
+
+/* Pride flag backgrounds */
+.flag-ace {
+	background: repeating-linear-gradient(
+		#000000 0 25%,
+		#a3a3a3 0 50%,
+		#ffffff 0 75%,
+		#800080 0 100%
+	);
+}
+
+.flag-agender {
+    background: linear-gradient(
+        black 0 14.28%,
+        silver 0 28.57%,
+        white 0 42.85%,
+        #a3fa73 0 57.14%,
+        white 0 71.42%,
+        silver 0 85.71%,
+        black 0
+    );
+}
+
+.flag-aro {
+    background: linear-gradient(
+        #0a2 20%,
+        #7d6 0 40%,
+        white 0 60%,
+        darkgray 0 80%,
+        black 0
+    );
+}
+
+.flag-bi {
+	background: repeating-linear-gradient(
+		#d60270 0 40%,
+		#9b4f97 0 60%,
+		#0038a7 0 100%
+	);
+}
+
+.flag-demigirl {
+    background: linear-gradient(
+        #7F7F7F 0 14.28%,
+        #C4C4C4 0 28.57%,
+        #FDADC8 0 42.85%,
+        white 0 57.14%,
+        #FDADC8 0 71.42%,
+        #C4C4C4 0 85.71%,
+        #7F7F7F 0
+    );
+}
+
+.flag-bigender {
+    background: linear-gradient(
+        #d074a2 0 14.28%,
+        #f8a1cd 0 28.57%,
+        #d9c6ea 0 42.85%,
+        white 0 57.14%,
+        #d9c6ea 0 71.42%,
+        #90c8ec 0 85.71%,
+        #6583d5 0
+    );
+}
+
+.flag-gilbert-baker {
+    background: linear-gradient(
+        #FF6599 12.5%,
+        #e40303 0 25%,
+        #ff8c00 0 37.5%,
+        #ffed00 0 50%,
+        #008026 0 62.5%,
+        #00C0C0 0 75%,
+        #004dff 0 87.5%,
+        #750787 0
+    );
+}
+
+.flag-gilbert-baker-2017 {
+    background: linear-gradient(
+        #CD66FF 11.1%,
+        #FF6599 0 22.2%,
+        #e40303 0 33.3%,
+        #ff8c00 0 44.4%,
+        #ffed00 0 55.5%,
+        #008026 0 66.6%,
+        #00C0C0 0 77.7%,
+        #004dff 0 88.8%,
+        #750787 0
+    );
+}
+
+.flag-intersex {
+	background: radial-gradient(closest-side circle at center,
+		#ffd800 44%,
+		#7902aa 44%,
+		#7902aa 56%,
+		#ffd800 56%
+	);
+}
+
+.flag-lesbian {
+	background: repeating-linear-gradient(
+		#d52d00 0 14.29%,
+		#ef7627 0 28.57%,
+		#ff9a56 0 42.86%,
+		#ffffff 0 57.14%,
+		#d362a4 0 71.43%,
+		#b85490 0 86.71%,
+		#a30262 0 100%
+	);
+}
+
+.flag-non-binary {
+	background: repeating-linear-gradient(
+		#fff430 0 25%,
+		#ffffff 0 50%,
+		#9c59d1 0 75%,
+		#000000 0 100%
+	);
+}
+
+.flag-pan {
+	background: repeating-linear-gradient(
+		#ff218c 0 33.33%,
+		#ffd800 0 66.67%,
+		#21b1ff 0 100%
+	);
+}
+
+.flag-progress {
+	background:
+        conic-gradient(at 14% 50%, #0000 221.25deg, #ffffff 222deg 318deg, #0000 318.25deg),
+        conic-gradient(at 23% 50%, #0000 221.25deg, #f5a9b8 222deg 318deg, #0000 318.25deg),
+        conic-gradient(at 32% 50%, #0000 221.25deg, #5bcefa 222deg 318deg, #0000 318.25deg),
+        conic-gradient(at 41% 50%, #0000 221.25deg, #784F17 222deg 318deg, #0000 318.25deg),
+        conic-gradient(at 50% 50%, #0000 221.25deg, black 222deg 318deg, #0000 318.25deg),
+        linear-gradient(#e40303 0 16.66%, #ff8c00 0 33.33%, #ffed00 0 50%, #008026 0 66.66%, #004dff 0 83.33%, #750787 0);
+}
+
+.flag-progress-intersex {
+    background:
+        radial-gradient(circle at 9.75% 50%, #0000 6.66%, #7902aa 6.7% 8.33%, #0000 8.4%),
+        conic-gradient(at 26.66% 50%, #0000 222.75deg, #ffd800 0 317.25deg, #0000 0),
+        conic-gradient(at 33% 50%, #0000 222.75deg, #ffffff 0 317.25deg, #0000 0),
+        conic-gradient(at 39% 50%, #0000 222.75deg, #f5a9b8 0 317.25deg, #0000 0),
+        conic-gradient(at 45.66% 50%, #0000 222.75deg, #5bcefa 0 317.25deg, #0000 0),
+        conic-gradient(at 52% 50%, #0000 222.75deg, #753000 0 317.25deg, #0000 0),
+        conic-gradient(at 58.33% 50%, #0000 222.75deg, #000 0 317.25deg, #0000 0),
+        linear-gradient(#e40303 0 16.66%, #ff8c00 0 33.33%, #ffed00 0 50%, #008026 0 66.66%, #004dff 0 83.33%, #750787 0);
+}
+
+.flag-rainbow {
+	background: repeating-linear-gradient(
+		#e40303 0 16.67%,
+		#ff8c00 0 33.33%,
+		#ffed00 0 50%,
+		#008026 0 66.67%,
+		#004dff 0 83.33%,
+		#750787 0 100%
+	);
+}
+
+.flag-trans {
+	background: repeating-linear-gradient(
+		#5bcefa 0 20%,
+		#f5a9b8 0 40%,
+		#ffffff 0 60%,
+		#f5a9b8 0 80%,
+		#5bcefa 0 100%
+	);
+}

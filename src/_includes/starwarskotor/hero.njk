@@ -1,0 +1,45 @@
+{% extends "global/hero.njk" %}
+
+{% block heroImg %}
+    <picture>
+        <source srcset="/assets/starwarskotor/images/swkotor-header-320.png" media="(orientation: landscape)" />
+        <img src="/assets/starwarskotor/images/swkotor-header.jpg" alt="anner of Star Wars: Knights of the Old Republic Shrine" />
+    </picture>
+{% endblock %}
+
+{% block eventScript %}
+    if (todayEvent != "No event") {
+        heroTopBarEl.classList.remove('hidden');
+        heroTopBarEl.innerHTML = getBlurbHtml(todayEvent);
+    }
+
+    function getTodayEvent() {
+        const date = new Date();
+        const month = date.getMonth() + 1;
+        const day = date.getDate();
+
+        if (month == 7 && day == 16)
+            return "KotOR 1 Anniversary";
+        else if (month == 12 && day == 6)
+            return "KotOR 2 Anniversary";
+        else
+            return "No event";
+    }
+
+    function getBlurbHtml(day) {
+        switch (day) {
+            case "KotOR 1 Anniversary":
+                return `
+                    Today is the anniversary of the release of <cite>Star Wars: Knihgts of the Old Republic</cite>
+                `;
+                break;
+            case "KotOR 2 Anniversary":
+                return `
+                    Today is the anniversary of the release of <cite>Star Wars: Knights of the Old Republic II — The Sith Lords</cite>
+                `;
+                break;
+            default:
+                return ``;
+        }
+    }
+{% endblock %}

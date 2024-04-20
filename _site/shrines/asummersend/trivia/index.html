@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" id="page-top">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        
+    <meta property="og:title" content="Trivia | A Summer's End — Hong Kong 1986 Shrine">
+
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A collection of trivia about A Summer's End — Hong Kong 1986.">
+<meta name="generator" content="Eleventy v2.0.1">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://leilukin.neocities.org/shrines/asummersend/trivia/">
+<meta property="og:site_name" content="Leilukin's Hub">
+<meta property="og:locale" content="en_MY">
+<meta property="og:description" content="A collection of trivia about A Summer's End — Hong Kong 1986.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="https://leilukin.neocities.org/shrines/asummersend/trivia/">
+<meta name="twitter:description" content="A collection of trivia about A Summer's End — Hong Kong 1986.">
+<link rel="canonical" href="https://leilukin.neocities.org/shrines/asummersend/trivia/">
+
+
+        
+        <link rel="stylesheet" href="/assets/css/main.css">
+        
+    <link rel="stylesheet" href="/assets/css/asummersend.css">
+
+
+        
+        <link rel="stylesheet" href="/assets/fonts/noto-sans/noto-sans.css">
+
+        
+        <link href="/assets/fonts/fontawesome/css/fontawesome.css" rel="stylesheet" />
+        <link href="/assets/fonts/fontawesome/css/brands.css" rel="stylesheet" />
+        <link href="/assets/fonts/fontawesome/css/solid.css" rel="stylesheet" />
+
+        
+        
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/asummersend/images/ase-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/asummersend/images/ase-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/asummersend/images/ase-icon.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+
+
+        <title>
+            
+    Trivia | A Summer's End — Hong Kong 1986 Shrine | Leilukin's Hub
+
+        </title>
+    </head>
+    <body>
+        <header class="hero">
+    <div class="hero__top-bar hidden"></div>
+    <div class="hero__img">
+        
+    <picture>
+        <source srcset="/assets/asummersend/images/asummersend-header-320.png" media="(orientation: landscape)" />
+        <img src="/assets/asummersend/images/asummersend-header.png" alt="Banner of A Summer's End — Hong Kong 1986 Shrine" />
+    </picture>
+
+    </div>
+</header>
+
+<style>
+    .hero {
+        width: 100%;
+        background-color: var(--clr-hero-bg);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero__top-bar {
+        background-color: var(--clr-navbar-bg);
+        width: 100%;
+        padding: 0.5em 0;
+    }
+
+    .hero__img {
+        display: grid;
+        place-content: center;
+    }
+
+    .hero img {
+        object-fit: scale-down;
+        overflow: hidden;
+        filter: drop-shadow(0.1rem 0.1rem 0.2rem black);
+        max-height: 20rem;
+    }
+</style>
+
+<script defer>
+    const hero = document.querySelector(".hero");
+    const todayEvent = getTodayEvent();
+    const heroTopBarEl = document.querySelector(".hero__top-bar");
+    const headerImgEl = document.querySelector(".hero__img");
+
+    
+    if (todayEvent != "No event") {
+        heroTopBarEl.classList.remove('hidden');
+        heroTopBarEl.innerHTML = getBlurbHtml(todayEvent);
+    }
+
+    function getTodayEvent() {
+        const date = new Date();
+        const month = date.getMonth() + 1;
+        const day = date.getDate();
+
+        if (month == 2 && day == 16)
+            return "Michelle's Birthday";
+        else if (month == 4 && day == 23)
+            return "ASE Anniversary";
+        else if (month == 8 && day == 9)
+            return "Cecelia's Birthday";
+        else if (month == 12 && day == 28)
+            return "Sam's Birthday";
+        else
+            return "No event";
+    }
+
+    function getBlurbHtml(day) {
+        switch (day) {
+            case "Michelle's Birthday":
+                return `
+                    Today is Michelle Cheung's birthday. Happy Birthday Michelle!
+                `;
+                break;
+            case "ASE Anniversary":
+                return `
+                    Today is the anniversary of the release of <cite>A Summer’s End — Hong Kong 1986</cite>!
+                `;
+                break;
+            case "Cecelia's Birthday":
+                return `
+                    Today is Cecelia Cortes' birthday. Happy Birthday Cecelia!
+                `;
+                break;
+            case "Sam's Birthday":
+                return `
+                    Today is Sam Wong's birthday. Happy Birthday Sam!
+                `;
+                break;
+            default:
+                return ``;
+        }
+    }
+
+</script>
+        <nav class="navbar">
+    <ul class="nav__menu">
+        
+    
+    
+    
+    <li>
+        <a  href="/shrines/asummersend/">Shrine Home</a>
+    </li>
+        <li>
+            <a  href="/shrines/asummersend/playlists/">Playlists</a>
+        </li>
+        <li>
+            <a aria-current="page" href="/shrines/asummersend/trivia/">Trivia</a>
+        </li>
+        <li>
+            <a  href="/shrines/asummersend/gallery/">Gallery</a>
+        </li>
+    <li><a href="/shrines/">Shrine Index</a></li>
+    <li><a href="/">Main Site</a></li>
+
+    </ul>
+</nav>
+
+<style>
+    .navbar {
+        background: var(--clr-navbar-bg);
+        padding: 0 0.6rem;
+        width: 100%;
+        z-index: 999;
+        position: sticky;
+        top: 0;
+    }
+
+    .navbar a {
+        color: var(--clr-navbar-link);
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .navbar a:hover {
+        color: var(--clr-link-hover);
+    }
+
+    .navbar a:focus {
+        outline-offset: 0.3em;
+        outline: 0.15em solid var(--clr-navbar-link);
+    }
+
+    .nav__menu {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+</style>
+
+        <main>
+            <header class="main__header">
+    
+
+    
+        <h1>A Summer&#39;s End — Hong Kong 1986 Trivia</h1>
+        
+            <p>A collection of trivia about A Summer&#39;s End — Hong Kong 1986.</p>
+        
+    
+</header>
+
+<div class="content__wrapper">
+    
+        <aside class="left-sidebar">
+    <details class="toc__wrapper sidebar--sticky">
+        <summary class="toc__heading">
+            On This Page
+        </summary>
+        <nav class="toc">
+                <ol>
+                    
+                    <li><a href="#movies-and-music-references">Movies and Music References</a>
+            		</li>
+
+                    <li><a href="#character-trivia">Character Trivia</a>
+            
+                <ol>
+                    
+                    <li><a href="#chinese-names">Chinese Names</a>
+            		</li>
+
+                    <li><a href="#birthdays">Birthdays</a>
+            		</li>
+
+                    <li><a href="#zodiac-signs">Zodiac Signs</a>
+            		</li>
+
+                    <li><a href="#myers-briggs-type-indicator">Myers–Briggs Type Indicator</a>
+            		</li>
+
+                    <li><a href="#inspirations">Inspirations</a>
+            		</li>
+                </ol>
+            		</li>
+                </ol>
+            </nav>
+    </details>
+</aside>
+
+<style>
+    .toc__wrapper {
+        max-height: 89vh;
+        overflow: auto;
+        background-color: var(--clr-content-bg);
+        padding: 1rem 1.3rem;
+    }
+
+    .toc__heading {
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: var(--clr-sub-heading);
+        cursor: pointer;
+    }
+
+    .toc ol,
+    .toc ol ol {
+        display: grid;
+        gap: 0.3em;
+    }
+
+    .toc ol {
+        border-top: 0.1em solid var(--clr-title-border);
+        padding-left: 1.3em;
+        padding-top: 1em;
+    }
+
+    .toc ol ol {
+        border-top: none;
+        list-style-type: disc;
+        padding-left: 1em;
+        padding-top: 0.3em;
+    }
+
+    .toc ol a {
+        font-size: 1.1rem;
+        padding-left: 0.3em;
+    }
+
+    .toc ol ol a {
+        padding: 0;
+        font-size: 1rem;
+    }
+</style>
+
+    
+
+    
+		<div class="content ">
+			<p>Here is a collection of trivia about the characters from A Summer’s End provided by the developer Oracle and Bone on their social media pages, especially <a href="https://oracleandbone.tumblr.com/">Tumblr</a>.</p>
+<hr>
+<div class="heading-wrapper h2">
+<h2 id="movies-and-music-references">Movies and Music References</h2>
+<a class="heading-anchor" href="#movies-and-music-references" aria-labelledby="movies-and-music-references"><span hidden>#</span></a></div>
+<p>A Summer’s End contains many references to movies and music. This community post on Steam compiles a list of the movie and music references made in the game. Please be aware it contains spoilers!</p>
+<p><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2213828067">Movies and Music in A Summer's End – Hong Kong 1986</a></p>
+<hr>
+<div class="heading-wrapper h2">
+<h2 id="character-trivia">Character Trivia</h2>
+<a class="heading-anchor" href="#character-trivia" aria-labelledby="character-trivia"><span hidden>#</span></a></div>
+<div class="heading-wrapper h3">
+<h3 id="chinese-names">Chinese Names</h3>
+<a class="heading-anchor" href="#chinese-names" aria-labelledby="chinese-names"><span hidden>#</span></a></div>
+<p>Michelle Cheung's Chinese name is 張鳳霞, while Sam Wong's Chinese name is 黃嘉欣. Oracle and Bone had commented on their idea behind the characters' Chinese names on <a href="https://oracleandbone.tumblr.com/post/625313027310436352/hi-im-curious-how-you-came-up-with-sam-and">this Tumblr post</a>:</p>
+<blockquote>
+<p>A part of how we came up with their names was by referencing names of Hong Kong film actresses from their time period as a little homage to them. We also thought of how their names might reflect their upbringing. For example, despite Michelle being younger than Sam, she has a more old fashioned sounding Chinese name. The meaning of their Chinese names was also important to us. We particularly wanted Michelle’s name to have metaphoric meaning that reflected her story as well as the themes of the game.</p>
+</blockquote>
+<div class="heading-wrapper h3">
+<h3 id="birthdays">Birthdays</h3>
+<a class="heading-anchor" href="#birthdays" aria-labelledby="birthdays"><span hidden>#</span></a></div>
+<ul>
+<li>Michelle: February 16 <a href="https://oracleandbone.tumblr.com/post/643241885438197760/spring-day-february-16-is-michelles-birthday">[Source]</a></li>
+<li>Sam: December 28 <a href="https://oracleandbone.tumblr.com/post/638707575113891840/hit-rewind-december-28-is-sams-birthday-happy">[Source]</a></li>
+<li>Cecelia: August 9 <a href="https://oracleandbone.tumblr.com/post/625985188093214720/%E9%BB%91%E5%A4%9C%E7%9A%84%E8%B1%B9-night-leopard-august-9-is-cecilias-birthday">[Source]</a></li>
+</ul>
+<div class="heading-wrapper h3">
+<h3 id="zodiac-signs">Zodiac Signs</h3>
+<a class="heading-anchor" href="#zodiac-signs" aria-labelledby="zodiac-signs"><span hidden>#</span></a></div>
+<ul>
+<li>Michelle: Aquarius <a href="https://oracleandbone.tumblr.com/post/616522957953679360/hey-what-zodiac-signs-are-sam-michelle">[Source]</a></li>
+<li>Sam: Capricorn <a href="https://oracleandbone.tumblr.com/post/616522957953679360/hey-what-zodiac-signs-are-sam-michelle">[Source]</a></li>
+<li>Cecilia: Leo <a href="https://oracleandbone.tumblr.com/post/616522957953679360/hey-what-zodiac-signs-are-sam-michelle">[Source]</a></li>
+<li>Joey: Cancer <a href="https://oracleandbone.tumblr.com/post/616711590970081280/hey-its-the-anon-that-asked-about-the-zodiac">[Source]</a></li>
+</ul>
+<div class="heading-wrapper h3">
+<h3 id="myers-briggs-type-indicator">Myers–Briggs Type Indicator</h3>
+<a class="heading-anchor" href="#myers-briggs-type-indicator" aria-labelledby="myers-briggs-type-indicator"><span hidden>#</span></a></div>
+<ul>
+<li>Michelle: ISTJ <a href="https://oracleandbone.tumblr.com/post/622234880967950336/hey-first-of-all-i-just-wanted-to-say-i-adore-a">[Source]</a></li>
+<li>Sam: ESFP <a href="https://oracleandbone.tumblr.com/post/622234880967950336/hey-first-of-all-i-just-wanted-to-say-i-adore-a">[Source]</a></li>
+<li>Cecelia: ESTJ <a href="https://oracleandbone.tumblr.com/post/622234880967950336/hey-first-of-all-i-just-wanted-to-say-i-adore-a">[Source]</a></li>
+</ul>
+<div class="heading-wrapper h3">
+<h3 id="inspirations">Inspirations</h3>
+<a class="heading-anchor" href="#inspirations" aria-labelledby="inspirations"><span hidden>#</span></a></div>
+<ul>
+<li>The character and fashion of Cecelia has been largely inspired by Anita Mui. <a href="https://oracleandbone.tumblr.com/post/659052064213696512/%E7%83%88%E7%84%B0%E7%B4%85%E5%94%87-august-9-is-cecilias-birthday-happy">[Source]</a></li>
+</ul>
+
+		</div>
+    
+
+    
+
+    <aside class="right-sidebar">
+    <div class="shrine__info sidebar--sticky">
+        <h2>About</h2>
+        
+    <p>Welcome to Leilukin's shrine for <cite>A Summer’s End — Hong Kong 1986</cite>, an indie visual novel developed by Oracle and Bone. Set in 1980s Hong Kong, it tells of a love story between two women.</p>
+
+        <h3>Links</h3>
+        <ul>
+            
+    <li><a href="https://www.asummersend.com/" target="_blank">Official Website</a>
+    </li>
+    <li><a href="https://store.steampowered.com/app/1111370/A_Summers_End__Hong_Kong_1986/" target="_blank">Steam</a></li>
+    <li><a href="https://oracleandbone.itch.io/a-summers-end" target="_blank">itch.io</a></li>
+
+        </ul>
+    </div>
+</aside>
+
+<style>
+    .right-sidebar {
+        background-color: var(--clr-content-bg);
+        font-size: clamp(0.9rem, 0.9rem + 3vw, 1rem);
+    }
+
+    .shrine__info {
+        padding: 1rem;
+    }
+
+    .shrine__info h2 {
+        font-size: clamp(1.5rem, 1rem + 3vw, 1.7rem);
+        margin-bottom: 0.2em;
+    }
+
+    .shrine__info h3 {
+        font-size: clamp(1.3rem, 1rem + 3vw, 1.5rem);
+        margin-top: 1em;
+    }
+
+    .shrine__info ul {
+        margin-top: 0.5em;
+    }
+</style>
+</div>
+
+<style>
+    .breadcrumbs {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 0.7em 0;
+        display: flex;
+        gap: 0.5em;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+</style>
+        </main>
+        <footer class="footer">
+    
+    <p>Made with ♥ by Leilukin | Shrine Launched: 16 February 2023</p>
+    <p>Back to: <a href="/shrines/">Shrine Index</a> | <a href="/">Leilukin&#39;s Hub</a></p>
+
+</footer>
+
+<style>
+    .footer {
+        margin-top: auto;
+        background: var(--clr-main-footer-bg);
+        padding: 0.8rem;
+        text-align: center;
+        display: grid;
+    }
+
+    .footer p {
+        padding: 0;
+    }
+
+    .footer__links {
+        justify-self: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 0.7em;
+    }
+
+    @media only screen and (min-width: 600px) {
+        .footer {
+            width: 100%;
+        }
+    }
+</style>
+        <button class="top-btn hidden">
+    <img src="/assets/images/elements/chevron-up.svg" alt="Scroll to top">
+</button>
+
+<style>
+    .top-btn {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        z-index: 999;
+        border: none;
+        background-color: var(--clr-top-btn);
+        border-radius: 50em;
+        padding: 0.3em;
+    }
+
+    .top-btn:focus {
+        outline: 0.25em solid var(--clr-top-btn);
+        outline-offset: 0.15em;
+    }
+
+    .top-btn img {
+        width: 1.5rem;
+        aspect-ratio: 1 / 1;
+    }
+</style>
+
+<script defer>
+    const topButton = document.querySelector(".top-btn");
+
+    window.onscroll = () => {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            topButton.classList.remove("hidden");
+        } else {
+            topButton.classList.add("hidden");
+        }
+    }
+
+    topButton.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: "smooth",
+        });
+    });
+</script>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+{
+    "tags": ["articles", "contents", "feed items"],
+    "layout": "main/content",
+    "isArticle": true,
+    "eleventyComputed": {
+        "title": "{{ articleTitle }} | Articles",
+        "eleventyNavigation": {
+            "key": "{{ articleTitle }}",
+            "parent": "Articles"
+        }
+    }
+}

@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" id="page-top">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        
+            <meta property="og:title" content="Website Changelog Archive: 2022">
+        
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Changelog of my website during the year of 2022.">
+<meta name="generator" content="Eleventy v2.0.1">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://leilukin.neocities.org/changelogs/2022/">
+<meta property="og:site_name" content="Leilukin's Hub">
+<meta property="og:locale" content="en_MY">
+<meta property="og:description" content="Changelog of my website during the year of 2022.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="https://leilukin.neocities.org/changelogs/2022/">
+<meta name="twitter:description" content="Changelog of my website during the year of 2022.">
+<link rel="canonical" href="https://leilukin.neocities.org/changelogs/2022/">
+
+
+        
+        <link rel="stylesheet" href="/assets/css/main.css">
+        
+
+        
+        <link rel="stylesheet" href="/assets/fonts/noto-sans/noto-sans.css">
+
+        
+        <link href="/assets/fonts/fontawesome/css/fontawesome.css" rel="stylesheet" />
+        <link href="/assets/fonts/fontawesome/css/brands.css" rel="stylesheet" />
+        <link href="/assets/fonts/fontawesome/css/solid.css" rel="stylesheet" />
+
+        
+        
+            <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+            <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+            <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+            <link rel="manifest" href="/assets/favicon/site.webmanifest">
+        
+
+        <title>
+            Website Changelog Archive: 2022 | Leilukin's Hub
+        </title>
+    </head>
+    <body>
+        <header class="hero">
+    <div class="hero__top-bar hidden"></div>
+    <div class="hero__img">
+        
+    <img src="/assets/leilukin/Leilukins-Hub-website-banner.png" alt="Banner of Leilukin's Hub">
+
+    </div>
+</header>
+
+<style>
+    .hero {
+        width: 100%;
+        background-color: var(--clr-hero-bg);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero__top-bar {
+        background-color: var(--clr-navbar-bg);
+        width: 100%;
+        padding: 0.5em 0;
+    }
+
+    .hero__img {
+        display: grid;
+        place-content: center;
+    }
+
+    .hero img {
+        object-fit: scale-down;
+        overflow: hidden;
+        filter: drop-shadow(0.1rem 0.1rem 0.2rem black);
+        max-height: 20rem;
+    }
+</style>
+
+<script defer>
+    const hero = document.querySelector(".hero");
+    const todayEvent = getTodayEvent();
+    const heroTopBarEl = document.querySelector(".hero__top-bar");
+    const headerImgEl = document.querySelector(".hero__img");
+
+    
+    if (todayEvent != "No event") {
+        heroTopBarEl.classList.remove('hidden');
+
+        if (todayEvent == "Leilukin's Birthday" || todayEvent == "Leilukin's Hub Anniversary") {
+            heroTopBarEl.innerHTML = getBlurbHtml(todayEvent);
+        } else {
+            headerImgEl.classList.add(getBanner(todayEvent));
+            heroTopBarEl.innerHTML = getBlurbHtml(todayEvent);
+        }
+    }
+
+    function getTodayEvent() {
+        const date = new Date();
+        const month = date.getMonth() + 1;
+        const day = date.getDate();
+
+        if (month == 3 && day == 1)
+            return "Zero Discrimination Day";
+        else if (month == 3 && day == 31)
+            return "Trans Day of Visibility";
+        else if (month == 4 && day == 6)
+            return "International Asexuality Day";
+        else if (month == 4 && day == 26)
+            return "Lesbian Visibility Day";
+        else if (month == 5 && day == 17)
+            return "IDAHOBIT";
+        else if (month == 5 && day == 19)
+            return "Agender Pride Day";
+        else if (month == 5 && day == 25)
+            return "Pansexual and Panromantic Awareness & Visibility Day";
+        else if (month == 6)
+            return "Pride Month";
+        else if (month == 7 && day == 14)
+            return "Non-Binary People's Day";
+        else if (month == 7 && day == 28)
+            return "Leilukin's Birthday";
+        else if (month == 9 && day == 11)
+            return "Leilukin's Hub Anniversary";
+        else if (month == 9 && day == 23)
+            return "Bi Visibility Day";
+        else if (month == 10 && day == 8)
+            return "International Lesbian Day";
+        else if (month == 10 && day == 11)
+            return "National Coming Out Day";
+        else if (month == 10 && day == 26)
+            return "Intersex Awareness Day";
+        else
+            return "No event";
+    }
+
+    function getBanner(day) {
+        switch (day) {
+            case "Zero Discrimination Day":
+                return "flag-progress-intersex";
+                break;
+            case "Trans Day of Visibility":
+                return "flag-trans";
+                break;
+            case "International Asexuality Day":
+                return "flag-ace";
+                break;
+            case "Lesbian Visibility Day":
+                return "flag-lesbian";
+                break;
+            case "IDAHOBIT":
+                return "flag-progress";
+                break;
+            case "Agender Pride Day":
+                return "flag-agender";
+                break;
+            case "Pansexual and Panromantic Awareness & Visibility Day":
+                return "flag-pan";
+                break;
+            case "Pride Month":
+                return "flag-progress-intersex";
+                break;
+            case "Non-Binary People's Day":
+                return "flag-non-binary";
+                break;
+            case "Bi Visibility Day":
+                return "flag-bi";
+                break;
+            case "International Lesbian Day":
+                return "flag-lesbian";
+                break;
+            case "National Coming Out Day":
+                return "flag-rainbow";
+                break;
+            case "Intersex Awareness Day":
+                return "flag-intersex";
+                break;
+            default:
+                return "";
+        }
+    }
+
+    function getBlurbHtml(day) {
+        switch (day) {
+            case "Zero Discrimination Day":
+                return `
+                    Today is <a href="https://www.unaids.org/en/zero-discrimination-day" target="_blank">Zero Discrimination Day</a>
+                `;
+                break;
+            case "Trans Day of Visibility":
+                return `
+                    Today is <a href="https://www.manygendersonevoice.org/tdov.html" target="_blank">Trans Day of Visibility</a>
+                `;
+                break;
+            case "International Asexuality Day":
+                return `
+                    Today is <a href="https://internationalasexualityday.org/en" target="_blank">International Asexuality Day</a>
+                `;
+                break;
+            case "Lesbian Visibility Day":
+                return `
+                    Today is <a href="https://www.lesbianvisibilityweek.com" target="_blank">Lesbian Visibility Day</a>
+                `;
+                break;
+            case "IDAHOBIT":
+                return `
+                    Today is <a href="https://may17.org" target="_blank">International Day Against Homophobia, Biphobia and Transphobia</a></span>
+                `;
+                break;
+            case "Agender Pride Day":
+                return `
+                    Today is <a href="https://www.believeoutloud.com/voices/article/agender-pride-day/" target="_blank">Agender Pride Day</a></span>
+                `;
+                break;
+            case "Pansexual and Panromantic Awareness & Visibility Day":
+                return `
+                    Today is <a href="https://genderedintelligence.co.uk/panvisibilityday" target="_blank">Pansexual and Panromantic Visibility Day</a>
+                `;
+                break;
+            case "Pride Month":
+                return `
+                    Happy <a href="https://www.loc.gov/lgbt-pride-month/about/" target="_blank">Pride Month</a>!
+                `;
+                break;
+            case "Non-Binary People's Day":
+                return `
+                    Today is <a href="https://www.manygendersonevoice.org/non-binary-peoples-day.html" target="_blank">Non-Binary People's Day</a>
+                `;
+                break;
+            case "Leilukin's Birthday":
+                return `
+                    Today is Leilukin's birthday
+                `;
+                break;
+            case "Leilukin's Hub Anniversary":
+                return `
+                    Today is the anniversary of the launch of Leilukin's Hub
+                `;
+                break;
+            case "Bi Visibility Day":
+                return `
+                    Today is <a href="https://bivisibilityday.com/about" target="_blank">Bi Visibility Day</a>
+                `;
+                break;
+            case "International Lesbian Day":
+                return `
+                    Today is <a href="https://www.lgbtiqhealth.org.au/international_lesbian_day2" target="_blank">International Lesbian Day</a>
+                `;
+                break;
+            case "National Coming Out Day":
+                return `
+                    Today is <a href="https://www.hrc.org/resources/national-coming-out-day" target="_blank">National Coming Out Day</a>
+                `;
+                break;
+            case "Intersex Awareness Day":
+                return `
+                    Today is <a href="https://interactadvocates.org/intersex-awareness-day" target="_blank">Intersex Awareness Day</a>
+                `;
+                break;
+            default:
+                return ``;
+        }
+    }
+
+</script>
+        <nav class="navbar">
+    <ul class="nav__menu">
+        
+    
+    
+        <li>
+            <a  href="/">
+                Home
+            </a>
+        </li>
+        <li>
+            <a  href="/about/">
+                About
+            </a>
+        </li>
+        <li>
+            <a  href="/now/">
+                Now
+            </a>
+        </li>
+        <li>
+            <a  href="/blog/">
+                Blog
+            </a>
+        </li>
+        <li>
+            <a  href="/articles/">
+                Articles
+            </a>
+        </li>
+        <li>
+            <a  href="/projects/">
+                Projects
+            </a>
+        </li>
+        <li>
+            <a  href="/shrines/">
+                Shrines
+            </a>
+        </li>
+        <li>
+            <a  href="/links/">
+                Links
+            </a>
+        </li>
+    <li><a href="https://leilukin.123guestbook.com/">Guestbook</a></li>
+
+    </ul>
+</nav>
+
+<style>
+    .navbar {
+        background: var(--clr-navbar-bg);
+        padding: 0 0.6rem;
+        width: 100%;
+        z-index: 999;
+        position: sticky;
+        top: 0;
+    }
+
+    .navbar a {
+        color: var(--clr-navbar-link);
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .navbar a:hover {
+        color: var(--clr-link-hover);
+    }
+
+    .navbar a:focus {
+        outline-offset: 0.3em;
+        outline: 0.15em solid var(--clr-navbar-link);
+    }
+
+    .nav__menu {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+</style>
+
+        <main>
+            <header class="main__header">
+    
+
+    
+        <h1>Website Changelog Archive: 2022</h1>
+        
+            <p>Changelog of my website during the year of 2022.</p>
+        
+    
+</header>
+
+<div class="content__wrapper">
+    
+
+    
+		<div class="content ">
+			
+
+
+<nav class="changelog__nav">
+    <p class="changelog__nav--title">Changelog Archive:</p>
+    <ul class="changelog__nav--links">
+        <li>
+            <a  href="/changelogs">Latest</a>
+        </li>
+        |
+        
+            <li>
+                <a  href="/changelogs/2024/">2024</a>
+            </li>
+            |
+            <li>
+                <a  href="/changelogs/2023/">2023</a>
+            </li>
+            |
+            <li>
+                <a aria-current="page" href="/changelogs/2022/">2022</a>
+            </li>
+            |
+            <li>
+                <a  href="/changelogs/layouts/">Website Layouts</a>
+            </li>
+            
+    </ul>
+</nav>
+
+<p>To get notified of the updates on this website, you can subscribe to the <a href="/feed.xml" target="blank">Leilukin's Hub RSS feed</a>, which contains new articles, blog posts and website changelogs, or follow <a href="https://neocities.org/site/leilukin" target="_blank">my Neocities profile</a>.</p>
+<div class="web-btn-wrapper center-el" style="margin-top: 0.7em;">
+    <a href="/feed.xml" target="blank" title="Leilukin's Hub RSS Feed">
+        <img src="/assets/buttons/rss-button.gif" alt="RSS feed button">
+    </a>
+</div>
+
+
+
+<article>
+    
+        <div class="heading-wrapper h2">
+            <h2 id="2022-12-29">29 December 2022</h2>
+            <a class="heading-anchor" href="#2022-12-29" aria-labelledby="2022-12-29"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Added my latest mod, KotOR 1 Twi'lek Male NPC Diversity, to <a href="/projects/kotor1mods">my mods for Star Wars: Knights of the Old Republic</a> page.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2022-12-19">19 December 2022</h2>
+            <a class="heading-anchor" href="#2022-12-19" aria-labelledby="2022-12-19"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Added new resource, Star Wars: Knights of the Old Republic save files, to <a href="/resources">my resources</a> page: KotOR 2 Light Side Female Saves with The Sith Lords Restored Content Mod and PartySwap.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2022-12-16">16 December 2022</h2>
+            <a class="heading-anchor" href="#2022-12-16" aria-labelledby="2022-12-16"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Added my latest mods, Exile's Trial Overlay Removal and Visas Visible Jedi Robes, to <a href="/projects/kotor2mods">my mods for Star Wars: Knights of the Old Republic II: The Sith Lords</a> page.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2022-12-11">11 December 2022</h2>
+            <a class="heading-anchor" href="#2022-12-11" aria-labelledby="2022-12-11"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>For my <a href="/projects/kotor1mods">mod page for Star Wars: Knights of the Old Republic</a>, No Flirting with Davik's Slaves has been updated and renamed to PC Dialogue with Davik's Slaves Change.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2022-12-08">8 December 2022</h2>
+            <a class="heading-anchor" href="#2022-12-08" aria-labelledby="2022-12-08"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Added my latest mod, No Flirting with Davik's Slaves, to <a href="/projects/kotor1mods">my mods for Star Wars: Knights of the Old Republic</a> page.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2022-11-27">27 November 2022</h2>
+            <a class="heading-anchor" href="#2022-11-27" aria-labelledby="2022-11-27"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Added my latest mod, Prologue Item Recovery, to <a href="/projects/kotor2mods">my mods for Star Wars: Knights of the Old Republic II: The Sith Lords</a> page.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2022-11-24">24 November 2022</h2>
+            <a class="heading-anchor" href="#2022-11-24" aria-labelledby="2022-11-24"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Added my latest mod, Bastila and Carth Romance Removal, to <a href="/projects/kotor1mods">my mods for Star Wars: Knights of the Old Republic</a> page.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2022-11-22">22 November 2022</h2>
+            <a class="heading-anchor" href="#2022-11-22" aria-labelledby="2022-11-22"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Added my latest mod, No Jealousy Lock in Handmaiden Dialogue, to <a href="/projects/kotor2mods">my mods for Star Wars: Knights of the Old Republic II: The Sith Lords</a> page.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2022-11-16">16 November 2022</h2>
+            <a class="heading-anchor" href="#2022-11-16" aria-labelledby="2022-11-16"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Added my latest mod, Lonna Vash Mod for TSLRCM, to <a href="/projects/kotor2mods">my mods for Star Wars: Knights of the Old Republic II: The Sith Lords</a> page.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2022-11-12">12 November 2022</h2>
+            <a class="heading-anchor" href="#2022-11-12" aria-labelledby="2022-11-12"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Added my latest mod, Dahnis Unique Look, to <a href="/projects/kotor2mods">my mods for Star Wars: Knights of the Old Republic II: The Sith Lords</a> page.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2022-11-09">9 November 2022</h2>
+            <a class="heading-anchor" href="#2022-11-09" aria-labelledby="2022-11-09"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Added my latest mod, TSL Workbench Lightsaber Creation, to <a href="/mycreations/kotor2mods">my mods for Star Wars: Knights of the Old Republic II: The Sith Lords</a> page.</li>
+<li>Rearrange the mod catogeries on <a href="/mycreations/kotor2mods">my mod page for Star Wars: Knights of the Old Republic II: The Sith Lords</a>.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2022-10-23">23 October 2022</h2>
+            <a class="heading-anchor" href="#2022-10-23" aria-labelledby="2022-10-23"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Added my latest mod, Trask Ulgo Without Tutorials, to <a href="/projects/kotor1mods">my mods for Star Wars: Knights of the Old Republic</a> page.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2022-10-22">22 October 2022</h2>
+            <a class="heading-anchor" href="#2022-10-22" aria-labelledby="2022-10-22"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Added my latest mod, KotOR 1 Twi'lek Female NPC Diversity, to <a href="/projects/kotor1mods">my mods for Star Wars: Knights of the Old Republic</a> page.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2022-10-17">17 October 2022</h2>
+            <a class="heading-anchor" href="#2022-10-17" aria-labelledby="2022-10-17"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Added new resource, Star Wars: Knights of the Old Republic save files, to <a href="/resources">my resources</a> page: Light Side Female Saves with KOTOR 1 Community Patch and All Romances.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2022-10-16">16 October 2022</h2>
+            <a class="heading-anchor" href="#2022-10-16" aria-labelledby="2022-10-16"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Added my latest mod, KotOR 1 No Gendered Dialogue from Male NPCs, to <a href="/projects/kotor1mods">my mods for Star Wars: Knights of the Old Republic</a> page.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2022-10-11">11 October 2022</h2>
+            <a class="heading-anchor" href="#2022-10-11" aria-labelledby="2022-10-11"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Added my latest mod, Juhani Dialogue Restoration, to <a href="/projects/kotor1mods">my mods for Star Wars: Knights of the Old Republic</a> page.</li>
+<li>Added new article about Star Wars: Knights of the Old Republic: <a href="/shrines/starwarskotor/articles/juhani-hostility-towards-canderous">How to Access Juhani's Conversaion about Canderous without Restoration Mods</a></li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2022-10-06">6 October 2022</h2>
+            <a class="heading-anchor" href="#2022-10-06" aria-labelledby="2022-10-06"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Added the <a href="https://ogp.me/">Open Graph protocol</a> on each page.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2022-10-05">5 October 2022</h2>
+            <a class="heading-anchor" href="#2022-10-05" aria-labelledby="2022-10-05"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Added navigation links bar under the websit banner on each page.</li>
+<li>Added new article about Star Wars: Knights of the Old Republic II: The Sith Lords: <a href="/shrines/starwarskotor/articles/handmaiden-sisters-mother">Where is the Mother of the Handmaiden’s Sisters?</a>.</li>
+<li>Added resource: <a href="/shrines/starwarskotor/resources/kotor2-female-exile-recruit-handmaiden-mods">List of Star Wars: Knights of the Old Republic II: The Sith Lords Mods that Allow Female Exiles to Recruit the Handmaiden as a Party Member</a></li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2022-10-04">4 October 2022</h2>
+            <a class="heading-anchor" href="#2022-10-04" aria-labelledby="2022-10-04"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Added download links to <a href="https://www.dropbox.com/s/ilntlihyaabthzg/Love%20Between%20Brianna%20And%20The%20Exile%20-%20TSLRCM%20version.zip?dl=0">Love Between Brianna and the Exile - The Sith Lords Restored Content Mod Version</a> and <a href="https://www.dropbox.com/s/af3h6y793f3zjxq/Remote%20Tells%20Influence%20Patch%20for%20TSLRCM.zip?dl=0">Remote Tells Influence Patch for The Sith Lords Restored Content Mod</a> on my <a href="/projects/kotor2mods">KotOR 2 mods</a> page.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2022-10-03">3 October 2022</h2>
+            <a class="heading-anchor" href="#2022-10-03" aria-labelledby="2022-10-03"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Added banner images for each of my <a href="/projects/kotor1mods">KotOR 1 mods</a> and <a href="/projects/kotor2mods">KotOR 2 mods</a>.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2022-10-01">1 October 2022</h2>
+            <a class="heading-anchor" href="#2022-10-01" aria-labelledby="2022-10-01"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Added article: <a href="/shrines/swkotor/articles/arren-kae-kreia-theory">Why I Personally Do Not Subscribe to the “Arren Kae is Kreia” Theory</a>.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2022-09-30">30 September 2022</h2>
+            <a class="heading-anchor" href="#2022-09-30" aria-labelledby="2022-09-30"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Adjusted the codes for the <a href="/articles">Articles</a> and <a href="/featured">Featured</a> pages.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2022-09-25">25 September 2022</h2>
+            <a class="heading-anchor" href="#2022-09-25" aria-labelledby="2022-09-25"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Added a button to <a href="https://www.buymeacoffee.com/leilukin">my Buy Me a Coffee page</a> on the home page and About page.</li>
+<li>The top banner on each page is now linked to the home page.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2022-09-20">20 September 2022</h2>
+            <a class="heading-anchor" href="#2022-09-20" aria-labelledby="2022-09-20"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Website banner created and placed on the top each page.</li>
+<li>Rearrange the buttons on the main page.</li>
+<li>Created indivisual sub-pages for the pieces shared on the <a href="/featured">Featured page</a>.</li>
+<li>Added information about the playlists on the <a href="/playlists">Playlists page</a>.</li>
+<li>Added a page for <a href="/shrines/starwarskotor/resources/kotor-same-gender-romance-mods">same-gender romance mods for Star Wars: Knights of the Old Republic series.</a></li>
+<li>Added table of contents for some pages.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2022-09-16">16 September 2022</h2>
+            <a class="heading-anchor" href="#2022-09-16" aria-labelledby="2022-09-16"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Adjusted the font size, line and paragraph spacing of the website to make it easier to read and more responsive.</li>
+<li>Redesigned the buttons on the website.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2022-09-12">12 September 2022</h2>
+            <a class="heading-anchor" href="#2022-09-12" aria-labelledby="2022-09-12"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Created a page for <a href="/shrines/starwarskotor/resources/tslrcm-m478ep-modules-music">The Sith Lords Restored Content Mod + M4-78 Enhancement Project Modules, Warp Codes &amp; Music Overview</a>.</li>
+<li>Modified the HTML and CSS codes of the entire website to make the website more accessible.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2022-09-11">11 September 2022</h2>
+            <a class="heading-anchor" href="#2022-09-11" aria-labelledby="2022-09-11"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Website launch.</li>
+</ul>
+
+</article>
+
+<style>
+    .heading-wrapper + ul {
+        margin: 0.3em 0 3em 0;
+    }
+</style>
+
+
+<style>
+    .changelog__nav,
+    .changelog__nav--links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .changelog__nav {
+        flex-direction: column;
+        gap: 0.2em;
+        align-self: center;
+        font-weight: 600;
+        gap: 0.5em;
+    }
+
+    .changelog__nav--links {
+        margin: 0;
+        padding: 0;
+        line-height: 1.1;
+    }
+
+    .changelog__nav--links {
+        list-style: none;
+        gap: 0.5em;
+    }
+
+    .changelog__nav--links li {
+        text-align: center;
+        align-self: center;
+    }
+
+    .changelog__nav--links [aria-current="page"] {
+        text-decoration: none;
+        color: var(--clr-bold-txt);
+    }
+
+    @media (min-width: 640px) {
+        .changelog__nav {
+            flex-direction: row;
+            gap: 1em;
+        }
+    }
+</style>
+		</div>
+    
+
+    
+
+    
+</div>
+
+<style>
+    .breadcrumbs {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 0.7em 0;
+        display: flex;
+        gap: 0.5em;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+</style>
+        </main>
+        <footer class="footer">
+    
+    <p>Made with ♥ by Leilukin since <time>11 September 2022</time></p>
+
+    
+    <ul class="footer__links">
+        <li>
+            <a  href="/sitemap/">Site Map</a>
+        </li>
+        |
+        <li>
+            <a  href="/changelogs/">Changelogs</a>
+        </li>
+        |
+        <li><a href="/feed.xml">RSS</a></li>
+    </ul>
+
+</footer>
+
+<style>
+    .footer {
+        margin-top: auto;
+        background: var(--clr-main-footer-bg);
+        padding: 0.8rem;
+        text-align: center;
+        display: grid;
+    }
+
+    .footer p {
+        padding: 0;
+    }
+
+    .footer__links {
+        justify-self: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 0.7em;
+    }
+
+    @media only screen and (min-width: 600px) {
+        .footer {
+            width: 100%;
+        }
+    }
+</style>
+        <button class="top-btn hidden">
+    <img src="/assets/images/elements/chevron-up.svg" alt="Scroll to top">
+</button>
+
+<style>
+    .top-btn {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        z-index: 999;
+        border: none;
+        background-color: var(--clr-top-btn);
+        border-radius: 50em;
+        padding: 0.3em;
+    }
+
+    .top-btn:focus {
+        outline: 0.25em solid var(--clr-top-btn);
+        outline-offset: 0.15em;
+    }
+
+    .top-btn img {
+        width: 1.5rem;
+        aspect-ratio: 1 / 1;
+    }
+</style>
+
+<script defer>
+    const topButton = document.querySelector(".top-btn");
+
+    window.onscroll = () => {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            topButton.classList.remove("hidden");
+        } else {
+            topButton.classList.add("hidden");
+        }
+    }
+
+    topButton.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: "smooth",
+        });
+    });
+</script>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+<aside class="right-sidebar">
+    <div class="shrine__info sidebar--sticky">
+        <h2>About</h2>
+        {% block shrineAbout %}
+            {{ shrineAbout }}
+        {% endblock %}
+        <h3>Links</h3>
+        <ul>
+            {% block shrineLinks %}
+                {{ shrineLinks }}
+            {% endblock %}
+        </ul>
+    </div>
+</aside>
+
+<style>
+    .right-sidebar {
+        background-color: var(--clr-content-bg);
+        font-size: clamp(0.9rem, 0.9rem + 3vw, 1rem);
+    }
+
+    .shrine__info {
+        padding: 1rem;
+    }
+
+    .shrine__info h2 {
+        font-size: clamp(1.5rem, 1rem + 3vw, 1.7rem);
+        margin-bottom: 0.2em;
+    }
+
+    .shrine__info h3 {
+        font-size: clamp(1.3rem, 1rem + 3vw, 1.5rem);
+        margin-top: 1em;
+    }
+
+    .shrine__info ul {
+        margin-top: 0.5em;
+    }
+</style>

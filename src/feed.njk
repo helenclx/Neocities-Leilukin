@@ -1,0 +1,28 @@
+---
+# sitemeta comes from _data/sitemeta.js
+permalink: /feed.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>{{ sitemeta.siteName }}</title>
+    <subtitle>{{ sitemeta.siteDescription }}</subtitle>
+    <link href="{{ sitemeta.siteUrl + permalink }}" rel="self"/>
+    <link href="{{ sitemeta.siteUrl }}"/>
+    <updated>{{ collections.feedItems | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+    <id>{{ sitemeta.siteUrl }}</id>
+    <author>
+        <name>{{ sitemeta.siteAuthor.name }}</name>
+        <email>{{ sitemeta.siteAuthor.email }}</email>
+    </author>
+    {%- for item in collections["feed items"] | reverse %}
+        {% set absolutePostUrl %}{{ item.url | url | absoluteUrl(sitemeta.siteUrl) }}{% endset %}
+        <entry>
+            <title>{{ item.data.title }}</title>
+            <link href="{{ absolutePostUrl }}"/>
+            <updated>{{ item.date | dateToRfc3339 }}</updated>
+            <id>{{ absolutePostUrl }}</id>
+            <content type="html">{{ item.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+        </entry>
+    {%- endfor %}
+</feed>

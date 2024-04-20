@@ -1,0 +1,10 @@
+{
+    "tags": "project pages",
+    "hasBreadcrumbs": true,
+    "eleventyComputed": {
+        "eleventyNavigation": {
+            "key": "{{ title }}",
+            "parent": "Projects"
+        }
+    }
+}

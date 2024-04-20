@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        {# Meta data #}
+        <meta property="og:title" content="{% if title %}{{ title }}{% else %}{{ sitemeta.siteName }}{% endif %}">
+        {% include "global/metagen.njk" %}
+
+        {# CSS #}
+        <link rel="stylesheet" href="{{'/assets/css/misc.css' | url | safe}}">
+        <link rel="stylesheet" href="{{'/assets/fonts/noto-sans/noto-sans.css' | url | safe}}">
+
+
+        {# Favicon #}
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/assets/favicon/site.webmanifest">
+
+        <title>{% if title %} {{ title }} | {% endif %} {{ sitemeta.siteName }}</title>
+    </head>
+    <body>
+        <main>
+            <img src="/assets/leilukin/Leilukins-Hub-website-banner.png" alt="{{ sitemeta.siteName }} website banner">
+            <h1>{{ h1 }}</h1>
+
+            {{ content | safe }}
+        </main>
+    </body>
+</html>

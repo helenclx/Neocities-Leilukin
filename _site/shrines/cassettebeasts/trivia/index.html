@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" id="page-top">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        
+    <meta property="og:title" content="Featured | Cassette Beasts Shrine">
+
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="A collection of trivia about Cassette Beasts.">
+<meta name="generator" content="Eleventy v2.0.1">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://leilukin.neocities.org/shrines/cassettebeasts/trivia/">
+<meta property="og:site_name" content="Leilukin's Hub">
+<meta property="og:locale" content="en_MY">
+<meta property="og:description" content="A collection of trivia about Cassette Beasts.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="https://leilukin.neocities.org/shrines/cassettebeasts/trivia/">
+<meta name="twitter:description" content="A collection of trivia about Cassette Beasts.">
+<link rel="canonical" href="https://leilukin.neocities.org/shrines/cassettebeasts/trivia/">
+
+
+        
+        <link rel="stylesheet" href="/assets/css/main.css">
+        
+    <link rel="stylesheet" href="/assets/css/cassettebeasts.css">
+
+
+        
+        <link rel="stylesheet" href="/assets/fonts/noto-sans/noto-sans.css">
+
+        
+        <link href="/assets/fonts/fontawesome/css/fontawesome.css" rel="stylesheet" />
+        <link href="/assets/fonts/fontawesome/css/brands.css" rel="stylesheet" />
+        <link href="/assets/fonts/fontawesome/css/solid.css" rel="stylesheet" />
+
+        
+        
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/cassettebeasts/images/cb-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/cassettebeasts/images/cb-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/cassettebeasts/images/cb-icon.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+
+
+        <title>
+            
+    Featured | Cassette Beasts Shrine | Leilukin's Hub
+
+        </title>
+    </head>
+    <body>
+        <header class="hero">
+    <div class="hero__top-bar hidden"></div>
+    <div class="hero__img">
+        
+    <picture>
+        <source srcset="/assets/cassettebeasts/images/cassettebeasts-header-320.png" media="(orientation: landscape)" />
+        <img src="/assets/cassettebeasts/images/cassettebeasts-header-640.png" alt="Banner of Cassette Beasts Shrine" />
+    </picture>
+
+    </div>
+</header>
+
+<style>
+    .hero {
+        width: 100%;
+        background-color: var(--clr-hero-bg);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero__top-bar {
+        background-color: var(--clr-navbar-bg);
+        width: 100%;
+        padding: 0.5em 0;
+    }
+
+    .hero__img {
+        display: grid;
+        place-content: center;
+    }
+
+    .hero img {
+        object-fit: scale-down;
+        overflow: hidden;
+        filter: drop-shadow(0.1rem 0.1rem 0.2rem black);
+        max-height: 20rem;
+    }
+</style>
+
+<script defer>
+    const hero = document.querySelector(".hero");
+    const todayEvent = getTodayEvent();
+    const heroTopBarEl = document.querySelector(".hero__top-bar");
+    const headerImgEl = document.querySelector(".hero__img");
+
+    
+    if (todayEvent != "No event") {
+        heroTopBarEl.classList.remove('hidden');
+        heroTopBarEl.innerHTML = getBlurbHtml(todayEvent);
+    }
+
+    function getTodayEvent() {
+        const date = new Date();
+        const month = date.getMonth() + 1;
+        const day = date.getDate();
+
+        if (month == 4 && day == 26)
+            return "CB Anniversary";
+        else if (month == 9 && day == 12)
+            return "Pier Anniversary";
+        else
+            return "No event";
+    }
+
+    function getBlurbHtml(day) {
+        switch (day) {
+            case "CB Anniversary":
+                return `
+                    Today is the anniversary of the release of <cite>Cassette Beasts</cite>!
+                `;
+                break;
+            case "Pier Anniversary":
+                return `
+                    Today is the anniversary of the release of <cite>Pier of the Unknown</cite>, the first DLC expansion of <cite>Cassette Beasts</cite>!
+                `;
+                break;
+            default:
+                return ``;
+        }
+    }
+
+</script>
+        <nav class="navbar">
+    <ul class="nav__menu">
+        
+    
+    
+    
+    <li>
+        <a  href="/shrines/cassettebeasts/">Shrine Home</a>
+    </li>
+        <li>
+            <a  href="/shrines/cassettebeasts/articles/">Articles</a>
+        </li>
+        <li>
+            <a  href="/shrines/cassettebeasts/gamelog/">Game Log</a>
+        </li>
+        <li>
+            <a  href="/shrines/cassettebeasts/featured/">Featured</a>
+        </li>
+        <li>
+            <a aria-current="page" href="/shrines/cassettebeasts/trivia/">Trivia</a>
+        </li>
+        <li>
+            <a  href="/shrines/cassettebeasts/resources/">Resources</a>
+        </li>
+    <li><a href="/shrines/">Shrine Index</a></li>
+    <li><a href="/">Main Site</a></li>
+
+    </ul>
+</nav>
+
+<style>
+    .navbar {
+        background: var(--clr-navbar-bg);
+        padding: 0 0.6rem;
+        width: 100%;
+        z-index: 999;
+        position: sticky;
+        top: 0;
+    }
+
+    .navbar a {
+        color: var(--clr-navbar-link);
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .navbar a:hover {
+        color: var(--clr-link-hover);
+    }
+
+    .navbar a:focus {
+        outline-offset: 0.3em;
+        outline: 0.15em solid var(--clr-navbar-link);
+    }
+
+    .nav__menu {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+</style>
+
+        <main>
+            <header class="main__header">
+    
+
+    
+        <h1>Cassette Beasts Trivia</h1>
+        
+            <p>A collection of trivia about Cassette Beasts.</p>
+        
+    
+</header>
+
+<div class="content__wrapper">
+    
+        <aside class="left-sidebar">
+    <details class="toc__wrapper sidebar--sticky">
+        <summary class="toc__heading">
+            On This Page
+        </summary>
+        <nav class="toc">
+                <ol>
+                    
+                    <li><a href="#where-to-find-cassette-beasts-trivia">Where to Find Cassette Beasts Trivia</a>
+            		</li>
+
+                    <li><a href="#development-history">Development History</a>
+            		</li>
+
+                    <li><a href="#influences-and-inspirations">Influences and Inspirations</a>
+            		</li>
+
+                    <li><a href="#developer-notes">Developer Notes</a>
+            
+                <ol>
+                    
+                    <li><a href="#partner-character-dialogue-styles">Partner Character Dialogue Styles</a>
+            
+                <ol>
+                    
+                    <li><a href="#kayleigh">Kayleigh</a>
+            		</li>
+
+                    <li><a href="#meredith">Meredith</a>
+            		</li>
+
+                    <li><a href="#eugene">Eugene</a>
+            		</li>
+
+                    <li><a href="#felix">Felix</a>
+            		</li>
+
+                    <li><a href="#viola">Viola</a>
+            		</li>
+                </ol>
+            		</li>
+                </ol>
+            		</li>
+
+                    <li><a href="#the-developers">The Developers</a>
+            		</li>
+                </ol>
+            </nav>
+    </details>
+</aside>
+
+<style>
+    .toc__wrapper {
+        max-height: 89vh;
+        overflow: auto;
+        background-color: var(--clr-content-bg);
+        padding: 1rem 1.3rem;
+    }
+
+    .toc__heading {
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: var(--clr-sub-heading);
+        cursor: pointer;
+    }
+
+    .toc ol,
+    .toc ol ol {
+        display: grid;
+        gap: 0.3em;
+    }
+
+    .toc ol {
+        border-top: 0.1em solid var(--clr-title-border);
+        padding-left: 1.3em;
+        padding-top: 1em;
+    }
+
+    .toc ol ol {
+        border-top: none;
+        list-style-type: disc;
+        padding-left: 1em;
+        padding-top: 0.3em;
+    }
+
+    .toc ol a {
+        font-size: 1.1rem;
+        padding-left: 0.3em;
+    }
+
+    .toc ol ol a {
+        padding: 0;
+        font-size: 1rem;
+    }
+</style>
+
+    
+
+    
+		<div class="content ">
+			<div class="heading-wrapper h2">
+<h2 id="where-to-find-cassette-beasts-trivia">Where to Find <cite>Cassette Beasts</cite> Trivia</h2>
+<a class="heading-anchor" href="#where-to-find-cassette-beasts-trivia" aria-labelledby="where-to-find-cassette-beasts-trivia"><span hidden>#</span></a></div>
+<p>You can find trivia about the game from:</p>
+<ul>
+<li><a href="https://store.steampowered.com/app/2259040/Cassette_Beasts_The_Art_Book/">Cassette Beasts: The Art Book</a></li>
+<li>Trivia sections on the <a href="https://wiki.cassettebeasts.com/wiki/Main_Page">official Cassette Beasts wiki</a> articles.</li>
+<li>Bytten Studio's Q&amp;A and Ask Me Anything (AMA) sessions:
+<ul>
+<li><a href="https://store.steampowered.com/news/app/1321440/view/3669908058337516561">Cassette Beasts Blog #13 - You asked, we answered!</a> (28 February 2023)</li>
+<li><a href="https://www.reddit.com/r/JRPG/comments/12kobbo/were_bytten_studio_the_developers_of_cassette/">Reddit AMA on r/JRPG</a> on 13 April 2023</li>
+<li><a href="https://www.reddit.com/r/NintendoSwitch/comments/14nvsiu/ama_we_are_bytten_studio_the_developers_of/">Reddit AMA on r/NintendoSwitch</a> on 1 July 2023</li>
+<li><a href="https://www.reddit.com/r/JRPG/comments/1bniroh/we_are_bytten_studio_developers_of_the/">Reddit AMA on r/JRPG</a> on 25 March 2024</li>
+</ul>
+</li>
+</ul>
+<p><a href="https://wiki.cassettebeasts.com/wiki/List_of_Interviews">Here is a list of interviews</a> that staff who worked on Cassette Beasts participated in and discussed <cite>Cassette Beasts</cite>.</p>
+<p>Bytten Studio has written a blog post on <a href="https://store.steampowered.com/news/app/1321440/view/6349565145235433772">their design philosophy of <cite>Cassette Beasts</cite></a>.</p>
+<div class="heading-wrapper h2">
+<h2 id="development-history">Development History</h2>
+<a class="heading-anchor" href="#development-history" aria-labelledby="development-history"><span hidden>#</span></a></div>
+<dl>
+    <dt>Late 2019</dt>
+    <dd>Development of <cite>Cassette Beasts</cite> began.<sup><a href="https://store.steampowered.com/news/app/1321440/view/3669908058337516561" target="_blank">[Source]</a></sup></dd>
+    <dt>11 May 2020</dt>
+    <dd><a href="https://www.youtube.com/watch?v=H-bD1Pf3xGY" target="_blank">Reveal trailer</a> released.</dd>
+    <dt>19 October 2021</dt>
+    <dd>Bytten Studio's partnership with publisher Raw Fury was <a href="https://twitter.com/ByttenStudio/status/1450449939729879053" target="_blank">officially announced</a>, with an <a href="https://www.youtube.com/watch?v=C0zv4r-DTPg" target="_blank">announcement trailer</a>.</dd>
+    <dt>29 March 2023</dt>
+    <dd>Main voice cast <a href="https://twitter.com/ByttenStudio/status/1641106350376665091" target="_blank">announced</a>.</dd>
+    <dt>26 April 2023</dt>
+    <dd><cite>Cassette Beasts</cite> released on PC and Xbox Game Pass.</dd>
+    <dt>27 April 2023</dt>
+    <dd><a href="https://store.steampowered.com/news/app/1321440/view/3727334659005649764" target="blank">Hotfix 1.1.2</a> live.</dd>
+    <dt>10 May 2023</dt>
+    <dd><a href="https://store.steampowered.com/news/app/1321440/view/3727335925783976124" target="blank">Hotfix 1.1.3</a> live.</dd>
+    <dt>25 May 2023</dt>
+    <dd><cite>Cassette Beasts</cite> released on Xbox Series X/S, Xbox One, and Nintendo Switch.</dd>
+    <dt>28 June 2023</dt>
+    <dd><a href="https://store.steampowered.com/news/app/1321440/view/3660912271237996230" target="blank">Update 1.2 “Catacombs”</a> live. Online multiplayer mode and "Pier of the Unknown" DLC expansion <a href="https://www.cassettebeasts.com/2023/06/28/update-1-2-the-cassette-beasts-showcase/">announced</a>.</dd>
+    <dt>12 September 2023</dt>
+    <dd>"Pier of of the Unknown" DLC <a href="https://store.steampowered.com/news/app/1321440/view/3694695704131814032" target="_blank">confirmed</a> to be released on 4 October 2023 with a <a href="https://www.youtube.com/watch?v=gq7NeWB1Vzc" target="blank">new trailer</a>.</dd>
+    <dt>3 October 2023</dt>
+    <dd><a href="https://store.steampowered.com/news/app/1321440/view/3754370207781487387" target="blank">Update 1.5</a> live.</dd>
+    <dt>4 October 2023</dt>
+    <dd>"Pier of of the Unknown" DLC <a href="https://www.cassettebeasts.com/2023/10/06/pier-of-the-unknown-dlc-out-now/" target="blank">released</a>, with a <a href="https://www.youtube.com/watch?v=eJUgQ36sqLI" target="blank">new trailer</a>.</dd>
+    <dt>11 December 2023</dt>
+    <dd><a href="https://www.youtube.com/watch?v=5Fw7ElAoyhM" target="blank">Multiplayer future showcase</a> released, with announcement of its planned release in Q1 2024 and <a href="https://store.steampowered.com/news/app/1321440/view/3906373040050998621" target="blank">updates</a> about its features.</dd>
+    <dt>25 March 2024</dt>
+    <dd>Multiplayer beta <a href="https://store.steampowered.com/news/app/1321440/view/4140569729629599030" target="_blank">available on Steam</a>. Multiplayer update confirmed to be released on 20 May 2024 with an <a href="https://www.youtube.com/watch?v=q7ZYhxdwMt8" target="_blank">announcement trailer</a>. Android and iOS versions <a href="https://www.youtube.com/watch?v=jN_IYdwoL_A&t=135s" target="_blank">announced</a> to be released in 2024.</dd>
+</dl>
+<div class="heading-wrapper h2">
+<h2 id="influences-and-inspirations">Influences and Inspirations</h2>
+<a class="heading-anchor" href="#influences-and-inspirations" aria-labelledby="influences-and-inspirations"><span hidden>#</span></a></div>
+<p>The YouTube channel Lockstin &amp; Gnoggin has a video that explains the names and designs of the monsters and Archangels: <a href="https://www.youtube.com/watch?v=GlKQzL6gpxc">EVERY Cassette Beast EXPLAINED! 🖭</a>. The video was <a href="https://i.postimg.cc/tRdtkBSF/Screenshot-2023-10-05-at-14-27-39-Lockstin-on-X.png">retweeted</a> by Bytten Studio.</p>
+<p>The idea of copying monster forms to transform into came from Tom Coxon's dream. Jay Baylis, inspired by <cite>Kamen Rider</cite>, later suggested doing the copying and transforming with physical cassette tapes. <a href="https://store.steampowered.com/news/app/1321440/view/3669908058337516561">[Source]</a></p>
+<p>Another oddball source of inspiration for Tom the story <a href="https://thebeatlesneverbrokeup.com/story/">“The Beatles Never Broke Up”</a>, about a man who in 2009 hit his head and woke up in another world where the Beatles still exist, where people still use analogue technology, and where parallel universe travel is commonplace. <a href="https://store.steampowered.com/news/app/1321440/view/3669908058337516561">[Source]</a></p>
+<p>The presentation of Archangels is inspired a little by the Witches in Puella Magi Madoka Magica. <a href="https://store.steampowered.com/news/app/1321440/view/3669908058337516561">[Source]</a></p>
+<p>The way the relationship system ties into fusions is heavily influenced by Steven Universe, which both Tom and Jay are fans of. <a href="https://store.steampowered.com/news/app/1321440/view/3669908058337516561">[Source]</a></p>
+<p>The AP system in Cassette Beasts is taken from board and card games. <a href="https://store.steampowered.com/news/app/1321440/view/3669908058337516561">[Source]</a></p>
+<p>Jay cited comic author Grant Morrison as an influence on the broader themes of the game (as well as the strange English surrealism of the setting), as Morrison's stories often explore the nature of fiction, multiple realities, and their influence on one another. <a href="https://store.steampowered.com/news/app/1321440/view/3669908058337516561">[Source]</a></p>
+<p>Archangels Morgante and Aleph were inspired by Morgan le Fay and King Arthur from Arturian legends, but with an unusual twist that Aleph is portrayed as a conqueror instead of a &quot;rightful king&quot; to reflect Britain's history of conquest. <a href="https://www.reddit.com/r/NintendoSwitch/comments/14nvsiu/ama_we_are_bytten_studio_the_developers_of/jq9v6q5/">[Source]</a></p>
+<p>The ideas for the other Archangels came after Morgante and Aleph. Their themes were kind of arbitrarily chosen to match the design Jay had given them. <a href="https://www.reddit.com/r/NintendoSwitch/comments/14nvsiu/ama_we_are_bytten_studio_the_developers_of/jq9v6q5/">[Source]</a></p>
+<p>Bytten Studio made a point to not put in a huge amount of Japanese mythological monsters in comparison to mythology from other nations, especially since well-known mons franchises such as Shin Megami Tensei, Pokémon and Digimon are Japanese franchises; they do not want to seem derivative. <a href="https://discord.com/channels/594939411775619102/709417227652431942/1206255854211305523">[Source]</a></p>
+<div class="heading-wrapper h2">
+<h2 id="developer-notes">Developer Notes</h2>
+<a class="heading-anchor" href="#developer-notes" aria-labelledby="developer-notes"><span hidden>#</span></a></div>
+<div class="heading-wrapper h3">
+<h3 id="partner-character-dialogue-styles">Partner Character Dialogue Styles</h3>
+<a class="heading-anchor" href="#partner-character-dialogue-styles" aria-labelledby="partner-character-dialogue-styles"><span hidden>#</span></a></div>
+<p>Jay Baylis, the writer of the game, has <a href="https://discord.com/channels/594939411775619102/1059467649140142180/1106581265936814101">shared</a> a style guide he wrote during development for writing dialogue for the partner characters in the modding channel of the official Bytten Studio Discord server. This can serves as a reference for anyone who is adding new dialogue for these characters in mods.</p>
+<div class="heading-wrapper h4">
+<h4 id="kayleigh">Kayleigh</h4>
+<a class="heading-anchor" href="#kayleigh" aria-labelledby="kayleigh"><span hidden>#</span></a></div>
+<p>Casual friendly dialogue with very few Americanisms.</p>
+<p>Common words and phrases:</p>
+<ul>
+<li>Thanks a million</li>
+<li>Sorry</li>
+<li>Brilliant</li>
+</ul>
+<div class="heading-wrapper h4">
+<h4 id="meredith">Meredith</h4>
+<a class="heading-anchor" href="#meredith" aria-labelledby="meredith"><span hidden>#</span></a></div>
+<p>Often staggers her words, like, uh, this. Uses british slang where appropriate. Most likely to (mildly) swear/curse.</p>
+<p>Common words and phrases:</p>
+<ul>
+<li>Uh</li>
+<li>Urgh</li>
+<li>Mate</li>
+<li>Bloody</li>
+</ul>
+<div class="heading-wrapper h4">
+<h4 id="eugene">Eugene</h4>
+<a class="heading-anchor" href="#eugene" aria-labelledby="eugene"><span hidden>#</span></a></div>
+<p>American - uses a lot of exclamations! Like this! More like a shonen hero. Less likely to keep up with &quot;lore&quot;.</p>
+<p>Common words and phrases:</p>
+<ul>
+<li>Man</li>
+<li>Pumped</li>
+<li>Badass</li>
+<li>Buddy</li>
+<li>Momentous</li>
+</ul>
+<div class="heading-wrapper h4">
+<h4 id="felix">Felix</h4>
+<a class="heading-anchor" href="#felix" aria-labelledby="felix"><span hidden>#</span></a></div>
+<p>Opposite of Eugene. Often ends with full stops. Less energetic, more friendly. More likely to discuss the in-universe lore than others.</p>
+<p>Common words and phrases:</p>
+<ul>
+<li>Rad</li>
+<li>No worries</li>
+<li>appreciate</li>
+<li>unorthodox</li>
+<li>folks</li>
+</ul>
+<div class="heading-wrapper h4">
+<h4 id="viola">Viola</h4>
+<a class="heading-anchor" href="#viola" aria-labelledby="viola"><span hidden>#</span></a></div>
+<p>Lightly used Shakespearian english. Very formal. Often uses quotes adapted (made less complex) from <a href="https://www.rsc.org.uk/shakespeares-plays/famous-quotes">actual Shakespeare</a>.</p>
+<p>Common words and phrases:</p>
+<ul>
+<li>Dear [character name]</li>
+<li>Alas</li>
+<li>Spirit (instead of archangels)</li>
+</ul>
+<div class="heading-wrapper h2">
+<h2 id="the-developers">The Developers</h2>
+<a class="heading-anchor" href="#the-developers" aria-labelledby="the-developers"><span hidden>#</span></a></div>
+<p>Jay Baylis' favourite monster catching game is Pokémon Ruby/Sapphire. <a href="https://www.reddit.com/r/NintendoSwitch/comments/14nvsiu/ama_we_are_bytten_studio_the_developers_of/jq9qo03/">[Source]</a></p>
+<p>Tom Coxon's favourite monster catching game is Siralim Ultimate. <a href="https://www.reddit.com/r/NintendoSwitch/comments/14nvsiu/ama_we_are_bytten_studio_the_developers_of/jq9qicf/">[Source]</a></p>
+
+		</div>
+    
+
+    
+
+    <aside class="right-sidebar">
+    <div class="shrine__info sidebar--sticky">
+        <h2>About</h2>
+        
+    <p>Welcome to Leilukin's shrine for <cite>Cassette Beasts</cite>, an indie monster collecting turn-based open-world role-playing video game developed by Bytten Studio and published by Raw Fury.</p>
+
+        <h3>Links</h3>
+        <ul>
+            
+    <li><a href="https://www.cassettebeasts.com/" target="_blank">Official Website</a>
+    </li>
+    <li><a href="https://wiki.cassettebeasts.com/" target="_blank">Official Wiki</a></li>
+    <li><a href="https://store.steampowered.com/app/1321440/Cassette_Beasts/" target="_blank">Steam</a></li>
+    <li><a href="https://bytten-studio.com/" target="_blank">Bytten Studio</a></li>
+
+        </ul>
+    </div>
+</aside>
+
+<style>
+    .right-sidebar {
+        background-color: var(--clr-content-bg);
+        font-size: clamp(0.9rem, 0.9rem + 3vw, 1rem);
+    }
+
+    .shrine__info {
+        padding: 1rem;
+    }
+
+    .shrine__info h2 {
+        font-size: clamp(1.5rem, 1rem + 3vw, 1.7rem);
+        margin-bottom: 0.2em;
+    }
+
+    .shrine__info h3 {
+        font-size: clamp(1.3rem, 1rem + 3vw, 1.5rem);
+        margin-top: 1em;
+    }
+
+    .shrine__info ul {
+        margin-top: 0.5em;
+    }
+</style>
+</div>
+
+<style>
+    .breadcrumbs {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 0.7em 0;
+        display: flex;
+        gap: 0.5em;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+</style>
+        </main>
+        <footer class="footer">
+    
+    <p>Made with ♥ by Leilukin | Shrine Launched: 3 August 2023</p>
+    <p>Back to: <a href="/shrines/">Shrine Index</a> | <a href="/">Leilukin&#39;s Hub</a></p>
+
+</footer>
+
+<style>
+    .footer {
+        margin-top: auto;
+        background: var(--clr-main-footer-bg);
+        padding: 0.8rem;
+        text-align: center;
+        display: grid;
+    }
+
+    .footer p {
+        padding: 0;
+    }
+
+    .footer__links {
+        justify-self: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 0.7em;
+    }
+
+    @media only screen and (min-width: 600px) {
+        .footer {
+            width: 100%;
+        }
+    }
+</style>
+        <button class="top-btn hidden">
+    <img src="/assets/images/elements/chevron-up.svg" alt="Scroll to top">
+</button>
+
+<style>
+    .top-btn {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        z-index: 999;
+        border: none;
+        background-color: var(--clr-top-btn);
+        border-radius: 50em;
+        padding: 0.3em;
+    }
+
+    .top-btn:focus {
+        outline: 0.25em solid var(--clr-top-btn);
+        outline-offset: 0.15em;
+    }
+
+    .top-btn img {
+        width: 1.5rem;
+        aspect-ratio: 1 / 1;
+    }
+</style>
+
+<script defer>
+    const topButton = document.querySelector(".top-btn");
+
+    window.onscroll = () => {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            topButton.classList.remove("hidden");
+        } else {
+            topButton.classList.add("hidden");
+        }
+    }
+
+    topButton.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: "smooth",
+        });
+    });
+</script>
+    </body>
+</html>

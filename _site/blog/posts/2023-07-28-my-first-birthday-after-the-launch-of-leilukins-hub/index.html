@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" id="page-top">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        
+            <meta property="og:title" content="My First Birthday After the Launch of Leilukin&#39;s Hub | Blog">
+        
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="28th July 2023 marks my first birthday after the launch of this personal website.">
+<meta name="generator" content="Eleventy v2.0.1">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://leilukin.neocities.org/blog/posts/2023-07-28-my-first-birthday-after-the-launch-of-leilukins-hub/">
+<meta property="og:site_name" content="Leilukin's Hub">
+<meta property="og:locale" content="en_MY">
+<meta property="og:description" content="28th July 2023 marks my first birthday after the launch of this personal website.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="https://leilukin.neocities.org/blog/posts/2023-07-28-my-first-birthday-after-the-launch-of-leilukins-hub/">
+<meta name="twitter:description" content="28th July 2023 marks my first birthday after the launch of this personal website.">
+<link rel="canonical" href="https://leilukin.neocities.org/blog/posts/2023-07-28-my-first-birthday-after-the-launch-of-leilukins-hub/">
+
+
+        
+        <link rel="stylesheet" href="/assets/css/main.css">
+        
+
+        
+        <link rel="stylesheet" href="/assets/fonts/noto-sans/noto-sans.css">
+
+        
+        <link href="/assets/fonts/fontawesome/css/fontawesome.css" rel="stylesheet" />
+        <link href="/assets/fonts/fontawesome/css/brands.css" rel="stylesheet" />
+        <link href="/assets/fonts/fontawesome/css/solid.css" rel="stylesheet" />
+
+        
+        
+            <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+            <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+            <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+            <link rel="manifest" href="/assets/favicon/site.webmanifest">
+        
+
+        <title>
+            My First Birthday After the Launch of Leilukin&#39;s Hub | Blog | Leilukin's Hub
+        </title>
+    </head>
+    <body>
+        <header class="hero">
+    <div class="hero__top-bar hidden"></div>
+    <div class="hero__img">
+        
+    <img src="/assets/leilukin/Leilukins-Hub-website-banner.png" alt="Banner of Leilukin's Hub">
+
+    </div>
+</header>
+
+<style>
+    .hero {
+        width: 100%;
+        background-color: var(--clr-hero-bg);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero__top-bar {
+        background-color: var(--clr-navbar-bg);
+        width: 100%;
+        padding: 0.5em 0;
+    }
+
+    .hero__img {
+        display: grid;
+        place-content: center;
+    }
+
+    .hero img {
+        object-fit: scale-down;
+        overflow: hidden;
+        filter: drop-shadow(0.1rem 0.1rem 0.2rem black);
+        max-height: 20rem;
+    }
+</style>
+
+<script defer>
+    const hero = document.querySelector(".hero");
+    const todayEvent = getTodayEvent();
+    const heroTopBarEl = document.querySelector(".hero__top-bar");
+    const headerImgEl = document.querySelector(".hero__img");
+
+    
+    if (todayEvent != "No event") {
+        heroTopBarEl.classList.remove('hidden');
+
+        if (todayEvent == "Leilukin's Birthday" || todayEvent == "Leilukin's Hub Anniversary") {
+            heroTopBarEl.innerHTML = getBlurbHtml(todayEvent);
+        } else {
+            headerImgEl.classList.add(getBanner(todayEvent));
+            heroTopBarEl.innerHTML = getBlurbHtml(todayEvent);
+        }
+    }
+
+    function getTodayEvent() {
+        const date = new Date();
+        const month = date.getMonth() + 1;
+        const day = date.getDate();
+
+        if (month == 3 && day == 1)
+            return "Zero Discrimination Day";
+        else if (month == 3 && day == 31)
+            return "Trans Day of Visibility";
+        else if (month == 4 && day == 6)
+            return "International Asexuality Day";
+        else if (month == 4 && day == 26)
+            return "Lesbian Visibility Day";
+        else if (month == 5 && day == 17)
+            return "IDAHOBIT";
+        else if (month == 5 && day == 19)
+            return "Agender Pride Day";
+        else if (month == 5 && day == 25)
+            return "Pansexual and Panromantic Awareness & Visibility Day";
+        else if (month == 6)
+            return "Pride Month";
+        else if (month == 7 && day == 14)
+            return "Non-Binary People's Day";
+        else if (month == 7 && day == 28)
+            return "Leilukin's Birthday";
+        else if (month == 9 && day == 11)
+            return "Leilukin's Hub Anniversary";
+        else if (month == 9 && day == 23)
+            return "Bi Visibility Day";
+        else if (month == 10 && day == 8)
+            return "International Lesbian Day";
+        else if (month == 10 && day == 11)
+            return "National Coming Out Day";
+        else if (month == 10 && day == 26)
+            return "Intersex Awareness Day";
+        else
+            return "No event";
+    }
+
+    function getBanner(day) {
+        switch (day) {
+            case "Zero Discrimination Day":
+                return "flag-progress-intersex";
+                break;
+            case "Trans Day of Visibility":
+                return "flag-trans";
+                break;
+            case "International Asexuality Day":
+                return "flag-ace";
+                break;
+            case "Lesbian Visibility Day":
+                return "flag-lesbian";
+                break;
+            case "IDAHOBIT":
+                return "flag-progress";
+                break;
+            case "Agender Pride Day":
+                return "flag-agender";
+                break;
+            case "Pansexual and Panromantic Awareness & Visibility Day":
+                return "flag-pan";
+                break;
+            case "Pride Month":
+                return "flag-progress-intersex";
+                break;
+            case "Non-Binary People's Day":
+                return "flag-non-binary";
+                break;
+            case "Bi Visibility Day":
+                return "flag-bi";
+                break;
+            case "International Lesbian Day":
+                return "flag-lesbian";
+                break;
+            case "National Coming Out Day":
+                return "flag-rainbow";
+                break;
+            case "Intersex Awareness Day":
+                return "flag-intersex";
+                break;
+            default:
+                return "";
+        }
+    }
+
+    function getBlurbHtml(day) {
+        switch (day) {
+            case "Zero Discrimination Day":
+                return `
+                    Today is <a href="https://www.unaids.org/en/zero-discrimination-day" target="_blank">Zero Discrimination Day</a>
+                `;
+                break;
+            case "Trans Day of Visibility":
+                return `
+                    Today is <a href="https://www.manygendersonevoice.org/tdov.html" target="_blank">Trans Day of Visibility</a>
+                `;
+                break;
+            case "International Asexuality Day":
+                return `
+                    Today is <a href="https://internationalasexualityday.org/en" target="_blank">International Asexuality Day</a>
+                `;
+                break;
+            case "Lesbian Visibility Day":
+                return `
+                    Today is <a href="https://www.lesbianvisibilityweek.com" target="_blank">Lesbian Visibility Day</a>
+                `;
+                break;
+            case "IDAHOBIT":
+                return `
+                    Today is <a href="https://may17.org" target="_blank">International Day Against Homophobia, Biphobia and Transphobia</a></span>
+                `;
+                break;
+            case "Agender Pride Day":
+                return `
+                    Today is <a href="https://www.believeoutloud.com/voices/article/agender-pride-day/" target="_blank">Agender Pride Day</a></span>
+                `;
+                break;
+            case "Pansexual and Panromantic Awareness & Visibility Day":
+                return `
+                    Today is <a href="https://genderedintelligence.co.uk/panvisibilityday" target="_blank">Pansexual and Panromantic Visibility Day</a>
+                `;
+                break;
+            case "Pride Month":
+                return `
+                    Happy <a href="https://www.loc.gov/lgbt-pride-month/about/" target="_blank">Pride Month</a>!
+                `;
+                break;
+            case "Non-Binary People's Day":
+                return `
+                    Today is <a href="https://www.manygendersonevoice.org/non-binary-peoples-day.html" target="_blank">Non-Binary People's Day</a>
+                `;
+                break;
+            case "Leilukin's Birthday":
+                return `
+                    Today is Leilukin's birthday
+                `;
+                break;
+            case "Leilukin's Hub Anniversary":
+                return `
+                    Today is the anniversary of the launch of Leilukin's Hub
+                `;
+                break;
+            case "Bi Visibility Day":
+                return `
+                    Today is <a href="https://bivisibilityday.com/about" target="_blank">Bi Visibility Day</a>
+                `;
+                break;
+            case "International Lesbian Day":
+                return `
+                    Today is <a href="https://www.lgbtiqhealth.org.au/international_lesbian_day2" target="_blank">International Lesbian Day</a>
+                `;
+                break;
+            case "National Coming Out Day":
+                return `
+                    Today is <a href="https://www.hrc.org/resources/national-coming-out-day" target="_blank">National Coming Out Day</a>
+                `;
+                break;
+            case "Intersex Awareness Day":
+                return `
+                    Today is <a href="https://interactadvocates.org/intersex-awareness-day" target="_blank">Intersex Awareness Day</a>
+                `;
+                break;
+            default:
+                return ``;
+        }
+    }
+
+</script>
+        <nav class="navbar">
+    <ul class="nav__menu">
+        
+    
+    
+        <li>
+            <a  href="/">
+                Home
+            </a>
+        </li>
+        <li>
+            <a  href="/about/">
+                About
+            </a>
+        </li>
+        <li>
+            <a  href="/now/">
+                Now
+            </a>
+        </li>
+        <li>
+            <a  href="/blog/">
+                Blog
+            </a>
+        </li>
+        <li>
+            <a  href="/articles/">
+                Articles
+            </a>
+        </li>
+        <li>
+            <a  href="/projects/">
+                Projects
+            </a>
+        </li>
+        <li>
+            <a  href="/shrines/">
+                Shrines
+            </a>
+        </li>
+        <li>
+            <a  href="/links/">
+                Links
+            </a>
+        </li>
+    <li><a href="https://leilukin.123guestbook.com/">Guestbook</a></li>
+
+    </ul>
+</nav>
+
+<style>
+    .navbar {
+        background: var(--clr-navbar-bg);
+        padding: 0 0.6rem;
+        width: 100%;
+        z-index: 999;
+        position: sticky;
+        top: 0;
+    }
+
+    .navbar a {
+        color: var(--clr-navbar-link);
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .navbar a:hover {
+        color: var(--clr-link-hover);
+    }
+
+    .navbar a:focus {
+        outline-offset: 0.3em;
+        outline: 0.15em solid var(--clr-navbar-link);
+    }
+
+    .nav__menu {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+</style>
+
+        <main>
+            <header class="main__header">
+    
+        <ul class="breadcrumbs">
+            
+            <li>
+                <a href="/blog/" >Blog</a>
+            </li>
+            ➔
+            <li>
+                <a href="/blog/posts/" >Blog Archive</a>
+            </li>
+            ➔
+        </ul>
+    
+
+    
+        <h1>My First Birthday After the Launch of Leilukin&#39;s Hub</h1>
+        <div class="article__info">
+            <p>Posted on 28 July 2023 by Leilukin
+            
+            
+                <p>Categories:
+                    
+                        <a href="/categories/my-birthday">my birthday</a>, 
+                    
+                        <a href="/categories/cassette-beasts">cassette beasts</a>
+                    
+                </p>
+            
+            <p>🍿  2 min. read</p>
+        </div>
+    
+</header>
+
+<div class="content__wrapper">
+    
+
+    
+        <article class="article">
+            
+<p>28 July is my birthday, and in 2023, it also marks my first birthday after the launch of this personal website. I have had a nice birthday this year.</p>
+<p>I spent the moments counting down to my birthday by playing Cassette Beasts, which has become one of my all-time favourite video games, to the extent that I am planning to make a shrine for it on this site. I defeated <a href="https://wiki.cassettebeasts.com/wiki/Lamento_Mori">Lamento Mori</a>, who in the lore of Cassette Beasts is an <a href="https://wiki.cassettebeasts.com/wiki/Archangel">Archangel</a>, one of the eldritch entities in the game's settings, that specifically embodies humanity's fear of death. It is both amusing and poetic that I celebrated the countdown to my birthday by defeating a boss in a video game that represents death.</p>
+<p>Since I have been playing and loving Cassette Beasts, and I want to support indie developers of indie games I love, I decided to purchase the Deluxe Edition on Steam, which includes the soundtrack, the art book and the Cosplay Pack as a birthday gift for myself. I received the base game as a Steam gift from a friend, and now I chose to use my money to support the developers myself as well. Not to mention, the music of Cassette Beasts is amazing. &quot;Same Old Story&quot;, the battle theme of the Archangels, in particular, has become one of my all-time favourite battle themes in video games.</p>
+<p>I had my birthday celebration with my family and received birthday wishes from friends.</p>
+<p>Happy Birthday to me!</p>
+
+        <ul class="blog__post--nextprev"><li>Previous Post: <a href="/blog/posts/2023-06-23-june-2023-leilukins-hub-layout-rewrite/">June 2023 Leilukin&#39;s Hub Layout Rewrite</a></li><li>Next Post: <a href="/blog/posts/2023-09-11-happy-1st-anniversary-to-leilukins-hub/">Happy 1st Anniversary to Leilukin&#39;s Hub</a></li>
+        </ul>
+
+<style>
+    .blog__post--nextprev {
+        list-style: none;
+        padding-left: 0;
+        padding-top: 0.8em;
+        margin-top: 2.5em;
+        border-top: 0.1em solid var(--clr-title-border);
+    }
+</style>
+        </article>
+    
+
+    
+        <aside class="right-sidebar">
+    <nav class="content__nav sidebar--sticky">
+        <h2 class="content__nav--title">My Contents</h2>
+        <ul class="content__nav--links">
+            
+                <li><a href="/categories/">Content Categories</a></li>
+            
+                <li><a href="/archive/">Archive</a></li>
+            
+            <li><a href="/articles/">Articles</a></li>
+            
+                <li><a href="/blog/">Blog Home</a></li>
+            
+                <li><a href="/blog/posts/">Blog Archive</a></li>
+            
+        </ul>
+    </nav>
+</aside>
+
+<style>
+    .content__nav {
+        padding: 1.2em clamp(1em, 5%, 1.5em);
+        background-color: var(--clr-content-bg);
+    }
+
+    .content__nav--title {
+        font-size: 1.7rem;
+    }
+</style>
+    
+
+    
+</div>
+
+<style>
+    .breadcrumbs {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 0.7em 0;
+        display: flex;
+        gap: 0.5em;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+</style>
+        </main>
+        <footer class="footer">
+    
+    <p>Made with ♥ by Leilukin since <time>11 September 2022</time></p>
+
+    
+    <ul class="footer__links">
+        <li>
+            <a  href="/sitemap/">Site Map</a>
+        </li>
+        |
+        <li>
+            <a  href="/changelogs/">Changelogs</a>
+        </li>
+        |
+        <li><a href="/feed.xml">RSS</a></li>
+    </ul>
+
+</footer>
+
+<style>
+    .footer {
+        margin-top: auto;
+        background: var(--clr-main-footer-bg);
+        padding: 0.8rem;
+        text-align: center;
+        display: grid;
+    }
+
+    .footer p {
+        padding: 0;
+    }
+
+    .footer__links {
+        justify-self: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 0.7em;
+    }
+
+    @media only screen and (min-width: 600px) {
+        .footer {
+            width: 100%;
+        }
+    }
+</style>
+        <button class="top-btn hidden">
+    <img src="/assets/images/elements/chevron-up.svg" alt="Scroll to top">
+</button>
+
+<style>
+    .top-btn {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        z-index: 999;
+        border: none;
+        background-color: var(--clr-top-btn);
+        border-radius: 50em;
+        padding: 0.3em;
+    }
+
+    .top-btn:focus {
+        outline: 0.25em solid var(--clr-top-btn);
+        outline-offset: 0.15em;
+    }
+
+    .top-btn img {
+        width: 1.5rem;
+        aspect-ratio: 1 / 1;
+    }
+</style>
+
+<script defer>
+    const topButton = document.querySelector(".top-btn");
+
+    window.onscroll = () => {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            topButton.classList.remove("hidden");
+        } else {
+            topButton.classList.add("hidden");
+        }
+    }
+
+    topButton.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: "smooth",
+        });
+    });
+</script>
+    </body>
+</html>

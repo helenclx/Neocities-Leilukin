@@ -1,0 +1,13 @@
+{%- macro modEntry(params) -%}
+    ### {{ params.title }}
+    <div class="mod-entry">
+        <img src="/assets/projects/{{ params.bannerFile }}" alt="Banner of {{ params.title }} mod">
+        <p>{{ params.desc }}</p>
+        <h4>Download the mod:</h4>
+        <div class="mod-entry__downloads">
+            {%- for download in params.downloads -%}
+                <a class="link-btn" href="{{ download.url }}" target="_blank">{{ download.site }}</a>
+            {%- endfor -%}
+        </div>
+    </div>
+{%- endmacro -%}

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" id="page-top">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        
+    <meta property="og:title" content="Should You Use The Sith Lords Restored Content Mod in Your First Star Wars: KotOR 2 Playthrough? | Articles | Star Wars: Knights of the Old Republic Shrine">
+
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="The Sith Lords Restored Content Mod (TSLRCM) is widely regarded as essential for the best KotOR 2 experience, but should you use the mod in your very first KotOR 2 playthrough?">
+<meta name="generator" content="Eleventy v2.0.1">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://leilukin.neocities.org/shrines/starwarskotor/articles/tslrcm-first-kotor2-playthrough/">
+<meta property="og:site_name" content="Leilukin's Hub">
+<meta property="og:locale" content="en_MY">
+<meta property="og:description" content="The Sith Lords Restored Content Mod (TSLRCM) is widely regarded as essential for the best KotOR 2 experience, but should you use the mod in your very first KotOR 2 playthrough?">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="https://leilukin.neocities.org/shrines/starwarskotor/articles/tslrcm-first-kotor2-playthrough/">
+<meta name="twitter:description" content="The Sith Lords Restored Content Mod (TSLRCM) is widely regarded as essential for the best KotOR 2 experience, but should you use the mod in your very first KotOR 2 playthrough?">
+<link rel="canonical" href="https://leilukin.neocities.org/shrines/starwarskotor/articles/tslrcm-first-kotor2-playthrough/">
+
+
+        
+        <link rel="stylesheet" href="/assets/css/main.css">
+        
+    <link rel="stylesheet" href="/assets/css/starwarskotor.css">
+
+
+        
+        <link rel="stylesheet" href="/assets/fonts/noto-sans/noto-sans.css">
+
+        
+        <link href="/assets/fonts/fontawesome/css/fontawesome.css" rel="stylesheet" />
+        <link href="/assets/fonts/fontawesome/css/brands.css" rel="stylesheet" />
+        <link href="/assets/fonts/fontawesome/css/solid.css" rel="stylesheet" />
+
+        
+        
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/starwarskotor/images/kotor-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/starwarskotor/images/kotor-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/starwarskotor/images/kotor-icon.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+
+
+        <title>
+            
+    Should You Use The Sith Lords Restored Content Mod in Your First Star Wars: KotOR 2 Playthrough? | Articles | Star Wars: Knights of the Old Republic Shrine | Leilukin's Hub
+
+        </title>
+    </head>
+    <body>
+        <header class="hero">
+    <div class="hero__top-bar hidden"></div>
+    <div class="hero__img">
+        
+    <picture>
+        <source srcset="/assets/starwarskotor/images/swkotor-header-320.png" media="(orientation: landscape)" />
+        <img src="/assets/starwarskotor/images/swkotor-header.jpg" alt="anner of Star Wars: Knights of the Old Republic Shrine" />
+    </picture>
+
+    </div>
+</header>
+
+<style>
+    .hero {
+        width: 100%;
+        background-color: var(--clr-hero-bg);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero__top-bar {
+        background-color: var(--clr-navbar-bg);
+        width: 100%;
+        padding: 0.5em 0;
+    }
+
+    .hero__img {
+        display: grid;
+        place-content: center;
+    }
+
+    .hero img {
+        object-fit: scale-down;
+        overflow: hidden;
+        filter: drop-shadow(0.1rem 0.1rem 0.2rem black);
+        max-height: 20rem;
+    }
+</style>
+
+<script defer>
+    const hero = document.querySelector(".hero");
+    const todayEvent = getTodayEvent();
+    const heroTopBarEl = document.querySelector(".hero__top-bar");
+    const headerImgEl = document.querySelector(".hero__img");
+
+    
+    if (todayEvent != "No event") {
+        heroTopBarEl.classList.remove('hidden');
+        heroTopBarEl.innerHTML = getBlurbHtml(todayEvent);
+    }
+
+    function getTodayEvent() {
+        const date = new Date();
+        const month = date.getMonth() + 1;
+        const day = date.getDate();
+
+        if (month == 7 && day == 16)
+            return "KotOR 1 Anniversary";
+        else if (month == 12 && day == 6)
+            return "KotOR 2 Anniversary";
+        else
+            return "No event";
+    }
+
+    function getBlurbHtml(day) {
+        switch (day) {
+            case "KotOR 1 Anniversary":
+                return `
+                    Today is the anniversary of the release of <cite>Star Wars: Knihgts of the Old Republic</cite>
+                `;
+                break;
+            case "KotOR 2 Anniversary":
+                return `
+                    Today is the anniversary of the release of <cite>Star Wars: Knights of the Old Republic II — The Sith Lords</cite>
+                `;
+                break;
+            default:
+                return ``;
+        }
+    }
+
+</script>
+        <nav class="navbar">
+    <ul class="nav__menu">
+        
+    
+    
+    
+    <li>
+        <a  href="/shrines/starwarskotor/">Shrine Home</a>
+    </li>
+        <li>
+            <a  href="/shrines/starwarskotor/articles/">Articles</a>
+        </li>
+        <li>
+            <a  href="/shrines/starwarskotor/guides/">Guides</a>
+        </li>
+        <li>
+            <a  href="/shrines/starwarskotor/resources/">Resources</a>
+        </li>
+        <li>
+            <a  href="/shrines/starwarskotor/universes/">Universes</a>
+        </li>
+    <li><a href="/shrines/">Shrine Index</a></li>
+    <li><a href="/">Main Site</a></li>
+
+    </ul>
+</nav>
+
+<style>
+    .navbar {
+        background: var(--clr-navbar-bg);
+        padding: 0 0.6rem;
+        width: 100%;
+        z-index: 999;
+        position: sticky;
+        top: 0;
+    }
+
+    .navbar a {
+        color: var(--clr-navbar-link);
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .navbar a:hover {
+        color: var(--clr-link-hover);
+    }
+
+    .navbar a:focus {
+        outline-offset: 0.3em;
+        outline: 0.15em solid var(--clr-navbar-link);
+    }
+
+    .nav__menu {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+</style>
+
+        <main>
+            <header class="main__header">
+    
+        <ul class="breadcrumbs">
+            
+            <li>
+                <a href="/shrines/" >Shrines</a>
+            </li>
+            ➔
+            <li>
+                <a href="/shrines/starwarskotor/" >Star Wars: Knights of the Old Republic Shrine</a>
+            </li>
+            ➔
+            <li>
+                <a href="/shrines/starwarskotor/articles/" >Articles</a>
+            </li>
+            ➔
+        </ul>
+    
+
+    
+        <h1>Should You Use The Sith Lords Restored Content Mod in Your First Star Wars: KotOR 2 Playthrough?</h1>
+        <div class="article__info">
+            <p>Posted on 30 August 2023 by Leilukin
+            
+            
+                <p>Categories:
+                    
+                        <a href="/categories/star-wars-kotor-2">star wars kotor 2</a>, 
+                    
+                        <a href="/categories/modding">modding</a>
+                    
+                </p>
+            
+            <p>🍿  3 min. read</p>
+        </div>
+    
+</header>
+
+<div class="content__wrapper">
+    
+
+    
+        <article class="article">
+            <p>Regardless of how much you like Star Wars: Knights of the Old Republic II: The Sith Lords or not, there is no denying the fact that the game would be (even) better if Obsidian Entertainment was given more time to develop and polish the game to truly achieve their vision for the game, instead of being rushed to meet the release deadline which resulted in a lot of cut content.</p>
+<p>The Sith Lords Restored Content Mod (TSLRCM) is the most successful attempt to restore the cut content of KotOR 2, as it not only restores cut content that can help to flesh out the game and give some plot lines more closure, but also fixes many bugs in the vanilla game. TSLRCM easily became the most iconic mod for either KotOR game, to the extent that the mod even has <a href="https://en.wikipedia.org/wiki/The_Sith_Lords_Restored_Content_Modification">its own Wikipedia page</a>.</p>
+<p>It is widely agreed that TSLRCM is essential for the best experience with KotOR 2. There are players only started to like KotOR 2 after they replayed the game with TSLRCM, so some have argued that even first-time players should use TSLRCM in their very first playthrough of KotOR 2. I, however, do not believe the answer to the question &quot;Should you use TSLRCM in your first KotOR 2 playthrough&quot; is clear-cut. As a huge KotOR 2 fan who has played the game both with and without TSLRCM, my opinion is that it is up to the player to decide if they want to use TSLRCM in their first KotOR 2 playthrough based on their priorities.</p>
+<p>TSLRCM changes the playing experience of KotOR 2 for the better, but it is still a mod that fundamentally changes the player's experience with the game. The primary purpose of video game modifications is to change things in a game, usually in ways that diverge from the original design of the game. This is why I typically do not encourage brand-new players to use mods in their first playthrough of any video game, with the only exception being pure bug fix mods, such as the first KotOR game's <a href="https://deadlystream.com/files/file/1258-kotor-1-community-patch/">KOTOR 1 Community Patch</a>. Instead, I would advise players to play a game first without mods, so they can make their own decision on what kind of mods would they want to make their experience with the game better when they replay it, and in turn, they would appreciate the changes made by the mods they use and the work modders put into the mods better. This philosophy of mine applies to both KotOR games, even after I became a KotOR modder myself.</p>
+<p>Therefore, if you have never played KotOR 2 before, and you ask me if you should use TSLRCM in your first KotOR 2 playthrough, my answer is that it depends on what you want. You may use TSLRCM in your first KotOR 2 playthrough if you intend to play KotOR 2 <em>only once</em>, and you want to get the best experience with the game in the only time you will be playing the game, but otherwise I would encourage you to try KotOR 2 without TSLRCM first, in order to fully appreciate TSLRCM for what it accomplishes, for the changes it makes for the game and the praise it receives from players.</p>
+<p>Another benefit from playing KotOR 2 without TSLRCM first is that you will have an easier time finding guides and walkthroughs of the game, because most of the KotOR 2 guides that you can easily find on the internet were written based on the vanilla version of the game, while TSLRCM-specific guides are more difficult to find by comparison.</p>
+<p>Perhaps I am biased because I already loved KotOR 2 from the get go since my first playthrough of the game, even before I discovered TSLRCM's existence, and I am the type of autistic gamer who likes to replay games they like, but I do not believe that makes my opinion any less worthy to consider.</p>
+
+        </article>
+    
+
+    
+
+    <aside class="right-sidebar">
+    <div class="shrine__info sidebar--sticky">
+        <h2>About</h2>
+        
+    <p>Welcome to Leilukin's shrine for <cite>Star Wars: Knights of the Old Republic</cite>, a series of role-playing video games set in the <cite>Star Wars</cite> universe, taking place almost 4,000 years before the events of the Skywalker film saga.</p>
+
+        <h3>Links</h3>
+        <ul>
+            
+    <li><a href="https://kotor.neocities.org/" target="_blank">KOTOR Community Portal</a></li>
+
+        </ul>
+    </div>
+</aside>
+
+<style>
+    .right-sidebar {
+        background-color: var(--clr-content-bg);
+        font-size: clamp(0.9rem, 0.9rem + 3vw, 1rem);
+    }
+
+    .shrine__info {
+        padding: 1rem;
+    }
+
+    .shrine__info h2 {
+        font-size: clamp(1.5rem, 1rem + 3vw, 1.7rem);
+        margin-bottom: 0.2em;
+    }
+
+    .shrine__info h3 {
+        font-size: clamp(1.3rem, 1rem + 3vw, 1.5rem);
+        margin-top: 1em;
+    }
+
+    .shrine__info ul {
+        margin-top: 0.5em;
+    }
+</style>
+</div>
+
+<style>
+    .breadcrumbs {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 0.7em 0;
+        display: flex;
+        gap: 0.5em;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+</style>
+        </main>
+        <footer class="footer">
+    
+    <p>Made with ♥ and the Force by Leilukin | Shrine Launched: 17 February 2023</p>
+    <p>Back to: <a href="/shrines/">Shrine Index</a> | <a href="/">Leilukin&#39;s Hub</a></p>
+
+</footer>
+
+<style>
+    .footer {
+        margin-top: auto;
+        background: var(--clr-main-footer-bg);
+        padding: 0.8rem;
+        text-align: center;
+        display: grid;
+    }
+
+    .footer p {
+        padding: 0;
+    }
+
+    .footer__links {
+        justify-self: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 0.7em;
+    }
+
+    @media only screen and (min-width: 600px) {
+        .footer {
+            width: 100%;
+        }
+    }
+</style>
+        <button class="top-btn hidden">
+    <img src="/assets/images/elements/chevron-up.svg" alt="Scroll to top">
+</button>
+
+<style>
+    .top-btn {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        z-index: 999;
+        border: none;
+        background-color: var(--clr-top-btn);
+        border-radius: 50em;
+        padding: 0.3em;
+    }
+
+    .top-btn:focus {
+        outline: 0.25em solid var(--clr-top-btn);
+        outline-offset: 0.15em;
+    }
+
+    .top-btn img {
+        width: 1.5rem;
+        aspect-ratio: 1 / 1;
+    }
+</style>
+
+<script defer>
+    const topButton = document.querySelector(".top-btn");
+
+    window.onscroll = () => {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            topButton.classList.remove("hidden");
+        } else {
+            topButton.classList.add("hidden");
+        }
+    }
+
+    topButton.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: "smooth",
+        });
+    });
+</script>
+    </body>
+</html>

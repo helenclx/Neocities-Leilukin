@@ -1,0 +1,101 @@
+{% set firstLabel = "Newest" %}
+{% set prevLabel = "Newer" %}
+{% set nextLabel = "Older" %}
+{% set lastLabel = "Oldest" %}
+
+<nav aria-label="pagination" class="pagination__wrapper">
+    <ul class="pagination">
+        <li>
+            {% if pagination.href.first %}
+                <a href=" {{ pagination.href.first }}">
+                    <i class="fa-solid fa-angles-left"></i>
+                    {{ firstLabel }}
+                </a>
+            {% else %}
+                <i class="fa-solid fa-angles-left"></i>
+                {{ firstLabel }}
+            {% endif %}
+        </li>
+        <li>
+            {% if pagination.href.previous %}
+                <a href=" {{ pagination.href.previous }}">
+                    <i class="fa-solid fa-angle-left"></i>
+                    {{ prevLabel }}
+                </a>
+            {% else %}
+                <i class="fa-solid fa-angle-left"></i>
+                {{ prevLabel }}
+            {% endif %}
+        </li>
+        <li>
+             {% if pagination.href.next %}
+                <a href=" {{ pagination.href.next }}">
+                    {{ nextLabel }}
+                    <i class="fa-solid fa-angle-right"></i>
+                </a>
+            {% else %}
+                {{ nextLabel }}
+                <i class="fa-solid fa-angle-right"></i>
+            {% endif %}
+        </li>
+        <li>
+            {% if pagination.href.last %}
+                <a href=" {{ pagination.href.last }}">
+                    {{ lastLabel }}
+                    <i class="fa-solid fa-angles-right"></i>
+                </a>
+            {% else %}
+                {{ lastLabel }}
+                <i class="fa-solid fa-angles-right"></i>
+            {% endif %}
+        </li>
+    </ul>
+</nav>
+
+<style>
+    .pagination__wrapper {
+        display: grid;
+        place-content: center;
+        margin-top: 1.5em;
+    }
+
+    .pagination {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 0.5em;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .pagination li {
+        text-align: center;
+        padding: 0.3em 0.7em;
+        color: var(--clr-title-border);
+        background-color: var(--clr-code-bg);
+    }
+
+    .pagination li:has(a) {
+        background-color: var(--clr-title-border);
+    }
+
+    .pagination li:has(a):hover {
+        cursor: pointer;
+        background-color: var(--clr-link-hover);
+    }
+
+    .pagination li:has(a):focus-within {
+        outline: 0.2em solid var(--clr-title-border);
+        outline-offset: 0.15em;
+    }
+
+    .pagination li a {
+        color: var(--clr-link-btn-hover);
+        text-decoration: none;
+    }
+
+    .pagination li a:focus {
+        outline: none;
+    }
+</style>

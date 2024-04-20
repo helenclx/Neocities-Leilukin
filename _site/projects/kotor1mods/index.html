@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" id="page-top">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        
+            <meta property="og:title" content="My Mods for Star Wars: Knights of the Old Republic">
+        
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="List of video game mods I have made for Star Wars: Knights of the Old Republic.">
+<meta name="generator" content="Eleventy v2.0.1">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://leilukin.neocities.org/projects/kotor1mods/">
+<meta property="og:site_name" content="Leilukin's Hub">
+<meta property="og:locale" content="en_MY">
+<meta property="og:description" content="List of video game mods I have made for Star Wars: Knights of the Old Republic.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="https://leilukin.neocities.org/projects/kotor1mods/">
+<meta name="twitter:description" content="List of video game mods I have made for Star Wars: Knights of the Old Republic.">
+<link rel="canonical" href="https://leilukin.neocities.org/projects/kotor1mods/">
+
+
+        
+        <link rel="stylesheet" href="/assets/css/main.css">
+        
+
+        
+        <link rel="stylesheet" href="/assets/fonts/noto-sans/noto-sans.css">
+
+        
+        <link href="/assets/fonts/fontawesome/css/fontawesome.css" rel="stylesheet" />
+        <link href="/assets/fonts/fontawesome/css/brands.css" rel="stylesheet" />
+        <link href="/assets/fonts/fontawesome/css/solid.css" rel="stylesheet" />
+
+        
+        
+            <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+            <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+            <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+            <link rel="manifest" href="/assets/favicon/site.webmanifest">
+        
+
+        <title>
+            My Mods for Star Wars: Knights of the Old Republic | Leilukin's Hub
+        </title>
+    </head>
+    <body>
+        <header class="hero">
+    <div class="hero__top-bar hidden"></div>
+    <div class="hero__img">
+        
+    <img src="/assets/leilukin/Leilukins-Hub-website-banner.png" alt="Banner of Leilukin's Hub">
+
+    </div>
+</header>
+
+<style>
+    .hero {
+        width: 100%;
+        background-color: var(--clr-hero-bg);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero__top-bar {
+        background-color: var(--clr-navbar-bg);
+        width: 100%;
+        padding: 0.5em 0;
+    }
+
+    .hero__img {
+        display: grid;
+        place-content: center;
+    }
+
+    .hero img {
+        object-fit: scale-down;
+        overflow: hidden;
+        filter: drop-shadow(0.1rem 0.1rem 0.2rem black);
+        max-height: 20rem;
+    }
+</style>
+
+<script defer>
+    const hero = document.querySelector(".hero");
+    const todayEvent = getTodayEvent();
+    const heroTopBarEl = document.querySelector(".hero__top-bar");
+    const headerImgEl = document.querySelector(".hero__img");
+
+    
+    if (todayEvent != "No event") {
+        heroTopBarEl.classList.remove('hidden');
+
+        if (todayEvent == "Leilukin's Birthday" || todayEvent == "Leilukin's Hub Anniversary") {
+            heroTopBarEl.innerHTML = getBlurbHtml(todayEvent);
+        } else {
+            headerImgEl.classList.add(getBanner(todayEvent));
+            heroTopBarEl.innerHTML = getBlurbHtml(todayEvent);
+        }
+    }
+
+    function getTodayEvent() {
+        const date = new Date();
+        const month = date.getMonth() + 1;
+        const day = date.getDate();
+
+        if (month == 3 && day == 1)
+            return "Zero Discrimination Day";
+        else if (month == 3 && day == 31)
+            return "Trans Day of Visibility";
+        else if (month == 4 && day == 6)
+            return "International Asexuality Day";
+        else if (month == 4 && day == 26)
+            return "Lesbian Visibility Day";
+        else if (month == 5 && day == 17)
+            return "IDAHOBIT";
+        else if (month == 5 && day == 19)
+            return "Agender Pride Day";
+        else if (month == 5 && day == 25)
+            return "Pansexual and Panromantic Awareness & Visibility Day";
+        else if (month == 6)
+            return "Pride Month";
+        else if (month == 7 && day == 14)
+            return "Non-Binary People's Day";
+        else if (month == 7 && day == 28)
+            return "Leilukin's Birthday";
+        else if (month == 9 && day == 11)
+            return "Leilukin's Hub Anniversary";
+        else if (month == 9 && day == 23)
+            return "Bi Visibility Day";
+        else if (month == 10 && day == 8)
+            return "International Lesbian Day";
+        else if (month == 10 && day == 11)
+            return "National Coming Out Day";
+        else if (month == 10 && day == 26)
+            return "Intersex Awareness Day";
+        else
+            return "No event";
+    }
+
+    function getBanner(day) {
+        switch (day) {
+            case "Zero Discrimination Day":
+                return "flag-progress-intersex";
+                break;
+            case "Trans Day of Visibility":
+                return "flag-trans";
+                break;
+            case "International Asexuality Day":
+                return "flag-ace";
+                break;
+            case "Lesbian Visibility Day":
+                return "flag-lesbian";
+                break;
+            case "IDAHOBIT":
+                return "flag-progress";
+                break;
+            case "Agender Pride Day":
+                return "flag-agender";
+                break;
+            case "Pansexual and Panromantic Awareness & Visibility Day":
+                return "flag-pan";
+                break;
+            case "Pride Month":
+                return "flag-progress-intersex";
+                break;
+            case "Non-Binary People's Day":
+                return "flag-non-binary";
+                break;
+            case "Bi Visibility Day":
+                return "flag-bi";
+                break;
+            case "International Lesbian Day":
+                return "flag-lesbian";
+                break;
+            case "National Coming Out Day":
+                return "flag-rainbow";
+                break;
+            case "Intersex Awareness Day":
+                return "flag-intersex";
+                break;
+            default:
+                return "";
+        }
+    }
+
+    function getBlurbHtml(day) {
+        switch (day) {
+            case "Zero Discrimination Day":
+                return `
+                    Today is <a href="https://www.unaids.org/en/zero-discrimination-day" target="_blank">Zero Discrimination Day</a>
+                `;
+                break;
+            case "Trans Day of Visibility":
+                return `
+                    Today is <a href="https://www.manygendersonevoice.org/tdov.html" target="_blank">Trans Day of Visibility</a>
+                `;
+                break;
+            case "International Asexuality Day":
+                return `
+                    Today is <a href="https://internationalasexualityday.org/en" target="_blank">International Asexuality Day</a>
+                `;
+                break;
+            case "Lesbian Visibility Day":
+                return `
+                    Today is <a href="https://www.lesbianvisibilityweek.com" target="_blank">Lesbian Visibility Day</a>
+                `;
+                break;
+            case "IDAHOBIT":
+                return `
+                    Today is <a href="https://may17.org" target="_blank">International Day Against Homophobia, Biphobia and Transphobia</a></span>
+                `;
+                break;
+            case "Agender Pride Day":
+                return `
+                    Today is <a href="https://www.believeoutloud.com/voices/article/agender-pride-day/" target="_blank">Agender Pride Day</a></span>
+                `;
+                break;
+            case "Pansexual and Panromantic Awareness & Visibility Day":
+                return `
+                    Today is <a href="https://genderedintelligence.co.uk/panvisibilityday" target="_blank">Pansexual and Panromantic Visibility Day</a>
+                `;
+                break;
+            case "Pride Month":
+                return `
+                    Happy <a href="https://www.loc.gov/lgbt-pride-month/about/" target="_blank">Pride Month</a>!
+                `;
+                break;
+            case "Non-Binary People's Day":
+                return `
+                    Today is <a href="https://www.manygendersonevoice.org/non-binary-peoples-day.html" target="_blank">Non-Binary People's Day</a>
+                `;
+                break;
+            case "Leilukin's Birthday":
+                return `
+                    Today is Leilukin's birthday
+                `;
+                break;
+            case "Leilukin's Hub Anniversary":
+                return `
+                    Today is the anniversary of the launch of Leilukin's Hub
+                `;
+                break;
+            case "Bi Visibility Day":
+                return `
+                    Today is <a href="https://bivisibilityday.com/about" target="_blank">Bi Visibility Day</a>
+                `;
+                break;
+            case "International Lesbian Day":
+                return `
+                    Today is <a href="https://www.lgbtiqhealth.org.au/international_lesbian_day2" target="_blank">International Lesbian Day</a>
+                `;
+                break;
+            case "National Coming Out Day":
+                return `
+                    Today is <a href="https://www.hrc.org/resources/national-coming-out-day" target="_blank">National Coming Out Day</a>
+                `;
+                break;
+            case "Intersex Awareness Day":
+                return `
+                    Today is <a href="https://interactadvocates.org/intersex-awareness-day" target="_blank">Intersex Awareness Day</a>
+                `;
+                break;
+            default:
+                return ``;
+        }
+    }
+
+</script>
+        <nav class="navbar">
+    <ul class="nav__menu">
+        
+    
+    
+        <li>
+            <a  href="/">
+                Home
+            </a>
+        </li>
+        <li>
+            <a  href="/about/">
+                About
+            </a>
+        </li>
+        <li>
+            <a  href="/now/">
+                Now
+            </a>
+        </li>
+        <li>
+            <a  href="/blog/">
+                Blog
+            </a>
+        </li>
+        <li>
+            <a  href="/articles/">
+                Articles
+            </a>
+        </li>
+        <li>
+            <a  href="/projects/">
+                Projects
+            </a>
+        </li>
+        <li>
+            <a  href="/shrines/">
+                Shrines
+            </a>
+        </li>
+        <li>
+            <a  href="/links/">
+                Links
+            </a>
+        </li>
+    <li><a href="https://leilukin.123guestbook.com/">Guestbook</a></li>
+
+    </ul>
+</nav>
+
+<style>
+    .navbar {
+        background: var(--clr-navbar-bg);
+        padding: 0 0.6rem;
+        width: 100%;
+        z-index: 999;
+        position: sticky;
+        top: 0;
+    }
+
+    .navbar a {
+        color: var(--clr-navbar-link);
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .navbar a:hover {
+        color: var(--clr-link-hover);
+    }
+
+    .navbar a:focus {
+        outline-offset: 0.3em;
+        outline: 0.15em solid var(--clr-navbar-link);
+    }
+
+    .nav__menu {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+</style>
+
+        <main>
+            <header class="main__header">
+    
+        <ul class="breadcrumbs">
+            
+            <li>
+                <a href="/projects/" >Projects</a>
+            </li>
+            ➔
+        </ul>
+    
+
+    
+        <h1>My Mods for Star Wars: Knights of the Old Republic</h1>
+        
+            <p>List of video game mods I have made for Star Wars: Knights of the Old Republic.</p>
+        
+    
+</header>
+
+<div class="content__wrapper">
+    
+        <aside class="left-sidebar">
+    <details class="toc__wrapper sidebar--sticky">
+        <summary class="toc__heading">
+            On This Page
+        </summary>
+        <nav class="toc">
+                <ol>
+                    
+                    <li><a href="#player-and-party-members">Player & Party Members</a>
+            
+                <ol>
+                    
+                    <li><a href="#juhani-dialogue-restoration">Juhani Dialogue Restoration</a>
+            		</li>
+
+                    <li><a href="#carth-onasi-and-male-pc-romance">Carth Onasi and Male PC Romance</a>
+            		</li>
+
+                    <li><a href="#bastila-and-carth-romance-removal">Bastila and Carth Romance Removal</a>
+            		</li>
+
+                    <li><a href="#leilukins-juhanis-outfit-reskin-pack">Leilukin's Juhani's Outfit Reskin Pack</a>
+            		</li>
+
+                    <li><a href="#jolee-in-unique-outfit-introduction">Jolee in Unique Outfit Introduction</a>
+            		</li>
+
+                    <li><a href="#kotor-1-improved-party-outfits">KotOR 1 Improved Party Outfits</a>
+            		</li>
+
+                    <li><a href="#darth-revan-texture-for-star-forge-robes">Darth Revan Texture for Star Forge Robes</a>
+            		</li>
+                </ol>
+            		</li>
+
+                    <li><a href="#non-playable-characters">Non-Playable Characters</a>
+            
+                <ol>
+                    
+                    <li><a href="#kotor-1-twilek-male-npc-diversity">KotOR 1 Twi'lek Male NPC Diversity</a>
+            		</li>
+
+                    <li><a href="#kotor-1-twilek-female-npc-diversity">KotOR 1 Twi'lek Female NPC Diversity</a>
+            		</li>
+
+                    <li><a href="#belayas-unique-look">Belaya's Unique Look</a>
+            		</li>
+
+                    <li><a href="#human-xor-restoration">Human Xor Restoration</a>
+            		</li>
+
+                    <li><a href="#human-xor-unique-look">Human Xor Unique Look</a>
+            		</li>
+
+                    <li><a href="#kotor-1-no-gendered-dialogue-from-male-npcs">KotOR 1 No Gendered Dialogue from Male NPCs</a>
+            		</li>
+
+                    <li><a href="#pc-dialogue-with-daviks-slaves-change">PC Dialogue with Davik's Slaves Change</a>
+            		</li>
+                </ol>
+            		</li>
+
+                    <li><a href="#gameplay">Gameplay</a>
+            
+                <ol>
+                    
+                    <li><a href="#trask-ulgo-without-tutorials">Trask Ulgo Without Tutorials</a>
+            		</li>
+                </ol>
+            		</li>
+
+                    <li><a href="#music">Music</a>
+            
+                <ol>
+                    
+                    <li><a href="#mysterious-box-music-for-unknown-world">Mysterious Box Music for Unknown World</a>
+            		</li>
+                </ol>
+            		</li>
+                </ol>
+            </nav>
+    </details>
+</aside>
+
+<style>
+    .toc__wrapper {
+        max-height: 89vh;
+        overflow: auto;
+        background-color: var(--clr-content-bg);
+        padding: 1rem 1.3rem;
+    }
+
+    .toc__heading {
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: var(--clr-sub-heading);
+        cursor: pointer;
+    }
+
+    .toc ol,
+    .toc ol ol {
+        display: grid;
+        gap: 0.3em;
+    }
+
+    .toc ol {
+        border-top: 0.1em solid var(--clr-title-border);
+        padding-left: 1.3em;
+        padding-top: 1em;
+    }
+
+    .toc ol ol {
+        border-top: none;
+        list-style-type: disc;
+        padding-left: 1em;
+        padding-top: 0.3em;
+    }
+
+    .toc ol a {
+        font-size: 1.1rem;
+        padding-left: 0.3em;
+    }
+
+    .toc ol ol a {
+        padding: 0;
+        font-size: 1rem;
+    }
+</style>
+
+    
+
+    
+		<div class="content ">
+			<div class="heading-wrapper h2">
+<h2 id="player-and-party-members">Player &amp; Party Members</h2>
+<a class="heading-anchor" href="#player-and-party-members" aria-labelledby="player-and-party-members"><span hidden>#</span></a></div>
+<div class="heading-wrapper h3">
+<h3 id="juhani-dialogue-restoration">Juhani Dialogue Restoration</h3>
+<a class="heading-anchor" href="#juhani-dialogue-restoration" aria-labelledby="juhani-dialogue-restoration"><span hidden>#</span></a></div>
+<p><div class="mod-entry">
+<img src="/assets/projects/kotor1mods/Juhani-Dialogue-Restoration.png" alt="Banner of Juhani Dialogue Restoration mod">
+<p>Restores Juhani's conversations with the player that are unused or easy to miss in vanilla KotOR.</p>
+<h4>Download the mod:</h4>
+<div class="mod-entry__downloads"><a class="link-btn" href="https://deadlystream.com/files/file/2173-juhani-dialogue-restoration/" target="_blank">Deadly Stream</a><a class="link-btn" href="https://www.nexusmods.com/kotor/mods/1501" target="_blank">Nexus Mods</a></div>
+</div></p>
+<div class="heading-wrapper h3">
+<h3 id="carth-onasi-and-male-pc-romance">Carth Onasi and Male PC Romance</h3>
+<a class="heading-anchor" href="#carth-onasi-and-male-pc-romance" aria-labelledby="carth-onasi-and-male-pc-romance"><span hidden>#</span></a></div>
+<p><div class="mod-entry">
+<img src="/assets/projects/kotor1mods/Carth-Onasi-and-Male-PC-Romance.png" alt="Banner of Carth Onasi and Male PC Romance mod">
+<p>Makes Carth Onasi's romance subplot available for male player characters. <a href="/shrines/starwarskotor/articles/faq-same-gender-romance-mods">Read the FAQ article</a> before asking questions about my same-gender romance mods for the KotOR series!</p>
+<h4>Download the mod:</h4>
+<div class="mod-entry__downloads"><a class="link-btn" href="https://deadlystream.com/files/file/2140-carth-onasi-and-male-pc-romance/" target="_blank">Deadly Stream</a><a class="link-btn" href="https://www.nexusmods.com/kotor/mods/1493" target="_blank">Nexus Mods</a></div>
+</div></p>
+<div class="heading-wrapper h3">
+<h3 id="bastila-and-carth-romance-removal">Bastila and Carth Romance Removal</h3>
+<a class="heading-anchor" href="#bastila-and-carth-romance-removal" aria-labelledby="bastila-and-carth-romance-removal"><span hidden>#</span></a></div>
+<p><div class="mod-entry">
+<img src="/assets/projects/kotor1mods/Bastila-and-Carth-Romance-Removal.png" alt="Banner of Bastila and Carth Romance Removal mod">
+<p>Removes Bastila and Carth's romance by removing all romance-related dialogue from their conversations.</p>
+<h4>Download the mod:</h4>
+<div class="mod-entry__downloads"><a class="link-btn" href="https://deadlystream.com/files/file/2209-bastila-and-carth-romance-removal/" target="_blank">Deadly Stream</a><a class="link-btn" href="https://www.nexusmods.com/kotor/mods/1519" target="_blank">Nexus Mods</a></div>
+</div></p>
+<div class="heading-wrapper h3">
+<h3 id="leilukins-juhanis-outfit-reskin-pack">Leilukin's Juhani's Outfit Reskin Pack</h3>
+<a class="heading-anchor" href="#leilukins-juhanis-outfit-reskin-pack" aria-labelledby="leilukins-juhanis-outfit-reskin-pack"><span hidden>#</span></a></div>
+<p><div class="mod-entry">
+<img src="/assets/projects/kotor1mods/Leilukins-Juhanis-Outfit-Reskin-Pack.png" alt="Banner of Leilukin&#39;s Juhani&#39;s Outfit Reskin Pack mod">
+<p>Reskins Juhani's outfit by changing the outfit's color scheme, with multiple versions of reskin provided.</p>
+<h4>Download the mod:</h4>
+<div class="mod-entry__downloads"><a class="link-btn" href="https://deadlystream.com/files/file/2275-leilukins-juhanis-outfit-reskin-pack/" target="_blank">Deadly Stream</a><a class="link-btn" href="https://www.nexusmods.com/kotor/mods/1543" target="_blank">Nexus Mods</a></div>
+</div></p>
+<div class="heading-wrapper h3">
+<h3 id="jolee-in-unique-outfit-introduction">Jolee in Unique Outfit Introduction</h3>
+<a class="heading-anchor" href="#jolee-in-unique-outfit-introduction" aria-labelledby="jolee-in-unique-outfit-introduction"><span hidden>#</span></a></div>
+<p><div class="mod-entry">
+<img src="/assets/projects/kotor1mods/Jolee-in-Unique-Outfit-Introduction.png" alt="Banner of Jolee in Unique Outfit Introduction mod">
+<p>Makes Jolee Bindo wear his signature robe when you meet him on Kashyyyk, before he joins your party.</p>
+<h4>Download the mod:</h4>
+<div class="mod-entry__downloads"><a class="link-btn" href="https://deadlystream.com/files/file/1298-jolee-in-unique-outfit-introduction/" target="_blank">Deadly Stream</a><a class="link-btn" href="https://www.nexusmods.com/kotor/mods/1221" target="_blank">Nexus Mods</a></div>
+</div></p>
+<div class="heading-wrapper h3">
+<h3 id="kotor-1-improved-party-outfits">KotOR 1 Improved Party Outfits</h3>
+<a class="heading-anchor" href="#kotor-1-improved-party-outfits" aria-labelledby="kotor-1-improved-party-outfits"><span hidden>#</span></a></div>
+<p><div class="mod-entry">
+<img src="/assets/projects/kotor1mods/KotOR-1-Improved-Party-Outfits.png" alt="Banner of KotOR 1 Improved Party Outfits mod">
+<p>Adds new items to improve the properties of the default outfits of the human and humanoid party members of TSL, namely Bastila, Canderous, Carth, Jolee, Juhani and Mission.</p>
+<h4>Download the mod:</h4>
+<div class="mod-entry__downloads"><a class="link-btn" href="https://deadlystream.com/files/file/2134-kotor-1-improved-party-outfits/" target="_blank">Deadly Stream</a><a class="link-btn" href="https://www.nexusmods.com/kotor/mods/1491" target="_blank">Nexus Mods</a></div>
+</div></p>
+<div class="heading-wrapper h3">
+<h3 id="darth-revan-texture-for-star-forge-robes">Darth Revan Texture for Star Forge Robes</h3>
+<a class="heading-anchor" href="#darth-revan-texture-for-star-forge-robes" aria-labelledby="darth-revan-texture-for-star-forge-robes"><span hidden>#</span></a></div>
+<p><div class="mod-entry">
+<img src="/assets/projects/kotor1mods/Darth-Revan-Texture-for-Star-Forge-Robes.png" alt="Banner of Darth Revan Texture for Star Forge Robes mod">
+<p>Makes the Star Forge Robes to have the same texture and inventory icon as Darth Revan's Robes.</p>
+<h4>Download the mod:</h4>
+<div class="mod-entry__downloads"><a class="link-btn" href="https://deadlystream.com/files/file/1076-darth-revan-texture-for-star-forge-robes/" target="_blank">Deadly Stream</a><a class="link-btn" href="https://www.nexusmods.com/kotor/mods/1143" target="_blank">Nexus Mods</a></div>
+</div></p>
+<div class="heading-wrapper h2">
+<h2 id="non-playable-characters">Non-Playable Characters</h2>
+<a class="heading-anchor" href="#non-playable-characters" aria-labelledby="non-playable-characters"><span hidden>#</span></a></div>
+<div class="heading-wrapper h3">
+<h3 id="kotor-1-twilek-male-npc-diversity">KotOR 1 Twi'lek Male NPC Diversity</h3>
+<a class="heading-anchor" href="#kotor-1-twilek-male-npc-diversity" aria-labelledby="kotor-1-twilek-male-npc-diversity"><span hidden>#</span></a></div>
+<p><div class="mod-entry">
+<img src="/assets/projects/kotor1mods/K1-Twilek-Male-NPC-Diversity.png" alt="Banner of KotOR 1 Twi&#39;lek Male NPC Diversity mod">
+<p>Diversifies the appearances of Twi'lek male NPCs in KotOR 1 by giving the named Twi'lek male NPCs different looks instead of the generic NPC looks.</p>
+<h4>Download the mod:</h4>
+<div class="mod-entry__downloads"><a class="link-btn" href="https://deadlystream.com/files/file/2228-kotor-1-twilek-male-npc-diversity/" target="_blank">Deadly Stream</a><a class="link-btn" href="https://www.nexusmods.com/kotor/mods/1530" target="_blank">Nexus Mods</a></div>
+</div></p>
+<div class="heading-wrapper h3">
+<h3 id="kotor-1-twilek-female-npc-diversity">KotOR 1 Twi'lek Female NPC Diversity</h3>
+<a class="heading-anchor" href="#kotor-1-twilek-female-npc-diversity" aria-labelledby="kotor-1-twilek-female-npc-diversity"><span hidden>#</span></a></div>
+<p><div class="mod-entry">
+<img src="/assets/projects/kotor1mods/K1-Twilek-Female-NPC-Diversity.png" alt="Banner of KotOR 1 Twi&#39;lek Female NPC Diversity mod">
+<p>Diversifies the appearances of Twi'lek female NPCs by giving the named Twi'lek female NPCs different looks instead of the generic NPC looks.</p>
+<h4>Download the mod:</h4>
+<div class="mod-entry__downloads"><a class="link-btn" href="https://deadlystream.com/files/file/2179-kotor-1-twilek-female-npc-diversity/" target="_blank">Deadly Stream</a><a class="link-btn" href="https://www.nexusmods.com/kotor/mods/1504" target="_blank">Nexus Mods</a></div>
+</div></p>
+<div class="heading-wrapper h3">
+<h3 id="belayas-unique-look">Belaya's Unique Look</h3>
+<a class="heading-anchor" href="#belayas-unique-look" aria-labelledby="belayas-unique-look"><span hidden>#</span></a></div>
+<p><div class="mod-entry">
+<img src="/assets/projects/kotor1mods/Belaya-Unique-Look.png" alt="Banner of Belaya&#39;s Unique Look mod">
+<p>Gives the NPC Belaya a unique look instead of a generic NPC look.</p>
+<h4>Download the mod:</h4>
+<div class="mod-entry__downloads"><a class="link-btn" href="https://deadlystream.com/files/file/2146-belayas-unique-look/" target="_blank">Deadly Stream</a><a class="link-btn" href="https://www.nexusmods.com/kotor/mods/1494" target="_blank">Nexus Mods</a></div>
+</div></p>
+<div class="heading-wrapper h3">
+<h3 id="human-xor-restoration">Human Xor Restoration</h3>
+<a class="heading-anchor" href="#human-xor-restoration" aria-labelledby="human-xor-restoration"><span hidden>#</span></a></div>
+<p><div class="mod-entry">
+<img src="/assets/projects/kotor1mods/Human-Xor-Restoration.png" alt="Banner of Human Xor Restoration mod">
+<p>Restores the original appearance of the NPC Xor in the Xbox version of KotOR, by changing his species from a Twi'lek to a human.</p>
+<h4>Download the mod:</h4>
+<div class="mod-entry__downloads"><a class="link-btn" href="https://deadlystream.com/files/file/1091-human-xor-restoration/" target="_blank">Deadly Stream</a><a class="link-btn" href="https://www.nexusmods.com/kotor/mods/1155" target="_blank">Nexus Mods</a></div>
+</div></p>
+<div class="heading-wrapper h3">
+<h3 id="human-xor-unique-look">Human Xor Unique Look</h3>
+<a class="heading-anchor" href="#human-xor-unique-look" aria-labelledby="human-xor-unique-look"><span hidden>#</span></a></div>
+<p><div class="mod-entry">
+<img src="/assets/projects/kotor1mods/Human-Xor-Unique-Look.png" alt="Banner of Human Xor Unique Look mod">
+<p>Changes the NPC Xor's appearance by making him a human with a unique look to make him different from other human NPCs.</p>
+<h4>Download the mod:</h4>
+<div class="mod-entry__downloads"><a class="link-btn" href="https://deadlystream.com/files/file/2147-human-xor-unique-look/" target="_blank">Deadly Stream</a><a class="link-btn" href="https://www.nexusmods.com/kotor/mods/1495" target="_blank">Nexus Mods</a></div>
+</div></p>
+<div class="heading-wrapper h3">
+<h3 id="kotor-1-no-gendered-dialogue-from-male-npcs">KotOR 1 No Gendered Dialogue from Male NPCs</h3>
+<a class="heading-anchor" href="#kotor-1-no-gendered-dialogue-from-male-npcs" aria-labelledby="kotor-1-no-gendered-dialogue-from-male-npcs"><span hidden>#</span></a></div>
+<p><div class="mod-entry">
+<img src="/assets/projects/kotor1mods/K1-No-Gendered-Dialogue-Male-NPCs.png" alt="Banner of KotOR 1 No Gendered Dialogue from Male NPCs mod">
+<p>MOD_DESC</p>
+<h4>Download the mod:</h4>
+<div class="mod-entry__downloads"><a class="link-btn" href="https://deadlystream.com/files/file/2176-kotor-1-no-gendered-dialogue-from-male-npcs/" target="_blank">Deadly Stream</a><a class="link-btn" href="https://www.nexusmods.com/kotor/mods/1502" target="_blank">Nexus Mods</a></div>
+</div></p>
+<div class="heading-wrapper h3">
+<h3 id="pc-dialogue-with-daviks-slaves-change">PC Dialogue with Davik's Slaves Change</h3>
+<a class="heading-anchor" href="#pc-dialogue-with-daviks-slaves-change" aria-labelledby="pc-dialogue-with-daviks-slaves-change"><span hidden>#</span></a></div>
+<p><div class="mod-entry">
+<img src="/assets/projects/kotor1mods/PC-Dialogue-with-Daviks-Slaves-Change.png" alt="Banner of PC Dialogue with Davik&#39;s Slaves Change mod">
+<p>Removes the option for the player character to flirt with Davik Kang's slaves, or give the player Dark Side options for requesting a massage from the slaves. Threatening the slaves also gives the player Dark Side points.</p>
+<h4>Download the mod:</h4>
+<div class="mod-entry__downloads"><a class="link-btn" href="https://deadlystream.com/files/file/2214-pc-dialogue-with-daviks-slaves-change/" target="_blank">Deadly Stream</a><a class="link-btn" href="https://www.nexusmods.com/kotor/mods/1523" target="_blank">Nexus Mods</a></div>
+</div></p>
+<div class="heading-wrapper h2">
+<h2 id="gameplay">Gameplay</h2>
+<a class="heading-anchor" href="#gameplay" aria-labelledby="gameplay"><span hidden>#</span></a></div>
+<div class="heading-wrapper h3">
+<h3 id="trask-ulgo-without-tutorials">Trask Ulgo Without Tutorials</h3>
+<a class="heading-anchor" href="#trask-ulgo-without-tutorials" aria-labelledby="trask-ulgo-without-tutorials"><span hidden>#</span></a></div>
+<p><div class="mod-entry">
+<img src="/assets/projects/kotor1mods/Trask-Ulgo-Without-Tutorials.png" alt="Banner of Trask Ulgo Without Tutorials mod">
+<p>Removes the tutorial elements from the game, while keeps Trask Ulgo as a party member in the first area of the Endar Spire.</p>
+<h4>Download the mod:</h4>
+<div class="mod-entry__downloads"><a class="link-btn" href="https://deadlystream.com/files/file/2184-trask-ulgo-without-tutorials/" target="_blank">Deadly Stream</a><a class="link-btn" href="https://www.nexusmods.com/kotor/mods/1508" target="_blank">Nexus Mods</a></div>
+</div></p>
+<div class="heading-wrapper h2">
+<h2 id="music">Music</h2>
+<a class="heading-anchor" href="#music" aria-labelledby="music"><span hidden>#</span></a></div>
+<div class="heading-wrapper h3">
+<h3 id="mysterious-box-music-for-unknown-world">Mysterious Box Music for Unknown World</h3>
+<a class="heading-anchor" href="#mysterious-box-music-for-unknown-world" aria-labelledby="mysterious-box-music-for-unknown-world"><span hidden>#</span></a></div>
+<p><div class="mod-entry">
+<img src="/assets/projects/kotor1mods/Mysterious-Box-Music-for-Unknown-World.png" alt="Banner of Mysterious Box Music for Unknown World mod">
+<p>This mod will make the Mysterious Box's ambient music played in some areas of the Unknown World.</p>
+<h4>Download the mod:</h4>
+<div class="mod-entry__downloads"><a class="link-btn" href="https://deadlystream.com/files/file/1322-mysterious-box-music-for-unknown-world/" target="_blank">Deadly Stream</a><a class="link-btn" href="https://www.nexusmods.com/kotor/mods/1226" target="_blank">Nexus Mods</a></div>
+</div></p>
+
+		</div>
+    
+
+    
+
+    
+</div>
+
+<style>
+    .breadcrumbs {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 0.7em 0;
+        display: flex;
+        gap: 0.5em;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+</style>
+        </main>
+        <footer class="footer">
+    
+    <p>Made with ♥ by Leilukin since <time>11 September 2022</time></p>
+
+    
+    <ul class="footer__links">
+        <li>
+            <a  href="/sitemap/">Site Map</a>
+        </li>
+        |
+        <li>
+            <a  href="/changelogs/">Changelogs</a>
+        </li>
+        |
+        <li><a href="/feed.xml">RSS</a></li>
+    </ul>
+
+</footer>
+
+<style>
+    .footer {
+        margin-top: auto;
+        background: var(--clr-main-footer-bg);
+        padding: 0.8rem;
+        text-align: center;
+        display: grid;
+    }
+
+    .footer p {
+        padding: 0;
+    }
+
+    .footer__links {
+        justify-self: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 0.7em;
+    }
+
+    @media only screen and (min-width: 600px) {
+        .footer {
+            width: 100%;
+        }
+    }
+</style>
+        <button class="top-btn hidden">
+    <img src="/assets/images/elements/chevron-up.svg" alt="Scroll to top">
+</button>
+
+<style>
+    .top-btn {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        z-index: 999;
+        border: none;
+        background-color: var(--clr-top-btn);
+        border-radius: 50em;
+        padding: 0.3em;
+    }
+
+    .top-btn:focus {
+        outline: 0.25em solid var(--clr-top-btn);
+        outline-offset: 0.15em;
+    }
+
+    .top-btn img {
+        width: 1.5rem;
+        aspect-ratio: 1 / 1;
+    }
+</style>
+
+<script defer>
+    const topButton = document.querySelector(".top-btn");
+
+    window.onscroll = () => {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            topButton.classList.remove("hidden");
+        } else {
+            topButton.classList.add("hidden");
+        }
+    }
+
+    topButton.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: "smooth",
+        });
+    });
+</script>
+    </body>
+</html>

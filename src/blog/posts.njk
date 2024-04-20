@@ -1,0 +1,40 @@
+---
+title: Blog Archive
+layout: main/content
+tags: blog pages
+eleventyComputed:
+    desc: Archive of blog posts on {{ sitemeta.siteName | safe }}
+eleventyNavigation:
+    key: Blog Archive
+    parent: Blog
+---
+
+<ul class="blog__postlist">
+    {% for post in collections.posts | reverse %}
+        <li class="blog__postlist--item">
+            <h2 class="blog__postlist--title">
+                <a href="{{ post.url }}">
+                    {% if post.data.title %}{{ post.data.articleTitle }}
+                    {% else %}
+                        <code>{{ post.url }}</code>
+                    {% endif %}
+                </a>
+            </h2>
+            <time>{{ post.date | niceDate }}</time>
+        </li>
+    {% endfor %}
+</ul>
+
+<style>
+    .blog__postlist {
+        display: grid;
+        gap: 1em;
+        padding-left: 1em;
+    }
+
+    .blog__postlist--title {
+        font-size: clamp(1.55rem, 1rem + 3vw, 1.3rem);
+        line-height: 1.3;
+        margin-bottom: 0.2em;
+    }
+</style>

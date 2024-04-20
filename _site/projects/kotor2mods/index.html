@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" id="page-top">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        
+            <meta property="og:title" content="My Mods for Star Wars: Knights of the Old Republic II: The Sith Lords">
+        
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="List of video game mods I have made for Star Wars: Knights of the Old Republic II: The Sith Lords.">
+<meta name="generator" content="Eleventy v2.0.1">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://leilukin.neocities.org/projects/kotor2mods/">
+<meta property="og:site_name" content="Leilukin's Hub">
+<meta property="og:locale" content="en_MY">
+<meta property="og:description" content="List of video game mods I have made for Star Wars: Knights of the Old Republic II: The Sith Lords.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="https://leilukin.neocities.org/projects/kotor2mods/">
+<meta name="twitter:description" content="List of video game mods I have made for Star Wars: Knights of the Old Republic II: The Sith Lords.">
+<link rel="canonical" href="https://leilukin.neocities.org/projects/kotor2mods/">
+
+
+        
+        <link rel="stylesheet" href="/assets/css/main.css">
+        
+
+        
+        <link rel="stylesheet" href="/assets/fonts/noto-sans/noto-sans.css">
+
+        
+        <link href="/assets/fonts/fontawesome/css/fontawesome.css" rel="stylesheet" />
+        <link href="/assets/fonts/fontawesome/css/brands.css" rel="stylesheet" />
+        <link href="/assets/fonts/fontawesome/css/solid.css" rel="stylesheet" />
+
+        
+        
+            <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+            <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+            <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+            <link rel="manifest" href="/assets/favicon/site.webmanifest">
+        
+
+        <title>
+            My Mods for Star Wars: Knights of the Old Republic II: The Sith Lords | Leilukin's Hub
+        </title>
+    </head>
+    <body>
+        <header class="hero">
+    <div class="hero__top-bar hidden"></div>
+    <div class="hero__img">
+        
+    <img src="/assets/leilukin/Leilukins-Hub-website-banner.png" alt="Banner of Leilukin's Hub">
+
+    </div>
+</header>
+
+<style>
+    .hero {
+        width: 100%;
+        background-color: var(--clr-hero-bg);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero__top-bar {
+        background-color: var(--clr-navbar-bg);
+        width: 100%;
+        padding: 0.5em 0;
+    }
+
+    .hero__img {
+        display: grid;
+        place-content: center;
+    }
+
+    .hero img {
+        object-fit: scale-down;
+        overflow: hidden;
+        filter: drop-shadow(0.1rem 0.1rem 0.2rem black);
+        max-height: 20rem;
+    }
+</style>
+
+<script defer>
+    const hero = document.querySelector(".hero");
+    const todayEvent = getTodayEvent();
+    const heroTopBarEl = document.querySelector(".hero__top-bar");
+    const headerImgEl = document.querySelector(".hero__img");
+
+    
+    if (todayEvent != "No event") {
+        heroTopBarEl.classList.remove('hidden');
+
+        if (todayEvent == "Leilukin's Birthday" || todayEvent == "Leilukin's Hub Anniversary") {
+            heroTopBarEl.innerHTML = getBlurbHtml(todayEvent);
+        } else {
+            headerImgEl.classList.add(getBanner(todayEvent));
+            heroTopBarEl.innerHTML = getBlurbHtml(todayEvent);
+        }
+    }
+
+    function getTodayEvent() {
+        const date = new Date();
+        const month = date.getMonth() + 1;
+        const day = date.getDate();
+
+        if (month == 3 && day == 1)
+            return "Zero Discrimination Day";
+        else if (month == 3 && day == 31)
+            return "Trans Day of Visibility";
+        else if (month == 4 && day == 6)
+            return "International Asexuality Day";
+        else if (month == 4 && day == 26)
+            return "Lesbian Visibility Day";
+        else if (month == 5 && day == 17)
+            return "IDAHOBIT";
+        else if (month == 5 && day == 19)
+            return "Agender Pride Day";
+        else if (month == 5 && day == 25)
+            return "Pansexual and Panromantic Awareness & Visibility Day";
+        else if (month == 6)
+            return "Pride Month";
+        else if (month == 7 && day == 14)
+            return "Non-Binary People's Day";
+        else if (month == 7 && day == 28)
+            return "Leilukin's Birthday";
+        else if (month == 9 && day == 11)
+            return "Leilukin's Hub Anniversary";
+        else if (month == 9 && day == 23)
+            return "Bi Visibility Day";
+        else if (month == 10 && day == 8)
+            return "International Lesbian Day";
+        else if (month == 10 && day == 11)
+            return "National Coming Out Day";
+        else if (month == 10 && day == 26)
+            return "Intersex Awareness Day";
+        else
+            return "No event";
+    }
+
+    function getBanner(day) {
+        switch (day) {
+            case "Zero Discrimination Day":
+                return "flag-progress-intersex";
+                break;
+            case "Trans Day of Visibility":
+                return "flag-trans";
+                break;
+            case "International Asexuality Day":
+                return "flag-ace";
+                break;
+            case "Lesbian Visibility Day":
+                return "flag-lesbian";
+                break;
+            case "IDAHOBIT":
+                return "flag-progress";
+                break;
+            case "Agender Pride Day":
+                return "flag-agender";
+                break;
+            case "Pansexual and Panromantic Awareness & Visibility Day":
+                return "flag-pan";
+                break;
+            case "Pride Month":
+                return "flag-progress-intersex";
+                break;
+            case "Non-Binary People's Day":
+                return "flag-non-binary";
+                break;
+            case "Bi Visibility Day":
+                return "flag-bi";
+                break;
+            case "International Lesbian Day":
+                return "flag-lesbian";
+                break;
+            case "National Coming Out Day":
+                return "flag-rainbow";
+                break;
+            case "Intersex Awareness Day":
+                return "flag-intersex";
+                break;
+            default:
+                return "";
+        }
+    }
+
+    function getBlurbHtml(day) {
+        switch (day) {
+            case "Zero Discrimination Day":
+                return `
+                    Today is <a href="https://www.unaids.org/en/zero-discrimination-day" target="_blank">Zero Discrimination Day</a>
+                `;
+                break;
+            case "Trans Day of Visibility":
+                return `
+                    Today is <a href="https://www.manygendersonevoice.org/tdov.html" target="_blank">Trans Day of Visibility</a>
+                `;
+                break;
+            case "International Asexuality Day":
+                return `
+                    Today is <a href="https://internationalasexualityday.org/en" target="_blank">International Asexuality Day</a>
+                `;
+                break;
+            case "Lesbian Visibility Day":
+                return `
+                    Today is <a href="https://www.lesbianvisibilityweek.com" target="_blank">Lesbian Visibility Day</a>
+                `;
+                break;
+            case "IDAHOBIT":
+                return `
+                    Today is <a href="https://may17.org" target="_blank">International Day Against Homophobia, Biphobia and Transphobia</a></span>
+                `;
+                break;
+            case "Agender Pride Day":
+                return `
+                    Today is <a href="https://www.believeoutloud.com/voices/article/agender-pride-day/" target="_blank">Agender Pride Day</a></span>
+                `;
+                break;
+            case "Pansexual and Panromantic Awareness & Visibility Day":
+                return `
+                    Today is <a href="https://genderedintelligence.co.uk/panvisibilityday" target="_blank">Pansexual and Panromantic Visibility Day</a>
+                `;
+                break;
+            case "Pride Month":
+                return `
+                    Happy <a href="https://www.loc.gov/lgbt-pride-month/about/" target="_blank">Pride Month</a>!
+                `;
+                break;
+            case "Non-Binary People's Day":
+                return `
+                    Today is <a href="https://www.manygendersonevoice.org/non-binary-peoples-day.html" target="_blank">Non-Binary People's Day</a>
+                `;
+                break;
+            case "Leilukin's Birthday":
+                return `
+                    Today is Leilukin's birthday
+                `;
+                break;
+            case "Leilukin's Hub Anniversary":
+                return `
+                    Today is the anniversary of the launch of Leilukin's Hub
+                `;
+                break;
+            case "Bi Visibility Day":
+                return `
+                    Today is <a href="https://bivisibilityday.com/about" target="_blank">Bi Visibility Day</a>
+                `;
+                break;
+            case "International Lesbian Day":
+                return `
+                    Today is <a href="https://www.lgbtiqhealth.org.au/international_lesbian_day2" target="_blank">International Lesbian Day</a>
+                `;
+                break;
+            case "National Coming Out Day":
+                return `
+                    Today is <a href="https://www.hrc.org/resources/national-coming-out-day" target="_blank">National Coming Out Day</a>
+                `;
+                break;
+            case "Intersex Awareness Day":
+                return `
+                    Today is <a href="https://interactadvocates.org/intersex-awareness-day" target="_blank">Intersex Awareness Day</a>
+                `;
+                break;
+            default:
+                return ``;
+        }
+    }
+
+</script>
+        <nav class="navbar">
+    <ul class="nav__menu">
+        
+    
+    
+        <li>
+            <a  href="/">
+                Home
+            </a>
+        </li>
+        <li>
+            <a  href="/about/">
+                About
+            </a>
+        </li>
+        <li>
+            <a  href="/now/">
+                Now
+            </a>
+        </li>
+        <li>
+            <a  href="/blog/">
+                Blog
+            </a>
+        </li>
+        <li>
+            <a  href="/articles/">
+                Articles
+            </a>
+        </li>
+        <li>
+            <a  href="/projects/">
+                Projects
+            </a>
+        </li>
+        <li>
+            <a  href="/shrines/">
+                Shrines
+            </a>
+        </li>
+        <li>
+            <a  href="/links/">
+                Links
+            </a>
+        </li>
+    <li><a href="https://leilukin.123guestbook.com/">Guestbook</a></li>
+
+    </ul>
+</nav>
+
+<style>
+    .navbar {
+        background: var(--clr-navbar-bg);
+        padding: 0 0.6rem;
+        width: 100%;
+        z-index: 999;
+        position: sticky;
+        top: 0;
+    }
+
+    .navbar a {
+        color: var(--clr-navbar-link);
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .navbar a:hover {
+        color: var(--clr-link-hover);
+    }
+
+    .navbar a:focus {
+        outline-offset: 0.3em;
+        outline: 0.15em solid var(--clr-navbar-link);
+    }
+
+    .nav__menu {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+</style>
+
+        <main>
+            <header class="main__header">
+    
+        <ul class="breadcrumbs">
+            
+            <li>
+                <a href="/projects/" >Projects</a>
+            </li>
+            ➔
+        </ul>
+    
+
+    
+        <h1>My Mods for Star Wars: Knights of the Old Republic II: The Sith Lords</h1>
+        
+            <p>List of video game mods I have made for Star Wars: Knights of the Old Republic II: The Sith Lords.</p>
+        
+    
+</header>
+
+<div class="content__wrapper">
+    
+        <aside class="left-sidebar">
+    <details class="toc__wrapper sidebar--sticky">
+        <summary class="toc__heading">
+            On This Page
+        </summary>
+        <nav class="toc">
+                <ol>
+                    
+                    <li><a href="#important-note-for-steam-users">Important Note for Steam Users</a>
+            		</li>
+
+                    <li><a href="#same-gender-romances">Same-Gender Romances</a>
+            
+                <ol>
+                    
+                    <li><a href="#atton-rand-and-male-exile-romance">Atton Rand and Male Exile Romance</a>
+            		</li>
+
+                    <li><a href="#handmaiden-and-female-exile-disciple-and-male-exile-romance">Handmaiden and Female Exile - Disciple and Male Exile Romance</a>
+            		</li>
+
+                    <li><a href="#visas-marr-and-female-exile-romance">Visas Marr and Female Exile Romance</a>
+            		</li>
+
+                    <li><a href="#alternate-revan-romances-redux">Alternate Revan Romances REDUX</a>
+            		</li>
+
+                    <li><a href="#darth-sion-and-male-exile-mod">Darth Sion and Male Exile Mod</a>
+            		</li>
+
+                    <li><a href="#dahnis-flirt-option-for-female-pc">Dahnis Flirt Option for Female PC</a>
+            		</li>
+
+                    <li><a href="#partyswap">PartySwap</a>
+            		</li>
+
+                    <li><a href="#leilukins-kreia-reskin">Leilukin’s Kreia Reskin</a>
+            		</li>
+
+                    <li><a href="#no-jealousy-lock-in-handmaiden-dialogue">No Jealousy Lock in Handmaiden Dialogue</a>
+            		</li>
+
+                    <li><a href="#visas-visible-jedi-robes">Visas Visible Jedi Robes</a>
+            		</li>
+
+                    <li><a href="#love-between-brianna-and-the-exile-the-sith-lords-restored-content-mod-version">Love Between Brianna and the Exile - The Sith Lords Restored Content Mod Version</a>
+            		</li>
+                </ol>
+            		</li>
+
+                    <li><a href="#npcs">NPCs</a>
+            
+                <ol>
+                    
+                    <li><a href="#lonna-vash-mod-for-tslrcm">Lonna Vash Mod for TSLRCM</a>
+            		</li>
+
+                    <li><a href="#tsl-twilek-male-npc-diversity">TSL Twi'lek Male NPC Diversity</a>
+            		</li>
+
+                    <li><a href="#dahnis-unique-look">Dahnis Unique Look</a>
+            		</li>
+                </ol>
+            		</li>
+
+                    <li><a href="#items">Items</a>
+            
+                <ol>
+                    
+                    <li><a href="#tsl-improved-party-outfits">TSL Improved Party Outfits</a>
+            		</li>
+
+                    <li><a href="#juhani-item-pack-for-tsl">Juhani Item Pack for TSL</a>
+            		</li>
+
+                    <li><a href="#prologue-item-recovery">Prologue Item Recovery</a>
+            		</li>
+
+                    <li><a href="#tsl-workbench-lightsaber-creation">TSL Workbench Lightsaber Creation</a>
+            		</li>
+                </ol>
+            		</li>
+
+                    <li><a href="#miscellaneous">Miscellaneous</a>
+            
+                <ol>
+                    
+                    <li><a href="#exiles-trial-overlay-removal">Exile's Trial Overlay Removal</a>
+            		</li>
+                </ol>
+            		</li>
+
+                    <li><a href="#patches">Patches</a>
+            
+                <ol>
+                    
+                    <li><a href="#partyswap-and-extended-enclave-compatibility-patch">PartySwap and Extended Enclave Compatibility Patch</a>
+            		</li>
+
+                    <li><a href="#remote-tells-influence-patch-for-the-sith-lords-restored-content-mod">Remote Tells Influence Patch for The Sith Lords Restored Content Mod</a>
+            		</li>
+                </ol>
+            		</li>
+                </ol>
+            </nav>
+    </details>
+</aside>
+
+<style>
+    .toc__wrapper {
+        max-height: 89vh;
+        overflow: auto;
+        background-color: var(--clr-content-bg);
+        padding: 1rem 1.3rem;
+    }
+
+    .toc__heading {
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: var(--clr-sub-heading);
+        cursor: pointer;
+    }
+
+    .toc ol,
+    .toc ol ol {
+        display: grid;
+        gap: 0.3em;
+    }
+
+    .toc ol {
+        border-top: 0.1em solid var(--clr-title-border);
+        padding-left: 1.3em;
+        padding-top: 1em;
+    }
+
+    .toc ol ol {
+        border-top: none;
+        list-style-type: disc;
+        padding-left: 1em;
+        padding-top: 0.3em;
+    }
+
+    .toc ol a {
+        font-size: 1.1rem;
+        padding-left: 0.3em;
+    }
+
+    .toc ol ol a {
+        padding: 0;
+        font-size: 1rem;
+    }
+</style>
+
+    
+
+    
+		<div class="content ">
+			<div class="heading-wrapper h2">
+<h2 id="important-note-for-steam-users">Important Note for Steam Users</h2>
+<a class="heading-anchor" href="#important-note-for-steam-users" aria-labelledby="important-note-for-steam-users"><span hidden>#</span></a></div>
+<p>If you play KotOR 2 on Steam, I <strong>DO NOT recommend using the Steam Workshop to mod KotOR 2 at all</strong>, especially if you want to use any of my mods. I recommend reading this post on <a href="https://deadlystream.com/topic/7321-why-not-to-use-the-steam-workshop/">why NOT to use the Steam Workshop</a>.</p>
+<p>The sheer amount of mod compatibility issues the Steam Workshop can cause to KotOR 2 mods is precisely why <strong>I will <em>never</em> upload any of my KotOR 2 mods to Steam Workshop</strong>.</p>
+<div class="heading-wrapper h2">
+<h2 id="same-gender-romances">Same-Gender Romances</h2>
+<a class="heading-anchor" href="#same-gender-romances" aria-labelledby="same-gender-romances"><span hidden>#</span></a></div>
+<h3 class="center-text" style="color: inherit;">Before you ask any questions about my same-gender romance mods for the <cite>KotOR</cite> series, <a href="/shrines/starwarskotor/articles/faq-same-gender-romance-mods" target="_blank">read the FAQ article</a> first!</h3>
+<div class="heading-wrapper h3">
+<h3 id="atton-rand-and-male-exile-romance">Atton Rand and Male Exile Romance</h3>
+<a class="heading-anchor" href="#atton-rand-and-male-exile-romance" aria-labelledby="atton-rand-and-male-exile-romance"><span hidden>#</span></a></div>
+<p><div class="mod-entry">
+<img src="/assets/projects/kotor2mods/Atton-Rand-and-Male-Exile-Romance.png" alt="Banner of Atton Rand and Male Exile Romance mod">
+<p>Makes Atton flirts with and expresses romantic interests for male Exiles.</p>
+<h4>Download the mod:</h4>
+<div class="mod-entry__downloads"><a class="link-btn" href="https://deadlystream.com/files/file/972-atton-rand-and-male-exile-romance/" target="_blank">Deadly Stream</a><a class="link-btn" href="https://www.nexusmods.com/kotor2/mods/926" target="_blank">Nexus Mods</a></div>
+</div></p>
+<div class="heading-wrapper h3">
+<h3 id="handmaiden-and-female-exile-disciple-and-male-exile-romance">Handmaiden and Female Exile - Disciple and Male Exile Romance</h3>
+<a class="heading-anchor" href="#handmaiden-and-female-exile-disciple-and-male-exile-romance" aria-labelledby="handmaiden-and-female-exile-disciple-and-male-exile-romance"><span hidden>#</span></a></div>
+<p><div class="mod-entry">
+<img src="/assets/projects/kotor2mods/Handmaiden-Disciple-Same-Gender-Romances.png" alt="Banner of Handmaiden and Female Exile - Disciple and Male Exile Romance mod">
+<p>Makes the Handmaiden a romance option for female Exiles and the Disciple a romance option for male Exiles.</p>
+<h4>Download the mod:</h4>
+<div class="mod-entry__downloads"><a class="link-btn" href="https://deadlystream.com/files/file/977-handmaiden-and-female-exile-disciple-and-male-exile-romance/" target="_blank">Deadly Stream</a><a class="link-btn" href="https://www.nexusmods.com/kotor2/mods/927" target="_blank">Nexus Mods</a></div>
+</div></p>
+<div class="heading-wrapper h3">
+<h3 id="visas-marr-and-female-exile-romance">Visas Marr and Female Exile Romance</h3>
+<a class="heading-anchor" href="#visas-marr-and-female-exile-romance" aria-labelledby="visas-marr-and-female-exile-romance"><span hidden>#</span></a></div>
+<p><div class="mod-entry">
+<img src="/assets/projects/kotor2mods/Visas-Marr-and-Female-Exile-Romance.png" alt="Banner of Visas Marr and Female Exile Romance mod">
+<p>Makes the Visas Marr romance scene available for female Exiles.</p>
+<h4>Download the mod:</h4>
+<div class="mod-entry__downloads"><a class="link-btn" href="https://deadlystream.com/files/file/968-visas-marr-and-female-exile-romance/" target="_blank">Deadly Stream</a><a class="link-btn" href="https://www.nexusmods.com/kotor2/mods/925" target="_blank">Nexus Mods</a></div>
+</div></p>
+<div class="heading-wrapper h3">
+<h3 id="alternate-revan-romances-redux">Alternate Revan Romances REDUX</h3>
+<a class="heading-anchor" href="#alternate-revan-romances-redux" aria-labelledby="alternate-revan-romances-redux"><span hidden>#</span></a></div>
+<p><div class="mod-entry">
+<img src="/assets/projects/kotor2mods/Alternate-Revan-Romances.png" alt="Banner of Alternate Revan Romances REDUX mod">
+<p>Gives players options to set Revan's love ineterest(s), or lack thereof. Updated version of felixfelicitas' Alternate Revan Romances mod.</p>
+<h4>Download the mod:</h4>
+<div class="mod-entry__downloads"><a class="link-btn" href="https://deadlystream.com/files/file/1004-alternate-revan-romances-redux/" target="_blank">Deadly Stream</a><a class="link-btn" href="https://www.nexusmods.com/kotor2/mods/933" target="_blank">Nexus Mods</a></div>
+</div></p>
+<div class="heading-wrapper h3">
+<h3 id="darth-sion-and-male-exile-mod">Darth Sion and Male Exile Mod</h3>
+<a class="heading-anchor" href="#darth-sion-and-male-exile-mod" aria-labelledby="darth-sion-and-male-exile-mod"><span hidden>#</span></a></div>
+<p><div class="mod-entry">
+<img src="/assets/projects/kotor2mods/Darth-Sion-and-Male-Exile-Mod.png" alt="Banner of Darth Sion and Male Exile Mod mod">
+<p>Makes Darth Sion develop the same affections to a male Exile like he did to a female Exile in vanilla KotOR 2.</p>
+<h4>Download the mod:</h4>
+<div class="mod-entry__downloads"><a class="link-btn" href="https://deadlystream.com/files/file/996-darth-sion-and-male-exile-mod/" target="_blank">Deadly Stream</a><a class="link-btn" href="https://www.nexusmods.com/kotor2/mods/928" target="_blank">Nexus Mods</a></div>
+</div></p>
+<div class="heading-wrapper h3">
+<h3 id="dahnis-flirt-option-for-female-pc">Dahnis Flirt Option for Female PC</h3>
+<a class="heading-anchor" href="#dahnis-flirt-option-for-female-pc" aria-labelledby="dahnis-flirt-option-for-female-pc"><span hidden>#</span></a></div>
+<p><div class="mod-entry">
+<img src="/assets/projects/kotor2mods/Dahnis-Flirt-Option-for-Female-PC.png" alt="Banner of Dahnis Flirt Option for Female PC mod">
+<p>Makes the NPC Dahnis flirt with the player character regardless of gender, including a female PC. A female PC also gets the option to flirt back.</p>
+<h4>Download the mod:</h4>
+<div class="mod-entry__downloads"><a class="link-btn" href="https://deadlystream.com/files/file/1400-dahnis-flirt-option-for-female-pc/" target="_blank">Deadly Stream</a><a class="link-btn" href="https://www.nexusmods.com/kotor2/mods/1036" target="_blank">Nexus Mods</a></div>
+</div></p>
+<h2>Party Members</h2>
+<div class="heading-wrapper h3">
+<h3 id="partyswap">PartySwap</h3>
+<a class="heading-anchor" href="#partyswap" aria-labelledby="partyswap"><span hidden>#</span></a></div>
+<p><div class="mod-entry">
+<img src="/assets/projects/kotor2mods/PartySwap.png" alt="Banner of PartySwap mod">
+<p>Allows you to recruit both Handmaiden and Disciple in the same playthrough regardless of the player character's gender. Mod originally created by DarthTyren. I have <a href="/shrines/starwarskotor/articles/partyswap-management-takeover">taken over the management and development of this mod</a> since July 2023 due to DarthTyren's departure from the KotOR modding scene.</p>
+<h4>Download the mod:</h4>
+<div class="mod-entry__downloads"><a class="link-btn" href="https://deadlystream.com/files/file/544-partyswap/" target="_blank">Deadly Stream</a></div>
+</div></p>
+<div class="heading-wrapper h3">
+<h3 id="leilukins-kreia-reskin">Leilukin’s Kreia Reskin</h3>
+<a class="heading-anchor" href="#leilukins-kreia-reskin" aria-labelledby="leilukins-kreia-reskin"><span hidden>#</span></a></div>
+<p><div class="mod-entry">
+<img src="/assets/projects/kotor2mods/Leilukin&#39;s-Kreia-Reskin.png" alt="Banner of Leilukin’s Kreia Reskin mod">
+<p>My version of a retexture of Kreia.</p>
+<h4>Download the mod:</h4>
+<div class="mod-entry__downloads"><a class="link-btn" href="https://deadlystream.com/files/file/1003-leilukins-kreia-reskin/" target="_blank">Deadly Stream</a><a class="link-btn" href="https://www.nexusmods.com/kotor2/mods/932" target="_blank">Nexus Mods</a></div>
+</div></p>
+<div class="heading-wrapper h3">
+<h3 id="no-jealousy-lock-in-handmaiden-dialogue">No Jealousy Lock in Handmaiden Dialogue</h3>
+<a class="heading-anchor" href="#no-jealousy-lock-in-handmaiden-dialogue" aria-labelledby="no-jealousy-lock-in-handmaiden-dialogue"><span hidden>#</span></a></div>
+<p><div class="mod-entry">
+<img src="/assets/projects/kotor2mods/No-Jealousy-Lock-Handmaiden.png" alt="Banner of No Jealousy Lock in Handmaiden Dialogue mod">
+<p>Allows you to continue to talk to Handmaiden even if you have much higher influence with Visas than with Handmaiden.</p>
+<h4>Download the mod:</h4>
+<div class="mod-entry__downloads"><a class="link-btn" href="https://deadlystream.com/files/file/2205-no-jealousy-lock-in-handmaiden-dialogue/" target="_blank">Deadly Stream</a><a class="link-btn" href="https://www.nexusmods.com/kotor2/mods/1181" target="_blank">Nexus Mods</a></div>
+</div></p>
+<div class="heading-wrapper h3">
+<h3 id="visas-visible-jedi-robes">Visas Visible Jedi Robes</h3>
+<a class="heading-anchor" href="#visas-visible-jedi-robes" aria-labelledby="visas-visible-jedi-robes"><span hidden>#</span></a></div>
+<p><div class="mod-entry">
+<img src="/assets/projects/kotor2mods/Visas-Visible-Jedi-Robes.png" alt="Banner of Visas Visible Jedi Robes mod">
+<p>Makes Jedi robes visible on Visas Marr's body when you equip her with one.</p>
+<h4>Download the mod:</h4>
+<div class="mod-entry__downloads"><a class="link-btn" href="https://deadlystream.com/files/file/2218-visas-visible-jedi-robes/" target="_blank">Deadly Stream</a><a class="link-btn" href="https://www.nexusmods.com/kotor2/mods/1185" target="_blank">Nexus Mods</a></div>
+</div></p>
+<div class="heading-wrapper h3">
+<h3 id="love-between-brianna-and-the-exile-the-sith-lords-restored-content-mod-version">Love Between Brianna and the Exile - The Sith Lords Restored Content Mod Version</h3>
+<a class="heading-anchor" href="#love-between-brianna-and-the-exile-the-sith-lords-restored-content-mod-version" aria-labelledby="love-between-brianna-and-the-exile-the-sith-lords-restored-content-mod-version"><span hidden>#</span></a></div>
+<p><div class="mod-entry">
+<img src="/assets/projects/kotor2mods/Love-Between-Brianna-and-the-Exile-TSLRCM.png" alt="Banner of Love Between Brianna and the Exile - The Sith Lords Restored Content Mod Version mod">
+<p>Updated version of DarthShgaad's <a href="https://www.gamefront.com/games/knights-of-the-old-republic-ii/file/love-between-brianna-and-the-exile">Love Between Brianna and the Exile</a> mod, made to be more compatible with The Sith Lords Restored Content Mod (TSLRCM).</p>
+<h4>Download the mod:</h4>
+<div class="mod-entry__downloads"><a class="link-btn" href="https://www.dropbox.com/s/ilntlihyaabthzg/Love%20Between%20Brianna%20And%20The%20Exile%20-%20TSLRCM%20version.zip?dl=0" target="_blank">Dropbox</a></div>
+</div></p>
+<div class="heading-wrapper h2">
+<h2 id="npcs">NPCs</h2>
+<a class="heading-anchor" href="#npcs" aria-labelledby="npcs"><span hidden>#</span></a></div>
+<div class="heading-wrapper h3">
+<h3 id="lonna-vash-mod-for-tslrcm">Lonna Vash Mod for TSLRCM</h3>
+<a class="heading-anchor" href="#lonna-vash-mod-for-tslrcm" aria-labelledby="lonna-vash-mod-for-tslrcm"><span hidden>#</span></a></div>
+<p><div class="mod-entry">
+<img src="/assets/projects/kotor2mods/Lonna-Vash-Mod-for-TSLRCM.png" alt="Banner of Lonna Vash Mod for TSLRCM mod">
+<p>estores Jedi Master Lonna Vash's cut conversation by allowing the player to meet and talk to her in the secret tomb on Korriban. Updated version of Sikon's Lonna Vash Mod, made to be fully compatible with The Sith Lord Restored Content Mod (TSLRCM).</p>
+<h4>Download the mod:</h4>
+<div class="mod-entry__downloads"><a class="link-btn" href="https://deadlystream.com/files/file/2201-lonna-vash-mod-for-tslrcm/" target="_blank">Deadly Stream</a><a class="link-btn" href="https://www.nexusmods.com/kotor2/mods/1180" target="_blank">Nexus Mods</a></div>
+</div></p>
+<div class="heading-wrapper h3">
+<h3 id="tsl-twilek-male-npc-diversity">TSL Twi'lek Male NPC Diversity</h3>
+<a class="heading-anchor" href="#tsl-twilek-male-npc-diversity" aria-labelledby="tsl-twilek-male-npc-diversity"><span hidden>#</span></a></div>
+<p><div class="mod-entry">
+<img src="/assets/projects/kotor2mods/TSL-Twilek-Male-NPC-Diversity.png" alt="Banner of TSL Twi&#39;lek Male NPC Diversity mod">
+<p>Diversifies the appearances of Twi'lek male NPCs in KotOR 2: TSL by giving the named Twi'lek male NPCs different looks.</p>
+<h4>Download the mod:</h4>
+<div class="mod-entry__downloads"><a class="link-btn" href="https://deadlystream.com/files/file/2242-tsl-twilek-male-npc-diversity/" target="_blank">Deadly Stream</a><a class="link-btn" href="https://www.nexusmods.com/kotor2/mods/1188" target="_blank">Nexus Mods</a></div>
+</div></p>
+<div class="heading-wrapper h3">
+<h3 id="dahnis-unique-look">Dahnis Unique Look</h3>
+<a class="heading-anchor" href="#dahnis-unique-look" aria-labelledby="dahnis-unique-look"><span hidden>#</span></a></div>
+<p><div class="mod-entry">
+<img src="/assets/projects/kotor2mods/Dahnis-Unique-Look.png" alt="Banner of Dahnis Unique Look mod">
+<p>Gives the NPC Dahnis a unique appearance to make her look different from other Twi'lek women NPCs.</p>
+<h4>Download the mod:</h4>
+<div class="mod-entry__downloads"><a class="link-btn" href="https://deadlystream.com/files/file/2198-dahnis-unique-look/" target="_blank">Deadly Stream</a><a class="link-btn" href="https://www.nexusmods.com/kotor2/mods/1178" target="_blank">Nexus Mods</a></div>
+</div></p>
+<div class="heading-wrapper h2">
+<h2 id="items">Items</h2>
+<a class="heading-anchor" href="#items" aria-labelledby="items"><span hidden>#</span></a></div>
+<div class="heading-wrapper h3">
+<h3 id="tsl-improved-party-outfits">TSL Improved Party Outfits</h3>
+<a class="heading-anchor" href="#tsl-improved-party-outfits" aria-labelledby="tsl-improved-party-outfits"><span hidden>#</span></a></div>
+<p><div class="mod-entry">
+<img src="/assets/projects/kotor2mods/TSL-Improved-Party-Outfits.png" alt="Banner of TSL Improved Party Outfits mod">
+<p>Adds new items to improve the properties of the default outfits of the human and humanoid party members of KotOR II, namely Atton, Bao-Dur, the Disciple, the Handmaiden, Kreia, Mandalore, Mira and Visas.</p>
+<h4>Download the mod:</h4>
+<div class="mod-entry__downloads"><a class="link-btn" href="https://deadlystream.com/files/file/1012-tsl-improved-party-outfits/" target="_blank">Deadly Stream</a><a class="link-btn" href="https://www.nexusmods.com/kotor2/mods/934" target="_blank">Nexus Mods</a></div>
+</div></p>
+<div class="heading-wrapper h3">
+<h3 id="juhani-item-pack-for-tsl">Juhani Item Pack for TSL</h3>
+<a class="heading-anchor" href="#juhani-item-pack-for-tsl" aria-labelledby="juhani-item-pack-for-tsl"><span hidden>#</span></a></div>
+<p><div class="mod-entry">
+<img src="/assets/projects/kotor2mods/Juhani-Item-Pack-for-TSL.png" alt="Banner of Juhani Item Pack for TSL mod">
+<p>Adds a new Jedi robe, a new headband and a new armband to In KotOR II: TSL, named after Juhani, with item descriptions that indicate these items once belonged to Juhani.</p>
+<h4>Download the mod:</h4>
+<div class="mod-entry__downloads"><a class="link-btn" href="https://deadlystream.com/files/file/2244-juhani-item-pack-for-tsl/" target="_blank">Deadly Stream</a><a class="link-btn" href="https://www.nexusmods.com/kotor2/mods/1190" target="_blank">Nexus Mods</a></div>
+</div></p>
+<div class="heading-wrapper h3">
+<h3 id="prologue-item-recovery">Prologue Item Recovery</h3>
+<a class="heading-anchor" href="#prologue-item-recovery" aria-labelledby="prologue-item-recovery"><span hidden>#</span></a></div>
+<p><div class="mod-entry">
+<img src="/assets/projects/kotor2mods/Prologue-Item-Recovery.png" alt="Banner of Prologue Item Recovery mod">
+<p>Allows you to recover the items you obtain from the prologue, regardless if you choose to skip the prologue or not.</p>
+<h4>Download the mod:</h4>
+<div class="mod-entry__downloads"><a class="link-btn" href="https://deadlystream.com/files/file/2211-prologue-item-recovery/" target="_blank">Deadly Stream</a><a class="link-btn" href="https://www.nexusmods.com/kotor2/mods/1183" target="_blank">Nexus Mods</a></div>
+</div></p>
+<div class="heading-wrapper h3">
+<h3 id="tsl-workbench-lightsaber-creation">TSL Workbench Lightsaber Creation</h3>
+<a class="heading-anchor" href="#tsl-workbench-lightsaber-creation" aria-labelledby="tsl-workbench-lightsaber-creation"><span hidden>#</span></a></div>
+<p><div class="mod-entry">
+<img src="/assets/projects/kotor2mods/TSL-Workbnch-Lightsaber-Creation.png" alt="Banner of TSL Workbench Lightsaber Creation mod">
+<p>Allows you to create lightsabers at a workbench, including double-bladed, one-handed or short lightsabers, with any color focusing crystals available in the game, after completing the quest to craft your first lightsaber.</p>
+<h4>Download the mod:</h4>
+<div class="mod-entry__downloads"><a class="link-btn" href="https://deadlystream.com/files/file/2197-tsl-workbench-lightsaber-creation/" target="_blank">Deadly Stream</a><a class="link-btn" href="https://www.nexusmods.com/kotor2/mods/1177" target="_blank">Nexus Mods</a></div>
+</div></p>
+<div class="heading-wrapper h2">
+<h2 id="miscellaneous">Miscellaneous</h2>
+<a class="heading-anchor" href="#miscellaneous" aria-labelledby="miscellaneous"><span hidden>#</span></a></div>
+<div class="heading-wrapper h3">
+<h3 id="exiles-trial-overlay-removal">Exile's Trial Overlay Removal</h3>
+<a class="heading-anchor" href="#exiles-trial-overlay-removal" aria-labelledby="exiles-trial-overlay-removal"><span hidden>#</span></a></div>
+<p><div class="mod-entry">
+<img src="/assets/projects/kotor2mods/Exiles-Trial-Overlay-Removal.png" alt="Banner of Exile&#39;s Trial Overlay Removal mod">
+<p>Removes the blue overlay of the scene of the Exile's trial on Coruscant in The Sith Lords Restored Content Mod (TSLRCM).</p>
+<h4>Download the mod:</h4>
+<div class="mod-entry__downloads"><a class="link-btn" href="https://deadlystream.com/files/file/2217-exiles-trial-overlay-removal/" target="_blank">Deadly Stream</a><a class="link-btn" href="https://www.nexusmods.com/kotor2/mods/1184" target="_blank">Nexus Mods</a></div>
+</div></p>
+<div class="heading-wrapper h2">
+<h2 id="patches">Patches</h2>
+<a class="heading-anchor" href="#patches" aria-labelledby="patches"><span hidden>#</span></a></div>
+<div class="heading-wrapper h3">
+<h3 id="partyswap-and-extended-enclave-compatibility-patch">PartySwap and Extended Enclave Compatibility Patch</h3>
+<a class="heading-anchor" href="#partyswap-and-extended-enclave-compatibility-patch" aria-labelledby="partyswap-and-extended-enclave-compatibility-patch"><span hidden>#</span></a></div>
+<p><div class="mod-entry">
+<img src="/assets/projects/kotor2mods/PartySwap-ExtEnclave-Comp-Patch.png" alt="Banner of PartySwap and Extended Enclave Compatibility Patch mod">
+<p>A standalone patch to make DarthTyren's <a href="https://deadlystream.com/files/file/544-partyswap/">PartySwap</a> mod compatible with danil-ch and Darth Hayze's <a href="https://deadlystream.com/files/file/428-extended-enclave-tslrcm-add-on/">Extended Enclave</a> mod.</p>
+<h4>Download the mod:</h4>
+<div class="mod-entry__downloads"><a class="link-btn" href="https://deadlystream.com/files/file/1304-partyswap-and-extended-enclave-compatibility-patch/" target="_blank">Deadly Stream</a></div>
+</div></p>
+<div class="heading-wrapper h3">
+<h3 id="remote-tells-influence-patch-for-the-sith-lords-restored-content-mod">Remote Tells Influence Patch for The Sith Lords Restored Content Mod</h3>
+<a class="heading-anchor" href="#remote-tells-influence-patch-for-the-sith-lords-restored-content-mod" aria-labelledby="remote-tells-influence-patch-for-the-sith-lords-restored-content-mod"><span hidden>#</span></a></div>
+<p><div class="mod-entry">
+<img src="/assets/projects/kotor2mods/Remote-Tells-Influence-Patch.png" alt="Banner of Remote Tells Influence Patch for The Sith Lords Restored Content Mod mod">
+<p>A patch to make tk102's <a href="https://www.gamefront.com/games/knights-of-the-old-republic-ii/file/remote-tells-influence">Remote Tells Influence</a> mod more compatible with The Sith Lords Restored Content Mod (TSLRCM).</p>
+<h4>Download the mod:</h4>
+<div class="mod-entry__downloads"><a class="link-btn" href="https://www.dropbox.com/s/af3h6y793f3zjxq/Remote%20Tells%20Influence%20Patch%20for%20TSLRCM.zip?dl=0" target="_blank">Dropbox</a></div>
+</div></p>
+
+		</div>
+    
+
+    
+
+    
+</div>
+
+<style>
+    .breadcrumbs {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 0.7em 0;
+        display: flex;
+        gap: 0.5em;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+</style>
+        </main>
+        <footer class="footer">
+    
+    <p>Made with ♥ by Leilukin since <time>11 September 2022</time></p>
+
+    
+    <ul class="footer__links">
+        <li>
+            <a  href="/sitemap/">Site Map</a>
+        </li>
+        |
+        <li>
+            <a  href="/changelogs/">Changelogs</a>
+        </li>
+        |
+        <li><a href="/feed.xml">RSS</a></li>
+    </ul>
+
+</footer>
+
+<style>
+    .footer {
+        margin-top: auto;
+        background: var(--clr-main-footer-bg);
+        padding: 0.8rem;
+        text-align: center;
+        display: grid;
+    }
+
+    .footer p {
+        padding: 0;
+    }
+
+    .footer__links {
+        justify-self: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 0.7em;
+    }
+
+    @media only screen and (min-width: 600px) {
+        .footer {
+            width: 100%;
+        }
+    }
+</style>
+        <button class="top-btn hidden">
+    <img src="/assets/images/elements/chevron-up.svg" alt="Scroll to top">
+</button>
+
+<style>
+    .top-btn {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        z-index: 999;
+        border: none;
+        background-color: var(--clr-top-btn);
+        border-radius: 50em;
+        padding: 0.3em;
+    }
+
+    .top-btn:focus {
+        outline: 0.25em solid var(--clr-top-btn);
+        outline-offset: 0.15em;
+    }
+
+    .top-btn img {
+        width: 1.5rem;
+        aspect-ratio: 1 / 1;
+    }
+</style>
+
+<script defer>
+    const topButton = document.querySelector(".top-btn");
+
+    window.onscroll = () => {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            topButton.classList.remove("hidden");
+        } else {
+            topButton.classList.add("hidden");
+        }
+    }
+
+    topButton.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: "smooth",
+        });
+    });
+</script>
+    </body>
+</html>

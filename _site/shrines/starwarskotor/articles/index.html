@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" id="page-top">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        
+    <meta property="og:title" content="Articles | Star Wars: Knights of the Old Republic Shrine">
+
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="List of articles written by me or other people that I recommend for the Star Wars: Knights of the Old Republic series.">
+<meta name="generator" content="Eleventy v2.0.1">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://leilukin.neocities.org/shrines/starwarskotor/articles/">
+<meta property="og:site_name" content="Leilukin's Hub">
+<meta property="og:locale" content="en_MY">
+<meta property="og:description" content="List of articles written by me or other people that I recommend for the Star Wars: Knights of the Old Republic series.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="https://leilukin.neocities.org/shrines/starwarskotor/articles/">
+<meta name="twitter:description" content="List of articles written by me or other people that I recommend for the Star Wars: Knights of the Old Republic series.">
+<link rel="canonical" href="https://leilukin.neocities.org/shrines/starwarskotor/articles/">
+
+
+        
+        <link rel="stylesheet" href="/assets/css/main.css">
+        
+    <link rel="stylesheet" href="/assets/css/starwarskotor.css">
+
+
+        
+        <link rel="stylesheet" href="/assets/fonts/noto-sans/noto-sans.css">
+
+        
+        <link href="/assets/fonts/fontawesome/css/fontawesome.css" rel="stylesheet" />
+        <link href="/assets/fonts/fontawesome/css/brands.css" rel="stylesheet" />
+        <link href="/assets/fonts/fontawesome/css/solid.css" rel="stylesheet" />
+
+        
+        
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/starwarskotor/images/kotor-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/starwarskotor/images/kotor-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/starwarskotor/images/kotor-icon.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+
+
+        <title>
+            
+    Articles | Star Wars: Knights of the Old Republic Shrine | Leilukin's Hub
+
+        </title>
+    </head>
+    <body>
+        <header class="hero">
+    <div class="hero__top-bar hidden"></div>
+    <div class="hero__img">
+        
+    <picture>
+        <source srcset="/assets/starwarskotor/images/swkotor-header-320.png" media="(orientation: landscape)" />
+        <img src="/assets/starwarskotor/images/swkotor-header.jpg" alt="anner of Star Wars: Knights of the Old Republic Shrine" />
+    </picture>
+
+    </div>
+</header>
+
+<style>
+    .hero {
+        width: 100%;
+        background-color: var(--clr-hero-bg);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero__top-bar {
+        background-color: var(--clr-navbar-bg);
+        width: 100%;
+        padding: 0.5em 0;
+    }
+
+    .hero__img {
+        display: grid;
+        place-content: center;
+    }
+
+    .hero img {
+        object-fit: scale-down;
+        overflow: hidden;
+        filter: drop-shadow(0.1rem 0.1rem 0.2rem black);
+        max-height: 20rem;
+    }
+</style>
+
+<script defer>
+    const hero = document.querySelector(".hero");
+    const todayEvent = getTodayEvent();
+    const heroTopBarEl = document.querySelector(".hero__top-bar");
+    const headerImgEl = document.querySelector(".hero__img");
+
+    
+    if (todayEvent != "No event") {
+        heroTopBarEl.classList.remove('hidden');
+        heroTopBarEl.innerHTML = getBlurbHtml(todayEvent);
+    }
+
+    function getTodayEvent() {
+        const date = new Date();
+        const month = date.getMonth() + 1;
+        const day = date.getDate();
+
+        if (month == 7 && day == 16)
+            return "KotOR 1 Anniversary";
+        else if (month == 12 && day == 6)
+            return "KotOR 2 Anniversary";
+        else
+            return "No event";
+    }
+
+    function getBlurbHtml(day) {
+        switch (day) {
+            case "KotOR 1 Anniversary":
+                return `
+                    Today is the anniversary of the release of <cite>Star Wars: Knihgts of the Old Republic</cite>
+                `;
+                break;
+            case "KotOR 2 Anniversary":
+                return `
+                    Today is the anniversary of the release of <cite>Star Wars: Knights of the Old Republic II — The Sith Lords</cite>
+                `;
+                break;
+            default:
+                return ``;
+        }
+    }
+
+</script>
+        <nav class="navbar">
+    <ul class="nav__menu">
+        
+    
+    
+    
+    <li>
+        <a  href="/shrines/starwarskotor/">Shrine Home</a>
+    </li>
+        <li>
+            <a aria-current="page" href="/shrines/starwarskotor/articles/">Articles</a>
+        </li>
+        <li>
+            <a  href="/shrines/starwarskotor/guides/">Guides</a>
+        </li>
+        <li>
+            <a  href="/shrines/starwarskotor/resources/">Resources</a>
+        </li>
+        <li>
+            <a  href="/shrines/starwarskotor/universes/">Universes</a>
+        </li>
+    <li><a href="/shrines/">Shrine Index</a></li>
+    <li><a href="/">Main Site</a></li>
+
+    </ul>
+</nav>
+
+<style>
+    .navbar {
+        background: var(--clr-navbar-bg);
+        padding: 0 0.6rem;
+        width: 100%;
+        z-index: 999;
+        position: sticky;
+        top: 0;
+    }
+
+    .navbar a {
+        color: var(--clr-navbar-link);
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .navbar a:hover {
+        color: var(--clr-link-hover);
+    }
+
+    .navbar a:focus {
+        outline-offset: 0.3em;
+        outline: 0.15em solid var(--clr-navbar-link);
+    }
+
+    .nav__menu {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+</style>
+
+        <main>
+            <header class="main__header">
+    
+
+    
+        <h1>Star Wars: Knights of the Old Republic Articles</h1>
+        
+            <p>List of articles written by me or other people that I recommend for the Star Wars: Knights of the Old Republic series.</p>
+        
+    
+</header>
+
+<div class="content__wrapper">
+    
+        <aside class="left-sidebar">
+    <details class="toc__wrapper sidebar--sticky">
+        <summary class="toc__heading">
+            On This Page
+        </summary>
+        <nav class="toc">
+                <ol>
+                    
+                    <li><a href="#my-articles-for-both-games">My Articles for Both Games</a>
+            		</li>
+
+                    <li><a href="#my-kotor-1-articles">My KotOR 1 Articles</a>
+            		</li>
+
+                    <li><a href="#my-kotor-2-articles">My KotOR 2 Articles</a>
+            		</li>
+
+                    <li><a href="#kotor-articles-i-recommend">KotOR Articles I Recommend</a>
+            		</li>
+                </ol>
+            </nav>
+    </details>
+</aside>
+
+<style>
+    .toc__wrapper {
+        max-height: 89vh;
+        overflow: auto;
+        background-color: var(--clr-content-bg);
+        padding: 1rem 1.3rem;
+    }
+
+    .toc__heading {
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: var(--clr-sub-heading);
+        cursor: pointer;
+    }
+
+    .toc ol,
+    .toc ol ol {
+        display: grid;
+        gap: 0.3em;
+    }
+
+    .toc ol {
+        border-top: 0.1em solid var(--clr-title-border);
+        padding-left: 1.3em;
+        padding-top: 1em;
+    }
+
+    .toc ol ol {
+        border-top: none;
+        list-style-type: disc;
+        padding-left: 1em;
+        padding-top: 0.3em;
+    }
+
+    .toc ol a {
+        font-size: 1.1rem;
+        padding-left: 0.3em;
+    }
+
+    .toc ol ol a {
+        padding: 0;
+        font-size: 1rem;
+    }
+</style>
+
+    
+
+    
+		<div class="content ">
+			<div class="heading-wrapper h2">
+<h2 id="my-articles-for-both-games">My Articles for Both Games</h2>
+<a class="heading-anchor" href="#my-articles-for-both-games" aria-labelledby="my-articles-for-both-games"><span hidden>#</span></a></div>
+<ul class="content-list"><li>
+            <p><a href="/shrines/starwarskotor/articles/faq-same-gender-romance-mods/">Frequently Asked Questions (FAQ) for My Star Wars: KotOR Same-Gender Romance Mods</a></p>
+            <time>25 September 2021</time>
+        </li></ul>
+<div class="heading-wrapper h2">
+<h2 id="my-kotor-1-articles">My KotOR 1 Articles</h2>
+<a class="heading-anchor" href="#my-kotor-1-articles" aria-labelledby="my-kotor-1-articles"><span hidden>#</span></a></div>
+<ul class="content-list"><li>
+            <p><a href="/shrines/starwarskotor/articles/juhani-lesbian-evidence/">Evidence of Juhani being a Lesbian from Star Wars: Knights of the Old Republic&#39;s Game Files</a></p>
+            <time>15 July 2017</time>
+        </li><li>
+            <p><a href="/shrines/starwarskotor/articles/juhani-hostility-towards-canderous/">How to Access Juhani&#39;s Conversaion about Canderous without Restoration Mods</a></p>
+            <time>11 October 2022</time>
+        </li><li>
+            <p><a href="/shrines/starwarskotor/articles/keep-juhani-a-lesbian/">Keep Juhani a Lesbian and Keep Juhani&#39;s Romance Exclusive to Female Characters</a></p>
+            <time>28 June 2023</time>
+        </li></ul>
+<div class="heading-wrapper h2">
+<h2 id="my-kotor-2-articles">My KotOR 2 Articles</h2>
+<a class="heading-anchor" href="#my-kotor-2-articles" aria-labelledby="my-kotor-2-articles"><span hidden>#</span></a></div>
+<ul class="content-list"><li>
+            <p><a href="/shrines/starwarskotor/articles/handmaiden-sisters-mother/">Where is the Mother of the Handmaiden&#39;s Sisters?</a></p>
+            <time>19 February 2020</time>
+        </li><li>
+            <p><a href="/shrines/starwarskotor/articles/arren-kae-kreia-theory/">Why I Personally Do Not Subscribe to the “Arren Kae is Kreia” Theory</a></p>
+            <time>27 January 2021</time>
+        </li><li>
+            <p><a href="/shrines/starwarskotor/articles/partyswap-management-takeover/">On Me Taking Over the Management and Development of DarthTyren&#39;s PartySwap Mod</a></p>
+            <time>12 July 2023</time>
+        </li><li>
+            <p><a href="/shrines/starwarskotor/articles/tslrcm-first-kotor2-playthrough/">Should You Use The Sith Lords Restored Content Mod in Your First Star Wars: KotOR 2 Playthrough?</a></p>
+            <time>30 August 2023</time>
+        </li></ul>
+<div class="heading-wrapper h2">
+<h2 id="kotor-articles-i-recommend">KotOR Articles I Recommend</h2>
+<a class="heading-anchor" href="#kotor-articles-i-recommend" aria-labelledby="kotor-articles-i-recommend"><span hidden>#</span></a></div>
+<ul class="content-list">
+    <li><a href="https://somblog.tumblr.com/post/175466502069/this-isnt-a-star-wars-fandom-blog-but-ive-been" target="_blank">This essay about Juhani</a> by Tumblr user somblog is an excellent analysis of Juhani's character.</li>
+    <li><a href="https://www.reddit.com/r/kotor/comments/129co74/in_defense_of_peragus_its_not_just_welldesigned/" target="_blank">In Defense of Peragus: it’s not just well-designed, it’s a uniquely good level too</a> by Snigaroo on the KotOR Subreddit — An excellent essay that goes into detail in explaining why some of us actually find Peragus a good level. I am among the minority that genuinely enjoy Peragus, to the extent that I never even considered using any mod to skip the level, and I replay all the hologram recordings throughout Peragus and the Harbinger every time I replay <cite>KotOR 2</cite>.</li>
+</ul>
+		</div>
+    
+
+    
+
+    <aside class="right-sidebar">
+    <div class="shrine__info sidebar--sticky">
+        <h2>About</h2>
+        
+    <p>Welcome to Leilukin's shrine for <cite>Star Wars: Knights of the Old Republic</cite>, a series of role-playing video games set in the <cite>Star Wars</cite> universe, taking place almost 4,000 years before the events of the Skywalker film saga.</p>
+
+        <h3>Links</h3>
+        <ul>
+            
+    <li><a href="https://kotor.neocities.org/" target="_blank">KOTOR Community Portal</a></li>
+
+        </ul>
+    </div>
+</aside>
+
+<style>
+    .right-sidebar {
+        background-color: var(--clr-content-bg);
+        font-size: clamp(0.9rem, 0.9rem + 3vw, 1rem);
+    }
+
+    .shrine__info {
+        padding: 1rem;
+    }
+
+    .shrine__info h2 {
+        font-size: clamp(1.5rem, 1rem + 3vw, 1.7rem);
+        margin-bottom: 0.2em;
+    }
+
+    .shrine__info h3 {
+        font-size: clamp(1.3rem, 1rem + 3vw, 1.5rem);
+        margin-top: 1em;
+    }
+
+    .shrine__info ul {
+        margin-top: 0.5em;
+    }
+</style>
+</div>
+
+<style>
+    .breadcrumbs {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 0.7em 0;
+        display: flex;
+        gap: 0.5em;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+</style>
+        </main>
+        <footer class="footer">
+    
+    <p>Made with ♥ and the Force by Leilukin | Shrine Launched: 17 February 2023</p>
+    <p>Back to: <a href="/shrines/">Shrine Index</a> | <a href="/">Leilukin&#39;s Hub</a></p>
+
+</footer>
+
+<style>
+    .footer {
+        margin-top: auto;
+        background: var(--clr-main-footer-bg);
+        padding: 0.8rem;
+        text-align: center;
+        display: grid;
+    }
+
+    .footer p {
+        padding: 0;
+    }
+
+    .footer__links {
+        justify-self: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 0.7em;
+    }
+
+    @media only screen and (min-width: 600px) {
+        .footer {
+            width: 100%;
+        }
+    }
+</style>
+        <button class="top-btn hidden">
+    <img src="/assets/images/elements/chevron-up.svg" alt="Scroll to top">
+</button>
+
+<style>
+    .top-btn {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        z-index: 999;
+        border: none;
+        background-color: var(--clr-top-btn);
+        border-radius: 50em;
+        padding: 0.3em;
+    }
+
+    .top-btn:focus {
+        outline: 0.25em solid var(--clr-top-btn);
+        outline-offset: 0.15em;
+    }
+
+    .top-btn img {
+        width: 1.5rem;
+        aspect-ratio: 1 / 1;
+    }
+</style>
+
+<script defer>
+    const topButton = document.querySelector(".top-btn");
+
+    window.onscroll = () => {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            topButton.classList.remove("hidden");
+        } else {
+            topButton.classList.add("hidden");
+        }
+    }
+
+    topButton.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: "smooth",
+        });
+    });
+</script>
+    </body>
+</html>

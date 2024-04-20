@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" id="page-top">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        
+    <meta property="og:title" content="Cassette Beasts Shrine | Cassette Beasts Shrine">
+
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="My shrine for Cassette Beasts.">
+<meta name="generator" content="Eleventy v2.0.1">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://leilukin.neocities.org/shrines/cassettebeasts/">
+<meta property="og:site_name" content="Leilukin's Hub">
+<meta property="og:locale" content="en_MY">
+<meta property="og:description" content="My shrine for Cassette Beasts.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="https://leilukin.neocities.org/shrines/cassettebeasts/">
+<meta name="twitter:description" content="My shrine for Cassette Beasts.">
+<link rel="canonical" href="https://leilukin.neocities.org/shrines/cassettebeasts/">
+
+
+        
+        <link rel="stylesheet" href="/assets/css/main.css">
+        
+    <link rel="stylesheet" href="/assets/css/cassettebeasts.css">
+
+
+        
+        <link rel="stylesheet" href="/assets/fonts/noto-sans/noto-sans.css">
+
+        
+        <link href="/assets/fonts/fontawesome/css/fontawesome.css" rel="stylesheet" />
+        <link href="/assets/fonts/fontawesome/css/brands.css" rel="stylesheet" />
+        <link href="/assets/fonts/fontawesome/css/solid.css" rel="stylesheet" />
+
+        
+        
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/cassettebeasts/images/cb-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/cassettebeasts/images/cb-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/cassettebeasts/images/cb-icon.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+
+
+        <title>
+            
+    Cassette Beasts Shrine | Cassette Beasts Shrine | Leilukin's Hub
+
+        </title>
+    </head>
+    <body>
+        <header class="hero">
+    <div class="hero__top-bar hidden"></div>
+    <div class="hero__img">
+        
+    <picture>
+        <source srcset="/assets/cassettebeasts/images/cassettebeasts-header-320.png" media="(orientation: landscape)" />
+        <img src="/assets/cassettebeasts/images/cassettebeasts-header-640.png" alt="Banner of Cassette Beasts Shrine" />
+    </picture>
+
+    </div>
+</header>
+
+<style>
+    .hero {
+        width: 100%;
+        background-color: var(--clr-hero-bg);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero__top-bar {
+        background-color: var(--clr-navbar-bg);
+        width: 100%;
+        padding: 0.5em 0;
+    }
+
+    .hero__img {
+        display: grid;
+        place-content: center;
+    }
+
+    .hero img {
+        object-fit: scale-down;
+        overflow: hidden;
+        filter: drop-shadow(0.1rem 0.1rem 0.2rem black);
+        max-height: 20rem;
+    }
+</style>
+
+<script defer>
+    const hero = document.querySelector(".hero");
+    const todayEvent = getTodayEvent();
+    const heroTopBarEl = document.querySelector(".hero__top-bar");
+    const headerImgEl = document.querySelector(".hero__img");
+
+    
+    if (todayEvent != "No event") {
+        heroTopBarEl.classList.remove('hidden');
+        heroTopBarEl.innerHTML = getBlurbHtml(todayEvent);
+    }
+
+    function getTodayEvent() {
+        const date = new Date();
+        const month = date.getMonth() + 1;
+        const day = date.getDate();
+
+        if (month == 4 && day == 26)
+            return "CB Anniversary";
+        else if (month == 9 && day == 12)
+            return "Pier Anniversary";
+        else
+            return "No event";
+    }
+
+    function getBlurbHtml(day) {
+        switch (day) {
+            case "CB Anniversary":
+                return `
+                    Today is the anniversary of the release of <cite>Cassette Beasts</cite>!
+                `;
+                break;
+            case "Pier Anniversary":
+                return `
+                    Today is the anniversary of the release of <cite>Pier of the Unknown</cite>, the first DLC expansion of <cite>Cassette Beasts</cite>!
+                `;
+                break;
+            default:
+                return ``;
+        }
+    }
+
+</script>
+        <nav class="navbar">
+    <ul class="nav__menu">
+        
+    
+    
+    
+    <li>
+        <a aria-current="page" href="/shrines/cassettebeasts/">Shrine Home</a>
+    </li>
+        <li>
+            <a  href="/shrines/cassettebeasts/articles/">Articles</a>
+        </li>
+        <li>
+            <a  href="/shrines/cassettebeasts/gamelog/">Game Log</a>
+        </li>
+        <li>
+            <a  href="/shrines/cassettebeasts/featured/">Featured</a>
+        </li>
+        <li>
+            <a  href="/shrines/cassettebeasts/trivia/">Trivia</a>
+        </li>
+        <li>
+            <a  href="/shrines/cassettebeasts/resources/">Resources</a>
+        </li>
+    <li><a href="/shrines/">Shrine Index</a></li>
+    <li><a href="/">Main Site</a></li>
+
+    </ul>
+</nav>
+
+<style>
+    .navbar {
+        background: var(--clr-navbar-bg);
+        padding: 0 0.6rem;
+        width: 100%;
+        z-index: 999;
+        position: sticky;
+        top: 0;
+    }
+
+    .navbar a {
+        color: var(--clr-navbar-link);
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .navbar a:hover {
+        color: var(--clr-link-hover);
+    }
+
+    .navbar a:focus {
+        outline-offset: 0.3em;
+        outline: 0.15em solid var(--clr-navbar-link);
+    }
+
+    .nav__menu {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+</style>
+
+        <main>
+            <header class="main__header">
+    
+
+    
+        <h1>Cassette Beasts Shrine</h1>
+        
+            <p>My shrine for Cassette Beasts.</p>
+        
+    
+</header>
+
+<div class="content__wrapper">
+    
+
+    
+		<div class="content content--divided">
+			
+
+<section class="content__section">
+    <h2>Welcome to Leilukin's <cite>Cassette Beasts</cite> Shrine!</h2>
+    <img src="/assets/cassettebeasts/images/CassetteBeasts_keyart_16_9.png" alt="Promotional image of Cassette Beasts">
+    <p><cite>Cassette Beasts</cite> is a 2D/3D hybrid monster collecting open-world role-playing game developed by Bytten Studio, an indie team based in Brighton, United Kingdom, co-founded by Jay Baylis and Tom Coxon, and published by Raw Fury.</p>
+
+    <p>First released on Steam and Windows on 26 April 2023, later on console on 25 May 2023, <cite>Casette Beasts</cite> is available on Windows, Linux, Steam, Xbox Series X|S, Xbox One, Gamepass and Nintendo Switch.</p>
+
+    <p><cite>Cassette Beasts</cite> also has an <a href="https://www.cassettebeasts.com/" target="_blank">official website</a> and <a href="https://wiki.cassettebeasts.com/wiki/Main_Page" target="blank">official wiki</a>.</p>
+
+    <p>You can buy <cite>Cassette Beasts</cite> from below links:</p>
+    <ul>
+        <li><a href="https://store.steampowered.com/app/1321440/Cassette_Beasts/" target="_blank">Steam</a>
+        </li>
+        <li><a href="https://www.xbox.com/en-us/games/store/cassette-beasts/9n82snqtzvmq" target="_blank">Xbox</a></li>
+        <li><a href="https://www.nintendo.com/store/products/cassette-beasts-switch/" target="_blank">Nintendo Switch</a></li>
+    </ul>
+</section>
+
+<section class="content__section">
+    <h2>Why You Should Play <cite>Cassette Beasts</cite></h2>
+
+    <img src="/assets/cassettebeasts/images/cassettebeasts-website-header-bg.jpg" alt="Header of the Cassette Beasts official website">
+
+    <p><cite>Cassette Beasts</cite> is a masterpiece of a monster collecting game, rivalling if not even surpassing <cite>Pokémon</cite> at its best, because while it is obvious that Cassette Beasts is inspired by <cite>Pokémon</cite>, it executes various aspects of <cite>Pokémon</cite> games with its own unique takes that are sometimes even better than <cite>Pokémon</cite>, from monster collecting mechanic, battle system, elemental type match ups, story, characters, lore, world building, map design, etc, with an amazing soundtrack that goes along with the game. As a result, <cite>Cassette Beasts</cite> is perfectly capable of standing on its own.</p>
+
+    <p>I cannot recommend <cite>Cassette Beasts</cite> enough if you like monster collecting games, including, if not especially, if you like <cite>Pokémon</cite> but want an indie alternative, or something different after finding <cite>Pokémon</cite> games getting stale, or becoming jaded by the direction of the <cite>Pokémon</cite> games.</p>
+
+    <p>Indie monster collecting games in particular need all the support they can get to let more people know that <cite>Pokémon</cite> is not the only monster collecting game worth your attention, and <cite>Cassette Beasts</cite> is one of those indie games that prove indie games can be more creative than AAA games.</p>
+
+    <p>If you need more convincing on how <cite>Cassette Beasts</cite> is much more than a <cite>Pokémon</cite> clone, <a href="/shrines/cassettebeasts/articles/cassette-beasts-more-than-a-pokemon-clone">I have written a huge essay on this shrine</a>.</p>
+</section>
+
+<section class="content__section">
+    <h2>My Interest In <cite>Cassette Beasts</cite></h2>
+
+    <img src="/assets/cassettebeasts/images/cassettebeasts-website_screenshot_02.png" alt="Official screenshot of Harbourtown in Cassette Beasts">
+
+    <p>On 30 June 2023, when the Steam Summer Sale 2023 just started, I received <cite>Cassette Beasts</cite> as a Steam gift from a generous friend, who knew that I had been looking for independant monster collecting games, since I mostly play indie games instead of AAA games nowadays.</p>
+
+    <p>I started my first playthrough of <cite>Cassette Beasts</cite> on 18 July 2023, and I was immediately hooked. I could already feel this game has everything I could ask for in an indie alternative to <cite>Pokémon</cite>.</p>
+
+    <p>I ended up spending around 34 hours to beat the main campaign, and that was because I made the deliberate decision to max out the companion characters' relationship level before advancing to the final portion of the main story, since this game has more focus on human characters and relationships than what you may expect in a monster-collecting game.</p>
+
+    <p>I love <cite>Cassette Beasts</cite> so much that I also purchased its Deluxe Edition, which includes the soundtrack, the art book and the Cosplay Pack as a birthday present for myself on 28 July 2023. In addition, I also <a href="/blog/posts/2023-10-13-My-Cassette-Beasts-Pombomb-Plushie-Arrived" target="blank">bought the official plushie of Pombomb</a>, my favourite monster from the game.</p>
+
+    <p>Moreover, I ended up unlocking all 123 achievements on Steam on 13 March 2024. Very few RPGs make me want to unlock all the achievements, so it is telling how much I love <cite>Cassette Beasts</cite> that I am willing to spend time and effort to work for all the achievements.</p>
+
+    <p><cite>Cassette Beasts</cite> not only is my Game of the Year of 2023, but also it has become my absolute favourite monster collecting game, and even my all-time favourite video game ever.</p>
+</section>
+
+<section class="content__section">
+    <h2>My Contributions to the <cite>Cassette Beasts</cite> Community</h2>
+
+    <img src="/assets/cassettebeasts/images/cassettebeasts-website_screenshot_07.png" alt="Pre-release artwork of Kayleigh, Meredith and Eugene from Cassette Beasts">
+
+    <p>Since I got into <cite>Cassette Beasts</cite>, I have been making a great deal of effort in promoting the game online, by talking about and recommending the game on my online spaces, including this shrine on my website, as well as social media platforms such as Tumblr and Twitter.</p>
+
+    <p>I am involved in the <cite>Cassette Beasts</cite> community by joining and participating in the <a href="https://discord.gg/byttenstudio" target="blank">official Bytten Studio Discord server</a>.</p>
+
+    <p>In addition, my passion for <cite>Cassette Beasts</cite> drives me to contribute to the effort of documenting information about the game. I have recorded footages, made compilation videos and shared them on my YouTube channel for archival and reference purposes. I am also a contributor to the <a href="https://wiki.cassettebeasts.com/wiki/Main_Page" taregt="blank">official <cite>Cassette Beasts</cite> wiki</a>. You can check out <a href="https://www.youtube.com/channel/UCQr78DF60PrBsgh8rQnzBWg/playlists?view=50&sort=dd&shelf_id=5" target="blank">my <cite>Cassette Beasts</cite> video playlists on YouTube</a> and <a href="https://wiki.cassettebeasts.com/wiki/User:Leilukin" target="blank">my user page on the <cite>Cassette Beasts</cite> wiki</a>.</p>
+
+    <p>On Tumblr, I run the <a href="https://cassettebeastssource.tumblr.com/" target="_blank">Cassette Beasts Source</a> blog, an unofficial <cite>Cassette Beasts</cite> fan site blog that I founded on 25 February 2024. I created a fan site blog on Tumblr due to the fact that Bytten Studio does not have an official Tumblr account, and I want a Tumblr blog dedicated to sharing and archiving <cite>Cassette Beasts</cite> news and fan works.</p>
+</section>
+
+
+		</div>
+    
+
+    
+
+    <aside class="right-sidebar">
+    <div class="shrine__info sidebar--sticky">
+        <h2>About</h2>
+        
+    <p>Welcome to Leilukin's shrine for <cite>Cassette Beasts</cite>, an indie monster collecting turn-based open-world role-playing video game developed by Bytten Studio and published by Raw Fury.</p>
+
+        <h3>Links</h3>
+        <ul>
+            
+    <li><a href="https://www.cassettebeasts.com/" target="_blank">Official Website</a>
+    </li>
+    <li><a href="https://wiki.cassettebeasts.com/" target="_blank">Official Wiki</a></li>
+    <li><a href="https://store.steampowered.com/app/1321440/Cassette_Beasts/" target="_blank">Steam</a></li>
+    <li><a href="https://bytten-studio.com/" target="_blank">Bytten Studio</a></li>
+
+        </ul>
+    </div>
+</aside>
+
+<style>
+    .right-sidebar {
+        background-color: var(--clr-content-bg);
+        font-size: clamp(0.9rem, 0.9rem + 3vw, 1rem);
+    }
+
+    .shrine__info {
+        padding: 1rem;
+    }
+
+    .shrine__info h2 {
+        font-size: clamp(1.5rem, 1rem + 3vw, 1.7rem);
+        margin-bottom: 0.2em;
+    }
+
+    .shrine__info h3 {
+        font-size: clamp(1.3rem, 1rem + 3vw, 1.5rem);
+        margin-top: 1em;
+    }
+
+    .shrine__info ul {
+        margin-top: 0.5em;
+    }
+</style>
+</div>
+
+<style>
+    .breadcrumbs {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 0.7em 0;
+        display: flex;
+        gap: 0.5em;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+</style>
+        </main>
+        <footer class="footer">
+    
+    <p>Made with ♥ by Leilukin | Shrine Launched: 3 August 2023</p>
+    <p>Back to: <a href="/shrines/">Shrine Index</a> | <a href="/">Leilukin&#39;s Hub</a></p>
+
+</footer>
+
+<style>
+    .footer {
+        margin-top: auto;
+        background: var(--clr-main-footer-bg);
+        padding: 0.8rem;
+        text-align: center;
+        display: grid;
+    }
+
+    .footer p {
+        padding: 0;
+    }
+
+    .footer__links {
+        justify-self: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 0.7em;
+    }
+
+    @media only screen and (min-width: 600px) {
+        .footer {
+            width: 100%;
+        }
+    }
+</style>
+        <button class="top-btn hidden">
+    <img src="/assets/images/elements/chevron-up.svg" alt="Scroll to top">
+</button>
+
+<style>
+    .top-btn {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        z-index: 999;
+        border: none;
+        background-color: var(--clr-top-btn);
+        border-radius: 50em;
+        padding: 0.3em;
+    }
+
+    .top-btn:focus {
+        outline: 0.25em solid var(--clr-top-btn);
+        outline-offset: 0.15em;
+    }
+
+    .top-btn img {
+        width: 1.5rem;
+        aspect-ratio: 1 / 1;
+    }
+</style>
+
+<script defer>
+    const topButton = document.querySelector(".top-btn");
+
+    window.onscroll = () => {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            topButton.classList.remove("hidden");
+        } else {
+            topButton.classList.add("hidden");
+        }
+    }
+
+    topButton.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: "smooth",
+        });
+    });
+</script>
+    </body>
+</html>

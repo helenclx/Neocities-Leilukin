@@ -1,0 +1,17 @@
+{% extends "global/navbar.njk" %}
+
+{% block navbarLinks %}
+    {% set shrineHomeUrl %}/shrines/starwarskotor/{% endset %}
+    {% set navPages = collections.all | eleventyNavigation("KotOR Shrine") %}
+    {% set currentUrl %}{{ page.url }}{% endset %}
+    <li>
+        <a {% if currentUrl === shrineHomeUrl %}aria-current="page"{% endif %} href="{{ shrineHomeUrl }}">Shrine Home</a>
+    </li>
+    {%- for entry in navPages %}
+        <li>
+            <a {% if entry.url == page.url %}aria-current="page"{% endif %} href="{{ entry.url }}">{{ entry.title }}</a>
+        </li>
+    {%- endfor %}
+    <li><a href="/shrines/">Shrine Index</a></li>
+    <li><a href="/">Main Site</a></li>
+{% endblock %}

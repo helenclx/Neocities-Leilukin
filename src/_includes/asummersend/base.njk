@@ -1,0 +1,24 @@
+{% extends "global/baselayout.njk" %}
+
+{% block metaTitle %}
+    <meta property="og:title" content="{{ title + ' | ' if title }}A Summer's End — Hong Kong 1986 Shrine">
+{% endblock %}
+
+{% block pageTitle %}
+    {{ title + " | " if title }}A Summer's End — Hong Kong 1986 Shrine | {{ sitemeta.siteName | safe }}
+{% endblock %}
+
+{% block customCSS %}
+    <link rel="stylesheet" href="{{'/assets/css/asummersend.css' | url | safe}}">
+{% endblock %}
+
+{% block favicon %}
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/asummersend/images/ase-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/asummersend/images/ase-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/asummersend/images/ase-icon.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+{% endblock %}
+
+{% block hero %}{% include "asummersend/hero.njk" %}{% endblock %}
+{% block navbar %}{% include "asummersend/navbar.njk" %}{% endblock %}
+{% block footer %}{% include "asummersend/footer.njk" %}{% endblock %}

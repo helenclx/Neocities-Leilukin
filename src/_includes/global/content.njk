@@ -1,0 +1,75 @@
+<header class="main__header">
+    {% if isArticle or hasBreadcrumbs %}
+        <ul class="breadcrumbs">
+            {% set breadcrumbNavPages = collections.all | eleventyNavigationBreadcrumb(articleTitle or title) %}
+            {%- for entry in breadcrumbNavPages %}
+            <li>
+                <a href="{{ entry.url }}" {% if entry.url == page.url %} class="breadcrumbs--active"{% endif %}>{{ entry.title }}</a>
+            </li>
+            ➔
+            {%- endfor %}
+        </ul>
+    {% endif %}
+
+    {% if isArticle %}
+        <h1>{{ articleTitle }}</h1>
+        <div class="article__info">
+            <p>Posted on {{ date | niceDate }} by {{ sitemeta.siteAuthor.name }}
+            {% if updated %}
+                • Last updated on {{ updated | niceDate }}</p>
+            {% endif %}
+            {% if categories %}
+                <p>Categories:
+                    {% for cat in categories %}
+                        <a href="/categories/{{ cat | slugify }}">{{ cat }}</a>{% if not loop.last %}, {% endif %}
+                    {% endfor %}
+                </p>
+            {% endif %}
+            <p>{{ content | emojiReadTime }}</p>
+        </div>
+    {% else %}
+        <h1>{{ pageTitle or title }}</h1>
+        {% if desc %}
+            <p>{{ desc }}</p>
+        {% endif %}
+    {% endif %}
+</header>
+
+<div class="content__wrapper">
+    {% if toc %}
+        {% include "global/toc.njk" %}
+    {% endif %}
+
+    {% if isArticle %}
+        <article class="article">
+            {{ content | safe }}
+        </article>
+    {% else %}
+		<div class="content {{'content--divided' if isContentDivided }}">
+			{{ content | safe }}
+		</div>
+    {% endif %}
+
+    {% if
+        tags and tags.includes("articles")
+        or tags and tags.includes("posts")
+        or page.url === "/articles/"
+        or tags and tags.includes("blog pages")
+    %}
+        {% include "main/content-nav.njk" %}
+    {% endif %}
+
+    {% block shrineInfo %}{% endblock %}
+</div>
+
+<style>
+    .breadcrumbs {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 0.7em 0;
+        display: flex;
+        gap: 0.5em;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+</style>

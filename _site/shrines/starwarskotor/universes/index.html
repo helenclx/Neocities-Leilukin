@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" id="page-top">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        
+    <meta property="og:title" content="Universes | Star Wars: Knights of the Old Republic Shrine">
+
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="My universes and headcanons for Star Wars: Knights of the Old Republic series.">
+<meta name="generator" content="Eleventy v2.0.1">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://leilukin.neocities.org/shrines/starwarskotor/universes/">
+<meta property="og:site_name" content="Leilukin's Hub">
+<meta property="og:locale" content="en_MY">
+<meta property="og:description" content="My universes and headcanons for Star Wars: Knights of the Old Republic series.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="https://leilukin.neocities.org/shrines/starwarskotor/universes/">
+<meta name="twitter:description" content="My universes and headcanons for Star Wars: Knights of the Old Republic series.">
+<link rel="canonical" href="https://leilukin.neocities.org/shrines/starwarskotor/universes/">
+
+
+        
+        <link rel="stylesheet" href="/assets/css/main.css">
+        
+    <link rel="stylesheet" href="/assets/css/starwarskotor.css">
+
+
+        
+        <link rel="stylesheet" href="/assets/fonts/noto-sans/noto-sans.css">
+
+        
+        <link href="/assets/fonts/fontawesome/css/fontawesome.css" rel="stylesheet" />
+        <link href="/assets/fonts/fontawesome/css/brands.css" rel="stylesheet" />
+        <link href="/assets/fonts/fontawesome/css/solid.css" rel="stylesheet" />
+
+        
+        
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/starwarskotor/images/kotor-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/starwarskotor/images/kotor-icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/starwarskotor/images/kotor-icon.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+
+
+        <title>
+            
+    Universes | Star Wars: Knights of the Old Republic Shrine | Leilukin's Hub
+
+        </title>
+    </head>
+    <body>
+        <header class="hero">
+    <div class="hero__top-bar hidden"></div>
+    <div class="hero__img">
+        
+    <picture>
+        <source srcset="/assets/starwarskotor/images/swkotor-header-320.png" media="(orientation: landscape)" />
+        <img src="/assets/starwarskotor/images/swkotor-header.jpg" alt="anner of Star Wars: Knights of the Old Republic Shrine" />
+    </picture>
+
+    </div>
+</header>
+
+<style>
+    .hero {
+        width: 100%;
+        background-color: var(--clr-hero-bg);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero__top-bar {
+        background-color: var(--clr-navbar-bg);
+        width: 100%;
+        padding: 0.5em 0;
+    }
+
+    .hero__img {
+        display: grid;
+        place-content: center;
+    }
+
+    .hero img {
+        object-fit: scale-down;
+        overflow: hidden;
+        filter: drop-shadow(0.1rem 0.1rem 0.2rem black);
+        max-height: 20rem;
+    }
+</style>
+
+<script defer>
+    const hero = document.querySelector(".hero");
+    const todayEvent = getTodayEvent();
+    const heroTopBarEl = document.querySelector(".hero__top-bar");
+    const headerImgEl = document.querySelector(".hero__img");
+
+    
+    if (todayEvent != "No event") {
+        heroTopBarEl.classList.remove('hidden');
+        heroTopBarEl.innerHTML = getBlurbHtml(todayEvent);
+    }
+
+    function getTodayEvent() {
+        const date = new Date();
+        const month = date.getMonth() + 1;
+        const day = date.getDate();
+
+        if (month == 7 && day == 16)
+            return "KotOR 1 Anniversary";
+        else if (month == 12 && day == 6)
+            return "KotOR 2 Anniversary";
+        else
+            return "No event";
+    }
+
+    function getBlurbHtml(day) {
+        switch (day) {
+            case "KotOR 1 Anniversary":
+                return `
+                    Today is the anniversary of the release of <cite>Star Wars: Knihgts of the Old Republic</cite>
+                `;
+                break;
+            case "KotOR 2 Anniversary":
+                return `
+                    Today is the anniversary of the release of <cite>Star Wars: Knights of the Old Republic II — The Sith Lords</cite>
+                `;
+                break;
+            default:
+                return ``;
+        }
+    }
+
+</script>
+        <nav class="navbar">
+    <ul class="nav__menu">
+        
+    
+    
+    
+    <li>
+        <a  href="/shrines/starwarskotor/">Shrine Home</a>
+    </li>
+        <li>
+            <a  href="/shrines/starwarskotor/articles/">Articles</a>
+        </li>
+        <li>
+            <a  href="/shrines/starwarskotor/guides/">Guides</a>
+        </li>
+        <li>
+            <a  href="/shrines/starwarskotor/resources/">Resources</a>
+        </li>
+        <li>
+            <a aria-current="page" href="/shrines/starwarskotor/universes/">Universes</a>
+        </li>
+    <li><a href="/shrines/">Shrine Index</a></li>
+    <li><a href="/">Main Site</a></li>
+
+    </ul>
+</nav>
+
+<style>
+    .navbar {
+        background: var(--clr-navbar-bg);
+        padding: 0 0.6rem;
+        width: 100%;
+        z-index: 999;
+        position: sticky;
+        top: 0;
+    }
+
+    .navbar a {
+        color: var(--clr-navbar-link);
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .navbar a:hover {
+        color: var(--clr-link-hover);
+    }
+
+    .navbar a:focus {
+        outline-offset: 0.3em;
+        outline: 0.15em solid var(--clr-navbar-link);
+    }
+
+    .nav__menu {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+</style>
+
+        <main>
+            <header class="main__header">
+    
+
+    
+        <h1>Leilukin&#39;s Star Wars: Knights of the Old Republic Universes</h1>
+        
+            <p>My universes and headcanons for Star Wars: Knights of the Old Republic series.</p>
+        
+    
+</header>
+
+<div class="content__wrapper">
+    
+        <aside class="left-sidebar">
+    <details class="toc__wrapper sidebar--sticky">
+        <summary class="toc__heading">
+            On This Page
+        </summary>
+        <nav class="toc">
+                <ol>
+                    
+                    <li><a href="#my-kotor-timeline">My KotOR Timeline</a>
+            		</li>
+
+                    <li><a href="#main-universe">Main Universe</a>
+            
+                <ol>
+                    
+                    <li><a href="#revan">Revan</a>
+            		</li>
+
+                    <li><a href="#jedi-exile">Jedi Exile</a>
+            		</li>
+                </ol>
+            		</li>
+                </ol>
+            </nav>
+    </details>
+</aside>
+
+<style>
+    .toc__wrapper {
+        max-height: 89vh;
+        overflow: auto;
+        background-color: var(--clr-content-bg);
+        padding: 1rem 1.3rem;
+    }
+
+    .toc__heading {
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: var(--clr-sub-heading);
+        cursor: pointer;
+    }
+
+    .toc ol,
+    .toc ol ol {
+        display: grid;
+        gap: 0.3em;
+    }
+
+    .toc ol {
+        border-top: 0.1em solid var(--clr-title-border);
+        padding-left: 1.3em;
+        padding-top: 1em;
+    }
+
+    .toc ol ol {
+        border-top: none;
+        list-style-type: disc;
+        padding-left: 1em;
+        padding-top: 0.3em;
+    }
+
+    .toc ol a {
+        font-size: 1.1rem;
+        padding-left: 0.3em;
+    }
+
+    .toc ol ol a {
+        padding: 0;
+        font-size: 1rem;
+    }
+</style>
+
+    
+
+    
+		<div class="content ">
+			<div class="heading-wrapper h2">
+<h2 id="my-kotor-timeline">My KotOR Timeline</h2>
+<a class="heading-anchor" href="#my-kotor-timeline" aria-labelledby="my-kotor-timeline"><span hidden>#</span></a></div>
+<p>This is my timeline for the events of the KotOR series, including the age of the major characters.</p>
+<p><a href="https://docs.google.com/spreadsheets/d/1xh9QpXBBVYwBNss1ifrLG1Pf7lbm_AhwaCktlbH0Yzo/edit">View Leilukin's KotOR Timeline here</a></p>
+<div class="heading-wrapper h2">
+<h2 id="main-universe">Main Universe</h2>
+<a class="heading-anchor" href="#main-universe" aria-labelledby="main-universe"><span hidden>#</span></a></div>
+<p>My main KotOR universe.</p>
+<div class="heading-wrapper h3">
+<h3 id="revan">Revan</h3>
+<a class="heading-anchor" href="#revan" aria-labelledby="revan"><span hidden>#</span></a></div>
+<p><img src="/assets/starwarskotor/universes/myrevan-jiaxuan-cheng.png" alt="Screenshot of Jiaxuan Cheng, the Revan for my main KotOR universe"></p>
+<dl>
+    <dt>Name</dt>
+    <dd>Jiaxuan Cheng 程嘉萱</dd>
+    <dt>Class</dt>
+    <dd>Scout + Jedi Sentinel</dd>
+    <dt>Pronouns</dt>
+    <dd>She/Her or They/Them</dd>
+    <dt>Gender</dt>
+    <dd>Non-binary woman</dd>
+    <dt>Species</dt>
+    <dd>Human</dd>
+    <dt>Orientation</dt>
+    <dd>Lesbian</dd>
+    <dt>Romance</dt>
+    <dd>Juhani and Bastila (polyamorous triad)</dd>
+</dl>
+<div class="heading-wrapper h3">
+<h3 id="jedi-exile">Jedi Exile</h3>
+<a class="heading-anchor" href="#jedi-exile" aria-labelledby="jedi-exile"><span hidden>#</span></a></div>
+<p><img src="/assets/starwarskotor/universes/myexile-yunhua-yang.png" alt="Screenshot of Yunhua Yang, the Jedi Exile for my main KotOR universe"></p>
+<dl>
+    <dt>Name</dt>
+    <dd>Jiaxuan Cheng 程嘉萱</dd>
+    <dt>Class</dt>
+    <dd>Scout + Jedi Sentinel</dd>
+    <dt>Pronouns</dt>
+    <dd>She/Her or They/Them</dd>
+    <dt>Gender</dt>
+    <dd>Non-binary woman</dd>
+    <dt>Species</dt>
+    <dd>Human</dd>
+    <dt>Orientation</dt>
+    <dd>Lesbian</dd>
+    <dt>Romance</dt>
+    <dd>Juhani and Bastila (polyamorous triad)</dd>
+</dl>
+
+		</div>
+    
+
+    
+
+    <aside class="right-sidebar">
+    <div class="shrine__info sidebar--sticky">
+        <h2>About</h2>
+        
+    <p>Welcome to Leilukin's shrine for <cite>Star Wars: Knights of the Old Republic</cite>, a series of role-playing video games set in the <cite>Star Wars</cite> universe, taking place almost 4,000 years before the events of the Skywalker film saga.</p>
+
+        <h3>Links</h3>
+        <ul>
+            
+    <li><a href="https://kotor.neocities.org/" target="_blank">KOTOR Community Portal</a></li>
+
+        </ul>
+    </div>
+</aside>
+
+<style>
+    .right-sidebar {
+        background-color: var(--clr-content-bg);
+        font-size: clamp(0.9rem, 0.9rem + 3vw, 1rem);
+    }
+
+    .shrine__info {
+        padding: 1rem;
+    }
+
+    .shrine__info h2 {
+        font-size: clamp(1.5rem, 1rem + 3vw, 1.7rem);
+        margin-bottom: 0.2em;
+    }
+
+    .shrine__info h3 {
+        font-size: clamp(1.3rem, 1rem + 3vw, 1.5rem);
+        margin-top: 1em;
+    }
+
+    .shrine__info ul {
+        margin-top: 0.5em;
+    }
+</style>
+</div>
+
+<style>
+    .breadcrumbs {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 0.7em 0;
+        display: flex;
+        gap: 0.5em;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+</style>
+        </main>
+        <footer class="footer">
+    
+    <p>Made with ♥ and the Force by Leilukin | Shrine Launched: 17 February 2023</p>
+    <p>Back to: <a href="/shrines/">Shrine Index</a> | <a href="/">Leilukin&#39;s Hub</a></p>
+
+</footer>
+
+<style>
+    .footer {
+        margin-top: auto;
+        background: var(--clr-main-footer-bg);
+        padding: 0.8rem;
+        text-align: center;
+        display: grid;
+    }
+
+    .footer p {
+        padding: 0;
+    }
+
+    .footer__links {
+        justify-self: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 0.7em;
+    }
+
+    @media only screen and (min-width: 600px) {
+        .footer {
+            width: 100%;
+        }
+    }
+</style>
+        <button class="top-btn hidden">
+    <img src="/assets/images/elements/chevron-up.svg" alt="Scroll to top">
+</button>
+
+<style>
+    .top-btn {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        z-index: 999;
+        border: none;
+        background-color: var(--clr-top-btn);
+        border-radius: 50em;
+        padding: 0.3em;
+    }
+
+    .top-btn:focus {
+        outline: 0.25em solid var(--clr-top-btn);
+        outline-offset: 0.15em;
+    }
+
+    .top-btn img {
+        width: 1.5rem;
+        aspect-ratio: 1 / 1;
+    }
+</style>
+
+<script defer>
+    const topButton = document.querySelector(".top-btn");
+
+    window.onscroll = () => {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            topButton.classList.remove("hidden");
+        } else {
+            topButton.classList.add("hidden");
+        }
+    }
+
+    topButton.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: "smooth",
+        });
+    });
+</script>
+    </body>
+</html>

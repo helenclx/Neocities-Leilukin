@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" id="page-top">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        
+            <meta property="og:title" content="Website Changelog Archive: 2023">
+        
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Changelog of my website during the year of 2023.">
+<meta name="generator" content="Eleventy v2.0.1">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://leilukin.neocities.org/changelogs/2023/">
+<meta property="og:site_name" content="Leilukin's Hub">
+<meta property="og:locale" content="en_MY">
+<meta property="og:description" content="Changelog of my website during the year of 2023.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:url" content="https://leilukin.neocities.org/changelogs/2023/">
+<meta name="twitter:description" content="Changelog of my website during the year of 2023.">
+<link rel="canonical" href="https://leilukin.neocities.org/changelogs/2023/">
+
+
+        
+        <link rel="stylesheet" href="/assets/css/main.css">
+        
+
+        
+        <link rel="stylesheet" href="/assets/fonts/noto-sans/noto-sans.css">
+
+        
+        <link href="/assets/fonts/fontawesome/css/fontawesome.css" rel="stylesheet" />
+        <link href="/assets/fonts/fontawesome/css/brands.css" rel="stylesheet" />
+        <link href="/assets/fonts/fontawesome/css/solid.css" rel="stylesheet" />
+
+        
+        
+            <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+            <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+            <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+            <link rel="manifest" href="/assets/favicon/site.webmanifest">
+        
+
+        <title>
+            Website Changelog Archive: 2023 | Leilukin's Hub
+        </title>
+    </head>
+    <body>
+        <header class="hero">
+    <div class="hero__top-bar hidden"></div>
+    <div class="hero__img">
+        
+    <img src="/assets/leilukin/Leilukins-Hub-website-banner.png" alt="Banner of Leilukin's Hub">
+
+    </div>
+</header>
+
+<style>
+    .hero {
+        width: 100%;
+        background-color: var(--clr-hero-bg);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .hero__top-bar {
+        background-color: var(--clr-navbar-bg);
+        width: 100%;
+        padding: 0.5em 0;
+    }
+
+    .hero__img {
+        display: grid;
+        place-content: center;
+    }
+
+    .hero img {
+        object-fit: scale-down;
+        overflow: hidden;
+        filter: drop-shadow(0.1rem 0.1rem 0.2rem black);
+        max-height: 20rem;
+    }
+</style>
+
+<script defer>
+    const hero = document.querySelector(".hero");
+    const todayEvent = getTodayEvent();
+    const heroTopBarEl = document.querySelector(".hero__top-bar");
+    const headerImgEl = document.querySelector(".hero__img");
+
+    
+    if (todayEvent != "No event") {
+        heroTopBarEl.classList.remove('hidden');
+
+        if (todayEvent == "Leilukin's Birthday" || todayEvent == "Leilukin's Hub Anniversary") {
+            heroTopBarEl.innerHTML = getBlurbHtml(todayEvent);
+        } else {
+            headerImgEl.classList.add(getBanner(todayEvent));
+            heroTopBarEl.innerHTML = getBlurbHtml(todayEvent);
+        }
+    }
+
+    function getTodayEvent() {
+        const date = new Date();
+        const month = date.getMonth() + 1;
+        const day = date.getDate();
+
+        if (month == 3 && day == 1)
+            return "Zero Discrimination Day";
+        else if (month == 3 && day == 31)
+            return "Trans Day of Visibility";
+        else if (month == 4 && day == 6)
+            return "International Asexuality Day";
+        else if (month == 4 && day == 26)
+            return "Lesbian Visibility Day";
+        else if (month == 5 && day == 17)
+            return "IDAHOBIT";
+        else if (month == 5 && day == 19)
+            return "Agender Pride Day";
+        else if (month == 5 && day == 25)
+            return "Pansexual and Panromantic Awareness & Visibility Day";
+        else if (month == 6)
+            return "Pride Month";
+        else if (month == 7 && day == 14)
+            return "Non-Binary People's Day";
+        else if (month == 7 && day == 28)
+            return "Leilukin's Birthday";
+        else if (month == 9 && day == 11)
+            return "Leilukin's Hub Anniversary";
+        else if (month == 9 && day == 23)
+            return "Bi Visibility Day";
+        else if (month == 10 && day == 8)
+            return "International Lesbian Day";
+        else if (month == 10 && day == 11)
+            return "National Coming Out Day";
+        else if (month == 10 && day == 26)
+            return "Intersex Awareness Day";
+        else
+            return "No event";
+    }
+
+    function getBanner(day) {
+        switch (day) {
+            case "Zero Discrimination Day":
+                return "flag-progress-intersex";
+                break;
+            case "Trans Day of Visibility":
+                return "flag-trans";
+                break;
+            case "International Asexuality Day":
+                return "flag-ace";
+                break;
+            case "Lesbian Visibility Day":
+                return "flag-lesbian";
+                break;
+            case "IDAHOBIT":
+                return "flag-progress";
+                break;
+            case "Agender Pride Day":
+                return "flag-agender";
+                break;
+            case "Pansexual and Panromantic Awareness & Visibility Day":
+                return "flag-pan";
+                break;
+            case "Pride Month":
+                return "flag-progress-intersex";
+                break;
+            case "Non-Binary People's Day":
+                return "flag-non-binary";
+                break;
+            case "Bi Visibility Day":
+                return "flag-bi";
+                break;
+            case "International Lesbian Day":
+                return "flag-lesbian";
+                break;
+            case "National Coming Out Day":
+                return "flag-rainbow";
+                break;
+            case "Intersex Awareness Day":
+                return "flag-intersex";
+                break;
+            default:
+                return "";
+        }
+    }
+
+    function getBlurbHtml(day) {
+        switch (day) {
+            case "Zero Discrimination Day":
+                return `
+                    Today is <a href="https://www.unaids.org/en/zero-discrimination-day" target="_blank">Zero Discrimination Day</a>
+                `;
+                break;
+            case "Trans Day of Visibility":
+                return `
+                    Today is <a href="https://www.manygendersonevoice.org/tdov.html" target="_blank">Trans Day of Visibility</a>
+                `;
+                break;
+            case "International Asexuality Day":
+                return `
+                    Today is <a href="https://internationalasexualityday.org/en" target="_blank">International Asexuality Day</a>
+                `;
+                break;
+            case "Lesbian Visibility Day":
+                return `
+                    Today is <a href="https://www.lesbianvisibilityweek.com" target="_blank">Lesbian Visibility Day</a>
+                `;
+                break;
+            case "IDAHOBIT":
+                return `
+                    Today is <a href="https://may17.org" target="_blank">International Day Against Homophobia, Biphobia and Transphobia</a></span>
+                `;
+                break;
+            case "Agender Pride Day":
+                return `
+                    Today is <a href="https://www.believeoutloud.com/voices/article/agender-pride-day/" target="_blank">Agender Pride Day</a></span>
+                `;
+                break;
+            case "Pansexual and Panromantic Awareness & Visibility Day":
+                return `
+                    Today is <a href="https://genderedintelligence.co.uk/panvisibilityday" target="_blank">Pansexual and Panromantic Visibility Day</a>
+                `;
+                break;
+            case "Pride Month":
+                return `
+                    Happy <a href="https://www.loc.gov/lgbt-pride-month/about/" target="_blank">Pride Month</a>!
+                `;
+                break;
+            case "Non-Binary People's Day":
+                return `
+                    Today is <a href="https://www.manygendersonevoice.org/non-binary-peoples-day.html" target="_blank">Non-Binary People's Day</a>
+                `;
+                break;
+            case "Leilukin's Birthday":
+                return `
+                    Today is Leilukin's birthday
+                `;
+                break;
+            case "Leilukin's Hub Anniversary":
+                return `
+                    Today is the anniversary of the launch of Leilukin's Hub
+                `;
+                break;
+            case "Bi Visibility Day":
+                return `
+                    Today is <a href="https://bivisibilityday.com/about" target="_blank">Bi Visibility Day</a>
+                `;
+                break;
+            case "International Lesbian Day":
+                return `
+                    Today is <a href="https://www.lgbtiqhealth.org.au/international_lesbian_day2" target="_blank">International Lesbian Day</a>
+                `;
+                break;
+            case "National Coming Out Day":
+                return `
+                    Today is <a href="https://www.hrc.org/resources/national-coming-out-day" target="_blank">National Coming Out Day</a>
+                `;
+                break;
+            case "Intersex Awareness Day":
+                return `
+                    Today is <a href="https://interactadvocates.org/intersex-awareness-day" target="_blank">Intersex Awareness Day</a>
+                `;
+                break;
+            default:
+                return ``;
+        }
+    }
+
+</script>
+        <nav class="navbar">
+    <ul class="nav__menu">
+        
+    
+    
+        <li>
+            <a  href="/">
+                Home
+            </a>
+        </li>
+        <li>
+            <a  href="/about/">
+                About
+            </a>
+        </li>
+        <li>
+            <a  href="/now/">
+                Now
+            </a>
+        </li>
+        <li>
+            <a  href="/blog/">
+                Blog
+            </a>
+        </li>
+        <li>
+            <a  href="/articles/">
+                Articles
+            </a>
+        </li>
+        <li>
+            <a  href="/projects/">
+                Projects
+            </a>
+        </li>
+        <li>
+            <a  href="/shrines/">
+                Shrines
+            </a>
+        </li>
+        <li>
+            <a  href="/links/">
+                Links
+            </a>
+        </li>
+    <li><a href="https://leilukin.123guestbook.com/">Guestbook</a></li>
+
+    </ul>
+</nav>
+
+<style>
+    .navbar {
+        background: var(--clr-navbar-bg);
+        padding: 0 0.6rem;
+        width: 100%;
+        z-index: 999;
+        position: sticky;
+        top: 0;
+    }
+
+    .navbar a {
+        color: var(--clr-navbar-link);
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .navbar a:hover {
+        color: var(--clr-link-hover);
+    }
+
+    .navbar a:focus {
+        outline-offset: 0.3em;
+        outline: 0.15em solid var(--clr-navbar-link);
+    }
+
+    .nav__menu {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+</style>
+
+        <main>
+            <header class="main__header">
+    
+
+    
+        <h1>Website Changelog Archive: 2023</h1>
+        
+            <p>Changelog of my website during the year of 2023.</p>
+        
+    
+</header>
+
+<div class="content__wrapper">
+    
+
+    
+		<div class="content ">
+			
+
+
+<nav class="changelog__nav">
+    <p class="changelog__nav--title">Changelog Archive:</p>
+    <ul class="changelog__nav--links">
+        <li>
+            <a  href="/changelogs">Latest</a>
+        </li>
+        |
+        
+            <li>
+                <a  href="/changelogs/2024/">2024</a>
+            </li>
+            |
+            <li>
+                <a aria-current="page" href="/changelogs/2023/">2023</a>
+            </li>
+            |
+            <li>
+                <a  href="/changelogs/2022/">2022</a>
+            </li>
+            |
+            <li>
+                <a  href="/changelogs/layouts/">Website Layouts</a>
+            </li>
+            
+    </ul>
+</nav>
+
+<p>To get notified of the updates on this website, you can subscribe to the <a href="/feed.xml" target="blank">Leilukin's Hub RSS feed</a>, which contains new articles, blog posts and website changelogs, or follow <a href="https://neocities.org/site/leilukin" target="_blank">my Neocities profile</a>.</p>
+<div class="web-btn-wrapper center-el" style="margin-top: 0.7em;">
+    <a href="/feed.xml" target="blank" title="Leilukin's Hub RSS Feed">
+        <img src="/assets/buttons/rss-button.gif" alt="RSS feed button">
+    </a>
+</div>
+
+
+
+<article>
+    
+        <div class="heading-wrapper h2">
+            <h2 id="2023-11-20">20 November 2023</h2>
+            <a class="heading-anchor" href="#2023-11-20" aria-labelledby="2023-11-20"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>New blog post: <a href="/blog/posts/2023-11-20-Finally-Beat-A-Bugs-Life-Video-Game-24-Years-Later">Finally Beat A Bug's Life The Video Game — 24 Years Later</a></li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-11-19">19 November 2023</h2>
+            <a class="heading-anchor" href="#2023-11-19" aria-labelledby="2023-11-19"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>New blog post: <a href="/blog/posts/2023-11-19-I-Can-Finally-Game-on-a-Solid-State-Drive">I Can Finally Game on a Solid-State Drive</a></li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-11-09">9 November 2023</h2>
+            <a class="heading-anchor" href="#2023-11-09" aria-labelledby="2023-11-09"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Added extra header elements to the main site and the shrines to be dynamically displayed on certain days to celebrate special events. (Credit to <a href="https://kotor.neocities.org/">KotOR Community Portal</a> for the inspiration)</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-10-30">30 October 2023</h2>
+            <a class="heading-anchor" href="#2023-10-30" aria-labelledby="2023-10-30"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>New blog post: <a href="/blog/posts/2023-10-30-Support-for-My-Steam-Review-of-A-Summers-End">Support for My Steam Review of A Summer's End — Hong Kong 1986</a>.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-10-18">18 October 2023</h2>
+            <a class="heading-anchor" href="#2023-10-18" aria-labelledby="2023-10-18"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Cassette Beasts <a href="/shrines/cassettebeasts/">shrine</a>: Added Developer Notes section to the <a href="/shrines/cassettebeasts/trivia">Trivia</a> page.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-10-13">13 October 2023</h2>
+            <a class="heading-anchor" href="#2023-10-13" aria-labelledby="2023-10-13"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>New blog post: <a href="/blog/posts/2023-10-13-My-Cassette-Beasts-Pombomb-Plushie-Arrived">My Cassette Beasts Pombomb Plushie Arrived!</a></li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-10-04">4 October 2023</h2>
+            <a class="heading-anchor" href="#2023-10-04" aria-labelledby="2023-10-04"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Cassette Beasts <a href="/shrines/cassettebeasts/">shrine</a>: Updated the Development History section of the <a href="/shrines/cassettebeasts/trivia">Trivia</a> page with info about the release of Update 1.5 and &quot;Pier of the Unknown&quot; DLC.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-10-03">3 October 2023</h2>
+            <a class="heading-anchor" href="#2023-10-03" aria-labelledby="2023-10-03"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Changed this website's font to Noto Sans.</li>
+<li>Cassette Beasts <a href="/shrines/cassettebeasts/">shrine</a>: Added link to my record of all the bootleg mosnters I have encountered to the <a href="/shrines/cassettebeasts/gamelog/">Game Log</a> page.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-09-28">28 September 2023</h2>
+            <a class="heading-anchor" href="#2023-09-28" aria-labelledby="2023-09-28"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Cassette Beasts <a href="/shrines/cassettebeasts/">shrine</a>: Removed the Developer Insight page since the official Cassette Beasts wiki not has a page for a <a href="https://wiki.cassettebeasts.com/wiki/List_of_Interviews">list of interviews</a> the Cassette Beasts staff participated in.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-09-15">15 September 2023</h2>
+            <a class="heading-anchor" href="#2023-09-15" aria-labelledby="2023-09-15"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Cassette Beasts <a href="/shrines/cassettebeasts/">shrine</a>: Updated the <a href="/shrines/cassettebeasts/devinsights">Developer Insight</a> page by adding an Event Showcase section.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-09-13">13 September 2023</h2>
+            <a class="heading-anchor" href="#2023-09-13" aria-labelledby="2023-09-13"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Cassette Beasts <a href="/shrines/cassettebeasts/">shrine</a>: Updated the <a href="/shrines/cassettebeasts/trivia">Trivia</a> page's Development History section with new information about the &quot;Pier of the Unknown&quot; DLC.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-09-11">11 September 2023</h2>
+            <a class="heading-anchor" href="#2023-09-11" aria-labelledby="2023-09-11"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>New blog post: <a href="/blog/posts/2023-09-11-Happy-1st-Anniversary-to-Leilukins-Hub">Happy 1st Anniversary to Leilukin's Hub</a>.</li>
+<li>Updated the <a href="/about/">About</a> page.</li>
+<li>Modified <a href="/blog/">blog</a> style.</li>
+<li>Added the blog's new layout to the <a href="/changelogs/layouts">layout archive</a>.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-09-10">10 September 2023</h2>
+            <a class="heading-anchor" href="#2023-09-10" aria-labelledby="2023-09-10"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Star Wars: Knights of the Old Republic <a href="/shrines/starwarskotor/">shrine</a>: Hide the right sidebar.</li>
+<li>A Summer’s End — Hong Kong 1986 <a href="/shrines/asummersend/">shrine</a>: Change the content of the right sidebar.</li>
+<li>Cassette Beasts <a href="/shrines/cassettebeasts/">shrine</a>: Change the content of the right sidebar.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-09-07">7 September 2023</h2>
+            <a class="heading-anchor" href="#2023-09-07" aria-labelledby="2023-09-07"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Cassette Beasts <a href="/shrines/cassettebeasts/">shrine</a>: The <a href="/shrines/cassettebeasts/articles/">Articles</a> page now includes other people's Cassette Beasts articles that I recommend.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-09-06">6 September 2023</h2>
+            <a class="heading-anchor" href="#2023-09-06" aria-labelledby="2023-09-06"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Moved pages of my video game mods and playlists to <a href="/projects/">Projects</a> page.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-09-04">4 September 2023</h2>
+            <a class="heading-anchor" href="#2023-09-04" aria-labelledby="2023-09-04"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Cassette Beasts <a href="/shrines/cassettebeasts/">shrine</a>: Updated the Development History section of the <a href="/shrines/cassettebeasts/trivia">Trivia</a> page.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-08-30">30 August 2023</h2>
+            <a class="heading-anchor" href="#2023-08-30" aria-labelledby="2023-08-30"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Star Wars: Knights of the Old Republic <a href="/shrines/starwarskotor/">shrine</a>: Added new article: <a href="/shrines/starwarskotor/articles/tslrcm-first-kotor2-playthrough">Should You Use The Sith Lords Restored Content Mod in Your First Star Wars: KotOR 2 Playthrough?</a>.</li>
+<li>Adjusted spacing between each item in the article index lists.</li>
+<li>Make the date format consistent throughout the entire site by using the Day-Month-Year format.</li>
+<li>Fixed broken links in the <a href="/changelogs/2022">2022 changelog archive</a> due to the affected pages moved to other parts of the site.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-08-29">29 August 2023</h2>
+            <a class="heading-anchor" href="#2023-08-29" aria-labelledby="2023-08-29"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Added link button for the site's RSS feed.</li>
+<li>Fixed the overflow issue of header images.</li>
+<li>Added custom style for the <a href="/sitemap">Site Map</a> page.</li>
+<li>Improved accessibility of the site's design by customising the CSS <code>:focus</code> selector.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-08-28">28 August 2023</h2>
+            <a class="heading-anchor" href="#2023-08-28" aria-labelledby="2023-08-28"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>A Summer’s End — Hong Kong 1986 <a href="/shrines/asummersend/">shrine</a>: Updated the main page with information about the spiritual sequel In the Ocean I Learned to Float.</li>
+<li>Cassette Beasts shrine: Adjusted header image and added more images to the home page.</li>
+<li>Leilukin Hub now has an <a href="/feed.xml">RSS feed</a>.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-08-26">26 August 2023</h2>
+            <a class="heading-anchor" href="#2023-08-26" aria-labelledby="2023-08-26"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Cassette Beasts shrine:
+<ul>
+<li>Added a new page for <a href="/shrines/cassettebeasts/devinsights.html">developer insights</a>.</li>
+<li>Added an <a href="/shrines/cassettebeasts/articles/">Articles</a> page and a new article: <a href="/shrines/cassettebeasts/articles/cassette-beasts-more-than-a-pokemon-clone">How Cassette Beasts is Much More than a Pokémon Clone</a></li>
+</ul>
+</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-08-21">21 August 2023</h2>
+            <a class="heading-anchor" href="#2023-08-21" aria-labelledby="2023-08-21"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Star Wars: Knights of the Old Republic <a href="/shrines/starwarskotor/">shrine</a>: Added a new page for <a href="/shrines/starwarskotor/universes/">my KotOR universes</a>.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-08-18">18 August 2023</h2>
+            <a class="heading-anchor" href="#2023-08-18" aria-labelledby="2023-08-18"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Cassette Beasts <a href="/shrines/cassettebeasts/">shrine</a>: Added links to Cassette Beasts's official website, wiki, and platforms to purchase the game to the home page.</li>
+<li>New article: <a href="/articles/designated-lesbian-syndrome-fandom">Designated Lesbian Syndrome in Fandom</a>.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-08-15">15 August 2023</h2>
+            <a class="heading-anchor" href="#2023-08-15" aria-labelledby="2023-08-15"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Cassette Beasts <a href="/shrines/cassettebeasts/">shrine</a>: Added a <a href="/shrines/cassettebeasts/gamelog">Game Log</a> page.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-08-14">14 August 2023</h2>
+            <a class="heading-anchor" href="#2023-08-14" aria-labelledby="2023-08-14"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>New article: <a href="/articles/my-dislike-of-shipping-culture">My Disinterest in Shipping and Dislike of Shipping Culture</a>.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-08-13">13 August 2023</h2>
+            <a class="heading-anchor" href="#2023-08-13" aria-labelledby="2023-08-13"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Streamlined JavaScript code for the website's components.</li>
+<li>Added JavaScript scripts to generate article table of contents automatically.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-08-10">10 August 2023</h2>
+            <a class="heading-anchor" href="#2023-08-10" aria-labelledby="2023-08-10"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Reformatted source and reference citations, such as the <a href="/shrines/asummersend/trivia">Trivia</a> page on the A Summer’s End — Hong Kong 1986 shrine.</li>
+<li>Updated the <a href="/about/">About</a> page to add the site button and the link to the site's <a href="https://neocities.org/site/leilukin">Neocities profile</a>.</li>
+<li>Cassette Beasts <a href="/shrines/cassettebeasts/">shrine</a>: Added a <a href="/shrines/cassettebeasts/trivia">Trivia</a></li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-08-08">8 August 2023</h2>
+            <a class="heading-anchor" href="#2023-08-08" aria-labelledby="2023-08-08"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Cassette Beasts <a href="/shrines/cassettebeasts/">shrine</a>: Added a <a href="/shrines/cassettebeasts/featured">Featured</a> page.</li>
+<li>Added new resource: <a href="/resources/web-building-resources.html">Web Building Resources</a>.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-08-03">3 August 2023</h2>
+            <a class="heading-anchor" href="#2023-08-03" aria-labelledby="2023-08-03"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Launched new <a href="/shrines/">shrine</a>: <a href="/shrines/cassettebeasts/">Cassette Beasts</a>.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-07-28">28 July 2023</h2>
+            <a class="heading-anchor" href="#2023-07-28" aria-labelledby="2023-07-28"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>New blog post: <a href="/blog/posts/2023-07-28-My-First-Birthday-After-the-Launch-of-Leilukins-Hub">My First Birthday After the Launch of Leilukin's Hub</a>.</li>
+<li>Added shrine launch date to the footer of each <a href="/shrines/">shrine</a>.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-07-27">27 July 2023</h2>
+            <a class="heading-anchor" href="#2023-07-27" aria-labelledby="2023-07-27"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>For <a href="/projects/">my mods page</a>, adjusted the background width of the individual mods.</li>
+<li>Rearranged my <a href="/links/">Links</a> page.</li>
+<li>Star Wars: Knights of the Old Republic <a href="/shrines/starwarskotor/">shrine</a>:
+<ul>
+<li>Updated the main page.</li>
+<li>Moved links to KotOR fan listings to the sidebar.</li>
+<li>Added articles I recommend to the <a href="/shrines/starwarskotor/articles/">articles page</a>.</li>
+</ul>
+</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-07-26">26 July 2023</h2>
+            <a class="heading-anchor" href="#2023-07-26" aria-labelledby="2023-07-26"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Leilukin's Hub now has a site button for you to link to!</li>
+<li>Restructured the navigation bar.</li>
+<li>Rearranged CSS and JavaScript file directories.</li>
+<li>Renamed custom CSS properties.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-07-25">25 July 2023</h2>
+            <a class="heading-anchor" href="#2023-07-25" aria-labelledby="2023-07-25"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Leilukin's Hub now has a <a href="https://leilukin.123guestbook.com/">guestbook</a>!</li>
+<li>A Summer’s End — Hong Kong 1986 <a href="/shrines/asummersend/">shrine</a>: Replaced some of the images on the shrine's pages, including the header image.</li>
+<li>Moved the link to the <a href="/sitemap">site map</a> from the navigation bar to the footer.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-07-12">12 July 2023</h2>
+            <a class="heading-anchor" href="#2023-07-12" aria-labelledby="2023-07-12"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Star Wars: Knights of the Old Republic <a href="/shrines/starwarskotor/">shrine</a>: Added new article: <a href="/shrines/starwarskotor/articles/partyswap-management-takeover">On Me Taking Over the Management and Development of DarthTyren's PartySwap Mod</a>.</li>
+<li>Added PartySwap to my <a href="/projects/kotor2mods">Star Wars: Knights of the Old Republic II: The Sith Lords mod page</a>, since I have taken over the management and development of the mod.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-06-28">28 June 2023</h2>
+            <a class="heading-anchor" href="#2023-06-28" aria-labelledby="2023-06-28"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Star Wars: Knights of the Old Republic <a href="/shrines/starwarskotor/">shrine</a>: Added new article: <a href="/shrines/starwarskotor/articles/keep-juhani-a-lesbian">Keep Juhani a Lesbian and Keep Juhani's Romance Exclusive to Female Characters</a>.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-06-27">27 June 2023</h2>
+            <a class="heading-anchor" href="#2023-06-27" aria-labelledby="2023-06-27"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Star Wars: Knights of the Old Republic <a href="/shrines/starwarskotor/">shrine</a>:
+<ul>
+<li>Added new article: <a href="/shrines/starwarskotor/articles/faq-same-gender-romance-mods">Frequently Asked Questions (FAQ) for My Same-Gender Romance Mods for Star Wars: Knight of the Old Republic Series</a>.</li>
+<li>Make the sidebar table of contents of <a href="/shrines/starwarskotor/guides/kotor-redeeming-bastila-guide">Star Wars: Knights of the Old Republic: Redeeming Bastila Guide</a> sticky.</li>
+<li>Fixed broken links on the navigation bar.</li>
+<li>Modified footer content.</li>
+<li>Removed unnecessary code in CSS.</li>
+<li>Removed the background image of the shrines that was accidentally done through importing the main CSS.</li>
+</ul>
+</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-06-26">26 June 2023</h2>
+            <a class="heading-anchor" href="#2023-06-26" aria-labelledby="2023-06-26"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Replaced incorrect uses of semantic HTML tags throughout the entire website, such as replacing <code>&lt;em&gt;</code> that were used for media titles with <code>&lt;cite&gt;</code>, <code>&lt;strong&gt;</code> that were used for styling with custom CSS class.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-06-23">23 June 2023</h2>
+            <a class="heading-anchor" href="#2023-06-23" aria-labelledby="2023-06-23"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>The HTML, CSS and JavaScript of entire website has been rewritten to improve the site's layout! See the <a href="/changelogs/updates/2023-june-layout-rewrite">June 2023 Layout Rewrite</a> for more information!</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-06-15">15 June 2023</h2>
+            <a class="heading-anchor" href="#2023-06-15" aria-labelledby="2023-06-15"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Removed unnecessary CSS files.</li>
+<li>Refactored the index page's HTML and CSS.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-06-11">11 June 2023</h2>
+            <a class="heading-anchor" href="#2023-06-11" aria-labelledby="2023-06-11"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Widened the website content layout.</li>
+<li>Changed the header image of my <a href="/shrines/starwarskotor/"><cite>Star Wars: Knights of the Old Republic</cite> shrine</a>.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-05-09">9 May 2023</h2>
+            <a class="heading-anchor" href="#2023-05-09" aria-labelledby="2023-05-09"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>New blog post: <a href="/blog/posts/2023-05-09-Onboard-the-Dracula-Daily-Hype-Train">Onboard the Dracula Daily Hype Train</a>.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-05-05">5 May 2023</h2>
+            <a class="heading-anchor" href="#2023-05-05" aria-labelledby="2023-05-05"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Modify the web application manifest of this site to make this site look more like a mobile app when added to a mobile device's home screen.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-03-27">27 March 2023</h2>
+            <a class="heading-anchor" href="#2023-03-27" aria-labelledby="2023-03-27"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Added my latest mod, Leilukin's Juhani's Outfit Reskin Pack, to <a href="/projects/kotor1mods">my mods for Star Wars: Knights of the Old Republic</a> page.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-04-23">23 March 2023</h2>
+            <a class="heading-anchor" href="#2023-04-23" aria-labelledby="2023-04-23"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Switch the content of the left and right sidebars. Navigation links are now on the left sidebar, while the table of contents on the right sidebar.</li>
+<li>Proper indentation of the HTML codes.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-03-22">22 March 2023</h2>
+            <a class="heading-anchor" href="#2023-03-22" aria-labelledby="2023-03-22"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Added the dates of publication of articles.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-03-20">20 March 2023</h2>
+            <a class="heading-anchor" href="#2023-03-20" aria-labelledby="2023-03-20"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Tweaked the format of the dates of publication and update of articles.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-03-19">19 March 2023</h2>
+            <a class="heading-anchor" href="#2023-03-19" aria-labelledby="2023-03-19"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Added a new masterlist on my <a href="/resources/">Resources</a> page: <a href="/resources/anti-harry-potter-jk-rowling-masterlist">Anti-Harry Potter and Anti-J. K. Rowling Masterlist</a></li>
+<li>Changed the color of subheadings.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-03-02">2 March 2023</h2>
+            <a class="heading-anchor" href="#2023-03-02" aria-labelledby="2023-03-02"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Star Wars: Knights of the Old Republic <a href="/shrines/starwarskotor/">shrine</a>: Updated the <a href="/shrines/starwarskotor/guides/">Guides page</a> to add a section for lists of cheats for the KotOR games.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-02-18">18 February 2023</h2>
+            <a class="heading-anchor" href="#2023-02-18" aria-labelledby="2023-02-18"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Added <a href="/sitemap">Site Map</a>.</li>
+<li>Star Wars: Knights of the Old Republic <a href="/shrines/starwarskotor/">shrine</a>: Added <a href="/shrines/starwarskotor/guides/">guides</a>:
+<ul>
+<li><a href="/shrines/starwarskotor/guides/kotor-juhani-romance-guide">Juhani Romance Guide</a></li>
+<li><a href="/shrines/starwarskotor/guides/kotor-redeeming-bastila-guide">Redeeming Bastila Guide</a></li>
+<li><a href="/shrines/starwarskotor/guides/kotor-sandral-matale-feud-guide">Sandral-Matale Feud Ending Guide</a></li>
+</ul>
+</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-02-17">17 February 2023</h2>
+            <a class="heading-anchor" href="#2023-02-17" aria-labelledby="2023-02-17"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>A Summer’s End — Hong Kong 1986 <a href="/shrines/asummersend/">shrine</a>:
+<ul>
+<li>Added a <a href="/shrines/asummersend/trivia">Trivia</a> page.</li>
+<li>Added information and link to A Summer's End's' official soundtrack on the <a href="/shrines/asummersend/playlists">Playlists</a> page.</li>
+</ul>
+</li>
+<li>Added a new shrine: <a href="/shrines/starwarskotor/">Star Wars: Knights of the Old Republic</a>.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-02-16">16 February 2023</h2>
+            <a class="heading-anchor" href="#2023-02-16" aria-labelledby="2023-02-16"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Added a <a href="/shrines/">Shrines</a> page, with the first e-shrine on this website being <a href="/shrines/asummersend/">A Summer’s End — Hong Kong 1986</a>.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-02-10">10 February 2023</h2>
+            <a class="heading-anchor" href="#2023-02-10" aria-labelledby="2023-02-10"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Updated the banner image of my Alternate Revan Romances REDUX mod on the <a href="/projects/kotor2mods">Star Wars: Knights of the Old Republic II: The Sith Lords mod page</a>.</li>
+<li>Added a Webrings section on the <a href="/home">home page</a>.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-02-07">7 February 2023</h2>
+            <a class="heading-anchor" href="#2023-02-07" aria-labelledby="2023-02-07"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Updated the <a href="/resources">Resources</a> page to add a my <a href="https://deadlystream.com/files/file/2249-missing-k1-party-member-ports-for-tsl-modders-resource/">Missing K1 Party Member Ports for TSL</a> modder's resource.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-01-31">31 January 2023</h2>
+            <a class="heading-anchor" href="#2023-01-31" aria-labelledby="2023-01-31"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Updated the <a href="/links">Links</a> page as I have officially joined the <a href="https://isaacfish.neocities.org/webring/">Queer Coded webring</a>.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-01-30">30 January 2023</h2>
+            <a class="heading-anchor" href="#2023-01-30" aria-labelledby="2023-01-30"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Added my latest mod, Juhani Item Pack for TSL, to <a href="/projects/kotor2mods">my mods for Star Wars: Knights of the Old Republic II: The Sith Lords</a> page.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-01-28">28 January 2023</h2>
+            <a class="heading-anchor" href="#2023-01-28" aria-labelledby="2023-01-28"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Added a <a href="/links">Links</a> page.</li>
+<li>Move the link to <a href="/changelogs/">changelog</a> to the sidebar.</li>
+<li>Due to these new changes to the navigation links on the sidebar, I wrote a JavaScript file to dynamically generate the contents on the right sidebar and the footer across multiple pages on this site.</li>
+<li>Adjust the line spacing and the spacing between the listed items on the <a href="/changelogs/">changelog</a> page.</li>
+<li>Made adjustments to the relative paths in the HTML files, to ensure this site's favicons will show up on the title bar by default.</li>
+<li>Fixed the issue of the page style not applied to the Not Found page.</li>
+<li>Updated the <a href="/about">About</a> page.</li>
+<li>Update the <a href="/not_found">Page Not Found</a> page.</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-01-26">26 January 2023</h2>
+            <a class="heading-anchor" href="#2023-01-26" aria-labelledby="2023-01-26"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>The entire website has been redesigned! See the <a href="/blog/posts/2023-01-26-new-year-leilukins-hub-redesign">2023 New Year Redesign of Leilukin's Hub</a> for more information!</li>
+</ul>
+
+        <div class="heading-wrapper h2">
+            <h2 id="2023-01-25">25 January 2023</h2>
+            <a class="heading-anchor" href="#2023-01-25" aria-labelledby="2023-01-25"><span hidden="">#</span></a>
+        </div>
+        <ul>
+<li>Added my latest mod, TSL Twi'lek Male NPC Diversity, to <a href="/projects/kotor2mods">my mods for Star Wars: Knights of the Old Republic II: The Sith Lords</a> page.</li>
+<li>Corrected the mod description of KotOR 1 Twi'lek Male NPC Diversity on <a href="/projects/kotor1mods">my mods for Star Wars: Knights of the Old Republic</a> page.</li>
+</ul>
+
+</article>
+
+<style>
+    .heading-wrapper + ul {
+        margin: 0.3em 0 3em 0;
+    }
+</style>
+
+
+<style>
+    .changelog__nav,
+    .changelog__nav--links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .changelog__nav {
+        flex-direction: column;
+        gap: 0.2em;
+        align-self: center;
+        font-weight: 600;
+        gap: 0.5em;
+    }
+
+    .changelog__nav--links {
+        margin: 0;
+        padding: 0;
+        line-height: 1.1;
+    }
+
+    .changelog__nav--links {
+        list-style: none;
+        gap: 0.5em;
+    }
+
+    .changelog__nav--links li {
+        text-align: center;
+        align-self: center;
+    }
+
+    .changelog__nav--links [aria-current="page"] {
+        text-decoration: none;
+        color: var(--clr-bold-txt);
+    }
+
+    @media (min-width: 640px) {
+        .changelog__nav {
+            flex-direction: row;
+            gap: 1em;
+        }
+    }
+</style>
+		</div>
+    
+
+    
+
+    
+</div>
+
+<style>
+    .breadcrumbs {
+        list-style: none;
+        padding: 0;
+        margin: 0 0 0.7em 0;
+        display: flex;
+        gap: 0.5em;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+</style>
+        </main>
+        <footer class="footer">
+    
+    <p>Made with ♥ by Leilukin since <time>11 September 2022</time></p>
+
+    
+    <ul class="footer__links">
+        <li>
+            <a  href="/sitemap/">Site Map</a>
+        </li>
+        |
+        <li>
+            <a  href="/changelogs/">Changelogs</a>
+        </li>
+        |
+        <li><a href="/feed.xml">RSS</a></li>
+    </ul>
+
+</footer>
+
+<style>
+    .footer {
+        margin-top: auto;
+        background: var(--clr-main-footer-bg);
+        padding: 0.8rem;
+        text-align: center;
+        display: grid;
+    }
+
+    .footer p {
+        padding: 0;
+    }
+
+    .footer__links {
+        justify-self: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 0.7em;
+    }
+
+    @media only screen and (min-width: 600px) {
+        .footer {
+            width: 100%;
+        }
+    }
+</style>
+        <button class="top-btn hidden">
+    <img src="/assets/images/elements/chevron-up.svg" alt="Scroll to top">
+</button>
+
+<style>
+    .top-btn {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        z-index: 999;
+        border: none;
+        background-color: var(--clr-top-btn);
+        border-radius: 50em;
+        padding: 0.3em;
+    }
+
+    .top-btn:focus {
+        outline: 0.25em solid var(--clr-top-btn);
+        outline-offset: 0.15em;
+    }
+
+    .top-btn img {
+        width: 1.5rem;
+        aspect-ratio: 1 / 1;
+    }
+</style>
+
+<script defer>
+    const topButton = document.querySelector(".top-btn");
+
+    window.onscroll = () => {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            topButton.classList.remove("hidden");
+        } else {
+            topButton.classList.add("hidden");
+        }
+    }
+
+    topButton.addEventListener('click', () => {
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: "smooth",
+        });
+    });
+</script>
+    </body>
+</html>

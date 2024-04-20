@@ -1,0 +1,45 @@
+{% extends "global/hero.njk" %}
+
+{% block heroImg %}
+    <picture>
+        <source srcset="/assets/cassettebeasts/images/cassettebeasts-header-320.png" media="(orientation: landscape)" />
+        <img src="/assets/cassettebeasts/images/cassettebeasts-header-640.png" alt="Banner of Cassette Beasts Shrine" />
+    </picture>
+{% endblock %}
+
+{% block eventScript %}
+    if (todayEvent != "No event") {
+        heroTopBarEl.classList.remove('hidden');
+        heroTopBarEl.innerHTML = getBlurbHtml(todayEvent);
+    }
+
+    function getTodayEvent() {
+        const date = new Date();
+        const month = date.getMonth() + 1;
+        const day = date.getDate();
+
+        if (month == 4 && day == 26)
+            return "CB Anniversary";
+        else if (month == 9 && day == 12)
+            return "Pier Anniversary";
+        else
+            return "No event";
+    }
+
+    function getBlurbHtml(day) {
+        switch (day) {
+            case "CB Anniversary":
+                return `
+                    Today is the anniversary of the release of <cite>Cassette Beasts</cite>!
+                `;
+                break;
+            case "Pier Anniversary":
+                return `
+                    Today is the anniversary of the release of <cite>Pier of the Unknown</cite>, the first DLC expansion of <cite>Cassette Beasts</cite>!
+                `;
+                break;
+            default:
+                return ``;
+        }
+    }
+{% endblock %}

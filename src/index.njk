@@ -1,0 +1,69 @@
+---
+layout: main/content
+tags: pages
+pageTitle: Welcome!
+desc: Home page of Leilukin's Hub.
+metadata:
+    title: Home
+date: 2022-01-01
+isContentDivided: true
+eleventyNavigation:
+    key: Home
+---
+
+<section class="content__section">
+    <p>Hello! You can call me Leilukin. Welcome to my website! This site is my own personal hub and corner on the internet.</p>
+    <p>You can browse all my contents published on this site through the <a href="/archive">Archive</a> page, or the <a href="/categories">Content Categories</a> page.</p>
+    <p>You may use the <a href="/sitemap">site map</a> to quickly navigate this website.</p>
+    <p>Feel free to drop a message and say hi on <a href="https://leilukin.123guestbook.com/" target="_blank">my guestbook</a>!</p>
+    <p>Enjoy your stay!</p>
+</section>
+
+<section class="content__section">
+    <h2>Link to My Website</h2>
+
+    {% include "main/site-btn.njk" %}
+</section>
+
+<section class="content__section">
+    <h2>Updates</h2>
+    <div class="text-box">
+        {% for log in collections["changelogs"]  | reverse | itemLimit(1) %}
+            <h3 class="date-style">{{ log.data.date | niceDate }}:</h3>
+            {{ log.templateContent | safe }}
+        {%- endfor %}
+        <p><a href="/changelogs">View all site changelogs</a></p>
+    </div>
+    <p>You can subscribe to the <a href="/feed.xml" target="blank">Leilukin's Hub RSS feed</a> or follow <a href="https://neocities.org/site/leilukin" target="_blank">my Neocities profile</a> to get notified of the updates on this website.</p>
+    <div class="web-btn-wrapper" style="margin-top: 0.5em;">
+        <a href="/feed.xml" target="blank" title="Leilukin's Hub RSS Feed">
+            <img src="/assets/buttons/rss-button.gif" alt="RSS feed button">
+        </a>
+    </div>
+</section>
+
+<section class="content__section">
+    <h2>Always Proud</h2>
+    <div class="web-btn-wrapper">
+        <img src="/assets/buttons/progress.png" alt="A website button of the 2018 Progress Flag" loading="lazy" title="2018 Progress Flag by Daniel Quasar (2018)">
+        <img src="/assets/buttons/9_stripe.png" alt="A website button of the 9 stripe rainbow flag" loading="lazy" title="Nine-Stripe Rainbow Flag by Gilbert Baker (2017)">
+        <img src="/assets/buttons/lesbian.png" alt="A website button of the lesbian pride flag" loading="lazy" title="I am a lesbian">
+        <img src="/assets/buttons/nonbinary.png" alt="A website button of the non-binary pride flag" loading="lazy" title="I am non-binary">
+        <img src="/assets/buttons/demigirl.png" alt="A website button of the demigirl pride flag" loading="lazy" title="I am a demiwoman">
+        <img src="/assets/buttons/agender.png" alt="A website button of the agender pride flag" loading="lazy" title="I am agender">
+        <img src="/assets/buttons/bigender.png" alt="A website button of the bigender pride flag" loading="lazy" title="I am bigender">
+    </div>
+    <p>Credit to <a href="https://rainy.gay/pride/pridebuttons" target="_blank">Dime</a> for these pride buttons!</p>
+</section>
+
+<section class="content__section">
+    <h2>Webrings</h2>
+    <div class="web-btn-wrapper">
+        <div style="border: none; display: inline-flex"><a href="https://isaacfish.neocities.org/webring/25.html" target="_blank"><img src="/assets/webrings/queercoded-left.png" alt="left arrow"></a>&nbsp;<a href="https://isaacfish.neocities.org/webring/" target="_blank"><img src="/assets/webrings/queercoded.png" alt="queer coded webring" title="The Queer Coded Webring"></a>&nbsp;<a href="https://isaacfish.neocities.org/webring/27.html" target="_blank"><img src="/assets/webrings/queercoded-right.png" alt="right arrow"></a></div>
+    </div>
+</section>
+
+<section class="content__section">
+    <h2>Support Me</h2>
+    {% include "main/support-me.njk" %}
+</section>

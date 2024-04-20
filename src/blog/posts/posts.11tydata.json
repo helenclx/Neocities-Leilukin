@@ -1,0 +1,11 @@
+{
+    "layout": "main/blogpost",
+    "tags": ["posts", "contents", "feed items"],
+    "eleventyComputed": {
+        "title": "{{ articleTitle }} | Blog",
+        "eleventyNavigation": {
+            "key": "{{ articleTitle }}",
+            "parent": "Blog Archive"
+        }
+    }
+}

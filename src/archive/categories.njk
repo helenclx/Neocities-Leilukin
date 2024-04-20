@@ -1,0 +1,19 @@
+---
+pagination:
+    data: collections.categories
+    size: 1
+    alias: category
+permalink: /categories/{{ category | slugify }}/
+eleventyExcludeFromCollections: true
+eleventyComputed:
+    title: 'Content Category: "{{ category }}"'
+    desc: All contents under the "{{ category }}" category on {{ sitemeta.siteName | safe }}.
+---
+
+{% set contentCount = collections.contents | filterByCategory(category) | length %}
+<h2>{{ contentCount }} Contents Filed Under "{{ category }}"</h2>
+
+{% set contentList = collections.contents | filterByCategory(category) | reverse %}
+{% include "main/content-list.njk" %}
+
+<p>See <a href="/categories/">all content categories</a>.</p>
