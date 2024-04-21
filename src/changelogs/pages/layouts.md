@@ -17,6 +17,20 @@ eleventyNavigation:
 {%- endmacro -%}
 
 {{ siteLayout({
+    title: "20 April 2024",
+    screenshots: [
+        {
+            imgFile: "Leilukins-Hub-layout-2024-04.png",
+            imgAlt: "Leilukin's Hub home page on 11 September 2023"
+        },
+        {
+            imgFile: "Leilukins-Hub-blog-layout-2024-04.png",
+            imgAlt: "Leilukin's Hub blog on 11 September 2023"
+        }
+    ]
+}) }}
+
+{{ siteLayout({
     title: "11 September 2023 Blog Layout",
     screenshots: [
         {
