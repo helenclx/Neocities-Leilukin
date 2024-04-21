@@ -4,7 +4,7 @@
     <subtitle>Leilukin&#39;s personal website.</subtitle>
     <link href="https://leilukin.neocities.org/feed.xml" rel="self"/>
     <link href="https://leilukin.neocities.org"/>
-    <updated>2024-04-21T22:58:10Z</updated>
+    <updated>2024-04-21T23:04:04Z</updated>
     <id>https://leilukin.neocities.org</id>
     <author>
         <name>Leilukin</name>
@@ -2354,7 +2354,7 @@ After discovering the static site generator &lt;a href=&quot;https://www.11ty.de
 &lt;p&gt;These mods are not required to complete Juhani&#39;s romance, but they add or enhance Juhani&#39;s content.&lt;/p&gt;
 &lt;ul class=&quot;content-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;http://deadlystream.com/files/file/772-juhani-romance-enhancement/&quot; target=&quot;_blank&quot;&gt;Juhani Romance Enhancement&lt;/a&gt;&lt;span class=&quot;bold-text&quot;&gt; by Kexikus:&lt;/span&gt; Improves the final romance conversation with Juhani, including triggering the conversation automatically when you are about to leave the temple summit, instead of having to talk to Juhani yourself to initiate the conversation, provided you have met the conditions to make this conversation available (detailed in the Walkthrough section above), as well as adding a kiss between Juhani and the female player character.&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;https://deadlystream.com/files/file/1258-kotor-1-community-patch/&quot; target=&quot;_blank&quot;&gt;KOTOR 1 Community Patch&lt;/a&gt;&lt;span class=&quot;bold-text&quot;&gt;:&lt;/span&gt; Even though this bug fix mod is not specifically about Juhani, it fixes many bugs and issues related to Juhani&#39;s content, including but not limited to:&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://deadlystream.com/files/file/1258-kotor-1-community-patch/&quot; target=&quot;_blank&quot;&gt;KOTOR 1 Community Patch&lt;/a&gt;&lt;span class=&quot;bold-text&quot;&gt;:&lt;/span&gt; Even though this bug fix mod is not specifically about Juhani, it fixes many bugs and issues related to Juhani&#39;s content, including:&lt;/li&gt;
     &lt;ul&gt;
         &lt;li&gt;Juhani wouldn&#39;t spawn in the post-Leviathan scene on the Ebon Hawk&lt;/li&gt;
         &lt;li&gt;If doing certain Juhani&#39;s conversations in the wrong order, it was possible to block any further progress in Juhani&#39;s Personal Conversation path, and prevent you from accessing Juhani&#39;s final romance conversation&lt;/li&gt;
@@ -2362,7 +2362,7 @@ After discovering the static site generator &lt;a href=&quot;https://www.11ty.de
         &lt;li&gt;The second Xor encounter was impossible to start if you first meet him and his goons without Juhani in your party&lt;/li&gt;
         &lt;li&gt;The second Xor encounter is unavailable on Tatooine&lt;/li&gt;
         &lt;li&gt;Xor is a Twi&#39;lek, despite him being a human in the Xbox version of KotOR, and him openly making anti-alien comments (NOTE: This fix was originally done by my &lt;a href=&quot;http://deadlystream.com/files/file/1091-human-xor-restoration/&quot; target=&quot;_blank&quot;&gt;Human Xor Restoration&lt;/a&gt; mod. I have given permission to include my mod in this Community Patch)&lt;/li&gt;
-        &lt;li&gt;Asking Juhani about the planet you are on&lt;/li&gt;
+        &lt;li&gt;Asking Juhani about the planet you were currently on was impossible due to a faulty global setting&lt;/li&gt;
     &lt;/ul&gt;
     &lt;li&gt;&lt;a href=&quot;https://deadlystream.com/files/file/2173-juhani-dialogue-restoration/&quot; target=&quot;_blank&quot;&gt;Juhani Dialogue Restoration&lt;/a&gt;&lt;span class=&quot;bold-text&quot;&gt; by Leilukin:&lt;/span&gt; My mod. Restores Juhani&#39;s conversations with the player that are unused or easy to miss in vanilla KotOR, including:&lt;/li&gt;
     &lt;ul&gt;

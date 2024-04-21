@@ -1,7 +1,7 @@
 ---
 articleTitle: "Juhani Romance Guide"
 date: 2016-03-05
-updated: 2024-04-19
+updated: 2024-04-22
 desc: "Walkthrough of how to successfully romance Juhani in Star Wars: Knights of the Old Republic."
 tags: kotor 1 guides
 categories: ["star wars kotor"]
@@ -122,8 +122,8 @@ https://youtu.be/vklWpPBF7mA
 
 <span class="juhani-personal">Personal #8:</span> The final conversation, which is also Juhani's love confession, in order to make this final romance conversation available, you must meet ALL the following conditions:
 
-1.  You have completed Personal #6 _and_ the "Threat From Xor" quest. If you use KotOR SaveGame Editor to check your progress, **the global value of `G_JUHANIP_STATE` must be 10.**
-2.  During the confrontation with Bastila at the Rakatan temple summit on the Unknown World, **you must reject Bastila's suggestion to reclaim the title of Dark Lord of the Sith and rule the galaxy**, which gives you the light side ending of the game. If you choose to agree with Bastila's suggestion, you will be forced to kill Juhani (and Jolee), which ends the romance, and you will get the dark side ending of the game.
+1. You have completed Personal #6 _and_ the "Threat From Xor" quest. If you use KotOR SaveGame Editor to check your progress, **the global value of `G_JUHANIP_STATE` must be 10.**
+2. During the confrontation with Bastila at the Rakatan temple summit on the Unknown World, **you must reject Bastila's suggestion to reclaim the title of Dark Lord of the Sith and rule the galaxy**, which gives you the light side ending of the game. If you choose to agree with Bastila's suggestion, you will be forced to kill Juhani (and Jolee), which ends the romance, and you will get the dark side ending of the game.
 
 Provided the above conditions have been met, the final romance conversation occurs after Bastila leaves the Rakatan temple summit. When you talk to Juhani, she will confess her feelings to you. If you have installed Kexikus' Juhani Romance Enhancement mod (see the Mod Recommendation section below for details), the conversation will be triggered automatically when you are leaving the temple summit, so you do not need to initiate the conversation yourself.
 
@@ -141,7 +141,7 @@ These mods are not required to complete Juhani's romance, but they add or enhanc
 
 <ul class="content-list">
     <li><a href="http://deadlystream.com/files/file/772-juhani-romance-enhancement/" target="_blank">Juhani Romance Enhancement</a><span class="bold-text"> by Kexikus:</span> Improves the final romance conversation with Juhani, including triggering the conversation automatically when you are about to leave the temple summit, instead of having to talk to Juhani yourself to initiate the conversation, provided you have met the conditions to make this conversation available (detailed in the Walkthrough section above), as well as adding a kiss between Juhani and the female player character.</li>
-    <li><a href="https://deadlystream.com/files/file/1258-kotor-1-community-patch/" target="_blank">KOTOR 1 Community Patch</a><span class="bold-text">:</span> Even though this bug fix mod is not specifically about Juhani, it fixes many bugs and issues related to Juhani's content, including but not limited to:</li>
+    <li><a href="https://deadlystream.com/files/file/1258-kotor-1-community-patch/" target="_blank">KOTOR 1 Community Patch</a><span class="bold-text">:</span> Even though this bug fix mod is not specifically about Juhani, it fixes many bugs and issues related to Juhani's content, including:</li>
     <ul>
         <li>Juhani wouldn't spawn in the post-Leviathan scene on the Ebon Hawk</li>
         <li>If doing certain Juhani's conversations in the wrong order, it was possible to block any further progress in Juhani's Personal Conversation path, and prevent you from accessing Juhani's final romance conversation</li>
@@ -149,7 +149,7 @@ These mods are not required to complete Juhani's romance, but they add or enhanc
         <li>The second Xor encounter was impossible to start if you first meet him and his goons without Juhani in your party</li>
         <li>The second Xor encounter is unavailable on Tatooine</li>
         <li>Xor is a Twi'lek, despite him being a human in the Xbox version of KotOR, and him openly making anti-alien comments (NOTE: This fix was originally done by my <a href="http://deadlystream.com/files/file/1091-human-xor-restoration/" target="_blank">Human Xor Restoration</a> mod. I have given permission to include my mod in this Community Patch)</li>
-        <li>Asking Juhani about the planet you are on</li>
+        <li>Asking Juhani about the planet you were currently on was impossible due to a faulty global setting</li>
     </ul>
     <li><a href="https://deadlystream.com/files/file/2173-juhani-dialogue-restoration/" target="_blank">Juhani Dialogue Restoration</a><span class="bold-text"> by Leilukin:</span> My mod. Restores Juhani's conversations with the player that are unused or easy to miss in vanilla KotOR, including:</li>
     <ul>
