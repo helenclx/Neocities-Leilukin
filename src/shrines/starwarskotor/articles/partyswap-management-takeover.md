@@ -9,7 +9,7 @@ categories: ["star wars kotor 2", "modding"]
 
 Starting from 11 July 2023, I, Leilukin, have officially taken over the management and development of DarthTyren's [PartySwap](https://deadlystream.com/files/file/544-partyswap/) mod for Star Wars: Knights of the Old Republic: The Sith Lords.
 
-![Screenshot of the PartySwap mod's download page, showing Leilukin as the owner](/assets/starwarskotor/articles/partyswap-ownership-takeover.png)
+![Screenshot of the PartySwap mod's download page, showing Leilukin as the owner](/assets/shrines/starwarskotor/articles/partyswap-ownership-takeover.png)
 
 PartySwap is a mod that allows you to recruit both Handmaiden and Disciple as party members in a single playthrough regardless of the player character's gender. Since its release on May 21, 2015, PartySwap has been one of the most popular KotOR 2 mods, for very good reasons: it is an excellent mod from concept and execution on both story and technical standpoints. Even though PartySwap was not the first [mod that allows a female player character to recruit Handmaiden as a party member](../resources/kotor2-female-exile-recruit-handmaiden-mods.html), it was the first that actually makes both Handmaiden and Disciple join your party in the same playthrough, regardless of the player character's gender. It is a further testament to PartySwap's quality that it has been included in the [KotOR Community Portal's mod builds](https://kotor.neocities.org/modding/), which are known for high-standards for mod quality, and described by the mod builds as a legendary mod.
 

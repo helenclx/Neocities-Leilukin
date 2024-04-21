@@ -13,12 +13,12 @@ Internet shrines are website pages dedicated to specific topics or interests. He
 
 ## [A Summer's End — Hong Kong 1986](./asummersend/)
 
-![Header of A Summer's End — Hong Kong 1986](/assets/asummersend/images/ASE_Key_art_intro.png)
+![Header of A Summer's End — Hong Kong 1986](/assets/shrines/asummersend/images/ASE_Key_art_intro.png)
 
 ## [Star Wars: Knights of the Old Republic](./starwarskotor/)
 
-![Header of the Star Wars: Knights of the Old Republic series](/assets/starwarskotor/images/swkotor-header.jpg)
+![Header of the Star Wars: Knights of the Old Republic series](/assets/shrines/starwarskotor/images/swkotor-header.jpg)
 
 ## [Cassette Beasts](./cassettebeasts/)
 
-![Header of the Star Wars: Knights of the Old Republic series](/assets/cassettebeasts/images/CassetteBeasts_keyart_16_9.png)
+![Header of the Star Wars: Knights of the Old Republic series](/assets/shrines/cassettebeasts/images/CassetteBeasts_keyart_16_9.png)

@@ -13,7 +13,7 @@ eleventyNavigation:
     order: 2
 ---
 
-{% set universeAssetBase = '/assets/cassettebeasts/gamelog/' %}
+{% set universeAssetBase = '/assets/shrines/cassettebeasts/gamelog/' %}
 
 ## Character Profile: Kristine
 
