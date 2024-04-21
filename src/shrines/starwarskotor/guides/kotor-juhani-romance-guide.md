@@ -56,7 +56,7 @@ https://youtu.be/4itTaqLKQPQ
 
 https://youtu.be/Foj1nmouoIU
 
-<div class="indent-text">
+<div class="text-box">
     <p><strong>BUG WARNING:</strong> There is a bug that may block you from progressing Juhani's Personal Conversation path after you complete History #3, and thus preventing you from triggering Juhani's final romance conversation. See the "Personal Conversation Path" section below for more details about this bug. This bug is fixed by the <a href="https://deadlystream.com/files/file/1258-kotor-1-community-patch/" target="_blank">KOTOR 1 Community Patch</a>, which is a major reason I highly recommend this mod.</p>
     <p>If you are unable to install mods for some reason, I would suggest that once you complete History #3, stop leveling up your character. Once you get your second Star Map (the Dantooine Star Map counts as the first Star Map), complete Personal #3 <em>AND</em> Personal #4 at once. After all that is done, you can now level up to trigger History #4.</p>
 </div>
@@ -81,7 +81,7 @@ After you have dealt with Xor, if you have completed Personal #6 (detailed below
 
 https://youtu.be/Px1JTr7vf9Q
 
-<div class="indent-text">
+<div class="text-box">
     <p><strong>BUG WARNING:</strong> There is an infamous bug with the Xor quest that once you trigger the quest, even after completing it, you will not be able to encounter any other messengers for your other party members' personal quests, and for Mika Dorin's premium shop on Korriban. The fix for this bug is included in the <a href="https://deadlystream.com/files/file/1258-kotor-1-community-patch/" target="_blank">KOTOR 1 Community Patch</a> and the KotOR 1 Restoration (K1R) mod.</p>
 </div>
 
@@ -103,7 +103,7 @@ https://youtu.be/y_rM2l83HDo
 
 https://youtu.be/BOq0fehoYkg
 
-<div class="indent-text">
+<div class="text-box">
     <p><strong>BUG WARNING:</strong> Personal #4 is by far the trickiest to trigger of all Juhani's conversations. There is a bug that once you complete History #3, if you level up even just once, History #4 will override Personal #4, making Personal #4 unavailable, and you will be unable to get the later conversations in the Personal Conversation path (except Personal #7 below), including the final romance conversation. In fact, I found that missing out Personal #4 was <em>the</em> reason I was unable to get Juhani's final romance conversation in my old playthrough. This bug is fixed by the <a href="https://deadlystream.com/files/file/1258-kotor-1-community-patch/" target="_blank">KOTOR 1 Community Patch</a>, which is a major reason I highly recommend this mod.</p>
     <p>If you are unable to install mods for some reason, I would suggest that once you complete History #3, stop leveling up your character. Once you get your second Star Map (the Dantooine Star Map counts as the first Star Map), complete Personal #3, then <em>immediately</em> talk to Juhani again to check if Personal #4 is available. After you successfully trigger Personal #4 and complete the conversation, you can now level up your character to proceed to History #4 and beyond.</p>
 </div>
