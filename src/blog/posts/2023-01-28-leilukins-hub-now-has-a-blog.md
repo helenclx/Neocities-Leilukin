@@ -15,4 +15,4 @@ My site does have an [articles](/articles) section, but what makes this blog dif
 Welcome to my blog! Hope you enjoy your stay on this blog and my website!
 
 **UPDATE on 16 April 2024:**
-After discovering the static site generator [Eleventy](https://www.11ty.dev/), I decided to rebuild my entire website, including this blog, with Eleventy. THerefore, I no longer use Zonelets, and now this blog is powered by Eleventy.
+After discovering the static site generator [Eleventy](https://www.11ty.dev/), I decided to rebuild my entire website, including this blog, with Eleventy. Therefore, I no longer use Zonelets, and now this blog is powered by Eleventy.
