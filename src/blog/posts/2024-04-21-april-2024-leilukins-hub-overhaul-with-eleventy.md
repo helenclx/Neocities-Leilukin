@@ -70,6 +70,14 @@ I had created an RSS feed for Leilukin's Hub's changelogs and blog posts for a w
 
 The following changes are not related to any features inherent to Eleventy or its plugins, but they were part of my process of rebuilding Leilukin's Hub.
 
+### Direct Visit to Leilukin's Hub Home Page
+
+I have removed the "launch page" that was used as the very first page you saw when you visited the link [leilukin.neocities.org](https://leilukin.neocities.org/). Now when you visit the link to my website, you will immediately see the home page wihout any extra step.
+
+## My Creation Page Renamed to Projects
+
+The page listing the things I have created has been renamed from "My Creation" to ["Projects"](/projects).
+
 ### Site Updates being Blog Posts
 
 Previously, longer [site updates](/categories/site-updates/) were made into their own pages, since Leilukin's Hub did not have its own blog when I made the first site update post. Now these updates are converted into blog posts.
@@ -77,6 +85,10 @@ Previously, longer [site updates](/categories/site-updates/) were made into thei
 ### Featured Articles being Party of Articles
 
 Formerly, pages that featured my interviews were on their own page called "featured". Now, these [featured articles](/articles/#featured-articles) are merged into the [articles](/articles) page.
+
+### Responsive Shrine Header Images
+
+I have created two different resolutions of each header image of my [shrines](/shrines). Which version of the shrine header image gets displayed depends on if your screen is horizontal or vertical.
 
 ### Scroll-to-Top Function
 

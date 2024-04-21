@@ -4,7 +4,7 @@
     <subtitle>Leilukin&#39;s personal website.</subtitle>
     <link href="https://leilukin.neocities.org/feed.xml" rel="self"/>
     <link href="https://leilukin.neocities.org"/>
-    <updated>2024-04-21T13:05:06Z</updated>
+    <updated>2024-04-21T13:13:47Z</updated>
     <id>https://leilukin.neocities.org</id>
     <author>
         <name>Leilukin</name>
@@ -88,6 +88,14 @@
 &lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.neocities.org/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/#other-notable-changes-of-leilukins-hub&quot; aria-labelledby=&quot;other-notable-changes-of-leilukins-hub&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;The following changes are not related to any features inherent to Eleventy or its plugins, but they were part of my process of rebuilding Leilukin&#39;s Hub.&lt;/p&gt;
 &lt;div class=&quot;heading-wrapper h3&quot;&gt;
+&lt;h3 id=&quot;direct-visit-to-leilukins-hub-home-page&quot;&gt;Direct Visit to Leilukin&#39;s Hub Home Page&lt;/h3&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.neocities.org/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/#direct-visit-to-leilukins-hub-home-page&quot; aria-labelledby=&quot;direct-visit-to-leilukins-hub-home-page&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;I have removed the &amp;quot;launch page&amp;quot; that was used as the very first page you saw when you visited the link &lt;a href=&quot;https://leilukin.neocities.org/&quot;&gt;leilukin.neocities.org&lt;/a&gt;. Now when you visit the link to my website, you will immediately see the home page wihout any extra step.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h2&quot;&gt;
+&lt;h2 id=&quot;my-creation-page-renamed-to-projects&quot;&gt;My Creation Page Renamed to Projects&lt;/h2&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.neocities.org/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/#my-creation-page-renamed-to-projects&quot; aria-labelledby=&quot;my-creation-page-renamed-to-projects&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;The page listing the things I have created has been renamed from &amp;quot;My Creation&amp;quot; to &lt;a href=&quot;https://leilukin.neocities.org/projects&quot;&gt;&amp;quot;Projects&amp;quot;&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h3&quot;&gt;
 &lt;h3 id=&quot;site-updates-being-blog-posts&quot;&gt;Site Updates being Blog Posts&lt;/h3&gt;
 &lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.neocities.org/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/#site-updates-being-blog-posts&quot; aria-labelledby=&quot;site-updates-being-blog-posts&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;Previously, longer &lt;a href=&quot;https://leilukin.neocities.org/categories/site-updates/&quot;&gt;site updates&lt;/a&gt; were made into their own pages, since Leilukin&#39;s Hub did not have its own blog when I made the first site update post. Now these updates are converted into blog posts.&lt;/p&gt;
@@ -95,6 +103,10 @@
 &lt;h3 id=&quot;featured-articles-being-party-of-articles&quot;&gt;Featured Articles being Party of Articles&lt;/h3&gt;
 &lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.neocities.org/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/#featured-articles-being-party-of-articles&quot; aria-labelledby=&quot;featured-articles-being-party-of-articles&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;Formerly, pages that featured my interviews were on their own page called &amp;quot;featured&amp;quot;. Now, these &lt;a href=&quot;https://leilukin.neocities.org/articles/#featured-articles&quot;&gt;featured articles&lt;/a&gt; are merged into the &lt;a href=&quot;https://leilukin.neocities.org/articles&quot;&gt;articles&lt;/a&gt; page.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h3&quot;&gt;
+&lt;h3 id=&quot;responsive-shrine-header-images&quot;&gt;Responsive Shrine Header Images&lt;/h3&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.neocities.org/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/#responsive-shrine-header-images&quot; aria-labelledby=&quot;responsive-shrine-header-images&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;I have created two different resolutions of each header image of my &lt;a href=&quot;https://leilukin.neocities.org/shrines&quot;&gt;shrines&lt;/a&gt;. Which version of the shrine header image gets displayed depends on if your screen is horizontal or vertical.&lt;/p&gt;
 &lt;div class=&quot;heading-wrapper h3&quot;&gt;
 &lt;h3 id=&quot;scroll-to-top-function&quot;&gt;Scroll-to-Top Function&lt;/h3&gt;
 &lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.neocities.org/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/#scroll-to-top-function&quot; aria-labelledby=&quot;scroll-to-top-function&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
