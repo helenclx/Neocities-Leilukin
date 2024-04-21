@@ -3,14 +3,14 @@ layout: main/changelogs
 title: Website Layout Archive
 desc: An archive for the page layout designs mt website has used.
 changelogNav: Website Layouts
-metadata:
-    type: article
+templateEngineOverride: njk, md
+toc: true
 eleventyNavigation:
     order: 1
 ---
 
 {%- macro siteLayout(params) -%}
-    <h2>{{ params.title }}</h2>
+    ## {{ params.title }}
     {% for screenshot in params.screenshots %}
         <img src="/assets/layouts/{{ screenshot.imgFile }}" alt="{{ screenshot.imgAlt }}">
     {% endfor %}
