@@ -4,12 +4,108 @@
     <subtitle>Leilukin&#39;s personal website.</subtitle>
     <link href="https://leilukin.neocities.org/feed.xml" rel="self"/>
     <link href="https://leilukin.neocities.org"/>
-    <updated>2024-04-21T11:38:39Z</updated>
+    <updated>2024-04-21T12:55:34Z</updated>
     <id>https://leilukin.neocities.org</id>
     <author>
         <name>Leilukin</name>
         <email>leilukin@outlook.com</email>
     </author>
+        
+        <entry>
+            <title>April 2024 Leilukin&#39;s Hub Overhaul with Eleventy | Blog</title>
+            <link href="https://leilukin.neocities.org/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/"/>
+            <updated>2024-04-21T00:00:00Z</updated>
+            <id>https://leilukin.neocities.org/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/</id>
+            <content type="html">&lt;p&gt;Leilukin&#39;s Hub just overgone a major overhaul: In April 2024, I have been rebuilding this entire website with the &lt;a href=&quot;https://en.wikipedia.org/wiki/Static_site_generator&quot;&gt;static site generator&lt;/a&gt; (SSG), &lt;a href=&quot;https://www.11ty.dev/&quot;&gt;Eleventy&lt;/a&gt;, often abbreviated as 11ty, and the process was completed on 20 April 2024.&lt;/p&gt;
+&lt;p&gt;After building this website for more than a year, Eleventy finally provided the solution for me to maintain, manage and update my website in more dynamic and sufficient ways to save time.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h2&quot;&gt;
+&lt;h2 id=&quot;challenges-of-maintaining-a-growing-website&quot;&gt;Challenges of Maintaining a Growing Website&lt;/h2&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.neocities.org/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/#challenges-of-maintaining-a-growing-website&quot; aria-labelledby=&quot;challenges-of-maintaining-a-growing-website&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;Leilukin&#39;s Hub has come a long way since launch on 11 September 2022, from a small website with a few pages and a simple layout, to a full-fledged personal website with multiple &lt;a href=&quot;https://leilukin.neocities.org/articles&quot;&gt;articles&lt;/a&gt;, a &lt;a href=&quot;https://leilukin.neocities.org/blog&quot;&gt;blog&lt;/a&gt;, a couple of &lt;a href=&quot;https://leilukin.neocities.org/shrines&quot;&gt;shrines&lt;/a&gt; with additional features such as sticky navigation bar, table of contents, etc. Meanwhile, I have also been learning web development, which helped to improve this website in multiple ways.&lt;/p&gt;
+&lt;p&gt;However, more content on my website also means more work to maintain. In particular, I have been trying to find ways to render components that share across multiple pages on my site, such as the header, navigation bar and footer, without having to copy and pasting the code of these components over and over whenever I want to add a new page. I had used JavaScript for this, but it is still not the best solution because I still needed to add a link to my JavaScript file in HTML. Thankfully, I eventually discovered Eleventy as the solution.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h2&quot;&gt;
+&lt;h2 id=&quot;why-eleventy&quot;&gt;Why Eleventy?&lt;/h2&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.neocities.org/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/#why-eleventy&quot; aria-labelledby=&quot;why-eleventy&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;There are &lt;a href=&quot;https://jamstack.org/generators/&quot;&gt;many static site generators&lt;/a&gt;, so why I choose Eleventy over others? The main reason is Eleventy&#39;s flexibility. You can start building your website with Eleventy with something as simple as &lt;a href=&quot;https://hamatti.org/posts/index-md-is-valid-eleventy-project/&quot;&gt;an &lt;code&gt;index.md&lt;/code&gt; Markdown file&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In addition, Eleventy&#39;s own features, support for many &lt;a href=&quot;https://www.11ty.dev/docs/languages/&quot;&gt;template languages&lt;/a&gt; and plugins allow me to have control over how I build and customise my own website, some of which I will highlight as I elaborate the changes and improvements I had made to this website below.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h2&quot;&gt;
+&lt;h2 id=&quot;new-features-of-leilukins-hub&quot;&gt;New Features of Leilukin&#39;s Hub&lt;/h2&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.neocities.org/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/#new-features-of-leilukins-hub&quot; aria-labelledby=&quot;new-features-of-leilukins-hub&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;heading-wrapper h3&quot;&gt;
+&lt;h3 id=&quot;pagination&quot;&gt;Pagination&lt;/h3&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.neocities.org/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/#pagination&quot; aria-labelledby=&quot;pagination&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;Leilukin&#39;s Hub &lt;a href=&quot;https://leilukin.neocities.org/blogs&quot;&gt;blog&lt;/a&gt; and main &lt;a href=&quot;https://leilukin.neocities.org/changelogs&quot;&gt;changelogs&lt;/a&gt; page now has pagination, thanks to &lt;a href=&quot;https://www.11ty.dev/docs/pagination/&quot;&gt;Eleventy&#39;s built-in support for the feature&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h3&quot;&gt;
+&lt;h3 id=&quot;estimated-reading-time-for-articles-and-blog-posts&quot;&gt;Estimated Reading Time for Articles and Blog Posts&lt;/h3&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.neocities.org/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/#estimated-reading-time-for-articles-and-blog-posts&quot; aria-labelledby=&quot;estimated-reading-time-for-articles-and-blog-posts&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;Thanks to &lt;a href=&quot;https://www.npmjs.com/package/@11tyrocks/eleventy-plugin-emoji-readtime&quot;&gt;Emoji Read Time&lt;/a&gt;, a community plugin for Eleventy, my articles and blog posts now show the piece&#39;s estimated reading time before the main content.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h3&quot;&gt;
+&lt;h3 id=&quot;heading-anchor-links&quot;&gt;Heading Anchor Links&lt;/h3&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.neocities.org/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/#heading-anchor-links&quot; aria-labelledby=&quot;heading-anchor-links&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;For the articles, blog posts and some other pages that have headings, I have enabled anchor links on the headings by referring to the &lt;a href=&quot;https://11ty.rocks/eleventyjs/slugs-anchors/#enable-anchor-links-on-content-headings&quot;&gt;11ty Slugs and Anchors guide&lt;/a&gt; from the website 11ty Rocks!, installing and configuring the &lt;a href=&quot;https://www.npmjs.com/package/markdown-it-anchor&quot;&gt;markdown-it-anchor&lt;/a&gt; plugin.&lt;/p&gt;
+&lt;p&gt;Having a plugin that automatically generates heading anchor links also allows me to generate table of contents by installing the &lt;a href=&quot;https://www.npmjs.com/package/eleventy-plugin-nesting-toc&quot;&gt;eleventy-plugin-nesting-toc&lt;/a&gt; plugin.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h3&quot;&gt;
+&lt;h3 id=&quot;content-categories&quot;&gt;Content Categories&lt;/h3&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.neocities.org/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/#content-categories&quot; aria-labelledby=&quot;content-categories&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;Eleventy&#39;s &lt;a href=&quot;https://www.11ty.dev/docs/collections/&quot;&gt;collection&lt;/a&gt; feature allows users to group site content by tags and create custom collections. This feature allows me to add categories to my articles and blog posts, and in turn allows visitors to browse my website by &lt;a href=&quot;https://leilukin.neocities.org/categories&quot;&gt;categories&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h3&quot;&gt;
+&lt;h3 id=&quot;archive-for-all-my-articles-and-blog-posts&quot;&gt;Archive for All My Articles and Blog Posts&lt;/h3&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.neocities.org/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/#archive-for-all-my-articles-and-blog-posts&quot; aria-labelledby=&quot;archive-for-all-my-articles-and-blog-posts&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;Eleventy&#39;s collection feature also allows me to dynamically display links to my articles and posts when I make a new one, without needing to edit more pages to add the new links myself. Therefore, I took advantage of this feature by creating an [archive] page to display all my articles and blog posts.&lt;/p&gt;
+&lt;p&gt;Furthermore, my articles, blog and posts now has a right sidebar with links to my articles, blog posts as well as their archives and categories.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h3&quot;&gt;
+&lt;h3 id=&quot;breadcrumbs&quot;&gt;Breadcrumbs&lt;/h3&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.neocities.org/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/#breadcrumbs&quot; aria-labelledby=&quot;breadcrumbs&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;Some contents on Leilukin&#39;s Hub now has &lt;a href=&quot;https://www.seoptimer.com/blog/breadcrumbs-website/&quot;&gt;breadcrumbs&lt;/a&gt;, which shows the locations of these contents within this website and provides another means for visitors to navigate this site.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h2&quot;&gt;
+&lt;h2 id=&quot;improved-features-of-leilukins-hub&quot;&gt;Improved Features of Leilukin&#39;s Hub&lt;/h2&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.neocities.org/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/#improved-features-of-leilukins-hub&quot; aria-labelledby=&quot;improved-features-of-leilukins-hub&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class=&quot;heading-wrapper h3&quot;&gt;
+&lt;h3 id=&quot;blog&quot;&gt;Blog&lt;/h3&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.neocities.org/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/#blog&quot; aria-labelledby=&quot;blog&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;Leilukin&#39;s Hub blog was &lt;a href=&quot;https://leilukin.neocities.org/blog/posts/2023-01-28-leilukins-hub-now-has-a-blog/&quot;&gt;launched on 28 January 2023&lt;/a&gt;. Formerly, the blog was built with &lt;a href=&quot;https://zonelets.net/&quot;&gt;Zonelets&lt;/a&gt;; now I take advantage of Eleventy&#39;s flexibility by recreating Leilukin&#39;s Hub blog with it, thus using the main site&#39;s layout for the blog instead of &lt;a href=&quot;https://leilukin.neocities.org/changelogs/layouts/#11-september-2023-blog-layout&quot;&gt;using a different layout&lt;/a&gt;. This makes the blog actually feels like it is part of this website.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h3&quot;&gt;
+&lt;h3 id=&quot;site-map&quot;&gt;Site Map&lt;/h3&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.neocities.org/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/#site-map&quot; aria-labelledby=&quot;site-map&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;Visually, my &lt;a href=&quot;https://leilukin.neocities.org/sitemap&quot;&gt;site map&lt;/a&gt; does not change much other than tweaking the spacing, but under the hood, I use the Eleventy&#39;s official &lt;a href=&quot;https://www.11ty.dev/docs/plugins/navigation/&quot;&gt;Navigation&lt;/a&gt; plugin to generate the links to my pages in a hierarchical manner.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h3&quot;&gt;
+&lt;h3 id=&quot;rss-feed&quot;&gt;RSS Feed&lt;/h3&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.neocities.org/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/#rss-feed&quot; aria-labelledby=&quot;rss-feed&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;I had created an RSS feed for Leilukin&#39;s Hub&#39;s changelogs and blog posts for a while, but previously I had to create new entries in the feed manually by using &lt;a href=&quot;https://sourceforge.net/projects/rss-builder/&quot;&gt;RSS Builder&lt;/a&gt;. Now by installing and setting up Eleventy&#39;s official &lt;a href=&quot;https://www.11ty.dev/docs/plugins/rss/&quot;&gt;RSS&lt;/a&gt; plugin, new feed entries will be generated automatically when I make new changelogs, articles and blog posts.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h2&quot;&gt;
+&lt;h2 id=&quot;other-notable-changes-of-leilukins-hub&quot;&gt;Other Notable Changes of Leilukin&#39;s Hub&lt;/h2&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.neocities.org/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/#other-notable-changes-of-leilukins-hub&quot; aria-labelledby=&quot;other-notable-changes-of-leilukins-hub&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;The following changes are not related to any features inherent to Eleventy or its plugins, but they were part of my process of rebuilding Leilukin&#39;s Hub.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h3&quot;&gt;
+&lt;h3 id=&quot;site-updates-being-blog-posts&quot;&gt;Site Updates being Blog Posts&lt;/h3&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.neocities.org/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/#site-updates-being-blog-posts&quot; aria-labelledby=&quot;site-updates-being-blog-posts&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;Previously, longer &lt;a href=&quot;https://leilukin.neocities.org/categories/site-updates/&quot;&gt;site updates&lt;/a&gt; were made into their own pages, since Leilukin&#39;s Hub did not have its own blog when I made the first site update post. Now these updates are converted into blog posts.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h3&quot;&gt;
+&lt;h3 id=&quot;featured-articles-being-party-of-articles&quot;&gt;Featured Articles being Party of Articles&lt;/h3&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.neocities.org/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/#featured-articles-being-party-of-articles&quot; aria-labelledby=&quot;featured-articles-being-party-of-articles&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;Formerly, pages that featured my interviews were on their own page called &amp;quot;featured&amp;quot;. Now, these &lt;a href=&quot;https://leilukin.neocities.org/articles/#featured-articles&quot;&gt;featured articles&lt;/a&gt; are merged into the &lt;a href=&quot;https://leilukin.neocities.org/articles&quot;&gt;articles&lt;/a&gt; page.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h3&quot;&gt;
+&lt;h3 id=&quot;scroll-to-top-function&quot;&gt;Scroll-to-Top Function&lt;/h3&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.neocities.org/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/#scroll-to-top-function&quot; aria-labelledby=&quot;scroll-to-top-function&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;Previously, this site&#39;s scroll-to-top function was placed in the footer. Now, I created a scroll-to-top button in the bottom right corner of the page when you scroll down.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h3&quot;&gt;
+&lt;h3 id=&quot;site-layout&quot;&gt;Site Layout&lt;/h3&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.neocities.org/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/#site-layout&quot; aria-labelledby=&quot;site-layout&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;The main title of each page is now displayed above both the main content and sidebars, instead of just above the main content like in the &lt;a href=&quot;https://leilukin.neocities.org/changelogs/layouts/#23-june-2023&quot;&gt;previous layout&lt;/a&gt;. This change was made so when this site is viewed on mobile, the table of contents of the left sidebar will be displayed above the main content but still below the page&#39;s main title. Previously, I had to place the table of contents on both the left sidebar and the main content&#39;s body, and hide the sidebar table of contents when viewed on mobile.&lt;/p&gt;
+&lt;p&gt;I also use &lt;a href=&quot;https://css-tricks.com/snippets/css/complete-guide-grid/&quot;&gt;CSS grid&lt;/a&gt; to set the page layout in that the main content&#39;s width will remain the same instead of expanding if there is no sidebar on the page.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h2&quot;&gt;
+&lt;h2 id=&quot;use-github-actions-to-deploy-leilukins-hub-to-neocities&quot;&gt;Use GitHub Actions to deploy Leilukin&#39;s Hub to Neocities&lt;/h2&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.neocities.org/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/#use-github-actions-to-deploy-leilukins-hub-to-neocities&quot; aria-labelledby=&quot;use-github-actions-to-deploy-leilukins-hub-to-neocities&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;Eleventy is great for reducing many workloads in maintaining and updating my website, so how about publishing the website to Neocities? That is where the &lt;a href=&quot;https://docs.github.com/en/actions&quot;&gt;GitHub actions&lt;/a&gt; comes in.&lt;/p&gt;
+&lt;p&gt;Before I decided to use a static site generator to rebuild Leilukin&#39;s Hub, I discovered the GitHub action named &lt;a href=&quot;https://github.com/bcomnes/deploy-to-neocities&quot;&gt;deploy-to-neocities&lt;/a&gt;, which as the name suggests, allows you to publish your website directly from a GitHub repository to Neocities. I succeeded in deploying all the files of Leilukin&#39;s Hub to Neocities with it even before starting to rebuild my website with Eleventy.&lt;/p&gt;
+&lt;p&gt;I have been using Visual Studio Code to write the code for Leilukin&#39;s Hub, and saving a copy of all the files of my website on my own computer. The combination of creating a Git repository for Leilukin&#39;s Hub and using the deploy-to-neocities GitHub action saves the time and workload needed to log in to Neocities, navigate the files and folders and open a file to edit the code every time I want to make a change to my website.&lt;/p&gt;
+&lt;div class=&quot;heading-wrapper h2&quot;&gt;
+&lt;h2 id=&quot;a-weeks-worth-of-effort-well-spent&quot;&gt;A Week&#39;s Worth of Effort Well-Spent&lt;/h2&gt;
+&lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.neocities.org/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/#a-weeks-worth-of-effort-well-spent&quot; aria-labelledby=&quot;a-weeks-worth-of-effort-well-spent&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;I had spent a whole week in rebuilding Leilukin&#39;s Hub from scratch with Eleventy, and at last completing the process on 20 April 2024. Most of the time rebuilding this website was spent on setting up layout templates, rather than changing the format of my articles and blog posts from HTML to markdown. However, the effort and time spent was worth it, and Leilukin&#39;s Hub feels new again.&lt;/p&gt;
+&lt;p&gt;Welcome to the rebuilt Leilukin&#39;s Hub! 🥳&lt;/p&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Changelog: 20 April 2024</title>
