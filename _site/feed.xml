@@ -4,7 +4,7 @@
     <subtitle>Leilukin&#39;s personal website.</subtitle>
     <link href="https://leilukin.neocities.org/feed.xml" rel="self"/>
     <link href="https://leilukin.neocities.org"/>
-    <updated>2024-04-21T12:59:00Z</updated>
+    <updated>2024-04-21T13:05:06Z</updated>
     <id>https://leilukin.neocities.org</id>
     <author>
         <name>Leilukin</name>
@@ -17,7 +17,7 @@
             <updated>2024-04-21T00:00:00Z</updated>
             <id>https://leilukin.neocities.org/</id>
             <content type="html">&lt;ul&gt;
-&lt;li&gt;New blog post: &lt;a href=&quot;http://localhost:8080/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/&quot;&gt;April 2024 Leilukin&#39;s Hub Overhaul with Eleventy&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;New blog post: &lt;a href=&quot;https://leilukin.neocities.org/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/&quot;&gt;April 2024 Leilukin&#39;s Hub Overhaul with Eleventy&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 </content>
         </entry>
