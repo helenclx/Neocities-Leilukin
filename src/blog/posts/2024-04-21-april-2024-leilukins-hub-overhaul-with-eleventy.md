@@ -1,6 +1,6 @@
 ---
 articleTitle: April 2024 Leilukin's Hub Overhaul with Eleventy
-desc: I rebuilt Leilukin's Hub with the static site genertor Eleventy in April 2024.
+desc: I rebuilt my website with the static site generator Eleventy in April 2024.
 date: 2024-04-21
 categories: ["site updates"]
 toc: true
