@@ -52,6 +52,10 @@ Furthermore, my articles, blog and posts now has a right sidebar with links to m
 
 Some contents on Leilukin's Hub now has [breadcrumbs](https://www.seoptimer.com/blog/breadcrumbs-website/), which shows the locations of these contents within this website and provides another means for visitors to navigate this site.
 
+### Now Page
+
+Inspired by the [nownownow.com](https://nownownow.com/about) website, I have added a [Now page](/now) to Leilukin's Hub. This page is about what I am doing and focusing at the moment. The page can be updated at any time, so feel free to check it out when you visit this website to learn what I am up to!
+
 ## Improved Features of Leilukin's Hub
 
 ### Blog
