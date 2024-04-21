@@ -4,7 +4,7 @@
     <subtitle>Leilukin&#39;s personal website.</subtitle>
     <link href="https://leilukin.neocities.org/feed.xml" rel="self"/>
     <link href="https://leilukin.neocities.org"/>
-    <updated>2024-04-21T23:04:04Z</updated>
+    <updated>2024-04-21T23:06:06Z</updated>
     <id>https://leilukin.neocities.org</id>
     <author>
         <name>Leilukin</name>
@@ -86,7 +86,7 @@
 &lt;div class=&quot;heading-wrapper h3&quot;&gt;
 &lt;h3 id=&quot;rss-feed&quot;&gt;RSS Feed&lt;/h3&gt;
 &lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.neocities.org/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/#rss-feed&quot; aria-labelledby=&quot;rss-feed&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;p&gt;I had created an RSS feed for Leilukin&#39;s Hub&#39;s changelogs and blog posts for a while, but previously I had to create new entries in the feed manually by using &lt;a href=&quot;https://sourceforge.net/projects/rss-builder/&quot;&gt;RSS Builder&lt;/a&gt;. Now by installing and setting up Eleventy&#39;s official &lt;a href=&quot;https://www.11ty.dev/docs/plugins/rss/&quot;&gt;RSS&lt;/a&gt; plugin, new feed entries will be generated automatically when I make new changelogs, articles and blog posts.&lt;/p&gt;
+&lt;p&gt;I had created an &lt;a href=&quot;https://leilukin.neocities.org/feed.xml&quot;&gt;RSS feed&lt;/a&gt; for Leilukin&#39;s Hub&#39;s changelogs and blog posts for a while, but previously I had to create new entries in the feed manually by using &lt;a href=&quot;https://sourceforge.net/projects/rss-builder/&quot;&gt;RSS Builder&lt;/a&gt;. Now by installing and setting up Eleventy&#39;s official &lt;a href=&quot;https://www.11ty.dev/docs/plugins/rss/&quot;&gt;RSS&lt;/a&gt; plugin, new feed entries will be generated automatically when I make new changelogs, articles and blog posts.&lt;/p&gt;
 &lt;div class=&quot;heading-wrapper h2&quot;&gt;
 &lt;h2 id=&quot;other-notable-changes-of-leilukins-hub&quot;&gt;Other Notable Changes of Leilukin&#39;s Hub&lt;/h2&gt;
 &lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.neocities.org/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/#other-notable-changes-of-leilukins-hub&quot; aria-labelledby=&quot;other-notable-changes-of-leilukins-hub&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;

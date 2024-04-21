@@ -68,7 +68,7 @@ Visually, my [site map](/sitemap) does not change much other than tweaking the s
 
 ### RSS Feed
 
-I had created an RSS feed for Leilukin's Hub's changelogs and blog posts for a while, but previously I had to create new entries in the feed manually by using [RSS Builder](https://sourceforge.net/projects/rss-builder/). Now by installing and setting up Eleventy's official [RSS](https://www.11ty.dev/docs/plugins/rss/) plugin, new feed entries will be generated automatically when I make new changelogs, articles and blog posts.
+I had created an [RSS feed](/feed.xml) for Leilukin's Hub's changelogs and blog posts for a while, but previously I had to create new entries in the feed manually by using [RSS Builder](https://sourceforge.net/projects/rss-builder/). Now by installing and setting up Eleventy's official [RSS](https://www.11ty.dev/docs/plugins/rss/) plugin, new feed entries will be generated automatically when I make new changelogs, articles and blog posts.
 
 ## Other Notable Changes of Leilukin's Hub
 
