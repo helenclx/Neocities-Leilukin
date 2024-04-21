@@ -26,7 +26,7 @@ In addition, Eleventy's own features, support for many [template languages](http
 
 ### Pagination
 
-Leilukin's Hub [blog](/blogs) and main [changelogs](/changelogs) page now has pagination, thanks to [Eleventy's built-in support for the feature](https://www.11ty.dev/docs/pagination/).
+Leilukin's Hub [blog](/blog) and main [changelogs](/changelogs) page now has pagination, thanks to [Eleventy's built-in support for the feature](https://www.11ty.dev/docs/pagination/).
 
 ### Estimated Reading Time for Articles and Blog Posts
 
