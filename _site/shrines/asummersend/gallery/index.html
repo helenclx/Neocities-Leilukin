@@ -345,30 +345,29 @@
         }
     }
 </style>
-        <button class="top-btn hidden">
-    <img src="/assets/images/elements/chevron-up.svg" alt="Scroll to top">
+        <button class="top-btn hidden" aria-label="Scroll to top">
+    <i class="fa-solid fa-chevron-up"></i>
 </button>
 
 <style>
     .top-btn {
         position: fixed;
-        bottom: 10px;
-        right: 10px;
+        margin: 0;
+        padding: 0;
+        bottom: 0.5em;
+        right: 0.5em;
         z-index: 999;
         border: none;
-        background-color: var(--clr-top-btn);
+        background-color: var(--clr-top-btn-bg);
+        color: var(--clr-top-btn-txt);
         border-radius: 50em;
-        padding: 0.3em;
+        width: 1.5rem;
+        aspect-ratio: 1 / 1;
     }
 
     .top-btn:focus {
-        outline: 0.25em solid var(--clr-top-btn);
+        outline: 0.25em solid var(--clr-top-btn-bg);
         outline-offset: 0.15em;
-    }
-
-    .top-btn img {
-        width: 1.5rem;
-        aspect-ratio: 1 / 1;
     }
 </style>
 
