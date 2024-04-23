@@ -35,7 +35,7 @@ My first and main character for Cassette Beasts. The first save file was created
     <dt>Gift Bootleg Received</dt>
     <dd>Glitter-type Pombomb</dd>
     <dt>First Wild Bootleg</dt>
-    <dd>Air-type Weevillite (obtained on August 14, 2023)</dd>
+    <dd>Air-type Weevillite (obtained on 14 August 2023)</dd>
 </dl>
 
 ### Character Trivia
