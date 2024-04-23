@@ -373,7 +373,7 @@ main {
     display: block;
 }
 
-:not(.heading-wrapper) +.heading-wrapper {
+:not(.heading-wrapper) + .heading-wrapper {
     margin-top: 1.7em;
 }
 
