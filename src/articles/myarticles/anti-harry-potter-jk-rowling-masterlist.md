@@ -1,8 +1,8 @@
 ---
-articleTitle: Anti-Harry Potter and Anti-J.K. Rowling Masterlist
+articleTitle: Anti-Harry Potter and Anti-J. K. Rowling Masterlist
 date: 2023-03-19
 updated: 2024-04-21
-desc: My masterlist of criticisms of the Harry Potter series and J.K. Rowling.
+desc: My masterlist of criticisms of the Harry Potter series and J. K. Rowling.
 categories: ["anti harry potter", "anti jk rowling"]
 ---
 
@@ -18,11 +18,11 @@ categories: ["anti harry potter", "anti jk rowling"]
 
 Like many millennials, I grew up with the <cite>Harry Potter</cite> series and was a major fan of the series. I had read the original 7 books and watched their film adaptations. The series was a passion of mine during my early- to mid-teen years. While the Harry Potter novels were far from the first books I read, they were the first fantasy novels I read, and the series’ concept of a magical world set in a contemporary setting fascinated teenage me.
 
-However, even during my <cite>Harry Potter</cite> fixation years, there were things from the series that bothered me, from the idea of house elves being a slave race that naturally love being slaves, to Snape’s unconvincing “redemption” arc. As I got older and became more aware of social issues, I started to notice more problems with the series. In addition, reading more books has also made me realise that even on a technical writing level, the Harry Potter series was mediocre at best. As a result, I had stopped becoming a Harry Potter fan even before J.K. Rowling’s transphobia got mainstream attention.
+However, even during my <cite>Harry Potter</cite> fixation years, there were things from the series that bothered me, from the idea of house elves being a slave race that naturally love being slaves, to Snape’s unconvincing “redemption” arc. As I got older and became more aware of social issues, I started to notice more problems with the series. In addition, reading more books has also made me realise that even on a technical writing level, the Harry Potter series was mediocre at best. As a result, I had stopped becoming a Harry Potter fan even before J. K. Rowling’s transphobia got mainstream attention.
 
-Unfortunately, many adults with nostalgia goggles still refuse to let go of <cite>Harry Potter</cite>, and they believe <cite>Harry Potter</cite> can be separated or “reclaimed” by J.K. Rowling, despite how much Rowling’s worldview and prejudice are inextricably linked to her writing.
+Unfortunately, many adults with nostalgia goggles still refuse to let go of <cite>Harry Potter</cite>, and they believe <cite>Harry Potter</cite> can be separated or “reclaimed” by J. K. Rowling, despite how much Rowling’s worldview and prejudice are inextricably linked to her writing.
 
-Therefore, I am compiling this masterlist by curating various materials that are critical of the <cite>Harry Potter</cite> series and J.K. Rowling. Items are ordered in chronological order. This is far from a comprehensive list of all the pieces that criticise <cite>Harry Potter</cite> and Rowling; this list is my curated list of ones that I have read, watched or listened to, and I personally endorse.
+Therefore, I am compiling this masterlist by curating various materials that are critical of the <cite>Harry Potter</cite> series and J. K. Rowling. Items are ordered in chronological order. This is far from a comprehensive list of all the pieces that criticise <cite>Harry Potter</cite> and Rowling; this list is my curated list of ones that I have read, watched or listened to, and I personally endorse.
 
 ## Articles
 
@@ -53,5 +53,5 @@ Therefore, I am compiling this masterlist by curating various materials that are
 ## Podcasts
 
 <ul class="content-list">
-    <li><a href="https://soundcloud.com/shriekingshack" target="_blank">The Shrieking Shack</a> — A book reading podcast hosted by Xeecee and Liz. Originally a <cite>Harry Potter</cite> reread podcast made by and for lapsed fans that goes through every chapter of the <cite>Harry Potter</cite> books and their film adaptations and analyses the writing and politics of the series and J.K. Rowling.</li>
+    <li><a href="https://soundcloud.com/shriekingshack" target="_blank">The Shrieking Shack</a> — A book reading podcast hosted by Xeecee and Liz. Originally a <cite>Harry Potter</cite> reread podcast made by and for lapsed fans that goes through every chapter of the <cite>Harry Potter</cite> books and their film adaptations and analyses the writing and politics of the series and J. K. Rowling.</li>
 </ul>
