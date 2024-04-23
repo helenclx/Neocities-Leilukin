@@ -38,7 +38,7 @@ My first and main character for Cassette Beasts. The first save file was created
     <dd>Air-type Weevillite (obtained on August 14, 2023)</dd>
 </dl>
 
-Character Trivia:
+### Character Trivia
 
 * I named Kristine after [Kris](https://bulbapedia.bulbagarden.net/wiki/Kris_(game)), the female player character of Pokémon Crystal and the first female player character of the Pokémon video game series.
 
