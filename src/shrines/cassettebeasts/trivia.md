@@ -40,13 +40,13 @@ Bytten Studio has written a blog post on [their design philosophy of <cite>Casse
     <dt>29 March 2023</dt>
     <dd>Main voice cast <a href="https://twitter.com/ByttenStudio/status/1641106350376665091" target="_blank">announced</a>.</dd>
     <dt>26 April 2023</dt>
-    <dd><cite>Cassette Beasts</cite> released on PC and Xbox Game Pass.</dd>
+    <dd><cite>Cassette Beasts</cite> released on PC and Xbox PC Game Pass with a <a href="https://www.youtube.com/watch?v=_OLST_Fw5Ms" target="_blank">PC release trailer</a>, which also confirmed the release date of Xbox Series X/S, Xbox One, and Nintendo Switch versions to be 25 May 2023.</dd>
     <dt>27 April 2023</dt>
     <dd><a href="https://store.steampowered.com/news/app/1321440/view/3727334659005649764" target="blank">Hotfix 1.1.2</a> live.</dd>
     <dt>10 May 2023</dt>
     <dd><a href="https://store.steampowered.com/news/app/1321440/view/3727335925783976124" target="blank">Hotfix 1.1.3</a> live.</dd>
     <dt>25 May 2023</dt>
-    <dd><cite>Cassette Beasts</cite> released on Xbox Series X/S, Xbox One, and Nintendo Switch.</dd>
+    <dd><cite>Cassette Beasts</cite> released on Xbox Series X|S, Xbox One, Gamepass and Nintendo Switch, with a <a href="https://www.youtube.com/watch?v=YDSiPEtAW-0" target="_blank">console release trailer</a>.</dd>
     <dt>28 June 2023</dt>
     <dd><a href="https://store.steampowered.com/news/app/1321440/view/3660912271237996230" target="blank">Update 1.2 “Catacombs”</a> live. Online multiplayer mode and "Pier of the Unknown" DLC expansion <a href="https://www.cassettebeasts.com/2023/06/28/update-1-2-the-cassette-beasts-showcase/">announced</a>.</dd>
     <dt>12 September 2023</dt>
@@ -59,6 +59,8 @@ Bytten Studio has written a blog post on [their design philosophy of <cite>Casse
     <dd><a href="https://www.youtube.com/watch?v=5Fw7ElAoyhM" target="blank">Multiplayer future showcase</a> released, with announcement of its planned release in Q1 2024 and <a href="https://store.steampowered.com/news/app/1321440/view/3906373040050998621" target="blank">updates</a> about its features.</dd>
     <dt>25 March 2024</dt>
     <dd>Multiplayer beta <a href="https://store.steampowered.com/news/app/1321440/view/4140569729629599030" target="_blank">available on Steam</a>. Multiplayer update confirmed to be released on 20 May 2024 with an <a href="https://www.youtube.com/watch?v=q7ZYhxdwMt8" target="_blank">announcement trailer</a>. Android and iOS versions <a href="https://www.youtube.com/watch?v=jN_IYdwoL_A&t=135s" target="_blank">announced</a> to be released in 2024.</dd>
+    <dt>23 April 2024</dt>
+    <dd>Android and iOS versions <a href="https://twitter.com/ByttenStudio/status/1782442549552017482" target="_blank">confirmed</a> to be released on 4 June 2024 with a <a href="https://www.youtube.com/watch?v=hqcDR6-sRVw" target="_blank">trailer</a>.</dd>
 </dl>
 
 ## Influences and Inspirations
