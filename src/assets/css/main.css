@@ -3,7 +3,6 @@
 /* ------------------- */
 :root {
     --clr-body-bg: #08031A;
-    /* --img-body-bg: url('/assets/images/bg/starsforever.png'); */
     --clr-body-txt: #fceaff;
     --clr-content-bg: #3d2163;
 
@@ -132,8 +131,6 @@ body {
     font-family: var(--ff-primary), Arial, Helvetica, sans-serif;
     color: var(--clr-body-txt);
     background-color: var(--clr-body-bg);
-    background-image: var(--img-body-bg);
-    background-attachment: fixed;
 }
 
 h1 {
