@@ -1,6 +1,6 @@
 ---
 layout: cassettebeasts/content
-title: Featured
+title: Trivia
 pageTitle: Cassette Beasts Trivia
 desc: A collection of trivia about Cassette Beasts.
 tags: cassette beasts shrine page
