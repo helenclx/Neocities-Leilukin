@@ -440,8 +440,8 @@ main {
 }
 
 .link-btn:focus {
-    outline-offset: 0.2em;
-    outline: 0.15em solid var(--clr-link);
+    outline: 0.15em solid var(--clr-link-btn-txt);
+    outline-offset: -0.25em;
 }
 
 /* Q&A accordion */
