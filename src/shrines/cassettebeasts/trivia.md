@@ -63,6 +63,10 @@ Bytten Studio has written a blog post on [their design philosophy of <cite>Casse
     <dd>Android and iOS versions <a href="https://twitter.com/ByttenStudio/status/1782442549552017482" target="_blank">confirmed</a> to be released on 4 June 2024 with a <a href="https://www.youtube.com/watch?v=hqcDR6-sRVw" target="_blank">trailer</a>.</dd>
 </dl>
 
+## Accolades
+
+<cite>Cassette Beasts</cite> was [nominated for The British Game](https://twitter.com/ByttenStudio/status/1765742782700782040) at the 20th British Academy (BAFTA) Games Awards.
+
 ## Influences and Inspirations
 
 The YouTube channel Lockstin & Gnoggin has a video that explains the names and designs of the monsters and Archangels: [EVERY Cassette Beast EXPLAINED! 🖭](https://www.youtube.com/watch?v=GlKQzL6gpxc). The video was [retweeted](https://i.postimg.cc/tRdtkBSF/Screenshot-2023-10-05-at-14-27-39-Lockstin-on-X.png) by Bytten Studio.
