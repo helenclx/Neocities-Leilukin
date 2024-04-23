@@ -79,7 +79,7 @@
     .hero__top-bar {
         background-color: var(--clr-navbar-bg);
         width: 100%;
-        padding: 0.5em 0;
+        padding: 0.5em 0.7em;
     }
 
     .hero__img {
@@ -125,6 +125,10 @@
     }
 
     function getBlurbHtml(day) {
+        const releaseDate = new Date("2020-04-23").getFullYear();
+        const currentYear = new Date().getFullYear();
+        const anniversary = currentYear - releaseDate;
+
         switch (day) {
             case "Michelle's Birthday":
                 return `
@@ -133,7 +137,7 @@
                 break;
             case "ASE Anniversary":
                 return `
-                    Today is the anniversary of the release of <cite>A Summer’s End — Hong Kong 1986</cite>!
+                    Today is the ${anniversary}-year anniversary of the release of <cite>A Summer’s End — Hong Kong 1986</cite>!
                 `;
                 break;
             case "Cecelia's Birthday":
