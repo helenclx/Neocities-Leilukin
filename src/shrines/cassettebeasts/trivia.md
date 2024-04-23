@@ -97,9 +97,9 @@ Casual friendly dialogue with very few Americanisms.
 
 Common words and phrases:
 
-*   Thanks a million
-*   Sorry
-*   Brilliant
+* Thanks a million
+* Sorry
+* Brilliant
 
 #### Meredith
 
@@ -107,10 +107,10 @@ Often staggers her words, like, uh, this. Uses british slang where appropriate. 
 
 Common words and phrases:
 
-*   Uh
-*   Urgh
-*   Mate
-*   Bloody
+* Uh
+* Urgh
+* Mate
+* Bloody
 
 #### Eugene
 
@@ -118,11 +118,11 @@ American - uses a lot of exclamations! Like this! More like a shonen hero. Less 
 
 Common words and phrases:
 
-*   Man
-*   Pumped
-*   Badass
-*   Buddy
-*   Momentous
+* Man
+* Pumped
+* Badass
+* Buddy
+* Momentous
 
 #### Felix
 
@@ -130,11 +130,11 @@ Opposite of Eugene. Often ends with full stops. Less energetic, more friendly. M
 
 Common words and phrases:
 
-*   Rad
-*   No worries
-*   appreciate
-*   unorthodox
-*   folks
+* Rad
+* No worries
+* appreciate
+* unorthodox
+* folks
 
 #### Viola
 
@@ -142,9 +142,9 @@ Lightly used Shakespearian english. Very formal. Often uses quotes adapted (made
 
 Common words and phrases:
 
-*   Dear \[character name\]
-*   Alas
-*   Spirit (instead of archangels)
+* Dear \[character name\]
+* Alas
+* Spirit (instead of archangels)
 
 ## The Developers
 
