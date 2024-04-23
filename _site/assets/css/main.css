@@ -320,7 +320,7 @@ main {
 @media only screen and (min-width: 60rem) {
     .content__wrapper {
         grid-template-areas: 'leftbar article rightbar';
-        grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+        grid-template-columns: minmax(0, 15rem) minmax(0, 2.5fr) minmax(0, 15rem);
     }
 
     .article,
