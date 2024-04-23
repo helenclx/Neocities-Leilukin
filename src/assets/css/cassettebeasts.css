@@ -30,6 +30,10 @@
     --clr-main-footer-bg: #9b59b6;
 }
 
+.hero__top-bar {
+    color: var(--clr-navbar-link);
+}
+
 .footer {
     color: var(--clr-navbar-link);
 }

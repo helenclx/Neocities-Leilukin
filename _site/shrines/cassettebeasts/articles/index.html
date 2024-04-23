@@ -114,22 +114,28 @@
 
         if (month == 4 && day == 26)
             return "CB Anniversary";
-        else if (month == 9 && day == 12)
+        else if (month == 10 && day == 4)
             return "Pier Anniversary";
         else
             return "No event";
     }
 
     function getBlurbHtml(day) {
+        const currentYear = new Date().getFullYear();
+        const cbReleaseDate = new Date("2023-04-26").getFullYear();
+        const pierReleaseDate = new Date("2023-10-04").getFullYear();
+        const cbAnniversary = currentYear - cbReleaseDate;
+        const pierAnniversary = currentYear - pierReleaseDate;
+
         switch (day) {
             case "CB Anniversary":
                 return `
-                    Today is the anniversary of the release of <cite>Cassette Beasts</cite>!
+                    Today is the ${cbAnniversary}-year anniversary of the release of <cite>Cassette Beasts</cite>!
                 `;
                 break;
             case "Pier Anniversary":
                 return `
-                    Today is the anniversary of the release of <cite>Pier of the Unknown</cite>, the first DLC expansion of <cite>Cassette Beasts</cite>!
+                    Today is the ${pierAnniversary}-year anniversary of the release of <cite>Pier of the Unknown</cite>, the first DLC expansion of <cite>Cassette Beasts</cite>!
                 `;
                 break;
             default:
