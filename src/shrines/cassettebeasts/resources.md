@@ -1,6 +1,6 @@
 ---
 layout: cassettebeasts/content
-title: Featured
+title: Resources
 pageTitle: Cassette Beasts Resources
 desc: A collection of resources for Cassette Beasts.
 tags: cassette beasts shrine page
