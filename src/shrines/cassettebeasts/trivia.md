@@ -32,7 +32,7 @@ Bytten Studio has written a blog post on [their design philosophy of <cite>Casse
 
 <dl>
     <dt>Late 2019</dt>
-    <dd>Development of <cite>Cassette Beasts</cite> began.<sup><a href="https://store.steampowered.com/news/app/1321440/view/3669908058337516561" target="_blank">[Source]</a></sup></dd>
+    <dd>Development of <cite>Cassette Beasts</cite> began  (<a href="https://store.steampowered.com/news/app/1321440/view/3669908058337516561" target="_blank">Source</a>).</dd>
     <dt>11 May 2020</dt>
     <dd><a href="https://www.youtube.com/watch?v=H-bD1Pf3xGY" target="_blank">Reveal trailer</a> released.</dd>
     <dt>19 October 2021</dt>
