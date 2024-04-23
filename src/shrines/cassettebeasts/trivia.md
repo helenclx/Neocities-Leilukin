@@ -59,7 +59,7 @@ Bytten Studio has written a blog post on [their design philosophy of <cite>Casse
     <dd><a href="https://www.youtube.com/watch?v=5Fw7ElAoyhM" target="blank">Multiplayer future showcase</a> released, with announcement of its planned release in Q1 2024 and <a href="https://store.steampowered.com/news/app/1321440/view/3906373040050998621" target="blank">updates</a> about its features.</dd>
     <dt>25 March 2024</dt>
     <dd>Multiplayer beta <a href="https://store.steampowered.com/news/app/1321440/view/4140569729629599030" target="_blank">available on Steam</a>. Multiplayer update confirmed to be released on 20 May 2024 with an <a href="https://www.youtube.com/watch?v=q7ZYhxdwMt8" target="_blank">announcement trailer</a>. Android and iOS versions <a href="https://www.youtube.com/watch?v=jN_IYdwoL_A&t=135s" target="_blank">announced</a> to be released in 2024.</dd>
-    <dt>23 April 2024</dt>
+    <dt>22 April 2024</dt>
     <dd>Android and iOS versions <a href="https://twitter.com/ByttenStudio/status/1782442549552017482" target="_blank">confirmed</a> to be released on 4 June 2024 with a <a href="https://www.youtube.com/watch?v=hqcDR6-sRVw" target="_blank">trailer</a>.</dd>
 </dl>
 
