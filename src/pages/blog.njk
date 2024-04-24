@@ -3,7 +3,6 @@ layout: main/content
 title: Blog
 desc: Blog hosted on Leilukin's personal website.
 tags: blog pages
-date: 2022-01-04
 pageTitle: Welcome to Leilukin's Hub Blog!
 navTitle: Blog Home
 pagination:
@@ -13,7 +12,7 @@ pagination:
     reverse: true
 permalink: "/{{ page.fileSlug }}{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber + 1 }}{% endif %}/"
 eleventyNavigation:
-    key: Blog
+    order: 4
 ---
 
 <ul class="blog__posts">

@@ -2,6 +2,8 @@
 title: Content Archive
 eleventyComputed:
     desc: All contents published on {{ sitemeta.siteName | safe }}.
+eleventyNavigation:
+    order: 11
 ---
 
 {% set contentList = collections.contents | reverse %}

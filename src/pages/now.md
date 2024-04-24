@@ -2,11 +2,11 @@
 layout: main/content
 title: Now
 desc: What Leilukin is doing now.
-date: 2022-01-03
 updated: 2024-04-21
 templateEngineOverride: njk, md
 eleventyNavigation:
     key: Now
+    order: 3
 ---
 
 *This page was last updated on {{ updated | niceDate }}.*

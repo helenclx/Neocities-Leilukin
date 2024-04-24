@@ -4,11 +4,10 @@ title: Articles
 desc: List of articles published on my website.
 metadata:
     type: article
-date: 2022-01-05
 templateEngineOverride: njk, md
 toc: true
 eleventyNavigation:
-    key: Articles
+    order: 5
 ---
 
 ## My Articles

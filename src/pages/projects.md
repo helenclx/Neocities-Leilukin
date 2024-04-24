@@ -4,10 +4,9 @@ title: Projects
 desc: Things I have created.
 metadata:
     type: article
-date: 2022-01-06
 toc: true
 eleventyNavigation:
-    key: Projects
+    order: 6
 ---
 
 ## My Drawings
