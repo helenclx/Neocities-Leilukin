@@ -4,6 +4,8 @@ title: "My Mods for Star Wars: Knights of the Old Republic"
 desc: "List of video game mods I have made for Star Wars: Knights of the Old Republic."
 templateEngineOverride: njk, md
 toc: true
+eleventyNavigation:
+    order: 1
 ---
 {% from "main/mod-entry.njk" import modEntry %}
 

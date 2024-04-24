@@ -3,6 +3,8 @@ layout: main/content
 title: My Music Playlists
 desc: Music playlists that I have created.
 toc: true
+eleventyNavigation:
+    order: 3
 ---
 
 ## My Dear Summer Lover
