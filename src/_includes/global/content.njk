@@ -4,7 +4,7 @@
             {% set breadcrumbNavPages = collections.all | eleventyNavigationBreadcrumb(articleTitle or pageTitle or title) %}
             {%- for entry in breadcrumbNavPages %}
             <li>
-                <a href="{{ entry.url }}" {% if entry.url == page.url %} class="breadcrumbs--active"{% endif %}>{{ entry.title }}</a>
+                <a href="{{ entry.url }}">{{ entry.title }}</a>
             </li>
             {%- endfor %}
         </ul>
