@@ -1,5 +1,5 @@
 ---
-articleTitle: "The Sith Lords Restored Content Mod + M4-78 Enhancement Project Modules, Warp Codes & Music Overview"
+pageTitle: "The Sith Lords Restored Content Mod + M4-78 Enhancement Project Modules, Warp Codes & Music Overview"
 desc: "A list of all the modules and their music used by The Sith Lords Restored Content Mod and the M4-78 Enhancement Project, including codes for the warp cheat."
 tags: kotor 2 resources
 categories: ["star wars kotor 2"]

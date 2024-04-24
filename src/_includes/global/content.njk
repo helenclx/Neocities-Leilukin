@@ -1,7 +1,7 @@
 <header class="main__header">
     {% if isArticle or hasBreadcrumbs %}
         <ul class="breadcrumbs">
-            {% set breadcrumbNavPages = collections.all | eleventyNavigationBreadcrumb(articleTitle or title) %}
+            {% set breadcrumbNavPages = collections.all | eleventyNavigationBreadcrumb(articleTitle or pageTitle or title) %}
             {%- for entry in breadcrumbNavPages %}
             <li>
                 <a href="{{ entry.url }}" {% if entry.url == page.url %} class="breadcrumbs--active"{% endif %}>{{ entry.title }}</a>

@@ -3,9 +3,9 @@
     "layout": "starwarskotor/content",
     "hasBreadcrumbs": true,
     "eleventyComputed": {
-        "title": "{{ articleTitle }} | Resources",
+        "title": "{{ pageTitle }} | Resources",
         "eleventyNavigation": {
-            "key": "{{ articleTitle }}",
+            "key": "{{ pageTitle }}",
             "parent": "KotOR Resources"
         }
     }

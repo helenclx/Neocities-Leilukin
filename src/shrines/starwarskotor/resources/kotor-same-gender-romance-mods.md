@@ -1,5 +1,5 @@
 ---
-articleTitle: "List of Same-Gender Romance Mods for Star Wars: Knights of the Old Republic Series"
+pageTitle: "List of Same-Gender Romance Mods for Star Wars: Knights of the Old Republic Series"
 desc: "Throughout the years, modders have created same-gender romance mods for the Knights of the Old Republic series. Want to make your KotOR games more gay? This list is for you!"
 tags: ["kotor 1 resources", "kotor 2 resources"]
 categories: ["star wars kotor", "star wars kotor 2", "modding"]
