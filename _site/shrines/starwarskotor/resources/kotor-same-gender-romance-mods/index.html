@@ -214,15 +214,12 @@
             <li>
                 <a href="/shrines/" >Shrines</a>
             </li>
-            ➔
             <li>
                 <a href="/shrines/starwarskotor/" >Star Wars: Knights of the Old Republic Shrine</a>
             </li>
-            ➔
             <li>
                 <a href="/shrines/starwarskotor/resources/" >Resources</a>
             </li>
-            ➔
         </ul>
     
 
@@ -587,6 +584,11 @@
         gap: 0.5em;
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    .breadcrumbs li::after {
+        content: '➔';
+        padding-left: 0.3em;
     }
 </style>
         </main>

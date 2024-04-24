@@ -6,7 +6,6 @@
             <li>
                 <a href="{{ entry.url }}" {% if entry.url == page.url %} class="breadcrumbs--active"{% endif %}>{{ entry.title }}</a>
             </li>
-            ➔
             {%- endfor %}
         </ul>
     {% endif %}
@@ -71,5 +70,10 @@
         gap: 0.5em;
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    .breadcrumbs li::after {
+        content: '➔';
+        padding-left: 0.3em;
     }
 </style>

@@ -217,15 +217,12 @@
             <li>
                 <a href="/shrines/" >Shrines</a>
             </li>
-            ➔
             <li>
                 <a href="/shrines/cassettebeasts/" >Cassette Beasts Shrine</a>
             </li>
-            ➔
             <li>
                 <a href="/shrines/cassettebeasts/articles/" >Articles</a>
             </li>
-            ➔
         </ul>
     
 
@@ -600,6 +597,11 @@
         gap: 0.5em;
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    .breadcrumbs li::after {
+        content: '➔';
+        padding-left: 0.3em;
     }
 </style>
         </main>
