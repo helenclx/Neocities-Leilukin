@@ -2,27 +2,15 @@
 layout: main/content
 title: Site Map
 eleventyExcludeFromCollections: true
+navigationOptions:
+    listClass: "sitemap"
 eleventyComputed:
     desc: Site map of {{ sitemeta.siteName | safe }}.
 ---
 
 <p>This page lists the links to the pages on my website for easier navigation.</p>
 
-{% set navPages = collections.all | eleventyNavigation %}
-{% macro renderNavListItem(entry) -%}
-    <li>
-        <a href="{{ entry.url }}">{{ entry.title }}</a>
-    {%- if entry.children.length -%}
-        <ul>
-            {%- for child in entry.children %}{{ renderNavListItem(child) }}{% endfor -%}
-        </ul>
-    {%- endif -%}
-    </li>
-{%- endmacro %}
-
-<ul role="list" class="sitemap">
-    {%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
-</ul>
+{{ collections.all | eleventyNavigation | eleventyNavigationToHtml(navigationOptions) | safe }}
 
 <style>
     main ul {
