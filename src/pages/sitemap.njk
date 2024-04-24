@@ -10,7 +10,7 @@ eleventyComputed:
 
 {% set navPages = collections.all | eleventyNavigation %}
 {% macro renderNavListItem(entry) -%}
-    <li{% if entry.url == page.url %} class="my-active-class"{% endif %}>
+    <li>
         <a href="{{ entry.url }}">{{ entry.title }}</a>
     {%- if entry.children.length -%}
         <ul>
