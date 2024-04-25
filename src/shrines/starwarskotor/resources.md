@@ -5,7 +5,6 @@ pageTitle: "Star Wars: Knights of the Old Republic Resources"
 desc: "List of Star Wars: Knights of the Old Republic resources I have created or compiled myself.."
 tags: kotor shrine page
 toc: true
-templateEngineOverride: njk, md
 eleventyNavigation:
     key: KotOR Resources
     parent: KotOR Shrine

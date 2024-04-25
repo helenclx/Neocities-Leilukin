@@ -5,7 +5,6 @@ pageTitle: "Leilukin's Star Wars: Knights of the Old Republic Universes"
 desc: "My universes and headcanons for Star Wars: Knights of the Old Republic series."
 tags: kotor shrine page
 categories: ["star wars kotor", "star wars kotor 2"]
-templateEngineOverride: njk, md
 toc: true
 eleventyNavigation:
     key: KotOR Universes

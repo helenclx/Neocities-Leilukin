@@ -3,7 +3,6 @@ layout: main/content
 title: Now
 desc: What Leilukin is doing now.
 updated: 2024-04-21
-templateEngineOverride: njk, md
 eleventyNavigation:
     key: Now
     order: 3

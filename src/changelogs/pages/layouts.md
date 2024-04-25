@@ -3,7 +3,6 @@ layout: main/changelogs
 title: Website Layout Archive
 desc: An archive for the page layout designs mt website has used.
 changelogNav: Website Layouts
-templateEngineOverride: njk, md
 toc: true
 eleventyNavigation:
     order: 1

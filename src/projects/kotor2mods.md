@@ -2,7 +2,6 @@
 layout: main/content
 title: "My Mods for Star Wars: Knights of the Old Republic II: The Sith Lords"
 desc: "List of video game mods I have made for Star Wars: Knights of the Old Republic II: The Sith Lords."
-templateEngineOverride: njk, md
 toc: true
 eleventyNavigation:
     order: 2
