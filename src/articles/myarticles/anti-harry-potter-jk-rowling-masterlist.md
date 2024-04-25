@@ -42,7 +42,7 @@ Therefore, I am compiling this masterlist by curating various materials that are
     <li><a href="https://www.youtube.com/watch?v=-1iaJWSwUZs" target="_blank">Harry Potter</a> by Shaun (4 March 2023)</li>
     <li><a href="https://www.youtube.com/watch?v=Ou_xvXJJk7k" target="_blank">JK Rowling's New Friends</a> by Shaun (14 October 2022)</li>
     <li><a href="https://www.youtube.com/watch?v=UBftW7FzOVI" target="_blank">The Consumerist Dystopia of Harry Potter</a> by verilybitchie (21 January 2023)</li>
-    <li><a href="https://www.youtube.com/watch?v=_GBUArD51KY" target="_blank">I'm Done With JK Rowling</a> by Jessie Gender (27 January 2023)</li>
+    <li><a href="https://www.youtube.com/watch?v=_GBUArD51KY" target="_blank">Explaining JK Rowling’s Transphobia</a> by Jessie Gender (27 January 2023)</li>
     <li><a href="https://www.youtube.com/watch?v=K1mHwn6eUUk" target="_blank">Hogwarts Legacy and the Politics of Potter</a> by Wisecrack (11 February 2023)</li>
     <li><a href="https://www.youtube.com/watch?v=uNKyQVsgKLg" target="_blank">Hogwarts: A Legacy Of Hate  (The Jimquisition)</a> by James Stephanie Sterling (13 February 2023)</li>
     <li><a href="https://www.youtube.com/watch?v=9ncYTEY7aVk" target="_blank">The ALLEGED Witch Trials of J.K. Rowling (What The Megan Phelps Podcast Won't Tell You)</a> by Caelan Conrad (18 March 2023)</li>
