@@ -5,6 +5,7 @@ pageTitle: Cassette Beasts Game Log
 desc: A catalogue of my Cassette Beasts characters and save profiles.
 tags: cassette beasts shrine page
 toc: true
+templateEngineOverride: njk, md
 eleventyNavigation:
     key: Cassette Beasts Game Log
     parent: Cassette Beasts Shrine

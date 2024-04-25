@@ -4,6 +4,7 @@ title: Articles
 desc: List of articles published on my website.
 metadata:
     type: article
+templateEngineOverride: njk, md
 toc: true
 eleventyNavigation:
     order: 5

@@ -5,6 +5,7 @@ pageTitle: "Star Wars: Knights of the Old Republic Articles"
 desc: "List of articles written by me or other people that I recommend for the Star Wars: Knights of the Old Republic series."
 tags: kotor shrine page
 toc: true
+templateEngineOverride: njk, md
 eleventyNavigation:
     key: KotOR Articles
     parent: KotOR Shrine

@@ -5,6 +5,7 @@ pageTitle: Cassette Beasts Articles
 desc: List of articles written by me or other people that I recommend for Cassette Beasts.
 tags: cassette beasts shrine page
 toc: true
+templateEngineOverride: njk, md
 eleventyNavigation:
     key: Cassette Beasts Articles
     parent: Cassette Beasts Shrine
