@@ -9,7 +9,12 @@ eleventyNavigation:
 
 ## My Dear Summer Lover
 
-![A playlist cover image made of Sam and Michelle from A Summer's End being close to kissing, with the title 'My Dear Summer Lover: A Sam x Michelle Fanmix'](/assets/projects/playlists/My-Dear-Summer-Lover-cover.png)
+<figure>
+    <img src="/assets/projects/playlists/My-Dear-Summer-Lover-cover.png" alt="Cover image of A Summer's End fanmix 'My Dear Summer Lover: A Sam x Michelle Fanmix'">
+    <figcaption>
+        [Image description: Sam and Michelle from A Summer's End almost kisses, with a play symbol and text on the top left corner, and the text "My Dear Summer Lover: A Sam x Michelle Fanmix" in a digital style font in front.]
+    </figcaption>
+</figure>
 
 A fanmix for the visual novel <cite>[A Summer’s End — Hong Kong 1986](https://www.asummersend.com/home)</cite>, dedicated to Sam and Michelle’s love story.
 
@@ -25,9 +30,14 @@ Since Oracle and Bone has cited Anita Mui as a major inspiration for them and th
 
 ## Mandopop LGBTQ+ Anthem 華語流行音樂同志國歌
 
-![A playlist cover image made of the progress pride flag, with Chinese words meaning queer anthem on top](/assets/projects/playlists/Mandopop-LGBTQ+-Anthem-Cover.png)
+<figure>
+    <img src="/assets/projects/playlists/Mandopop-LGBTQ+-Anthem-Cover.png" alt="Cover image of the Mandopop LGBTQ+ Anthem playlist">
+    <figcaption>
+        [Image description: A progress pride flag, with Chinese words meaning queer anthem on top.]
+    </figcaption>
+</figure>
 
-Collection of Mandarin queer anthems.
+A collection of Mandarin queer anthems.
 
 I made this playlist after discovering Wikipedia's list of Chinese queer anthems on [its Mandarin article for Gay Anthem (同志國歌)](https://zh.wikipedia.org/wiki/%E5%90%8C%E5%BF%97%E5%9C%8B%E6%AD%8C#%E8%8F%AF%E8%AA%9E).
 

@@ -6,9 +6,9 @@ desc: My masterlist of criticisms of the Harry Potter series and J. K. Rowling.
 categories: ["anti harry potter", "anti jk rowling"]
 ---
 
-<figure style="margin: 1rem 0;">
-    <img src="/assets/banners/harry-potter-free-site.png" alt="A banner of an anime girl with a Harry Potter-free message" style="margin: 0 auto;">
-    <figcaption class="center-text" style="font-size: 0.9em;">
+<figure>
+    <img src="/assets/banners/harry-potter-free-site.png" alt="An anime girl crossing arms with a sidelong look and a Harry Potter-free message">
+    <figcaption>
         This site is Harry Potter free. Lookin [<i>sic</i>] for it? Leave.
     </figcaption>
 </figure>

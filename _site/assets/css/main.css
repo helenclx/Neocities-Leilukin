@@ -211,6 +211,19 @@ details:focus {
     outline-offset: 0.2em;
 }
 
+figure {
+    margin-bottom: var(--sz-paragraph-margin);
+    display: grid;
+    place-content: center;
+    justify-items: center;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: 0.2em;
+}
+
 code {
     font-family: monospace;
     border: 0.07rem solid var(--clr-code-border);
