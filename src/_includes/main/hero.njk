@@ -4,6 +4,10 @@
     <img fetchpriority="high" src="/assets/leilukin/Leilukins-Hub-website-banner.png" alt="Banner of Leilukin's Hub">
 {% endblock %}
 
+{% block heroDropShadowStyle %}
+    filter: drop-shadow(0.1rem 0.1rem 0.2rem black);
+{% endblock %}
+
 {% block eventScript %}
     if (todayEvent != "No event") {
         heroTopBarEl.classList.remove('hidden');

@@ -31,8 +31,8 @@
     .hero img {
         object-fit: contain;
         overflow: hidden;
-        filter: drop-shadow(0.1rem 0.1rem 0.2rem black);
         max-height: 16rem;
+        {% block heroDropShadowStyle %}{% endblock %}
     }
 </style>
 
