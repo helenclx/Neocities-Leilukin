@@ -5,7 +5,6 @@ __Source
 
 # Logs
 
-logs
 _.log
 npm-debug.log_
 yarn-debug.log*
