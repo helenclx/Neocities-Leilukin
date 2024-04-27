@@ -15,6 +15,8 @@ As a lesbian fan of <cite>Cassette Beasts</cite>, I am also absolutely delighted
 
 To celebrate both Lesbian Visibility Day and the 1-year anniversary of <cite>Cassette Beasts</cite>' release, I made lesbian pride icons featuring the <cite>Cassette Beasts</cite> logo as well as Ianthe and Wilma both individually and together, and shared them on social media accounts, including [Tumblr](https://lesbiannova.tumblr.com/post/748826429723148288), [Twitter](https://twitter.com/Leilukin/status/1783736715641024828), [Mastodon](https://elekk.xyz/@leilukin/112336010189257467) and [Bluesky](https://bsky.app/profile/leilukin.bsky.social/post/3kqzahri66x2x). I had also shared them in the [official Bytten Studio Discord server](https://discord.gg/byttenstudio).
 
+<div class="tumblr-post" data-href="https://embed.tumblr.com/embed/post/t:7iNKXlbr-xwxyjZTq8C8hQ/748826429723148288/v2" data-did="6dbdfd5b616fdd82f7aabd63e6a1aae35b467d73"  ><a href="https://www.tumblr.com/lesbiannova/748826429723148288/happy-lesbian-visibility-day-and-happy-birthday">https://www.tumblr.com/lesbiannova/748826429723148288/happy-lesbian-visibility-day-and-happy-birthday</a></div><script async src="https://assets.tumblr.com/post.js?_v=38df9a6ca7436e6ca1b851b0543b9f51"></script>
+
 My <cite>Cassette Beasts</cite> lesbian pride icons have been well-received, by not only other fans of the game, but also the developer Bytten Studio themselves. On Twitter, Bytten Studio not only retweeted, but also replied to my icons.
 
 [![Bytten Studio's Twitter account retweeted Leilukin's lesbian pride Cassette Beasts icons](https://i.postimg.cc/x1RcK0xv/1-year-cassette-beasts-anniversary-twitter-repost.png)](https://postimg.cc/gxxzpPPj)
