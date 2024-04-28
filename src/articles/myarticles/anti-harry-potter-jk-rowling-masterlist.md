@@ -46,6 +46,7 @@ Therefore, I am compiling this masterlist by curating various materials that are
     <li><a href="https://www.youtube.com/watch?v=K1mHwn6eUUk" target="_blank">Hogwarts Legacy and the Politics of Potter</a> by Wisecrack (11 February 2023)</li>
     <li><a href="https://www.youtube.com/watch?v=uNKyQVsgKLg" target="_blank">Hogwarts: A Legacy Of Hate  (The Jimquisition)</a> by James Stephanie Sterling (13 February 2023)</li>
     <li><a href="https://www.youtube.com/watch?v=9ncYTEY7aVk" target="_blank">The ALLEGED Witch Trials of J.K. Rowling (What The Megan Phelps Podcast Won't Tell You)</a> by Caelan Conrad (18 March 2023)</li>
+    <li><a href="https://www.youtube.com/watch?v=7xJF4XYarzI" target="_blank">The Harry Potter Villains Were Trans?</a> by Brigitte Empire (3 April 2023)</li>
     <li><a href="https://www.youtube.com/watch?v=2pggtSI_95A" target="blank">Maybe The Wizard Game Just Wasn't Very Good (The Jimquisition)</a> by James Stephanie Sterling (20 November 2023)</li>
     <li><a href="https://www.youtube.com/watch?v=whJJGqVtkEk" target="_blank">J.K. Rowling & Holocaust Denial</a> by Caelan Conrad (16 March 2024)</li>
 </ul>
