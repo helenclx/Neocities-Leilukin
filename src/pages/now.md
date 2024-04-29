@@ -2,7 +2,7 @@
 layout: main/content
 title: Now
 desc: What Leilukin is doing now.
-updated: 2024-04-27
+updated: 2024-04-29
 templateEngineOverride: njk, md
 eleventyNavigation:
     key: Now
@@ -17,13 +17,12 @@ This is my [/now page](https://nownownow.com/about). You can find more pages lik
 
 Recently, I spent a whole week in overhauling this website with the static site generator [Eleventy](https://www.11ty.dev/). The rebuilding process was [finally completed on 20 April 2023](/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/), but I am still doing maintenance and file organising under the hood.
 
-## Events I am Celebrating
+
+## Events I Celebrated Recently
 
 ### 22 April to 28 April 2024
 
 [Lesbian Visibility Week](https://www.lesbianvisibilityweek.com/)
-
-## Events I Celebrated Recently
 
 ### 23 April 2024
 
