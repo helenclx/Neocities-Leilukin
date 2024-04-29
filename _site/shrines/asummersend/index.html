@@ -112,10 +112,10 @@
         const date = new Date();
         const month = date.getMonth() + 1;
         const day = date.getDate();
+        const year = date.getFullYear();
 
-        const releaseDate = new Date("2020-04-23").getFullYear();
-        const currentYear = new Date().getFullYear();
-        const anniversary = currentYear - releaseDate;
+        const aseReleaseDate = new Date("2020-04-23").getFullYear();
+        const aseAnniversary = year - aseReleaseDate;
 
         if (month === 2 && day === 16)
             return `
@@ -123,7 +123,7 @@
             `;
         else if (month === 4 && day === 23)
             return `
-                Today is the ${anniversary}-year anniversary of the release of <cite>A Summer’s End — Hong Kong 1986</cite>!
+                Today is the ${aseAnniversary}-year anniversary of the release of <cite>A Summer’s End — Hong Kong 1986</cite>!
             `;
         else if (month === 8 && day === 9)
             return `

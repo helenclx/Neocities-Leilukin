@@ -19,12 +19,12 @@
         const date = new Date();
         const month = date.getMonth() + 1;
         const day = date.getDate();
+        const year = date.getFullYear();
 
-        const currentYear = new Date().getFullYear();
         const kotor1ReleaseDate = new Date("2003-07-15").getFullYear();
         const kotor2ReleaseDate = new Date("2004-12-06").getFullYear();
-        const kotor1Anniversary = currentYear - kotor1ReleaseDate;
-        const kotor2Anniversary = currentYear - kotor2ReleaseDate;
+        const kotor1Anniversary = year - kotor1ReleaseDate;
+        const kotor2Anniversary = year - kotor2ReleaseDate;
 
         if (month === 7 && day === 15)
             return `
