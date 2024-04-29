@@ -9,6 +9,8 @@
 {% endblock %}
 
 {% block eventScript %}
+    const todayEvent = getTodayEvent();
+
     if (todayEvent != "No event") {
         heroTopBarEl.classList.remove('hidden');
 

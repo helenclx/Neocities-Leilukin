@@ -92,11 +92,12 @@
 
 <script defer>
     const hero = document.querySelector(".hero");
-    const todayEvent = getTodayEvent();
     const heroTopBarEl = document.querySelector(".hero__top-bar");
     const headerImgEl = document.querySelector(".hero__img");
 
     
+    const todayEvent = getTodayEvent();
+
     if (todayEvent != "No event") {
         heroTopBarEl.classList.remove('hidden');
 
