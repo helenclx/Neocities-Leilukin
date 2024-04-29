@@ -170,6 +170,11 @@
             return {
                 blurb: `Today is Leilukin's Birthday`
             };
+        else if (month === 8 && day === 25)
+            return {
+                blurb: `Today is <a href="https://aromanticspectrumday.net/" target="_blank">Aromantic Spectrum Visibility Day</a>`,
+                class: "flag-aro",
+            };
         else if (month === 9 && day === 11)
             return {
                 blurb: `Today is the ${siteAnniversary}-year anniversary of the launch of Leilukin&#39;s Hub`
@@ -203,6 +208,11 @@
             return {
                 blurb: `Today is <a href="https://interactadvocates.org/intersex-awareness-day" target="_blank">Intersex Awareness Day</a>`,
                 class: "flag-intersex",
+            };
+        else if (month === 11 && day === 13)
+            return {
+                blurb: `Today is the start of <a href="https://glaad.org/transweek/" target="_blank">Transgender Awareness Week</a>`,
+                class: "flag-trans",
             };
         else
             return null;
