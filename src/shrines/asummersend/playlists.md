@@ -44,7 +44,12 @@ Oracle and Bone compiled this playlist as a tribute to Anita Mui, who was a majo
 
 ## My Dear Summer Lover
 
-![A playlist cover image made of Sam and Michelle from A Summer's End being close to kissing, with the title 'My Dear Summer Lover: A Sam x Michelle Fanmix'](/mycreations/playlists/My-Dear-Summer-Lover-cover.png)
+<figure>
+    <img src="/assets/projects/playlists/My-Dear-Summer-Lover-cover.png" alt="Cover image of A Summer's End fanmix 'My Dear Summer Lover: A Sam x Michelle Fanmix'">
+    <figcaption>
+        [Image description: Sam and Michelle from A Summer's End almost kisses, with a play symbol and text on the top left corner, and the text "My Dear Summer Lover: A Sam x Michelle Fanmix" in a digital style font in front.]
+    </figcaption>
+</figure>
 
 My fanmix for A Summer’s End — Hong Kong 1986, dedicated to Sam and Michelle’s love story.
 
