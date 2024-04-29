@@ -667,6 +667,16 @@ main {
 	);
 }
 
+.flag-genderfluid {
+	background: repeating-linear-gradient(
+		#ff76a4 0 20%,
+		#ffffff 0 40%,
+		#c011d7 0 60%,
+		#000000 0 80%,
+		#2f3cbe 0 100%
+	);
+}
+
 .flag-progress {
 	background:
         conic-gradient(at 14% 50%, #0000 221.25deg, #ffffff 222deg 318deg, #0000 318.25deg),

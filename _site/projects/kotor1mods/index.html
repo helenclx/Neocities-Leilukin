@@ -141,6 +141,8 @@
             return "International Lesbian Day";
         else if (month == 10 && day == 11)
             return "National Coming Out Day";
+        else if( month == 10 && day == 17 )
+            return "Genderfluid Visibility Week";
         else if (month == 10 && day == 26)
             return "Intersex Awareness Day";
         else
@@ -184,6 +186,9 @@
                 break;
             case "National Coming Out Day":
                 return "flag-rainbow";
+                break;
+            case "Genderfluid Visibility Week":
+                return "flag-genderfluid";
                 break;
             case "Intersex Awareness Day":
                 return "flag-intersex";
@@ -263,6 +268,11 @@
             case "National Coming Out Day":
                 return `
                     Today is <a href="https://www.hrc.org/resources/national-coming-out-day" target="_blank">National Coming Out Day</a>
+                `;
+                break;
+            case "Genderfluid Visibility Week":
+                return `
+                    Today is the start of <a href="https://www.grlgbtqhealthcareconsortium.org/significantdates/genderfluid-visibility-week" target="_blank">Genderfluid Visibility Week</a>
                 `;
                 break;
             case "Intersex Awareness Day":
