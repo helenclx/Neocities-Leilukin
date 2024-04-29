@@ -10,9 +10,9 @@
 {% block eventScript %}
     const todayEvent = getTodayEvent();
 
-    if (todayEvent != "No event") {
+    if (todayEvent) {
         heroTopBarEl.classList.remove('hidden');
-        heroTopBarEl.innerHTML = getBlurbHtml(todayEvent);
+        heroTopBarEl.innerHTML = todayEvent;
     }
 
     function getTodayEvent() {
@@ -20,34 +20,21 @@
         const month = date.getMonth() + 1;
         const day = date.getDate();
 
-        if (month == 7 && day == 15)
-            return "KotOR 1 Anniversary";
-        else if (month == 12 && day == 6)
-            return "KotOR 2 Anniversary";
-        else
-            return "No event";
-    }
-
-    function getBlurbHtml(day) {
         const currentYear = new Date().getFullYear();
         const kotor1ReleaseDate = new Date("2003-07-15").getFullYear();
         const kotor2ReleaseDate = new Date("2004-12-06").getFullYear();
         const kotor1Anniversary = currentYear - kotor1ReleaseDate;
         const kotor2Anniversary = currentYear - kotor2ReleaseDate;
 
-        switch (day) {
-            case "KotOR 1 Anniversary":
-                return `
-                    Today is the ${kotor1Anniversary}-year anniversary of the release of <cite>Star Wars: Knihgts of the Old Republic</cite>
-                `;
-                break;
-            case "KotOR 2 Anniversary":
-                return `
-                    Today is the ${kotor2Anniversary}-year anniversary of the release of <cite>Star Wars: Knights of the Old Republic II — The Sith Lords</cite>
-                `;
-                break;
-            default:
-                return ``;
-        }
+        if (month === 7 && day === 15)
+            return `
+                Today is the ${kotor1Anniversary}-year anniversary of the release of <cite>Star Wars: Knihgts of the Old Republic</cite>
+            `;
+        else if (month === 12 && day === 6)
+            return `
+                Today is the ${kotor2Anniversary}-year anniversary of the release of <cite>Star Wars: Knights of the Old Republic II — The Sith Lords</cite>
+            `;
+        else
+            return null;
     }
 {% endblock %}
