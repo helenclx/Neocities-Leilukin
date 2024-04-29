@@ -10,9 +10,9 @@
 {% block eventScript %}
     const todayEvent = getTodayEvent();
 
-    if (todayEvent != "No event") {
+    if (todayEvent) {
         heroTopBarEl.classList.remove('hidden');
-        heroTopBarEl.innerHTML = getBlurbHtml(todayEvent);
+        heroTopBarEl.innerHTML = todayEvent;
     }
 
     function getTodayEvent() {
@@ -20,34 +20,21 @@
         const month = date.getMonth() + 1;
         const day = date.getDate();
 
-        if (month == 4 && day == 26)
-            return "CB Anniversary";
-        else if (month == 10 && day == 4)
-            return "Pier Anniversary";
-        else
-            return "No event";
-    }
-
-    function getBlurbHtml(day) {
         const currentYear = new Date().getFullYear();
         const cbReleaseDate = new Date("2023-04-26").getFullYear();
         const pierReleaseDate = new Date("2023-10-04").getFullYear();
         const cbAnniversary = currentYear - cbReleaseDate;
         const pierAnniversary = currentYear - pierReleaseDate;
 
-        switch (day) {
-            case "CB Anniversary":
-                return `
-                    Today is the ${cbAnniversary}-year anniversary of the release of <cite>Cassette Beasts</cite>!
-                `;
-                break;
-            case "Pier Anniversary":
-                return `
-                    Today is the ${pierAnniversary}-year anniversary of the release of <cite>Pier of the Unknown</cite>, the first DLC expansion of <cite>Cassette Beasts</cite>!
-                `;
-                break;
-            default:
-                return ``;
-        }
+        if (month === 4 && day === 26)
+            return `
+                Today is the ${cbAnniversary}-year anniversary of the release of <cite>Cassette Beasts</cite>!
+            `;
+        else if (month === 10 && day === 4)
+            return `
+                Today is the ${pierAnniversary}-year anniversary of the release of <cite>Pier of the Unknown</cite>, the first DLC expansion of <cite>Cassette Beasts</cite>!
+            `;
+        else
+            return null;
     }
 {% endblock %}
