@@ -226,7 +226,13 @@
 
 </script>
         <nav class="navbar">
-    <ul class="nav__menu">
+    <div class="navbar__header">
+        <button class="navbar__toggle" aria-label="Navigation menu toggle">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <h2 class="navbar__title">Navigation</h2>
+    </div>
+    <ul class="navbar__links">
         
     
     
@@ -262,11 +268,31 @@
 <style>
     .navbar {
         background: var(--clr-navbar-bg);
-        padding: 0 0.6rem;
+        padding: 0.6em 1em;
         width: 100%;
         z-index: 999;
         position: sticky;
         top: 0;
+    }
+
+    .navbar__header {
+        display: flex;
+        align-items: center;
+        gap: 0.8em;
+    }
+
+    .navbar__toggle {
+        border: none;
+        padding: 0;
+        margin: 0;
+        font-size: 1.3rem;
+        background-color: inherit;
+        color: var(--clr-navbar-link);
+    }
+
+    .navbar__title {
+        font-size: 1.3rem;
+        color: var(--clr-navbar-link);
     }
 
     .navbar a {
@@ -284,15 +310,52 @@
         outline: 0.15em solid var(--clr-navbar-link);
     }
 
-    .nav__menu {
+    .navbar__links {
         list-style: none;
-        padding: 0;
-        display: flex;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        gap: 0.5rem;
+        display: none;
+        gap: 1em;
+        padding: 0.5em 2em;
+        overflow: auto;
     }
+
+    .navbar__links--show {
+        display: grid;
+    }
+
+    /* Screen sizes larger than mobile */
+    @media only screen and (min-width: 30rem) {}
+
+    /* Tablet screen size */
+    @media only screen and (min-width: 43.75rem) {
+        .navbar {
+            padding: 0 0.6em;
+        }
+
+        .navbar__header {
+            display: none;
+        }
+
+        .navbar__links {
+            display: flex;
+            justify-content: space-evenly;
+            gap: 0.5em;
+            flex-wrap: wrap;
+            padding: 0;
+        }
+    }
+
+    /* Desktop screen size */
+    @media only screen and (min-width: 60rem) {}
 </style>
+
+<script defer>
+    const navbarToggle = document.querySelector('.navbar__toggle');
+    const navbarLinks = document.querySelector(".navbar__links");
+
+    navbarToggle.addEventListener('click', () => {
+        navbarLinks.classList.toggle("navbar__links--show");
+    });
+</script>
 
         <main>
             <header class="main__header">
