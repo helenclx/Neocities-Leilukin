@@ -222,9 +222,6 @@
         display: grid;
     }
 
-    /* Screen sizes larger than mobile */
-    @media only screen and (min-width: 30rem) {}
-
     /* Tablet screen size */
     @media only screen and (min-width: 43.75rem) {
         .navbar {
@@ -241,11 +238,9 @@
             gap: 0.5em;
             flex-wrap: wrap;
             padding: 0;
+            overflow: unset;
         }
     }
-
-    /* Desktop screen size */
-    @media only screen and (min-width: 60rem) {}
 </style>
 
 <script defer>
