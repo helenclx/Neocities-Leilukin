@@ -539,12 +539,99 @@ main {
 }
 
 /* Pride flag backgrounds */
+.flag-rainbow {
+	background: repeating-linear-gradient(
+		#e40303 0 16.67%,
+		#ff8c00 0 33.33%,
+		#ffed00 0 50%,
+		#008026 0 66.67%,
+		#004dff 0 83.33%,
+		#750787 0 100%
+	);
+}
+
+.flag-lesbian {
+	background: repeating-linear-gradient(
+		#d52d00 0 14.29%,
+		#ef7627 0 28.57%,
+		#ff9a56 0 42.86%,
+		#ffffff 0 57.14%,
+		#d362a4 0 71.43%,
+		#b85490 0 86.71%,
+		#a30262 0 100%
+	);
+}
+
+.flag-bi {
+	background: repeating-linear-gradient(
+		#d60270 0 40%,
+		#9b4f97 0 60%,
+		#0038a7 0 100%
+	);
+}
+
+.flag-trans {
+	background: repeating-linear-gradient(
+		#5bcefa 0 20%,
+		#f5a9b8 0 40%,
+		#ffffff 0 60%,
+		#f5a9b8 0 80%,
+		#5bcefa 0 100%
+	);
+}
+
+.flag-intersex {
+	background: radial-gradient(closest-side circle at center,
+		#ffd800 44%,
+		#7902aa 44%,
+		#7902aa 56%,
+		#ffd800 56%
+	);
+}
+
 .flag-ace {
 	background: repeating-linear-gradient(
 		#000000 0 25%,
 		#a3a3a3 0 50%,
 		#ffffff 0 75%,
 		#800080 0 100%
+	);
+}
+
+.flag-aro {
+    background: linear-gradient(
+        #0a2 20%,
+        #7d6 0 40%,
+        white 0 60%,
+        darkgray 0 80%,
+        black 0
+    );
+}
+
+.flag-non-binary {
+	background: repeating-linear-gradient(
+		#fff430 0 25%,
+		#ffffff 0 50%,
+		#9c59d1 0 75%,
+		#000000 0 100%
+	);
+}
+
+.flag-pan {
+	background: repeating-linear-gradient(
+		#ff218c 0 33.33%,
+		#ffd800 0 66.67%,
+		#21b1ff 0 100%
+	);
+}
+
+.flag-genderfluid {
+	background: repeating-linear-gradient(
+		#ff76a4 0 20%,
+		#ffffff 0 40%,
+		#c011d7 0 60%,
+		#000000 0 80%,
+		#2f3cbe 0 100%
 	);
 }
 
@@ -558,24 +645,6 @@ main {
         silver 0 85.71%,
         black 0
     );
-}
-
-.flag-aro {
-    background: linear-gradient(
-        #0a2 20%,
-        #7d6 0 40%,
-        white 0 60%,
-        darkgray 0 80%,
-        black 0
-    );
-}
-
-.flag-bi {
-	background: repeating-linear-gradient(
-		#d60270 0 40%,
-		#9b4f97 0 60%,
-		#0038a7 0 100%
-	);
 }
 
 .flag-demigirl {
@@ -629,54 +698,6 @@ main {
     );
 }
 
-.flag-intersex {
-	background: radial-gradient(closest-side circle at center,
-		#ffd800 44%,
-		#7902aa 44%,
-		#7902aa 56%,
-		#ffd800 56%
-	);
-}
-
-.flag-lesbian {
-	background: repeating-linear-gradient(
-		#d52d00 0 14.29%,
-		#ef7627 0 28.57%,
-		#ff9a56 0 42.86%,
-		#ffffff 0 57.14%,
-		#d362a4 0 71.43%,
-		#b85490 0 86.71%,
-		#a30262 0 100%
-	);
-}
-
-.flag-non-binary {
-	background: repeating-linear-gradient(
-		#fff430 0 25%,
-		#ffffff 0 50%,
-		#9c59d1 0 75%,
-		#000000 0 100%
-	);
-}
-
-.flag-pan {
-	background: repeating-linear-gradient(
-		#ff218c 0 33.33%,
-		#ffd800 0 66.67%,
-		#21b1ff 0 100%
-	);
-}
-
-.flag-genderfluid {
-	background: repeating-linear-gradient(
-		#ff76a4 0 20%,
-		#ffffff 0 40%,
-		#c011d7 0 60%,
-		#000000 0 80%,
-		#2f3cbe 0 100%
-	);
-}
-
 .flag-progress {
 	background:
         conic-gradient(at 14% 50%, #0000 221.25deg, #ffffff 222deg 318deg, #0000 318.25deg),
@@ -699,25 +720,16 @@ main {
         linear-gradient(#e40303 0 16.66%, #ff8c00 0 33.33%, #ffed00 0 50%, #008026 0 66.66%, #004dff 0 83.33%, #750787 0);
 }
 
-.flag-rainbow {
-	background: repeating-linear-gradient(
-		#e40303 0 16.67%,
-		#ff8c00 0 33.33%,
-		#ffed00 0 50%,
-		#008026 0 66.67%,
-		#004dff 0 83.33%,
-		#750787 0 100%
-	);
-}
-
-.flag-trans {
-	background: repeating-linear-gradient(
-		#5bcefa 0 20%,
-		#f5a9b8 0 40%,
-		#ffffff 0 60%,
-		#f5a9b8 0 80%,
-		#5bcefa 0 100%
-	);
+.flag-progress-intersex-lesbian {
+    background:
+        radial-gradient(circle at 9.75% 50%, #0000 6.66%, #7902aa 6.7% 8.33%, #0000 8.4%),
+        conic-gradient(at 26.66% 50%, #0000 222.75deg, #ffd800 0 317.25deg, #0000 0),
+        conic-gradient(at 33% 50%, #0000 222.75deg, #ffffff 0 317.25deg, #0000 0),
+        conic-gradient(at 39% 50%, #0000 222.75deg, #f5a9b8 0 317.25deg, #0000 0),
+        conic-gradient(at 45.66% 50%, #0000 222.75deg, #5bcefa 0 317.25deg, #0000 0),
+        conic-gradient(at 52% 50%, #0000 222.75deg, #753000 0 317.25deg, #0000 0),
+        conic-gradient(at 58.33% 50%, #0000 222.75deg, #000 0 317.25deg, #0000 0),
+        linear-gradient(#d52d00 0 14.29%, #ef7627 0 28.57%, #ff9a56 0 42.86%, #ffffff 0 57.14%, #d362a4 0 71.43%, #b85490 0 86.71%, #a30262 0 100%);
 }
 
 .symbol-venus {
