@@ -115,6 +115,8 @@
 
         if (month == 3 && day == 1)
             return "Zero Discrimination Day";
+        else if (month == 3 && day == 8)
+            return "International Women's Day";
         else if (month == 3 && day == 31)
             return "Trans Day of Visibility";
         else if (month == 4 && day == 6)
@@ -155,6 +157,9 @@
         switch (day) {
             case "Zero Discrimination Day":
                 return "flag-progress-intersex";
+                break;
+            case "International Women's Day":
+                return "symbol-venus";
                 break;
             case "Trans Day of Visibility":
                 return "flag-trans";
@@ -208,6 +213,11 @@
             case "Zero Discrimination Day":
                 return `
                     Today is <a href="https://www.unaids.org/en/zero-discrimination-day" target="_blank">Zero Discrimination Day</a>
+                `;
+                break;
+            case "International Women's Day":
+                return `
+                    Today is <a href="https://www.internationalwomensday.com/" target="_blank">International Women's Day</a>
                 `;
                 break;
             case "Trans Day of Visibility":
