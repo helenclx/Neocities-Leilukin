@@ -4,12 +4,23 @@
     <subtitle>Leilukin&#39;s personal website.</subtitle>
     <link href="https://leilukin.neocities.org/feed.xml" rel="self"/>
     <link href="https://leilukin.neocities.org"/>
-    <updated>2024-04-29T10:22:26Z</updated>
+    <updated>2024-04-29T10:30:55Z</updated>
     <id>https://leilukin.neocities.org</id>
     <author>
         <name>Leilukin</name>
         <email>leilukin@outlook.com</email>
     </author>
+        
+        <entry>
+            <title>Changelog: 29 April 2024</title>
+            <link href="https://leilukin.neocities.org/"/>
+            <updated>2024-04-29T00:00:00Z</updated>
+            <id>https://leilukin.neocities.org/</id>
+            <content type="html">&lt;ul&gt;
+&lt;li&gt;Turn the top navigation manu into a hamburger menu when this website is viewed on mobile devices.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Changelog: 27 April 2024</title>
