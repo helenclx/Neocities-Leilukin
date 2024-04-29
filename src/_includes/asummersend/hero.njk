@@ -10,9 +10,9 @@
 {% block eventScript %}
     const todayEvent = getTodayEvent();
 
-    if (todayEvent != "No event") {
+    if (todayEvent) {
         heroTopBarEl.classList.remove('hidden');
-        heroTopBarEl.innerHTML = getBlurbHtml(todayEvent);
+        heroTopBarEl.innerHTML = todayEvent;
     }
 
     function getTodayEvent() {
@@ -20,46 +20,27 @@
         const month = date.getMonth() + 1;
         const day = date.getDate();
 
-        if (month == 2 && day == 16)
-            return "Michelle's Birthday";
-        else if (month == 4 && day == 23)
-            return "ASE Anniversary";
-        else if (month == 8 && day == 9)
-            return "Cecelia's Birthday";
-        else if (month == 12 && day == 28)
-            return "Sam's Birthday";
-        else
-            return "No event";
-    }
-
-    function getBlurbHtml(day) {
         const releaseDate = new Date("2020-04-23").getFullYear();
         const currentYear = new Date().getFullYear();
         const anniversary = currentYear - releaseDate;
 
-        switch (day) {
-            case "Michelle's Birthday":
-                return `
-                    Today is Michelle Cheung's birthday. Happy Birthday Michelle!
-                `;
-                break;
-            case "ASE Anniversary":
-                return `
-                    Today is the ${anniversary}-year anniversary of the release of <cite>A Summer’s End — Hong Kong 1986</cite>!
-                `;
-                break;
-            case "Cecelia's Birthday":
-                return `
-                    Today is Cecelia Cortes' birthday. Happy Birthday Cecelia!
-                `;
-                break;
-            case "Sam's Birthday":
-                return `
-                    Today is Sam Wong's birthday. Happy Birthday Sam!
-                `;
-                break;
-            default:
-                return ``;
-        }
+        if (month == 2 && day == 16)
+            return `
+                Today is Michelle Cheung's birthday. Happy Birthday Michelle!
+            `;
+        else if (month == 4 && day == 23)
+            return `
+                Today is the ${anniversary}-year anniversary of the release of <cite>A Summer’s End — Hong Kong 1986</cite>!
+            `;
+        else if (month == 8 && day == 9)
+            return `
+                Today is Cecelia Cortes' birthday. Happy Birthday Cecelia!
+            `;
+        else if (month == 12 && day == 28)
+            return `
+                Today is Sam Wong's birthday. Happy Birthday Sam!
+            `;
+        else
+            return null;
     }
 {% endblock %}
