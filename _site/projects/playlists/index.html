@@ -141,8 +141,10 @@
             return "International Lesbian Day";
         else if (month == 10 && day == 11)
             return "National Coming Out Day";
-        else if( month == 10 && day == 17 )
+        else if (month == 10 && day == 17)
             return "Genderfluid Visibility Week";
+        else if (month == 10 && day == 24)
+            return "Ace Week";
         else if (month == 10 && day == 26)
             return "Intersex Awareness Day";
         else
@@ -189,6 +191,9 @@
                 break;
             case "Genderfluid Visibility Week":
                 return "flag-genderfluid";
+                break;
+            case "Ace Week":
+                return "flag-ace";
                 break;
             case "Intersex Awareness Day":
                 return "flag-intersex";
@@ -273,6 +278,11 @@
             case "Genderfluid Visibility Week":
                 return `
                     Today is the start of <a href="https://www.grlgbtqhealthcareconsortium.org/significantdates/genderfluid-visibility-week" target="_blank">Genderfluid Visibility Week</a>
+                `;
+                break;
+            case "Ace Week":
+                return `
+                    Today is the start of <a href="https://www.grlgbtqhealthcareconsortium.org/significantdates/ace-week" target="_blank">Ace Week</a>
                 `;
                 break;
             case "Intersex Awareness Day":
