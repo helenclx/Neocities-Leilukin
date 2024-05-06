@@ -91,7 +91,7 @@ The protagonists of {% cite "Pokémon" %} games become the new Champion of their
 
 In addition, {% cite "Cassette Beasts" %}' story can get genuinely dark at times, most notably in the cosmic horror presented by the Archangels, the eldritch entities that you need to defeat in boss battles to gather clues about a way out of New Wirral and return home.
 
-{% spoiler 'Major Story Spoilers for <cite>Cassette Beasts</cite>' %}
+{%- spoiler 'Major Story Spoilers for <cite>Cassette Beasts</cite>' %}
 Towards the end of the main quest, it is revealed that Archangels are [egregores](https://en.wikipedia.org/wiki/Egregore) created from humanity's desires and ideas. Aleph, the main antagonist and final boss of the main story, is an Archangel that is an incarnation of conquest, and his goal is to leave New Wirral and cause chaos across reality.
 
 While {% cite "Pokémon" %} has its own fair share of sinister villains, the threat the main villain of {% cite "Cassette Beasts" %} poses is even greater in scope than any {% cite "Pokémon" %} villain, maybe except for Rainbow Rocket Giovanni from {% cite "Ultra Sun" %} and {% cite "Ultra Moon" %}, who shares the goal of ruling the multiverse.
@@ -155,13 +155,13 @@ If the existence of the option to romance your human companion is not enough, in
 
 On the flip side, {% cite "Cassette Beasts" %} has canon LGBTQ+ characters. For characters who are attracted to the samge gender, the most notable ones are the human companions, who can be romanced by the player character regardless of gender, meaning they are canonically bisexual. Furthermore, the game also has a pair of NPCs who are revealed in-game to be a gay married couple.
 
-{% spoiler 'Minor Quest Spoilers for <cite>Cassette Beasts</cite>' %}
+{%- spoiler 'Minor Quest Spoilers for <cite>Cassette Beasts</cite>' %}
 To be specific, this pair of NPCs in question are Leader Ianthe and Ranger Wilma, members of the Ranger Guild. After you defeat all 12 Ranger Captains, and you challenge Ianthe to a battle, Ianthe will reveal that she will fight alongside her wife, who is none other than Ranger Wilma, the woman in charge of the Ranger Guild store. Yes, {% cite "Cassette Beasts" %} has a canon married lesbian couple.
-{% endspoiler %}
+{%- endspoiler %}
 
 As for transgender and non-binary representation, {% cite "Pokémon" %} has a few ambiguously canon ones, namely [Beauty Nova](https://lgbtqgamearchive.com/2016/05/25/beauty-nova-in-pokemon-xy/), a minor female NPC Trainer from {% cite "X" %} and {% cite "Y" %} who is heavily implied to be a trans woman, and [Blanche](https://bulbapedia.bulbagarden.net/wiki/Blanche) from {% cite "Pokémon GO" %}, who is not referred to by gendered pronouns in the English version of the game and official social media accounts. Some other human characters are also commonly interpreted or headcanonned as trans by LGBTQ+ fans, but none of them are officially confirmed to be trans or non-binary.
 
->In {% cite "Cassette Beasts" %}, not only that the player can chose to go by they/them pronouns via the character creator, but there is also a Ranger Captain named <a href="https://wiki.cassettebeasts.com/wiki/Skip" target="blank">Skip</a> who is canonically non-binary and uses they/them pronouns.
+In {% cite "Cassette Beasts" %}, not only that the player can chose to go by they/them pronouns via the character creator, but there is also a Ranger Captain named <a href="https://wiki.cassettebeasts.com/wiki/Skip" target="blank">Skip</a> who is canonically non-binary and uses they/them pronouns.
 
 In addition to having canon LGBTQ+ characters, {% cite "Cassette Beasts" %}'s voice cast also includes multiple openly LGBTQ+ voice actors, such as Allegra Clark, J. Michael Tatum, Kayleigh McKee, Liz Morey, Marin M. Miller and Risa Mei. In fact, both Captain Skip and their voice actor Marin M. Miller are non-binary and go by they/them pronouns.
 
