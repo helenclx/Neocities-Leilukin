@@ -56,7 +56,7 @@ I have also compiled a [list of all the same-gender romance mods](/shrines/starw
         When installing your {% cite "KotOR 2" %} mod, I got "Destination file <i>"Modules\[____].mod" does not exist at the specified location! Skipping section... [Error]"</i> and other similar errors, even though I had installed the installer (.exe) version of The Sith Lords Restored Content Mod.
     </summary>
     <div class="qna-accordion__answer">
-        <p>First, go to the folder where your <cite>KotOR 2</cite> game is installed, and go to the Modules folder, then <strong>check if the .mod files mentioned in the error messages are in your Modules folder</strong>.</p>
+        <p>First, go to the folder where your {% cite "KotOR 2" %} game is installed, and go to the Modules folder, then <strong>check if the .mod files mentioned in the error messages are in your Modules folder</strong>.</p>
         <p>For example, for Handmaiden and Female Exile – Disciple and Male Exile Romance mod, you need to check if these .mod files are in your Modules folder:</p>
         <ul>
             <li>003EBO.mod</li>

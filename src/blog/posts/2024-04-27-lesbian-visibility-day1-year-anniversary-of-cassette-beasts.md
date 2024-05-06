@@ -35,6 +35,6 @@ Furthermore, I had set up my website's header to display the lesbian pride flag 
 
 In conclusion, this had been an exciting day for me as a lesbian gaymer.
 
-On a somewhat related note, I love the fact that this week is not only [Lesbian Visibility Week](https://www.lesbianvisibilityweek.com/), but also has two of my all-time favourite games, {% cite "Cassette Beasts" %} and {% cite "A Summer's End — Hong Kong 1986" %} (which I had also created a [shrine](/shrines/asummersend) for), both of which happen to feature lesbian representation, celebrating their release anniversaries.
+On a somewhat related note, I love the fact that this week is not only [Lesbian Visibility Week](https://www.lesbianvisibilityweek.com/), but also has two of my all-time favourite games, {% cite "Cassette Beasts" %} and {% cite "A Summer’s End — Hong Kong 1986" %} (which I had also created a [shrine](/shrines/asummersend) for), both of which happen to feature lesbian representation, celebrating their release anniversaries.
 
 **Happy Lesbian Visibility Day and Happy Birthday to {% cite "Cassette Beasts" %}!**

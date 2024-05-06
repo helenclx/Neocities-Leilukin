@@ -2,7 +2,7 @@
 
 {% block navbarLinks %}
     {% set shrineHomeUrl %}/shrines/asummersend/{% endset %}
-    {% set navPages = collections.all | eleventyNavigation("A Summer's End Shrine") %}
+    {% set navPages = collections.all | eleventyNavigation("A Summer’s End Shrine") %}
     {% set currentUrl %}{{ page.url }}{% endset %}
     <li>
         <a {% if currentUrl === shrineHomeUrl %}aria-current="page"{% endif %} href="{{ shrineHomeUrl }}">Shrine Home</a>
