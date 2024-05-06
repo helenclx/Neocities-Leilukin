@@ -1,4 +1,4 @@
-// Installed Plug-ins
+// Installed Plugins
 const { EleventyRenderPlugin } = require("@11ty/eleventy");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
@@ -10,9 +10,10 @@ const embedEverything = require("eleventy-plugin-embed-everything");
 // Configure slug filter
 const slugify = require("slugify");
 
-// Configure markdown-it plug-ins
+// Configure markdown-it plugins
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const markdownItAttr = require("markdown-it-attrs");
 
 module.exports = function (eleventyConfig) {
     // Copy files
@@ -40,11 +41,8 @@ module.exports = function (eleventyConfig) {
         });
     });
 
-    // Configure markdown-it plug-ins
-    eleventyConfig.setLibrary(
-        'md',
-        markdownIt().use(markdownItAnchor)
-    )
+    // Configure markdown-it plugins
+    eleventyConfig.setLibrary('md', markdownIt().use(markdownItAnchor))
     const linkAfterHeader = markdownItAnchor.permalink.linkAfterHeader({
         class: "heading-anchor",
         symbol: "<span hidden>#</span>",
@@ -57,12 +55,10 @@ module.exports = function (eleventyConfig) {
                 lower: true,
                 strict: true,
                 remove: /["]/g,
-        }),
+            }),
         tabIndex: false,
         permalink(slug, opts, state, idx) {
-            state.tokens.splice(
-                idx,
-                0,
+            state.tokens.splice(idx, 0,
                 Object.assign(new state.Token("div_open", "div", 1), {
                     // Add class "header-wrapper [h1 or h2 or h3]"
                     attrs: [["class", `heading-wrapper ${state.tokens[idx].tag}`]],
@@ -70,9 +66,7 @@ module.exports = function (eleventyConfig) {
                 })
             );
 
-            state.tokens.splice(
-                idx + 4,
-                0,
+            state.tokens.splice(idx + 4, 0,
                 Object.assign(new state.Token("div_close", "div", -1), {
                     block: true,
                 })
@@ -85,7 +79,9 @@ module.exports = function (eleventyConfig) {
     /* Markdown Overrides */
     let markdownLibrary = markdownIt({
         html: true,
-    }).use(markdownItAnchor, markdownItAnchorOptions);
+    })
+        .use(markdownItAnchor, markdownItAnchorOptions)
+        .use(markdownItAttr);
 
     /* This is the part that tells 11ty to swap to our custom config */
     eleventyConfig.setLibrary("md", markdownLibrary);
