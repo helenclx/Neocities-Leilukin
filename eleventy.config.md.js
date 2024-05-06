@@ -28,7 +28,7 @@ module.exports = function (eleventyConfig) {
         });
     });
 
-    // Configure markdown-it plugins
+    // Configure markdown-it-anchor plugins
     eleventyConfig.setLibrary('md', markdownIt().use(markdownItAnchor))
     const linkAfterHeader = markdownItAnchor.permalink.linkAfterHeader({
         class: "heading-anchor",
@@ -63,6 +63,13 @@ module.exports = function (eleventyConfig) {
         },
     };
 
+    // Paired shortcode: custom container
+    eleventyConfig.addPairedShortcode('container', (children, el, className) => {
+        const classMarkup = className ? ` class="${className}"` : "";
+        const content = markdownLibrary.render(children);
+        return `<${el}${classMarkup}>${content}</${el}>`;
+    });
+
     /* Markdown Overrides */
     let markdownLibrary = markdownIt({
         html: true,
@@ -74,11 +81,4 @@ module.exports = function (eleventyConfig) {
 
     /* This is the part that tells 11ty to swap to our custom config */
     eleventyConfig.setLibrary("md", markdownLibrary);
-
-    // Paired shortcode: custom container
-    eleventyConfig.addPairedShortcode('container', (children, el, className) => {
-        const classMarkup = className ? ` class="${className}"` : "";
-        const content = markdownIt().render(children);
-        return `<${el}${classMarkup}>${content}</${el}>`;
-    });
 }

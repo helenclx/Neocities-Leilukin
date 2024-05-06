@@ -16,13 +16,13 @@ Since I could not find a solid and detailed guide for Juhani's romance anywhere,
 
 For this guide, I have done a lot of research and investigation to find out the conditions required to trigger Juhani's conversations, including tons of web searching, using KotOR Tool to browse and examine the game files related to Juhani's conversations, as well as using KotOR SaveGame Editor (KSE) to compare my save files.
 
-**NOTE:** Even if you use KotOR 1 Restoration (K1R) mod, the conditions to progress Juhani's romance remains the same as vanilla KotOR 1. However, I recommend using [KOTOR 1 Community Patch](https://deadlystream.com/files/file/1258-kotor-1-community-patch/) (K1CP) instead of K1R due to the fact K1CP fixes more bugs than K1R does, including bugs related to Juhani.
+**NOTE:** Even if you use KotOR 1 Restoration (K1R) mod, the conditions to progress Juhani's romance remains the same as vanilla KotOR 1. However, I recommend using [KOTOR 1 Community Patch](https://deadlystream.com/files/file/1258-kotor-1-community-patch/){target="_blank"} (K1CP) instead of K1R due to the fact K1CP fixes more bugs than K1R does, including bugs related to Juhani.
 
 ## Important Notes
 
 First and foremost, since Juhani was written to be a lesbian, **your player character must be female if you want to romance Juhani**. The game activates Juhani's romance ONLY IF your player character is female.
 
-As long as your player character is female, even if you romance Carth, Bastila (if you use mods that allow the female player character to romance Bastila, such as the [Biromantic Bastila mod](https://deadlystream.com/files/file/1548-jcs-romance-enhancement-biromantic-bastila-for-k1/)) or even both, you can still romance Juhani.
+As long as your player character is female, even if you romance Carth, Bastila (if you use mods that allow the female player character to romance Bastila, such as the [Biromantic Bastila mod](https://deadlystream.com/files/file/1548-jcs-romance-enhancement-biromantic-bastila-for-k1/){target="_blank"}) or even both, you can still romance Juhani.
 
 In order to advance your progress with Juhani's conversations, it is highly recommended to **talk to Juhani and go through all her available conversations every time you level up.** The progression with Juhani's conversations is tied in with the ability to level up, not just being at a certain level. Some Juhani's conversations will only be triggered after you gain 1 level after a previous conversation (see the Walkthrough section below for details). Given the limited level cap in KotOR 1 (the maximum level is 20), if you do not talk to Juhani often before you reach the level cap, it is very likely you will miss out on the chance to get her later conversations, including her final romance conversation.
 
@@ -30,7 +30,7 @@ In order to advance your progress with Juhani's conversations, it is highly reco
 
 **You need to be nice to Juhani during your conversations with her**, because mean dialogue choices will set the global boolean `T_JUHANIROM` to 0, ending the romance, and apparently it is impossible to restart the romance afterwards.
 
-Before you start a new KotOR playthrough, I highly recommend you to download and install the [KOTOR 1 Community Patch](https://deadlystream.com/files/file/1258-kotor-1-community-patch/), because the mod fixes many bugs with KotOR, including bugs that may block you from progressing Juhani's quest and conversations.
+Before you start a new KotOR playthrough, I highly recommend you to download and install the [KOTOR 1 Community Patch](https://deadlystream.com/files/file/1258-kotor-1-community-patch/){target="_blank"}, because the mod fixes many bugs with KotOR, including bugs that may block you from progressing Juhani's quest and conversations.
 
 **(WARNING: this guide contains spoilers for both Juhani's personal story and KotOR's main plot)**
 
@@ -38,7 +38,7 @@ Before you start a new KotOR playthrough, I highly recommend you to download and
 
 There are two paths in Juhani's conversations: History and Personal. The History path explores Juhani's past and will lead to Juhani's personal quest "Threat from Xor", while the Personal path explores Juhani's relationship with the player character and will lead to Juhani's love confession if her romance is active.
 
-You can check your progress with Juhani's conversations by using the [KotOR SaveGame Editor](http://deadlystream.com/files/file/503-kotor-savegame-editor/) (KSE). Once you launch KSE, and it successfully loads your KotOR save files, expand a save file, and look for Globals > Numerics, `G_JUHANIH_STATE` refers to the History path, while `G_JUHANIP_STATE` refers to the Personal path. The walkthrough below contains details on how to trigger all the conversations required to make the final romance conversation available, the global values in KSE, and links to YouTube videos for these conversations.
+You can check your progress with Juhani's conversations by using the [KotOR SaveGame Editor](http://deadlystream.com/files/file/503-kotor-savegame-editor/){target="_blank"} (KSE). Once you launch KSE, and it successfully loads your KotOR save files, expand a save file, and look for Globals > Numerics, `G_JUHANIH_STATE` refers to the History path, while `G_JUHANIP_STATE` refers to the Personal path. The walkthrough below contains details on how to trigger all the conversations required to make the final romance conversation available, the global values in KSE, and links to YouTube videos for these conversations.
 
 In addition, you can check if Juhani's romance is still active by using KSE: look for Globals > Booleans, and make sure `T_JUHANIROM` is set to 1.
 
@@ -57,7 +57,7 @@ https://youtu.be/4itTaqLKQPQ
 https://youtu.be/Foj1nmouoIU
 
 {% container "div", "text-box" %}
-**BUG WARNING:** There is a bug that may block you from progressing Juhani's Personal Conversation path after you complete History #3, and thus preventing you from triggering Juhani's final romance conversation. See the "Personal Conversation Path" section below for more details about this bug. This bug is fixed by the [KOTOR 1 Community Patch](https://deadlystream.com/files/file/1258-kotor-1-community-patch/), which is a major reason I highly recommend this mod.
+**BUG WARNING:** There is a bug that may block you from progressing Juhani's Personal Conversation path after you complete History #3, and thus preventing you from triggering Juhani's final romance conversation. See the "Personal Conversation Path" section below for more details about this bug. This bug is fixed by the [KOTOR 1 Community Patch](https://deadlystream.com/files/file/1258-kotor-1-community-patch/){target="_blank"}, which is a major reason I highly recommend this mod.
 
 If you are unable to install mods for some reason, I would suggest that once you complete History #3, stop leveling up your character. Once you get your second Star Map (the Dantooine Star Map counts as the first Star Map), complete Personal #3 _AND_ Personal #4 at once. After all that is done, you can now level up to trigger History #4.
 {% endcontainer %}
@@ -82,9 +82,9 @@ After you have dealt with Xor, if you have completed Personal #6 (detailed below
 
 https://youtu.be/Px1JTr7vf9Q
 
-<div class="text-box">
-    <p><strong>BUG WARNING:</strong> There is an infamous bug with the Xor quest that once you trigger the quest, even after completing it, you will not be able to encounter any other messengers for your other party members' personal quests, and for Mika Dorin's premium shop on Korriban. The fix for this bug is included in the <a href="https://deadlystream.com/files/file/1258-kotor-1-community-patch/" target="_blank">KOTOR 1 Community Patch</a> and the KotOR 1 Restoration (K1R) mod.</p>
-</div>
+{% container "div", "text-box" %}
+**BUG WARNING:** There is an infamous bug with the Xor quest that once you trigger the quest, even after completing it, you will not be able to encounter any other messengers for your other party members' personal quests, and for Mika Dorin's premium shop on Korriban. The fix for this bug is included in the [KOTOR 1 Community Patch](https://deadlystream.com/files/file/1258-kotor-1-community-patch/){target="_blank"} and the KotOR 1 Restoration (K1R) mod.
+{% endcontainer %}
 
 ### Personal Conversation Path
 
@@ -104,10 +104,11 @@ https://youtu.be/y_rM2l83HDo
 
 https://youtu.be/BOq0fehoYkg
 
-<div class="text-box">
-    <p><strong>BUG WARNING:</strong> Personal #4 is by far the trickiest to trigger of all Juhani's conversations. There is a bug that once you complete History #3, if you level up even just once, History #4 will override Personal #4, making Personal #4 unavailable, and you will be unable to get the later conversations in the Personal Conversation path (except Personal #7 below), including the final romance conversation. In fact, I found that missing out Personal #4 was <em>the</em> reason I was unable to get Juhani's final romance conversation in my old playthrough. This bug is fixed by the <a href="https://deadlystream.com/files/file/1258-kotor-1-community-patch/" target="_blank">KOTOR 1 Community Patch</a>, which is a major reason I highly recommend this mod.</p>
-    <p>If you are unable to install mods for some reason, I would suggest that once you complete History #3, stop leveling up your character. Once you get your second Star Map (the Dantooine Star Map counts as the first Star Map), complete Personal #3, then <em>immediately</em> talk to Juhani again to check if Personal #4 is available. After you successfully trigger Personal #4 and complete the conversation, you can now level up your character to proceed to History #4 and beyond.</p>
-</div>
+{% container "div", "text-box" %}
+**BUG WARNING:** Personal #4 is by far the trickiest to trigger of all Juhani's conversations. There is a bug that once you complete History #3, if you level up even just once, History #4 will override Personal #4, making Personal #4 unavailable, and you will be unable to get the later conversations in the Personal Conversation path (except Personal #7 below), including the final romance conversation. In fact, I found that missing out Personal #4 was _the_ reason I was unable to get Juhani's final romance conversation in my old playthrough. This bug is fixed by the [KOTOR 1 Community Patch](https://deadlystream.com/files/file/1258-kotor-1-community-patch/){target="_blank"}, which is a major reason I highly recommend this mod.
+
+If you are unable to install mods for some reason, I would suggest that once you complete History #3, stop leveling up your character. Once you get your second Star Map (the Dantooine Star Map counts as the first Star Map), complete Personal #3, then _immediately_ talk to Juhani again to check if Personal #4 is available. After you successfully trigger Personal #4 and complete the conversation, you can now level up your character to proceed to History #4 and beyond.
+{% endcontainer %}
 
 [Personal #5:]{.juhani-personal} Available when you gain 1 level after Personal #4. Juhani asks about your past. After this conversation, the global value of `G_JUHANIP_STATE` will be set to 6.
 
@@ -140,21 +141,21 @@ https://youtu.be/oFQDmmRUx4E
 
 These mods are not required to complete Juhani's romance, but they add or enhance Juhani's content.
 
-* [Juhani Romance Enhancement](http://deadlystream.com/files/file/772-juhani-romance-enhancement/) by Kexikus: Improves the final romance conversation with Juhani, including triggering the conversation automatically when you are about to leave the temple summit, instead of having to talk to Juhani yourself to initiate the conversation, provided you have met the conditions to make this conversation available (detailed in the Walkthrough section above), as well as adding a kiss between Juhani and the female player character.
-* [KOTOR 1 Community Patch](https://deadlystream.com/files/file/1258-kotor-1-community-patch/): Even though this bug fix mod is not specifically about Juhani, it fixes many bugs and issues related to Juhani's content, including:
+* [Juhani Romance Enhancement](http://deadlystream.com/files/file/772-juhani-romance-enhancement/){target="_blank"} by Kexikus: Improves the final romance conversation with Juhani, including triggering the conversation automatically when you are about to leave the temple summit, instead of having to talk to Juhani yourself to initiate the conversation, provided you have met the conditions to make this conversation available (detailed in the Walkthrough section above), as well as adding a kiss between Juhani and the female player character.
+* [KOTOR 1 Community Patch](https://deadlystream.com/files/file/1258-kotor-1-community-patch/){target="_blank"}: Even though this bug fix mod is not specifically about Juhani, it fixes many bugs and issues related to Juhani's content, including:
     * Juhani wouldn't spawn in the post-Leviathan scene on the Ebon Hawk
     * If doing certain Juhani's conversations in the wrong order, it was possible to block any further progress in Juhani's Personal Conversation path, and prevent you from accessing Juhani's final romance conversation
     * No other messengers could appear once the "Threat From Xor" quest is started
     * The second Xor encounter was impossible to start if you first meet him and his goons without Juhani in your party
     * The second Xor encounter is unavailable on Tatooine
-    * Xor is a Twi'lek, despite him being a human in the Xbox version of KotOR, and him openly making anti-alien comments (NOTE: This fix was originally done by my [Human Xor Restoration](http://deadlystream.com/files/file/1091-human-xor-restoration/) mod. I have given permission to include my mod in this Community Patch)
+    * Xor is a Twi'lek, despite him being a human in the Xbox version of KotOR, and him openly making anti-alien comments (NOTE: This fix was originally done by my [Human Xor Restoration](http://deadlystream.com/files/file/1091-human-xor-restoration/){target="_blank"} mod. I have given permission to include my mod in this Community Patch)
     * Asking Juhani about the planet you were currently on was impossible due to a faulty global setting
-* [Juhani Dialogue Restoration](https://deadlystream.com/files/file/2173-juhani-dialogue-restoration/) by Leilukin: My mod. Restores Juhani's conversations with the player that are unused or easy to miss in vanilla KotOR, including:
+* [Juhani Dialogue Restoration](https://deadlystream.com/files/file/2173-juhani-dialogue-restoration/){target="_blank"} by Leilukin: My mod. Restores Juhani's conversations with the player that are unused or easy to miss in vanilla KotOR, including:
     * Asking Juhani about the planet you are on
     * Asking Juhani about why she is hostile towards Canderous
     * Juhani talking about the evils on Korriban
-* [Human Xor Unique Look](https://deadlystream.com/files/file/2147-human-xor-unique-look/) by Leilukin: My mod. Changes Xor's species from a Twi'lek to a human to fit his anti-alien nature and dialogue, with a unique appearance different from other human NPCs. This mod is listed on this guide because Xor is tied to Juhani's personal quest.
-* [Party on the Leviathan!](https://deadlystream.com/files/file/567-party-on-the-leviathan/) by Fair Strides: Restores Juhani's conversation, including romance conversation with a female player character, on the Leviathan, by spawning the rest of the Ebon Hawk crew on the Leviathan after you are rescued.
+* [Human Xor Unique Look](https://deadlystream.com/files/file/2147-human-xor-unique-look/){target="_blank"} by Leilukin: My mod. Changes Xor's species from a Twi'lek to a human to fit his anti-alien nature and dialogue, with a unique appearance different from other human NPCs. This mod is listed on this guide because Xor is tied to Juhani's personal quest.
+* [Party on the Leviathan!](https://deadlystream.com/files/file/567-party-on-the-leviathan/){target="_blank"} by Fair Strides: Restores Juhani's conversation, including romance conversation with a female player character, on the Leviathan, by spawning the rest of the Ebon Hawk crew on the Leviathan after you are rescued.
 
 {.content-list}
 
