@@ -21,22 +21,26 @@ eleventyNavigation:
 
 My first and main character for Cassette Beasts. The first save file was created on 18 July 2023, and the main story was beaten on 30 July 2023. The second save file was created on 18 October 2023.
 
-<dl>
-    <dt>Name</dt>
-    <dd>Kristine</dd>
-    <dt>Pronouns</dt>
-    <dd>They/Them</dd>
-    <dt>Starter Monster Tape</dt>
-    <dd>Bansheep</dd>
-    <dt>Romance</dt>
-    <dd>Meredith</dd>
-    <dt>Final Station Location</dt>
-    <dd>Behind the tree stump to the top right of Autumn Hill</dd>
-    <dt>Gift Bootleg Received</dt>
-    <dd>Glitter-type Pombomb</dd>
-    <dt>First Wild Bootleg</dt>
-    <dd>Air-type Weevillite (obtained on 14 August 2023)</dd>
-</dl>
+Name
+: Kristine
+
+Pronouns
+: They/Them
+
+Starter Monster Tape
+: Bansheep
+
+Romance
+: Meredith
+
+Final Station Location
+: Behind the tree stump to the top right of Autumn Hill
+
+Gift Bootleg Received
+: litter-type Pombomb
+
+First Wild Bootleg
+: Air-type Weevillite (obtained on 14 August 2023)
 
 ### Character Trivia
 

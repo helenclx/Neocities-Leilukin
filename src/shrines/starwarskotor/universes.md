@@ -29,40 +29,54 @@ My main KotOR universe.
 
 ![Screenshot of Jiaxuan Cheng, the Revan for my main KotOR universe]({{universeAssetBase}}myrevan-jiaxuan-cheng.png)
 
-<dl>
-    <dt>Name</dt>
-    <dd>Jiaxuan Cheng 程嘉萱</dd>
-    <dt>Class</dt>
-    <dd>Scout + Jedi Sentinel</dd>
-    <dt>Pronouns</dt>
-    <dd>She/Her or They/Them</dd>
-    <dt>Gender</dt>
-    <dd>Non-binary woman</dd>
-    <dt>Species</dt>
-    <dd>Human</dd>
-    <dt>Orientation</dt>
-    <dd>Lesbian</dd>
-    <dt>Romance</dt>
-    <dd>Juhani and Bastila (polyamorous triad)</dd>
-</dl>
+Name
+: Jiaxuan Cheng 程嘉萱
+
+Class
+: Scout + Jedi Sentinel
+
+Alignment
+: Light Side
+
+Pronouns
+: She/Her or They/Them
+
+Gender
+: Non-binary woman
+
+Species
+: Human
+
+Orientation
+: Lesbian
+
+Romance
+: Juhani and Bastila (polyamorous triad)
 
 ### Jedi Exile
 
 ![Screenshot of Yunhua Yang, the Jedi Exile for my main KotOR universe]({{universeAssetBase}}myexile-yunhua-yang.png)
 
-<dl>
-    <dt>Name</dt>
-    <dd>Jiaxuan Cheng 程嘉萱</dd>
-    <dt>Class</dt>
-    <dd>Scout + Jedi Sentinel</dd>
-    <dt>Pronouns</dt>
-    <dd>She/Her or They/Them</dd>
-    <dt>Gender</dt>
-    <dd>Non-binary woman</dd>
-    <dt>Species</dt>
-    <dd>Human</dd>
-    <dt>Orientation</dt>
-    <dd>Lesbian</dd>
-    <dt>Romance</dt>
-    <dd>Juhani and Bastila (polyamorous triad)</dd>
-</dl>
+Name
+: Yunhua Yang 杨韵华
+
+Class
+: Jedi Sentinel + Jedi Weapon Master
+
+Alignment
+: Light Side
+
+Pronouns
+: She/Her or They/Them
+
+Gender
+: Non-binary woman
+
+Species
+: Human
+
+Orientation
+: Lesbian
+
+Romance
+: Visas Marr
