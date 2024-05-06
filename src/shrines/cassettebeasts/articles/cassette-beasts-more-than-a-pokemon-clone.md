@@ -5,6 +5,7 @@ updated: 2023-10-22
 desc: Despite some fundamental similarities, calling Cassette Beasts as just a Pokémon clone is doing the former a massive disserverce, and here are the many reasons why.
 tags: cassette beasts articles
 categories: ["cassette beasts"]
+templateEngineOverride: njk, md
 toc: true
 ---
 
@@ -26,7 +27,7 @@ However, despite remaining one of the best-selling video game series in the worl
 
 One of the most notable differences between {% cite "Pokémon" %} and {% cite "Cassette Beasts" %} is their mechanics to capture monsters. In {% cite "Pokémon" %}, you catch the creatures by using Poké Balls, but in {% cite "Cassette Beasts" %}, you do not actually catch the monsters, but you record the essence of the monsters into a cassette tape.
 
-A common criticism of the monster collect genre is the ethical question of essentially enslaving creatures by capturing and subjugating them into obeying you, as well as enganging in dog fighting by making the creatures fight each other, to the extent that even {% cite "Pokémon" %} tries to tackle it as the main theme of the story of {% cite "Black" %} and {% cite "White" %}, though whether the execution is effective or not is debatable. {% cite "Cassette Beasts" %}' method of recording monsters solves this moral dilemma of the genre from the get-go, because you are not actually catching the monsters in the traditional sense. In fact, Jay Baylis, artist and writer of {% cite "Cassette Beasts" %} had stated in [a Shacknews interview](https://youtu.be/P0L-5LLT9uw?feature=shared&t=106) that their idea of recording monsters is intended to avert the issue of basically enslaving creatures in the monster collecting genre.
+A common criticism of the monster collector genre is the ethical question of essentially enslaving creatures by capturing and subjugating them into obeying you, as well as enganging in dog fighting by making the creatures fight each other, to the extent that even {% cite "Pokémon" %} tries to tackle it as the main theme of the story of {% cite "Black" %} and {% cite "White" %}, though whether the execution is effective or not is debatable. {% cite "Cassette Beasts" %}' method of recording monsters solves this moral dilemma of the genre from the get-go, because you are not actually catching the monsters in the traditional sense. In fact, Jay Baylis, artist and writer of {% cite "Cassette Beasts" %} had stated in [a Shacknews interview](https://youtu.be/P0L-5LLT9uw?feature=shared&t=106) that their idea of recording monsters is intended to avert the issue of basically enslaving creatures in the monster collecting genre.
 
 Gameplay-wise, a notable improvement {% cite "Cassette Beasts" %} has over {% cite "Pokémon" %} when it comes to monster capture mechanics is that in {% cite "Cassette Beasts" %}, when you are recording a monster, the percentage of success rate is displayed on screen. Furthermore, a monster that is in the process of being recorded cannot be knocked out, so you can deal more damage to the monster to improve your odds of successfully recording the monster. In {% cite "Pokémon" %}, you have to be extra careful about not knocking out the Pokémon you want to catch, and when you try to catch one, you can only hope that the RNG is in your favour.
 
@@ -90,14 +91,13 @@ The protagonists of {% cite "Pokémon" %} games become the new Champion of their
 
 In addition, {% cite "Cassette Beasts" %}' story can get genuinely dark at times, most notably in the cosmic horror presented by the Archangels, the eldritch entities that you need to defeat in boss battles to gather clues about a way out of New Wirral and return home.
 
-<details class="spoiler-accordion">
-    <summary class="spoiler-accordion__hint">Major Story Spoilers for {% cite "Cassette Beasts" %}</summary>
-    <div class="spoiler-accordion__spoiler">
-        <p>Towards the end of the main quest, it is revealed that Archangels are <a href="https://en.wikipedia.org/wiki/Egregore" target="_blank">egregores</a> created from humanity's desires and ideas. Aleph, the main antagonist and final boss of the main story, is an Archangel that is an incarnation of conquest, and his goal is to leave New Wirral and cause chaos across reality.</p>
-        <p>While {% cite "Pokémon" %} has its own fair share of sinister villains, the threat the main villain of {% cite "Cassette Beasts" %} poses is even greater in scope than any {% cite "Pokémon" %} villain, maybe except for Rainbow Rocket Giovanni from {% cite "Ultra Sun" %} and {% cite "Ultra Moon" %}, who shares the goal of ruling the multiverse.</p>
-        <p>Moreover, even though the player character and their party are able to defeat the main villain in the end, the game makes it clear that since Archangels are not flesh and blood and born from human ideas, as long as humans are interested in conquest Aleph will return at some point. This reflects our world in that defeating a tyrant does not magically solve everything, especially when the system that enables tyrants' rise to power still exists.</p>
-    </div>
-</details>
+{% spoiler 'Major Story Spoilers for <cite>Cassette Beasts</cite>' %}
+Towards the end of the main quest, it is revealed that Archangels are [egregores](https://en.wikipedia.org/wiki/Egregore) created from humanity's desires and ideas. Aleph, the main antagonist and final boss of the main story, is an Archangel that is an incarnation of conquest, and his goal is to leave New Wirral and cause chaos across reality.
+
+While {% cite "Pokémon" %} has its own fair share of sinister villains, the threat the main villain of {% cite "Cassette Beasts" %} poses is even greater in scope than any {% cite "Pokémon" %} villain, maybe except for Rainbow Rocket Giovanni from {% cite "Ultra Sun" %} and {% cite "Ultra Moon" %}, who shares the goal of ruling the multiverse.
+
+Moreover, even though the player character and their party are able to defeat the main villain in the end, the game makes it clear that since Archangels are not flesh and blood and born from human ideas, as long as humans are interested in conquest Aleph will return at some point. This reflects our world in that defeating a tyrant does not magically solve everything, especially when the system that enables tyrants' rise to power still exists.
+{% endspoiler %}
 
 ## Features {% cite "Cassette Beasts" %} Has But {% cite "Pokémon" %} Lacks
 
@@ -155,12 +155,9 @@ If the existence of the option to romance your human companion is not enough, in
 
 On the flip side, {% cite "Cassette Beasts" %} has canon LGBTQ+ characters. For characters who are attracted to the samge gender, the most notable ones are the human companions, who can be romanced by the player character regardless of gender, meaning they are canonically bisexual. Furthermore, the game also has a pair of NPCs who are revealed in-game to be a gay married couple.
 
-<details class="spoiler-accordion">
-    <summary class="spoiler-accordion__hint">Minor Quest Spoilers for {% cite "Cassette Beasts" %}</summary>
-    <div class="spoiler-accordion__spoiler">
-        <p>To be specific, this pair of NPCs in question are Leader Ianthe and Ranger Wilma, members of the Ranger Guild. After you defeat all 12 Ranger Captains, and you challenge Ianthe to a battle, Ianthe will reveal that she will fight alongside her wife, who is none other than Ranger Wilma, the woman in charge of the Ranger Guild store. Yes, {% cite "Cassette Beasts" %} has a canon married lesbian couple.</p>
-    </div>
-</details>
+{% spoiler 'Minor Quest Spoilers for <cite>Cassette Beasts</cite>' %}
+To be specific, this pair of NPCs in question are Leader Ianthe and Ranger Wilma, members of the Ranger Guild. After you defeat all 12 Ranger Captains, and you challenge Ianthe to a battle, Ianthe will reveal that she will fight alongside her wife, who is none other than Ranger Wilma, the woman in charge of the Ranger Guild store. Yes, {% cite "Cassette Beasts" %} has a canon married lesbian couple.
+{% endspoiler %}
 
 As for transgender and non-binary representation, {% cite "Pokémon" %} has a few ambiguously canon ones, namely [Beauty Nova](https://lgbtqgamearchive.com/2016/05/25/beauty-nova-in-pokemon-xy/), a minor female NPC Trainer from {% cite "X" %} and {% cite "Y" %} who is heavily implied to be a trans woman, and [Blanche](https://bulbapedia.bulbagarden.net/wiki/Blanche) from {% cite "Pokémon GO" %}, who is not referred to by gendered pronouns in the English version of the game and official social media accounts. Some other human characters are also commonly interpreted or headcanonned as trans by LGBTQ+ fans, but none of them are officially confirmed to be trans or non-binary.
 

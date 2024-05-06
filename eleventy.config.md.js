@@ -79,6 +79,18 @@ module.exports = function (eleventyConfig) {
         .use(require("markdown-it-bracketed-spans"))
         .use(require("markdown-it-deflist"));
 
+    // Paired shorcode: Spoiler accordion
+    eleventyConfig.addPairedShortcode('spoiler', (content, hint) => {
+        const hintMarkUp = markdownLibrary.renderInline(hint);
+        const contentMarkuo = markdownLibrary.render(content);
+        return `
+            <details class="spoiler-accordion">
+                <summary class="spoiler-accordion__hint">${hintMarkUp}</summary>
+                <div class="spoiler-accordion__spoiler">${contentMarkuo}</div>
+            </details>
+            `;
+    });
+
     /* This is the part that tells 11ty to swap to our custom config */
     eleventyConfig.setLibrary("md", markdownLibrary);
 }
