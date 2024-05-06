@@ -12,7 +12,6 @@ Source code of my personal and hobby website, [Leilukin's Hub](https://leilukin.
 - [markdown-it-anchor](https://www.npmjs.com/package/markdown-it-anchor)
 - [markdown-it-attrs](https://www.npmjs.com/package/markdown-it-attrs)
 - [markdown-it-bracketed-spans](https://www.npmjs.com/package/markdown-it-bracketed-spans)
-- [markdown-it-container](https://www.npmjs.com/package/markdown-it-container)
 - [markdown-it-deflist](https://github.com/markdown-it/markdown-it-deflist)
 - [Table of Contents (nesting) Eleventy Plugin](https://www.npmjs.com/package/eleventy-plugin-nesting-toc)
 
