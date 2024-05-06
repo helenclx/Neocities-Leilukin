@@ -82,7 +82,6 @@ module.exports = function (eleventyConfig) {
         .use(markdownItAnchor, markdownItAnchorOptions)
         .use(require("markdown-it-attrs"))
         .use(require("markdown-it-bracketed-spans"))
-        .use(require("markdown-it-container"))
         .use(require("markdown-it-deflist"));
 
     /* This is the part that tells 11ty to swap to our custom config */
