@@ -80,7 +80,8 @@ module.exports = function (eleventyConfig) {
         html: true,
     })
         .use(markdownItAnchor, markdownItAnchorOptions)
-        .use(require("markdown-it-attrs"));
+        .use(require("markdown-it-attrs"))
+        .use(require('markdown-it-bracketed-spans'));
 
     /* This is the part that tells 11ty to swap to our custom config */
     eleventyConfig.setLibrary("md", markdownLibrary);

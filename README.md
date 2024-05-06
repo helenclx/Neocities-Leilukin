@@ -11,6 +11,7 @@ Source code of my personal and hobby website, [Leilukin's Hub](https://leilukin.
 - [eleventy-plugin-embed-everything](https://www.npmjs.com/package/eleventy-plugin-embed-everything)
 - [markdown-it-anchor](https://www.npmjs.com/package/markdown-it-anchor)
 - [markdown-it-attrs](https://www.npmjs.com/package/markdown-it-attrs)
+- [markdown-it-bracketed-spans](https://www.npmjs.com/package/markdown-it-bracketed-spans)
 - [Table of Contents (nesting) Eleventy Plugin](https://www.npmjs.com/package/eleventy-plugin-nesting-toc)
 
 ## Self-hosted Assets
