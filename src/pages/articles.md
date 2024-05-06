@@ -22,8 +22,8 @@ Articles I have written.
 </ul>
 
 ## My Articles for Video Games with Their Own Pages
-* My <cite>Cassette Beasts</cite> shrine [Articles](/shrines/cassettebeasts/articles/) page
-* My <cite>Star Wars: Knights of the Old Republic</cite> shrine [Articles](/shrines/starwarskotor/articles/) page
+* My {% cite "Cassette Beasts" %} shrine [Articles](/shrines/cassettebeasts/articles/) page
+* My {% cite "Star Wars: Knights of the Old Republic" %} shrine [Articles](/shrines/starwarskotor/articles/) page
 {.content-list}
 
 ## Featured Articles

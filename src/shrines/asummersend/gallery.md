@@ -10,7 +10,7 @@ eleventyNavigation:
     order: 3
 ---
 
-A Summer’s End — Hong Kong 1986 was lovingly crafted by its developer Oracle and Bone with gorgeous art, so i want to make a page dedicated to my appreciation for the visual novel’s art.
+{% cite "A Summer's End — Hong Kong 1986" %} was lovingly crafted by its developer Oracle and Bone with gorgeous art, so i want to make a page dedicated to my appreciation for the visual novel’s art.
 
 The game has an in-game gallery that gradually unlocks as you progress the story, though certain scene art only unlocks if you pick certain dialogue options. Check out [Dialog Choices Guide (AKA Lesbianism 101)](https://steamcommunity.com/sharedfiles/filedetails/?id=2072736837) on Steam for how to unlock all scenes, and thus the entire in-game gallery.
 

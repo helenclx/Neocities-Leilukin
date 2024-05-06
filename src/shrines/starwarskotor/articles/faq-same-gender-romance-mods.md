@@ -47,17 +47,17 @@ I have also compiled a [list of all the same-gender romance mods](/shrines/starw
         When I installed your mod, I got the error message: <i>"[ERROR] Unhandled exception: Access violation at address [a bunch of numbers]. Write of address [a bunch of numbers] (0)"</i>.
     </summary>
     <div class="qna-accordion__answer">
-        <p>Try to right-click your <cite>KotOR 2</cite> folder or subfolders, go to Properties and uncheck the "Read-only", then try to install my mod again to see if it works.</p>
+        <p>Try to right-click your {% cite "KotOR 2" %} folder or subfolders, go to Properties and uncheck the "Read-only", then try to install my mod again to see if it works.</p>
     </div>
 </details>
 
 <details class="qna-accordion">
     <summary class="qna-accordion__question">
-        When installing your <cite>KotOR 2</cite> mod, I got "Destination file <i>"Modules\[____].mod" does not exist at the specified location! Skipping section... [Error]"</i> and other similar errors, even though I had installed the installer (.exe) version of The Sith Lords Restored Content Mod.
+        When installing your {% cite "KotOR 2" %} mod, I got "Destination file <i>"Modules\[____].mod" does not exist at the specified location! Skipping section... [Error]"</i> and other similar errors, even though I had installed the installer (.exe) version of The Sith Lords Restored Content Mod.
     </summary>
     <div class="qna-accordion__answer">
-        <p>First, go to the folder where your <cite>KotOR 2 game</cite> is installed, and go to the Modules folder, then <strong>check if the .mod files mentioned in the error messages are in your Modules folder</strong>.</p>
-        <p>For example, for Handmaiden and Female Exile – Disciple and Male Exile Romance mod, you need to check if these .mod files are in your Modules folder﻿:</p>
+        <p>First, go to the folder where your <cite>KotOR 2</cite> game is installed, and go to the Modules folder, then <strong>check if the .mod files mentioned in the error messages are in your Modules folder</strong>.</p>
+        <p>For example, for Handmaiden and Female Exile – Disciple and Male Exile Romance mod, you need to check if these .mod files are in your Modules folder:</p>
         <ul>
             <li>003EBO.mod</li>
             <li>006EBO.mod</li>
@@ -73,8 +73,8 @@ I have also compiled a [list of all the same-gender romance mods](/shrines/starw
             <li>909MAL.mod</li>
             <li>950COR.mod</li>
         </ul>
-        <p>If you cannot find those .mod files in your Modules folder, your issue might be caused by your computer registering two different installation locations for <cite>KotOR 2</cite>. I suggest you check out <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=779622644" target="_blank">this guide on how to make sure your computer recognize the version of <cite>KotOR 2</cite> game where you want to install KotOR 2 mods on</a>. While the guide focuses on Steam version of KotOR 2, you could edit the registry to make your computer properly recognise the installation location of your KotOR 2 game.</p>
-        <p>Here are the default installation locations of <cite>KotOR 2</cite> depending on the game version:</p>
+        <p>If you cannot find those .mod files in your Modules folder, your issue might be caused by your computer registering two different installation locations for {% cite "KotOR 2" %}. I suggest you check out <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=779622644" target="_blank">this guide on how to make sure your computer recognize the version of {% cite "KotOR 2" %} game where you want to install KotOR 2 mods on</a>. While the guide focuses on Steam version of KotOR 2, you could edit the registry to make your computer properly recognise the installation location of your KotOR 2 game.</p>
+        <p>Here are the default installation locations of {% cite "KotOR 2" %} depending on the game version:</p>
         <ul>
             <li><span class="bold-text">Steam (32-bit Windows):</span> C:\Program Files\Steam\steamapps\common\Knights of the Old Republic II</li>
             <li><span class="bold-text">Steam (64-bit Windows):</span> C:\Program Files (x86)\Steam\steamapps\common\Knights of the Old Republic II</li>
@@ -91,7 +91,7 @@ I have also compiled a [list of all the same-gender romance mods](/shrines/starw
         Will you upload your mods to Steam Workshop?
     </summary>
     <div class="qna-accordion__answer">
-        <p><strong>NO.</strong> I do not use Steam Workshop, and frankly, I hate the Steam Workshop for how terrible it is for modding <cite>KotOR 2</cite> and how much mod compatibility issues it causes. I suggest you read <a href="https://deadlystream.com/topic/7321-why-not-to-use-the-steam-workshop/" target="_blank">this post on why using Steam Workshop is NOT recommend for modding <cite>KotOR 2</cite></a>. Therefore, I DO NOT want any of my mods to be added to the Steam Workshop.</p>
+        <p><strong>NO.</strong> I do not use Steam Workshop, and frankly, I hate the Steam Workshop for how terrible it is for modding {% cite "KotOR 2" %} and how much mod compatibility issues it causes. I suggest you read <a href="https://deadlystream.com/topic/7321-why-not-to-use-the-steam-workshop/" target="_blank">this post on why using Steam Workshop is NOT recommend for modding {% cite "KotOR 2" %}</a>. Therefore, I DO NOT want any of my mods to be added to the Steam Workshop.</p>
         <p><strong>STOP ASKING FOR ANY OF MY MODS TO BE ADDED THE STEAM WORKHOP. MY ASNWER WILL ALWAYS BE A FIRM <em>NO</em>, FULL STOP. NO EXCEPTIONS.</strong></p>
     </div>
 </details>
@@ -131,32 +131,32 @@ I have also compiled a [list of all the same-gender romance mods](/shrines/starw
 
 <details class="qna-accordion">
     <summary class="qna-accordion__question">
-        Can I use your mods with non-English localizations of the <cite>KOtOR</cite> games and The Sith Lords Restored Content Mod (TSLRCM)?
+        Can I use your mods with non-English localizations of the {% cite "KotOR" %} games and The Sith Lords Restored Content Mod (TSLRCM)?
     </summary>
     <div class="qna-accordion__answer">
-        <p>No. I play and mod the <cite>KotOR</cite> game in English exclusively. Some of my mods in particular will cause your game to crash if you are playing a non-English localization of the <cite>KotOR</cite> games and TSLRCM, because those mods add custom dialogues that do not exist in the vanilla game in order to prevent characters from referring to the player character as the wrong gender. The only solution to crashes caused by you playing on a non-English localization is to play the <cite>KotOR</cite> games and TSLRCM in English.</p>
-        <p>If you are interested in making a non-English translation or localization of my mods yourself, you may contact me to ask for my permission to do so. However, since I am not familiar with any of the non-English languages officially supported by the <cite>KotOR</cite> games, I am unable to provide support for any issues players may have with using your non-English translation or localization of my mod.</p>
+        <p>No. I play and mod the {% cite "KotOR" %} game in English exclusively. Some of my mods in particular will cause your game to crash if you are playing a non-English localization of the {% cite "KotOR" %} games and TSLRCM, because those mods add custom dialogues that do not exist in the vanilla game in order to prevent characters from referring to the player character as the wrong gender. The only solution to crashes caused by you playing on a non-English localization is to play the {% cite "KotOR" %} games and TSLRCM in English.</p>
+        <p>If you are interested in making a non-English translation or localization of my mods yourself, you may contact me to ask for my permission to do so. However, since I am not familiar with any of the non-English languages officially supported by the {% cite "KotOR" %} games, I am unable to provide support for any issues players may have with using your non-English translation or localization of my mod.</p>
     </div>
 </details>
 
 <details class="qna-accordion">
     <summary class="qna-accordion__question">
-        For your <cite>KotOR 2</cite> mods that require The Sith Lords Restored Content Mod (TSLRCM) to work, will you make an alternate version that does not require TSLRCM?
+        For your {% cite "KotOR 2" %} mods that require The Sith Lords Restored Content Mod (TSLRCM) to work, will you make an alternate version that does not require TSLRCM?
     </summary>
     <div class="qna-accordion__answer">
-        <p>No, I will not make a no-TSLRCM version of my mods that require TSLRCM to function. TSLRCM is widely agreed by players, including KotOR modders, to be an essential mod for the best experience with <cite>KotOR 2</cite>. Making a non-TSLRCM version of content mod like this would require me to spend extra time to replay <cite>KotOR 2</cite> without TSLRCM, and therefore subjecting myself to a lesser experience with the game, which I consider a massive waste of my time. In general, if you see any <cite>KotOR 2</cite> mod that requires TSLRCM to work (not just my mods), do not expect to see a non-TSLRCM version.</p>
+        <p>No, I will not make a no-TSLRCM version of my mods that require TSLRCM to function. TSLRCM is widely agreed by players, including KotOR modders, to be an essential mod for the best experience with {% cite "KotOR 2" %}. Making a non-TSLRCM version of content mod like this would require me to spend extra time to replay {% cite "KotOR 2" %} without TSLRCM, and therefore subjecting myself to a lesser experience with the game, which I consider a massive waste of my time. In general, if you see any {% cite "KotOR 2" %} mod that requires TSLRCM to work (not just my mods), do not expect to see a non-TSLRCM version.</p>
         <p>If you are having issues with using TSLRCM, I suggest you report the bugs you encountered and ask for help for solving your issues on the <a href="https://deadlystream.com/forum/4-tslrcm/" target="_blank">TSLRCM forum on Deadly Stream</a>.</p>
     </div>
 </details>
 
 <details class="qna-accordion">
     <summary class="qna-accordion__question">
-        How to install your mods on the Xbox/Android/iOS/Nintendo Switch/any other non-PC version of <cite>KotOR</cite> or <cite>KotOR 2</cite>?
+        How to install your mods on the Xbox/Android/iOS/Nintendo Switch/any other non-PC version of {% cite "KotOR" %} or {% cite "KotOR 2" %}?
     </summary>
     <div class="qna-accordion__answer">
-        <p>Sorry, <strong>I cannot help directly with modding the KotOR games on any console or mobile devices, because I only own the PC version of the <cite>KotOR</cite> games</strong>. I make no promises that I will port my KotOR mods for those platforms specifically either.</p>
-        <p>Some of my mods require TSLPatcher to install to make the mod work properly, especially if you also want to use other mods in addition to my mods and for <cite>KotOR 2</cite>, The Sith Lords Restored Content Mod. Simply copying and pasting files from my mod to your game's directory does NOT guarantee my mod will work as intended, and you may encounter bugs that could possibly game-breaking.</p>
-        <p>For Android and iOS users, I suggest referring to the <a href="https://kotor.neocities.org/modding/" target="blank">KotOR Community Portal's modding guide</a>, specifically their general instructions in their mobile mod builds. See <a href="https://kotor.neocities.org/modding/mod_builds/k1/full_mobile#General_Instructions" target="_blank">this page for <cite>KotOR 1</cite></a> and <a href="https://kotor.neocities.org/modding/mod_builds/k2/full_mobile#General_Instructions" target="_blank">this page for <cite>KotOR 2</cite></a>.</p>
+        <p>Sorry, <strong>I cannot help directly with modding the KotOR games on any console or mobile devices, because I only own the PC version of the {% cite "KotOR" %} games</strong>. I make no promises that I will port my KotOR mods for those platforms specifically either.</p>
+        <p>Some of my mods require TSLPatcher to install to make the mod work properly, especially if you also want to use other mods in addition to my mods and for {% cite "KotOR 2" %}, The Sith Lords Restored Content Mod. Simply copying and pasting files from my mod to your game's directory does NOT guarantee my mod will work as intended, and you may encounter bugs that could possibly game-breaking.</p>
+        <p>For Android and iOS users, I suggest referring to the <a href="https://kotor.neocities.org/modding/" target="blank">KotOR Community Portal's modding guide</a>, specifically their general instructions in their mobile mod builds. See <a href="https://kotor.neocities.org/modding/mod_builds/k1/full_mobile#General_Instructions" target="_blank">this page for {% cite "KotOR 1" %}</a> and <a href="https://kotor.neocities.org/modding/mod_builds/k2/full_mobile#General_Instructions" target="_blank">this page for {% cite "KotOR 2" %}</a>.</p>
         <p>For Nintendo Switch users, in order to mod the KotOR game on Switch, first you need to hack your Switch or install a modchip in your Switch, then use the <a href="https://deadlystream.com/files/file/2102-kotor-switch-modding-framework/" target="_blank">KotOR Switch Modding Framework</a> and <a href="https://deadlystream.com/files/file/2106-kotor-ii-switch-modding-framework/" target="_blank">KotOR II Switch Modding Framework</a> to install mods. According to JacqylFrost, the creator of these frameworks, both TSLRCM and my Handmaiden same-geneder romance mod work with the KotOR 2 version of the framework. I suggest you ask JacqylFrost directly if you need help with modding the KotOR games on Switch.</p>
         <p>For Steam Deck users, you may refer to JacqylFrost's <a href="https://www.reddit.com/r/kotor/comments/10horqp/steam_deck_modding_including_modbuild/" target="_blank">Steam Deck modding guide</a> on the KotOR subreddit.</p>
     </div>
@@ -169,8 +169,8 @@ I have also compiled a [list of all the same-gender romance mods](/shrines/starw
         Will you add kissing scenes to your romance mods?
     </summary>
     <div class="qna-accordion__answer">
-        <p>No. The goal of my same-gender romance mods is not necessary to add new content, but to allow players to experience the pre-existing romance content in the <cite>KotOR</cite> series without the heterosexual gender restrictions. Kissing scenes are beyond the scope of my mods, and I do not necessary have the skills required (such as modelling, animations, etc.) to create them either, especially given how limited the animations in these old games are.</p>
-        <p>For Carth Onasi and Male PC Romance mod for <cite>KotOR 1</cite>, if you want your male PC to kiss Carth, you may install cjt0202's <a href="http://www.cjt0202.net/carth_romance.php" target="_blank">Carth Romance Fix</a> mod, then install the compatibility patch provided in my mod.</p>
+        <p>No. The goal of my same-gender romance mods is not necessary to add new content, but to allow players to experience the pre-existing romance content in the {% cite "KotOR" %} series without the heterosexual gender restrictions. Kissing scenes are beyond the scope of my mods, and I do not necessary have the skills required (such as modelling, animations, etc.) to create them either, especially given how limited the animations in these old games are.</p>
+        <p>For Carth Onasi and Male PC Romance mod for {% cite "KotOR 1" %}, if you want your male PC to kiss Carth, you may install cjt0202's <a href="http://www.cjt0202.net/carth_romance.php" target="_blank">Carth Romance Fix</a> mod, then install the compatibility patch provided in my mod.</p>
     </div>
 </details>
 
@@ -188,8 +188,8 @@ I have also compiled a [list of all the same-gender romance mods](/shrines/starw
         Why do you make everyone gay?
     </summary>
     <div class="qna-accordion__answer">
-        <p>I am a lesbian who would like to see more representation of LGBTQ+ people and relationships in media, including <cite>Star Wars</cite>, and I am not the only one who feels this way. I made these same-gender romance mods for fellow LGBTQ+ players who want more gay content in <cite>KotOR</cite> as well. I find <cite>KotOR 2</cite>'s complete lack of same-gender romance options especially disaappointing, since the first <cite>KotOR</cite> at least has Juhani as a canon lesbian romance option, so I made these mods to fill the void. In fact, after releasing my same-gender romance mods, many other LGBTQ+ players have expressed gratitute for the existence of these mods, and consider these mods a huge improvement to their <cite>KotOR</cite> experience.</p>
-        <p>Cisgender heterosexual people already get countless representations in media, including <cite>Star Wars</cite>, bcause cishet people are considered the default and the norm. If the idea that everyone in your favorite piece of media could be gay makes you uncomfortable, perhaps you meed to examine why you feel that way. Keep in mind that <strong>LGBTQ+ people already have to see countless pieces of mainstream media filled with cisgender heterosexual characters without a single LGBTQ+ character even existing</strong>.
+        <p>I am a lesbian who would like to see more representation of LGBTQ+ people and relationships in media, including {% cite "Star Wars" %}, and I am not the only one who feels this way. I made these same-gender romance mods for fellow LGBTQ+ players who want more gay content in {% cite "KotOR" %} as well. I find {% cite "KotOR 2" %}'s complete lack of same-gender romance options especially disaappointing, since the first {% cite "KotOR" %} at least has Juhani as a canon lesbian romance option, so I made these mods to fill the void. In fact, after releasing my same-gender romance mods, many other LGBTQ+ players have expressed gratitute for the existence of these mods, and consider these mods a huge improvement to their {% cite "KotOR" %} experience.</p>
+        <p>Cisgender heterosexual people already get countless representations in media, including {% cite "Star Wars" %}, bcause cishet people are considered the default and the norm. If the idea that everyone in your favorite piece of media could be gay makes you uncomfortable, perhaps you meed to examine why you feel that way. Keep in mind that <strong>LGBTQ+ people already have to see countless pieces of mainstream media filled with cisgender heterosexual characters without a single LGBTQ+ character even existing</strong>.
         <p>Frankly, opposing the concept of same-gender romance mods for video games for any reason is homophobic. As a gay person, this is a stance I will not change my mind on. Any comment or message that tries to argue with me otherwise will be ignored or deleted without response.</p>
     </div>
 </details>
@@ -238,7 +238,7 @@ I have also compiled a [list of all the same-gender romance mods](/shrines/starw
             <li><strong>You did not install my mod correctly</strong>. Either you get errors when installing the “Default Installation” option, or you did not install DarthTyren's PartySwap mod first before installing the “PartySwap Compatible” option of my mod.</li>
             <li><strong>You have a <code class="inline-code">holorec.dlg</code> file in the Override folder</strong>, either from a mod you are using or a mod you previously used. If there is a <code class="inline-code">holorec.dlg</code> in your Override folder, delete it.</li>
             <li><strong>You may have some leftover Steam Workshop folders in your Steam directory</strong> that overrides the portion where Handmaiden is supposed to join your party. To solve this, go to the Steam Workshop folder in your Steam directory (/\Steam\SteamApps\Workshop\), and delete all the sub-folders in the Steam Workshop folder.</li>
-            <li>Similar to the above, <strong>you may have some leftover files from a mod you used in your previous playthrough</strong> in your <cite>KotOR 2</cite> game directory that interferes the portion where Handmaiden is supposed to join your party. The best way to solve this is to uninstall your game, delete your <cite>KotOR 2</cite> game folder entirely, and then re-install the game and the mods you want to use.</li>
+            <li>Similar to the above, <strong>you may have some leftover files from a mod you used in your previous playthrough</strong> in your {% cite "KotOR 2" %} game directory that interferes the portion where Handmaiden is supposed to join your party. The best way to solve this is to uninstall your game, delete your {% cite "KotOR 2" %} game folder entirely, and then re-install the game and the mods you want to use.</li>
         </ul>
     </div>
 </details>

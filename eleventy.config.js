@@ -124,6 +124,9 @@ module.exports = function (eleventyConfig) {
         return array.slice(0, itemLimit);
     });
 
+    // Shortcode: <cite> tag
+    eleventyConfig.addShortcode('cite', (str) => `<cite>${str}</cite>`);
+
     return {
         dir: {
             input: "src"

@@ -12,7 +12,7 @@ eleventyNavigation:
     order: 4
 ---
 
-## Where to Find <cite>Cassette Beasts</cite> Trivia
+## Where to Find {% cite "Cassette Beasts" %} Trivia
 
 You can find trivia about the game from:
 
@@ -24,9 +24,9 @@ You can find trivia about the game from:
     * [Reddit AMA on r/NintendoSwitch](https://www.reddit.com/r/NintendoSwitch/comments/14nvsiu/ama_we_are_bytten_studio_the_developers_of/) on 1 July 2023
     * [Reddit AMA on r/JRPG](https://www.reddit.com/r/JRPG/comments/1bniroh/we_are_bytten_studio_developers_of_the/) on 25 March 2024
 
-[Here is a list of interviews](https://wiki.cassettebeasts.com/wiki/List_of_Interviews) that staff who worked on Cassette Beasts participated in and discussed <cite>Cassette Beasts</cite>.
+[Here is a list of interviews](https://wiki.cassettebeasts.com/wiki/List_of_Interviews) that staff who worked on Cassette Beasts participated in and discussed {% cite "Cassette Beasts" %}.
 
-Bytten Studio has written a blog post on [their design philosophy of <cite>Cassette Beasts</cite>](https://store.steampowered.com/news/app/1321440/view/6349565145235433772).
+Bytten Studio has written a blog post on [their design philosophy of {% cite "Cassette Beasts" %}](https://store.steampowered.com/news/app/1321440/view/6349565145235433772).
 
 ## Development History
 
@@ -76,13 +76,13 @@ Late 2019
 : Android and iOS versions [confirmed](https://twitter.com/ByttenStudio/status/1782442549552017482) to be released on 4 June 2024 with a [trailer](https://www.youtube.com/watch?v=hqcDR6-sRVw).
 ## Accolades
 
-<cite>Cassette Beasts</cite> was [nominated for The British Game](https://twitter.com/ByttenStudio/status/1765742782700782040) at the 20th British Academy (BAFTA) Games Awards.
+{% cite "Cassette Beasts" %} was [nominated for The British Game](https://twitter.com/ByttenStudio/status/1765742782700782040) at the 20th British Academy (BAFTA) Games Awards.
 
 ## Influences and Inspirations
 
 The YouTube channel Lockstin & Gnoggin has a video that explains the names and designs of the monsters and Archangels: [EVERY Cassette Beast EXPLAINED! 🖭](https://www.youtube.com/watch?v=GlKQzL6gpxc). The video was [retweeted](https://i.postimg.cc/tRdtkBSF/Screenshot-2023-10-05-at-14-27-39-Lockstin-on-X.png) by Bytten Studio.
 
-The idea of copying monster forms to transform into came from Tom Coxon's dream. Jay Baylis, inspired by <cite>Kamen Rider</cite>, later suggested doing the copying and transforming with physical cassette tapes. [\[Source\]](https://store.steampowered.com/news/app/1321440/view/3669908058337516561)
+The idea of copying monster forms to transform into came from Tom Coxon's dream. Jay Baylis, inspired by {% cite "Kamen Rider" %}, later suggested doing the copying and transforming with physical cassette tapes. [\[Source\]](https://store.steampowered.com/news/app/1321440/view/3669908058337516561)
 
 Another oddball source of inspiration for Tom the story [“The Beatles Never Broke Up”](https://thebeatlesneverbrokeup.com/story/), about a man who in 2009 hit his head and woke up in another world where the Beatles still exist, where people still use analogue technology, and where parallel universe travel is commonplace. [\[Source\]](https://store.steampowered.com/news/app/1321440/view/3669908058337516561)
 

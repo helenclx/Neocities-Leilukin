@@ -5,7 +5,7 @@ desc: Ars Technica's article on the KotOR 2's modding community to celebrate the
 categories: ["my interviews"]
 ---
 
-On 6 December 2019, to celebrate the 15th anniversary of <cite>Star Wars: Knights of the Old Republic 2</cite>, Ars Technica has published [an article about the modding community of KotOR 2](https://arstechnica.com/gaming/2019/12/the-modders-that-spent-15-years-fixing-knights-of-the-old-republic-2/). I was interviewed by the author of this article, Austin Taylor, for my same-gender romance mods for <cite>KotOR 2</cite>.
+On 6 December 2019, to celebrate the 15th anniversary of {% cite "Star Wars: Knights of the Old Republic 2" %}, Ars Technica has published [an article about the modding community of KotOR 2](https://arstechnica.com/gaming/2019/12/the-modders-that-spent-15-years-fixing-knights-of-the-old-republic-2/). I was interviewed by the author of this article, Austin Taylor, for my same-gender romance mods for {% cite "KotOR 2" %}.
 
 > ### Romance? Yes, Please
 >

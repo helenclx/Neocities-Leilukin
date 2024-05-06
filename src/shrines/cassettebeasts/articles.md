@@ -13,7 +13,7 @@ eleventyNavigation:
     order: 1
 ---
 
-## My <cite>Cassette Beasts</cite> Articles
+## My {% cite "Cassette Beasts" %} Articles
 <ul class="content-list">
     {%- for article in collections["cassette beasts articles"] -%}
         <li>
@@ -23,7 +23,7 @@ eleventyNavigation:
     {%- endfor -%}
 </ul>
 
-## <cite>Cassette Beasts</cite> Articles I Recommend
+## {% cite "Cassette Beasts" %} Articles I Recommend
 
 <ul class="content-list">
     <li><a href="https://www.pillowfort.social/posts/3642949" target="_blank">Cassette Beasts Level-Up Dialogue Summaries (Meredith)</a> by ArgentDandelion on Pillowfort — An analysis of Meredith's character.</li>

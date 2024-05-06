@@ -15,7 +15,7 @@ eleventyNavigation:
 ## Discussions
 
 <ul class="content-list">
-    <li><a href="https://discord.gg/byttenstudio" target="blank">Bytten Studio Discord server</a> — The official Discord server of the developer of <cite>Cassette Beasts</cite>, including channels for <cite>Cassette Beasts</cite>.</li>
+    <li><a href="https://discord.gg/byttenstudio" target="blank">Bytten Studio Discord server</a> — The official Discord server of the developer of {% cite "Cassette Beasts" %}, including channels for {% cite "Cassette Beasts" %}.</li>
     <li><a href="https://www.reddit.com/r/cassettebeasts/" target="_blank">Cassette Beasts subreddit</a></li>
 </ul>
 

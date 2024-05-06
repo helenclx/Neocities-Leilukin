@@ -25,7 +25,7 @@ eleventyNavigation:
 
 ## KotOR 1 Guides by Others
 <ul class="content-list">
-    <li><a href="https://strategywiki.org/wiki/Star_Wars:_Knights_of_the_Old_Republic" target="_blank"><cite>Star Wars: Knights of the Old Republic</cite> section</a> on StrategyWiki</li>
+    <li><a href="https://strategywiki.org/wiki/Star_Wars:_Knights_of_the_Old_Republic" target="_blank">{% cite "Star Wars: Knights of the Old Republic" %} section</a> on StrategyWiki</li>
 </ul>
 
 ## KotOR 2: TSL Guides by Others

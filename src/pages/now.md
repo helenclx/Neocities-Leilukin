@@ -26,7 +26,7 @@ Recently, I spent a whole week in overhauling this website with the static site 
 
 ### 23 April 2024
 
-4-year anniversary of the release of [<cite>A Summer's End — Hong Kong 1986</cite>](/shrines/asummersend/).
+4-year anniversary of the release of [{% cite "A Summer's End — Hong Kong 1986" %}](/shrines/asummersend/).
 
 ### 26 April 2024
-[Lesbian Visibility Day and the 1-year anniversary of the release of <cite>Cassette Beasts</cite>](/blog/posts/2024-04-27-lesbian-visibility-day1-year-anniversary-of-cassette-beasts/)
+[Lesbian Visibility Day and the 1-year anniversary of the release of {% cite "Cassette Beasts" %}](/blog/posts/2024-04-27-lesbian-visibility-day1-year-anniversary-of-cassette-beasts/)
