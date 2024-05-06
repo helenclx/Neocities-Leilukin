@@ -82,7 +82,7 @@ module.exports = function (eleventyConfig) {
     // Paired shorcode: Spoiler accordion
     eleventyConfig.addPairedShortcode('spoiler', (content, hint) => {
         const hintMarkUp = markdownLibrary.renderInline(hint);
-        const contentMarkup = markdownLibrary.renderInline(content);
+        const contentMarkup = markdownLibrary.render(content);
         return `
             <details class="spoiler-accordion">
                 <summary class="spoiler-accordion__hint">${hintMarkUp}</summary>
