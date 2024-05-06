@@ -1,3 +1,5 @@
+/* CONFIGURATION FOR MARKDOWN FILES */
+
 // Installed Plugins
 const pluginTOC = require('eleventy-plugin-nesting-toc');
 const embedEverything = require("eleventy-plugin-embed-everything");
@@ -72,4 +74,11 @@ module.exports = function (eleventyConfig) {
 
     /* This is the part that tells 11ty to swap to our custom config */
     eleventyConfig.setLibrary("md", markdownLibrary);
+
+    // Paired shortcode: custom container
+    eleventyConfig.addPairedShortcode('container', (children, el, className) => {
+        const classMarkup = className ? ` class="${className}"` : "";
+        const content = markdownIt().render(children);
+        return `<${el}${classMarkup}>${content}</${el}>`;
+    });
 }

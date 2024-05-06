@@ -56,10 +56,11 @@ https://youtu.be/4itTaqLKQPQ
 
 https://youtu.be/Foj1nmouoIU
 
-<div class="text-box">
-    <p><strong>BUG WARNING:</strong> There is a bug that may block you from progressing Juhani's Personal Conversation path after you complete History #3, and thus preventing you from triggering Juhani's final romance conversation. See the "Personal Conversation Path" section below for more details about this bug. This bug is fixed by the <a href="https://deadlystream.com/files/file/1258-kotor-1-community-patch/" target="_blank">KOTOR 1 Community Patch</a>, which is a major reason I highly recommend this mod.</p>
-    <p>If you are unable to install mods for some reason, I would suggest that once you complete History #3, stop leveling up your character. Once you get your second Star Map (the Dantooine Star Map counts as the first Star Map), complete Personal #3 <em>AND</em> Personal #4 at once. After all that is done, you can now level up to trigger History #4.</p>
-</div>
+{% container "div", "text-box" %}
+**BUG WARNING:** There is a bug that may block you from progressing Juhani's Personal Conversation path after you complete History #3, and thus preventing you from triggering Juhani's final romance conversation. See the "Personal Conversation Path" section below for more details about this bug. This bug is fixed by the [KOTOR 1 Community Patch](https://deadlystream.com/files/file/1258-kotor-1-community-patch/), which is a major reason I highly recommend this mod.
+
+If you are unable to install mods for some reason, I would suggest that once you complete History #3, stop leveling up your character. Once you get your second Star Map (the Dantooine Star Map counts as the first Star Map), complete Personal #3 _AND_ Personal #4 at once. After all that is done, you can now level up to trigger History #4.
+{% endcontainer %}
 
 [History #4:]{.juhani-history} Available when you gain 1 level after History #3. Juhani apologizes for her outburst over Taris' destruction, and recalls her life on Taris. After this conversation, the global value of `G_JUHANIH_STATE` will be set to 4.
 
