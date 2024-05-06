@@ -13,7 +13,6 @@ const slugify = require("slugify");
 // Configure markdown-it plugins
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
-const markdownItAttr = require("markdown-it-attrs");
 
 module.exports = function (eleventyConfig) {
     // Copy files
@@ -81,7 +80,8 @@ module.exports = function (eleventyConfig) {
         html: true,
     })
         .use(markdownItAnchor, markdownItAnchorOptions)
-        .use(markdownItAttr);
+        .use(require("markdown-it-attrs"))
+        .use(require('markdown-it-figure'));
 
     /* This is the part that tells 11ty to swap to our custom config */
     eleventyConfig.setLibrary("md", markdownLibrary);
