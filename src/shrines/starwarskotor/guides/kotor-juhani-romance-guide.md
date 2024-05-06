@@ -44,15 +44,15 @@ In addition, you can check if Juhani's romance is still active by using KSE: loo
 
 ### History Conversation Path
 
-<span class="juhani-history">History #1:</span> This conversation is available once Juhani joins your party, which happens after you collect your first Star Map on Dantooine, and you're tasked by the Jedi Council to search for the Star Forge. You can ask Juhani how did she become a Jedi. After this conversation, the global value of `G_JUHANIH_STATE` will be set to 1.
+[History #1:]{.juhani-history} This conversation is available once Juhani joins your party, which happens after you collect your first Star Map on Dantooine, and you're tasked by the Jedi Council to search for the Star Forge. You can ask Juhani how did she become a Jedi. After this conversation, the global value of `G_JUHANIH_STATE` will be set to 1.
 
 https://youtu.be/cmY7dQJH93Y
 
-<span class="juhani-history">History #2:</span> Available when you gain 1 level after History #1. Juhani talks about meeting the Jedi back in her homeworld. After this conversation, the global value of `G_JUHANIH_STATE` will be set to 2.
+[History #2:]{.juhani-history} Available when you gain 1 level after History #1. Juhani talks about meeting the Jedi back in her homeworld. After this conversation, the global value of `G_JUHANIH_STATE` will be set to 2.
 
 https://youtu.be/4itTaqLKQPQ
 
-<span class="juhani-history">History #3:</span> Available when you gain 1 level after History #2. Juhani reveals that she was from Taris, and she expresses anger over the destruction of Taris. After this conversation, the global value of `G_JUHANIH_STATE` will be set to 3.
+[History #3:]{.juhani-history} Available when you gain 1 level after History #2. Juhani reveals that she was from Taris, and she expresses anger over the destruction of Taris. After this conversation, the global value of `G_JUHANIH_STATE` will be set to 3.
 
 https://youtu.be/Foj1nmouoIU
 
@@ -61,19 +61,19 @@ https://youtu.be/Foj1nmouoIU
     <p>If you are unable to install mods for some reason, I would suggest that once you complete History #3, stop leveling up your character. Once you get your second Star Map (the Dantooine Star Map counts as the first Star Map), complete Personal #3 <em>AND</em> Personal #4 at once. After all that is done, you can now level up to trigger History #4.</p>
 </div>
 
-<span class="juhani-history">History #4:</span> Available when you gain 1 level after History #3. Juhani apologizes for her outburst over Taris' destruction, and recalls her life on Taris. After this conversation, the global value of `G_JUHANIH_STATE` will be set to 4.
+[History #4:]{.juhani-history} Available when you gain 1 level after History #3. Juhani apologizes for her outburst over Taris' destruction, and recalls her life on Taris. After this conversation, the global value of `G_JUHANIH_STATE` will be set to 4.
 
 https://youtu.be/x8Q5bXWXwKU
 
-<span class="juhani-history">History #5:</span> Available when you gain 1 level after History #4. Juhani talks about how her parents and her ended up on Taris. After this conversation, the global value of `G_JUHANIH_STATE` will be set to 5.
+[History #5:]{.juhani-history} Available when you gain 1 level after History #4. Juhani talks about how her parents and her ended up on Taris. After this conversation, the global value of `G_JUHANIH_STATE` will be set to 5.
 
 https://youtu.be/ZFzIbtScsus
 
-<span class="juhani-history">History #6:</span> Available when you gain 1 level after History #5. Juhani talks about her being sold into slavery after her parents died. After this conversation, the global value of `G_JUHANIH_STATE` will be set to 6. This conversation will also make Juhani's personal quest, "Threat From Xor" available.
+[History #6:]{.juhani-history} Available when you gain 1 level after History #5. Juhani talks about her being sold into slavery after her parents died. After this conversation, the global value of `G_JUHANIH_STATE` will be set to 6. This conversation will also make Juhani's personal quest, "Threat From Xor" available.
 
 https://youtu.be/2GJW_mBVADs
 
-<span class="juhani-history">"Threat From Xor" quest:</span> This quest will be available after you have completed History #6, where Juhani talks about her being sold into slavery. Have Juhani in your party and walk around the spaceport on Tatooine, Kashyyyk, Manaan or Korriban. A character named Xor will approach Juhani and reveal that he was the slaver who attempted to buy Juhani on Taris before the latter was freed by the Jedi. Xor leaves, but he threatens to come back later.
+[]"Threat From Xor" quest:]{.juhani-history} This quest will be available after you have completed History #6, where Juhani talks about her being sold into slavery. Have Juhani in your party and walk around the spaceport on Tatooine, Kashyyyk, Manaan or Korriban. A character named Xor will approach Juhani and reveal that he was the slaver who attempted to buy Juhani on Taris before the latter was freed by the Jedi. Xor leaves, but he threatens to come back later.
 
 The second encounter with Xor happens when you come back just outside the Ebon Hawk by using the Rapid Transit system. Xor will ambush you and Juhani. Once you defeat Xor, you can either let him die or encourage Juhani to kill him.
 
@@ -87,19 +87,19 @@ https://youtu.be/Px1JTr7vf9Q
 
 ### Personal Conversation Path
 
-<span class="juhani-personal">Personal #1:</span> Available once Juhani joins your party. She apologizes again for attacking you back on Dantooine. Once you begin this conversation, if — and ONLY IF — your player character is female, the global boolean `T_JUHANIROM` will be set to 1, which means Juhani's romance will become active. After this conversation, the global value of `G_JUHANIP_STATE` will be set to 1.
+[Personal #1:]{.juhani-personal} Available once Juhani joins your party. She apologizes again for attacking you back on Dantooine. Once you begin this conversation, if — and ONLY IF — your player character is female, the global boolean `T_JUHANIROM` will be set to 1, which means Juhani's romance will become active. After this conversation, the global value of `G_JUHANIP_STATE` will be set to 1.
 
 https://youtu.be/jzqfXoOvGrw
 
-<span class="juhani-personal">Personal #2:</span> Available after completing Personal #1. Juhani talks about Quatra and her fall to the dark side. After this conversation, the global value of `G_JUHANIP_STATE` will be set to 2.
+[Personal #2:]{.juhani-personal} Available after completing Personal #1. Juhani talks about Quatra and her fall to the dark side. After this conversation, the global value of `G_JUHANIP_STATE` will be set to 2.
 
 https://youtu.be/minhfrQhCQI
 
-<span class="juhani-personal">Personal #3:</span> Available after completing Personal #2 and getting 2 Star Maps (including the Dantooine one). Juhani expresses gratitude to you for accepting her throughout your journey. After this conversation, the global value of `G_JUHANIP_STATE` will be set to 3.
+[Personal #3:]{.juhani-personal} Available after completing Personal #2 and getting 2 Star Maps (including the Dantooine one). Juhani expresses gratitude to you for accepting her throughout your journey. After this conversation, the global value of `G_JUHANIP_STATE` will be set to 3.
 
 https://youtu.be/y_rM2l83HDo
 
-<span class="juhani-personal">Personal #4:</span> Available once you complete History #3 _and_ Personal #3. Juhani describes the life of being an alien on Taris is like hell. After this conversation, the global value of `G_JUHANIP_STATE` will be set to 4.
+[Personal #4:]{.juhani-personal} Available once you complete History #3 _and_ Personal #3. Juhani describes the life of being an alien on Taris is like hell. After this conversation, the global value of `G_JUHANIP_STATE` will be set to 4.
 
 https://youtu.be/BOq0fehoYkg
 
@@ -108,19 +108,19 @@ https://youtu.be/BOq0fehoYkg
     <p>If you are unable to install mods for some reason, I would suggest that once you complete History #3, stop leveling up your character. Once you get your second Star Map (the Dantooine Star Map counts as the first Star Map), complete Personal #3, then <em>immediately</em> talk to Juhani again to check if Personal #4 is available. After you successfully trigger Personal #4 and complete the conversation, you can now level up your character to proceed to History #4 and beyond.</p>
 </div>
 
-<span class="juhani-personal">Personal #5:</span> Available when you gain 1 level after Personal #4. Juhani asks about your past. After this conversation, the global value of `G_JUHANIP_STATE` will be set to 6.
+[Personal #5:]{.juhani-personal} Available when you gain 1 level after Personal #4. Juhani asks about your past. After this conversation, the global value of `G_JUHANIP_STATE` will be set to 6.
 
 https://youtu.be/6tFlMgigkc0
 
-<span class="juhan-personal">Personal #6:</span> Available after completing Personal #5 and getting 3 Star Maps (including the Dantooine one). Juhani comments on your alignment (light side, dark side or neutral). After this conversation, if you have completed the "Threat From Xor" quest, the global value of `G_JUHANIP_STATE` will be set to 10; if you have not, the global value of `G_JUHANIP_STATE` will be set to 7.
+[Personal #6:]{.juhani-personal} Available after completing Personal #5 and getting 3 Star Maps (including the Dantooine one). Juhani comments on your alignment (light side, dark side or neutral). After this conversation, if you have completed the "Threat From Xor" quest, the global value of `G_JUHANIP_STATE` will be set to 10; if you have not, the global value of `G_JUHANIP_STATE` will be set to 7.
 
 https://youtu.be/O2t9qSNGzgQ
 
-<span class="juhani-personal">Personal #7:</span> Available after completing the Leviathan level. Juhani comments on the reveal that the player character is Revan. This conversation is not required to trigger Juhani's final romance conversation, but I include it here because not only it is classified as part of the Personal conversation path by the game files, but also it is a very important element in Juhani and Revan's relationship.
+[Personal #7:]{.juhani-personal} Available after completing the Leviathan level. Juhani comments on the reveal that the player character is Revan. This conversation is not required to trigger Juhani's final romance conversation, but I include it here because not only it is classified as part of the Personal conversation path by the game files, but also it is a very important element in Juhani and Revan's relationship.
 
 https://youtu.be/vklWpPBF7mA
 
-<span class="juhani-personal">Personal #8:</span> The final conversation, which is also Juhani's love confession, in order to make this final romance conversation available, you must meet ALL the following conditions:
+[Personal #8:]{.juhani-personal} The final conversation, which is also Juhani's love confession, in order to make this final romance conversation available, you must meet ALL the following conditions:
 
 1. You have completed Personal #6 _and_ the "Threat From Xor" quest. If you use KotOR SaveGame Editor to check your progress, **the global value of `G_JUHANIP_STATE` must be 10.**
 2. During the confrontation with Bastila at the Rakatan temple summit on the Unknown World, **you must reject Bastila's suggestion to reclaim the title of Dark Lord of the Sith and rule the galaxy**, which gives you the light side ending of the game. If you choose to agree with Bastila's suggestion, you will be forced to kill Juhani (and Jolee), which ends the romance, and you will get the dark side ending of the game.

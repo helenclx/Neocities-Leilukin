@@ -4,7 +4,7 @@
     <subtitle>Leilukin&#39;s personal website.</subtitle>
     <link href="https://leilukin.neocities.org/feed.xml" rel="self"/>
     <link href="https://leilukin.neocities.org"/>
-    <updated>2024-05-06T13:59:34Z</updated>
+    <updated>2024-05-06T14:07:16Z</updated>
     <id>https://leilukin.neocities.org</id>
     <author>
         <name>Leilukin</name>
@@ -2357,7 +2357,7 @@ After discovering the static site generator &lt;a href=&quot;https://www.11ty.de
 &lt;p&gt;https://youtu.be/ZFzIbtScsus&lt;/p&gt;
 &lt;p&gt;&lt;span class=&quot;juhani-history&quot;&gt;History #6:&lt;/span&gt; Available when you gain 1 level after History #5. Juhani talks about her being sold into slavery after her parents died. After this conversation, the global value of &lt;code&gt;G_JUHANIH_STATE&lt;/code&gt; will be set to 6. This conversation will also make Juhani&#39;s personal quest, &amp;quot;Threat From Xor&amp;quot; available.&lt;/p&gt;
 &lt;p&gt;https://youtu.be/2GJW_mBVADs&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;juhani-history&quot;&gt;&amp;quot;Threat From Xor&amp;quot; quest:&lt;/span&gt; This quest will be available after you have completed History #6, where Juhani talks about her being sold into slavery. Have Juhani in your party and walk around the spaceport on Tatooine, Kashyyyk, Manaan or Korriban. A character named Xor will approach Juhani and reveal that he was the slaver who attempted to buy Juhani on Taris before the latter was freed by the Jedi. Xor leaves, but he threatens to come back later.&lt;/p&gt;
+&lt;p&gt;[]&amp;quot;Threat From Xor&amp;quot; quest:]{.juhani-history} This quest will be available after you have completed History #6, where Juhani talks about her being sold into slavery. Have Juhani in your party and walk around the spaceport on Tatooine, Kashyyyk, Manaan or Korriban. A character named Xor will approach Juhani and reveal that he was the slaver who attempted to buy Juhani on Taris before the latter was freed by the Jedi. Xor leaves, but he threatens to come back later.&lt;/p&gt;
 &lt;p&gt;The second encounter with Xor happens when you come back just outside the Ebon Hawk by using the Rapid Transit system. Xor will ambush you and Juhani. Once you defeat Xor, you can either let him die or encourage Juhani to kill him.&lt;/p&gt;
 &lt;p&gt;After you have dealt with Xor, if you have completed Personal #6 (detailed below), the global value of &lt;code&gt;G_JUHANIP_STATE&lt;/code&gt; will be set to 10.&lt;/p&gt;
 &lt;p&gt;https://youtu.be/Px1JTr7vf9Q&lt;/p&gt;
@@ -2381,7 +2381,7 @@ After discovering the static site generator &lt;a href=&quot;https://www.11ty.de
 &lt;/div&gt;
 &lt;p&gt;&lt;span class=&quot;juhani-personal&quot;&gt;Personal #5:&lt;/span&gt; Available when you gain 1 level after Personal #4. Juhani asks about your past. After this conversation, the global value of &lt;code&gt;G_JUHANIP_STATE&lt;/code&gt; will be set to 6.&lt;/p&gt;
 &lt;p&gt;https://youtu.be/6tFlMgigkc0&lt;/p&gt;
-&lt;p&gt;&lt;span class=&quot;juhan-personal&quot;&gt;Personal #6:&lt;/span&gt; Available after completing Personal #5 and getting 3 Star Maps (including the Dantooine one). Juhani comments on your alignment (light side, dark side or neutral). After this conversation, if you have completed the &amp;quot;Threat From Xor&amp;quot; quest, the global value of &lt;code&gt;G_JUHANIP_STATE&lt;/code&gt; will be set to 10; if you have not, the global value of &lt;code&gt;G_JUHANIP_STATE&lt;/code&gt; will be set to 7.&lt;/p&gt;
+&lt;p&gt;&lt;span class=&quot;juhani-personal&quot;&gt;Personal #6:&lt;/span&gt; Available after completing Personal #5 and getting 3 Star Maps (including the Dantooine one). Juhani comments on your alignment (light side, dark side or neutral). After this conversation, if you have completed the &amp;quot;Threat From Xor&amp;quot; quest, the global value of &lt;code&gt;G_JUHANIP_STATE&lt;/code&gt; will be set to 10; if you have not, the global value of &lt;code&gt;G_JUHANIP_STATE&lt;/code&gt; will be set to 7.&lt;/p&gt;
 &lt;p&gt;https://youtu.be/O2t9qSNGzgQ&lt;/p&gt;
 &lt;p&gt;&lt;span class=&quot;juhani-personal&quot;&gt;Personal #7:&lt;/span&gt; Available after completing the Leviathan level. Juhani comments on the reveal that the player character is Revan. This conversation is not required to trigger Juhani&#39;s final romance conversation, but I include it here because not only it is classified as part of the Personal conversation path by the game files, but also it is a very important element in Juhani and Revan&#39;s relationship.&lt;/p&gt;
 &lt;p&gt;https://youtu.be/vklWpPBF7mA&lt;/p&gt;
