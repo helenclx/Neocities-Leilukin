@@ -14,7 +14,7 @@ eleventyNavigation:
 
 The game has an in-game gallery that gradually unlocks as you progress the story, though certain scene art only unlocks if you pick certain dialogue options. Check out [Dialog Choices Guide (AKA Lesbianism 101)](https://steamcommunity.com/sharedfiles/filedetails/?id=2072736837) on Steam for how to unlock all scenes, and thus the entire in-game gallery.
 
-I also highly recommend checking out the [official site](https://www.asummersend.com/) of A Summer’s End and the social media accounts of Oracle and Bone's for more beauriful art about the visual novel!
+I also highly recommend checking out the [official site](https://www.asummersend.com/) of {% cite "A Summer’s End" %} and the social media accounts of Oracle and Bone's for more beauriful art about the visual novel!
 
 ## In-Game Screenshots
 
