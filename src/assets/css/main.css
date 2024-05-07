@@ -120,7 +120,7 @@ textarea:not([rows]) {
 /* ------------------- */
 
 /* General Styles */
-html:focus-within {
+html {
     scroll-behavior: smooth;
 }
 
