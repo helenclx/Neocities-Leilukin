@@ -94,7 +94,9 @@ module.exports = function (eleventyConfig) {
         const questionMarkup = markdownLibrary.renderInline(question);
         const answerMarkup = markdownLibrary.render(answer);
         return `<details class="qna-accordion">
-            <summary class="qna-accordion__question">${questionMarkup}</summary>
+            <summary class="qna-accordion__question">
+                ${questionMarkup}
+            </summary>
             <div class="qna-accordion__answer">${answerMarkup}</div>
         </details>`;
     });
