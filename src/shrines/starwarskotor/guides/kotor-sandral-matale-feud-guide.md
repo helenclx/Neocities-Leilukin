@@ -13,7 +13,7 @@ toc: true
 
 This guide is requested by Deadly Stream user Sith Holocron.
 
-In Star Wars: Knights of the Old Republic, there is a side quest on Dantooine named "Sandral-Matale Feud", which you receive after you have dealt with Juhani at the grove and met the Jedi Council.
+In {% cite "Star Wars: Knights of the Old Republic" %}, there is a side quest on Dantooine named "Sandral-Matale Feud", which you receive after you have dealt with Juhani at the grove and met the Jedi Council.
 
 This quest line revolves around a family feud between the Sandrals and the Matales, mainly between their patriarchs, Nurik Sandral and Ahlan Matale. As you progress the quest line, you will discover that Nurik's daughter, Rahasia and Ahlan's son, Shen are romantically involved. The quest line will lead to a heated confrontation between Nurik and Ahlan, and there are multiple ways to resolve the quest line.
 

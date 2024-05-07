@@ -11,7 +11,7 @@ toc: true
 
 ## Introduction
 
-In Star Wars: Knights of the Old Republic, towards the end of the game you will be provided the opportunity to determine which ending you will get, and there will be consequences of your choice there.
+In {% cite "Star Wars: Knights of the Old Republic" %}, towards the end of the game you will be provided the opportunity to determine which ending you will get, and there will be consequences of your choice there.
 
 Specifically, on the Rakatan temple summit at the Unknown World, you will meet Basila, who at that point has fallen to the dark side. After some dialogue and you fought Bastila, Bastila will suggest you to reclaim the title of the Dark Lord of the Sith and rule the galaxy. If you choose to agree with Bastila's suggestion, you will get the dark side ending, with a lot of dark side points. However, if you choose to reject Bastila's suggestion, you will get the light side ending, with a lot of light side points.
 
