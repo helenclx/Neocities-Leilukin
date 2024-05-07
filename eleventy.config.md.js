@@ -63,13 +63,6 @@ module.exports = function (eleventyConfig) {
         },
     };
 
-    // Paired shortcode: custom container
-    eleventyConfig.addPairedShortcode('container', (children, el, className) => {
-        const classMarkup = className ? ` class="${className}"` : "";
-        const content = markdownLibrary.render(children);
-        return `<${el}${classMarkup}>${content}</${el}>`;
-    });
-
     /* Markdown Overrides */
     let markdownLibrary = markdownIt({
         html: true,
@@ -78,6 +71,13 @@ module.exports = function (eleventyConfig) {
         .use(require("markdown-it-attrs"))
         .use(require("markdown-it-bracketed-spans"))
         .use(require("markdown-it-deflist"));
+
+    // Paired shortcode: custom container
+    eleventyConfig.addPairedShortcode('container', (children, el, className) => {
+        const classMarkup = className ? ` class="${className}"` : "";
+        const content = markdownLibrary.render(children);
+        return `<${el}${classMarkup}>${content}</${el}>`;
+    });
 
     // Paired shorcode: Spoiler accordion
     eleventyConfig.addPairedShortcode('spoiler', (content, hint) => {
