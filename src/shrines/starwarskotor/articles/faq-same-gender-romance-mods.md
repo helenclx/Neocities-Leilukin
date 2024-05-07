@@ -60,7 +60,7 @@ For example, for Handmaiden and Female Exile – Disciple and Male Exile Romance
 * 909MAL.mod
 * 950COR.mod
 
-If you cannot find those .mod files in your Modules folder, your issue might be caused by your computer registering two different installation locations for {% cite "KotOR 2" %}. I suggest you check out [this guide on how to make sure your computer recognize the version of {% cite "KotOR 2" %} game where you want to install KotOR 2 mods on](https://steamcommunity.com/sharedfiles/filedetails/?id=779622644). While the guide focuses on Steam version of {% cite "KotOR 2" %}, you could edit the registry to make your computer properly recognise the installation location of your {% cite "KotOR 2" %} game.
+If you cannot find those .mod files in your Modules folder, your issue might be caused by your computer registering two different installation locations for {% cite "KotOR 2" %}. I suggest you check out [this guide on how to make sure your computer recognize the version of {% cite "KotOR 2" %} game where you want to install KotOR 2 mods on](https://steamcommunity.com/sharedfiles/filedetails/?id=779622644){target="_blank"}. While the guide focuses on Steam version of {% cite "KotOR 2" %}, you could edit the registry to make your computer properly recognise the installation location of your {% cite "KotOR 2" %} game.
 
 Here are the default installation locations of {% cite "KotOR 2" %} depending on the game version:
 * Steam (32-bit Windows): C:\Program Files\Steam\steamapps\common\Knights of the Old Republic II

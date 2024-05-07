@@ -4,7 +4,7 @@
     <subtitle>Leilukin&#39;s personal website.</subtitle>
     <link href="https://leilukin.neocities.org/feed.xml" rel="self"/>
     <link href="https://leilukin.neocities.org"/>
-    <updated>2024-05-07T03:27:47Z</updated>
+    <updated>2024-05-07T03:32:28Z</updated>
     <id>https://leilukin.neocities.org</id>
     <author>
         <name>Leilukin</name>
@@ -1908,7 +1908,7 @@ After discovering the static site generator &lt;a href=&quot;https://www.11ty.de
 &lt;li&gt;909MAL.mod&lt;/li&gt;
 &lt;li&gt;950COR.mod&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;If you cannot find those .mod files in your Modules folder, your issue might be caused by your computer registering two different installation locations for &lt;cite&gt;KotOR 2&lt;/cite&gt;. I suggest you check out &lt;a href=&quot;https://steamcommunity.com/sharedfiles/filedetails/?id=779622644&quot;&gt;this guide on how to make sure your computer recognize the version of &lt;cite&gt;KotOR 2&lt;/cite&gt; game where you want to install KotOR 2 mods on&lt;/a&gt;. While the guide focuses on Steam version of &lt;cite&gt;KotOR 2&lt;/cite&gt;, you could edit the registry to make your computer properly recognise the installation location of your &lt;cite&gt;KotOR 2&lt;/cite&gt; game.&lt;/p&gt;
+&lt;p&gt;If you cannot find those .mod files in your Modules folder, your issue might be caused by your computer registering two different installation locations for &lt;cite&gt;KotOR 2&lt;/cite&gt;. I suggest you check out &lt;a href=&quot;https://steamcommunity.com/sharedfiles/filedetails/?id=779622644&quot; target=&quot;_blank&quot;&gt;this guide on how to make sure your computer recognize the version of &lt;cite&gt;KotOR 2&lt;/cite&gt; game where you want to install KotOR 2 mods on&lt;/a&gt;. While the guide focuses on Steam version of &lt;cite&gt;KotOR 2&lt;/cite&gt;, you could edit the registry to make your computer properly recognise the installation location of your &lt;cite&gt;KotOR 2&lt;/cite&gt; game.&lt;/p&gt;
 &lt;p&gt;Here are the default installation locations of &lt;cite&gt;KotOR 2&lt;/cite&gt; depending on the game version:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Steam (32-bit Windows): C:&#92;Program Files&#92;Steam&#92;steamapps&#92;common&#92;Knights of the Old Republic II&lt;/li&gt;
