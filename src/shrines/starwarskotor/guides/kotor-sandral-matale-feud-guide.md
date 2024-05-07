@@ -23,13 +23,13 @@ This guide will provide details on the different ways to resolve the Sandral-Mat
 
 After you rescue Shen and meet Rahasia outside the Sandral estate, you will be confronted by Ahlan Matale and Nurik Sandral, Shen and Rahasia's fathers respectively.
 
-After Ahlan yells at Nurik, _"I don't want to hear any of your excuses! Now I will get revenge for your transgressions!"_ Your following dialogue choices will determine the outcome of the "Sandral-Matale Feud" quest. I recommend **saving the game before rescuing Shen and meeting Rahasia outside** the Sandral estate, so you can reload the save if you do not get the ending you want.
+After Ahlan yells at Nurik, *"I don't want to hear any of your excuses! Now I will get revenge for your transgressions!"* Your following dialogue choices will determine the outcome of the "Sandral-Matale Feud" quest. I recommend **saving the game before rescuing Shen and meeting Rahasia outside** the Sandral estate, so you can reload the save if you do not get the ending you want.
 
 The "Sandral-Matale Feud" quest could be resolved in four different ways:
 
 ### 1\. Convincing Ahlan and Nurik to sort out their differences and allow their children to stay together as a couple.
 
-If you want to do a Light Side playthrough, this would be the best outcome. However, you need to pass a Hard difficulty Persuasion check to get this ending. If you want to learn more about the Persuade mechanic in KotOR, you can check out [this page](https://strategywiki.org/wiki/Star_Wars:_Knights_of_the_Old_Republic/Skills#Persuade). Since you will likely be at level 10 when you do this quest, you need at least 10 points in your Persuade skill to have a decent chance to pass the check.
+If you want to do a Light Side playthrough, this would be the best outcome. However, you need to pass a Hard difficulty Persuasion check to get this ending. If you want to learn more about the Persuade mechanic in KotOR, you can check out [this page](https://strategywiki.org/wiki/Star_Wars:_Knights_of_the_Old_Republic/Skills#Persuade){target="_blank"}. Since you will likely be at level 10 when you do this quest, you need at least 10 points in your Persuade skill to have a decent chance to pass the check.
 
 As for the dialogue choices, after Ahlan rants about him getting revenge, you need to choose **"You two just need to calm down."**
 
@@ -43,8 +43,8 @@ Once you have succeeded in these \[Persuade\] options, congratulations! You mana
 
 To get this second Light Side ending, after Ahlan rants about him getting revenge:
 
-*   Choose **"You two just need to calm down."** When Nurik calls Ahlan "Matale dog", choose **"Why don't you try listening to your children?"**
-*   Alternately, choose **"Don't make me intervene in this."**. When Ahlan says, "This will be resolved very shortly", your dialogue choice here does not matter. Later, when Rahasia tells her father she wants to with Shen forever, choose **"You two should stay together no matter what."**
+* Choose **"You two just need to calm down."** When Nurik calls Ahlan "Matale dog", choose **"Why don't you try listening to your children?"**
+* Alternately, choose **"Don't make me intervene in this."**. When Ahlan says, "This will be resolved very shortly", your dialogue choice here does not matter. Later, when Rahasia tells her father she wants to with Shen forever, choose **"You two should stay together no matter what."**
 
 Shen and Rahasia will run off together, and you will find them in the Jedi Enclave, while Ahlan and Nurik will remain angry at each other. You will be rewarded with Light Side points.
 
@@ -54,8 +54,8 @@ You would also get this outcome if you fail the Persuade check when you choose t
 
 To get this ending, after Ahlan rants about him getting revenge:
 
-*   Choose **"Don't make me intervene in this."** When Ahlan says, "This will be resolved very shortly." your dialogue choice here does not matter. Later, when Rahasia tells her father she wants to with Shen forever, choose either **"I don't know if you can trust Rahasia, Shen."** or **"You may want to reconsider this."** When Nurik yells "Get away from my daughter Matale!", choose **"Turn away, Shen."** Your dialogue choices following this do not matter.
-*   Alternately, if you want to get Dark Side points from this outcome, choose **"Why don't you just shoot each other and get it over with."** When Ahlan says he wants Nurik "dead and rotting in the ground", choose **"If you fight, you'll all be killed."** and then choose **"\[Lie\] Rahasia doesn't love you anyway."** You need to pass a Medium difficulty Persuasion check for this \[Lie\] option to succeed.
+* Choose **"Don't make me intervene in this."** When Ahlan says, "This will be resolved very shortly." your dialogue choice here does not matter. Later, when Rahasia tells her father she wants to with Shen forever, choose either **"I don't know if you can trust Rahasia, Shen."** or **"You may want to reconsider this."** When Nurik yells "Get away from my daughter Matale!", choose **"Turn away, Shen."** Your dialogue choices following this do not matter.
+* Alternately, if you want to get Dark Side points from this outcome, choose **"Why don't you just shoot each other and get it over with."** When Ahlan says he wants Nurik "dead and rotting in the ground", choose **"If you fight, you'll all be killed."** and then choose **"\[Lie\] Rahasia doesn't love you anyway."** You need to pass a Medium difficulty Persuasion check for this \[Lie\] option to succeed.
 
 Shen breaks up with Rahasia, and the two return to their own fathers.
 
