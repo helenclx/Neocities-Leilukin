@@ -7,7 +7,7 @@ categories: ["star wars kotor"]
 toc: true
 ---
 
-[This guide is also available on [Google Docs](https://docs.google.com/document/d/1HrrzojpHv9oekvDPjTmBAwdXTf6QhY8tC8RuioKFXmE/edit)]
+[This guide is also available on [Google Docs](https://docs.google.com/document/d/1HrrzojpHv9oekvDPjTmBAwdXTf6QhY8tC8RuioKFXmE/edit){target="_blank"}]{.center-text}
 
 ## Introduction
 

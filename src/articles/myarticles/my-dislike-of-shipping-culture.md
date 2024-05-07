@@ -5,7 +5,8 @@ desc: About my lack of interest in shipping and dislike of shipping culture in f
 categories: ["fandom culture"]
 ---
 
-<p class="center-text"><i>(Note: The original version of this writing was posted on my Tumblr blog on 3 May 2021)</i></p>
+*(Note: The original version of this writing was posted on my Tumblr blog on 3 May 2021)*
+{.center-text}
 
 I feel that the older I get, the less interested I am in shipping in general, and the less I can understand grown adults in late 20s or older who build their personality around shipping and cannot engage with any fiction without shipping something (before I remade my Tumblr account in 2015, I used to follow a 30-something-year-old fandom blogger who was literally like this).
 

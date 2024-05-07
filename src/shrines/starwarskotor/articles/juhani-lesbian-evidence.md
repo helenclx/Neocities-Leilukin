@@ -6,7 +6,7 @@ tags: kotor 1 articles
 categories: ["star wars kotor"]
 ---
 
-<i>(Note: This article was originally published on Tumblr)</i>
+(Note: This article was originally published on Tumblr)
 
 The fact that Juhani from Star Wars: Knights of the Old Republic is a canon lesbian character is a fairly common knowledge among LGBTQ+ fans of Star Wars. However, occasionally I still see people who do not know that the first KotOR game has the very first confirmed gay character in any Star Wars media, including the old Star Wars Expanded Universe; there are some other people who actually believe that Juhani is bisexual.
 
