@@ -1,10 +1,7 @@
 {% macro myASEPlaylist(intro) %}
-<figure>
-    <img src="/assets/projects/playlists/My-Dear-Summer-Lover-cover.png" alt="Cover image of A Summer’s End fanmix 'My Dear Summer Lover: A Sam x Michelle Fanmix'">
-    <figcaption>
-        [Image description: Sam and Michelle from A Summer’s End almost kisses, with a play symbol and text on the top left corner, and the text "My Dear Summer Lover: A Sam x Michelle Fanmix" in a digital style font in front.]
-    </figcaption>
-</figure>
+{% figure "/assets/projects/playlists/My-Dear-Summer-Lover-cover.png", "Cover image of A Summer’s End fanmix 'My Dear Summer Lover: A Sam x Michelle Fanmix'" %}
+[Image description: Sam and Michelle from A Summer’s End almost kisses, with a play symbol and text on the top left corner, and the text "My Dear Summer Lover: A Sam x Michelle Fanmix" in a digital style font in front.]
+{% endfigure %}
 
 {{ intro }} [{% cite "A Summer’s End — Hong Kong 1986" %}](https://www.asummersend.com/home){target="_blank"}, dedicated to Sam and Michelle’s love story.
 

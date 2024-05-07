@@ -79,6 +79,15 @@ module.exports = function (eleventyConfig) {
         return `<${el}${classMarkup}>${content}</${el}>`;
     });
 
+    // Paired shortcode: figure element with figcaption
+    eleventyConfig.addPairedShortcode('figure', (caption, img, alt=caption) => {
+        const figcaption = markdownLibrary.renderInline(caption);
+        return `<figure>
+            <img src="${img}" alt="${alt}">
+            <figcaption>${figcaption}</figcaption>
+        </figure>`;
+    });
+
     // Paired shorcode: Spoiler accordion
     eleventyConfig.addPairedShortcode('spoiler', (content, hint) => {
         const hintMarkup = markdownLibrary.renderInline(hint);
