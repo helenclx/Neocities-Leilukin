@@ -1,4 +1,4 @@
-/* CONFIGURATION FOR MARKDOWN FILES */
+/* CONFIGURATION FOR MARKDOWN TEMPLATES */
 
 // Installed Plugins
 const pluginTOC = require('eleventy-plugin-nesting-toc');
