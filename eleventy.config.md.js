@@ -81,13 +81,22 @@ module.exports = function (eleventyConfig) {
 
     // Paired shorcode: Spoiler accordion
     eleventyConfig.addPairedShortcode('spoiler', (content, hint) => {
-        content = content.trim();
-        const hintMarkUp = markdownLibrary.renderInline(hint);
+        const hintMarkup = markdownLibrary.renderInline(hint);
         const contentMarkup = markdownLibrary.render(content);
         return `<details class="spoiler-accordion">
-                <summary class="spoiler-accordion__hint">${hintMarkUp}</summary>
-                <div class="spoiler-accordion__spoiler">${contentMarkup}</div>
-            </details>`;
+            <summary class="spoiler-accordion__hint">${hintMarkup}</summary>
+            <div class="spoiler-accordion__spoiler">${contentMarkup}</div>
+        </details>`;
+    });
+
+    // Paired shorcode: Q&A accordion
+    eleventyConfig.addPairedShortcode('qna', (answer, question) => {
+        const questionMarkup = markdownLibrary.renderInline(question);
+        const answerMarkup = markdownLibrary.render(answer);
+        return `<details class="qna-accordion">
+            <summary class="qna-accordion__question">${questionMarkup}</summary>
+            <div class="qna-accordion__answer">${answerMarkup}</div>
+        </details>`;
     });
 
     /* This is the part that tells 11ty to swap to our custom config */
