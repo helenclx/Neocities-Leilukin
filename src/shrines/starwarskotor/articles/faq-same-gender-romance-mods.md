@@ -13,7 +13,7 @@ templateEngineOverride: njk,md
 
 This article compiles the frequently asked questions I have received for my same-gender romance mods for Star Wars: Knights of the Old Republic (KotOR) series.
 
-<p class="center-text" style="font-size: 1.8rem; font-weight: 700; margin-top: 1em;">PLEASE READ THIS ARTICLE BEFORE ASKING QUESTIONS ABOUT MY ROMANCE MODS!</p>
+PLEASE READ THIS ARTICLE BEFORE ASKING QUESTIONS ABOUT MY ROMANCE MODS!{.center-text style="font-size: 1.8rem; font-weight: 700; margin-top: 1em;"}
 
 My same-gender romance mods for KotOR 1 include:
 * [Carth Onasi and Male PC Romance](https://deadlystream.com/files/file/2140-carth-onasi-and-male-pc-romance/)
