@@ -723,8 +723,9 @@
 <style>
     .footer {
         margin-top: auto;
+        width: 100%;
         background: var(--clr-main-footer-bg);
-        padding: 0.8rem;
+        padding: 1rem 1rem 3rem 1rem;
         text-align: center;
         display: grid;
     }
@@ -747,9 +748,17 @@
         padding-left: 0.6em;
     }
 
-    @media only screen and (min-width: 600px) {
+    /* Screen sizes larger than mobile */
+    @media only screen and (min-width: 30rem) {
         .footer {
-            width: 100%;
+            padding: 1rem 1rem 2rem 1rem;
+        }
+    }
+
+    /* Tablet screen size */
+    @media only screen and (min-width: 43.75rem) {
+        .footer {
+            padding: 1rem;
         }
     }
 </style>
