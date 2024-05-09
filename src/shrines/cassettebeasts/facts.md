@@ -100,6 +100,8 @@ The ideas for the other Archangels came after Morgante and Aleph. Their themes w
 
 Bytten Studio made a point to not put in a huge amount of Japanese mythological monsters in comparison to mythology from other nations, especially since well-known mons franchises such as {% cite "Shin Megami Tensei" %}, {% cite "Pokémon" %} and {% cite "Digimon" %} are Japanese franchises; they do not want to seem derivative. [\[Source\]](https://discord.com/channels/594939411775619102/709417227652431942/1206255854211305523)
 
+Barkley was not inspired by anything in particular; he was added in the game to surprise players as a non-human partner. [[Source]](https://www.reddit.com/r/JRPG/comments/1bniroh/comment/kwiqbm5/)
+
 ## Developer Notes
 
 ### Partner Character Dialogue Styles
