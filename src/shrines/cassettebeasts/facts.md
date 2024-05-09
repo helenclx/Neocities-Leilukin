@@ -1,20 +1,20 @@
 ---
 layout: cassettebeasts/content
-title: Trivia
-pageTitle: Cassette Beasts Trivia
-desc: A collection of trivia about Cassette Beasts.
+title: Facts
+pageTitle: Cassette Beasts Facts
+desc: A collection of facts and trivia about Cassette Beasts.
 tags: cassette beasts shrine page
 toc: true
 eleventyNavigation:
-    key: Cassette Beasts Trivia
+    key: Cassette Beasts Facts
     parent: Cassette Beasts Shrine
-    title: Trivia
+    title: Facts
     order: 4
 ---
 
-## Where to Find {% cite "Cassette Beasts" %} Trivia
+## Where to Find {% cite "Cassette Beasts" %} Facts and Trivia
 
-You can find trivia about the game from:
+You can find facts and trivia about the game from:
 
 * [Cassette Beasts: The Art Book](https://store.steampowered.com/app/2259040/Cassette_Beasts_The_Art_Book/)
 * Trivia sections on the [official Cassette Beasts wiki](https://wiki.cassettebeasts.com/wiki/Main_Page) articles.
