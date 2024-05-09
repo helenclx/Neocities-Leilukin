@@ -228,25 +228,23 @@ figcaption {
     margin-top: 0.2em;
 }
 
-code {
+:not(pre) > code,
+pre {
+    border: 0.07em solid var(--clr-code-border);
+    background: var(--clr-code-bg);
+}
+
+:not(pre) > code {
     font-family: monospace;
-    border: 0.07rem solid var(--clr-code-border);
-    padding: 0.125rem 0.3rem;
-    margin: 0 0.125rem;
+    padding: 0.125em 0.3em;
+    margin: 0 0.125em;
     background: var(--clr-code-bg);
 }
 
 pre {
-    white-space: pre-wrap;
+    max-width: calc(100vw - 2em);
     overflow-x: auto;
-}
-
-pre code {
-    background: var(--clr-code-bg);
-    display: block;
-    padding: 0.5em 0.8rem;
-    overflow-x: auto;
-    word-break: keep-all;
+    padding: 0.8em 1.4em;
 }
 
 summary {
