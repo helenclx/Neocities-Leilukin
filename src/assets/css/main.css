@@ -191,14 +191,17 @@ a:focus img {
     outline: 0.2em solid var(--clr-body-txt);
 }
 
-blockquote {
+:not(.c-blockquote) > blockquote,
+.c-blockquote {
 	padding: 1em 1.4em 1.4em;
 	border-inline-start: 0.1em solid var(--clr-main-heading);
     background-color: var(--clr-quote-bg);
     margin-bottom: 1em;
 }
 
-blockquote > * + :not([class]) {
+blockquote > * + :not([class]),
+.c-blockquote,
+.c-blockquote__attribution {
     margin-top: var(--sz-paragraph-margin);
 }
 
@@ -390,6 +393,16 @@ main {
     margin-top: 1.7em;
 }
 
+/* BLOCKQUOTES With CITATIONS */
+.c-blockquote__attribution {
+    text-align: left;
+}
+
+.c-blockquote__attribution::before {
+    content: "—";
+    margin-right: 0.3em;
+}
+
 /* SPECIAL ELEMENTS */
 .text-box {
     background: var(--clr-quote-bg);
@@ -416,7 +429,6 @@ main {
 .mod-entry__downloads {
     gap: 0.5em;
 }
-
 
 /* Tablet screen size */
 @media only screen and (min-width: 37.5rem) {
