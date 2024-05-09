@@ -80,8 +80,8 @@ module.exports = function (eleventyConfig) {
         return `<${el}${classMarkup}>${content}</${el}>`;
     });
 
-    // Paired shortcode: figure element with figcaption
-    eleventyConfig.addPairedShortcode('figure', (caption, img, alt=caption) => {
+    // Paired shortcode: image figure and figcaption
+    eleventyConfig.addPairedShortcode('imgFigure', (caption, img, alt=caption) => {
         const figcaption = markdownLibrary.renderInline(caption);
         return `<figure>
             <img src="${img}" alt="${alt}">

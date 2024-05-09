@@ -7,9 +7,9 @@ categories: ["anti harry potter", "anti jk rowling"]
 toc: true
 ---
 
-{% figure "/assets/banners/harry-potter-free-site.png", "An anime girl crossing arms with a sidelong look and a Harry Potter-free message" %}
+{% imgFigure "/assets/banners/harry-potter-free-site.png", "An anime girl crossing arms with a sidelong look and a Harry Potter-free message" %}
 This site is Harry Potter free. Lookin [<i>sic</i>] for it? Leave.
-{% endfigure %}
+{% endimgFigure %}
 
 (Credit to Tumblr user [comradesaucegay](https://comradesaucegay.tumblr.com/post/621403039459426304){target="_blank"} for this Harry Potter-free website banner){.center-text}
 
