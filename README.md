@@ -10,6 +10,7 @@ Source code of my personal and hobby website, [Leilukin's Hub](https://leilukin.
 - [eleventy-plugin-metagen](https://www.npmjs.com/package/eleventy-plugin-metagen)
 - [eleventy-plugin-embed-everything](https://www.npmjs.com/package/eleventy-plugin-embed-everything)
 - [markdown-it-anchor](https://www.npmjs.com/package/markdown-it-anchor)
+- [markdown-it-attribution](https://www.npmjs.com/package/markdown-it-attribution)
 - [markdown-it-attrs](https://www.npmjs.com/package/markdown-it-attrs)
 - [markdown-it-bracketed-spans](https://www.npmjs.com/package/markdown-it-bracketed-spans)
 - [markdown-it-deflist](https://github.com/markdown-it/markdown-it-deflist)
