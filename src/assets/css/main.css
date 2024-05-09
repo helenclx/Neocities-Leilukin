@@ -242,9 +242,13 @@ pre {
 }
 
 pre {
-    max-width: calc(100vw - 2em);
-    overflow-x: auto;
-    padding: 0.8em 1.4em;
+    max-width: 90vw;
+    overflow: auto;
+    padding: 1rem;
+}
+
+pre > code {
+    white-space: pre;
 }
 
 summary {
