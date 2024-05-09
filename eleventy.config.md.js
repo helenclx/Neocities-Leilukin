@@ -99,18 +99,6 @@ module.exports = function (eleventyConfig) {
         </details>`;
     });
 
-    // Paired shorcode: Q&A accordion
-    eleventyConfig.addPairedShortcode('qna', (answer, question) => {
-        const questionMarkup = markdownLibrary.renderInline(question);
-        const answerMarkup = markdownLibrary.render(answer);
-        return `<details class="qna-accordion">
-            <summary class="qna-accordion__question">
-                ${questionMarkup}
-            </summary>
-            <div class="qna-accordion__answer">${answerMarkup}</div>
-        </details>`;
-    });
-
     /* This is the part that tells 11ty to swap to our custom config */
     eleventyConfig.setLibrary("md", markdownLibrary);
 }

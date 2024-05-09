@@ -468,25 +468,6 @@ main {
     outline-offset: -0.25em;
 }
 
-/* Q&A accordion */
-.qna-accordion {
-    padding: 1rem 0;
-}
-
-.qna-accordion__question {
-    font-weight: 700;
-}
-
-.qna-accordion__answer {
-    padding: 0.7em 1.3em 1.5em;
-    margin-top: 0.5em;
-    background: hsla(0, 0%, 100%, 0.15);
-}
-
-.qna-accordion__answer p + p {
-    margin-top: 1em;
-}
-
 /* Spoiler Accordion */
 * + .spoiler-accordion {
     margin-top: var(--sz-paragraph-margin);
