@@ -98,7 +98,7 @@ Archangels Morgante and Aleph were inspired by Morgan le Fay and King Arthur fro
 
 The ideas for the other Archangels came after Morgante and Aleph. Their themes were kind of arbitrarily chosen to match the design Jay had given them. [\[Source\]](https://www.reddit.com/r/NintendoSwitch/comments/14nvsiu/ama_we_are_bytten_studio_the_developers_of/jq9v6q5/)
 
-Bytten Studio made a point to not put in a huge amount of Japanese mythological monsters in comparison to mythology from other nations, especially since well-known mons franchises such as Shin Megami Tensei, Pokémon and Digimon are Japanese franchises; they do not want to seem derivative. [\[Source\]](https://discord.com/channels/594939411775619102/709417227652431942/1206255854211305523)
+Bytten Studio made a point to not put in a huge amount of Japanese mythological monsters in comparison to mythology from other nations, especially since well-known mons franchises such as {% cite "Shin Megami Tensei" %}, {% cite "Pokémon" %} and {% cite "Digimon" %} are Japanese franchises; they do not want to seem derivative. [\[Source\]](https://discord.com/channels/594939411775619102/709417227652431942/1206255854211305523)
 
 ## Developer Notes
 
@@ -166,3 +166,38 @@ Common words and phrases:
 Jay Baylis' favourite monster catching game is Pokémon Ruby/Sapphire. [\[Source\]](https://www.reddit.com/r/NintendoSwitch/comments/14nvsiu/ama_we_are_bytten_studio_the_developers_of/jq9qo03/)
 
 Tom Coxon's favourite monster catching game is Siralim Ultimate. [\[Source\]](https://www.reddit.com/r/NintendoSwitch/comments/14nvsiu/ama_we_are_bytten_studio_the_developers_of/jq9qicf/)
+
+## Frequently Asked Topics
+
+This section compiles topics that do not fit into other sections of this page, but are commonly asked about by {% cite "Cassette Beasts" %} players that have been answered officially by Bytten Studio.
+
+### {% cite "Cassette Beasts" %} not available on PlayStation
+
+Jay Baylis had addressed the subject of {% cite "Cassette Beasts" %} not being available on PlayStation in a [thread on the official {% cite "Cassette Beasts" %} Subreddit](https://discord.com/channels/@me/1151846241588752474/1238016445498134548){target="_blank"}:
+
+> Releasing a game on any platform is a huge undertaking and lots of choices have to be made. Originally we focused on Cassette Beasts as a game for PC and Switch as we didn't think we'd have the resources to port to anything beyond that - however, getting the opportunity for Cassette Beasts to be a part of the Xbox Game Pass service meant we would also have to port the game to Xbox, of course.
+>
+> Furthermore, Godot 3 (the game engine Cassette Beasts is made in) is not easy to port, and cannot be done "out the box" - it requires an external partnership to do so (unlike engines like Unity and Unreal). Only a handful of Godot games had been ported to Switch before Cassette Beasts and they were all 2D games. **{% cite "Cassette Beasts" %} is the first game developed from the ground up as a 3D Godot game to ever be ported to console**. This has been a huge challenge for both us and, more importantly, the porting team we've worked with! What's more, every update and DLC made takes longer to release with every platform you add.
+>
+> This doesn't mean that porting to Playstation won't/cannot *ever* happen, but we wouldn't promise anything unless we knew for sure. Game development is a series of trade-offs, and decisions like this aren't really made down to personal preference for platforms - personally, I mostly play games on PS5 at the moment.
+
+### Possibility of adding new partners
+
+Bytten Studio never hinted at any possibility of adding new partners to {% cite "Cassette Beasts" %}. In fact, Jay Baylis had [stated in Bytten Studio's AMA on the r/NintendoSwitch Subreddit on 1 July 2023](https://www.reddit.com/r/NintendoSwitch/comments/14nvsiu/comment/jq9hy3n/?context=3){target="_blank"} that:
+
+> [...]the current number of partner characters is baked into the design of the game in a number of ways, making it very difficult to organically add new ones in.
+
+### Sunny's lack of screen time and content
+
+Sunny, a minor NPC who appears after the completion of Eugene's quest line, has become immensely popular in the player base despite her limited screen time, wishing she could have a larger role in the game, monst commonly to become a partner.
+
+The reason why Sunny has little screen time and content was that she was added late into the game's development and only intended by Bytten Studio as a little side story after Eugene's quest to surprise players. Bytten Studio never intended Sunny to have a huge role or much content, and they did not expect Sunny would become this popular in the player base.
+
+> We believe that a lot of the secret sauce for Cassette Beasts' appeal is in its ability to surprise the player in various ways, so things don't get too predictable. Sunny is a character that I wrote into the game quite late, as I had envisioned her whole sequence of events as being something unexpected and funny that you wouldn't expect happening as a consequence of the questline that proceeds it. Sunny's appearance is, ultimately, just a fun little side story that I cooked up to add some more flavour to the goings-on in Harbourtown. However, it's clear that she's very popular for a character who appears in exactly two cutscenes, which isn't something we entirely expected!
+> — Jay Baylis (u/SamuriFerret). [Comment](https://safereddit.com/r/NintendoSwitch/comments/14nvsiu/ama_we_are_bytten_studio_the_developers_of/jq9mwtq/){target="_blank"} during Bytten Studio's AMA on the r/NintendoSwitch Subreddit. 1 July 2023.
+
+> [...]in hindsight, given her popularity in the community, we all wish we'd given Sunny more screen-time. She was a late, unplanned addition as we neared the release.
+> — Tom Coxon (u/tcoxon). [Comment](https://www.reddit.com/r/JRPG/comments/1bniroh/comment/kwjb7w4/){target="_blank"} during Bytten Studio's AMA on the r/JRPG Subreddit. 26 March 2024.
+
+> Sunny was a late addition to the game as I pitched a short storyline involving the gang rehabilitating a Landkeeper after Eugene's quest. It's very apparent we underestimated how popular she'd turn out to be!
+> — Jay Baylis. [Comment](https://www.reddit.com/r/JRPG/comments/1bniroh/comment/kwmb4j4/){target="_blank"} during Bytten Studio's AMA on the r/JRPG Subreddit. 26 March 2024.
