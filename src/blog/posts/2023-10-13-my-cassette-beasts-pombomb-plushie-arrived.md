@@ -23,8 +23,6 @@ The plushie is very well-made; it is firm decently sized.
 
 Even better, when I shared my Pombomb plushie, Bytten Studio, the developer of Cassette Beasts [retweeted](https://twitter.com/ByttenStudio/status/1712191037957927126) me!
 
-> Look at the lil guy! Perfect! Perfection!! [https://t.co/zgMDvOQjt3](https://t.co/zgMDvOQjt3)
->
-> — CASSETTE BEASTS 📼 OUT NOW ON PC & CONSOLES (@ByttenStudio) [October 11, 2023](https://twitter.com/ByttenStudio/status/1712191037957927126?ref_src=twsrc%5Etfw)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Look at the lil guy! Perfect! Perfection!! <a href="https://t.co/zgMDvOQjt3">https://t.co/zgMDvOQjt3</a></p>&mdash; CASSETTE BEASTS 📼 OUT NOW ON PC & CONSOLES (@ByttenStudio) <a href="https://twitter.com/ByttenStudio/status/1712191037957927126?ref_src=twsrc%5Etfw">October 11, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ![Screenshot of ByttenStudio's retweet of Leilukin's Cassette Beasts Pombomb plushie](https://i.postimg.cc/8cmwZxD3/bytten-studio-on-my-pombomb-plushie.png)
