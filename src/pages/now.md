@@ -2,7 +2,7 @@
 layout: main/content
 title: Now
 desc: What Leilukin is doing now.
-updated: 2024-04-29
+updated: 2024-05-09
 templateEngineOverride: njk, md
 eleventyNavigation:
     key: Now
@@ -15,18 +15,10 @@ This is my [/now page](https://nownownow.com/about). You can find more pages lik
 
 ## What am I Working on
 
-Recently, I spent a whole week in overhauling this website with the static site generator [Eleventy](https://www.11ty.dev/). The rebuilding process was [finally completed on 20 April 2023](/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/), but I am still doing maintenance and file organising under the hood.
+In mid-April, I spent a whole week in overhauling this website with the static site generator [Eleventy](https://www.11ty.dev/). The rebuilding process was [finally completed on 20 April 2023](/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/), but I am still doing maintenance and file organising under the hood.
 
+## Media
 
-## Events I Celebrated Recently
+### Currently Playing
 
-### 22 April to 28 April 2024
-
-[Lesbian Visibility Week](https://www.lesbianvisibilityweek.com/)
-
-### 23 April 2024
-
-4-year anniversary of the release of [{% cite "A Summer’s End — Hong Kong 1986" %}](/shrines/asummersend/).
-
-### 26 April 2024
-[Lesbian Visibility Day and the 1-year anniversary of the release of {% cite "Cassette Beasts" %}](/blog/posts/2024-04-27-lesbian-visibility-day1-year-anniversary-of-cassette-beasts/)
+{% cite "Stardew Valley" %}: The most recent major content update, 1.6, has incentivised me to return to the game.
