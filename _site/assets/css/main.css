@@ -201,6 +201,7 @@ a:focus img {
 
 blockquote > * + :not([class]),
 * + blockquote,
+* + .c-blockquote,
 .c-blockquote__attribution {
     margin-top: var(--sz-paragraph-margin);
 }
