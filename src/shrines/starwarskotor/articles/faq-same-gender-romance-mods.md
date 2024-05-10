@@ -62,26 +62,11 @@ For example, for Handmaiden and Female Exile – Disciple and Male Exile Romance
 If you cannot find those .mod files in your Modules folder, your issue might be caused by your computer registering two different installation locations for {% cite "KotOR 2" %}. I suggest you check out [this guide on how to make sure your computer recognize the version of {% cite "KotOR 2" %} game where you want to install KotOR 2 mods on](https://steamcommunity.com/sharedfiles/filedetails/?id=779622644){target="_blank"}. While the guide focuses on Steam version of {% cite "KotOR 2" %}, you could edit the registry to make your computer properly recognise the installation location of your {% cite "KotOR 2" %} game.
 
 Here are the default installation locations of {% cite "KotOR 2" %} depending on the game version:
-* Steam (32-bit Windows):
-```
-C:\Program Files\Steam\steamapps\common\Knights of the Old Republic II
-```
-* Steam (64-bit Windows):
-```
-C:\Program Files (x86)\Steam\steamapps\common\Knights of the Old Republic II
-```
-* Retail CD (32-bit Windows):
-```
-C:\Program Files\LucasArts\SWKotOR2\
-```
-* Retail CD (64-bit Windows):
-```
-C:\Program Files (x86)\LucasArts\SWKotOR2\
-```
-* Steam (32-bit Windows):
-```
-C:\GOG Games\Star Wars - KotOR2
-```
+* Steam (32-bit Windows): [`C:\Program Files\Steam\steamapps\common\Knights of the Old Republic II`]{style="word-break: break-word;"}
+* Steam (64-bit Windows): [`C:\Program Files (x86)\Steam\steamapps\common\Knights of the Old Republic II`]{style="word-break: break-word;"}
+* Retail CD (32-bit Windows): [`C:\Program Files\LucasArts\SWKotOR2\`]{style="word-break: break-word;"}
+* Retail CD (64-bit Windows): [`C:\Program Files (x86)\LucasArts\SWKotOR2\`]{style="word-break: break-word;"}
+* Steam (32-bit Windows): [`C:\GOG Games\Star Wars - KotOR2`]{style="word-break: break-word;"}
 
 If you do not know if you have Windows 64-bit or 32-bit, [refer this article to find out](https://www.lifewire.com/am-i-running-a-32-bit-or-64-bit-version-of-windows-2624475){target="_blank"}.
 

@@ -4,7 +4,7 @@
     <subtitle>Leilukin&#39;s personal website.</subtitle>
     <link href="https://leilukin.neocities.org/feed.xml" rel="self"/>
     <link href="https://leilukin.neocities.org"/>
-    <updated>2024-05-09T18:00:34Z</updated>
+    <updated>2024-05-10T00:02:58Z</updated>
     <id>https://leilukin.neocities.org</id>
     <author>
         <name>Leilukin</name>
@@ -1914,30 +1914,12 @@ After discovering the static site generator &lt;a href=&quot;https://www.11ty.de
 &lt;p&gt;If you cannot find those .mod files in your Modules folder, your issue might be caused by your computer registering two different installation locations for &lt;cite&gt;KotOR 2&lt;/cite&gt;. I suggest you check out &lt;a href=&quot;https://steamcommunity.com/sharedfiles/filedetails/?id=779622644&quot; target=&quot;_blank&quot;&gt;this guide on how to make sure your computer recognize the version of &lt;cite&gt;KotOR 2&lt;/cite&gt; game where you want to install KotOR 2 mods on&lt;/a&gt;. While the guide focuses on Steam version of &lt;cite&gt;KotOR 2&lt;/cite&gt;, you could edit the registry to make your computer properly recognise the installation location of your &lt;cite&gt;KotOR 2&lt;/cite&gt; game.&lt;/p&gt;
 &lt;p&gt;Here are the default installation locations of &lt;cite&gt;KotOR 2&lt;/cite&gt; depending on the game version:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Steam (32-bit Windows):&lt;/li&gt;
+&lt;li&gt;Steam (32-bit Windows): &lt;span style=&quot;word-break: break-word;&quot;&gt;&lt;code&gt;C:&#92;Program Files&#92;Steam&#92;steamapps&#92;common&#92;Knights of the Old Republic II&lt;/code&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Steam (64-bit Windows): &lt;span style=&quot;word-break: break-word;&quot;&gt;&lt;code&gt;C:&#92;Program Files (x86)&#92;Steam&#92;steamapps&#92;common&#92;Knights of the Old Republic II&lt;/code&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Retail CD (32-bit Windows): &lt;span style=&quot;word-break: break-word;&quot;&gt;&lt;code&gt;C:&#92;Program Files&#92;LucasArts&#92;SWKotOR2&#92;&lt;/code&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Retail CD (64-bit Windows): &lt;span style=&quot;word-break: break-word;&quot;&gt;&lt;code&gt;C:&#92;Program Files (x86)&#92;LucasArts&#92;SWKotOR2&#92;&lt;/code&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Steam (32-bit Windows): &lt;span style=&quot;word-break: break-word;&quot;&gt;&lt;code&gt;C:&#92;GOG Games&#92;Star Wars - KotOR2&lt;/code&gt;&lt;/span&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;C:&#92;Program Files&#92;Steam&#92;steamapps&#92;common&#92;Knights of the Old Republic II
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;Steam (64-bit Windows):&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;C:&#92;Program Files (x86)&#92;Steam&#92;steamapps&#92;common&#92;Knights of the Old Republic II
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;Retail CD (32-bit Windows):&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;C:&#92;Program Files&#92;LucasArts&#92;SWKotOR2&#92;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;Retail CD (64-bit Windows):&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;C:&#92;Program Files (x86)&#92;LucasArts&#92;SWKotOR2&#92;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;ul&gt;
-&lt;li&gt;Steam (32-bit Windows):&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre&gt;&lt;code&gt;C:&#92;GOG Games&#92;Star Wars - KotOR2
-&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;If you do not know if you have Windows 64-bit or 32-bit, &lt;a href=&quot;https://www.lifewire.com/am-i-running-a-32-bit-or-64-bit-version-of-windows-2624475&quot; target=&quot;_blank&quot;&gt;refer this article to find out&lt;/a&gt;.&lt;/p&gt;
 &lt;div class=&quot;heading-wrapper h3&quot;&gt;
 &lt;h3 id=&quot;will-you-upload-your-mods-to-steam-workshop&quot;&gt;Will you upload your mods to Steam Workshop?&lt;/h3&gt;
