@@ -28,7 +28,7 @@ Therefore, I am compiling this masterlist by curating various materials that are
 * [The Antisemitism of ‘Harry Potter’ Returns in ‘Hogwarts Legacy’](https://www.themarysue.com/is-hogwarts-legacy-anti-semitic-hogwarts-legacy-anti-semitic-allegations-explained/){target="_blank"} by Jack Doyle (8 February 2023)
 * [Hogwarts Legacy wants to make everyone happy, but Harry Potter gets in the way](https://www.polygon.com/reviews/23603142/hogwarts-legacy-review-harry-potter-jk-rowling-transphobic-ps5-pc-xbox){target="_blank"} by by Gita Jackson (17 February 2023)
 * [Is J.K. Rowling transphobic? Let’s let her speak for herself.](https://www.vox.com/culture/23622610/jk-rowling-transphobic-statements-timeline-history-controversy){target="_blank"} by Aja Romano (3 March 2023)
-{.content-list}
+{.item-list}
 
 ## Videos
 
@@ -44,7 +44,7 @@ Therefore, I am compiling this masterlist by curating various materials that are
 * [The Harry Potter Villains Were Trans?](https://www.youtube.com/watch?v=7xJF4XYarzI){target="_blank"} by Brigitte Empire (3 April 2023)
 * [Maybe The Wizard Game Just Wasn't Very Good (The Jimquisition)](https://www.youtube.com/watch?v=2pggtSI_95A){target="_blank"} by James Stephanie Sterling (20 November 2023)
 * [J.K. Rowling & Holocaust Denial](https://www.youtube.com/watch?v=whJJGqVtkEk){target="_blank"} by Caelan Conrad (16 March 2024)
-{.content-list}
+{.item-list}
 
 ## Podcasts
 

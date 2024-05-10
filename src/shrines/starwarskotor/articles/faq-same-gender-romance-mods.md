@@ -91,7 +91,7 @@ That said, some of my mods require you to install at a very specific point of th
 * Handmaiden and Female Exile - Disciple and Male Exile Romance should be installed immediately after PartySwap and before Extended Enclave. If you also want to install Extended Enclave, you should use the compatibility patch included in my Handmaiden/Disciple romance mod, instead of the [standalone patch](https://deadlystream.com/files/file/1304-partyswap-and-extended-enclave-compatibility-patch/) I made for the mod build. If you plan on using the Kreia's Fall In-Game Cutscene mod as well, you need to install the compatibility patch included in my mod.
 * Atton Rand and Male Exile Romance needs to be installed after Kreia's Fall In-Game Cutscene. You also need to install the compatibility patches for Kreia's Fall In-Game Cutscene.
 * Visas Marr and Female Exile Romance needs to be installed after PartySwap.
-{.content-list}
+{.item-list}
 
 ### Can I use your mods with non-English localizations of the {% cite "KotOR" %} games and The Sith Lords Restored Content Mod (TSLRCM)?
 
@@ -160,7 +160,7 @@ If Handmaiden does not join your female Exile's party when you are using my Hand
 * **You have a `holorec.dlg` file in the Override folder**, either from a mod you are using or a mod you previously used. If there is a `holorec.dlg` in your Override folder, delete it.
 * **You may have some leftover Steam Workshop folders in your Steam directory** that overrides the portion where Handmaiden is supposed to join your party. To solve this, go to the Steam Workshop folder in your Steam directory (/\\Steam\\SteamApps\\Workshop\\), and delete all the sub-folders in the Steam Workshop folder.
 * Similar to the above, **you may have some leftover files from a mod you used in your previous playthrough** in your {% cite "KotOR 2" %} game directory that interferes the portion where Handmaiden is supposed to join your party. The best way to solve this is to uninstall your game, delete your {% cite "KotOR 2" %} game folder entirely, and then re-install the game and the mods you want to use.
-{.content-list}
+{.item-list}
 
 ### Can you make your mod so you always recruit Handmaiden or Disciple only regardless of the Exile's gender?
 

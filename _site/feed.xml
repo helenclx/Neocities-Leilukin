@@ -4,7 +4,7 @@
     <subtitle>Leilukin&#39;s personal website.</subtitle>
     <link href="https://leilukin.neocities.org/feed.xml" rel="self"/>
     <link href="https://leilukin.neocities.org"/>
-    <updated>2024-05-10T00:02:58Z</updated>
+    <updated>2024-05-10T00:09:41Z</updated>
     <id>https://leilukin.neocities.org</id>
     <author>
         <name>Leilukin</name>
@@ -1254,7 +1254,7 @@ This site is Harry Potter free. Lookin [&lt;i&gt;sic&lt;/i&gt;] for it? Leave.
 &lt;div class=&quot;heading-wrapper h2&quot;&gt;
 &lt;h2 id=&quot;articles&quot;&gt;Articles&lt;/h2&gt;
 &lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.neocities.org/articles/anti-harry-potter-jk-rowling-masterlist/#articles&quot; aria-labelledby=&quot;articles&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;ul class=&quot;content-list&quot;&gt;
+&lt;ul class=&quot;item-list&quot;&gt;
 &lt;li&gt;&lt;a href=&quot;https://alinautrata.medium.com/all-the-things-that-are-fucked-up-about-harry-potter-58267e1bf3ee&quot; target=&quot;_blank&quot;&gt;Harry Potter and the Universal Declaration of Human Rights&lt;/a&gt; by Alina Utrata (28 October 2016)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://katymontgomerie.medium.com/addressing-the-claims-in-jk-rowlings-justification-for-transphobia-7b6f761e8f8f&quot; target=&quot;_blank&quot;&gt;Addressing The Claims In JK Rowling’s Justification For Transphobia&lt;/a&gt; by Katy Montgomerie (16 June 2020)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.themarysue.com/is-hogwarts-legacy-anti-semitic-hogwarts-legacy-anti-semitic-allegations-explained/&quot; target=&quot;_blank&quot;&gt;The Antisemitism of ‘Harry Potter’ Returns in ‘Hogwarts Legacy’&lt;/a&gt; by Jack Doyle (8 February 2023)&lt;/li&gt;
@@ -1264,7 +1264,7 @@ This site is Harry Potter free. Lookin [&lt;i&gt;sic&lt;/i&gt;] for it? Leave.
 &lt;div class=&quot;heading-wrapper h2&quot;&gt;
 &lt;h2 id=&quot;videos&quot;&gt;Videos&lt;/h2&gt;
 &lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.neocities.org/articles/anti-harry-potter-jk-rowling-masterlist/#videos&quot; aria-labelledby=&quot;videos&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
-&lt;ul class=&quot;content-list&quot;&gt;
+&lt;ul class=&quot;item-list&quot;&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=wPwWb9z3XSY&quot;&gt;Harry Potter is GARBAGE, and Here&#39;s Why&lt;/a&gt; by satenmadpun (25 August 2020)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=4AziZgoi3q0&quot; target=&quot;_blank&quot;&gt;We need to talk about Dudley Dursley- Harry Potter and Fatphobia&lt;/a&gt; by Ok2BeFat (30 May 2021)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=-1iaJWSwUZs&quot; target=&quot;_blank&quot;&gt;Harry Potter&lt;/a&gt; by Shaun (4 March 2023)&lt;/li&gt;
@@ -1939,7 +1939,7 @@ After discovering the static site generator &lt;a href=&quot;https://www.11ty.de
 &lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.neocities.org/shrines/starwarskotor/articles/faq-same-gender-romance-mods/#are-your-romance-mods-compatible-with-kotor-community-portals-mod-builds&quot; aria-labelledby=&quot;are-your-romance-mods-compatible-with-kotor-community-portals-mod-builds&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;Yes, all my mods are compatible with KotOR Community Portal&#39;s mod builds.&lt;/p&gt;
 &lt;p&gt;That said, some of my mods require you to install at a very specific point of the mod builds:&lt;/p&gt;
-&lt;ul class=&quot;content-list&quot;&gt;
+&lt;ul class=&quot;item-list&quot;&gt;
 &lt;li&gt;Handmaiden and Female Exile - Disciple and Male Exile Romance should be installed immediately after PartySwap and before Extended Enclave. If you also want to install Extended Enclave, you should use the compatibility patch included in my Handmaiden/Disciple romance mod, instead of the &lt;a href=&quot;https://deadlystream.com/files/file/1304-partyswap-and-extended-enclave-compatibility-patch/&quot;&gt;standalone patch&lt;/a&gt; I made for the mod build. If you plan on using the Kreia&#39;s Fall In-Game Cutscene mod as well, you need to install the compatibility patch included in my mod.&lt;/li&gt;
 &lt;li&gt;Atton Rand and Male Exile Romance needs to be installed after Kreia&#39;s Fall In-Game Cutscene. You also need to install the compatibility patches for Kreia&#39;s Fall In-Game Cutscene.&lt;/li&gt;
 &lt;li&gt;Visas Marr and Female Exile Romance needs to be installed after PartySwap.&lt;/li&gt;
@@ -2003,7 +2003,7 @@ After discovering the static site generator &lt;a href=&quot;https://www.11ty.de
 &lt;h3 id=&quot;i-playing-as-a-female-player-character-but-handmaiden-does-not-join-my-party-after-i-leave-the-telos-academy&quot;&gt;I playing as a female player character, but Handmaiden does not join my party after I leave the Telos Academy!&lt;/h3&gt;
 &lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.neocities.org/shrines/starwarskotor/articles/faq-same-gender-romance-mods/#i-playing-as-a-female-player-character-but-handmaiden-does-not-join-my-party-after-i-leave-the-telos-academy&quot; aria-labelledby=&quot;i-playing-as-a-female-player-character-but-handmaiden-does-not-join-my-party-after-i-leave-the-telos-academy&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;If Handmaiden does not join your female Exile&#39;s party when you are using my Handmaiden romance mod, the possible causes for this happening include:&lt;/p&gt;
-&lt;ul class=&quot;content-list&quot;&gt;
+&lt;ul class=&quot;item-list&quot;&gt;
 &lt;li&gt;&lt;strong&gt;You did not install my mod correctly&lt;/strong&gt;. Either you get errors when installing the “Default Installation” option, or you did not install DarthTyren&#39;s PartySwap mod first before installing the “PartySwap Compatible” option of my mod.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;You have a &lt;code&gt;holorec.dlg&lt;/code&gt; file in the Override folder&lt;/strong&gt;, either from a mod you are using or a mod you previously used. If there is a &lt;code&gt;holorec.dlg&lt;/code&gt; in your Override folder, delete it.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;You may have some leftover Steam Workshop folders in your Steam directory&lt;/strong&gt; that overrides the portion where Handmaiden is supposed to join your party. To solve this, go to the Steam Workshop folder in your Steam directory (/&#92;Steam&#92;SteamApps&#92;Workshop&#92;), and delete all the sub-folders in the Steam Workshop folder.&lt;/li&gt;
@@ -2320,7 +2320,7 @@ After discovering the static site generator &lt;a href=&quot;https://www.11ty.de
 &lt;h2 id=&quot;mod-recommendations&quot;&gt;Mod Recommendations&lt;/h2&gt;
 &lt;a class=&quot;heading-anchor&quot; href=&quot;https://leilukin.neocities.org/shrines/starwarskotor/guides/kotor-juhani-romance-guide/#mod-recommendations&quot; aria-labelledby=&quot;mod-recommendations&quot;&gt;&lt;span hidden=&quot;&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;These mods are not required to complete Juhani&#39;s romance, but they add or enhance Juhani&#39;s content.&lt;/p&gt;
-&lt;ul class=&quot;content-list&quot;&gt;
+&lt;ul class=&quot;item-list&quot;&gt;
 &lt;li&gt;&lt;a href=&quot;http://deadlystream.com/files/file/772-juhani-romance-enhancement/&quot; target=&quot;_blank&quot;&gt;Juhani Romance Enhancement&lt;/a&gt; by Kexikus: Improves the final romance conversation with Juhani, including triggering the conversation automatically when you are about to leave the temple summit, instead of having to talk to Juhani yourself to initiate the conversation, provided you have met the conditions to make this conversation available (detailed in the Walkthrough section above), as well as adding a kiss between Juhani and the female player character.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://deadlystream.com/files/file/1258-kotor-1-community-patch/&quot; target=&quot;_blank&quot;&gt;KOTOR 1 Community Patch&lt;/a&gt;: Even though this bug fix mod is not specifically about Juhani, it fixes many bugs and issues related to Juhani&#39;s content, including:
 &lt;ul&gt;

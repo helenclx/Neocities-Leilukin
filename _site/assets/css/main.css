@@ -523,7 +523,7 @@ main {
     display: none;
 }
 
-.content-list {
+.item-list {
     display: grid;
     gap: 0.7em;
 }

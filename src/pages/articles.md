@@ -12,7 +12,7 @@ eleventyNavigation:
 
 ## My Articles
 Articles I have written.
-<ul class="content-list">
+<ul class="item-list">
     {%- for article in collections["my articles"] -%}
         <li>
             <p><a href="{{ article.url }}">{{ article.data.articleTitle }}</a></p>
@@ -24,11 +24,11 @@ Articles I have written.
 ## My Articles for Video Games with Their Own Pages
 * My {% cite "Cassette Beasts" %} shrine [Articles](/shrines/cassettebeasts/articles/) page
 * My {% cite "Star Wars: Knights of the Old Republic" %} shrine [Articles](/shrines/starwarskotor/articles/) page
-{.content-list}
+{.item-list}
 
 ## Featured Articles
 Articles featuring other people's interview with me.
-<ul class="content-list">
+<ul class="item-list">
     {%- for article in collections["featured articles"] -%}
         <li>
             <p><a href="{{ article.url }}">{{ article.data.articleTitle }}</a></p>

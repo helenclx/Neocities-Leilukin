@@ -157,6 +157,6 @@ These mods are not required to complete Juhani's romance, but they add or enhanc
 * [Human Xor Unique Look](https://deadlystream.com/files/file/2147-human-xor-unique-look/){target="_blank"} by Leilukin: My mod. Changes Xor's species from a Twi'lek to a human to fit his anti-alien nature and dialogue, with a unique appearance different from other human NPCs. This mod is listed on this guide because Xor is tied to Juhani's personal quest.
 * [Party on the Leviathan!](https://deadlystream.com/files/file/567-party-on-the-leviathan/){target="_blank"} by Fair Strides: Restores Juhani's conversation, including romance conversation with a female player character, on the Leviathan, by spawning the rest of the Ebon Hawk crew on the Leviathan after you are rescued.
 
-{.content-list}
+{.item-list}
 
 **NOTE: I DO NOT support any mods that make Juhani a romance option for male characters under any circumstances. [Read this article on why I firmly believe Juhani's romance should remain exclusive to female characters.](/shrines/starwarskotor/articles/keep-juhani-a-lesbian) In addition, I DO NOT support any mods that make Juhani look like a human.**
