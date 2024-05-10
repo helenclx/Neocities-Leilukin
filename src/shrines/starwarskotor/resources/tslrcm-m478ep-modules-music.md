@@ -5,13 +5,13 @@ tags: kotor 2 resources
 categories: ["star wars kotor 2"]
 ---
 
-\[Originally posted on [Deadly Stream forums](https://deadlystream.com/topic/9541-tslrcm-m4-78ep-modules-warp-codes-music-overview/){target="_blank"}\]
+\[Originally posted on [Deadly Stream forums](https://deadlystream.com/topic/9541-tslrcm-m4-78ep-modules-warp-codes-music-overview/)\]
 
-In 2017, modder Kexikus created a spreadsheet to list all of [The first {% cite "Star Wars: Knights of the Old Republic" %} game's modules and their corresponding Day, Night and Battle music](https://deadlystream.com/topic/5101-k1-music-overview-and-warp-code-list/){target="_blank"}. Sith Holocron, who is also a modder, requested a {% cite "Star Wars: Knights of the Old Republic II: The Sith Lords" %} version of such list, though none of the sort has been made, so I decided to volunteer the task myself.
+In 2017, modder Kexikus created a spreadsheet to list all of [The first {% cite "Star Wars: Knights of the Old Republic" %} game's modules and their corresponding Day, Night and Battle music](https://deadlystream.com/topic/5101-k1-music-overview-and-warp-code-list/). Sith Holocron, who is also a modder, requested a {% cite "Star Wars: Knights of the Old Republic II: The Sith Lords" %} version of such list, though none of the sort has been made, so I decided to volunteer the task myself.
 
 Here you go:
 
-[The Sith Lords Restored Content Mod (TSLRCM) + M4-78 Enhancement Project (M4-78EP) modules and music overview spreadsheet](https://docs.google.com/spreadsheets/d/1HWJaCCIEiDVQxDDBjJ0jRWK1mUydoDdc7p7NdtRGdPQ/edit#gid=0){target="_blank"}
+[The Sith Lords Restored Content Mod (TSLRCM) + M4-78 Enhancement Project (M4-78EP) modules and music overview spreadsheet](https://docs.google.com/spreadsheets/d/1HWJaCCIEiDVQxDDBjJ0jRWK1mUydoDdc7p7NdtRGdPQ/edit#gid=0)
 
 This spreadsheet covers all the modules from both TSLRCM and M4-78EP. Like in {% cite "KotOR 1" %}, the module codes can be used for the warp cheat code (for example, warp 003EBO).
 

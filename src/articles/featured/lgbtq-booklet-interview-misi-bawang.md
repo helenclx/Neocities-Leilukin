@@ -5,7 +5,7 @@ desc: My submission for MISI:Bawang's booklet about LGBTQ+ Malaysians was accept
 categories: ["my interviews"]
 ---
 
-<p class="center-text"><i>(This article is also available on <a href="https://leilukinart.tumblr.com/post/676165415142031360/misibawang-a-malaysian-digital-booklet-project" target="_blank">my art blog on Tumblr</a>)</i></p>
+<p class="center-text"><i>(This article is also available on <a href="https://leilukinart.tumblr.com/post/676165415142031360/misibawang-a-malaysian-digital-booklet-project">my art blog on Tumblr</a>)</i></p>
 
 [Floating in a Sky Full of Pride](https://bawangqueerbooklet.msolidariti.org/), the LGBTQ+ booklet of [MISI:Bawang](https://misibawang.msolidariti.org/), a Malaysian digital booklet project, has been released on Valentine’s Day 2022. Since my submitted art piece, Life of a Bee with Pride, has been selected to be included in the booklet, I had received the honour of being interviewed by MISI:Bawang to share my personal experience with my LGBTQ+ identity, favourite queer art/media, and a ✨ special message to the Malaysian LGBTQ+ community. 🏳‍🌈
 

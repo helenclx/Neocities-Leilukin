@@ -6,7 +6,7 @@ categories: ["star wars kotor", "star wars kotor 2", "modding"]
 toc: true
 ---
 
-\[This list is also available on [Google Docs](https://docs.google.com/document/d/1l5cThs2A8PaUR4BlSEnlb2ZS5zrcnS3CeL58psjPfKI/edit){target="_blank"}\]{.center-text}
+\[This list is also available on [Google Docs](https://docs.google.com/document/d/1l5cThs2A8PaUR4BlSEnlb2ZS5zrcnS3CeL58psjPfKI/edit)\]{.center-text}
 
 The first {% cite "Star Wars: Knights of the Old Republic" %} video game introduced Juhani, the very first confirmed gay character in any Star Wars media, including Legends, the old {% cite "Star Wars" %} Expanded Universe, and the very first canon same-gender romance option in any BioWare game. However, the {% cite "KotOR" %} series at large has little LGBTQ+ content, and except for Juhani, none of the romance options in both {% cite "KotOR" %} games are available for same-gender romances.
 
@@ -28,7 +28,7 @@ NOTE: Some listed mods below have overlapping concepts and thus are not compatib
 
 [Original Release Date:]{.info-field} 25 November 2006
 
-[Download:]{.info-field} [Gamefront](https://www.gamefront.com/games/knights-of-the-old-republic/file/bastila-female-revan-untold-love-story){target="_blank"}
+[Download:]{.info-field} [Gamefront](https://www.gamefront.com/games/knights-of-the-old-republic/file/bastila-female-revan-untold-love-story)
 
 [Mod Description:]{.info-field} Allows female Revan to romance Bastila. In addition, this mod also allows female Revan to flirt with certain female NPCs, most notably Yuthura Ban.
 
@@ -38,7 +38,7 @@ NOTE: Some listed mods below have overlapping concepts and thus are not compatib
 
 [Original Release Date:]{.info-field} 10 March 2009
 
-[Download:]{.info-field} [Gamefront](https://www.gamefront.com/games/knights-of-the-old-republic/file/the-romancing-of-bastila){target="_blank"}
+[Download:]{.info-field} [Gamefront](https://www.gamefront.com/games/knights-of-the-old-republic/file/the-romancing-of-bastila)
 
 [Mod Description:]{.info-field} Compiles several Bastila content mods into one mod. Regarding Bastila’s romance, in addition to allowing female Revan to romance Bastila, this mod also includes bug fixes and a kissing scene between Bastila and female Revan.
 
@@ -50,7 +50,7 @@ NOTE: Some listed mods below have overlapping concepts and thus are not compatib
 
 [Original Release Date:]{.info-field} 2 July 2015
 
-[Download:]{.info-field} [Deadly Stream](https://deadlystream.com/files/file/567-party-on-the-leviathan/){target="_blank"}
+[Download:]{.info-field} [Deadly Stream](https://deadlystream.com/files/file/567-party-on-the-leviathan/)
 
 [Mod Description:]{.info-field} Restores Juhani’s conversation, including romance conversation with a female player character, on the Leviathan, by spawning the rest of the Ebon Hawk crew on the Leviathan after you are rescued.
 
@@ -61,8 +61,8 @@ NOTE: Some listed mods below have overlapping concepts and thus are not compatib
 [Original Release Date:]{.info-field} 20 July 2015
 
 [Download:]{.info-field}
-- [Deadly Stream](https://deadlystream.com/files/file/577-bi-carth/){target="_blank"}
-- [Nexus Mods](https://www.nexusmods.com/kotor/mods/60){target="_blank"}
+- [Deadly Stream](https://deadlystream.com/files/file/577-bi-carth/)
+- [Nexus Mods](https://www.nexusmods.com/kotor/mods/60)
 
 [Mod Description:]{.info-field} Allows Male Revan to romance Carth and flirt with certain male NPCs.
 
@@ -73,8 +73,8 @@ NOTE: Some listed mods below have overlapping concepts and thus are not compatib
 [Original Release Date:]{.info-field} 4 January 2016
 
 [Download:]{.info-field}
-- [Deadly Stream](https://deadlystream.com/files/file/772-juhani-romance-enhancement/){target="_blank"}
-- [Nexus Mods](http://www.nexusmods.com/kotor/mods/73){target="_blank"}
+- [Deadly Stream](https://deadlystream.com/files/file/772-juhani-romance-enhancement/)
+- [Nexus Mods](http://www.nexusmods.com/kotor/mods/73)
 
 [Mod Description:]{.info-field} Improves the final romance conversation with Juhani, including triggering the conversation automatically, provided the conditions for this conversation are met, as well as adding a kiss between Juhani and female Revan.
 
@@ -86,7 +86,7 @@ NOTE: Some listed mods below have overlapping concepts and thus are not compatib
 
 [Original Release Date:]{.info-field} 19 January 2020
 
-[Download:]{.info-field} [Deadly Stream](https://deadlystream.com/files/file/1548-jcs-romance-enhancement-biromantic-bastila-for-k1/){target="_blank"}
+[Download:]{.info-field} [Deadly Stream](https://deadlystream.com/files/file/1548-jcs-romance-enhancement-biromantic-bastila-for-k1/)
 
 [Mod Description:]{.info-field} Another mod that allows female Revan to romance Bastila, but what makes this mod different is that it also further edits Bastila’s dialogue so Bastila would not refer to female Revan as a man. This mod also fixes the bugs with Bastila’s romance during the endgame.
 
@@ -96,7 +96,7 @@ NOTE: Some listed mods below have overlapping concepts and thus are not compatib
 
 [Original Release Date:]{.info-field} 6 July 2022
 
-[Download:]{.info-field} [Deadly Stream](https://deadlystream.com/files/file/2115-jcs-romance-enhancement-pan-galactic-flirting-for-k1/){target="_blank"}
+[Download:]{.info-field} [Deadly Stream](https://deadlystream.com/files/file/2115-jcs-romance-enhancement-pan-galactic-flirting-for-k1/)
 
 [Mod Description:]{.info-field} Allows the player to flirt with several NPCs regardless of gender.
 
@@ -110,7 +110,7 @@ NOTE: Some listed mods below have overlapping concepts and thus are not compatib
 
 [Download:]{.info-field}
 - [Deadly Stream](https://deadlystream.com/files/file/2140-carth-onasi-and-male-pc-romance/)
-- [Nexus Mods](https://www.nexusmods.com/kotor/mods/1493){target="_blank"}
+- [Nexus Mods](https://www.nexusmods.com/kotor/mods/1493)
 
 [Mod Description:]{.info-field} Inspired by the aforementioned Bi Carth mod, this is my version of a male Revan and Carth romance mod. The biggest differences between my version and forgetcanon’s are that my mod is installed by patching relevant dialogue files, instead of putting modified dialogue files in the Override folder, and I have also edited Carth’s dialogue and spliced audio files to prevent Carth from referring to male Revan as a woman.
 
@@ -118,13 +118,13 @@ NOTE: Some listed mods below have overlapping concepts and thus are not compatib
 
 ### Worthy of Note:
 
-Stoffe’s [Handmaiden Choice for Females](https://www.gamefront.com/files/handmaiden-choice-for-females/){target="_blank"} mod (originally released on 23 April 2005), which was the first mod ever made that allowed female Exiles to recruit Handmaiden as a party member, could technically be considered a same-gender romance mod, due to the fact that with this mod, female Exiles would also be able to romance Handmaiden by having her as a party member.
+Stoffe’s [Handmaiden Choice for Females](https://www.gamefront.com/files/handmaiden-choice-for-females/) mod (originally released on 23 April 2005), which was the first mod ever made that allowed female Exiles to recruit Handmaiden as a party member, could technically be considered a same-gender romance mod, due to the fact that with this mod, female Exiles would also be able to romance Handmaiden by having her as a party member.
 
 In addition, since Handmaiden replaces Disciple’s place on the Ebon Hawk crew in this mod, this mod also allows female Exiles to get the Visas romance scene after the Rebuilt Jedi Enclave sequence.
 
 That being said, these are all side effects of Handmaiden being exclusive to male Exiles in the vanilla game. Handmaiden Choice for Females was not intentionally made with same-gender romances in mind.
 
-Hassat Hunter had remade the mod into [Handmaiden 4 Females - Disciple for Males](https://www.moddb.com/mods/the-sith-lords-restored-content-mod-tslrcm/addons/handmaiden-4-females-disciple-4-males-183){target="_blank"} (originally released on 14 March 2014) to be compatible with The Sith Lords Restored Content Mod (TSLRCM). However, the mod is outdated and no longer supported.
+Hassat Hunter had remade the mod into [Handmaiden 4 Females - Disciple for Males](https://www.moddb.com/mods/the-sith-lords-restored-content-mod-tslrcm/addons/handmaiden-4-females-disciple-4-males-183) (originally released on 14 March 2014) to be compatible with The Sith Lords Restored Content Mod (TSLRCM). However, the mod is outdated and no longer supported.
 
 ### Alternate Revan Romances
 
@@ -133,12 +133,12 @@ Hassat Hunter had remade the mod into [Handmaiden 4 Females - Disciple for Males
 [Original Release Date:]{.info-field} 9 March 2015
 
 [Download:]{.info-field}
-- [Deadly Stream](https://deadlystream.com/files/file/529-alternate-revan-romances/){target="_blank"}
-- [Nexus Mods](http://www.nexusmods.com/kotor2/mods/43){target="_blank"}
+- [Deadly Stream](https://deadlystream.com/files/file/529-alternate-revan-romances/)
+- [Nexus Mods](http://www.nexusmods.com/kotor2/mods/43)
 
 [Mod Description:]{.info-field} Allows players to set Revan’s love interest(s), instead of letting the game assume male Revan is romantically involved with Bastila, while female Revan is romantically involved with Carth. Most notably, with this mod, Bastila can be chosen as female Revan’s love interest, and Carth can be chosen as male Revan’s love interest.
 
-[Required Mod:]{.info-field} [The Sith Lords Restored Content Mod (TSLRCM)](https://deadlystream.com/files/file/578-tsl-restored-content-mod/){target="_blank"}
+[Required Mod:]{.info-field} [The Sith Lords Restored Content Mod (TSLRCM)](https://deadlystream.com/files/file/578-tsl-restored-content-mod/)
 
 **WARNING:** This mod is outdated, and it has game-breaking bugs. Use my REDUX version of the mod below instead. I am listing the original mod here for historical record purpose.
 
@@ -149,8 +149,8 @@ Hassat Hunter had remade the mod into [Handmaiden 4 Females - Disciple for Males
 [Original Release Date: ]{.info-field}15 December 2016
 
 [Download:]{.info-field}
-- [Deadly Stream](https://deadlystream.com/files/file/968-visas-marr-and-female-exile-romance/){target="_blank"}
-- [Nexus Mods](https://www.nexusmods.com/kotor2/mods/925){target="_blank"}
+- [Deadly Stream](https://deadlystream.com/files/file/968-visas-marr-and-female-exile-romance/)
+- [Nexus Mods](https://www.nexusmods.com/kotor2/mods/925)
 
 [Mod Description:]{.info-field} Makes the Visas romance scene, which occurs near the endgame, available for the Exile regardless of gender.
 
@@ -161,12 +161,12 @@ Hassat Hunter had remade the mod into [Handmaiden 4 Females - Disciple for Males
 [Original Release Date:]{.info-field} 27 December 2016
 
 [Download:]{.info-field}
-- [Deadly Stream](https://deadlystream.com/files/file/972-atton-rand-and-male-exile-romance/){target="_blank"}
-- [Nexus Mods](https://www.nexusmods.com/kotor2/mods/926){target="_blank"}
+- [Deadly Stream](https://deadlystream.com/files/file/972-atton-rand-and-male-exile-romance/)
+- [Nexus Mods](https://www.nexusmods.com/kotor2/mods/926)
 
 Mod Description: Makes Atton flirt with and express romantic interest in a male Exile.
 
-Required Mod: [The Sith Lords Restored Content Mod (TSLRCM)](https://deadlystream.com/files/file/578-tsl-restored-content-mod/){target="_blank"}
+Required Mod: [The Sith Lords Restored Content Mod (TSLRCM)](https://deadlystream.com/files/file/578-tsl-restored-content-mod/)
 
 ### Handmaiden and Female Exile - Disciple and Male Exile Romance
 
@@ -189,12 +189,12 @@ Required Mod: [The Sith Lords Restored Content Mod (TSLRCM)](https://deadlystrea
 [Original Release Date:]{.info-field} 12 January 2017
 
 [Download:]{.info-field}
-- [Deadly Stream](https://deadlystream.com/files/file/996-darth-sion-and-male-exile-mod/){target="_blank"}
-- [Nexus Mods](https://www.nexusmods.com/kotor2/mods/928){target="_blank"}
+- [Deadly Stream](https://deadlystream.com/files/file/996-darth-sion-and-male-exile-mod/)
+- [Nexus Mods](https://www.nexusmods.com/kotor2/mods/928)
 
 [Mod Description:]{.info-field} Makes Darth Sion displays romantic attachment (in his own way) to a male Exile.
 
-[Required Mod:]{.info-field} [The Sith Lords Restored Content Mod (TSLRCM)](https://deadlystream.com/files/file/578-tsl-restored-content-mod/){target="_blank"}
+[Required Mod:]{.info-field} [The Sith Lords Restored Content Mod (TSLRCM)](https://deadlystream.com/files/file/578-tsl-restored-content-mod/)
 
 ### Alternate Revan Romances REDUX
 
@@ -203,12 +203,12 @@ Required Mod: [The Sith Lords Restored Content Mod (TSLRCM)](https://deadlystrea
 [Original Release Date:]{.info-field} 26 January 2017
 
 [Download:]{.info-field}
-- [Deadly Stream](https://deadlystream.com/files/file/1004-alternate-revan-romances-redux/){target="_blank"}
-- [Nexus Mods](https://www.nexusmods.com/kotor2/mods/933){target="_blank"}
+- [Deadly Stream](https://deadlystream.com/files/file/1004-alternate-revan-romances-redux/)
+- [Nexus Mods](https://www.nexusmods.com/kotor2/mods/933)
 
 Mod Description: My updated version of the Alternate Revan Romances mod, released with felixfelicitas’ permission. My mod fixes many bugs with the original version.
 
-Required Mod: [The Sith Lords Restored Content Mod (TSLRCM)](https://deadlystream.com/files/file/578-tsl-restored-content-mod/){target="_blank"}
+Required Mod: [The Sith Lords Restored Content Mod (TSLRCM)](https://deadlystream.com/files/file/578-tsl-restored-content-mod/)
 
 ### Dahnis Flirt Option for Female PC
 
@@ -217,7 +217,7 @@ Required Mod: [The Sith Lords Restored Content Mod (TSLRCM)](https://deadlystrea
 [Original Release Date:]{.info-field} 10 November 2018
 
 [Download:]{.info-field}
-- [Deadly Stream](https://deadlystream.com/files/file/1400-dahnis-flirt-option-for-female-pc/){target="_blank"}
-- [Nexus Mods](https://www.nexusmods.com/kotor2/mods/1036){target="_blank"}
+- [Deadly Stream](https://deadlystream.com/files/file/1400-dahnis-flirt-option-for-female-pc/)
+- [Nexus Mods](https://www.nexusmods.com/kotor2/mods/1036)
 
 [Mod Description:]{.info-field} Makes Dahnis, a minor NPC and one of the Pazaak players on Nar Shaddaa, flirt with the player.

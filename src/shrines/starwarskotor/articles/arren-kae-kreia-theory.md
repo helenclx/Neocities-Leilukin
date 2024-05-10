@@ -8,7 +8,7 @@ categories: ["star wars kotor 2"]
 
 (Note: This article was originally published on Tumblr)
 
-If you are a fan of {% cite "Star Wars: Knights of the Old Republic II: The Sith Lords" %}, you might have heard of the theory that Arren Kae, mother of Brianna the Handmaiden, and Kreia are the same person. If you have not heard of the theory, a compilation of the in-game evidence used to support the theory can be found on the [Let’s Play Archive](https://lparchive.org/Knights-of-the-Old-Republic-II/Update%2058/){target="_blank"}. The theory has become so popular that many fans of the game take it for granted, which can make it easy to forget that the theory was never officially confirmed.
+If you are a fan of {% cite "Star Wars: Knights of the Old Republic II: The Sith Lords" %}, you might have heard of the theory that Arren Kae, mother of Brianna the Handmaiden, and Kreia are the same person. If you have not heard of the theory, a compilation of the in-game evidence used to support the theory can be found on the [Let’s Play Archive](https://lparchive.org/Knights-of-the-Old-Republic-II/Update%2058/). The theory has become so popular that many fans of the game take it for granted, which can make it easy to forget that the theory was never officially confirmed.
 
 I think the “Arren Kae is Kreia” theory is well-thought-out, and I agree that there are multiple in-game evidence that can support the theory. However, personally I do not subscribe to the theory, nor incorporate it into my headcanons for Knights of the Old Republic 2. I have eventually decided that in my KotOR 2 headcanons, I keep Arren and Kreia as two different people. Why?
 

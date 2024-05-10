@@ -13,12 +13,12 @@ The fact that Juhani from Star Wars: Knights of the Old Republic is a canon lesb
 
 Therefore, as a lesbian and someone who has [made mods](/projects/#my-video-game-mods) for the Knights of the Old Republic games and written a [detailed Juhani romance guide](/shrines/starwarskotor/guides/kotor-juhani-romance-guide), I would like to present hard evidence from the game files to point out that **Juhani is in fact a lesbian, a woman who is exclusively attracted to women**.
 
-The most crucial evidence comes from `k_hjuh_dialog.dlg`, Juhani’s main dialogue file which contains all the conversations covered in my Juhani Romance Guide. If you use the [KotOR Tool](https://deadlystream.com/files/file/280-kotor-tool/){target="_blank"} to browse the game files, `k_hjuh_dialog.dlg` is under KotOR I > BIFs > templates.bif > Dialog. I recommend using [DLGEditor](https://deadlystream.com/files/file/750-dlg-editor/){target="_blank"} to view the .dlg files from KotOR games.
+The most crucial evidence comes from `k_hjuh_dialog.dlg`, Juhani’s main dialogue file which contains all the conversations covered in my Juhani Romance Guide. If you use the [KotOR Tool](https://deadlystream.com/files/file/280-kotor-tool/) to browse the game files, `k_hjuh_dialog.dlg` is under KotOR I > BIFs > templates.bif > Dialog. I recommend using [DLGEditor](https://deadlystream.com/files/file/750-dlg-editor/) to view the .dlg files from KotOR games.
 
 Here is a screenshot of my DLGEditor with the most relevant part of the `k_hjuh_dialog.dlg` file:
 
 {% imgFigure "/assets/shrines/starwarskotor/articles/juhani-lesbian-in-game-evidence.png", "Screenshot of DLG Editor 2.3.2 displaying Juhani's main dialogue file" %}
-([View the screenshot in its original size](/assets/shrines/starwarskotor/articles/juhani-lesbian-in-game-evidence.png){target="_blank"})
+([View the screenshot in its original size](/assets/shrines/starwarskotor/articles/juhani-lesbian-in-game-evidence.png))
 {% endimgFigure %}
 
 The highlighted dialogue shown in the screenshot (”I feel I must apologize for the way I acted towards you before, in the grove. It was wrong of me.”) is the beginning of your first personal conversation with Juhani after Juhani joins your party. Here is a video of the conversation in question:

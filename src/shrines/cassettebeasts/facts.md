@@ -80,27 +80,27 @@ Late 2019
 
 ## Influences and Inspirations
 
-The YouTube channel Lockstin & Gnoggin has a video that explains the names and designs of the monsters and Archangels: [EVERY Cassette Beast EXPLAINED! 🖭](https://www.youtube.com/watch?v=GlKQzL6gpxc){target="_blank"}. The video was [retweeted](https://i.postimg.cc/tRdtkBSF/Screenshot-2023-10-05-at-14-27-39-Lockstin-on-X.png){target="_blank"} by Bytten Studio.
+The YouTube channel Lockstin & Gnoggin has a video that explains the names and designs of the monsters and Archangels: [EVERY Cassette Beast EXPLAINED! 🖭](https://www.youtube.com/watch?v=GlKQzL6gpxc). The video was [retweeted](https://i.postimg.cc/tRdtkBSF/Screenshot-2023-10-05-at-14-27-39-Lockstin-on-X.png) by Bytten Studio.
 
-The idea of copying monster forms to transform into came from Tom Coxon's dream. Jay Baylis, inspired by {% cite "Kamen Rider" %}, later suggested doing the copying and transforming with physical cassette tapes. (Source: ["Cassette Beasts Blog #13 - You asked, we answered!"](https://store.steampowered.com/news/app/1321440/view/3669908058337516561){target="_blank"} on Steam)
+The idea of copying monster forms to transform into came from Tom Coxon's dream. Jay Baylis, inspired by {% cite "Kamen Rider" %}, later suggested doing the copying and transforming with physical cassette tapes. (Source: ["Cassette Beasts Blog #13 - You asked, we answered!"](https://store.steampowered.com/news/app/1321440/view/3669908058337516561) on Steam)
 
-Another oddball source of inspiration for Tom the story [“The Beatles Never Broke Up”](https://thebeatlesneverbrokeup.com/story/), about a man who in 2009 hit his head and woke up in another world where the Beatles still exist, where people still use analogue technology, and where parallel universe travel is commonplace. (Source: ["Cassette Beasts Blog #13 - You asked, we answered!"](https://store.steampowered.com/news/app/1321440/view/3669908058337516561){target="_blank"} on Steam)
+Another oddball source of inspiration for Tom the story [“The Beatles Never Broke Up”](https://thebeatlesneverbrokeup.com/story/), about a man who in 2009 hit his head and woke up in another world where the Beatles still exist, where people still use analogue technology, and where parallel universe travel is commonplace. (Source: ["Cassette Beasts Blog #13 - You asked, we answered!"](https://store.steampowered.com/news/app/1321440/view/3669908058337516561) on Steam)
 
-The presentation of Archangels is inspired a little by the Witches in Puella Magi Madoka Magica. (Source: ["Cassette Beasts Blog #13 - You asked, we answered!"](https://store.steampowered.com/news/app/1321440/view/3669908058337516561){target="_blank"} on Steam)
+The presentation of Archangels is inspired a little by the Witches in Puella Magi Madoka Magica. (Source: ["Cassette Beasts Blog #13 - You asked, we answered!"](https://store.steampowered.com/news/app/1321440/view/3669908058337516561) on Steam)
 
-The way the relationship system ties into fusions is heavily influenced by Steven Universe, which both Tom and Jay are fans of. (Source: ["Cassette Beasts Blog #13 - You asked, we answered!"](https://store.steampowered.com/news/app/1321440/view/3669908058337516561){target="_blank"} on Steam)
+The way the relationship system ties into fusions is heavily influenced by Steven Universe, which both Tom and Jay are fans of. (Source: ["Cassette Beasts Blog #13 - You asked, we answered!"](https://store.steampowered.com/news/app/1321440/view/3669908058337516561) on Steam)
 
-The AP system in Cassette Beasts is taken from board and card games. (Source: ["Cassette Beasts Blog #13 - You asked, we answered!"](https://store.steampowered.com/news/app/1321440/view/3669908058337516561){target="_blank"} on Steam)
+The AP system in Cassette Beasts is taken from board and card games. (Source: ["Cassette Beasts Blog #13 - You asked, we answered!"](https://store.steampowered.com/news/app/1321440/view/3669908058337516561) on Steam)
 
-Jay cited comic author Grant Morrison as an influence on the broader themes of the game (as well as the strange English surrealism of the setting), as Morrison's stories often explore the nature of fiction, multiple realities, and their influence on one another. (Source: ["Cassette Beasts Blog #13 - You asked, we answered!"](https://store.steampowered.com/news/app/1321440/view/3669908058337516561){target="_blank"} on Steam)
+Jay cited comic author Grant Morrison as an influence on the broader themes of the game (as well as the strange English surrealism of the setting), as Morrison's stories often explore the nature of fiction, multiple realities, and their influence on one another. (Source: ["Cassette Beasts Blog #13 - You asked, we answered!"](https://store.steampowered.com/news/app/1321440/view/3669908058337516561) on Steam)
 
-Archangels Morgante and Aleph were inspired by Morgan le Fay and King Arthur from Arturian legends, but with an unusual twist that Aleph is portrayed as a conqueror instead of a "rightful king" to reflect Britain's history of conquest. (Source: [Bytten Studio's 1 July 2023 AMA on r/NintendoSwitch](https://www.reddit.com/r/NintendoSwitch/comments/14nvsiu/ama_we_are_bytten_studio_the_developers_of/jq9v6q5/){target="_blank"})
+Archangels Morgante and Aleph were inspired by Morgan le Fay and King Arthur from Arturian legends, but with an unusual twist that Aleph is portrayed as a conqueror instead of a "rightful king" to reflect Britain's history of conquest. (Source: [Bytten Studio's 1 July 2023 AMA on r/NintendoSwitch](https://www.reddit.com/r/NintendoSwitch/comments/14nvsiu/ama_we_are_bytten_studio_the_developers_of/jq9v6q5/))
 
-The ideas for the other Archangels came after Morgante and Aleph. Their themes were kind of arbitrarily chosen to match the design Jay had given them. (Source: [Bytten Studio's 1 July 2023 AMA on r/NintendoSwitch](https://www.reddit.com/r/NintendoSwitch/comments/14nvsiu/ama_we_are_bytten_studio_the_developers_of/jq9v6q5/){target="_blank"})
+The ideas for the other Archangels came after Morgante and Aleph. Their themes were kind of arbitrarily chosen to match the design Jay had given them. (Source: [Bytten Studio's 1 July 2023 AMA on r/NintendoSwitch](https://www.reddit.com/r/NintendoSwitch/comments/14nvsiu/ama_we_are_bytten_studio_the_developers_of/jq9v6q5/))
 
-Bytten Studio made a point to not put in a huge amount of Japanese mythological monsters in comparison to mythology from other nations, especially since well-known mons franchises such as {% cite "Shin Megami Tensei" %}, {% cite "Pokémon" %} and {% cite "Digimon" %} are Japanese franchises; they do not want to seem derivative. (Source: [Bytten Studio Discord server](https://discord.com/channels/594939411775619102/709417227652431942/1206255854211305523){target="_blank"})
+Bytten Studio made a point to not put in a huge amount of Japanese mythological monsters in comparison to mythology from other nations, especially since well-known mons franchises such as {% cite "Shin Megami Tensei" %}, {% cite "Pokémon" %} and {% cite "Digimon" %} are Japanese franchises; they do not want to seem derivative. (Source: [Bytten Studio Discord server](https://discord.com/channels/594939411775619102/709417227652431942/1206255854211305523))
 
-Barkley was not inspired by anything in particular; he was added in the game to surprise players as a non-human partner. (Source: [Bytten Studio's 25 March 2024 AMA on r/JRPG](https://www.reddit.com/r/JRPG/comments/1bniroh/comment/kwiqbm5/){target="_blank"})
+Barkley was not inspired by anything in particular; he was added in the game to surprise players as a non-human partner. (Source: [Bytten Studio's 25 March 2024 AMA on r/JRPG](https://www.reddit.com/r/JRPG/comments/1bniroh/comment/kwiqbm5/))
 
 ## Developer Notes
 
@@ -175,7 +175,7 @@ This section compiles topics that do not fit into other sections of this page, b
 
 ### {% cite "Cassette Beasts" %} not available on PlayStation
 
-Jay Baylis had addressed the subject of {% cite "Cassette Beasts" %} not being available on PlayStation in a [thread on the official {% cite "Cassette Beasts" %} Subreddit](https://discord.com/channels/@me/1151846241588752474/1238016445498134548){target="_blank"}:
+Jay Baylis had addressed the subject of {% cite "Cassette Beasts" %} not being available on PlayStation in a [thread on the official {% cite "Cassette Beasts" %} Subreddit](https://discord.com/channels/@me/1151846241588752474/1238016445498134548):
 
 > Releasing a game on any platform is a huge undertaking and lots of choices have to be made. Originally we focused on Cassette Beasts as a game for PC and Switch as we didn't think we'd have the resources to port to anything beyond that - however, getting the opportunity for Cassette Beasts to be a part of the Xbox Game Pass service meant we would also have to port the game to Xbox, of course.
 >
@@ -185,7 +185,7 @@ Jay Baylis had addressed the subject of {% cite "Cassette Beasts" %} not being a
 
 ### Possibility of adding new partners
 
-Bytten Studio never hinted at any possibility of adding new partners to {% cite "Cassette Beasts" %}. In fact, Jay Baylis had [stated in Bytten Studio's AMA on the r/NintendoSwitch Subreddit on 1 July 2023](https://www.reddit.com/r/NintendoSwitch/comments/14nvsiu/comment/jq9hy3n/?context=3){target="_blank"} that:
+Bytten Studio never hinted at any possibility of adding new partners to {% cite "Cassette Beasts" %}. In fact, Jay Baylis had [stated in Bytten Studio's AMA on the r/NintendoSwitch Subreddit on 1 July 2023](https://www.reddit.com/r/NintendoSwitch/comments/14nvsiu/comment/jq9hy3n/?context=3) that:
 
 > [...]the current number of partner characters is baked into the design of the game in a number of ways, making it very difficult to organically add new ones in.
 
@@ -196,10 +196,10 @@ Sunny, a minor NPC who appears after the completion of Eugene's quest line, has 
 The reason why Sunny has little screen time and content was that she was added late into the game's development and only intended by Bytten Studio as a little side story after Eugene's quest to surprise players. Bytten Studio never intended Sunny to have a huge role or much content, and they did not expect Sunny would become this popular in the player base.
 
 > We believe that a lot of the secret sauce for Cassette Beasts' appeal is in its ability to surprise the player in various ways, so things don't get too predictable. Sunny is a character that I wrote into the game quite late, as I had envisioned her whole sequence of events as being something unexpected and funny that you wouldn't expect happening as a consequence of the questline that proceeds it. Sunny's appearance is, ultimately, just a fun little side story that I cooked up to add some more flavour to the goings-on in Harbourtown. However, it's clear that she's very popular for a character who appears in exactly two cutscenes, which isn't something we entirely expected!
-> — Jay Baylis (u/SamuriFerret). [Comment](https://safereddit.com/r/NintendoSwitch/comments/14nvsiu/ama_we_are_bytten_studio_the_developers_of/jq9mwtq/){target="_blank"} during Bytten Studio's AMA on the r/NintendoSwitch Subreddit. 1 July 2023.
+> — Jay Baylis (u/SamuriFerret). [Comment](https://safereddit.com/r/NintendoSwitch/comments/14nvsiu/ama_we_are_bytten_studio_the_developers_of/jq9mwtq/) during Bytten Studio's AMA on the r/NintendoSwitch Subreddit. 1 July 2023.
 
 > [...]in hindsight, given her popularity in the community, we all wish we'd given Sunny more screen-time. She was a late, unplanned addition as we neared the release.
-> — Tom Coxon (u/tcoxon). [Comment](https://www.reddit.com/r/JRPG/comments/1bniroh/comment/kwjb7w4/){target="_blank"} during Bytten Studio's AMA on the r/JRPG Subreddit. 26 March 2024.
+> — Tom Coxon (u/tcoxon). [Comment](https://www.reddit.com/r/JRPG/comments/1bniroh/comment/kwjb7w4/) during Bytten Studio's AMA on the r/JRPG Subreddit. 26 March 2024.
 
 > Sunny was a late addition to the game as I pitched a short storyline involving the gang rehabilitating a Landkeeper after Eugene's quest. It's very apparent we underestimated how popular she'd turn out to be!
-> — Jay Baylis. [Comment](https://www.reddit.com/r/JRPG/comments/1bniroh/comment/kwmb4j4/){target="_blank"} during Bytten Studio's AMA on the r/JRPG Subreddit. 26 March 2024.
+> — Jay Baylis. [Comment](https://www.reddit.com/r/JRPG/comments/1bniroh/comment/kwmb4j4/) during Bytten Studio's AMA on the r/JRPG Subreddit. 26 March 2024.

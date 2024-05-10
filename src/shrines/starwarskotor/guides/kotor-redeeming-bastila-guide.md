@@ -7,7 +7,7 @@ categories: ["star wars kotor"]
 toc: true
 ---
 
-[This guide is also available on [Google Docs](https://docs.google.com/document/d/1HrrzojpHv9oekvDPjTmBAwdXTf6QhY8tC8RuioKFXmE/edit){target="_blank"}]{.center-text}
+[This guide is also available on [Google Docs](https://docs.google.com/document/d/1HrrzojpHv9oekvDPjTmBAwdXTf6QhY8tC8RuioKFXmE/edit)]{.center-text}
 
 ## Introduction
 
@@ -29,9 +29,9 @@ In general, to successfully convince Bastila to return to the light side, you ne
 
 In the final part of Bastila's dialogue, when Bastila says she is beyond saving, do not agree with her because it will make you kill her.
 
-There will be \[Persuade\] options in the final part of Bastila's dialogue. While it is possible to save Bastila without choosing the \[Persuade\] options as long as you choose the right dialogue options, if you invest skill points in Persuade and pass the Persuade check, it would also be easier to save Bastila. If you want to learn more about the Persuade mechanic in KotOR, you can check out [StretegyWiki's page about Skills in {% cite "KotOR" %}](https://strategywiki.org/wiki/Star_Wars:_Knights_of_the_Old_Republic/Skills#Persuade){target="_blank"}.
+There will be \[Persuade\] options in the final part of Bastila's dialogue. While it is possible to save Bastila without choosing the \[Persuade\] options as long as you choose the right dialogue options, if you invest skill points in Persuade and pass the Persuade check, it would also be easier to save Bastila. If you want to learn more about the Persuade mechanic in KotOR, you can check out [StretegyWiki's page about Skills in {% cite "KotOR" %}](https://strategywiki.org/wiki/Star_Wars:_Knights_of_the_Old_Republic/Skills#Persuade).
 
-An active romance with Bastila will make it easier to save Bastila. Although in vanilla KotOR, only a male player character can romance Bastila, this mechanic also works for a female PC who romances Bastila with mods like [JC's Romance Enhancement: Biromantic Bastila](https://deadlystream.com/files/file/1548-jcs-romance-enhancement-biromantic-bastila-for-k1/){target="_blank"}. That said, it is still possible to redeem Bastila even if you do not romance her.
+An active romance with Bastila will make it easier to save Bastila. Although in vanilla KotOR, only a male player character can romance Bastila, this mechanic also works for a female PC who romances Bastila with mods like [JC's Romance Enhancement: Biromantic Bastila](https://deadlystream.com/files/file/1548-jcs-romance-enhancement-biromantic-bastila-for-k1/). That said, it is still possible to redeem Bastila even if you do not romance her.
 
 ## Dialogue Walkthrough
 

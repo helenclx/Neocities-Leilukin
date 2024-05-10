@@ -22,14 +22,14 @@ Compiled by Oracle and Bone, Sam’s Mixtape A-Side and B-Side are playlists of 
 
 ### Sam's Mixtape A-Side
 
-[Listen on Spotify](https://open.spotify.com/playlist/7vP8C9Sw1wLlsRDr7eQl46){target="_blank"}{.link-btn}
+[Listen on Spotify](https://open.spotify.com/playlist/7vP8C9Sw1wLlsRDr7eQl46){.link-btn}
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7vP8C9Sw1wLlsRDr7eQl46?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 
 ### Sam's Mixtape B-Side
 
-[Listen on Spotify](https://open.spotify.com/playlist/6n5QvHkm33nDPIy0RIJv6T){target="_blank"}{.link-btn}
+[Listen on Spotify](https://open.spotify.com/playlist/6n5QvHkm33nDPIy0RIJv6T){.link-btn}
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6n5QvHkm33nDPIy0RIJv6T?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
@@ -38,7 +38,7 @@ Compiled by Oracle and Bone, Sam’s Mixtape A-Side and B-Side are playlists of 
 
 Oracle and Bone compiled this playlist as a tribute to Anita Mui, who was a major inspiration for A Summer’s End — Hong Kong 1986.
 
-[Listen on Spotify](https://open.spotify.com/playlist/4GJuqiYygMPC3ifNemhCCh){target="_blank"}{.link-btn}
+[Listen on Spotify](https://open.spotify.com/playlist/4GJuqiYygMPC3ifNemhCCh){.link-btn}
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4GJuqiYygMPC3ifNemhCCh?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 

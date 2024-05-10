@@ -59,7 +59,7 @@ For example, for Handmaiden and Female Exile – Disciple and Male Exile Romance
 * 909MAL.mod
 * 950COR.mod
 
-If you cannot find those .mod files in your Modules folder, your issue might be caused by your computer registering two different installation locations for {% cite "KotOR 2" %}. I suggest you check out [this guide on how to make sure your computer recognize the version of {% cite "KotOR 2" %} game where you want to install KotOR 2 mods on](https://steamcommunity.com/sharedfiles/filedetails/?id=779622644){target="_blank"}. While the guide focuses on Steam version of {% cite "KotOR 2" %}, you could edit the registry to make your computer properly recognise the installation location of your {% cite "KotOR 2" %} game.
+If you cannot find those .mod files in your Modules folder, your issue might be caused by your computer registering two different installation locations for {% cite "KotOR 2" %}. I suggest you check out [this guide on how to make sure your computer recognize the version of {% cite "KotOR 2" %} game where you want to install KotOR 2 mods on](https://steamcommunity.com/sharedfiles/filedetails/?id=779622644). While the guide focuses on Steam version of {% cite "KotOR 2" %}, you could edit the registry to make your computer properly recognise the installation location of your {% cite "KotOR 2" %} game.
 
 Here are the default installation locations of {% cite "KotOR 2" %} depending on the game version:
 * Steam (32-bit Windows): [`C:\Program Files\Steam\steamapps\common\Knights of the Old Republic II`]{style="word-break: break-word;"}
@@ -68,7 +68,7 @@ Here are the default installation locations of {% cite "KotOR 2" %} depending on
 * Retail CD (64-bit Windows): [`C:\Program Files (x86)\LucasArts\SWKotOR2\`]{style="word-break: break-word;"}
 * Steam (32-bit Windows): [`C:\GOG Games\Star Wars - KotOR2`]{style="word-break: break-word;"}
 
-If you do not know if you have Windows 64-bit or 32-bit, [refer this article to find out](https://www.lifewire.com/am-i-running-a-32-bit-or-64-bit-version-of-windows-2624475){target="_blank"}.
+If you do not know if you have Windows 64-bit or 32-bit, [refer this article to find out](https://www.lifewire.com/am-i-running-a-32-bit-or-64-bit-version-of-windows-2624475).
 
 ### Will you upload your mods to Steam Workshop?
 
@@ -102,7 +102,7 @@ If you are interested in making a non-English translation or localization of my 
 ### For your {% cite "KotOR 2" %} mods that require The Sith Lords Restored Content Mod (TSLRCM) to work, will you make an alternate version that does not require TSLRCM?
 No, I will not make a no-TSLRCM version of my mods that require TSLRCM to function. TSLRCM is widely agreed by players, including KotOR modders, to be an essential mod for the best experience with {% cite "KotOR 2" %}. Making a non-TSLRCM version of content mod like this would require me to spend extra time to replay {% cite "KotOR 2" %} without TSLRCM, and therefore subjecting myself to a lesser experience with the game, which I consider a massive waste of my time. In general, if you see any {% cite "KotOR 2" %} mod that requires TSLRCM to work (not just my mods), do not expect to see a non-TSLRCM version.
 
-If you are having issues with using TSLRCM, I suggest you report the bugs you encountered and ask for help for solving your issues on the [TSLRCM forum on Deadly Stream](https://deadlystream.com/forum/4-tslrcm/){target="_blank"}.
+If you are having issues with using TSLRCM, I suggest you report the bugs you encountered and ask for help for solving your issues on the [TSLRCM forum on Deadly Stream](https://deadlystream.com/forum/4-tslrcm/).
 
 ### How to install your mods on the Xbox/Android/iOS/Nintendo Switch/any other non-PC version of {% cite "KotOR" %} or {% cite "KotOR 2" %}?
 
@@ -110,11 +110,11 @@ Sorry, **I cannot help directly with modding the KotOR games on any console or m
 
 Some of my mods require TSLPatcher to install to make the mod work properly, especially if you also want to use other mods in addition to my mods and for {% cite "KotOR 2" %}, The Sith Lords Restored Content Mod. Simply copying and pasting files from my mod to your game's directory does NOT guarantee my mod will work as intended, and you may encounter bugs that could possibly game-breaking.
 
-For Android and iOS users, I suggest referring to the [KotOR Community Portal's modding guide](https://kotor.neocities.org/modding/){target="_blank"}, specifically their general instructions in their mobile mod builds. See [this page for {% cite "KotOR 1" %}](https://kotor.neocities.org/modding/mod_builds/k1/full_mobile#General_Instructions){target="_blank"} and [this page for {% cite "KotOR 2" %}](https://kotor.neocities.org/modding/mod_builds/k2/full_mobile#General_Instructions){target="_blank"}.
+For Android and iOS users, I suggest referring to the [KotOR Community Portal's modding guide](https://kotor.neocities.org/modding/), specifically their general instructions in their mobile mod builds. See [this page for {% cite "KotOR 1" %}](https://kotor.neocities.org/modding/mod_builds/k1/full_mobile#General_Instructions) and [this page for {% cite "KotOR 2" %}](https://kotor.neocities.org/modding/mod_builds/k2/full_mobile#General_Instructions).
 
-For Nintendo Switch users, in order to mod the KotOR game on Switch, first you need to hack your Switch or install a modchip in your Switch, then use the [KotOR Switch Modding Framework](https://deadlystream.com/files/file/2102-kotor-switch-modding-framework/){target="_blank"} and [KotOR II Switch Modding Framework](https://deadlystream.com/files/file/2106-kotor-ii-switch-modding-framework/){target="_blank"} to install mods. According to JacqylFrost, the creator of these frameworks, both TSLRCM and my Handmaiden same-geneder romance mod work with the KotOR 2 version of the framework. I suggest you ask JacqylFrost directly if you need help with modding the KotOR games on Switch.
+For Nintendo Switch users, in order to mod the KotOR game on Switch, first you need to hack your Switch or install a modchip in your Switch, then use the [KotOR Switch Modding Framework](https://deadlystream.com/files/file/2102-kotor-switch-modding-framework/) and [KotOR II Switch Modding Framework](https://deadlystream.com/files/file/2106-kotor-ii-switch-modding-framework/) to install mods. According to JacqylFrost, the creator of these frameworks, both TSLRCM and my Handmaiden same-geneder romance mod work with the KotOR 2 version of the framework. I suggest you ask JacqylFrost directly if you need help with modding the KotOR games on Switch.
 
-For Steam Deck users, you may refer to JacqylFrost's [Steam Deck modding guide](https://www.reddit.com/r/kotor/comments/10horqp/steam_deck_modding_including_modbuild/){target="_blank"} on the KotOR subreddit.
+For Steam Deck users, you may refer to JacqylFrost's [Steam Deck modding guide](https://www.reddit.com/r/kotor/comments/10horqp/steam_deck_modding_including_modbuild/) on the KotOR subreddit.
 
 ## Mod Content Questions
 
@@ -122,7 +122,7 @@ For Steam Deck users, you may refer to JacqylFrost's [Steam Deck modding guide](
 
 No. The goal of my same-gender romance mods is not necessary to add new content, but to allow players to experience the pre-existing romance content in the {% cite "KotOR" %} series without the heterosexual gender restrictions. Kissing scenes are beyond the scope of my mods, and I do not necessary have the skills required (such as modelling, animations, etc.) to create them either, especially given how limited the animations in these old games are.
 
-For Carth Onasi and Male PC Romance mod for {% cite "KotOR 1" %}, if you want your male PC to kiss Carth, you may install cjt0202's [Carth Romance Fix](http://www.cjt0202.net/carth_romance.php){target="_blank"} mod, then install the compatibility patch provided in my mod.
+For Carth Onasi and Male PC Romance mod for {% cite "KotOR 1" %}, if you want your male PC to kiss Carth, you may install cjt0202's [Carth Romance Fix](http://www.cjt0202.net/carth_romance.php) mod, then install the compatibility patch provided in my mod.
 
 ### Will you make a romance mod for Canderous/Bao-Dur/Mira/any other character with no romance content in the vanilla game?
 
