@@ -1,6 +1,7 @@
 ---
 articleTitle: "Evidence of Juhani being a Lesbian from Star Wars: Knights of the Old Republic's Game Files"
 date: 2017-07-15
+updated: 2024-05-10
 desc: "Juhani is a canon lesbian character and she has always been intended as such by the developers of Knights of the Old Republic. Here I am presenting evidence from the game files to prove it."
 tags: kotor 1 articles
 categories: ["star wars kotor"]
@@ -12,12 +13,13 @@ The fact that Juhani from Star Wars: Knights of the Old Republic is a canon lesb
 
 Therefore, as a lesbian and someone who has [made mods](/projects/#my-video-game-mods) for the Knights of the Old Republic games and written a [detailed Juhani romance guide](/shrines/starwarskotor/guides/kotor-juhani-romance-guide), I would like to present hard evidence from the game files to point out that **Juhani is in fact a lesbian, a woman who is exclusively attracted to women**.
 
-The most crucial evidence comes from `k_hjuh_dialog.dlg`, Juhani’s main dialogue file which contains all the conversations covered in my Juhani Romance Guide. If you use the [KotOR Tool](https://deadlystream.com/files/file/280-kotor-tool/) to browse the game files, `k_hjuh_dialog.dlg` is under KotOR I > BIFs > templates.bif > Dialog. I recommend using [DLGEditor](https://deadlystream.com/files/file/750-dlg-editor/) to view the .dlg files from KotOR games.
+The most crucial evidence comes from `k_hjuh_dialog.dlg`, Juhani’s main dialogue file which contains all the conversations covered in my Juhani Romance Guide. If you use the [KotOR Tool](https://deadlystream.com/files/file/280-kotor-tool/){target="_blank"} to browse the game files, `k_hjuh_dialog.dlg` is under KotOR I > BIFs > templates.bif > Dialog. I recommend using [DLGEditor](https://deadlystream.com/files/file/750-dlg-editor/){target="_blank"} to view the .dlg files from KotOR games.
 
 Here is a screenshot of my DLGEditor with the most relevant part of the `k_hjuh_dialog.dlg` file:
 
-![A screenshot of Version 2.3.2 of the DLG Editor displaying Juhani's main dialogue file, with the first conversation highlighted](/assets/shrines/starwarskotor/articles/juhani-lesbian-in-game-evidence.png)
-([Click to view the image in its original size](/assets/shrines/starwarskotor/articles/juhani-lesbian-in-game-evidence.png))
+{% imgFigure "/assets/shrines/starwarskotor/articles/juhani-lesbian-in-game-evidence.png", "Screenshot of DLG Editor 2.3.2 displaying Juhani's main dialogue file" %}
+([View the screenshot in its original size](/assets/shrines/starwarskotor/articles/juhani-lesbian-in-game-evidence.png){target="_blank"})
+{% endimgFigure %}
 
 The highlighted dialogue shown in the screenshot (”I feel I must apologize for the way I acted towards you before, in the grove. It was wrong of me.”) is the beginning of your first personal conversation with Juhani after Juhani joins your party. Here is a video of the conversation in question:
 
@@ -48,4 +50,4 @@ Even though the word “lesbian” or “gay” is never used in any of the KotO
 
 In conclusion, **Juhani is a canon lesbian character and has always been intended to be such**.
 
-I would also like to emphasise that **I DO NOT support any mods that make Juhani a romance option for male characters under any circumstances**, because such mods would be erasing the identity of the very first confirmed lesbian character in any Star Wars media. Not to mention, Juhani is the ONLY confirmed LGBTQ+ character in the entire KotOR series (Belaya from KotOR 1 and Luxa from KotOR 2 are heavily implied to be gay or bisexual, but their sexuality is never confirmed). Please respect LGBTQ+ representation and the identities of canon LGBTQ+ characters.
+I would also like to emphasise that **I DO NOT support any mods that make Juhani a romance option for male characters under any circumstances**, because such mods would be erasing the identity of the very first confirmed lesbian character in any Star Wars media. Not to mention, Juhani is the ONLY confirmed LGBTQ+ character in the entire KotOR series (Belaya from KotOR 1 and Luxa from KotOR 2 are heavily implied to be gay or bisexual, but their sexuality is never confirmed). Please respect LGBTQ+ representation and the identities of canon LGBTQ+ characters. You can read more about my stance on this matter in my other article: [Keep Juhani a Lesbian and Keep Juhani's Romance Exclusive to Female Characters](../keep-juhani-a-lesbian/).
