@@ -46,7 +46,7 @@ module.exports = function (eleventyConfig) {
         day: 'numeric',
     };
     const dateTimeLocale = new Intl.DateTimeFormat("en-GB", dateOptions);
-    eleventyConfig.addFilter("niceDate", function(date) {
+    eleventyConfig.addFilter("formatDate", function(date) {
         return dateTimeLocale.format(date);
     });
 

@@ -19,7 +19,7 @@ eleventyNavigation:
 <article>
     <h2>Latest Changelogs</h2>
     {% for log in changelogs %}
-        <h3 class="date-style">{{ log.data.date | niceDate }}</h3>
+        <h3 class="date-style">{{ log.data.date | formatDate }}</h3>
         {{ log.templateContent | safe }}
     {%- endfor %}
 </article>

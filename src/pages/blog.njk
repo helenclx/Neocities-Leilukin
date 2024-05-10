@@ -26,7 +26,7 @@ eleventyNavigation:
                     {% endif %}
                 </a>
             </h2>
-            <time>{{ post.date | niceDate }}</time>
+            <time>{{ post.date | formatDate }}</time>
             <p>{{ post.data.desc }}</p>
         </li>
     {% endfor %}

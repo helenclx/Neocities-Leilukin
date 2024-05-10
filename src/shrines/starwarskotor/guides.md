@@ -18,7 +18,7 @@ eleventyNavigation:
     {%- for article in collections["kotor guides"] -%}
         <li>
             <p><a href="{{ article.url }}">{{ article.data.articleTitle }}</a></p>
-            <time>{{ article.date | niceDate }}</time>
+            <time>{{ article.date | formatDate }}</time>
         </li>
     {%- endfor -%}
 </ul>

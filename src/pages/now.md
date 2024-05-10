@@ -9,7 +9,7 @@ eleventyNavigation:
     order: 3
 ---
 
-*This page was last updated on {{ updated | niceDate }}.*
+*This page was last updated on {{ updated | formatDate }}.*
 
 This is my [/now page](https://nownownow.com/about). You can find more pages like this at [nownownow.com](https://nownownow.com/).
 

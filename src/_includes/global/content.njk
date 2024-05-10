@@ -13,9 +13,9 @@
     {% if isArticle %}
         <h1>{{ articleTitle }}</h1>
         <div class="article__info">
-            <p>Posted on {{ date | niceDate }} by {{ sitemeta.siteAuthor.name }}
+            <p>Posted on {{ date | formatDate }} by {{ sitemeta.siteAuthor.name }}
             {% if updated %}
-                • Last updated on {{ updated | niceDate }}</p>
+                • Last updated on {{ updated | formatDate }}</p>
             {% endif %}
             {% if categories %}
                 <p>Categories:
