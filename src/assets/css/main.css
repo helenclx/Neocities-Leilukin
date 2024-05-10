@@ -37,6 +37,7 @@
     --ff-primary: 'Noto Sans';
 
     --sz-paragraph-margin: 1.15em;
+    --sz-main-padding: clamp(1rem, 5%, 4rem);
 }
 
 /* ------------------- */
@@ -291,11 +292,11 @@ main {
 .article,
 .content:not(.content--divided),
 .content__section {
-    padding: 1.5rem clamp(1rem, 5%, 3rem);
+    padding: 1.5rem var(--sz-main-padding);
 }
 
 .main__header {
-    padding: 2.5rem clamp(1rem, 5%, 3rem);
+    padding: 2.5rem var(--sz-main-padding);
     text-align: center;
     display: grid;
 }
@@ -332,8 +333,9 @@ main {
 /* Desktop main content layout */
 @media only screen and (min-width: 60rem) {
     .content__wrapper {
+        padding: 0 var(--sz-main-padding);
         grid-template-areas: 'leftbar article rightbar';
-        grid-template-columns: minmax(0, 15rem) minmax(0, 2.5fr) minmax(0, 15rem);
+        grid-template-columns: minmax(0, 20%) minmax(0, 2.5fr) minmax(0, 20%);
     }
 
     .article,
@@ -347,12 +349,6 @@ main {
 
     .right-sidebar {
         grid-area: rightbar;
-    }
-}
-
-@media only screen and (min-width: 80rem) {
-    .content__wrapper {
-        max-width: 80rem;
     }
 }
 
