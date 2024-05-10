@@ -1,5 +1,9 @@
 {% extends "global/baselayout.njk" %}
 
+{% block customCSS %}
+    <link rel="stylesheet" href="{{'/assets/css/pridesymbols.css' | url | safe}}">
+{% endblock %}
+
 {% block hero %}{% include "main/hero.njk" %}{% endblock %}
 {% block navbar %}{% include "main/navbar.njk" %}{% endblock %}
 {% block footer %}{% include "main/footer.njk" %}{% endblock %}

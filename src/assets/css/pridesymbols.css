@@ -1,0 +1,199 @@
+/* Pride flag backgrounds */
+.flag-rainbow {
+	background: linear-gradient(
+		#e40303 0 16.67%,
+		#ff8c00 0 33.33%,
+		#ffed00 0 50%,
+		#008026 0 66.67%,
+		#004dff 0 83.33%,
+		#750787 0 100%
+	);
+}
+
+.flag-lesbian {
+	background: linear-gradient(
+		#d52d00 0 14.29%,
+		#ef7627 0 28.57%,
+		#ff9a56 0 42.86%,
+		#ffffff 0 57.14%,
+		#d362a4 0 71.43%,
+		#b85490 0 86.71%,
+		#a30262 0 100%
+	);
+}
+
+.flag-bi {
+	background: linear-gradient(
+		#d60270 0 40%,
+		#9b4f97 0 60%,
+		#0038a7 0 100%
+	);
+}
+
+.flag-trans {
+	background: linear-gradient(
+		#5bcefa 0 20%,
+		#f5a9b8 0 40%,
+		#ffffff 0 60%,
+		#f5a9b8 0 80%,
+		#5bcefa 0 100%
+	);
+}
+
+.flag-intersex {
+	background: radial-gradient(closest-side circle at center,
+		#ffd800 44%,
+		#7902aa 44%,
+		#7902aa 56%,
+		#ffd800 56%
+	);
+}
+
+.flag-ace {
+	background: linear-gradient(
+		#000000 0 25%,
+		#a3a3a3 0 50%,
+		#ffffff 0 75%,
+		#800080 0 100%
+	);
+}
+
+.flag-aro {
+    background: linear-gradient(
+        #0a2 20%,
+        #7d6 0 40%,
+        white 0 60%,
+        darkgray 0 80%,
+        black 0
+    );
+}
+
+.flag-non-binary {
+	background: linear-gradient(
+		#fff430 0 25%,
+		#ffffff 0 50%,
+		#9c59d1 0 75%,
+		#000000 0 100%
+	);
+}
+
+.flag-pan {
+	background: linear-gradient(
+		#ff218c 0 33.33%,
+		#ffd800 0 66.67%,
+		#21b1ff 0 100%
+	);
+}
+
+.flag-genderfluid {
+	background: linear-gradient(
+		#ff76a4 0 20%,
+		#ffffff 0 40%,
+		#c011d7 0 60%,
+		#000000 0 80%,
+		#2f3cbe 0 100%
+	);
+}
+
+.flag-agender {
+    background: linear-gradient(
+        black 0 14.28%,
+        silver 0 28.57%,
+        white 0 42.85%,
+        #a3fa73 0 57.14%,
+        white 0 71.42%,
+        silver 0 85.71%,
+        black 0
+    );
+}
+
+.flag-demigirl {
+    background: linear-gradient(
+        #7F7F7F 0 14.28%,
+        #C4C4C4 0 28.57%,
+        #FDADC8 0 42.85%,
+        white 0 57.14%,
+        #FDADC8 0 71.42%,
+        #C4C4C4 0 85.71%,
+        #7F7F7F 0
+    );
+}
+
+.flag-bigender {
+    background: linear-gradient(
+        #d074a2 0 14.28%,
+        #f8a1cd 0 28.57%,
+        #d9c6ea 0 42.85%,
+        white 0 57.14%,
+        #d9c6ea 0 71.42%,
+        #90c8ec 0 85.71%,
+        #6583d5 0
+    );
+}
+
+.flag-gilbert-baker {
+    background: linear-gradient(
+        #FF6599 12.5%,
+        #e40303 0 25%,
+        #ff8c00 0 37.5%,
+        #ffed00 0 50%,
+        #008026 0 62.5%,
+        #00C0C0 0 75%,
+        #004dff 0 87.5%,
+        #750787 0
+    );
+}
+
+.flag-gilbert-baker-2017 {
+    background: linear-gradient(
+        #CD66FF 11.1%,
+        #FF6599 0 22.2%,
+        #e40303 0 33.3%,
+        #ff8c00 0 44.4%,
+        #ffed00 0 55.5%,
+        #008026 0 66.6%,
+        #00C0C0 0 77.7%,
+        #004dff 0 88.8%,
+        #750787 0
+    );
+}
+
+.flag-progress {
+	background:
+        conic-gradient(at 14% 50%, #0000 221.25deg, #ffffff 222deg 318deg, #0000 318.25deg),
+        conic-gradient(at 23% 50%, #0000 221.25deg, #f5a9b8 222deg 318deg, #0000 318.25deg),
+        conic-gradient(at 32% 50%, #0000 221.25deg, #5bcefa 222deg 318deg, #0000 318.25deg),
+        conic-gradient(at 41% 50%, #0000 221.25deg, #784F17 222deg 318deg, #0000 318.25deg),
+        conic-gradient(at 50% 50%, #0000 221.25deg, black 222deg 318deg, #0000 318.25deg),
+        linear-gradient(#e40303 0 16.66%, #ff8c00 0 33.33%, #ffed00 0 50%, #008026 0 66.66%, #004dff 0 83.33%, #750787 0);
+}
+
+.flag-progress-intersex {
+    background:
+        radial-gradient(circle at 9.75% 50%, #0000 6.66%, #7902aa 6.7% 8.33%, #0000 8.4%),
+        conic-gradient(at 26.66% 50%, #0000 222.75deg, #ffd800 0 317.25deg, #0000 0),
+        conic-gradient(at 33% 50%, #0000 222.75deg, #ffffff 0 317.25deg, #0000 0),
+        conic-gradient(at 39% 50%, #0000 222.75deg, #f5a9b8 0 317.25deg, #0000 0),
+        conic-gradient(at 45.66% 50%, #0000 222.75deg, #5bcefa 0 317.25deg, #0000 0),
+        conic-gradient(at 52% 50%, #0000 222.75deg, #753000 0 317.25deg, #0000 0),
+        conic-gradient(at 58.33% 50%, #0000 222.75deg, #000 0 317.25deg, #0000 0),
+        linear-gradient(#e40303 0 16.66%, #ff8c00 0 33.33%, #ffed00 0 50%, #008026 0 66.66%, #004dff 0 83.33%, #750787 0);
+}
+
+.flag-progress-intersex-lesbian {
+    background:
+        radial-gradient(circle at 9.75% 50%, #0000 6.66%, #7902aa 6.7% 8.33%, #0000 8.4%),
+        conic-gradient(at 26.66% 50%, #0000 222.75deg, #ffd800 0 317.25deg, #0000 0),
+        conic-gradient(at 33% 50%, #0000 222.75deg, #ffffff 0 317.25deg, #0000 0),
+        conic-gradient(at 39% 50%, #0000 222.75deg, #f5a9b8 0 317.25deg, #0000 0),
+        conic-gradient(at 45.66% 50%, #0000 222.75deg, #5bcefa 0 317.25deg, #0000 0),
+        conic-gradient(at 52% 50%, #0000 222.75deg, #753000 0 317.25deg, #0000 0),
+        conic-gradient(at 58.33% 50%, #0000 222.75deg, #000 0 317.25deg, #0000 0),
+        linear-gradient(#d52d00 0 14.29%, #ef7627 0 28.57%, #ff9a56 0 42.86%, #ffffff 0 57.14%, #d362a4 0 71.43%, #b85490 0 86.71%, #a30262 0 100%);
+}
+
+.symbol-venus {
+	background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='12pt' height='12pt' viewBox='0 0 12 12' version='1.1'%3E%3Cg id='surface1'%3E%3Cpath style='fill:none;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(35.15%25,0%25,64.85%25);stroke-opacity:1;stroke-miterlimit:10;' d='M 85 85 C 85 98.789062 73.789062 110 60 110 C 46.210938 110 35 98.789062 35 85 C 35 71.210938 46.210938 60 60 60 C 73.789062 60 85 71.210938 85 85 Z M 85 85 ' transform='matrix(0.1,0,0,-0.1,0,12)'/%3E%3Cpath style='fill:none;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(35.15%25,0%25,64.85%25);stroke-opacity:1;stroke-miterlimit:10;' d='M 60 10 L 60 60 ' transform='matrix(0.1,0,0,-0.1,0,12)'/%3E%3Cpath style='fill:none;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(35.15%25,0%25,64.85%25);stroke-opacity:1;stroke-miterlimit:10;' d='M 35 35 L 85 35 ' transform='matrix(0.1,0,0,-0.1,0,12)'/%3E%3C/g%3E%3C/svg%3E");
+	background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
