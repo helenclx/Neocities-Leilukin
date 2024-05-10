@@ -133,12 +133,10 @@
 
 </script>
         <nav class="navbar">
-    <div class="navbar__header">
-        <button class="navbar__toggle" aria-label="Navigation menu toggle">
-            <i class="fa-solid fa-bars"></i>
-        </button>
+    <button class="navbar__toggle" aria-label="Navigation menu toggle">
+        <i class="fa-solid fa-bars"></i>
         <h2 class="navbar__title">Navigation</h2>
-    </div>
+    </button>
     <ul class="navbar__links">
         
     
@@ -178,29 +176,25 @@
         top: 0;
     }
 
-    .navbar__header {
-        display: flex;
-        align-items: center;
-        gap: 0.8em;
+    .navbar__toggle,
+    .navbar__title {
+        color: var(--clr-navbar-link);
+        font-size: 1.3rem;
     }
 
     .navbar__toggle {
+        display: flex;
+        align-items: center;
+        gap: 0.5em;
         border: none;
         padding: 0;
         margin: 0;
-        font-size: 1.3rem;
         background-color: inherit;
-        color: var(--clr-navbar-link);
     }
 
     .navbar__toggle:focus,
     .navbar a:focus {
         outline: 0.15em solid var(--clr-navbar-link);
-    }
-
-    .navbar__title {
-        font-size: 1.3rem;
-        color: var(--clr-navbar-link);
     }
 
     .navbar a {
@@ -235,7 +229,7 @@
             padding: 0 0.6em;
         }
 
-        .navbar__header {
+        .navbar__toggle {
             display: none;
         }
 
