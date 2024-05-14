@@ -4,7 +4,7 @@
     <subtitle>Leilukin&#39;s personal website.</subtitle>
     <link href="https://leilukin.neocities.org/feed.xml" rel="self"/>
     <link href="https://leilukin.neocities.org"/>
-    <updated>2024-05-14T15:32:57Z</updated>
+    <updated>2024-05-14T16:58:09Z</updated>
     <id>https://leilukin.neocities.org</id>
     <author>
         <name>Leilukin</name>
@@ -18,6 +18,7 @@
             <id>https://leilukin.neocities.org/</id>
             <content type="html">&lt;ul&gt;
 &lt;li&gt;New blog post: &lt;a href=&quot;https://leilukin.neocities.org/blog/posts/2024-05-14-james-somerton-my-vide-game-footage&quot;&gt;James Somerton Used My Video Game Footage Without Credit or Permission&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Replace 123Guestbook guestbook with a &lt;a href=&quot;https://leilukin.neocities.org/guestbook&quot;&gt;guestbook page&lt;/a&gt;, as 123Guestbook will be shutting down on 1 July 2024.&lt;/li&gt;
 &lt;/ul&gt;
 </content>
         </entry>
