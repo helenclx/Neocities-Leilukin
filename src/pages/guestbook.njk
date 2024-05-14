@@ -22,7 +22,7 @@ eleventyNavigation:
         comments_header: 'Guestbook',
         name_label: 'Name',
         content_label: 'Enter your message here',
-        submit: 'Send',
+        submit: 'Send Message',
         logout_link: '<img title="log out" src="https://www.htmlcommentbox.com/static/images/door_out.svg" alt="[logout]" class="hcb-icon hcb-door-out"/>',
         admin_link: '<img src="https://www.htmlcommentbox.com/static/images/door_in.svg" alt="[login]" class="hcb-icon hcb-door-in"/>',
         no_comments_msg: 'No one has left any message yet. Be the first!',
@@ -101,21 +101,34 @@ eleventyNavigation:
 </script>
 
 <style>
-    #HCB_comment_box form {
-        display: grid;
-        gap: 0.3em;
-        margin: 1.3rem 0;
-    }
-
-    #HCB_comment_box #hcb_form textarea, #HCB_comment_box #hcb_form #hcb_form_name {
-        font-family: inherit;
-        font-size: 1.2rem;
-    }
-
     #HCB_comment_box {
         height: auto;
         font-family: inherit;
         font-size: 1.2rem;
+    }
+
+    #HCB_comment_box form {
+        display: grid;
+        gap: 0.3em;
+        margin: 1rem 0 1.3rem;
+    }
+
+    #HCB_comment_box #hcb_form textarea,
+    #HCB_comment_box #hcb_form #hcb_form_name {
+        width: 100%;
+        font-family: inherit;
+        font-size: 1.2rem;
+    }
+
+    #HCB_comment_box #hcb_form #replying_to_container,
+    #HCB_comment_box .date {
+        font-size: 0.9rem;
+        color: var(--clr-body-txt);
+    }
+
+    #HCB_comment_box #hcb_form textarea:focus,
+    #HCB_comment_box #hcb_form #hcb_form_name:focus {
+        outline: 0.25em solid var(--clr-link);
     }
 
     #HCB_comment_box #hcb_form .btn,
@@ -123,6 +136,22 @@ eleventyNavigation:
         background: var(--clr-link-btn-bg);
         color: var(--clr-link-btn-txt);
         font-size: 1.2rem;
+    }
+
+    #HCB_comment_box #hcb_form .btn:focus,
+    #HCB_comment_box #HCB_comment_form_box .btn:focus {
+        outline: 0.15em solid var(--clr-link-btn-txt);
+    }
+
+    #HCB_comment_box #hcb_form .home-desc a,
+    #HCB_comment_box .home-desc a:visited,
+    #HCB_comment_box .hcb-comment-tb button {
+        color: var(--clr-link);
+    }
+
+    #HCB_comment_box #hcb_form .home-desc a,
+    #HCB_comment_box .home-desc a:visited {
+        text-decoration: underline;
     }
 </style>
 <!-- end www.htmlcommentbox.com -->
