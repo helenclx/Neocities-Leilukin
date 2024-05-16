@@ -30,7 +30,7 @@ As for Somerton's "Video Games and the Choice to be Gay" video itself, my initia
 >
 > I also strongly agree with him about the importance of us LGBTQ+ gamers supporting indie queer developers and their work, instead of relying on mainstream video games (and mainstream media in general) for queer representation.
 
-That said, I did not bring up the fact that Somerton used my {% cite "KotOR" %} footage to my friend.
+That said, I did not bring up the fact that Somerton used my {% cite "KotOR" %} footage to my friend back then.
 
 As mentioned above, "Video Games and the Choice to be Gay" was the first and only James Somerton video I have ever watched. I did not subscribe to Somerton's channel, nor did I have the time nor enough interest to watch any other Somerton's videos. No YouTubers I followed referenced Somerton's videos or were associated with him, and no one in my social media circles talked about him either. Therefore, after watching "Video Games and the Choice to be Gay" in November 2021, Somerton simply went off of my radar until his plagiarism scandal broke out in December 2023.
 
