@@ -2,12 +2,13 @@
 articleTitle: James Somerton Used My Video Game Footage Without Credit or Permission
 desc: "James Somerton used one of my Star Wars: Knights of the Old Republic footage in one of his videos without credit or permission."
 date: 2024-05-14
+updated: 2024-05-17
 categories: ["youtube"]
 ---
 
 It has been five months since Hbomberguy released his ["Plagiarism and You(Tube)"](https://www.youtube.com/watch?v=yDp3cB5fHXQ) video essay on 2 December 2023, which [set off a YouTube plagiarism scandal](https://trending.knowyourmeme.com/editorials/guides/whats-up-with-hbomberguy-setting-off-a-youtube-plagiarism-scandal-the-internet-historian-and-james-somerton-controversies-explained), with another YouTuber [James Somerton](https://knowyourmeme.com/memes/events/hbomberguy-vs-james-somerton-plagiarism-scandal) being the main focus of Hbomberguy's video essay. I do not write this post to recap or rehash the entire James Somerton debacle. Instead, I want to talk about something personal related to one of James Somerton's videos — **James Somerton had used one of my video game footage in one of his videos without crediting me or asking for my permission**.
 
-On 5 November 2021, James Somerton released a video essay on his YouTube channel titled "Video Games and the Choice to be Gay". As of this writing, the video has been made private, but Somerton's videos have been [archived on the Internet Archive](https://archive.org/details/james-somerton-youtube-2023-12-03), so you can still watch "Video Games and the Choice to be Gay" directly [on the Internet Archive](https://dn720001.ca.archive.org/0/items/james-somerton-youtube-2023-12-03/20211105%20TQNKEkrPEfI%20Video%20Games%20and%20the%20Choice%20to%20be%20Gay.mp4). Alternately, you can watch the video through one of the [Wayback Machine snapshots](https://web.archive.org/web/20230000000000*/https://www.youtube.com/watch?v=TQNKEkrPEfI).
+On 5 November 2021, James Somerton released a video essay on his YouTube channel titled "Video Games and the Choice to be Gay". As of this writing, the video has been made private, but Somerton's videos have been [archived on the Internet Archive](https://archive.org/details/james-somerton-public-records), so you can still watch "Video Games and the Choice to be Gay" directly [on the Internet Archive](https://ia601208.us.archive.org/34/items/james-somerton-public-records/Video%20Games%20and%20the%20Choice%20to%20be%20Gay.ia.mp4). Alternately, you can watch the video through one of the [Wayback Machine snapshots](https://web.archive.org/web/20230000000000*/https://www.youtube.com/watch?v=TQNKEkrPEfI).
 
 I first discovered "Video Games and the Choice to be Gay" through a {% cite "Dragon Age" %} fan blog on Tumblr shortly after the video was published. The video piqued my interest because LGBTQ+ representation in video games is relevant to me as a queer, non-binary lesbian gamer, and the video games discussed in Somerton's video included {% cite "Star Wars: Knights of the Old Republic" %}, {% cite "Dragon Age" %} and {% cite "Mass Effect" %}, which was also relevant to me since I used to be a huge fan of BioWare games. As a result, "Video Games and the Choice to be Gay" ended up being the first and only James Somerton video I have actually watched.
 
@@ -17,7 +18,7 @@ Specifically, the clip from Somerton's video at the timestamp from 12:09 to 12:1
 
 Here is a back-to-back comparison between the clips from my original footage and Somerton's video respectively, proving the clip from Somerton's video was originally from my footage:
 
-https://www.youtube.com/watch?v=RCuwNaOEZW8
+https://www.youtube.com/watch?v=hYyq_hzIIKI
 
 I immediately recognised my clip through the appearance of the female player character and her outfit, which was from the [Segan Wyndh Jedi Armor mod](https://deadlystream.com/files/file/90-segan-wyndh-jedi-armor/). Furthermore, there are not many videos about Juhani's romance out there, so the player character's appearance, which can vary depending on how the player customises their character in the character creator or with mods, in Somerton's video only stood out to me even more. My footage of Juhani's love confession was part of my [Juhani romance and conversation video series](https://www.youtube.com/playlist?list=PL5z8DZr8LSLHZkdhBxGadvvaHlolKa-Vd), to compliment my [Juhani romance guide](/shrines/starwarskotor/guides/kotor-juhani-romance-guide/), which I am still proud to say is *the* most comprehensive guide about Juhani's romance on the internet.
 
@@ -43,3 +44,5 @@ I felt guilty about giving Somerton credit for Verity's takes about queer repres
 The final push for me to write this post, was seeing Verity crediting the source of the gameplay footage featured in "Hοѡ Biѕeхυаlity Chaոɡeԁ Video Gaⅿes", as well as listening to them and their co-writer Ada Černoša talking about Somerton's lack of gameplay footage in "Video Games and the Choice to be Gay", doubting the gameplay footage in the video are his own, and that recording gameplay footage take time and effort. This made Somerton's usage of my video game footage without credit leave a more sour taste in my mouth, enough that I decided to, at last, talk about this and confirm that James Somerton had indeed used someone else's gameplay footage without credit or permission, with I being at least one of that someone else.
 
 I do not expect anything from writing this post. James Somerton has destroyed his own reputation and internet career at this point without my help, so I merely just want to get Somerton's uncredited usage of my video game footage off my chest after being hesitant to bring it up since 2021.
+
+*(Update, 17 May 2024: Replaced the links to my comparison video and Internet Archive's James Somerton video archive to ones with higher quality videos)*
