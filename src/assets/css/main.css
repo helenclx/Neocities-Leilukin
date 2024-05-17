@@ -414,6 +414,11 @@ main {
     font-size: var(--sz-h3);
 }
 
+.footnotes-list {
+    display: grid;
+    gap: 0.3em;
+}
+
 .footnotes-list :target {
     background-color: var(--clr-quote-bg);
 }
