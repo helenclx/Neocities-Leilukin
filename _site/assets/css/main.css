@@ -396,6 +396,11 @@ main {
     margin-right: 0.3em;
 }
 
+/* FOOTNOTES */
+.footnotes-list :target {
+    background-color: var(--clr-quote-bg);
+}
+
 /* SPECIAL ELEMENTS */
 .text-box {
     background: var(--clr-quote-bg);
