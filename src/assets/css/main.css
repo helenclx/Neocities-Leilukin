@@ -36,6 +36,9 @@
 
     --ff-primary: 'Noto Sans';
 
+    --sz-h1: clamp(2rem, 1rem + 5vw, 3rem);
+    --sz-h2: clamp(1.55rem, 1rem + 3vw, 2.15rem);
+    --sz-h3: clamp(1.55rem, 1rem + 3vw, 1.8rem);
     --sz-paragraph-margin: 1.15em;
     --sz-main-padding: clamp(1rem, 5%, 4rem);
 }
@@ -136,7 +139,7 @@ body {
 
 h1 {
     color: var(--clr-main-heading);
-    font-size: clamp(2rem, 1rem + 5vw, 3rem);
+    font-size: var(--sz-h1);
     border-bottom: 0.18rem solid var(--clr-title-border);
     padding-bottom: 0.3em;
     margin-bottom: 0.5em;
@@ -151,11 +154,11 @@ h1, h2, h3 {
 }
 
 h2, .h2 {
-    font-size: clamp(1.55rem, 1rem + 3vw, 2.15rem);
+    font-size: var(--sz-h2);
 }
 
 h3, .h3 {
-    font-size: clamp(1.55rem, 1rem + 3vw, 1.8rem);
+    font-size: var(--sz-h3);
 }
 
 h2:has(+ *[class]), .h2:has(+ *[class]),
@@ -397,6 +400,16 @@ main {
 }
 
 /* FOOTNOTES */
+.footnotes {
+    margin-top: 3em;
+    border-top: 0.15em solid var(--clr-title-border);
+}
+
+.footnotes__title,
+.footnotes__title + .heading-anchor {
+    font-size: var(--sz-h3);
+}
+
 .footnotes-list :target {
     background-color: var(--clr-quote-bg);
 }

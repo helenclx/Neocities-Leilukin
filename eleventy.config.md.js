@@ -76,9 +76,11 @@ module.exports = function (eleventyConfig) {
 
     // Configure markdown-it-footnote
     markdownLibrary.renderer.rules.footnote_block_open = () => (
-        '<hr class="footnotes-sep">\n' +
         '<section class="footnotes">\n' +
-        '<h2>Footnotes</h2>\n' +
+        `<div class="heading-wrapper h2">
+            <h2 id="footnotes" class="footnotes__title">Footnotes</h2>
+            <a class="heading-anchor" href="#footnotes" aria-labelledby="footnotes"><span hidden="">#</span></a>
+        </div>\n` +
         '<ol class="footnotes-list">\n'
     );
 
