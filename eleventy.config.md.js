@@ -71,7 +71,16 @@ module.exports = function (eleventyConfig) {
         .use(require("markdown-it-attribution"))
         .use(require("markdown-it-attrs"))
         .use(require("markdown-it-bracketed-spans"))
-        .use(require("markdown-it-deflist"));
+        .use(require("markdown-it-deflist"))
+        .use(require('markdown-it-footnote'));
+
+    // Configure markdown-it-footnote
+    markdownLibrary.renderer.rules.footnote_block_open = () => (
+        '<hr class="footnotes-sep">\n' +
+        '<h2>Footnotes</h2>\n' +
+        '<section class="footnotes">\n' +
+        '<ol class="footnotes-list">\n'
+    );
 
     // Paired shortcode: custom container
     eleventyConfig.addPairedShortcode('container', (children, el, className) => {
