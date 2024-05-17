@@ -421,6 +421,7 @@ main {
 
 .footnotes-list :target {
     background-color: var(--clr-quote-bg);
+    outline: 0.1em dashed var(--clr-title-border);
 }
 
 /* SPECIAL ELEMENTS */
