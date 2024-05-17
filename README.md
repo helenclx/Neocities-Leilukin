@@ -13,7 +13,8 @@ Source code of my personal and hobby website, [Leilukin's Hub](https://leilukin.
 - [markdown-it-attribution](https://www.npmjs.com/package/markdown-it-attribution)
 - [markdown-it-attrs](https://www.npmjs.com/package/markdown-it-attrs)
 - [markdown-it-bracketed-spans](https://www.npmjs.com/package/markdown-it-bracketed-spans)
-- [markdown-it-deflist](https://github.com/markdown-it/markdown-it-deflist)
+- [markdown-it-deflist](https://www.npmjs.com/package/markdown-it-deflist)
+- [markdown-it-footnote](https://www.npmjs.com/package/markdown-it-footnote)
 - [Table of Contents (nesting) Eleventy Plugin](https://www.npmjs.com/package/eleventy-plugin-nesting-toc)
 
 ## Self-hosted Assets
