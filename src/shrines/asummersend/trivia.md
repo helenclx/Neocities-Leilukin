@@ -29,23 +29,27 @@ Michelle Cheung's Chinese name is 張鳳霞, while Sam Wong's Chinese name is �
 
 ### Birthdays
 
-* Michelle: February 16 [\[Source\]](https://oracleandbone.tumblr.com/post/643241885438197760/spring-day-february-16-is-michelles-birthday)
-* Sam: December 28 [\[Source\]](https://oracleandbone.tumblr.com/post/638707575113891840/hit-rewind-december-28-is-sams-birthday-happy)
-* Cecelia: August 9 [\[Source\]](https://oracleandbone.tumblr.com/post/625985188093214720/%E9%BB%91%E5%A4%9C%E7%9A%84%E8%B1%B9-night-leopard-august-9-is-cecilias-birthday)
+* Michelle: February 16^[[Oracle and Bone's art for Michelle's Birthday](https://oracleandbone.tumblr.com/post/643241885438197760/spring-day-february-16-is-michelles-birthday) on 16 February 2021]
+* Sam: December 28^[[Oracle and Bone's art for Sam's Birthday](https://oracleandbone.tumblr.com/post/638707575113891840/hit-rewind-december-28-is-sams-birthday-happy) on 28 December 2020]
+* Cecelia: August 9^[[Oracle and Bone's art for Cecelia's Birthday](https://oracleandbone.tumblr.com/post/625985188093214720/%E9%BB%91%E5%A4%9C%E7%9A%84%E8%B1%B9-night-leopard-august-9-is-cecilias-birthday) on 9 August 2020]
 
 ### Zodiac Signs
 
-* Michelle: Aquarius [\[Source\]](https://oracleandbone.tumblr.com/post/616522957953679360/hey-what-zodiac-signs-are-sam-michelle)
-* Sam: Capricorn [\[Source\]](https://oracleandbone.tumblr.com/post/616522957953679360/hey-what-zodiac-signs-are-sam-michelle)
-* Cecilia: Leo [\[Source\]](https://oracleandbone.tumblr.com/post/616522957953679360/hey-what-zodiac-signs-are-sam-michelle)
-* Joey: Cancer [\[Source\]](https://oracleandbone.tumblr.com/post/616711590970081280/hey-its-the-anon-that-asked-about-the-zodiac)
+* Michelle: Aquarius[^michelle-sam-cecelia-zodiac]
+* Sam: Capricorn[^michelle-sam-cecelia-zodiac]
+* Cecilia: Leo[^michelle-sam-cecelia-zodiac]
+* Joey: Cancer^[[Oracle and Bone's Tumblr post](https://oracleandbone.tumblr.com/post/616711590970081280/hey-its-the-anon-that-asked-about-the-zodiac) on 29 April 2020]
+
+[^michelle-sam-cecelia-zodiac]: [Oracle and Bone's Tumblr post](https://oracleandbone.tumblr.com/post/616522957953679360/hey-what-zodiac-signs-are-sam-michelle) on 27 April 2020
 
 ### Myers–Briggs Type Indicator
 
-* Michelle: ISTJ [\[Source\]](https://oracleandbone.tumblr.com/post/622234880967950336/hey-first-of-all-i-just-wanted-to-say-i-adore-a)
-* Sam: ESFP [\[Source\]](https://oracleandbone.tumblr.com/post/622234880967950336/hey-first-of-all-i-just-wanted-to-say-i-adore-a)
-* Cecelia: ESTJ [\[Source\]](https://oracleandbone.tumblr.com/post/622234880967950336/hey-first-of-all-i-just-wanted-to-say-i-adore-a)
+* Michelle: ISTJ[^mbti]
+* Sam: ESFP[^mbti]
+* Cecelia: ESTJ[^mbti]
+
+[^mbti]: [Oracle and Bone's Tumblr post](https://oracleandbone.tumblr.com/post/622234880967950336/hey-first-of-all-i-just-wanted-to-say-i-adore-a) on 29 June 2020
 
 ### Inspirations
 
-* The character and fashion of Cecelia has been largely inspired by Anita Mui. [\[Source\]](https://oracleandbone.tumblr.com/post/659052064213696512/%E7%83%88%E7%84%B0%E7%B4%85%E5%94%87-august-9-is-cecilias-birthday-happy)
+* The character and fashion of Cecelia has been largely inspired by Anita Mui.^[[Oracle and Bone's art for Cecelia's birthday](https://oracleandbone.tumblr.com/post/659052064213696512/%E7%83%88%E7%84%B0%E7%B4%85%E5%94%87-august-9-is-cecilias-birthday-happy) on 9 August 2021]
