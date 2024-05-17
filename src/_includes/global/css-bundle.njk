@@ -1,0 +1,5 @@
+{% set cssFiles = ["main"]%}
+
+{% for file in cssFiles %}
+<link rel="stylesheet" href="{{'/assets/css/' + file + '.css' | url | safe}}">
+{% endfor %}
