@@ -77,8 +77,8 @@ module.exports = function (eleventyConfig) {
     // Configure markdown-it-footnote
     markdownLibrary.renderer.rules.footnote_block_open = () => (
         '<hr class="footnotes-sep">\n' +
-        '<h2>Footnotes</h2>\n' +
         '<section class="footnotes">\n' +
+        '<h2>Footnotes</h2>\n' +
         '<ol class="footnotes-list">\n'
     );
 
