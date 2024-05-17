@@ -82,6 +82,17 @@ module.exports = function (eleventyConfig) {
         '<ol class="footnotes-list">\n'
     );
 
+    const renderRules = {
+        footnote_caption: ['[', '[<span class="visually-hidden">Footnote </span>'],
+        footnote_anchor: ['<a', '<a aria-label="Back to content"'],
+    };
+    Object.keys(renderRules).map(rule => {
+        let defaultRender = markdownLibrary.renderer.rules[rule];
+        markdownLibrary.renderer.rules[rule] = (tokens, idx, options, env, self) => {
+            return defaultRender(tokens, idx, options, env, self).replace(...renderRules[rule]);
+        }
+    });
+
     // Paired shortcode: custom container
     eleventyConfig.addPairedShortcode('container', (children, el, className) => {
         const classMarkup = className ? ` class="${className}"` : "";
