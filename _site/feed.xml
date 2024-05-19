@@ -4,12 +4,23 @@
     <subtitle>Leilukin&#39;s personal website.</subtitle>
     <link href="https://leilukin.neocities.org/feed.xml" rel="self"/>
     <link href="https://leilukin.neocities.org"/>
-    <updated>2024-05-19T14:30:03Z</updated>
+    <updated>2024-05-19T14:33:20Z</updated>
     <id>https://leilukin.neocities.org</id>
     <author>
         <name>Leilukin</name>
         <email>leilukin@outlook.com</email>
     </author>
+        
+        <entry>
+            <title>Changelog: 19 May 2024</title>
+            <link href="https://leilukin.neocities.org/"/>
+            <updated>2024-05-19T00:00:00Z</updated>
+            <id>https://leilukin.neocities.org/</id>
+            <content type="html">&lt;ul&gt;
+&lt;li&gt;Replace the &lt;a href=&quot;https://www.htmlcommentbox.com/&quot;&gt;HTML Comment Box&lt;/a&gt; widget on the &lt;a href=&quot;https://leilukin.neocities.org/guestbook&quot;&gt;guestbook page&lt;/a&gt; with a guestbook that is powered by &lt;a href=&quot;https://firebase.google.com/docs/database/&quot;&gt;Firebase Realtime Database&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+        </entry>
         
         <entry>
             <title>Changelog: 18 May 2024</title>
