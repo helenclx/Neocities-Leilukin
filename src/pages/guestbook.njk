@@ -13,147 +13,73 @@ eleventyNavigation:
 
 <p><a href="https://web.archive.org/web/20240510121252/https%3A%2F%2Fleilukin.123guestbook.com%2F">Archive of my previous guestbook hosted on 123Guestbook</a></p>
 
-<!-- customize labels of htmlcommentbox.com -->
-<script>
-    /* This code goes ABOVE the main HTML Comment Box code!
- replace the text in the single quotes below to customize labels.*/
-    hcb_user = {
-        /* L10N */
-        comments_header: 'Guestbook',
-        name_label: 'Name',
-        content_label: 'Enter your message here',
-        submit: 'Send Message',
-        logout_link: '<img title="log out" src="https://www.htmlcommentbox.com/static/images/door_out.svg" alt="[logout]" class="hcb-icon hcb-door-out"/>',
-        admin_link: '<img src="https://www.htmlcommentbox.com/static/images/door_in.svg" alt="[login]" class="hcb-icon hcb-door-in"/>',
-        no_comments_msg: 'No one has left any message yet. Be the first!',
-        add: 'Add your message',
-        again: 'Post another message',
-        rss: '<img src="https://www.htmlcommentbox.com/static/images/feed.svg" class="hcb-icon" alt="rss"/> ',
-        said: 'said:',
-        prev_page: '<img src="https://www.htmlcommentbox.com/static/images/arrow_left.png" class="hcb-icon" title="previous page" alt="[prev]"/>',
-        next_page: '<img src="https://www.htmlcommentbox.com/static/images/arrow_right.png" class="hcb-icon" title="next page" alt="[next]"/>',
-        showing: 'Showing',
-        to: 'to',
-        website_label: 'website (optional)',
-        email_label: 'email',
-        anonymous: 'Anonymous',
-        mod_label: '(mod)',
-        subscribe: 'Email Me Replies',
-        add_image: 'Add Image',
-        are_you_sure: 'Do you want to flag this comment as inappropriate?',
+<h2>Leave A Message</h2>
 
-        reply: 'Reply',
-        flag: 'Flag',
-        like: 'Like',
+<form class="gb__form">
+    <div class="gb__form--input">
+        <label for="name-input">Name:</label>
+        <input type="text" name="name" id="name-input" required>
+    </div>
 
-        /* dates */
-        days_ago: 'days ago',
-        hours_ago: 'hours ago',
-        minutes_ago: 'minutes ago',
-        within_the_last_minute: 'within the last minute',
+    <div class="gb__form--input">
+        <label for="email-input">Email:</label>
+        <input type="email" name="email" id="email-input" required>
+    </div>
 
-        msg_thankyou: 'Thank you for your message!',
-        msg_approval: 'NOTE: This message is not published until approved',
-        msg_approval_required: 'Thank you for your message! Your message will appear once approved by Leilukin.',
+    <div class="gb__form--input">
+        <label for="website-input">Website (optional):</label>
+        <input type="text" name="website" id="website-input">
+    </div>
 
-        err_bad_html: 'Your message contained bad html.',
-        err_bad_email: 'Please enter a valid email address.',
-        err_too_frequent: 'You must wait a few seconds between posting messages.',
-        err_comment_empty: 'Your message was not posted because it was empty!',
-        err_denied: 'Your message was not accepted.',
-        err_unknown: 'Your message was blocked for unknown reasons, please report this.',
-        err_spam: 'Your message was detected as spam.',
-        err_blocked: 'Your message was blocked by site policy.',
+    <div class="gb__form--input">
+        <label for="message-input">Message:</label>
+        <textarea type="text" rows="4" name="message" id="message-input" required></textarea>
+    </div>
 
-        /* SETTINGS */
-        MAX_CHARS: 4096,
-        PAGE: '',
-        /* ID of the webpage to show comments for. defaults to the webpage the user is currently visiting. */
-        ON_COMMENT: function () {},
-        /* Function to call after commenting. */
-        RELATIVE_DATES: false /* show dates in the form "X hours ago." etc. */
-    };
-</script>
-<!-- done customizing labels of htmlcommentbox.com -->
+    <button type="submit" class="gb__form--submit">Publish</button>
+</form>
 
-<!-- begin wwww.htmlcommentbox.com -->
-<section id="HCB_comment_box">
-    <a href="http://www.htmlcommentbox.com">Widget</a> is loading messages...
+<section class="gb__messages">
+    <h2>Messages</h2>
+    <div class="gb__message--list"></div>
 </section>
-<link rel="stylesheet" type="text/css" href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0"/>
-<script type="text/javascript" id="hcb" defer>
-    /* <!-- */
-    if (!window.hcb_user) {
-        hcb_user = {};
-    }
-    (function () {
-        const s = document.createElement("script"),
-            l = hcb_user.PAGE || ("" + window.location).replace(/'/g, "%27"),
-            h = "https://www.htmlcommentbox.com";
-        s.setAttribute("type", "text/javascript");
-        s.setAttribute("src", h + "/jread?page=" + encodeURIComponent(l).replace("+", "%2B") + "&mod=%241%24wq1rdBcg%24IRFneco1bcPmYKq.t1Oae." + "&opts=16798&num=10&ts=1715702516205");
-        if (typeof s != "undefined")
-            document
-                .getElementsByTagName("head")[0]
-                .appendChild(s);
-        }
-    )();/* --> */
-</script>
 
 <style>
-    #HCB_comment_box {
-        height: auto;
-        font-family: inherit;
-        font-size: 1.2rem;
-    }
-
-    #HCB_comment_box form {
+    .gb__form,
+    .gb__form--input {
         display: grid;
-        gap: 0.3em;
-        margin: 1rem 0 1.3rem;
     }
 
-    #HCB_comment_box #hcb_form textarea,
-    #HCB_comment_box #hcb_form #hcb_form_name {
-        width: 100%;
-        font-family: inherit;
-        font-size: 1.2rem;
+    .gb__form {
+        gap: 0.6em;
+        margin-bottom: 2em;
     }
 
-    #HCB_comment_box #hcb_form #replying_to_container,
-    #HCB_comment_box .date {
-        font-size: 0.9rem;
-        color: var(--clr-body-txt);
+    .gb__form--input {
+        gap: 0.2em;
     }
 
-    #HCB_comment_box #hcb_form textarea:focus,
-    #HCB_comment_box #hcb_form #hcb_form_name:focus {
-        outline: 0.25em solid var(--clr-link);
-    }
-
-    #HCB_comment_box #hcb_form .btn,
-    #HCB_comment_box #HCB_comment_form_box .btn {
+    .gb__form--submit {
+        border: none;
         background: var(--clr-link-btn-bg);
         color: var(--clr-link-btn-txt);
-        font-size: 1.2rem;
+        padding: 0.3em;
     }
 
-    #HCB_comment_box #hcb_form .btn:focus,
-    #HCB_comment_box #HCB_comment_form_box .btn:focus {
-        outline: 0.15em solid var(--clr-link-btn-txt);
+    .gb__form--input input,
+    .gb__form--input textarea,
+    .gb__form--submit {
+        border-radius: 0.2em;
     }
 
-    #HCB_comment_box #hcb_form .home-desc a,
-    #HCB_comment_box .home-desc a:visited,
-    #HCB_comment_box .hcb-comment-tb button {
-        color: var(--clr-link);
+    .gb__form--input textarea {
+        resize: vertical;
     }
 
-    #HCB_comment_box #hcb_form .home-desc a,
-    #HCB_comment_box .home-desc a:visited {
-        text-decoration: underline;
+    .gb__form--input input:focus,
+    .gb__form--input textarea:focus {
+         outline: 0.15em solid var(--clr-link);
     }
 </style>
-<!-- end www.htmlcommentbox.com -->
 
 <script type="module" src="/assets/js/guestbook.js" defer></script>
