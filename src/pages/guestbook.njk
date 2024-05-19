@@ -16,22 +16,22 @@ eleventyNavigation:
 <h2>Leave A Message</h2>
 
 <form class="gb__form">
-    <div class="gb__form--input">
+    <div class="gb__form--group">
         <label for="name-input">Name:</label>
         <input type="text" name="name" id="name-input" required>
     </div>
 
-    <div class="gb__form--input">
+    <div class="gb__form--group">
         <label for="email-input">Email:</label>
         <input type="email" name="email" id="email-input" required>
     </div>
 
-    <div class="gb__form--input">
+    <div class="gb__form--group">
         <label for="website-input">Website (optional):</label>
         <input type="text" name="website" id="website-input">
     </div>
 
-    <div class="gb__form--input">
+    <div class="gb__form--group">
         <label for="message-input">Message:</label>
         <textarea type="text" rows="4" name="message" id="message-input" required></textarea>
     </div>
@@ -46,7 +46,7 @@ eleventyNavigation:
 
 <style>
     .gb__form,
-    .gb__form--input,
+    .gb__form--group,
     .gb__message--list,
     .gb__message {
         display: grid;
@@ -57,7 +57,7 @@ eleventyNavigation:
         margin-bottom: 2em;
     }
 
-    .gb__form--input {
+    .gb__form--group {
         gap: 0.2em;
     }
 
@@ -69,19 +69,19 @@ eleventyNavigation:
         padding: 0.3em 0.6em;
     }
 
-    .gb__form--input input,
-    .gb__form--input textarea,
+    .gb__form--group input,
+    .gb__form--group textarea,
     .gb__form--submit,
     .gb__message--reply-btn {
         border-radius: 0.2em;
     }
 
-    .gb__form--input textarea {
+    .gb__form--group textarea {
         resize: vertical;
     }
 
-    .gb__form--input input:focus,
-    .gb__form--input textarea:focus {
+    .gb__form--group input:focus,
+    .gb__form--group textarea:focus {
          outline: 0.15em solid var(--clr-link);
     }
 
