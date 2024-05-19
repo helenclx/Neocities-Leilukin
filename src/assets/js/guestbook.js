@@ -1,0 +1,1 @@
+console.log("Guestbook script successfully loaded");
