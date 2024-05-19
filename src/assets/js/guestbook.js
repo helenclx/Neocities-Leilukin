@@ -1,5 +1,3 @@
-console.log("Guestbook script successfully loaded");
-
 // Import Firebase
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js'
 import { getDatabase, ref, push, onValue, update } from 'https://www.gstatic.com/firebasejs/10.12.0/firebase-database.js'
@@ -29,4 +27,17 @@ let messageObj = {
     message: '',
     timestamp: '',
     replies: [],
+};
+
+formEl.addEventListener('submit', (e) => {
+    e.preventDefault();
+    clearInputEl();
+    console.log('Form submitted');
+});
+
+const clearInputEl = () => {
+    nameInputEl.value = '';
+    emailInputEl.value = '';
+    websiteInputEl.value = '';
+    msgInputEl.value = '';
 };
