@@ -32,8 +32,19 @@ let messageObj = {
 formEl.addEventListener('submit', (e) => {
     e.preventDefault();
     clearInputEl();
-    console.log('Form submitted');
+    addMessage();
 });
+
+const addMessage = () => {
+    messageObj = {
+        ...messageObj,
+        name: nameInputEl.value,
+        email: emailInputEl.value,
+        website: websiteInputEl.value,
+        message: msgInputEl.value
+    }
+    push(guestbookInDB, messageObj);
+};
 
 // Clear input fields
 const clearInputEl = () => {
@@ -44,7 +55,19 @@ const clearInputEl = () => {
 };
 
 // Load data from the Firebase database
-onValue(endorsementsInDB, (snapshot) => {});
+onValue(guestbookInDB, (snapshot) => {
+    if (snapshot.exists()) {
+        let messagesArr = Object.entries(snapshot.val()).reverse();
+
+        clearMessageListEl();
+
+        messagesArr.forEach((item) => {
+            renderMessage(item);
+        });
+    } else {
+        messageListEl.textContent = 'No messages here... yet. Be the first!';
+    }
+});
 
 // Prevent rendering any message more than once
 const clearMessageListEl = () => {
