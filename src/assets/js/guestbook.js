@@ -16,7 +16,6 @@ const nameInputEl = document.querySelector('#name-input');
 const emailInputEl = document.querySelector('#email-input');
 const websiteInputEl = document.querySelector('#website-input');
 const msgInputEl = document.querySelector('#message-input');
-const publishBtn = document.querySelector('.gb__form--submit');
 const messageListEl = document.querySelector('.gb__message--list');
 
 // Initiate guestbook message object
@@ -29,15 +28,31 @@ let messageObj = {
     replies: [],
 };
 
+// Form submission event
 formEl.addEventListener('submit', (e) => {
     e.preventDefault();
     clearInputEl();
     console.log('Form submitted');
 });
 
+// Clear input fields
 const clearInputEl = () => {
     nameInputEl.value = '';
     emailInputEl.value = '';
     websiteInputEl.value = '';
     msgInputEl.value = '';
+};
+
+// Load data from the Firebase database
+onValue(endorsementsInDB, (snapshot) => {});
+
+// Prevent rendering any message more than once
+const clearMessageListEl = () => {
+    messageListEl.innerHTML = '';
+};
+
+// Render each message
+const renderMessage = (item) => {
+    const itemID = item[0];
+    const itemValue = item[1];
 };
