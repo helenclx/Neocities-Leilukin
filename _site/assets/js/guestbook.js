@@ -90,6 +90,10 @@ const renderMessage = (item) => {
     const itemID = item[0];
     const itemValue = item[1];
 
+    const newMessageWrapperDiv = document.createElement('div');
+    newMessageWrapperDiv.classList.add('gb__message--wrapper');
+    newMessageWrapperDiv.id = `msg-${itemID}`;
+
     const newMessageDiv = document.createElement('div');
     newMessageDiv.classList.add('gb__message');
 
@@ -111,6 +115,11 @@ const renderMessage = (item) => {
     newMessageTime.classList.add('gb__message--time');
     newMessageTime.textContent = itemValue.timestamp;
 
-    messageListEl.append(newMessageDiv);
-    newMessageDiv.append(newMessageName, newMessageMsg, newMessageTime);
+    const messageReplyBtn = document.createElement('button');
+    messageReplyBtn.classList.add('gb__message--reply-btn');
+    messageReplyBtn.textContent = 'Reply';
+
+    messageListEl.append(newMessageWrapperDiv);
+    newMessageWrapperDiv.append(newMessageDiv);
+    newMessageDiv.append(newMessageName, newMessageMsg, newMessageTime, messageReplyBtn);
 };

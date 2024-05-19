@@ -424,16 +424,18 @@
         gap: 0.2em;
     }
 
-    .gb__form--submit {
+    .gb__form--submit,
+    .gb__message--reply-btn {
         border: none;
         background: var(--clr-link-btn-bg);
         color: var(--clr-link-btn-txt);
-        padding: 0.3em;
+        padding: 0.3em 0.6em;
     }
 
     .gb__form--input input,
     .gb__form--input textarea,
-    .gb__form--submit {
+    .gb__form--submit,
+    .gb__message--reply-btn {
         border-radius: 0.2em;
     }
 
@@ -460,8 +462,14 @@
         font-size: 1.4rem;
     }
 
-    .gb__message--time {
+    .gb__message--time,
+    .gb__message--reply-btn {
         font-size: 1rem;
+    }
+
+    .gb__message--reply-btn {
+        justify-self: start;
+        margin-top: 0.3em;
     }
 </style>
 
