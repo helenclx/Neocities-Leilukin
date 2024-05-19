@@ -409,7 +409,9 @@
 
 <style>
     .gb__form,
-    .gb__form--input {
+    .gb__form--input,
+    .gb__message--list,
+    .gb__message {
         display: grid;
     }
 
@@ -442,6 +444,24 @@
     .gb__form--input input:focus,
     .gb__form--input textarea:focus {
          outline: 0.15em solid var(--clr-link);
+    }
+
+    .gb__message--list {
+        gap: 1em;
+    }
+
+    .gb__message {
+        gap: 0.5em;
+        padding: 1em 1.4em 1.4em;
+        background-color: var(--clr-quote-bg);
+    }
+
+    .gb__message--name {
+        font-size: 1.4rem;
+    }
+
+    .gb__message--time {
+        font-size: 1rem;
     }
 </style>
 
