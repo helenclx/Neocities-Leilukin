@@ -24,8 +24,7 @@ let messageObj = {
     email: '',
     website: '',
     message: '',
-    timestamp: {},
-    replies: [],
+    timestamp: '',
 };
 
 // Form submission event
@@ -90,12 +89,13 @@ const renderMessage = (item) => {
     const itemID = item[0];
     const itemValue = item[1];
 
-    const newMessageWrapperDiv = document.createElement('div');
-    newMessageWrapperDiv.classList.add('gb__message--wrapper');
-    newMessageWrapperDiv.id = `msg-${itemID}`;
+    const newThreadDiv = document.createElement('div');
+    newThreadDiv.classList.add('gb__thread');
+    newThreadDiv.id = `thread-${itemID}`;
 
     const newMessageDiv = document.createElement('div');
     newMessageDiv.classList.add('gb__message');
+    newMessageDiv.id = `msg-${itemID}`;
 
     const newMessageName = document.createElement('p');
     newMessageName.classList.add('gb__message--name');
@@ -119,7 +119,7 @@ const renderMessage = (item) => {
     messageReplyBtn.classList.add('gb__message--reply-btn');
     messageReplyBtn.textContent = 'Reply';
 
-    messageListEl.append(newMessageWrapperDiv);
-    newMessageWrapperDiv.append(newMessageDiv);
+    messageListEl.append(newThreadDiv);
+    newThreadDiv.append(newMessageDiv);
     newMessageDiv.append(newMessageName, newMessageMsg, newMessageTime, messageReplyBtn);
 };
