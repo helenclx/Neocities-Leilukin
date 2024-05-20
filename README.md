@@ -18,7 +18,7 @@ Source code of my personal and hobby website, [Leilukin's Hub](https://leilukin.
 - [Table of Contents (nesting) Eleventy Plugin](https://www.npmjs.com/package/eleventy-plugin-nesting-toc)
 
 ## Self-hosted Assets
-- [Noto Sans](https://fonts.google.com/noto/specimen/Noto%20Sans) font family
+- [Lexend](https://www.lexend.com/) font family
 - [Font Awesome](https://fontawesome.com/)
 
 ## Run Locally
