@@ -73,6 +73,9 @@ Late 2019
 22 April 2024
 : Android and iOS versions [confirmed](https://twitter.com/ByttenStudio/status/1782442549552017482) to be released on 4 June 2024 with a [trailer](https://www.youtube.com/watch?v=hqcDR6-sRVw).
 
+20 May 2024
+: Multiplayer update [live on all platforms](https://store.steampowered.com/news/app/1321440/view/4170973472363657767).
+
 ## Accolades
 
 {% cite "Cassette Beasts" %} was [nominated for The British Game](https://twitter.com/ByttenStudio/status/1765742782700782040) at the 20th British Academy (BAFTA) Games Awards.
