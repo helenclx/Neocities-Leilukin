@@ -20,8 +20,8 @@
 }
 
 .heading-anchor:focus {
-    outline: 2px solid currentColor;
-    outline-offset: 0.15em;
+    outline: 0.15em solid currentColor;
+    outline-offset: 0.05em;
 }
 
 .heading-anchor [hidden] {
