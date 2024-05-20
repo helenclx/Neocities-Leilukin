@@ -26,8 +26,6 @@ You can find facts and trivia about the game from:
 
 [Here is a list of interviews](https://wiki.cassettebeasts.com/wiki/List_of_Interviews) that staff who worked on Cassette Beasts participated in and discussed {% cite "Cassette Beasts" %}.
 
-Bytten Studio has written a blog post on [their design philosophy of {% cite "Cassette Beasts" %}](https://store.steampowered.com/news/app/1321440/view/6349565145235433772).
-
 ## Development History
 
 Late 2019
@@ -74,9 +72,18 @@ Late 2019
 
 22 April 2024
 : Android and iOS versions [confirmed](https://twitter.com/ByttenStudio/status/1782442549552017482) to be released on 4 June 2024 with a [trailer](https://www.youtube.com/watch?v=hqcDR6-sRVw).
+
 ## Accolades
 
 {% cite "Cassette Beasts" %} was [nominated for The British Game](https://twitter.com/ByttenStudio/status/1765742782700782040) at the 20th British Academy (BAFTA) Games Awards.
+
+Bytten Studio was [nominated for "Best Small Studio"](https://x.com/ByttenStudio/status/1791085233216823769) at the Develop:Star Awards 2024.
+
+## Design Philosophy
+
+On 12 October 2023, Bytten Studio wrote a Steam blog post ["Cassette Beasts - Design & Expectations"](https://store.steampowered.com/news/app/1321440/view/6349565145235433772) about their design philosophy of {% cite "Cassette Beasts" %} to celebrate the game reaching 350,000+ players.
+
+{% cite "Cassette Beasts" %} very consciously opens with exploration and combat within the first minute of the game and leaves the lore for later, because Bytten Studio believes in giving players the game first and selling the players on the story later.^[Jay Baylis' (@SamuriFerret) [quote tweet](https://x.com/SamuriFerret/status/1788943762594369890) from @DavidKayConrad. 10 May 2024.]
 
 ## Influences and Inspirations
 
