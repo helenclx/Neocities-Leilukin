@@ -2,7 +2,7 @@
 .heading-wrapper {
     display: flex;
     gap: 0.3em;
-    margin-top: 1.5rem;
+    margin-top: 1.8em;
     align-items: baseline;
 }
 
@@ -26,10 +26,6 @@
 
 .heading-anchor [hidden] {
     display: block;
-}
-
-:not(.heading-wrapper) + .heading-wrapper {
-    margin-top: 1.8em;
 }
 
 /* BLOCKQUOTES With CITATIONS */
