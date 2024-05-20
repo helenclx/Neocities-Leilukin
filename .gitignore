@@ -1,7 +1,12 @@
 # Based on https://raw.githubusercontent.com/github/gitignore/main/Node.gitignore
 
 # Working files for my website
-__Source
+
+__Source/
+
+# Eleventy site output folder
+
+_site/
 
 # Logs
 
