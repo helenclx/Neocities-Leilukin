@@ -7,7 +7,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    font-family: var(--ff-primary), Arial, Helvetica, sans-serif;
+    font-family: var(--ff-primary), system-ui, sans-serif;
     color: var(--clr-body-txt);
     background-color: var(--clr-body-bg);
 }
