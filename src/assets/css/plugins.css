@@ -48,11 +48,6 @@
     border-top: 0.15em solid var(--clr-title-border);
 }
 
-.footnotes__title,
-.footnotes__title + .heading-anchor {
-    font-size: var(--sz-h3);
-}
-
 .footnotes-list {
     display: grid;
     gap: 0.3em;
