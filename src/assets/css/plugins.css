@@ -2,13 +2,14 @@
 .heading-wrapper {
     display: flex;
     gap: 0.3em;
-    margin-top: 1.8em;
     align-items: baseline;
 }
 
+* + .heading-wrapper {
+    margin-top: 1.8em;
+}
+
 .heading-anchor {
-    line-height: 1;
-    opacity: 0.8;
     order: -1;
     text-decoration: none;
 }
@@ -16,7 +17,6 @@
 .heading-anchor:hover {
     text-decoration: underline;
     text-underline-offset: 0.1em;
-    opacity: 1;
 }
 
 .heading-anchor:focus {
