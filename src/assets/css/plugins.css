@@ -25,7 +25,7 @@
 }
 
 .heading-anchor [hidden] {
-    display: block;
+    display: inline-block;
 }
 
 /* BLOCKQUOTES With CITATIONS */
