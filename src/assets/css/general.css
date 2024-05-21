@@ -107,6 +107,10 @@ figcaption {
     margin-top: 0.2em;
 }
 
+code {
+    font-family: var(--ff-monospace), ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace; ;
+}
+
 :not(pre) > code {
     color: var(--clr-bold-txt);
     padding: 0 0.15em;

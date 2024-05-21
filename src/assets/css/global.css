@@ -35,6 +35,7 @@
     --clr-mod-entry-bg: #241445;
 
     --ff-primary: 'Lexend';
+    --ff-monospace: 'Inter One Mono';
 
     --sz-h1: clamp(2rem, 1rem + 5vw, 3rem);
     --sz-h2: clamp(1.55rem, 1rem + 3vw, 2.15rem);
