@@ -74,7 +74,7 @@ Late 2019
 : Android and iOS versions [confirmed](https://twitter.com/ByttenStudio/status/1782442549552017482) to be released on 4 June 2024 with a [trailer](https://www.youtube.com/watch?v=hqcDR6-sRVw).
 
 20 May 2024
-: Multiplayer update [live on all platforms](https://www.cassettebeasts.com/2024/05/20/multiplayer-update-out-now/).
+: Multiplayer update [live on all platforms](https://www.cassettebeasts.com/2024/05/20/multiplayer-update-out-now/), with a [launch trailer](https://www.youtube.com/watch?v=B-iBugwjaKI).
 
 ## Accolades
 
