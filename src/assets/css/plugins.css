@@ -11,11 +11,6 @@
 
 .heading-anchor {
     order: -1;
-    text-decoration: none;
-}
-
-.heading-anchor:hover {
-    text-decoration: underline;
     text-underline-offset: 0.1em;
 }
 
