@@ -8,6 +8,7 @@ Built with [Eleventy](https://www.11ty.dev/) and deployed to Neocities with the 
 - [Eleventy](https://www.11ty.dev/)
 - Eleventy's official [RSS](https://www.11ty.dev/docs/plugins/rss/) plugin
 - Eleventy's official [Navigation](https://www.11ty.dev/docs/plugins/navigation/) plugin
+- [details-utils](https://www.npmjs.com/package/@zachleat/details-utils)
 
 ### Eleventy Community Plugins
 - [eleventy-plugin-emoji-readtime](https://www.npmjs.com/package/@11tyrocks/eleventy-plugin-emoji-readtime)
