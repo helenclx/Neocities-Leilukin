@@ -39,7 +39,7 @@
         {% include "global/toc.njk" %}
     {% endif %}
 
-    {% if isArticle %}
+    {% if isArticle or isStatement %}
         <article class="article">
             {{ content | safe }}
         </article>

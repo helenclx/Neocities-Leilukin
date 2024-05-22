@@ -2,8 +2,6 @@
 layout: main/content
 ---
 
-<article class="article">
-    {{ content | safe }}
+{{ content | safe }}
 
-    <p>(This {{ title }} statement was last updated on {{ updated | formatDate }})</p>
-</article>
+<p>(This {{ title }} statement was last updated on {{ updated | formatDate }})</p>

@@ -1,6 +1,7 @@
 {
     "tags": "statements",
     "layout": "main/statement",
+    "isStatement": true,
     "permalink": "/{{ page.fileSlug }}/",
     "eleventyComputed":{
         "eleventyNavigation":{
