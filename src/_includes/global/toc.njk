@@ -1,10 +1,12 @@
 <aside class="left-sidebar">
-    <details class="toc__wrapper sidebar--sticky">
-        <summary class="toc__heading">
-            On This Page
-        </summary>
-        {{ content | toc | safe }}
-    </details>
+    <details-utils force-open="(min-width: 60rem)" force-restore>
+        <details class="toc__wrapper sidebar--sticky">
+            <summary class="toc__heading">
+                Table of Contents
+            </summary>
+            {{ content | toc | safe }}
+        </details>
+    </details-utils>
 </aside>
 
 <style>

@@ -32,6 +32,9 @@
             <link rel="manifest" href="/assets/favicon/site.webmanifest">
         {% endblock %}
 
+        {# JavaScript #}
+        <script src="/assets/js/details-utils.js" defer></script>
+
         <title>
             {% block pageTitle %}{{ title + " | " if title }}{{ sitemeta.siteName | safe }}{% endblock %}
         </title>
