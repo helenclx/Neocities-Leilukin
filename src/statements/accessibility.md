@@ -1,7 +1,7 @@
 ---
 title: Accessibility
 desc: Leilukin's Hub's accessibility statement.
-updated: 2024-05-20
+updated: 2024-05-22
 eleventyNavigation:
     order: 12
 ---
