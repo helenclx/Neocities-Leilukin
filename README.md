@@ -21,6 +21,7 @@ Built with [Eleventy](https://www.11ty.dev/) and deployed to Neocities with the 
 
 ## Self-hosted Assets
 - [Lexend](https://www.lexend.com/) font family
+- [Intel One Mono](https://www.intel.com/content/www/us/en/company-overview/one-monospace-font.html) typeface
 - [Font Awesome](https://fontawesome.com/)
 
 ## Run Locally
