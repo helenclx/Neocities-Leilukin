@@ -7,7 +7,7 @@ main,
 
 main,
 .content__wrapper {
-    font-size: 1.2rem;
+    font-size: var(--sz-main-txt);
 }
 
 main {
