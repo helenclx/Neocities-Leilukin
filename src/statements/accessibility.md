@@ -1,6 +1,6 @@
 ---
 title: Accessibility
-desc: Leilukin's Hub's accessibility statement.
+keyword: accessibility statement
 updated: 2024-05-22
 eleventyNavigation:
     order: 12
@@ -14,8 +14,9 @@ Currently, this site includes the following accessibility features:
 * Semantic HTML
 * Alt text for all non-decorative images
 * No autoplaying music or video
+* No animated images
 * Proper colour contrast for backgrounds, text, and links
-* Font sizes, margins and paddings use relative units such as rem/em instead of absolute units such as px for scalability
+* Makes font sizes scalable by use relative units such as rem/em instead of absolute units such as px
 * Site is functional up to 200% text zoom
 * Allows reader mode to be enabled for articles and blog posts
 * Visible outline when an interactive element is focused

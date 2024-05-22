@@ -1,9 +1,10 @@
 {
-    "tags": "statements",
     "layout": "main/statement",
+    "tags": "statements",
     "isStatement": true,
     "permalink": "/{{ page.fileSlug }}/",
-    "eleventyComputed":{
+    "eleventyComputed": {
+        "desc": "Leilukin's Hub's {{ keyword }}.",
         "eleventyNavigation":{
             "key": "{{ title }}"
         }
