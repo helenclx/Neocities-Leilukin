@@ -30,18 +30,18 @@ Built with [Eleventy](https://www.11ty.dev/) and deployed to Neocities with the 
 - [Font Awesome](https://fontawesome.com/)
 
 ## Run Locally
-1. Clone this repository locally
-```
-git clone https://github.com/helenclx/Neocities-Leilukin.git
-```
-2. Install dependencies
-```
-bun install
-```
-3. Run the project
-```
-bun run start
-```
-4. Open http://localhost:8080/ in your browser
+Recommended JavaScript runtime: [Bun](https://bun.sh).
 
-This project was created using `bun init` in bun v1.1.0. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+1. Clone this repository locally
+    ```
+    git clone https://github.com/helenclx/Neocities-Leilukin.git
+    ```
+1. Install dependencies
+    ```
+    bun install
+    ```
+1. Run the project
+    ```
+    bun run start
+    ```
+1. Open http://localhost:8080/ in your browser
