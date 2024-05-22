@@ -5,6 +5,7 @@
 
     {% set currentUrl %}{{ page.url }}{% endset %}
     <ul class="footer__links">
+        <li><a href="/feed.xml">RSS</a></li>
         <li><a
             {% if currentUrl === "/sitemap/" %}aria-current="page"{% endif %}
             href="/sitemap/
@@ -13,7 +14,12 @@
             {% if currentUrl === "/changelogs/" %}aria-current="page"{% endif %}
             href="/changelogs/"
         >Changelogs</a></li>
-        <li><a href="/feed.xml">RSS</a></li>
+        {%- for statement in collections.statements -%}
+            <li><a
+                {% if entry.url == page.url %}aria-current="page"{% endif %}
+                href="{{ statement.url }}"
+            >{{ statement.data.title }}</a></li>
+        {%- endfor -%}
     </ul>
 {% endblock %}
 
