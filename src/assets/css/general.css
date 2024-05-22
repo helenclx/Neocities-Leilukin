@@ -41,6 +41,11 @@ h3:has(+ *[class]:not(.heading-anchor)), .h3:has(+ *[class]) {
     margin-bottom: 0.5em;
 }
 
+* + h2,
+* + h3 {
+    margin-top: 1.5em;
+}
+
 hr {
     border: 0.05rem solid var(--clr-title-border);
 }

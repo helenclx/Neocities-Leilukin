@@ -1,15 +1,7 @@
-<article>
-    {% for log in changelogList | reverse %}
-        <div class="heading-wrapper h2">
-            <h2 id="{{ log.fileSlug }}">{{ log.date | formatDate }}</h2>
-            <a class="heading-anchor" href="#{{ log.fileSlug }}" aria-labelledby="{{ log.fileSlug }}"><span hidden="">#</span></a>
-        </div>
-        {{ log.templateContent | safe }}
-    {%- endfor %}
-</article>
-
-<style>
-    .heading-wrapper + ul {
-        margin: 0.3em 0 3em 0;
-    }
-</style>
+{% for log in changelogList | reverse %}
+    <div class="heading-wrapper h2">
+        <h2 id="{{ log.fileSlug }}">{{ log.date | formatDate }}</h2>
+        <a class="heading-anchor" href="#{{ log.fileSlug }}" aria-labelledby="{{ log.fileSlug }}"><span hidden="">#</span></a>
+    </div>
+    {{ log.templateContent | safe }}
+{%- endfor %}
