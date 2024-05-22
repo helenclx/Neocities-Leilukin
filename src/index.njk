@@ -1,21 +1,27 @@
 ---
 layout: main/content
 tags: pages
-pageTitle: Welcome!
-desc: Home page of Leilukin's Hub.
 metadata:
     title: Home
 isContentDivided: true
 eleventyNavigation:
     key: Home
     order: 1
+eleventyComputed:
+    pageTitle: Welcome to {{ sitemeta.siteName | safe }}!
 ---
 
 <section class="content__section">
-    <p>Hello! You can call me Leilukin. Welcome to my website! This site is my own personal hub and corner on the internet.</p>
+    <p>Hello! You can call me {{ sitemeta.siteAuthor.name }}. Welcome to my website! This site is my own personal hub and corner on the internet.</p>
+
     <p>You can browse all my contents published on this site through the <a href="/archive">Archive</a> page, or the <a href="/categories">Content Categories</a> page.</p>
+
     <p>You may use the <a href="/sitemap">site map</a> to quickly navigate this website.</p>
-    <p>Feel free to drop a message and say hi on <a href="/guestbook">my guestbook</a>!</p>
+
+    <p>Feel free to drop a message and say hi on <a href="/guestbook">my guestbook</a>! You can also contact me by <a href="mailto:{{sitemeta.siteAuthor.email}}">sending me an email</a>.</p>
+
+    <p>Read the <a href="/about">About</a> page to learn more about this site and its owner.</p>
+
     <p>Enjoy your stay!</p>
 </section>
 
@@ -36,9 +42,9 @@ eleventyNavigation:
         {%- endfor %}
         <p><a href="/changelogs">View all site changelogs</a></p>
     </div>
-    <p>You can subscribe to the <a href="/feed.xml" target="blank">Leilukin's Hub RSS feed</a> or follow <a href="https://neocities.org/site/leilukin">my Neocities profile</a> to get notified of the updates on this website.</p>
+    <p>You can subscribe to the <a href="/feed.xml">{{ sitemeta.siteName }} RSS feed</a> or follow <a href="https://neocities.org/site/leilukin">my Neocities profile</a> to get notified of the updates on this website.</p>
     <div class="web-btn-wrapper" style="margin-top: 0.5em;">
-        <a href="/feed.xml" target="blank" title="Leilukin's Hub RSS Feed">
+        <a href="/feed.xml" target="blank" title="{{ sitemeta.siteName }} RSS Feed">
             <img src="/assets/buttons/rss-button.gif" alt="RSS feed button">
         </a>
     </div>
