@@ -1,7 +1,7 @@
 ---
 articleTitle: "Juhani Romance Guide"
 date: 2016-03-05
-updated: 2024-04-22
+updated: 2024-05-22
 desc: "Walkthrough of how to successfully romance Juhani in Star Wars: Knights of the Old Republic."
 tags: kotor 1 guides
 categories: ["star wars kotor"]
@@ -189,4 +189,4 @@ These mods are not required to complete Juhani's romance, but they add or enhanc
 
 {.item-list}
 
-**NOTE: I DO NOT support any mods that make Juhani a romance option for male characters under any circumstances. [Read this article on why I firmly believe Juhani's romance should remain exclusive to female characters.](/shrines/starwarskotor/articles/keep-juhani-a-lesbian) In addition, I DO NOT support any mods that make Juhani look like a human.**
+**NOTE: I DO NOT support any mods that make Juhani a romance option for male characters under any circumstances. Read my article on [why I firmly believe Juhani's romance should remain exclusive to female characters](/shrines/starwarskotor/articles/keep-juhani-a-lesbian). In addition, I DO NOT endorse any mods that make Juhani look like a human.**
