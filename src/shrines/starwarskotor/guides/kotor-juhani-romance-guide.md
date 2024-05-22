@@ -86,7 +86,7 @@ Available when you gain 1 level after History #5. Juhani talks about her being s
 
 https://youtu.be/2GJW_mBVADs
 
-#### "Threat From Xor" quest
+#### "Threat From Xor" Quest
 
 This quest will be available after you have completed History #6, where Juhani talks about her being sold into slavery. Have Juhani in your party and walk around the spaceport on Tatooine, Kashyyyk, Manaan or Korriban. A character named Xor will approach Juhani and reveal that he was the slaver who attempted to buy Juhani on Taris before the latter was freed by the Jedi. Xor leaves, but he threatens to come back later.
 
