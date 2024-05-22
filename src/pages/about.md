@@ -3,7 +3,6 @@ layout: main/content
 title: About
 desc: About this website and its owner.
 isContentDivided: true
-toc: true
 eleventyNavigation:
     key: About
     order: 2
@@ -12,7 +11,7 @@ eleventyNavigation:
 {% container "article", "content__section" %}
 ## The Site
 
-This is a literal queer-coded website (as in, this website is coded by a queer person) that serves as a personal hub for my interests and self-expression, as well as my own corner on the internet outside social media platforms.
+{{ sitemeta.siteName }} is a literal queer-coded website (as in, this website is coded by a queer person) that serves as a personal hub for my interests and self-expression, as well as my own corner on the internet outside social media platforms.
 
 On this site, you can find various stuff I have created or curated, as well as articles dedicated to my interests.
 
@@ -26,29 +25,9 @@ If you also have a Neocities account, you can follow this site through its [Neoc
 
 ![A website button with Penelope the cat, the mascot of Neocities, and the text 'hosted by neocities'](/assets/banners/hosted-by-neocities.png "Hosted by Neocities")
 
-### Accessibility
+### Accessibility Information
 
-Even though this website is primarily meant to be my own space of self-expression, I also want every visitor to my website have the best possible experience of browsing my website. Therefore, I strive to design this website to be accessible.
-
-Currently, this site includes the following accessibility features:
-
-* Fully responsive and mobile-friendly layout
-* Semantic HTML
-* Alt text for all non-decorative images
-* No autoplaying music or video
-* Proper color contrast for backgrounds, text, and links
-* Font sizes, margins and paddings use relative units such as rem/em instead of absolute units such as px for scalability
-* Site is functional up to 200% text zoom
-* Allows reader mode to be enabled enabled for articles and blog posts
-* Keyboard navigation-friendly; visible outline when an interactable element is focused
-
-I use the following tools to test my site for accessibility:
-* WebAIM's [WAVE Browser Extension](https://wave.webaim.org/extension/)
-* [NVDA](https://www.nvaccess.org/about-nvda/) screen reader for Windows
-
-In addition, I manually test my website with keyboard navigation
-
-Feedbacks for improving the accessibility of this site are welcome.
+While this website is primarily meant to be my own space of self-expression, I also strive to make my website accessible to provide the best possible user experience. You can read my [accessibility statement](/acessibility/) for more info.
 
 ### Technical Information
 
@@ -62,7 +41,7 @@ This website is deployed to Neocities from a GitHub repository through the GitHu
 
 ![Avatar of a drawing of Leilukin bee](/assets/leilukin/leilukin-bee.png){style="border-radius: 50%; width: 15rem; margin: 0.5em auto;"}
 
-You can call me Leilukin. I am a Malaysian Chinese, queer, non-binary lesbian born in the early 90s. My pronouns are they/she/他/她.
+You can call me {{ sitemeta.siteAuthor.name }}. I am a Malaysian Chinese, queer, non-binary lesbian born in the early 90s. My pronouns are they/she/他/她.
 
 I speak Mandarin, English, Cantonese and Malay, though I am most fluent in Mandarin and English.
 
@@ -85,7 +64,7 @@ I also have media catalogues online on the following platforms:
 * <i class="fa-brands fa-steam-symbol"></i> [Steam](https://steamcommunity.com/id/leilukin/)
 * <i class="fa-solid fa-book-open"></i> [The StoryGraph](https://app.thestorygraph.com/profile/leilukin)
 
-You can contact me via email: [leilukin@outlook.com](mailto:leilukin@outlook.com).
+You can contact me via email: [{{sitemeta.siteAuthor.email}}](mailto:{{sitemeta.siteAuthor.email}}).
 
 [Check out my Now page](/now) to learn what I am doing right now.
 

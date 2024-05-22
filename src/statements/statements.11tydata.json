@@ -1,0 +1,10 @@
+{
+    "tags": "statements",
+    "layout": "main/statement",
+    "permalink": "/{{ page.fileSlug }}/",
+    "eleventyComputed":{
+        "eleventyNavigation":{
+            "key": "{{ title }}"
+        }
+    }
+}
