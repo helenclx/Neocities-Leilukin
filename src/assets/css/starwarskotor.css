@@ -31,21 +31,6 @@
     --clr-main-footer-bg: #171717;
 }
 
-.hero img {
-    object-fit: cover;
-    object-position: center;
-}
-
-.juhani-history {
-    font-weight: 700;
-    color: rgb(213, 98, 255);
-}
-
-.juhani-personal {
-    font-weight: 700;
-    color: rgb(255, 122, 206);
-}
-
 .info-field {
     font-weight: 700;
     color: rgb(213, 98, 255);
