@@ -1,15 +1,18 @@
 ---
 layout: main/content
 title: Guestbook
-desc: Leave a message for Leilukin.
 eleventyNavigation:
     key: Guestbook
     order: 9
+eleventyComputed:
+    desc: Leave a message for {{ sitemeta.siteAuthor.name }}.
 ---
 
 <p>Feel free to say hi and connect with me! You may share your own website here.</p>
 
-<p>This guestbook is not the place to ask for help with my video game mods. Ask for mod support or report issues with my mods on Deadly Stream, Nexus Mods or email me.</p>
+<p>This guestbook is not the place to ask for help with my video game mods. Ask for mod support or report issues with my mods on Deadly Stream, Nexus Mods or <a href="mailto:{{sitemeta.siteAuthor.email}}">send me an email</a>.</p>
+
+<p>This guestbook utilises <a href="https://firebase.google.com/docs/database/">Firebase Realtime Database</a>, thus JavaScript is required for this guestbook to fully function.</p>
 
 <p><a href="https://web.archive.org/web/20240510121252/https%3A%2F%2Fleilukin.123guestbook.com%2F">Archive of my previous guestbook hosted on 123Guestbook</a></p>
 
@@ -22,7 +25,7 @@ eleventyNavigation:
     </div>
 
     <div class="gb__form--group">
-        <label for="email-input">Email:</label>
+        <label for="email-input">Email (will not be published):</label>
         <input type="email" name="email" id="email-input" required>
     </div>
 
