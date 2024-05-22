@@ -1,6 +1,5 @@
 {
   "name": "neocities-leilukin",
-  "module": "index.ts",
   "scripts": {
     "start": "bunx @11ty/eleventy --serve --quiet",
     "build": "bunx @11ty/eleventy"
