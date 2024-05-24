@@ -68,11 +68,11 @@ registerNamespace("GW.Controls", function (ns)
         {
             //Markup
             this.innerHTML = `
-            <form  id="${this.idKey}-form"
-                    aria-labelledby="${this.idKey}-title"
-                    aria-describedby="${this.idKey}-banner"
-                    class="comment-form"
-                    autocomplete="off"
+            <form id="${this.idKey}-form"
+                aria-labelledby="${this.idKey}-title"
+                aria-describedby="${this.idKey}-banner"
+                class="comment-form"
+                autocomplete="off"
             >
                 <span id="${this.idKey}-title" class="comment-form-title">${this.titleText}</span>
                 <div class="input-horizontal-flex">
@@ -102,11 +102,11 @@ registerNamespace("GW.Controls", function (ns)
                             Comment<span aria-hidden="true">*</span>
                             <span class="visually-hidden">(Required)</span>
                         </label>
-                        <textarea  id="${this.idKey}-comment"
-                                    minlength="1"
-                                    maxlength="1000"
-                                    required="true"
-                                    rows="5"
+                        <textarea id="${this.idKey}-comment"
+                            minlength="1"
+                            maxlength="4000"
+                            required="true"
+                            rows="5"
                         ></textarea>
                     </div>
                 </div>
