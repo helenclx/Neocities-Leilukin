@@ -10,10 +10,6 @@
     --icon-color: var(--clr-body-txt);
 }
 
-gw-comment-form, gw-comment-list {
-    width: 100%;
-}
-
 .comments-region {
     display: flex;
     flex-direction: column;
@@ -21,8 +17,14 @@ gw-comment-form, gw-comment-list {
     gap: 0.8rem;
 }
 
-.comment-form input {
-    width: 135px;
+.form-footer input,
+.comment-article > button {
+    cursor: pointer;
+    border: none;
+    background: var(--clr-link-btn-bg);
+    color: var(--clr-link-btn-txt);
+    padding: 0.3em 0.6em;
+    border-radius: 0.2em;
 }
 
 .comments-container {
@@ -58,23 +60,23 @@ gw-comment-form, gw-comment-list {
 .comment-article blockquote {
     max-width: unset !important;
     overflow-wrap: break-word;
+    margin: 0.8em 0;
 }
 
 .comment-article > button {
     max-width: fit-content;
-    height: 30px;
 }
 
 .comment-header {
     display: grid;
-    grid-template-columns: 0fr 1fr 1fr;
-    gap: 5px;
+    grid-template-columns: 0fr max-content 1fr;
+    gap: 0.4em;
     align-items: baseline;
 }
 
 .comment-article .comment-article {
-    margin-left: 0.9em;
-    margin-top: 0.9em;
+    margin-left: 2em;
+    margin-top: 0.8em;
     padding-right: 0;
 }
 
@@ -100,6 +102,7 @@ form {
     border-color: var(--general-border-color);
     width: 100%;
     background-color: var(--content-color);
+    margin: 2em 0;
 }
 
 form.transparent-form {
@@ -226,11 +229,6 @@ form > h1, form > h2, form > h3, form > h4, form > h5, form > h6 {
     text-align: left;
     flex-grow: 1;
     padding-right: 10px;
-}
-
-.sr-only {
-	position: absolute;
-	left: -99999999px;
 }
 
 .inline-banner-wrapper {

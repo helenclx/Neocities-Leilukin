@@ -430,7 +430,7 @@ registerNamespace("GW.Controls", function (ns)
                 <div id="${this.idKey}-header" class="comment-header">
                     <div>
                         <span aria-hidden="true" class="comment-id">#${this.commentId}</span>
-                        <span class="sr-only">${headerText}</span>
+                        <span class="visually-hidden">${headerText}</span>
                     </div>
                     ${commenterNameEl}
                     <time datetime="${this.isoTimestamp}" class="comment-timestamp">${displayTimestamp}</time>
