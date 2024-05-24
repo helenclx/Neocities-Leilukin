@@ -77,7 +77,10 @@ registerNamespace("GW.Controls", function (ns)
                 <span id="${this.idKey}-title" class="comment-form-title">${this.titleText}</span>
                 <div class="input-horizontal-flex">
                     <div class="input-vertical">
-                        <label for="${this.idKey}-dispName">Display name*</label>
+                        <label for="${this.idKey}-dispName">
+                            Display name<span aria-hidden="true">*</span>
+                            <span class="visually-hidden">(Required)</span>
+                        </label>
                         <input id="${this.idKey}-dispName" type="text" maxlength="1000" required="true">
                     </div>
                     <div class="input-vertical">
@@ -95,7 +98,10 @@ registerNamespace("GW.Controls", function (ns)
                 </div>
                 <div class="comment-box-container">
                     <div class="input-vertical">
-                        <label for="${this.idKey}-comment">Comment*</label>
+                        <label for="${this.idKey}-comment">
+                            Comment<span aria-hidden="true">*</span>
+                            <span class="visually-hidden">(Required)</span>
+                        </label>
                         <textarea  id="${this.idKey}-comment"
                                     minlength="1"
                                     maxlength="1000"
