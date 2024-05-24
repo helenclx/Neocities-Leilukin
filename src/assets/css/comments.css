@@ -17,8 +17,8 @@
     gap: 0.8rem;
 }
 
-.form-footer input,
-.comment-article > button {
+.comment-article > button,
+.form-footer input {
     cursor: pointer;
     border: none;
     background: var(--clr-link-btn-bg);
@@ -36,7 +36,7 @@
 }
 
 .comment-box-container {
-    margin-top: 0.4em;
+    margin-top: 0.5em;
     margin-left: auto;
     margin-right: auto;
     width: fit-content;
@@ -96,7 +96,7 @@
     font-weight: bold;
 }
 
-form {
+.comment-form {
     border: 1px solid;
     padding: 0.4em;
     border-color: var(--general-border-color);
@@ -105,7 +105,7 @@ form {
     margin: 2em 0;
 }
 
-form.transparent-form {
+.comment-form.transparent-form {
     border: none;
     padding: 0;
     width: auto;
@@ -118,7 +118,7 @@ form.transparent-form {
     border: 0;
 }
 
-form > h1, form > h2, form > h3, form > h4, form > h5, form > h6 {
+.comment-form > h1, form > h2, form > h3, form > h4, form > h5, form > h6 {
     margin: 0;
     text-align: center;
 }
@@ -134,14 +134,14 @@ form > h1, form > h2, form > h3, form > h4, form > h5, form > h6 {
 }
 
 .form-footer > * {
-    margin: 3px;
-    min-height: 30px;
+    margin: 0.2em;
+    min-height: 2rem;
 }
 
 .input-line > label {
     text-align: left;
-    width: 150px;
-    min-width: 100px;
+    width: 9.5rem;
+    min-width: 6rem;
 }
 
 .input-line * {
@@ -165,7 +165,7 @@ form > h1, form > h2, form > h3, form > h4, form > h5, form > h6 {
     width: 100%;
     justify-content: flex-start;
     align-items: center;
-    margin-bottom: 5px;
+    margin-bottom: 0.4em;
 }
 
 .input-horizontal-flex {
@@ -179,7 +179,7 @@ form > h1, form > h2, form > h3, form > h4, form > h5, form > h6 {
 
 .input-horizontal-flex > .input-flex-line, .input-horizontal-flex > .input-vertical-line {
     width: auto;
-    margin-right: 10px;
+    margin-right: 0.8em;
 }
 
 .input-vertical {
@@ -187,8 +187,8 @@ form > h1, form > h2, form > h3, form > h4, form > h5, form > h6 {
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 0.4em;
+    margin-right: 0.4em;
 }
 
 .input-vertical-line {
@@ -197,19 +197,19 @@ form > h1, form > h2, form > h3, form > h4, form > h5, form > h6 {
     width: 100%;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-bottom: 6px;
+    margin-bottom: 0.4em;
 }
 
 .input-vertical-line > label, .input-vertical > label {
-    padding-bottom: 2px;
+    padding-bottom: 0.1em;
 }
 
 .input-grid {
     display: grid;
     grid-template-columns: minmax(75px, 1fr) minmax(75px, auto);
     grid-auto-rows: minmax(25px, auto);
-    grid-column-gap: 5px;
-    grid-row-gap: 2px;
+    grid-column-gap: 0.4em;
+    grid-row-gap: 0.1em;
     align-items: baseline;
 }
 
@@ -222,13 +222,13 @@ form > h1, form > h2, form > h3, form > h4, form > h5, form > h6 {
 }
 
 .input-line > button, .input-flex-line > button, .input-vertical-line > button, .input-grid button {
-    height: 30px;
+    height: 1.8rem;
 }
 
 .input-flex-line > label {
     text-align: left;
     flex-grow: 1;
-    padding-right: 10px;
+    padding-right: 0.6em;
 }
 
 .inline-banner-wrapper {
@@ -240,13 +240,14 @@ form > h1, form > h2, form > h3, form > h4, form > h5, form > h6 {
 }
 
 .inline-banner {
-	margin: 10px;
+	margin: 0.4em;
 	border: 1px solid var(-border-color);
 	background-color: var(--banner-color);
 	color: var(--text-color);
-	padding: 10px;
+	padding: 0.4em;
 	word-break: break-word;
 	display: flex;
 	align-items: center;
-	gap: 5px;
+    justify-content: center;
+	gap: 0.3em;
 }
