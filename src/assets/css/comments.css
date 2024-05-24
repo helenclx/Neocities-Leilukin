@@ -191,6 +191,10 @@
     margin-right: 0.4em;
 }
 
+.input-vertical input:focus {
+    outline: 0.15em solid var(--clr-link);
+}
+
 .input-vertical-line {
     display: flex;
     flex-direction: column;
