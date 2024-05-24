@@ -1,0 +1,254 @@
+/**
+* Author: Vera Konigin
+* Site: https://groundedwren.neocities.org
+* Contact: vera@groundedwren.com
+*
+* File Description: Styles for the guestbook control
+* CSS variables come from https://groundedwren.neocities.org/styles/gwBoilerPlatePersonalization.css
+*/
+:root {
+    --icon-color: var(--clr-body-txt);
+}
+
+gw-comment-form, gw-comment-list {
+    width: 100%;
+}
+
+.comments-region {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.comment-form input {
+    width: 135px;
+}
+
+.comments-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    max-width: 100%;
+    gap: 0.4em;
+}
+
+.comment-box-container {
+    margin-top: 0.4em;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.comment-form-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.4em;
+    font-size: 1.25em;
+}
+
+.comment-article {
+    border-left: 2px solid var(--border-color);
+    padding: 0.5em 0;
+    background-color: var(--content-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-article blockquote {
+    max-width: unset !important;
+    overflow-wrap: break-word;
+}
+
+.comment-article > button {
+    max-width: fit-content;
+    height: 30px;
+}
+
+.comment-header {
+    display: grid;
+    grid-template-columns: 0fr 1fr 1fr;
+    gap: 5px;
+    align-items: baseline;
+}
+
+.comment-article .comment-article {
+    margin-left: 0.9em;
+    margin-top: 0.9em;
+    padding-right: 0;
+}
+
+.comment-id, .comment-timestamp {
+    font-size: 0.85em;
+    font-weight: lighter;
+    font-style: italic;
+    word-break: keep-all;
+}
+
+.comment-timestamp {
+    text-align: end;
+}
+
+.commenter-name {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+form {
+    border: 1px solid;
+    padding: 0.4em;
+    border-color: var(--general-border-color);
+    width: 100%;
+    background-color: var(--content-color);
+}
+
+form.transparent-form {
+    border: none;
+    padding: 0;
+    width: auto;
+    background-color: inherit;
+}
+
+.transparent-fieldset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+form > h1, form > h2, form > h3, form > h4, form > h5, form > h6 {
+    margin: 0;
+    text-align: center;
+}
+
+.transparent-fieldset > legend {
+    display: none !important;
+}
+
+.form-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.form-footer > * {
+    margin: 3px;
+    min-height: 30px;
+}
+
+.input-line > label {
+    text-align: left;
+    width: 150px;
+    min-width: 100px;
+}
+
+.input-line * {
+    display: inline-block;
+}
+
+.input-line {
+    margin-bottom: 5px;
+}
+
+.input-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.input-flex-line {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.input-horizontal-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    row-gap: 4px;
+}
+
+.input-horizontal-flex > .input-flex-line, .input-horizontal-flex > .input-vertical-line {
+    width: auto;
+    margin-right: 10px;
+}
+
+.input-vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.input-vertical-line {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 6px;
+}
+
+.input-vertical-line > label, .input-vertical > label {
+    padding-bottom: 2px;
+}
+
+.input-grid {
+    display: grid;
+    grid-template-columns: minmax(75px, 1fr) minmax(75px, auto);
+    grid-auto-rows: minmax(25px, auto);
+    grid-column-gap: 5px;
+    grid-row-gap: 2px;
+    align-items: baseline;
+}
+
+.input-grid > .full-line {
+    grid-column: 1 / -1;
+}
+
+.input-line label, .input-flex-line label, .input-vertical-line label, .input-grid label {
+    cursor: pointer;
+}
+
+.input-line > button, .input-flex-line > button, .input-vertical-line > button, .input-grid button {
+    height: 30px;
+}
+
+.input-flex-line > label {
+    text-align: left;
+    flex-grow: 1;
+    padding-right: 10px;
+}
+
+.sr-only {
+	position: absolute;
+	left: -99999999px;
+}
+
+.inline-banner-wrapper {
+	display: flex;
+}
+
+.inline-banner-wrapper > .inline-banner {
+    width: 100%;
+}
+
+.inline-banner {
+	margin: 10px;
+	border: 1px solid var(-border-color);
+	background-color: var(--banner-color);
+	color: var(--text-color);
+	padding: 10px;
+	word-break: break-word;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}

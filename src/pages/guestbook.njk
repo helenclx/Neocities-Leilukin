@@ -16,93 +16,21 @@ eleventyComputed:
 
 <p><a href="https://web.archive.org/web/20240510121252/https%3A%2F%2Fleilukin.123guestbook.com%2F">Archive of my previous guestbook hosted on 123Guestbook</a></p>
 
-<h2>Leave A Message</h2>
+<gw-comment-form
+    id="guestbookForm"
+    titleText="Sign the Guestbook"
+    discordURL="https://discord.com/api/webhooks/1243241310664659076/JQNvj369B_d8DipyooUrYA7gSfd01lBcUb7-U45OVLXkHoEkMFdjrY555B-WZYG9CwL0"
+></gw-comment-form>
 
-<form class="gb__form">
-    <div class="gb__form--group">
-        <label for="name-input">Name:</label>
-        <input type="text" name="name" id="name-input" required>
-    </div>
+<gw-comment-list
+    gSpreadsheetId="1cFcSa6hnR_RtW5bemgb5PJl4RD9yFGty6qy8lhDNhUs"
+    gSheetId="Guestbook"
+    isNewestFirst="true"
+    gwCommentFormId="guestbookForm"
+></gw-comment-list>
 
-    <div class="gb__form--group">
-        <label for="email-input">Email (will not be published):</label>
-        <input type="email" name="email" id="email-input" required>
-    </div>
-
-    <div class="gb__form--group">
-        <label for="website-input">Website (optional):</label>
-        <input type="text" name="website" id="website-input">
-    </div>
-
-    <div class="gb__form--group">
-        <label for="message-input">Message:</label>
-        <textarea type="text" rows="4" name="message" id="message-input" required></textarea>
-    </div>
-
-    <button type="submit" class="gb__form--submit">Publish</button>
-</form>
-
-<section class="gb__messages">
-    <h2>Messages</h2>
-    <div class="gb__message--list"></div>
-</section>
-
-<style>
-    .gb__form,
-    .gb__form--group,
-    .gb__message--list,
-    .gb__message {
-        display: grid;
-    }
-
-    .gb__form {
-        gap: 0.6em;
-        margin-bottom: 2em;
-    }
-
-    .gb__form--group {
-        gap: 0.2em;
-    }
-
-    .gb__form--submit {
-        border: none;
-        background: var(--clr-link-btn-bg);
-        color: var(--clr-link-btn-txt);
-        padding: 0.3em 0.6em;
-    }
-
-    .gb__form--group input,
-    .gb__form--group textarea,
-    .gb__form--submit {
-        border-radius: 0.2em;
-    }
-
-    .gb__form--group textarea {
-        resize: vertical;
-    }
-
-    .gb__form--group input:focus,
-    .gb__form--group textarea:focus {
-         outline: 0.15em solid var(--clr-link);
-    }
-
-    .gb__message--list {
-        gap: 1em;
-    }
-
-    .gb__message {
-        gap: 0.5em;
-        padding: 1em 1.4em 1.4em;
-        background-color: var(--clr-quote-bg);
-    }
-
-    .gb__message--name {
-        font-size: 1.4rem;
-    }
-
-    .gb__message--time{
-        font-size: 1rem;
-    }
-</style>
-
-<script type="module" src="/assets/js/guestbook.js" defer></script>
+<link rel="stylesheet" href="{{'/assets/css/svgIconControl.css' | url | safe}}">
+<link rel="stylesheet" href="{{'/assets/css/comments.css' | url | safe}}">
+<script src="/assets/js/svgIconControl.js"></script>
+<script src="/assets/js/googleSheetsReaderGizmo.js"></script>
+<script src="/assets/js/comments.js"></script>

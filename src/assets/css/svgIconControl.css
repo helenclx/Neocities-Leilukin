@@ -1,0 +1,21 @@
+/**
+ * Author: Vera Konigin
+ * Site: https://groundedwren.neocities.org
+ * Contact: vera@groundedwren.com
+ *
+ * File Description: Styles for the SVG Icon web component
+ * CSS variables come from https://groundedwren.neocities.org/styles/gwBoilerPlatePersonalization.css
+ */
+
+ .icon {
+    fill: var(--icon-color);
+    width: 16px;
+    height: 16px;
+}
+
+gw-icon {
+	display: inline-flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
