@@ -2,8 +2,7 @@
 layout: main/content
 title: Now
 desc: What Leilukin is doing now.
-updated: 2024-05-09
-templateEngineOverride: njk, md
+updated: 2024-05-25
 eleventyNavigation:
     key: Now
     order: 3
@@ -13,12 +12,12 @@ eleventyNavigation:
 
 This is my [/now page](https://nownownow.com/about). You can find more pages like this at [nownownow.com](https://nownownow.com/).
 
-## What am I Working on
+## What I am Working on
 
-In mid-April, I spent a whole week in overhauling this website with the static site generator [Eleventy](https://www.11ty.dev/). The rebuilding process was [finally completed on 20 April 2023](/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy/), but I am still doing maintenance and file organising under the hood.
+### This site's [guestbook](/guestbook)
 
-## Media
+I have been spending the past two or so weeks in trying to search for replacement for this site's guestbook since 123Guestbook, the guestbook service I previously used, was announced to be [shutting down on 1 July 2024](https://web.archive.org/web/20240504201300/https://www.123guestbook.com/news.php?id=closure). At last, I settled for [Grounded Wren's guestbook code](https://groundedwren.neocities.org/pages/demo_controls/guestbookDemo) to use for my website's guestbook.
 
-### Currently Playing
+### Updating my {% cite "Star Wars: Knights of the Old Republic" %} mods
 
-{% cite "Stardew Valley" %}: The most recent major content update, 1.6, has incentivised me to return to the game.
+As part of my ongoing collaboration with [KOtOR Community Portal's mod builds](https://kotor.neocities.org/modding/), recently I have updated [KotOR 1 Twi'lek Male NPC Diversity](/projects/kotor1mods/#kotor-1-twilek-male-npc-diversity) and [PartySwap](/projects/kotor2mods/#partyswap) to ensure my mods are bug-free and compatible with other mods in the mod builds, and to prepare for the next iteration of the mod builds.
