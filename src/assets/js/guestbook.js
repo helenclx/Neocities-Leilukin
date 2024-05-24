@@ -115,11 +115,7 @@ const renderMessage = (item) => {
     newMessageTime.classList.add('gb__message--time');
     newMessageTime.textContent = itemValue.timestamp;
 
-    const messageReplyBtn = document.createElement('button');
-    messageReplyBtn.classList.add('gb__message--reply-btn');
-    messageReplyBtn.textContent = 'Reply';
-
     messageListEl.append(newThreadDiv);
     newThreadDiv.append(newMessageDiv);
-    newMessageDiv.append(newMessageName, newMessageMsg, newMessageTime, messageReplyBtn);
+    newMessageDiv.append(newMessageName, newMessageMsg, newMessageTime);
 };
