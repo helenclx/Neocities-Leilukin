@@ -311,14 +311,14 @@ registerNamespace("GW.Controls", function (ns)
                     continue;
                 }
                 parent.insertAdjacentHTML("beforeend", `
-                <gw-comment-card  id="${this.idKey}-cmt-${comment.ID}"
-                                    commentId="${comment.ID || ""}"
-                                    replyToId="${parentId || ""}"
-                                    commenterName="${comment["Display Name"] || ""}"
-                                    isoTimestamp="${comment.Timestamp.toISOString()}"
-                                    websiteURL="${comment.Website || ""}"
-                                    commentText="${comment.Comment || ""}"
-                                    gwCommentFormId="${this.gwCommentFormId || ""}"
+                <gw-comment-card id="${this.idKey}-cmt-${comment.ID}"
+                    commentId="${comment.ID || ""}"
+                    replyToId="${parentId || ""}"
+                    commenterName="${comment["Display Name"] || ""}"
+                    isoTimestamp="${comment.Timestamp.toISOString()}"
+                    websiteURL="${comment.Website || ""}"
+                    commentText="${comment.Comment || ""}"
+                    gwCommentFormId="${this.gwCommentFormId || ""}"
                 ></gw-comment-card>
                 `);
 
