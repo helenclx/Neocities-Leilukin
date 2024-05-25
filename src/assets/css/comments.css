@@ -60,7 +60,7 @@
 .comment-article blockquote {
     max-width: unset !important;
     overflow-wrap: break-word;
-    margin: 0.8em 0;
+    margin: 0.5em 0;
 }
 
 .comment-article > button {
@@ -82,7 +82,6 @@
 
 .comment-id, .comment-timestamp {
     font-size: 0.85em;
-    font-weight: lighter;
     font-style: italic;
     word-break: keep-all;
 }
