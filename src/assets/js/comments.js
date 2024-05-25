@@ -191,7 +191,7 @@ registerNamespace("GW.Controls", function (ns)
             this.emailInpt.value = contentObj.email;
             this.websiteInpt.value = contentObj.website;
 
-            alert("Your message has been submitted!");
+            alert("Your comment has been submitted!");
         };
         //#endregion
     };
