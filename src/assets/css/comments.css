@@ -10,15 +10,66 @@
     --icon-color: var(--clr-body-txt);
 }
 
-.comments-region {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.8rem;
+.comment-form {
+    border: 0.1rem solid var(--clr-body-txt);
+    width: 100%;
+    padding: 1em;
+    margin: 2em 0;
+    display: grid;
 }
 
-.comment-article > button,
-.form-footer input {
+.comment-form-title {
+    text-align: center;
+    margin-bottom: 0.5em;
+    font-size: 1.25em;
+}
+
+.comment-form,
+.input-horizontal-wrapper {
+    gap: 0.7em;
+}
+
+.input-horizontal-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%/1, max(10rem, 100%/3)), 1fr));
+}
+
+.input-vertical,
+.comment-box-container {
+    display: grid;
+    gap: 0.2em;
+}
+
+.input-vertical input {
+    width: 100%;
+}
+
+.input-vertical input:focus {
+    outline: 0.15em solid var(--clr-link);
+}
+
+.comment-box-container textarea {
+    resize: vertical;
+}
+
+.inline-banner {
+	padding: 0.4em;
+	word-break: break-word;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+	gap: 0.5em;
+}
+
+.form-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 0.5em;
+}
+
+.form-footer input,
+.comment-article > button {
     cursor: pointer;
     border: none;
     background: var(--clr-link-btn-bg);
@@ -35,24 +86,8 @@
     gap: 0.4em;
 }
 
-.comment-box-container {
-    margin-top: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    width: fit-content;
-}
-
-.comment-form-title {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 0.4em;
-    font-size: 1.25em;
-}
-
 .comment-article {
-    border-left: 2px solid var(--border-color);
     padding: 0.5em 0;
-    background-color: var(--content-color);
     display: flex;
     flex-direction: column;
 }
@@ -93,164 +128,4 @@
 .commenter-name {
     font-size: 1.1em;
     font-weight: bold;
-}
-
-.comment-form {
-    border: 1px solid;
-    padding: 0.4em;
-    border-color: var(--general-border-color);
-    width: 100%;
-    background-color: var(--content-color);
-    margin: 2em 0;
-}
-
-.comment-form.transparent-form {
-    border: none;
-    padding: 0;
-    width: auto;
-    background-color: inherit;
-}
-
-.transparent-fieldset {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
-.comment-form > h1, form > h2, form > h3, form > h4, form > h5, form > h6 {
-    margin: 0;
-    text-align: center;
-}
-
-.transparent-fieldset > legend {
-    display: none !important;
-}
-
-.form-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-
-.form-footer > * {
-    margin: 0.2em;
-    min-height: 2rem;
-}
-
-.input-line > label {
-    text-align: left;
-    width: 9.5rem;
-    min-width: 6rem;
-}
-
-.input-line * {
-    display: inline-block;
-}
-
-.input-line {
-    margin-bottom: 5px;
-}
-
-.input-flex {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.input-flex-line {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: flex-start;
-    align-items: center;
-    margin-bottom: 0.4em;
-}
-
-.input-horizontal-flex {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    row-gap: 4px;
-}
-
-.input-horizontal-flex > .input-flex-line, .input-horizontal-flex > .input-vertical-line {
-    width: auto;
-    margin-right: 0.8em;
-}
-
-.input-vertical {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-left: 0.4em;
-    margin-right: 0.4em;
-}
-
-.input-vertical input:focus {
-    outline: 0.15em solid var(--clr-link);
-}
-
-.input-vertical-line {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-bottom: 0.4em;
-}
-
-.input-vertical-line > label, .input-vertical > label {
-    padding-bottom: 0.1em;
-}
-
-.input-grid {
-    display: grid;
-    grid-template-columns: minmax(75px, 1fr) minmax(75px, auto);
-    grid-auto-rows: minmax(25px, auto);
-    grid-column-gap: 0.4em;
-    grid-row-gap: 0.1em;
-    align-items: baseline;
-}
-
-.input-grid > .full-line {
-    grid-column: 1 / -1;
-}
-
-.input-line label, .input-flex-line label, .input-vertical-line label, .input-grid label {
-    cursor: pointer;
-}
-
-.input-line > button, .input-flex-line > button, .input-vertical-line > button, .input-grid button {
-    height: 1.8rem;
-}
-
-.input-flex-line > label {
-    text-align: left;
-    flex-grow: 1;
-    padding-right: 0.6em;
-}
-
-.inline-banner-wrapper {
-	display: flex;
-}
-
-.inline-banner-wrapper > .inline-banner {
-    width: 100%;
-}
-
-.inline-banner {
-	margin: 0.4em;
-	border: 1px solid var(-border-color);
-	background-color: var(--banner-color);
-	color: var(--text-color);
-	padding: 0.4em;
-	word-break: break-word;
-	display: flex;
-	align-items: center;
-    justify-content: center;
-	gap: 0.3em;
 }

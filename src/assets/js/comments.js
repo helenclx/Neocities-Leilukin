@@ -74,8 +74,8 @@ registerNamespace("GW.Controls", function (ns)
                 class="comment-form"
                 autocomplete="off"
             >
-                <span id="${this.idKey}-title" class="comment-form-title">${this.titleText}</span>
-                <div class="input-horizontal-flex">
+                <h2 id="${this.idKey}-title" class="comment-form-title">${this.titleText}</h2>
+                <div class="input-horizontal-wrapper">
                     <div class="input-vertical">
                         <label for="${this.idKey}-dispName">
                             Display name<span aria-hidden="true">*</span>
@@ -97,22 +97,20 @@ registerNamespace("GW.Controls", function (ns)
                     </div>
                 </div>
                 <div class="comment-box-container">
-                    <div class="input-vertical">
-                        <label for="${this.idKey}-comment">
-                            Comment<span aria-hidden="true">*</span>
-                            <span class="visually-hidden">(Required)</span>
-                        </label>
-                        <textarea id="${this.idKey}-comment"
-                            minlength="1"
-                            maxlength="4000"
-                            required="true"
-                            rows="5"
-                        ></textarea>
-                    </div>
+                    <label for="${this.idKey}-comment">
+                        Comment<span aria-hidden="true">*</span>
+                        <span class="visually-hidden">(Required)</span>
+                    </label>
+                    <textarea id="${this.idKey}-comment"
+                        minlength="1"
+                        maxlength="4000"
+                        required="true"
+                        rows="5"
+                    ></textarea>
                 </div>
                 <div id="${this.idKey}-banner" class="inline-banner">
-                    <gw-icon iconKey="circle-info" title="info"></gw-icon>
-                    <span>Comments are manually approved</span>
+                    <gw-icon iconKey="circle-info" alt="info"></gw-icon>
+                    <p>Comments are manually approved</p>
                 </div>
                 <div class="form-footer">
                     <input id="${this.idKey}-reset" type="reset" value="Reset">
