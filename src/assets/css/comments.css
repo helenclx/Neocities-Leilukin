@@ -19,7 +19,6 @@
 
 .comment-form-title {
     text-align: center;
-    margin-bottom: 0.5em;
     font-size: 1.25em;
 }
 
@@ -30,7 +29,7 @@
 
 .input-horizontal-wrapper {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(100%/1, max(16rem, 100%/3)), 1fr));
 }
 
 .input-vertical,
