@@ -1,7 +1,7 @@
 /* CONFIGURATION FOR MARKDOWN TEMPLATES */
 
 // Installed Plugins
-const pluginTOC = require('eleventy-plugin-nesting-toc');
+const pluginTOC = require('@uncenter/eleventy-plugin-toc');
 const embedEverything = require("eleventy-plugin-embed-everything");
 
 // Configure slug filter
