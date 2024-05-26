@@ -11,10 +11,10 @@ Built with [Eleventy](https://www.11ty.dev/) and deployed to Neocities with the 
 - [details-utils](https://www.npmjs.com/package/@zachleat/details-utils)
 
 ### Eleventy Community Plugins
-- [eleventy-plugin-emoji-readtime](https://www.npmjs.com/package/@11tyrocks/eleventy-plugin-emoji-readtime)
+- [@11tyrocks/eleventy-plugin-emoji-readtime](https://www.npmjs.com/package/@11tyrocks/eleventy-plugin-emoji-readtime)
 - [eleventy-plugin-embed-everything](https://www.npmjs.com/package/eleventy-plugin-embed-everything)
 - [eleventy-plugin-metagen](https://www.npmjs.com/package/eleventy-plugin-metagen)
-- [eleventy-plugin-nesting-toc](https://www.npmjs.com/package/eleventy-plugin-nesting-toc)
+- [@uncenter/eleventy-plugin-toc](https://www.npmjs.com/package/@uncenter/eleventy-plugin-toc)
 
 ### markdown-it plugins
 - [markdown-it-anchor](https://www.npmjs.com/package/markdown-it-anchor)
