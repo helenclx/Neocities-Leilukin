@@ -1,26 +1,14 @@
 ---
 title: Accessibility
 keyword: accessibility statement
-updated: 2024-05-22
+updated: 2024-05-26
 eleventyNavigation:
     order: 12
 ---
 
-Even though this website is primarily meant to be my own space of self-expression, I also want every visitor to my website to have the best possible experience of browsing my website. Therefore, I strive to design this website to be accessible, including to disabled and neurodivergent people.
+Even though this website is primarily meant to be my own space of self-expression, I also want every visitor to my website to have the best possible experience of browsing my website. Therefore, I strive to design this website to be accessible, including to disabled and neurodivergent people, by aiming to meet [Web Content Accessibility Guidelines (WCAG) 2.2 AA standards](https://www.w3.org/WAI/standards-guidelines/wcag/).
 
-Currently, this site includes the following accessibility features:
-
-* Fully responsive and mobile-friendly layout
-* Semantic HTML
-* Alt text for all non-decorative images
-* No autoplaying music or video
-* No animated images
-* Proper colour contrast for backgrounds, text, and links
-* Makes font sizes scalable by use relative units such as rem/em instead of absolute units such as px
-* Site is functional up to 200% text zoom
-* Allows reader mode to be enabled for articles and blog posts
-* Visible outline when an interactive element is focused
-* Uses the [Lexend](https://www.lexend.com/) font family as the default font and [Intel One Mono](https://www.intel.com/content/www/us/en/company-overview/one-monospace-font.html) as the monospace font to improve text readability
+This site uses the [Lexend](https://www.lexend.com/) font family as the default font and [Intel One Mono](https://www.intel.com/content/www/us/en/company-overview/one-monospace-font.html) as the monospace font to improve text readability.
 
 I use the following tools to test my site for accessibility:
 * WebAIM's [WAVE Browser Extension](https://wave.webaim.org/extension/)
@@ -28,4 +16,4 @@ I use the following tools to test my site for accessibility:
 
 In addition, I test the accessibility of my website manually by navigating with keyboard alone.
 
-Feedbacks from disabled and neurodivergent people are welcome. You can [contact me via email](mailto:{{sitemeta.siteAuthor.email}}) for feedbacks and suggestions for improving the accessibility of this site
+Feedbacks from disabled and neurodivergent people are welcome. You can [contact me via email](mailto:{{sitemeta.siteAuthor.email}}) for feedbacks and suggestions for improving the accessibility of this site.
