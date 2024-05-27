@@ -121,6 +121,16 @@ module.exports = function (eleventyConfig) {
         </details>`;
     });
 
+    // Paired shorcode: Content warning accordion
+    eleventyConfig.addPairedShortcode('contentWarning', (content, warning) => {
+        const warningMarkup = markdownLibrary.renderInline(warning);
+        const contentMarkup = markdownLibrary.render(content);
+        return `<details class="contnet-warning">
+            <summary class="contnet-warning__warning"><strong>⚠️ Content Warning:</strong> ${warningMarkup}</summary>
+            <div class="contnet-warning__content">${contentMarkup}</div>
+        </details>`;
+    });
+
     /* This is the part that tells 11ty to swap to our custom config */
     eleventyConfig.setLibrary("md", markdownLibrary);
 }
