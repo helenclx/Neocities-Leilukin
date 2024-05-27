@@ -1,10 +1,29 @@
 /**
- * Author: Vera Konigin
- * Site: https://groundedwren.neocities.org
- * Contact: vera@groundedwren.com
- *
- * File Description: Comments Control
- */
+* Author: Vera Konigin
+* Site: https://groundedwren.neocities.org
+* Contact: vera@groundedwren.com
+*
+* File Description: Comments Control
+*/
+
+/**
+* By default, any JavaScript code written is defined in the global namespace, which means it's accessible directly under the "window" element.
+* If you have a lot of scripts, this can lead to clutter and naming collisions (what if two different scripts use a variable called "i"? They can inadvertently mess each other up).
+* To get around this, we define the registerNamespace function in the global namespace, which just confines all the code in the function passed to it to a property under window.
+* That property is represented as the "path" parameter. It is passed to the function for ease of access.
+*/
+function registerNamespace(path, nsFunc)
+{
+    var ancestors = path.split(".");
+
+    var ns = window;
+    for(var i = 0; i < ancestors.length; i++)
+    {
+        ns[ancestors[i]] = ns[ancestors[i]] || {};
+        ns = ns[ancestors[i]];
+    }
+    nsFunc(ns);
+}
 
 registerNamespace("GW.Controls", function (ns)
 {
@@ -312,6 +331,7 @@ registerNamespace("GW.Controls", function (ns)
                 <gw-comment-card id="${this.idKey}-cmt-${comment.ID}"
                     commentId="${comment.ID || ""}"
                     replyToId="${parentId || ""}"
+                    numChildren="${(comment.childrenIdxs || []).length}"
                     commenterName="${comment["Display Name"] || ""}"
                     isoTimestamp="${comment.Timestamp.toISOString()}"
                     websiteURL="${comment.Website || ""}"
@@ -364,6 +384,7 @@ registerNamespace("GW.Controls", function (ns)
         isInitialized;
         commentId;
         replyToId;
+        numChildren;
         commenterName;
         isoTimestamp;
         datetime;
@@ -396,6 +417,7 @@ registerNamespace("GW.Controls", function (ns)
 
             this.commentId = this.getAttribute("commentId");
             this.replyToId = this.getAttribute("replyToId");
+            this.numChildren = this.getAttribute("numChildren");
             this.commenterName = this.getAttribute("commenterName");
             this.isoTimestamp = this.getAttribute("isoTimestamp");
             this.datetime = new Date(this.isoTimestamp);
@@ -412,11 +434,13 @@ registerNamespace("GW.Controls", function (ns)
 
         renderContent()
         {
-            const headerText = this.replyToId
+            let headerText = this.replyToId
                 ? `Comment #${this.commentId} replying to #${this.replyToId}`
                 : `Top level comment #${this.commentId}`;
 
-            const displayTimestamp = this.datetime.toLocaleString(
+                headerText += ` with ${this.numChildren} direct ${this.numChildren == 1 ? "reply" : "replies"}`;
+
+                const displayTimestamp = this.datetime.toLocaleString(
                 undefined,
                 { dateStyle: "short", timeStyle: "short" }
             );
@@ -432,27 +456,40 @@ registerNamespace("GW.Controls", function (ns)
                         class="comment-article"
             >
                 <div id="${this.idKey}-header" class="comment-header">
-                    <div>
+                    <div class="comment-id" role="img" aria-label="${headerText}">
                         <span aria-hidden="true" class="comment-id">#${this.commentId}</span>
-                        <span class="visually-hidden">${headerText}</span>
                     </div>
                     ${commenterNameEl}
-                    <time datetime="${this.isoTimestamp}" class="comment-timestamp">${displayTimestamp}</time>
+                    <div class="comment-header-right">
+                        <time id="${this.idKey}-timestamp"
+                            datetime="${this.isoTimestamp}"
+                            tabindex="-1"
+                        >${displayTimestamp}</time>
+                        <button id="${this.idKey}-show" class="show-comment">Show #${this.commentId}</button>
+                    </div>
                 </div>
                 <blockquote>${this.commentText}</blockquote>
-                <button id="${this.idKey}-reply">Reply to #${this.commentId}</button>
+                <div class="comment-footer">
+                    <button id="${this.idKey}-reply">Reply to #${this.commentId}</button>
+                    <button id="${this.idKey}-hide">Hide #${this.commentId}</button>
+                </div>
             </article>
             `;
 
             //element properties
             this.articleEl = document.getElementById(`${this.idKey}-article`);
+            this.timestamp = document.getElementById(`${this.idKey}-timestamp`);
             this.replyBtn = document.getElementById(`${this.idKey}-reply`);
+            this.hideBtn = document.getElementById(`${this.idKey}-hide`);
+            this.showBtn = document.getElementById(`${this.idKey}-show`);
         }
 
         //#region Handlers
         registerHandlers()
         {
             this.replyBtn.onclick = this.onReply;
+            this.hideBtn.onclick = this.onHide;
+            this.showBtn.onclick = this.onShow;
         }
 
         onReply = () =>
@@ -467,6 +504,18 @@ registerNamespace("GW.Controls", function (ns)
 
             respToInpt.value = this.commentId;
             respToInpt.focus();
+        };
+
+        onHide = () =>
+        {
+            this.classList.add("collapsed");
+            this.showBtn.focus();
+        };
+
+        onShow = () =>
+        {
+            this.classList.remove("collapsed");
+            this.timestamp.focus();
         };
         //#endregion
     };

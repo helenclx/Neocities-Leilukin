@@ -53,6 +53,7 @@
 	align-items: center;
     justify-content: center;
 	gap: 0.5em;
+    background-color: var(--clr-quote-bg);
 }
 
 .form-footer {
@@ -63,13 +64,28 @@
 }
 
 .form-footer input,
-.comment-article > button {
+.comment-footer button,
+.show-comment {
     cursor: pointer;
     border: none;
     background: var(--clr-link-btn-bg);
     color: var(--clr-link-btn-txt);
     padding: 0.3em 0.6em;
     border-radius: 0.2em;
+}
+
+gw-comment-card:not(.collapsed) .show-comment {
+	display: none;
+}
+gw-comment-card.collapsed .comment-article > *:not(.comment-header) {
+	display: none !important;
+}
+gw-comment-card.collapsed .show-comment {
+	display: block;
+}
+
+gw-comment-card.collapsed .comment-header-right time {
+	display: none;
 }
 
 .comments-container {
@@ -81,7 +97,7 @@
 }
 
 .comment-article {
-    padding: 0.5em 0;
+    padding: 0.3em 0;
     display: flex;
     flex-direction: column;
 }
@@ -109,14 +125,16 @@
     padding-right: 0;
 }
 
-.comment-id, .comment-timestamp {
+.comment-id, .comment-header-right > time  {
     font-size: 0.85em;
     font-style: italic;
     word-break: keep-all;
 }
 
-.comment-timestamp {
-    text-align: end;
+.comment-header-right {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
 }
 
 .commenter-name {
