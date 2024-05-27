@@ -56,11 +56,14 @@
     background-color: var(--clr-quote-bg);
 }
 
-.form-footer {
+.form-footer,
+.comment-footer {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
     gap: 0.5em;
+}
+
+.form-footer {
+    justify-content: flex-end;
 }
 
 .form-footer input,
