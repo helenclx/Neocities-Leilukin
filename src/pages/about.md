@@ -17,13 +17,13 @@ On this site, you can find various stuff I have created or curated, as well as a
 
 Feel free to drop a message and say hi on [my guestbook](/guestbook)!
 
-You can link to my website with the following button. I would recommend you to host my site button in your own website instead of hotlinking it.
-
-![Button of Leilukin's Hub](/assets/leilukin/Leilukins-Hub-button.png)
-
 If you also have a Neocities account, you can follow this site through its [Neocities profile](https://neocities.org/site/leilukin).
 
 ![A website button with Penelope the cat, the mascot of Neocities, and the text 'hosted by neocities'](/assets/banners/hosted-by-neocities.png "Hosted by Neocities")
+
+### Link to This Site
+
+{% include "main/site-btn.njk" %}
 
 ### Accessibility Information
 
