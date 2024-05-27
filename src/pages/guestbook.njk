@@ -22,6 +22,8 @@ eleventyComputed:
     discordURL="https://discord.com/api/webhooks/1243241310664659076/JQNvj369B_d8DipyooUrYA7gSfd01lBcUb7-U45OVLXkHoEkMFdjrY555B-WZYG9CwL0"
 ></gw-comment-form>
 
+<h2 class="gb__messages--title">Guest Messages</h2>
+
 <gw-comment-list
     gSpreadsheetId="1cFcSa6hnR_RtW5bemgb5PJl4RD9yFGty6qy8lhDNhUs"
     gSheetId="Guestbook"
@@ -30,7 +32,16 @@ eleventyComputed:
 ></gw-comment-list>
 
 <link rel="stylesheet" href="{{'/assets/css/svgIconControl.css' | url | safe}}">
-<link rel="stylesheet" href="{{'/assets/css/comments.css' | url | safe}}">
 <script src="/assets/js/svgIconControl.js"></script>
+
 <script src="/assets/js/googleSheetsReaderGizmo.js"></script>
+<link rel="stylesheet" href="{{'/assets/css/comments.css' | url | safe}}">
+
 <script src="/assets/js/comments.js"></script>
+
+<style>
+    .gb__messages--title {
+        text-align: center;
+        margin-tbottom: 0.5em;
+    }
+</style>
