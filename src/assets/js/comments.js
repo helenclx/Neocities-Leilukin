@@ -1,16 +1,16 @@
 /**
-* Author: Vera Konigin
-* Site: https://groundedwren.neocities.org
-* Contact: vera@groundedwren.com
-*
-* File Description: Comments Control
+ * Author: Vera Konigin
+ * Site: https://groundedwren.neocities.org
+ * Contact: vera@groundedwren.com
+ *
+ * File Description: Comments Control
 */
 
 /**
-* By default, any JavaScript code written is defined in the global namespace, which means it's accessible directly under the "window" element.
-* If you have a lot of scripts, this can lead to clutter and naming collisions (what if two different scripts use a variable called "i"? They can inadvertently mess each other up).
-* To get around this, we define the registerNamespace function in the global namespace, which just confines all the code in the function passed to it to a property under window.
-* That property is represented as the "path" parameter. It is passed to the function for ease of access.
+ * By default, any JavaScript code written is defined in the global namespace, which means it's accessible directly under the "window" element.
+ * If you have a lot of scripts, this can lead to clutter and naming collisions (what if two different scripts use a variable called "i"? They can inadvertently mess each other up).
+ * To get around this, we define the registerNamespace function in the global namespace, which just confines all the code in the function passed to it to a property under window.
+ * That property is represented as the "path" parameter. It is passed to the function for ease of access.
 */
 function registerNamespace(path, nsFunc)
 {
