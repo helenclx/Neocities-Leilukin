@@ -97,7 +97,7 @@
 
 .contnet-warning__warning {
     padding: 0.8em;
-    --stripe-color: rgb(0 0 0 / 0.1);
+    --stripe-color: var(--clr-quote-bg);
     background-image: repeating-linear-gradient(
         45deg,
         transparent,
@@ -109,7 +109,7 @@
 
 .contnet-warning__warning:hover,
 .contnet-warning__warning:focus {
-    --stripe-color: rgb(150 0 0 / 0.1);
+    --stripe-color: var(--clr-cw-hover);
 }
 
 .contnet-warning__content {
