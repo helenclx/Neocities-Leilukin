@@ -32,6 +32,25 @@
     }
 }
 
+/* Skip to content button */
+.skip-btn a {
+    position: absolute;
+    display: inline-block;
+    left: 0px;
+    top: -1000px;
+    overflow: hidden;
+    transition: top 0.5s ease;
+    background: #fff;
+    color: #191919;
+    z-index: 1000;
+    padding: 0.3em;
+}
+
+.skip-btn a:focus {
+    top: 0;
+    transition: top 0.3s ease;
+}
+
 /* Link button */
 .link-btn {
     font-size: 1.3rem;
