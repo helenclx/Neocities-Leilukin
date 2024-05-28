@@ -27,7 +27,7 @@ If you also have a Neocities account, you can follow this site through its [Neoc
 
 ### Accessibility Information
 
-While this website is primarily meant to be my own space of self-expression, I also strive to make my website accessible to provide the best possible user experience. You can read my [accessibility statement](/acessibility/) for more info.
+While this website is primarily meant to be my own space of self-expression, I also strive to make my website accessible to provide the best possible user experience. You can read my [accessibility statement](/accessibility) for more information.
 
 ### Technical Information
 
