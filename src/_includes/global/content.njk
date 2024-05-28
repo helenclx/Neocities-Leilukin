@@ -44,7 +44,7 @@
             {{ content | safe }}
         </article>
     {% else %}
-		<div class="content {{'content--divided' if isContentDivided }}">
+		<div class="content{{' content--divided' if isContentDivided }}">
 			{{ content | safe }}
 		</div>
     {% endif %}
