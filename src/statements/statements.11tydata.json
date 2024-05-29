@@ -4,7 +4,7 @@
     "isStatement": true,
     "permalink": "/{{ page.fileSlug }}/",
     "eleventyComputed": {
-        "desc": "Leilukin's Hub's {{ keyword }}.",
+        "desc": "{{ sitemeta.siteName }}'s {{ keyword }}.",
         "eleventyNavigation":{
             "key": "{{ title }}"
         }
