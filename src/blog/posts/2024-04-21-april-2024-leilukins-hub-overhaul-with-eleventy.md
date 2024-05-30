@@ -60,7 +60,7 @@ Inspired by the [nownownow.com](https://nownownow.com/about) website, I have add
 
 ### Blog
 
-Leilukin's Hub blog was [launched on 28 January 2023](https://leilukin.neocities.org/blog/posts/2023-01-28-leilukins-hub-now-has-a-blog/). Formerly, the blog was built with [Zonelets](https://zonelets.net/); now I take advantage of Eleventy's flexibility by recreating Leilukin's Hub blog with it, thus using the main site's layout for the blog instead of [using a different layout](/changelogs/layouts/#11-september-2023-blog-layout). This makes the blog actually feels like it is part of this website.
+Leilukin's Hub blog was [launched on 28 January 2023](/blog/posts/2023-01-28-leilukins-hub-now-has-a-blog/). Formerly, the blog was built with [Zonelets](https://zonelets.net/); now I take advantage of Eleventy's flexibility by recreating Leilukin's Hub blog with it, thus using the main site's layout for the blog instead of [using a different layout](/changelogs/layouts/#11-september-2023-blog-layout). This makes the blog actually feels like it is part of this website.
 
 ### Site Map
 
@@ -76,7 +76,7 @@ The following changes are not related to any features inherent to Eleventy or it
 
 ### Direct Visit to Leilukin's Hub Home Page
 
-I have removed the "launch page" that was used as the very first page you saw when you visited the link [leilukin.neocities.org](https://leilukin.neocities.org/). Now when you visit the link to my website, you will immediately see the home page wihout any extra step.
+I have removed the splash page that was used as the very first page you saw when you visited the link leilukin.neocities.org. Now when you visit the link to my website, you will immediately see the home page wihout any extra step.
 
 ## My Creation Page Renamed to Projects
 

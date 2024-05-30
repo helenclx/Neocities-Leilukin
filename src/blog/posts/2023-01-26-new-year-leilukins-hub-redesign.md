@@ -13,7 +13,7 @@ I have wanted to rewrite and redesign this site after learning HTML and CSS more
 
 Looking at other Neocities websites have also given me more ideas in enhancing my own website. Special thanks to [sadgrl.online](https://sadgrl.online/), whose various web building resources, including the Layout Builder, have helped tremendously in redesigning this site.
 
-With this 2023 new year redesign of this website, the index page, which is for when you visit the link [leilukin.neocities.org](https://leilukin.neocities.org/), you will be presented with a very simple page, but when you click the "Enter" button to enter, you will be brought to my website's home page, and can start properly browsing my website, and enjoying the new design!
+With this 2023 new year redesign of this website, the index page, which is for when you visit the link leilukin.neocities.org, you will be presented with a very simple splash page, but when you click the "Enter" button to enter, you will be brought to my website's home page, and can start properly browsing my website, and enjoying the new design!
 
 Highlights of the 2023 New Year redesign of Leilukin's Hub:
 
