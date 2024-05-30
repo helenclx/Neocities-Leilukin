@@ -2,8 +2,7 @@
   "name": "neocities-leilukin",
   "scripts": {
     "start": "bunx @11ty/eleventy --serve --quiet",
-    "build": "bunx @11ty/eleventy",
-    "build-ghpages": "bunx @11ty/eleventy --pathprefix=leilukin-site"
+    "build": "bunx @11ty/eleventy"
   },
   "devDependencies": {
     "@types/bun": "latest"
