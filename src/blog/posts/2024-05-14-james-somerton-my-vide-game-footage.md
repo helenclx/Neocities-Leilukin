@@ -4,7 +4,6 @@ desc: "James Somerton used one of my Star Wars: Knights of the Old Republic foot
 date: 2024-05-14
 updated: 2024-05-17
 categories: ["youtube"]
-redirectFrom: /blog/posts/2024-05-14-james-somerton-my-vide-game-footage/
 ---
 
 It has been five months since Hbomberguy released his ["Plagiarism and You(Tube)"](https://www.youtube.com/watch?v=yDp3cB5fHXQ) video essay on 2 December 2023, which [set off a YouTube plagiarism scandal](https://trending.knowyourmeme.com/editorials/guides/whats-up-with-hbomberguy-setting-off-a-youtube-plagiarism-scandal-the-internet-historian-and-james-somerton-controversies-explained), with another YouTuber [James Somerton](https://knowyourmeme.com/memes/events/hbomberguy-vs-james-somerton-plagiarism-scandal) being the main focus of Hbomberguy's video essay. I do not write this post to recap or rehash the entire James Somerton debacle. Instead, I want to talk about something personal related to one of James Somerton's videos — **James Somerton had used one of my video game footage in one of his videos without crediting me or asking for my permission**.
