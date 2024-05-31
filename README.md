@@ -9,6 +9,7 @@ Currently hosted on [Netlify](https://www.netlify.com/) and [Neocities](https://
 - Eleventy's official [RSS](https://www.11ty.dev/docs/plugins/rss/) plugin
 - Eleventy's official [Navigation](https://www.11ty.dev/docs/plugins/navigation/) plugin
 - [@zachleat/details-utils](https://www.npmjs.com/package/@zachleat/details-utils)
+- [netlify-plugin-cache](https://www.npmjs.com/package/netlify-plugin-cache)
 
 ### Eleventy Community Plugins
 - [@11tyrocks/eleventy-plugin-emoji-readtime](https://www.npmjs.com/package/@11tyrocks/eleventy-plugin-emoji-readtime)
