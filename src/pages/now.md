@@ -2,7 +2,7 @@
 layout: main/content
 title: Now
 desc: What Leilukin is doing now.
-updated: 2024-05-25
+updated: 2024-05-31
 eleventyNavigation:
     key: Now
     order: 3
@@ -14,9 +14,9 @@ This is my [/now page](https://nownownow.com/about). You can find more pages lik
 
 ## What I am Working on
 
-### This site's [guestbook](/guestbook)
+### Custom Domain Name and New Hosting for This Site
 
-I have been spending the past two or so weeks in trying to search for replacement for this site's guestbook since 123Guestbook, the guestbook service I previously used, was announced to be [shutting down on 1 July 2024](https://web.archive.org/web/20240504201300/https://www.123guestbook.com/news.php?id=closure). At last, I settled for [Grounded Wren's guestbook code](https://groundedwren.neocities.org/pages/demo_controls/guestbookDemo) to use for my website's guestbook.
+I finally bought a custom domain name for this website, leilukin.com. To be able to use the custom domain name without spending more money to upgrade my Neocities account to the Supporter tier, I have also been busy with setting up this site to be hosted on Netlify.
 
 ### Updating my {% cite "Star Wars: Knights of the Old Republic" %} mods
 
