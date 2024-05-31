@@ -36,7 +36,7 @@ Thanks to [Emoji Read Time](https://www.npmjs.com/package/@11tyrocks/eleventy-pl
 
 For the articles, blog posts and some other pages that have headings, I have enabled anchor links on the headings by referring to the [11ty Slugs and Anchors guide](https://11ty.rocks/eleventyjs/slugs-anchors/#enable-anchor-links-on-content-headings) from the website 11ty Rocks!, installing and configuring the [markdown-it-anchor](https://www.npmjs.com/package/markdown-it-anchor) plugin.
 
-Having a plugin that automatically generates heading anchor links also allows me to generate table of contents by installing the [eleventy-plugin-nesting-toc](https://www.npmjs.com/package/eleventy-plugin-nesting-toc) plugin.
+Having a plugin that automatically generates heading anchor links also allows me to generate table of contents by installing [uncenter's eleventy-plugin-toc](https://www.npmjs.com/package/@uncenter/eleventy-plugin-toc) plugin.
 
 ### Content Categories
 
