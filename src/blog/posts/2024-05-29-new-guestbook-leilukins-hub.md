@@ -5,7 +5,7 @@ date: 2024-05-29
 categories: ["site updates"]
 ---
 
-On 4 May 2024, the guestbook service 123Guestbook announced that [their service would be closed n 1 July 2024](https://web.archive.org/web/20240504201300/https://www.123guestbook.com/news.php?id=closure).
+On 4 May 2024, the guestbook service 123Guestbook announced that [their service would be closed on 1 July 2024](https://web.archive.org/web/20240504201300/https://www.123guestbook.com/news.php?id=closure).
 
 I created an account on 123Guestbook and started using it as Leilukin's Hub's guestbook since 25 July 2023. When my 123Guestbook guestbook was open, I received multiple nice messages expressing appreciation for my website and work, including my [{% cite "Cassette Beasts" %} shrine](/shrines/cassettebeasts) and my [{% cite "A Summer’s End — Hong Kong 1986" %} shrine](/shrines/asummersend) and [Steam review](../2023-10-30-support-for-my-steam-review-of-a-summers-end), so I am sad to see 123Guestbook go. 123Guestbook has been around since 2005, so its closure is a sad reminder that you cannot predict when your favourite website might be gone.
 
