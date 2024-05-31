@@ -1,7 +1,7 @@
 ---
 layout: main/content
 title: About
-desc: About this website and its owner.
+desc: About this website and its webmaster.
 isContentDivided: true
 eleventyNavigation:
     key: About
@@ -17,7 +17,7 @@ On this site, you can find various stuff I have created or curated, as well as a
 
 Feel free to drop a message and say hi on [my guestbook](/guestbook)!
 
-If you also have a Neocities account, you can follow this site through its [Neocities profile](https://neocities.org/site/leilukin).
+This site is currently hosted on Netlify and Neocities. If you also have a Neocities account, you can follow this site through its [Neocities profile](https://neocities.org/site/leilukin).
 
 ![A website button with Penelope the cat, the mascot of Neocities, and the text 'hosted by neocities'](/assets/banners/hosted-by-neocities.png "Hosted by Neocities")
 
@@ -37,7 +37,7 @@ This website is deployed to Neocities from a GitHub repository through the GitHu
 {% endcontainer %}
 
 {% container "article", "content__section" %}
-## The Site Owner
+## The Webmaster
 
 ![Avatar of a drawing of Leilukin bee](/assets/leilukin/leilukin-bee.png){style="border-radius: 50%; width: 15rem; margin: 0.5em auto;"}
 
