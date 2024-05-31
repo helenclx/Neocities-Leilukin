@@ -46,7 +46,7 @@ eleventyComputed:
 
     <div class="text-box">
         {% for log in collections["changelogs"]  | reverse | itemLimit(1) %}
-            <h3 class="date-style">{{ log.data.date | formatDate }}:</h3>
+            <h3>Changelog: {{ log.data.date | formatDate }}</h3>
             {{ log.templateContent | safe }}
         {%- endfor %}
         <p><a href="/changelogs">View all site changelogs</a></p>
