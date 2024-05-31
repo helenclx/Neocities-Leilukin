@@ -10,4 +10,8 @@ const redirectUrl = (oldStr, newStr) => {
 }
 
 redirectUrl(oldDomain, newDomain);
+redirectUrl(
+    'leilukin.neocities.org/blog/posts/2024-05-14-james-somerton-my-vide-',
+    'leilukin.com/blog/posts/2024-05-14-james-somerton-my-video-'
+);
 redirectUrl('james-somerton-my-vide-', 'james-somerton-my-video-');
