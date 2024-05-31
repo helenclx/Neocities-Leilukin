@@ -34,7 +34,7 @@ Compiled by Oracle and Bone, Sam’s Mixtape A-Side and B-Side are playlists of 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6n5QvHkm33nDPIy0RIJv6T?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 
-## 夏日戀人 (Summer Lover)
+## [夏日戀人]{lang="zh"} (Summer Lover)
 
 Oracle and Bone compiled this playlist as a tribute to Anita Mui, who was a major inspiration for A Summer’s End — Hong Kong 1986.
 
