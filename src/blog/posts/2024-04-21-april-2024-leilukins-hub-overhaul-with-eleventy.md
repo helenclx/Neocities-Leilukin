@@ -96,7 +96,7 @@ I have created two different resolutions of each header image of my [shrines](/s
 
 ### Scroll-to-Top Function
 
-Previously, this site's scroll-to-top function was placed in the footer. Now, I have also created a scroll-to-top button in the bottom right corner of the page when you scroll down.
+Previously, this site's scroll-to-top function was placed in the footer. Now, I created a scroll-to-top button in the bottom right corner of the page when you scroll down.
 
 ### Site Layout
 
