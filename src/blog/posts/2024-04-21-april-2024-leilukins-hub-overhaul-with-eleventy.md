@@ -6,7 +6,7 @@ categories: ["site updates"]
 toc: true
 ---
 
-Leilukin's Hub just overgone a major overhaul: In April 2024, I have been rebuilding this entire website with the [static site generator](https://en.wikipedia.org/wiki/Static_site_generator) (SSG), [Eleventy](https://www.11ty.dev/), often abbreviated as 11ty, and the process was completed on 20 April 2024.
+Leilukin's Hub just overgone a major overhaul: In April 2024, I have been rebuilding this entire website with the [static site generator](https://en.wikipedia.org/wiki/Static_site_generator) (SSG), [Eleventy](https://www.11ty.dev/), and the process was completed on 20 April 2024.
 
 After building this website for more than a year, Eleventy finally provided the solution for me to maintain, manage and update my website in more dynamic and sufficient ways to save time.
 
