@@ -1,0 +1,11 @@
+---
+permalink: /_redirects
+eleventyExcludeFromCollections: true
+---
+
+{# Tutorial: https://www.aleksandrhovhannisyan.com/blog/eleventy-netlify-redirects/ #}
+{%- for page in collections.all -%}
+  {%- if page.url and page.data.redirectFrom %}
+{{ page.data.redirectFrom }}  {{ page.url }}
+  {%- endif -%}
+{%- endfor -%}
