@@ -64,7 +64,7 @@ I also have media catalogues online on the following platforms:
 * <i class="fa-brands fa-steam-symbol"></i> [Steam](https://steamcommunity.com/id/leilukin/)
 * <i class="fa-solid fa-book-open"></i> [The StoryGraph](https://app.thestorygraph.com/profile/leilukin)
 
-You can contact me via email: [{{sitemeta.siteAuthor.email}}](mailto:{{sitemeta.siteAuthor.email}}).
+You can contact me via email: {{sitemeta.siteAuthor.email}}.
 
 [Check out my Now page](/now) to learn what I am doing right now.
 
