@@ -86,7 +86,7 @@ The page listing the things I have created has been renamed from "My Creation" t
 
 Previously, longer [site updates](/categories/site-updates/) were made into their own pages, since Leilukin's Hub did not have its own blog when I made the first site update post. Now these updates are converted into blog posts.
 
-### Featured Articles being Party of Articles
+### Featured Articles being Part of Articles
 
 Formerly, pages that featured my interviews were on their own page called "featured". Now, these [featured articles](/articles/#featured-articles) are merged into the [articles](/articles) page.
 
