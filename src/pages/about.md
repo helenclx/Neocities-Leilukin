@@ -54,7 +54,7 @@ Social media platforms you can find me on:
 * <i class="fa-brands fa-twitter"></i> [Twitter](https://twitter.com/Leilukin)
 * <i class="fa-brands fa-mastodon"></i> [Mastodon](https://mstdn.social/@leilukin)
 * <i class="fa-brands fa-mastodon"></i> [Mastodon (for gaming)](https://elekk.xyz/@leilukin)
-* <i class="fa-brands fa-bluesky"></i> [Bluesky](https://bsky.app/profile/leilukin.bsky.social)
+* <i class="fa-brands fa-bluesky"></i> [Bluesky](https://bsky.app/profile/leilukin.com)
 * <i class="fa-brands fa-instagram"></i> [Instagram](https://www.instagram.com/leilukin)
 
 However, I am most active on Tumblr, so if you want to interact with me on a social media platform, Tumblr would be the best option.
