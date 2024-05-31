@@ -66,6 +66,7 @@ module.exports = function (eleventyConfig) {
     /* Markdown Overrides */
     let markdownLibrary = markdownIt({
         html: true,
+        linkify: true,
     })
         .use(markdownItAnchor, markdownItAnchorOptions)
         .use(require("markdown-it-attribution"))
