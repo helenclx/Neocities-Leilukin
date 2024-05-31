@@ -10,3 +10,4 @@ const redirectUrl = (oldStr, newStr) => {
 }
 
 redirectUrl(oldDomain, newDomain);
+redirectUrl('james-somerton-my-vide-', 'james-somerton-my-video-');
