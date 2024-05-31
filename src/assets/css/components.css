@@ -3,7 +3,7 @@
     background: var(--clr-quote-bg);
     border: 0.1em solid var(--clr-main-heading);
     padding: 0.8em;
-    margin: 0.5em 0;
+    margin: 1em 0;
     display: grid;
     gap: 1em;
 }
