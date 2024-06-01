@@ -22,7 +22,7 @@ Meanwhile, I have been considering purchasing a domain name for Leilukin's Hub. 
 
 Neocities provides a [Supporter subscription plan](https://neocities.org/supporter) with benefits including larger storage, custom domain support and removing file type restrictions, but 50 GB storage is overkill for me when 1GB storage is already more than enough for Leilukin's Hub at its current stage.
 
-Not to mention, the above-mentioned GitHub Pages and Netlify already provide custom domain support and no file upload type restriction for free. Getting a custom domain name already requires money, so I need to carefully consider if it is worth for me to spend 5 USD per month to host my hobby website.
+Not to mention, the above-mentioned GitHub Pages and Netlify already provide custom domain support and no file upload type restriction for free. Getting a custom domain name already requires money, so I need to carefully consider if it is worth for me to spend 5 USD per month on top of my domain name to host my hobby website.
 
 After much deliberation, I settled for Netlify as the new hosting platform for Leilukin's Hub. I am already using GitHub Pages to host my developer portfolio website (with a custom domain name too) as well as some of my other developer projects, and I already have a Netlify account to deploy some of my developer projects. In addition, Netlify allows you to import and deploy a project from a GitHub repository, so I may as well make use of Netlify.
 
@@ -30,7 +30,7 @@ The process of deploying Leilukin's Hub from its GitHub repository went smoothly
 
 ## Custom Domain for Leilukin's Hub
 
-After comparing various domain name registrars, I chose to buy my domain name from Porkbun for its competitive price for domain names. The `leilukin.com` was not taken, so I seized the opportunity to place an order for it, and later succeeded in purchasing and registering it as my own.
+After comparing various domain name registrars, I chose to buy my domain name from Porkbun for its competitive price for domain names. The `leilukin.com` domain name was not taken, so I seized the opportunity to place an order for it, and later succeeded in purchasing and registering it as my own.
 
 Upon owning `leilukin.com`, I followed Netlify's instructions to set up DNS records to point `leilukin.com` to my website on Netlify. I lacked experience in such things, so it took a bit longer for me to set it up properly, but I eventually did it. Visiting `leilukin.com` will lead you to Leilukin's Hub on Netlify.
 
