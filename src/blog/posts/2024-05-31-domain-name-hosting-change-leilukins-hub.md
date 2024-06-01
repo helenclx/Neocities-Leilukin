@@ -10,7 +10,7 @@ Major news: Leilukin's Hub has a custom domain name: `leilukin.com`! In addition
 
 ## Moving Beyond Neocities
 
-Leilukin's Hub has grown significantly since its launch on Neocities in September 2022, not just in how many pages it has, but also the fact that the site includes various resources I have shared across the internet (most notably, some of my Star Wars: Knights of the Old Republic articles and guides).
+Leilukin's Hub has grown significantly since its launch on Neocities in September 2022, not just in how many pages it has, but also the fact that the site includes various resources I have shared across the internet (most notably, some of my {% cite "Star Wars: Knights of the Old Republic" %} [articles](/shrines/starwarskotor/articles) and [guides](/shrines/starwarskotor/guides)).
 
 Furthermore, web development has become more than a hobby to me — after starting to build my own website and relearning HTML and CSS, my interest in web development has grown enough to the point I started taking online web development courses and aspiring to become a serious web developer, by taking online courses on platforms such as freeCodeCamp and Scrimba. While Leilukin's Hub is still a hobby website, I have been using this site to practice and grow my web development skills, including using a static site generator, namely Eleventy, to [rebuild and overhaul this site in April 2024](/blog/posts/2024-04-21-april-2024-leilukins-hub-overhaul-with-eleventy).
 
