@@ -112,17 +112,20 @@ figcaption {
 }
 
 code {
-    font-family: var(--ff-monospace), ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace; ;
+    font-family: var(--ff-monospace), ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
 }
 
 :not(pre) > code {
-    color: var(--clr-bold-txt);
-    padding: 0 0.15em;
+    padding: 0.125em 0.25em;
+}
+
+:not(pre) > code,
+pre {
+    background-color: var(--clr-code-bg);
 }
 
 pre {
-    border: 0.07em solid var(--clr-code-border);
-    background: var(--clr-code-bg);
+    border: 0.1em solid var(--clr-code-border);
     max-width: 90vw;
     overflow: auto;
     padding: 1rem;
