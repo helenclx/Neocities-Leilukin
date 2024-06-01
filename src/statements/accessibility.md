@@ -1,7 +1,7 @@
 ---
 title: Accessibility
 keyword: accessibility statement
-updated: 2024-05-29
+updated: 2024-06-01
 eleventyNavigation:
     order: 12
 ---
@@ -13,6 +13,8 @@ This site uses the [Lexend](https://www.lexend.com/) font family as the default 
 I use the following tools to test my site for accessibility:
 * WebAIM's [WAVE Browser Extension](https://wave.webaim.org/extension/)
 * [NVDA](https://www.nvaccess.org/about-nvda/) screen reader for Windows
+* TalkBack screen reader for Android
+* VOiceOver screen reader for iOS
 
 In addition, I test the accessibility of my website manually by navigating with keyboard alone.
 
