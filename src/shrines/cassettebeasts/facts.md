@@ -71,10 +71,16 @@ Late 2019
 : Multiplayer beta [available on Steam](https://store.steampowered.com/news/app/1321440/view/4140569729629599030). Multiplayer update confirmed to be released on 20 May 2024 with an [announcement trailer](https://www.youtube.com/watch?v=q7ZYhxdwMt8). Android and iOS versions [announced](https://www.youtube.com/watch?v=jN_IYdwoL_A&t=135s) to be released in 2024.
 
 22 April 2024
-: Android and iOS versions [confirmed](https://twitter.com/ByttenStudio/status/1782442549552017482) to be released on 4 June 2024 with a [trailer](https://www.youtube.com/watch?v=hqcDR6-sRVw).
+: Android and iOS versions [announced](https://twitter.com/ByttenStudio/status/1782442549552017482) to be released on 4 June 2024 with a [trailer](https://www.youtube.com/watch?v=hqcDR6-sRVw).
 
 20 May 2024
 : Multiplayer update [live on all platforms](https://www.cassettebeasts.com/2024/05/20/multiplayer-update-out-now/), with a [launch trailer](https://www.youtube.com/watch?v=B-iBugwjaKI).
+
+31 May 2024
+: Physical copies for Nintendo Switch [announced](https://x.com/SuperRareGames/status/1796557336791621994).
+
+1 June 2024
+: Release of the mobile versions [announced to be delayed](https://x.com/ByttenStudio/status/1796923998409719953) until later in Summer 2024.
 
 ## Accolades
 
