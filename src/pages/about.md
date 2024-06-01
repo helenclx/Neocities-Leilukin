@@ -19,7 +19,7 @@ Feel free to drop a message and say hi on [my guestbook](/guestbook)!
 
 `leilukin.com` is hosted on Netlify.
 
-Originally, {{ sitemeta.siteName }} was hosted on Neocities exclusively. WhileI am still deploying this site to Neocities, visiting `leilukin.neocities.org` will redirect you to `leilukin.com`. That said, if you also have a Neocities account, you can still follow me through [my Neocities profile](https://neocities.org/site/leilukin).
+Originally, {{ sitemeta.siteName }} was hosted on Neocities exclusively. While I am still deploying this site to Neocities, visiting `leilukin.neocities.org` will redirect you to `leilukin.com`. That said, if you also have a Neocities account, you can still follow me through [my Neocities profile](https://neocities.org/site/leilukin).
 
 ### Link to This Site
 
