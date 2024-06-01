@@ -6,7 +6,7 @@ categories: ["site updates"]
 toc: true
 ---
 
-Breaking news: Leilukin's Hub has a custom domain name: `leilukin.com`! In addition, Leilukin's Hub is now  hosted on Netlify, with the leilukin.com domain name pointing to the Netlify host.
+Major news: Leilukin's Hub has a custom domain name: `leilukin.com`! In addition, Leilukin's Hub is now  hosted on Netlify, with the leilukin.com domain name pointing to the Netlify host.
 
 ## Moving Beyond Neocities
 
