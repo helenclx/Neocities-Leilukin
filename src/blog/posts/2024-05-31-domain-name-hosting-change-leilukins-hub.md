@@ -6,7 +6,7 @@ categories: ["site updates"]
 toc: true
 ---
 
-Breaking news: Leilukin's Hub has a custom domain name: `leilukin.com`! In addition, currently Leilukin's Hub is hosted on both Netlify and Neocities, with the leilukin.com domain name pointing to the Netlify host.
+Breaking news: Leilukin's Hub has a custom domain name: `leilukin.com`! In addition, Leilukin's Hub is now  hosted on Netlify, with the leilukin.com domain name pointing to the Netlify host.
 
 ## Moving Beyond Neocities
 
@@ -50,6 +50,8 @@ With the redirect function set up, `leilukin.com` was officially ready!
 
 What happens now with my Neocities account and the Neocities version of Leilukin's Hub? I am still using my Neocities account and logging in almost daily. A couple of fellow webmasters and I have been following each other on Neocities, so I am not abandoning my Neocities account any time soon, and Neocities users are still welcome to follow me and post messages on [my Neocities profile page](https://neocities.org/site/leilukin).
 
-As for the website itself, currently I am still deploying Leilukin's Hub to Neocities with the [deploy-to-neocities GitHub action](https://github.com/bcomnes/deploy-to-neocities), while deploying to Netlify at the same time. This is done to notify my followers on Neocities of updates to Leilukin's Hub, although visiting `leilukin.neocities.org` will redirect you to `leiulkin.com` now.
+However, the Neovities version of website itself will no longer be updated. Visiting `leilukin.neocities.org` will redirect you to `leiulkin.com` now.
+
+(**Update, 1 June 2024:** Originally, I considered continuing to deploy Leilukin's Hub to Neocities via the [deploy-to-neocities GitHub action](https://github.com/bcomnes/deploy-to-neocities), while deploying to Netlify at the same time. However, I realised that Neocities' feed no longer shows updates of my site. I guess it is because I set my entire Neocities site to redirect to a different place, namely my site on Netlify. Therefore, I decided to stop deploying Leilukin's Hub to Neocities, meaning the Neocities version of Leilukin's Hub will no longer be updated)
 
 Welcome to `leilukin.com`! 🥳 Not going to lie, I am excited that this major news for my website is officially announced just a day before Pride Month starts! 🏳️‍🌈

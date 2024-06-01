@@ -17,9 +17,7 @@ On this site, you can find various stuff I have created or curated, as well as a
 
 Feel free to drop a message and say hi on [my guestbook](/guestbook)!
 
-This site is currently hosted on Netlify and Neocities. If you also have a Neocities account, you can follow this site through its [Neocities profile](https://neocities.org/site/leilukin).
-
-![A website button with Penelope the cat, the mascot of Neocities, and the text 'hosted by neocities'](/assets/banners/hosted-by-neocities.png "Hosted by Neocities")
+This site is currently hosted on Netlify. Originally, this site was hosted on Neocities, but it was [moved to Netlify on 31 May 2024](/blog/posts/2024-05-31-domain-name-hosting-change-leilukins-hub). That said, I still log in to Neocities, so if you also have a Neocities account, you can follow me through [my Neocities profile](https://neocities.org/site/leilukin).
 
 ### Link to This Site
 
@@ -33,7 +31,7 @@ While this website is primarily meant to be my own space of self-expression, I a
 
 This website is built with the static site generator [Eleventy](https://www.11ty.dev/). Nunjucks and Markdown are the templating languages used for creating pages of this site.
 
-This website is deployed to Neocities from a GitHub repository through the GitHub action [deploy-to-neocities](https://deploy-to-neocities.neocities.org/).
+This website was originally hosted on Neocities, but has moved to Netlify on 31 May 2024.
 {% endcontainer %}
 
 {% container "article", "content__section" %}

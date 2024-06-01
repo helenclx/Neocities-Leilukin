@@ -1,8 +1,6 @@
 # Leilukin's Hub
 
-Source code of my hobby website, [Leilukin's Hub](https://leilukin.com/). Built with [Eleventy](https://www.11ty.dev/).
-
-Currently hosted on [Netlify](https://www.netlify.com/) and [Neocities](https://neocities.org/). Deployed to Neocities with the [deploy-to-neocities](https://github.com/bcomnes/deploy-to-neocities) GitHub action.
+Source code of my hobby website, [Leilukin's Hub](https://leilukin.com/). Built with [Eleventy](https://www.11ty.dev/) and deployed to [Netlify](https://www.netlify.com/).
 
 ## Dependencies
 - [Eleventy](https://www.11ty.dev/)
