@@ -9,7 +9,7 @@ eleventyNavigation:
 ---
 
 {% container "article", "content__section" %}
-## The Site
+## The Website
 
 {{ sitemeta.siteName }} is a literal queer-coded website (as in, this website is coded by a queer person) that serves as a personal hub for my interests and self-expression, as well as my own corner on the internet outside social media platforms.
 
