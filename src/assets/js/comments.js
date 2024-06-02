@@ -207,7 +207,7 @@ registerNamespace("GW.Controls", function (ns)
                         <span>
                             That didn't work.
                             ${this.fallbackEmail
-                                ? `<a class="full" href="mailto:${this.fallbackEmail}?subject=Comment on ${document.title}&body=${contentAry.join("; ")}">Click here to send as an email instead</a>.`
+                                ? `<a class="full" href="mailto:${this.fallbackEmail}?subject=Comment on ${document.title}&body=${contentAry.join("; ")}">Send your comment as an email instead</a>.`
                                 : ""
                              }
                         </span>
