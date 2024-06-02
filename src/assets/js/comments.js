@@ -40,10 +40,13 @@ registerNamespace("GW.Controls", function (ns)
         isInitialized;
         titleText;
         discordURL;
+        encodedPath;
+        fallbackEmail;
 
         //#region element properties
         formEl;
         titleEl;
+        bannerEl;
 
         dispNameInpt;
         emailInpt;
@@ -74,7 +77,9 @@ registerNamespace("GW.Controls", function (ns)
             if (this.isInitialized) { return; }
 
             this.titleText = this.getAttribute("titleText") || "Add a Comment";
-            this.discordURL = this.getAttribute("discordURL")
+            this.discordURL = this.getAttribute("discordURL");
+            this.encodedPath = this.getAttribute("encodedPath");
+            this.fallbackEmail = this.getAttribute("fallbackEmail");
 
             this.renderContent();
             this.registerHandlers();
@@ -125,7 +130,7 @@ registerNamespace("GW.Controls", function (ns)
                         rows="5"
                     ></textarea>
                 </div>
-                <div id="${this.idKey}-banner" class="inline-banner">
+                <div id="${this.idKey}-banner" class="inline-banner" aria-live="polite">
                     <gw-icon iconKey="circle-info"></gw-icon>
                     <p>Comments are manually approved</p>
                 </div>
@@ -139,6 +144,7 @@ registerNamespace("GW.Controls", function (ns)
             //element properties
             this.formEl = document.getElementById(`${this.idKey}-form`);
             this.titleEl = document.getElementById(`${this.idKey}-title`);
+            this.bannerEl = document.getElementById(`${this.idKey}-banner`);
 
             this.dispNameInpt = document.getElementById(`${this.idKey}-dispName`);
             this.emailInpt = document.getElementById(`${this.idKey}-email`);
@@ -182,14 +188,15 @@ registerNamespace("GW.Controls", function (ns)
             const request = new XMLHttpRequest();
             request.open(
                 "POST",
-                this.discordURL,
+                this.discordURL || atob("aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3Mv" + this.encodedPath),
                 true
             );
             request.setRequestHeader("Content-Type", "application/json");
 
-            request.onreadystatechange = function ()
+            request.onreadystatechange = () =>
             {
-                if (request.readyState == 4)
+                if (request.readyState !== XMLHttpRequest.DONE) { return; }
+                if (Math.floor(request.status / 100) !== 2)
                 {
                     console.log(request.responseText);
 
