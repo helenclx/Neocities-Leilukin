@@ -1,9 +1,10 @@
 ---
 layout: main/content
 title: Shrines
-desc: Index of my web shrines.
 eleventyNavigation:
     order: 7
+eleventyComputed:
+    desc: Index of {{ sitemeta.siteAuthor.name }}'s web shrines.
 ---
 
 A web shrine is a special web page dedicated to a specific topic, often one that the webmaster is interested in and passionate about, to celebrate or share information about their interest.
