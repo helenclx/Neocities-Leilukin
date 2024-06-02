@@ -43,7 +43,7 @@ The domain name, `{{ sitemeta.siteDomain }}`, was purchased from, registered on,
 
 ![Avatar of a drawing of Leilukin bee](/assets/leilukin/leilukin-bee.png){style="border-radius: 50%; width: 15rem; margin: 0.5em auto;"}
 
-You can call me {{ sitemeta.siteAuthor.name }}. I am a Malaysian Chinese, queer, non-binary lesbian born in the early 90s. My pronouns are they/she/他/她.
+You can call me {{ sitemeta.siteAuthor.name }}. I am a Malaysian Chinese, queer, non-binary lesbian born in the early 90s. My pronouns are they/them and she/her in English, [他]{lang="zh"} and [她]{lang="zh"} in Chinese.
 
 I speak Mandarin, English, Cantonese and Malay, though I am most fluent in Mandarin and English.
 
