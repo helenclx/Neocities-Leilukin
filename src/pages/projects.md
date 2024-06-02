@@ -19,11 +19,9 @@ My drawings can be found on my art blog on Tumblr:
 {% container "section", "content__section" %}
 ## My Video Game Mods
 
-![Banner of Leilukin's mods for Star Wars: Knights of the Old Republic](/assets/projects/my-kotor1-mods-header.png)
+I have created mods (short for "modifications") for the following video games:
+
 - [Star Wars: Knights of the Old Republic](./kotor1mods)
-
-![Banner of Leilukin's mods for Star Wars: Knights of the Old Republic II: The Sith Lords](/assets/projects/my-kotor2-mods-header.png)
-
 - [Star Wars: Knights of the Old Republic II: The Sith Lords](./kotor2mods)
 {% endcontainer %}
 
