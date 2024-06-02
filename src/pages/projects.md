@@ -34,7 +34,7 @@ You can check out the playlists I have made on [my dedicated page](./playlists/)
 {% container "section", "content__section" %}
 ## My Characters
 
-I have created my own characters for various pieces of media. [You can check out my characters here](https://www.notion.so/leilukin/Leilukin-s-Characters-b377e277f01b4474945e85cf4cb15ada?pvs=4).
+I have created my own characters for various media and universes. [You can check out my characters here](https://www.notion.so/leilukin/Leilukin-s-Characters-b377e277f01b4474945e85cf4cb15ada?pvs=4).
 {% endcontainer %}
 
 {% container "section", "content__section" %}
