@@ -1,11 +1,12 @@
 ---
 layout: main/content
 title: Projects
-desc: Things I have created.
 isContentDivided: true
 toc: true
 eleventyNavigation:
     order: 6
+eleventyComputed:
+    desc: Things {{ sitemeta.siteAuthor.name }} has created.
 ---
 
 {% container "section", "content__section" %}

@@ -1,9 +1,7 @@
 ---
 layout: main/content
 title: Blog
-desc: Blog hosted on Leilukin's personal website.
 tags: blog pages
-pageTitle: Welcome to Leilukin's Hub Blog!
 navTitle: Blog Home
 pagination:
     data: collections.posts
@@ -13,6 +11,9 @@ pagination:
 permalink: "/{{ page.fileSlug }}{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber + 1 }}{% endif %}/"
 eleventyNavigation:
     order: 4
+eleventyComputed:
+    pageTitle: Welcome to {{ sitemeta.siteName | safe }} Blog!
+    desc: Blog hosted on {{ sitemeta.siteAuthor.name }}'s pwesonal website.
 ---
 
 <ul class="blog__posts">

@@ -1,11 +1,12 @@
 ---
 layout: main/content
 title: Now
-desc: What Leilukin is doing now.
 updated: 2024-05-31
 eleventyNavigation:
     key: Now
     order: 3
+eleventyComputed:
+    desc: What {{ sitemeta.siteAuthor.name }} is doing now.
 ---
 
 *This page was last updated on {{ updated | formatDate }}.*
