@@ -2,16 +2,17 @@
 layout: cassettebeasts/content
 tags: shrine home
 title: Cassette Beasts Shrine
-desc: My shrine for Cassette Beasts.
 isContentDivided: true
 eleventyNavigation:
     key: Cassette Beasts Shrine
     parent: Shrines
+eleventyComputed:
+    desc: "{{ sitemeta.siteAuthor.name }}'s shrine for Cassette Beasts."
 ---
 {% set imageAssetBaseUrl = '/assets/shrines/cassettebeasts/images/' %}
 
 <section class="content__section">
-    <h2>Welcome to Leilukin's {% cite "Cassette Beasts" %} Shrine!</h2>
+    <h2>Welcome to My {% cite "Cassette Beasts" %} Shrine!</h2>
     <img src="{{ imageAssetBaseUrl }}CassetteBeasts_keyart_16_9.png" alt="Promotional image of Cassette Beasts">
     <p>{% cite "Cassette Beasts" %} is a 2D/3D hybrid monster collecting open-world role-playing video game developed by Bytten Studio, an indie team based in Brighton, United Kingdom, co-founded by Jay Baylis and Tom Coxon, and published by Raw Fury.</p>
 
