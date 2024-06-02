@@ -59,6 +59,10 @@
     background-color: #9e0f00;
 }
 
+.inline-banner.warning a {
+    color: var(--clr-body-txt);
+}
+
 .form-footer,
 .comment-footer {
     display: flex;
