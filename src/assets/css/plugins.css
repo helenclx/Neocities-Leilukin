@@ -15,7 +15,7 @@
 }
 
 .heading-anchor:focus {
-    outline: 0.15em solid currentColor;
+    outline: 0.13em solid currentColor;
     outline-offset: 0.05em;
 }
 
