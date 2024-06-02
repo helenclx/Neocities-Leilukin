@@ -55,6 +55,10 @@
     background-color: var(--clr-quote-bg);
 }
 
+.inline-banner.warning {
+    background-color: #9e0f00;
+}
+
 .form-footer,
 .comment-footer {
     display: flex;

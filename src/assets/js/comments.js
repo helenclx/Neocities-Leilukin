@@ -192,6 +192,23 @@ registerNamespace("GW.Controls", function (ns)
                 if (request.readyState == 4)
                 {
                     console.log(request.responseText);
+
+                    this.bannerEl.classList.add("warning");
+                    this.bannerEl.innerHTML =
+                        `
+                        <gw-icon iconKey="triangle-exclamation"></gw-icon>
+                        <span>
+                            That didn't work.
+                            ${this.fallbackEmail
+                                ? `<a class="full" href="mailto:${this.fallbackEmail}?subject=Comment on ${document.title}&body=${contentAry.join("; ")}">Click here to send as an email instead</a>.`
+                                : ""
+                             }
+                        </span>
+                        `;
+                }
+                else
+                {
+                    alert("Your comment has been submitted!");
                 }
             };
 
