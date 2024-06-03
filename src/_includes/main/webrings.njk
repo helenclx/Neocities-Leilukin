@@ -20,3 +20,10 @@
         </div>
     </li>
 </ul>
+
+<script>
+    const jsVoidStr = 'javascript:void(0)';
+    if (randomText.includes(jsVoidStr)){
+        randomText.replace(jsVoidStr, '#!');
+    }
+</script>
