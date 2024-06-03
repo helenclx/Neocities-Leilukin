@@ -2,22 +2,6 @@
     font-display: swap;
     font-family: 'Intel One Mono';
     font-style: normal;
-    font-weight: 200;
-    src: url('/assets/fonts/intel-one-mono/IntelOneMono-Light.woff2') format('woff2');
-}
-
-@font-face {
-    font-display: swap;
-    font-family: 'Intel One Mono';
-    font-style: italic;
-    font-weight: 200;
-    src: url('/assets/fonts/intel-one-mono/IntelOneMono-LightItalic.woff2') format('woff2');
-}
-
-@font-face {
-    font-display: swap;
-    font-family: 'Intel One Mono';
-    font-style: normal;
     font-weight: 400;
     src: url('/assets/fonts/intel-one-mono/IntelOneMono-Regular.woff2') format('woff2');
 }
