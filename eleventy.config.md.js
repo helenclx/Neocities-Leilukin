@@ -13,7 +13,10 @@ const markdownItAnchor = require("markdown-it-anchor");
 
 module.exports = function (eleventyConfig) {
     // Installed Plugins
-    eleventyConfig.addPlugin(pluginTOC, { tags: ['h2', 'h3', 'h4', 'h5'] });
+    eleventyConfig.addPlugin(pluginTOC, {
+        tags: ['h2', 'h3', 'h4', 'h5'],
+        ignoredElements: ['.heading-anchor'],
+    });
     eleventyConfig.addPlugin(embedEverything, { add: ['soundcloud'] });
 
     // Configure slug filter
