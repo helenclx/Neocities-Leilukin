@@ -36,7 +36,7 @@ module.exports = function (eleventyConfig) {
         style: "aria-labelledby",
     });
     const markdownItAnchorOptions = {
-        level: [1, 2, 3, 4, 5],
+        level: [2, 3, 4, 5],
         slugify: (str) =>
             slugify(str, {
                 lower: true,
