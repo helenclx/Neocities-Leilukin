@@ -1,7 +1,7 @@
 ---
 articleTitle: Anti-Harry Potter and Anti-J. K. Rowling Masterlist
 date: 2023-03-19
-updated: 2024-04-21
+updated: 2024-06-04
 desc: My masterlist of criticisms of the Harry Potter series and J. K. Rowling.
 categories: ["anti harry potter", "anti jk rowling"]
 toc: true
@@ -44,6 +44,7 @@ Therefore, I am compiling this masterlist by curating various materials that are
 * [The Harry Potter Villains Were Trans?](https://www.youtube.com/watch?v=7xJF4XYarzI) by Brigitte Empire (3 April 2023)
 * [Maybe The Wizard Game Just Wasn't Very Good (The Jimquisition)](https://www.youtube.com/watch?v=2pggtSI_95A) by James Stephanie Sterling (20 November 2023)
 * [J.K. Rowling & Holocaust Denial](https://www.youtube.com/watch?v=whJJGqVtkEk) by Caelan Conrad (16 March 2024)
+* [Did J.K. Rowling STEAL Harry Potter (Rip-off? Plagiarism?!)](https://www.youtube.com/watch?v=Cmx_YSPcujE) by Caelan Conrad (3 June 2024)
 {.item-list}
 
 ## Podcasts
