@@ -2,11 +2,12 @@
 articleTitle: Custom Domain Name and Hosting Change for Leilukin's Hub
 desc: Leilukin's Hub now has a custom domain name and a new host.
 date: 2024-05-31
+updated: 2024-06-04
 categories: ["site updates"]
 toc: true
 ---
 
-Major news: Leilukin's Hub has a custom domain name: `leilukin.com`! In addition, Leilukin's Hub is now  hosted on Netlify, with the leilukin.com domain name pointing to the Netlify host.
+Major news: Leilukin's Hub has a custom domain name: `leilukin.com`! In addition, Leilukin's Hub is now  hosted on Netlify, with the `leilukin.com` domain name pointing to the Netlify host.
 
 ## Moving Beyond Neocities
 
@@ -20,7 +21,7 @@ Meanwhile, I have been considering purchasing a domain name for Leilukin's Hub. 
 
 ## New Host for Leilukin's Hub
 
-Neocities provides a [Supporter subscription plan](https://neocities.org/supporter) with benefits including larger storage, custom domain support and removing file type restrictions, but 50 GB storage is overkill for me when 1GB storage is already more than enough for Leilukin's Hub at its current stage.
+Neocities provides a [Supporter subscription plan](https://neocities.org/supporter) with benefits including larger storage, custom domain support and removing file type restrictions, but 50 GB storage is overkill for me when the free tier's 1GB storage is already more than enough for Leilukin's Hub at its current stage.
 
 Not to mention, the above-mentioned GitHub Pages and Netlify already provide custom domain support and no file upload type restriction for free. Getting a custom domain name already requires money, so I need to carefully consider if it is worth for me to spend 5 USD per month on top of my domain name to host my hobby website.
 
@@ -48,8 +49,12 @@ With the redirect function set up, `leilukin.com` was officially ready!
 
 ## What Happens Now with My Neocities Account
 
-What happens now with my Neocities account and the Neocities version of Leilukin's Hub? I am still using my Neocities account and logging in almost daily. A couple of fellow webmasters and I have been following each other on Neocities, so I am not abandoning my Neocities account any time soon, and Neocities users are still welcome to follow me and post messages on [my Neocities profile page](https://neocities.org/site/leilukin).
+What happens now with my Neocities account and the Neocities version of Leilukin's Hub?
 
-As for the website itself, currently I am still deploying Leilukin's Hub to Neocities with the [deploy-to-neocities GitHub action](https://github.com/bcomnes/deploy-to-neocities), while deploying to Netlify at the same time. This is done to notify my followers on Neocities of updates to Leilukin's Hub, although now visiting `leilukin.neocities.org` will redirect you to `leiulkin.com`.
+**`leilukin.neocities.org`, the Neocities version of Leilukin's Hub will no longer be updated**. Visiting `leilukin.neocities.org` will redirect you to `leiulkin.com`, my new domain on Netlify. That said, I still post about updates to Leilukin's Hub on my Neocities profile.
+
+I am still using my Neocities account and logging in almost daily. A couple of fellow webmasters and I have been following each other on Neocities, so I am not abandoning my Neocities account any time soon, and Neocities users are still welcome to follow me and post messages on [my Neocities profile page](https://neocities.org/site/leilukin).
+
+(**Update, 4 June 2024:** Originally, even when Leilukin's Hub began to switch host to Netlify, I still deployed Leilukin's Hub to Neocities by using the [deploy-to-neocities GitHub action](https://github.com/bcomnes/deploy-to-neocities), in order to notify my Neocities followers of updates to Leilukin's Hub, but I have changed my mind and decided to stop pushing Leilukin's Hub's updates to Neocities, so I can focus on my website's hosting on Netlify)
 
 Welcome to `leilukin.com`! 🥳 Not going to lie, I am excited that this major news for my website is officially announced just a day before Pride Month starts! 🏳️‍🌈
