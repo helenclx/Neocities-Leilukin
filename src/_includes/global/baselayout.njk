@@ -39,6 +39,9 @@
 
         {# IndieAuth #}
         <link href="mailto:contact@leilukin.com" rel="me">
+    {% if enableWebMention %}
+        <link rel="webmention" href="https://webmention.io/leilukin.com/webmention" />
+    {% endif %}
 
         <title>
             {% block pageTitle %}{{ title + " | " if title }}{{ sitemeta.siteName | safe }}{% endblock %}
