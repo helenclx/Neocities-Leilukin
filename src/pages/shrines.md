@@ -1,5 +1,4 @@
 ---
-layout: main/content
 title: Shrines
 eleventyNavigation:
     order: 7

@@ -1,5 +1,4 @@
 ---
-layout: main/content
 title: Articles
 desc: List of articles published on my website.
 metadata:

@@ -1,5 +1,4 @@
 ---
-layout: main/content
 title: Projects
 isContentDivided: true
 toc: true

@@ -1,5 +1,4 @@
 ---
-layout: main/content
 title: Now
 updated: 2024-06-03
 eleventyNavigation:

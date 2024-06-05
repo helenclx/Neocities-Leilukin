@@ -1,5 +1,4 @@
 ---
-layout: main/content
 title: About
 desc: About this website and its webmaster.
 isContentDivided: true

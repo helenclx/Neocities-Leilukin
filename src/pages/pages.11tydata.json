@@ -1,6 +1,6 @@
 {
     "tags": "pages",
-    "layout": "main/base",
+    "layout": "main/content",
     "permalink": "/{{ page.fileSlug }}/",
     "eleventyComputed":{
         "eleventyNavigation":{
