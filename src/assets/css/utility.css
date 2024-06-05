@@ -27,11 +27,6 @@
     display: none;
 }
 
-.item-list {
-    display: grid;
-    gap: 0.7em;
-}
-
 .visually-hidden {
     position: absolute;
     width: 1px;

@@ -59,6 +59,19 @@ main {
     margin-top: var(--sz-paragraph-margin);
 }
 
+.article ul:not([class]), .article ol:not([class]),
+.content ul:not([class]), .content ol:not([class]) {
+    display: grid;
+    gap: 0.7em;
+}
+
+.article ul ul, .article ol ol,
+.article ul ol, .article ol ul,
+.content ul ul, .content ol ol,
+.content ul ol, .content ol ul {
+    margin-top: 0.7em;
+}
+
 .sidebar--sticky {
     position: sticky;
     top: 4rem;

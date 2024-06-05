@@ -28,7 +28,6 @@ Here is a collection of reviews, articles and commentary videos from other peopl
 * [Review: Cassette Beasts Is an RPG With a Lot of Heart](https://www.siliconera.com/review-cassette-beasts-is-an-rpg-with-a-lot-of-heart/) by Daniel Bueno at Siliconera (29 April 2023)
 * [Review : Cassette Beasts : All Bangers, No Skips](https://seasonedgaming.com/2023/05/24/review-cassette-beasts-all-bangers-no-skips/) by Steve Esposito at Seasoned Gaming (24 May 2023)
 * [Cassette Beasts Is the Indie Pokemon Alternative You’ve Been Waiting For](https://www.superjumpmagazine.com/cassette-beasts-is-the-indie-pokemon-alternative-youve-been-waiting-for/) by Lucas Di Quinzio on SUPERJUMP (3 June 2023)
-{.item-list}
 
 ## Articles
 
@@ -39,7 +38,6 @@ Here is a collection of reviews, articles and commentary videos from other peopl
 * [Hit play and unleash the beasts](https://borneobulletin.com.bn/hit-play-and-unleash-the-beasts/) by Wardi Wasil at Borneo Bulletin Online (25 October 2023)
 * [After 20 hours with Cassette Beasts, I’ll never touch Pokémon again](https://dotesports.com/indies/news/after-20-hours-with-cassette-beasts-ill-never-touch-pokemon-again) by Tom Foley on Dot Esports (17 November 2023)
 * [Cassette Beasts Is The Monster-Catching RPG For A Disillusioned Pokémon Fan](https://www.nintendolife.com/features/soapbox-cassette-beasts-is-the-monster-catching-rpg-for-a-disillusioned-pokemon-fan) by Alana Hague on Nintendo Life (27 December 2023)
-{.item-list}
 
 ## Videos
 
@@ -55,9 +53,7 @@ Here is a collection of reviews, articles and commentary videos from other peopl
 * [Pokémon Needs to Evolve: Cassette Beasts Review](https://www.youtube.com/watch?v=O3TcNQHiG5Q) by Matt Horton (19 September 2023)
 * [A Love Letter to Cassette Beasts](https://www.youtube.com/watch?v=sSh5X7U4X6I) by Swift Street (11 February 2024)
 * [Just How GOOD is Cassette Beasts?](https://www.youtube.com/watch?v=HNJHVkzh9ug) by BattlePuppet95 (28 April 2024)
-{.item-list}
 
 ## Podcasts
 
 * [\[Pokemon Month\] When Pokemon went Analog: A Cassette Beasts Review || Chatsu Shorts](https://www.chatsunami.com/pokemon-month-when-pokemon-went-analog-a-cassette-beasts-review-chatsu-shorts/) by Chatsunami (6 February 2024)
-{.item-list}
