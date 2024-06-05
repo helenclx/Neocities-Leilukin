@@ -1,7 +1,7 @@
 {% for log in changelogList | reverse %}
-    <div class="heading-wrapper h2">
-        <h2 id="{{ log.fileSlug }}">{{ log.date | formatDate }}</h2>
-        <a class="heading-anchor" href="#{{ log.fileSlug }}" aria-labelledby="{{ log.fileSlug }}"><span hidden="">#</span></a>
-    </div>
+    {% headingAnchor 2, log.fileSlug %}
+        {{ log.date | formatDate }}
+    {% endheadingAnchor %}
+
     {{ log.templateContent | safe }}
 {%- endfor %}
