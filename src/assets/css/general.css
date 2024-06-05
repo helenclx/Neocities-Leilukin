@@ -45,10 +45,6 @@ h4, .h4 {
     font-size: var(--sz-h4);
 }
 
-hr {
-    border: 0.05rem solid var(--clr-title-border);
-}
-
 strong {
     color: var(--clr-bold-txt);
 }
