@@ -1,13 +1,16 @@
 <header class="main__header">
     {% if isArticle or hasBreadcrumbs %}
-        <ul class="breadcrumbs">
-            {% set breadcrumbNavPages = collections.all | eleventyNavigationBreadcrumb(articleTitle or pageTitle or title) %}
-            {%- for entry in breadcrumbNavPages %}
-            <li>
-                <a href="{{ entry.url }}">{{ entry.title }}</a>
-            </li>
-            {%- endfor %}
-        </ul>
+        <nav>
+            <h2 class="visually-hidden">Breadcrumbs</h2>
+            <ul class="breadcrumbs">
+                {% set breadcrumbNavPages = collections.all | eleventyNavigationBreadcrumb(articleTitle or pageTitle or title) %}
+                {%- for entry in breadcrumbNavPages %}
+                <li>
+                    <a href="{{ entry.url }}">{{ entry.title }}</a>
+                </li>
+                {%- endfor %}
+            </ul>
+        </nav>
     {% endif %}
 
     <h1>{{ articleTitle or pageTitle or title }}</h1>
