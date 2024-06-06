@@ -14,16 +14,13 @@ eleventyNavigation:
 
 ## Mandopop LGBTQ+ Anthem [華語流行音樂同志國歌]{lang="zh"}
 
-<figure>
-    <img src="/assets/projects/playlists/Mandopop-LGBTQ+-Anthem-Cover.avif" alt="Cover image of the Mandopop LGBTQ+ Anthem playlist" loading="lazy">
-    <figcaption>
-        [Image description: A progress pride flag, with Chinese words meaning queer anthem on top.]
-    </figcaption>
-</figure>
+{% imgFigure "/assets/projects/playlists/Mandopop-LGBTQ+-Anthem-Cover.avif", "Cover of the Mandopop LGBTQ+ Anthem playlist" %}
+[Image description: A progress pride flag, with the Traditional Chinese words, [同志國歌]{lang="zh"}, meaning queer anthem on top.]
+{% endimgFigure %}
 
 A collection of Mandarin queer anthems.
 
-I made this playlist after discovering Wikipedia's list of Chinese queer anthems on [its Mandarin article for Gay Anthem (同志國歌)](https://zh.wikipedia.org/wiki/%E5%90%8C%E5%BF%97%E5%9C%8B%E6%AD%8C#%E8%8F%AF%E8%AA%9E).
+I made this playlist after discovering Wikipedia's list of Chinese queer anthems on the article [<span lang="zh">同志國歌</span>](https://zh.wikipedia.org/wiki/%E5%90%8C%E5%BF%97%E5%9C%8B%E6%AD%8C#%E8%8F%AF%E8%AA%9E), the Mandarin article for Gay Anthem.
 
 <a class="link-btn" href="https://open.spotify.com/playlist/5JXAUPZkmv1cFScAfhOkXh">Listen on Spotify</a>
 
