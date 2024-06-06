@@ -12,12 +12,12 @@ Here is a list of shrines I have made for my own website.
 
 ## [{% cite "A Summer’s End — Hong Kong 1986" %}](./asummersend/)
 
-![Key art of A Summer’s End — Hong Kong 1986](/assets/shrines/asummersend/images/ASE_Key_art_intro.png)
+![Key art of A Summer’s End — Hong Kong 1986](/assets/shrines/asummersend/images/ASE_Key_art_intro.png){loading="lazy"}
 
 ## [{% cite "Star Wars: Knights of the Old Republic" %}](./starwarskotor/)
 
-![Key art of the Star Wars: Knights of the Old Republic series](/assets/shrines/starwarskotor/images/swkotor-header.avif)
+![Key art of the Star Wars: Knights of the Old Republic series](/assets/shrines/starwarskotor/images/swkotor-header.avif){loading="lazy"}
 
 ## [{% cite "Cassette Beasts" %}](./cassettebeasts/)
 
-![Key art of Cassette Beasts](/assets/shrines/cassettebeasts/images/CassetteBeasts_keyart_16_9.png)
+![Key art of Cassette Beasts](/assets/shrines/cassettebeasts/images/CassetteBeasts_keyart_16_9.png){loading="lazy"}
