@@ -15,7 +15,7 @@ eleventyNavigation:
 ## Mandopop LGBTQ+ Anthem [華語流行音樂同志國歌]{lang="zh"}
 
 <figure>
-    <img src="/assets/projects/playlists/Mandopop-LGBTQ+-Anthem-Cover.avif" alt="Cover image of the Mandopop LGBTQ+ Anthem playlist">
+    <img src="/assets/projects/playlists/Mandopop-LGBTQ+-Anthem-Cover.avif" alt="Cover image of the Mandopop LGBTQ+ Anthem playlist" loading="lazy">
     <figcaption>
         [Image description: A progress pride flag, with Chinese words meaning queer anthem on top.]
     </figcaption>
