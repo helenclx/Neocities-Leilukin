@@ -16,7 +16,7 @@ Here is a list of shrines I have made for my own website.
 
 ## [{% cite "Star Wars: Knights of the Old Republic" %}](./starwarskotor/)
 
-![Key art of the Star Wars: Knights of the Old Republic series](/assets/shrines/starwarskotor/images/swkotor-header.jpg)
+![Key art of the Star Wars: Knights of the Old Republic series](/assets/shrines/starwarskotor/images/swkotor-header.avif)
 
 ## [{% cite "Cassette Beasts" %}](./cassettebeasts/)
 

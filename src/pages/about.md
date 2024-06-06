@@ -38,7 +38,7 @@ This site is deployed to [Netlify](https://www.netlify.com/) from its GitHub rep
 {% container "article", "content__section" %}
 ## The Webmaster
 
-![Avatar of a drawing of Leilukin bee](/assets/leilukin/leilukin-bee.png){style="border-radius: 50%; width: 15rem; margin: 0.5em auto;"}
+![Avatar of a drawing of Leilukin bee](/assets/leilukin/leilukin-bee.avif){loading="lazy"}{style="border-radius: 50%; width: 15rem; margin: 0.5em auto;"}
 
 You can call me {{ sitemeta.siteAuthor.name }}. I am a Malaysian Chinese, queer, non-binary lesbian born in the early 90s. My pronouns are they/them and she/her in English, [他]{lang="zh"} and [她]{lang="zh"} in Chinese.
 
