@@ -8,12 +8,6 @@
   font-weight: var(--fa-style, 900); }
 
 .fa,
-.fa-classic,
-.fa-sharp,
-.fas,
-.fa-solid,
-.far,
-.fa-regular,
 .fab,
 .fa-brands {
   -moz-osx-font-smoothing: grayscale;
@@ -24,19 +18,6 @@
   line-height: 1;
   text-rendering: auto; }
 
-.fas,
-.fa-classic,
-.fa-solid,
-.far,
-.fa-regular {
-  font-family: 'Font Awesome 6 Free'; }
-
 .fab,
 .fa-brands {
   font-family: 'Font Awesome 6 Brands'; }
-
-/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
-readers do not read off random characters that represent icons */
-
-.fa-chevron-up::before {
-  content: "\f077"; }
