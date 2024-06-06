@@ -10,8 +10,9 @@
         </ul>
     {% endif %}
 
+    <h1>{{ articleTitle or pageTitle or title }}</h1>
+
     {% if isArticle %}
-        <h1>{{ articleTitle }}</h1>
         <div class="article__info">
             <p>Posted on {{ date | formatDate }} by {{ sitemeta.siteAuthor.name }}
             {% if updated %}
@@ -27,7 +28,6 @@
             <p>{{ content | emojiReadTime }}</p>
         </div>
     {% else %}
-        <h1>{{ pageTitle or title }}</h1>
         {% if desc %}
             <p>{{ desc }}</p>
         {% endif %}
