@@ -41,6 +41,7 @@
 .footnotes {
     margin-top: 3em;
     border-top: 0.15em solid var(--clr-title-border);
+    padding-top: 1em;
 }
 
 .footnotes-list {
