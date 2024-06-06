@@ -39,15 +39,11 @@
         {% include "global/toc.njk" %}
     {% endif %}
 
-    {% if isArticle or isStatement %}
-        <article class="article">
-            {{ content | safe }}
-        </article>
-    {% else %}
-		<div class="content{{' content--divided' if isContentDivided }}">
-			{{ content | safe }}
-		</div>
-    {% endif %}
+    {% set contentEl = "article" if isArticle or isStatement else "div" %}
+
+    <{{contentEl}} class="content{{' content--divided' if isContentDivided }}">
+        {{ content | safe }}
+    </{{contentEl}}>
 
     {% if
         tags and tags.includes("articles")
