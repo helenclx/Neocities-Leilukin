@@ -12,7 +12,7 @@ eleventyNavigation:
 {% from "asummersend/myplaylist.njk" import myASEPlaylist %}
 {{ myASEPlaylist("A fanmix for the visual novel") }}
 
-## Mandopop LGBTQ+ Anthem 華語流行音樂同志國歌
+## Mandopop LGBTQ+ Anthem [華語流行音樂同志國歌]{lang="zh"}
 
 <figure>
     <img src="/assets/projects/playlists/Mandopop-LGBTQ+-Anthem-Cover.png" alt="Cover image of the Mandopop LGBTQ+ Anthem playlist">
