@@ -1,17 +1,7 @@
 /* MAIN CONTENT */
-main,
 .content__wrapper,
 .content--divided {
     display: grid;
-}
-
-main,
-.content__wrapper {
-    font-size: var(--sz-main-txt);
-}
-
-main {
-    width: 100%;
 }
 
 .content__wrapper,
