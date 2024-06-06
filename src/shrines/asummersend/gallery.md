@@ -19,21 +19,21 @@ I also highly recommend checking out the [official site](https://www.asummersend
 
 ## My Favourite Screenshots
 
-![In-Game Screenshot of A Summer’s End 01](/assets/shrines/asummersend/screenshots/ASE-Screenshot-01.png)
+![In-Game Screenshot of A Summer’s End 01](/assets/shrines/asummersend/screenshots/ASE-Screenshot-01.png){loading="lazy"}
 
-![In-Game Screenshot of A Summer’s End 02](/assets/shrines/asummersend/screenshots/ASE-Screenshot-02.png)
+![In-Game Screenshot of A Summer’s End 02](/assets/shrines/asummersend/screenshots/ASE-Screenshot-02.png){loading="lazy"}
 
-![In-Game Screenshot of A Summer’s End 03](/assets/shrines/asummersend/screenshots/ASE-Screenshot-03.png)
+![In-Game Screenshot of A Summer’s End 03](/assets/shrines/asummersend/screenshots/ASE-Screenshot-03.png){loading="lazy"}
 
-![In-Game Screenshot of A Summer’s End 04](/assets/shrines/asummersend/screenshots/ASE-Screenshot-04.png)
+![In-Game Screenshot of A Summer’s End 04](/assets/shrines/asummersend/screenshots/ASE-Screenshot-04.png){loading="lazy"}
 
-![In-Game Screenshot of A Summer’s End 05](/assets/shrines/asummersend/screenshots/ASE-Screenshot-05.png)
+![In-Game Screenshot of A Summer’s End 05](/assets/shrines/asummersend/screenshots/ASE-Screenshot-05.png){loading="lazy"}
 
-![In-Game Screenshot of A Summer’s End 06](/assets/shrines/asummersend/screenshots/ASE-Screenshot-06.png)
+![In-Game Screenshot of A Summer’s End 06](/assets/shrines/asummersend/screenshots/ASE-Screenshot-06.png){loading="lazy"}
 
-![In-Game Screenshot of A Summer’s End 07](/assets/shrines/asummersend/screenshots/ASE-Screenshot-07.png)
+![In-Game Screenshot of A Summer’s End 07](/assets/shrines/asummersend/screenshots/ASE-Screenshot-07.png){loading="lazy"}
 
-![In-Game Screenshot of A Summer’s End 08](/assets/shrines/asummersend/screenshots/ASE-Screenshot-08.png)
+![In-Game Screenshot of A Summer’s End 08](/assets/shrines/asummersend/screenshots/ASE-Screenshot-08.png){loading="lazy"}
 
 ![In-Game Screenshot of A Summer’s End 09](/assets/shrines/asummersend/screenshots/ASE-Screenshot-09.png)
 
