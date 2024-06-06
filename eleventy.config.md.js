@@ -104,10 +104,10 @@ module.exports = function (eleventyConfig) {
     });
 
     // Paired shortcode: image figure and figcaption
-    eleventyConfig.addPairedShortcode('imgFigure', (caption, img, alt=caption) => {
+    eleventyConfig.addPairedShortcode('imgFigure', (caption, img, alt=caption, enableLazyLoading=true) => {
         const figcaption = markdownLibrary.renderInline(caption);
         return `<figure>
-            <img src="${img}" alt="${alt}">
+            <img src="${img}" alt="${alt}"${enableLazyLoading ? ' loading="lazy"' : ''}>
             <figcaption>${figcaption}</figcaption>
         </figure>`;
     });
