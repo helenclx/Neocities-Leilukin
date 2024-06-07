@@ -96,7 +96,7 @@
         const showClass = "navbar__links--show";
         navbarLinks.classList.toggle(showClass);
 
-        if (navbarLinks.classList.contains(showClass)) {
+        if (navbarToggle.getAttribute("aria-expanded") === "false") {
             navbarToggle.setAttribute("aria-expanded", "true");
         } else {
             navbarToggle.setAttribute("aria-expanded", "false");
