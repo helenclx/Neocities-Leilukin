@@ -23,16 +23,6 @@ Originally, {{ sitemeta.siteName }} was hosted on [Neocities](https://neocities.
 ### Link to This Site
 
 {% include "main/site-btn.njk" %}
-
-### Accessibility Information
-
-While this website is primarily meant to be my own space of self-expression, I also strive to make my website accessible to provide the best possible user experience. You can read my [accessibility statement](/accessibility) for more information.
-
-### Technical Information
-
-This website is built with the static site generator [Eleventy](https://www.11ty.dev/). Nunjucks and Markdown are the templating languages used for creating pages of this site.
-
-This site is deployed to [Netlify](https://www.netlify.com/) from its GitHub repository, and deployed to [Neocities](https://neocities.org/) from its GitHub repository through the GitHub action [deploy-to-neocities](https://deploy-to-neocities.neocities.org/).
 {% endcontainer %}
 
 {% container "article", "content__section" %}
