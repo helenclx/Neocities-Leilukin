@@ -77,10 +77,13 @@ Late 2019
 : Multiplayer update [live on all platforms](https://www.cassettebeasts.com/2024/05/20/multiplayer-update-out-now/), with a [launch trailer](https://www.youtube.com/watch?v=B-iBugwjaKI).
 
 31 May 2024
-: Physical copies for Nintendo Switch [announced](https://x.com/SuperRareGames/status/1796557336791621994).
+: Physical edition for Nintendo Switch [announced](https://x.com/SuperRareGames/status/1796557336791621994).
 
 1 June 2024
 : Release of the mobile versions [announced to be delayed](https://x.com/ByttenStudio/status/1796923998409719953) until later in Summer 2024.
+
+6 June 2024
+: Physical edition for Nintendo Switch [released](https://x.com/ByttenStudio/status/1798762960485273614) and available for pre-orders on [Super Rare Games](https://superraregames.com/collections/srg-113-cassette-beasts).
 
 ## Accolades
 
