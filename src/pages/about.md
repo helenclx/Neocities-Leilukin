@@ -16,7 +16,7 @@ On this site, you can find various stuff I have created or curated, as well as a
 
 Feel free to drop a message and say hi on [my guestbook](/guestbook)!
 
-`{{ sitemeta.siteDomain }}` is hosted on [Netlify](https://www.netlify.com/). The domain name, `{{ sitemeta.siteDomain }}`, was purchased from, registered on, and is managed by [Porkbun](https://porkbun.com/).
+`{{ sitemeta.siteDomain }}` is hosted on [Netlify](https://www.netlify.com/).
 
 Originally, {{ sitemeta.siteName }} was hosted on [Neocities](https://neocities.org/). Now visiting `leilukin.neocities.org` will redirect you to `leilukin.com`. That said, I still post about updates to Leilukin's Hub on my Neocities profile, so if you also have a Neocities account, you can still follow me through [my Neocities profile](https://neocities.org/site/leilukin).
 
