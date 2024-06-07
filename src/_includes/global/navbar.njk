@@ -96,10 +96,10 @@
         const showClass = "navbar__links--show";
         navbarLinks.classList.toggle(showClass);
 
-        if (navbarToggle.getAttribute("aria-expanded") === "false") {
-            navbarToggle.setAttribute("aria-expanded", "true");
+        if (navbarToggle.ariaExpanded === "false") {
+            navbarToggle.ariaExpanded = "true";
         } else {
-            navbarToggle.setAttribute("aria-expanded", "false");
+            navbarToggle.ariaExpanded = "false";
         }
     });
 </script>
