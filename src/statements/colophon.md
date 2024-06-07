@@ -7,9 +7,9 @@ eleventyNavigation:
     order: 13
 ---
 
-Technical information about this website.
+Information about how this website is built.
 
-## Build
+## Technology
 * Built with the static site generator [Eleventy](https://www.11ty.dev/)
 * Templating languages: Nunjucks and Markdown
 * Code written with Visual Studio Code
@@ -17,7 +17,7 @@ Technical information about this website.
 * Source code available on [GitHub](https://github.com/helenclx/leilukin-site)
 
 ## Host and Domain
-* Deployed to [Netlify](https://www.netlify.com/) from its GitHub repository
+* Deployed to [Netlify](https://www.netlify.com/) from this site's GitHub repository
 * The domain name, `{{ sitemeta.siteDomain }}`, was purchased from, registered on, and is managed by [Porkbun](https://porkbun.com/)
 
 ## Plugins
@@ -45,14 +45,15 @@ Technical information about this website.
 * [Font Awesome](https://fontawesome.com/) (brand icons only)
 
 ## JavaScript
-Due to this website being built with a static site generator, JavaScript is used to create dynamic and interactive components of this site. Here is a list of how JavaScript is used on this site:
+Due to this website being a static site, JavaScript is used to create dynamic and interactive components of this site. Here is a list of how JavaScript is used on this site:
 
 * The header of every page uses JavaScript to detect the visitor's current date and dynamically displays a top blurb and occasionally changes the header background on certain dates, including:
-    * LGBTQ+ events, International Women's Day, website anniversary and webmaster's birthday;
+    * LGBTQ+ events, International Women's Day, website anniversary and my birthday;
     * Release anniversaries of [{% cite "A Summer’s End — Hong Kong 1986" %}](/shrines/asummersend), [{% cite "Star Wars: Knights of the Old Republic" %}](/shrines/starwarskotor) and [{% cite "Cassette Beasts" %}](/shrines/cassettebeasts) on their respective shrines;
     * Birthdays of characters from {% cite "A Summer’s End — Hong Kong 1986" %} on its shrine.
 * Every page has a button on the bottom right corner to allow you to quickly scroll to the top of the page. This scroll-to-top button uses JavaScript to show or hide the button based on scroll position.
     * A "Back to top" link that does not use JavaScript is available on each page's bottom footer, but the JavaScript version allows visitors to quickly scroll to the top page without needing to reach the bottom footer.
+* [status.cafe](https://status.cafe/) widget, which is placed on the home page, uses JavaScript to fetch data of my latest status update.
 * [Website Carbon Badge](https://www.websitecarbon.com/badge/), which is placed on the home page, uses JavaScript to calculate the carbon footprint of this website.
 * [Focus First Webring](https://owlsroost.xyz/webring/index.html) and its widget, which is placed on the [Links page](/links), use the JavaScript webring template [onionring.js](https://garlic.garden/onionring/).
 * [Guestbook](/guestbook) uses JavaScript to send form data to my private Discord channel via Discord webhook, and fetch data from Google Sheets to display messages on the web page (guestbook code by [Vera Konigin](https://groundedwren.neocities.org/pages/demo_controls/guestbookDemo)).
