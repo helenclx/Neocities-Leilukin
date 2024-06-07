@@ -20,6 +20,10 @@ Feel free to drop a message and say hi on [my guestbook](/guestbook)!
 
 Originally, {{ sitemeta.siteName }} was hosted on [Neocities](https://neocities.org/). Now visiting `leilukin.neocities.org` will redirect you to `leilukin.com`. That said, I still post about updates to Leilukin's Hub on my Neocities profile, so if you also have a Neocities account, you can still follow me through [my Neocities profile](https://neocities.org/site/leilukin).
 
+More information about this site can be found on the following pages:
+- [Accessibility statement](/accessibility) for accessibility information
+- [colophon page](/colophon) for technical information
+
 ### Link to This Site
 
 {% include "main/site-btn.njk" %}
