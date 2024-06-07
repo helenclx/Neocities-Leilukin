@@ -1,7 +1,7 @@
 ---
 articleTitle: "Juhani Romance Guide"
 date: 2016-03-05
-updated: 2024-05-22
+updated: 2024-06-07
 desc: "Walkthrough of how to successfully romance Juhani in Star Wars: Knights of the Old Republic."
 tags: kotor 1 guides
 categories: ["star wars kotor"]
@@ -98,6 +98,8 @@ https://youtu.be/Px1JTr7vf9Q
 
 {% container "div", "text-box" %}
 **BUG WARNING:** There is an infamous bug with the Xor quest that once you trigger the quest, even after completing it, you will not be able to encounter any other messengers for your other party members' personal quests, and for Mika Dorin's premium shop on Korriban. The fix for this bug is included in the [KOTOR 1 Community Patch](https://deadlystream.com/files/file/1258-kotor-1-community-patch/) and the KotOR 1 Restoration (K1R) mod.
+
+If you are unable to use mods, you may want to wait until escaping the Leviathan and unlocking Mika Dorin's premium shop before encountering Xor. If you have activated the "Threat From Xor" quest and want to avoid meeting Xor, do not have Juhani in your party when you walk around the spaceport on Tatooine, Kashyyyk, Manaan or Korriban.
 {% endcontainer %}
 
 ### Personal Conversation Path
