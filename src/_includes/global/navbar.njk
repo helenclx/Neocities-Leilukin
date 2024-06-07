@@ -118,4 +118,13 @@
             closeNavigation();
         }
     });
+
+    const handleBlur = () => {
+        const navList = event.currentTarget.closest(".navbar__links");
+        if (!event.relatedTarget || !navList.contains(event.relatedTarget)) {
+            closeNavigation();
+        }
+    }
+
+    navbarLinkItems[navbarLinkItems.length - 1].addEventListener("blur", handleBlur);
 </script>
