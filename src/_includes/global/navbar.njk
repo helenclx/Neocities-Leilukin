@@ -111,4 +111,11 @@
     }
 
     navbarToggle.addEventListener("click", toggleNavigation);
+
+    window.addEventListener("keyup", (e) => {
+        if (e.key === "Escape") {
+            navbarToggle.focus();
+            closeNavigation();
+        }
+    });
 </script>
