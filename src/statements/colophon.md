@@ -51,6 +51,7 @@ Due to this website being a static site, JavaScript is used to create dynamic an
     * LGBTQ+ events, International Women's Day, website anniversary and my birthday;
     * Release anniversaries of [{% cite "A Summer’s End — Hong Kong 1986" %}](/shrines/asummersend), [{% cite "Star Wars: Knights of the Old Republic" %}](/shrines/starwarskotor) and [{% cite "Cassette Beasts" %}](/shrines/cassettebeasts) on their respective shrines;
     * Birthdays of characters from {% cite "A Summer’s End — Hong Kong 1986" %} on its shrine.
+* When this site is viewed on mobile devices, the navigation bar utilises a button that uses JavaScript to toggle the display of the navigation links when the button is clicked.
 * Every page has a button on the bottom right corner to allow you to quickly scroll to the top of the page. This scroll-to-top button uses JavaScript to show or hide the button based on scroll position.
     * A "Back to top" link that does not use JavaScript is available on each page's bottom footer, but the JavaScript version allows visitors to quickly scroll to the top page without needing to reach the bottom footer.
 * [status.cafe](https://status.cafe/) widget, which is placed on the home page, uses JavaScript to fetch data of my latest status update.
