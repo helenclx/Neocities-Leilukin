@@ -119,7 +119,7 @@
         }
     });
 
-    const handleBlur = () => {
+    const handleBlur = (event) => {
         const navList = event.currentTarget.closest(".navbar__links");
         if (!event.relatedTarget || !navList.contains(event.relatedTarget)) {
             closeNavigation();
