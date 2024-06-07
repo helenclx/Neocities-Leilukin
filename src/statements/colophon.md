@@ -2,6 +2,7 @@
 title: Colophon
 keyword: colophon page
 updated: 2024-06-07
+toc: true
 eleventyNavigation:
     order: 13
 ---
@@ -15,7 +16,7 @@ Technical information about this website.
 * JavaScript runtime: [Bun](https://bun.sh)
 * Source code available on [GitHub](https://github.com/helenclx/leilukin-site)
 
-## Hosting and Domain
+## Host and Domain
 * Deployed to [Netlify](https://www.netlify.com/) from its GitHub repository
 * The domain name, `{{ sitemeta.siteDomain }}`, was purchased from, registered on, and is managed by [Porkbun](https://porkbun.com/)
 
