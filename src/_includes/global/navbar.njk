@@ -1,8 +1,9 @@
 <nav class="navbar">
-    <button class="navbar__toggle" aria-label="Navigation menu toggle">
-        <span aria-hidden="true">☰</span>
-        <h2 class="navbar__title">Navigation</h2>
-    </button>
+    <input type="checkbox" name="navigation" id="nav-toggle" class="visually-hidden">
+    <label for="nav-toggle" aria-label="Navigation menu toggle" class="navbar__control">
+        <span aria-hidden="true">☰</span> Navigation
+    </label>
+    <h2 class="visually-hidden">Navigation Manu</h2>
     <ul class="navbar__links">
         {% block navbarLinks %}
             {{ navbarLinks }}
@@ -20,25 +21,15 @@
         top: 0;
     }
 
-    .navbar__toggle,
-    .navbar__title {
-        color: var(--clr-navbar-link);
+    .navbar__control {
         font-size: 1.3rem;
+        font-weight: 700;
     }
 
-    .navbar__toggle {
-        display: flex;
-        align-items: center;
-        gap: 0.3em;
-        border: none;
-        padding: 0;
-        margin: 0;
-        background-color: inherit;
-    }
-
-    .navbar__toggle:focus,
+    #nav-toggle:focus + .navbar__control,
     .navbar a:focus {
         outline: 0.15em solid var(--clr-navbar-link);
+        outline-offset: 0.1em;
     }
 
     .navbar a {
@@ -63,7 +54,7 @@
         overflow: auto;
     }
 
-    .navbar__links--show {
+    #nav-toggle:checked ~ .navbar__links {
         display: grid;
     }
 
@@ -73,7 +64,8 @@
             padding: 0 0.6em;
         }
 
-        .navbar__toggle {
+        .navbar__toggle,
+        .navbar__control {
             display: none;
         }
 
@@ -87,12 +79,3 @@
         }
     }
 </style>
-
-<script defer>
-    const navbarToggle = document.querySelector('.navbar__toggle');
-    const navbarLinks = document.querySelector(".navbar__links");
-
-    navbarToggle.addEventListener('click', () => {
-        navbarLinks.classList.toggle("navbar__links--show");
-    });
-</script>
