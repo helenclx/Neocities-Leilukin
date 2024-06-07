@@ -91,15 +91,22 @@
 <script defer>
     const navbarToggle = document.querySelector('.navbar__toggle');
     const navbarLinks = document.querySelector(".navbar__links");
+    const navbarLinkItems = document.querySelectorAll(".navbar__links li a");
 
-    navbarToggle.addEventListener('click', () => {
-        const showClass = "navbar__links--show";
-        navbarLinks.classList.toggle(showClass);
+    const openNavigation = () => {
+        navbarLinks.classList.add("navbar__links--show");
+        navbarToggle.ariaExpanded = "true";
+    };
 
-        if (navbarToggle.ariaExpanded === "false") {
-            navbarToggle.ariaExpanded = "true";
-        } else {
-            navbarToggle.ariaExpanded = "false";
-        }
-    });
+    const closeNavigation = () => {
+        navbarLinks.classList.remove("navbar__links--show");
+        navbarToggle.ariaExpanded = "false";
+    };
+
+    const toggleNavigation = () => {
+        const open = navbarToggle.getAttribute("aria-expanded");
+        open === "false" ? openNavigation() : closeNavigation();
+    }
+
+    navbarToggle.addEventListener('click', toggleNavigation);
 </script>
