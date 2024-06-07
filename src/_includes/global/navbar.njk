@@ -104,7 +104,7 @@
     };
 
     const toggleNavigation = () => {
-        const open = navbarToggle.getAttribute("aria-expanded");
+        const open = navbarToggle.ariaExpanded;
         open === "false" ? openNavigation() : closeNavigation();
     }
 
