@@ -1,7 +1,7 @@
 ---
 articleTitle: "Juhani Romance Guide"
 date: 2016-03-05
-updated: 2024-06-07
+updated: 2024-06-09
 desc: "Walkthrough of how to successfully romance Juhani in Star Wars: Knights of the Old Republic."
 tags: kotor 1 guides
 categories: ["star wars kotor"]
@@ -48,19 +48,25 @@ In addition, you can check if Juhani's romance is still active by using KSE: loo
 
 This conversation is available once Juhani joins your party, which happens after you collect your first Star Map on Dantooine, and you're tasked by the Jedi Council to search for the Star Forge. You can ask Juhani how did she become a Jedi. After this conversation, the global value of `G_JUHANIH_STATE` will be set to 1.
 
-https://youtu.be/cmY7dQJH93Y
+[View History #1 on YouTube](https://www.youtube.com/watch?v=cmY7dQJH93Y){.link-btn}
+
+https://www.youtube.com/watch?v=cmY7dQJH93Y
 
 #### History #2
 
 Available when you gain 1 level after History #1. Juhani talks about meeting the Jedi back in her homeworld. After this conversation, the global value of `G_JUHANIH_STATE` will be set to 2.
 
-https://youtu.be/4itTaqLKQPQ
+[View History #2 on YouTube](https://www.youtube.com/watch?v=4itTaqLKQPQ){.link-btn}
+
+https://www.youtube.com/watch?v=4itTaqLKQPQ
 
 #### History #3
 
 Available when you gain 1 level after History #2. Juhani reveals that she was from Taris, and she expresses anger over the destruction of Taris. After this conversation, the global value of `G_JUHANIH_STATE` will be set to 3.
 
-https://youtu.be/Foj1nmouoIU
+[View History #3 on YouTube](https://www.youtube.com/watch?v=Foj1nmouoIU){.link-btn}
+
+https://www.youtube.com/watch?v=Foj1nmouoIU
 
 {% container "div", "text-box" %}
 **BUG WARNING:** There is a bug that may block you from progressing Juhani's Personal Conversation path after you complete History #3, and thus preventing you from triggering Juhani's final romance conversation. See the "Personal Conversation Path" section below for more details about this bug. This bug is fixed by the [KOTOR 1 Community Patch](https://deadlystream.com/files/file/1258-kotor-1-community-patch/), which is a major reason I highly recommend this mod.
@@ -72,19 +78,25 @@ If you are unable to install mods for some reason, I would suggest that once you
 
 Available when you gain 1 level after History #3. Juhani apologizes for her outburst over Taris' destruction, and recalls her life on Taris. After this conversation, the global value of `G_JUHANIH_STATE` will be set to 4.
 
-https://youtu.be/x8Q5bXWXwKU
+[View History #4 on YouTube](https://www.youtube.com/watch?v=x8Q5bXWXwKU){.link-btn}
+
+https://www.youtube.com/watch?v=x8Q5bXWXwKU
 
 #### History #5
 
 Available when you gain 1 level after History #4. Juhani talks about how her parents and her ended up on Taris. After this conversation, the global value of `G_JUHANIH_STATE` will be set to 5.
 
-https://youtu.be/ZFzIbtScsus
+[View History #5 on YouTube](https://www.youtube.com/watch?v=ZFzIbtScsus){.link-btn}
+
+https://www.youtube.com/watch?v=ZFzIbtScsus
 
 #### History #6
 
 Available when you gain 1 level after History #5. Juhani talks about her being sold into slavery after her parents died. After this conversation, the global value of `G_JUHANIH_STATE` will be set to 6. This conversation will also make Juhani's personal quest, "Threat From Xor" available.
 
-https://youtu.be/2GJW_mBVADs
+[View History #6 on YouTube](https://www.youtube.com/watch?v=2GJW_mBVADs){.link-btn}
+
+https://www.youtube.com/watch?v=2GJW_mBVADs
 
 #### "Threat From Xor" Quest
 
@@ -94,7 +106,9 @@ The second encounter with Xor happens when you come back just outside the Ebon H
 
 After you have dealt with Xor, if you have completed Personal #6 (detailed below), the global value of `G_JUHANIP_STATE` will be set to 10.
 
-https://youtu.be/Px1JTr7vf9Q
+[View "Threat From Xor" 1uest on YouTube](https://www.youtube.com/watch?v=Px1JTr7vf9Q){.link-btn}
+
+https://www.youtube.com/watch?v=Px1JTr7vf9Q
 
 {% container "div", "text-box" %}
 **BUG WARNING:** There is an infamous bug with the Xor quest that once you trigger the quest, even after completing it, you will not be able to encounter any other messengers for your other party members' personal quests, and for Mika Dorin's premium shop on Korriban. The fix for this bug is included in the [KOTOR 1 Community Patch](https://deadlystream.com/files/file/1258-kotor-1-community-patch/) and the KotOR 1 Restoration (K1R) mod.
@@ -108,25 +122,33 @@ If you are unable to use mods, you may want to wait until escaping the Leviathan
 
 Available once Juhani joins your party. She apologizes again for attacking you back on Dantooine. Once you begin this conversation, if — and ONLY IF — your player character is female, the global boolean `T_JUHANIROM` will be set to 1, which means Juhani's romance will become active. After this conversation, the global value of `G_JUHANIP_STATE` will be set to 1.
 
-https://youtu.be/jzqfXoOvGrw
+[View Personal #1 on YouTube](https://www.youtube.com/watch?v=jzqfXoOvGrw){.link-btn}
+
+https://www.youtube.com/watch?v=jzqfXoOvGrw
 
 #### Personal #2
 
 Available after completing Personal #1. Juhani talks about Quatra and her fall to the dark side. After this conversation, the global value of `G_JUHANIP_STATE` will be set to 2.
 
-https://youtu.be/minhfrQhCQI
+[View Personal #2 on YouTube](https://www.youtube.com/watch?v=minhfrQhCQI){.link-btn}
+
+https://www.youtube.com/watch?v=minhfrQhCQI
 
 #### Personal #3
 
 Available after completing Personal #2 and getting 2 Star Maps (including the Dantooine one). Juhani expresses gratitude to you for accepting her throughout your journey. After this conversation, the global value of `G_JUHANIP_STATE` will be set to 3.
 
-https://youtu.be/y_rM2l83HDo
+[View Personal #3 on YouTube](https://www.youtube.com/watch?v=y_rM2l83HDo){.link-btn}
+
+https://www.youtube.com/watch?v=y_rM2l83HDo
 
 #### Personal #4
 
 Available once you complete History #3 _and_ Personal #3. Juhani describes the life of being an alien on Taris is like hell. After this conversation, the global value of `G_JUHANIP_STATE` will be set to 4.
 
-https://youtu.be/BOq0fehoYkg
+[View Personal #4 on YouTube](https://www.youtube.com/watch?v=BOq0fehoYkg){.link-btn}
+
+https://www.youtube.com/watch?v=BOq0fehoYkg
 
 {% container "div", "text-box" %}
 **BUG WARNING:** Personal #4 is by far the trickiest to trigger of all Juhani's conversations. There is a bug that once you complete History #3, if you level up even just once, History #4 will override Personal #4, making Personal #4 unavailable, and you will be unable to get the later conversations in the Personal Conversation path (except Personal #7 below), including the final romance conversation. In fact, I found that missing out Personal #4 was _the_ reason I was unable to get Juhani's final romance conversation in my old playthrough. This bug is fixed by the [KOTOR 1 Community Patch](https://deadlystream.com/files/file/1258-kotor-1-community-patch/), which is a major reason I highly recommend this mod.
@@ -138,19 +160,25 @@ If you are unable to install mods for some reason, I would suggest that once you
 
 Available when you gain 1 level after Personal #4. Juhani asks about your past. After this conversation, the global value of `G_JUHANIP_STATE` will be set to 6.
 
-https://youtu.be/6tFlMgigkc0
+[View Personal #5 on YouTube](https://www.youtube.com/watch?v=6tFlMgigkc0){.link-btn}
+
+https://www.youtube.com/watch?v=6tFlMgigkc0
 
 #### Personal #6
 
 Available after completing Personal #5 and getting 3 Star Maps (including the Dantooine one). Juhani comments on your alignment (light side, dark side or neutral). After this conversation, if you have completed the "Threat From Xor" quest, the global value of `G_JUHANIP_STATE` will be set to 10; if you have not, the global value of `G_JUHANIP_STATE` will be set to 7.
 
-https://youtu.be/O2t9qSNGzgQ
+[View Personal #6 on YouTube](https://www.youtube.com/watch?v=O2t9qSNGzgQ){.link-btn}
+
+https://www.youtube.com/watch?v=O2t9qSNGzgQ
 
 #### Personal #7
 
 Available after completing the Leviathan level. Juhani comments on the reveal that the player character is Revan. This conversation is not required to trigger Juhani's final romance conversation, but I include it here because not only it is classified as part of the Personal conversation path by the game files, but also it is a very important element in Juhani and Revan's relationship.
 
-https://youtu.be/vklWpPBF7mA
+[View Personal #7 on YouTube](https://www.youtube.com/watch?v=vklWpPBF7mA){.link-btn}
+
+https://www.youtube.com/watch?v=vklWpPBF7mA
 
 #### Personal #8
 
@@ -161,13 +189,15 @@ The final conversation, which is also Juhani's love confession, in order to make
 
 Provided the above conditions have been met, the final romance conversation occurs after Bastila leaves the Rakatan temple summit. When you talk to Juhani, she will confess her feelings to you. If you have installed Kexikus' Juhani Romance Enhancement mod (see the Mod Recommendation section below for details), the conversation will be triggered automatically when you are leaving the temple summit, so you do not need to initiate the conversation yourself.
 
+[View the vanilla version on YouTube](https://www.youtube.com/watch?v=WOcXeIqpBiQ){.link-btn}
+
 YouTube video for vanilla version:
 
-https://youtu.be/WOcXeIqpBiQ
+https://www.youtube.com/watch?v=WOcXeIqpBiQ
 
-YouTube video for Juhani Romance Enhancement mod version:
+[View the Juhani Romance Enhancement mod version version on YouTube](https://www.youtube.com/watch?v=oFQDmmRUx4E){.link-btn}
 
-https://youtu.be/oFQDmmRUx4E
+https://www.youtube.com/watch?v=oFQDmmRUx4E
 
 ## Mod Recommendations
 
