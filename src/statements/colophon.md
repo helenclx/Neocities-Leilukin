@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2024-06-07
+updated: 2024-06-08
 toc: true
 eleventyNavigation:
     order: 13
@@ -47,19 +47,22 @@ Information about how this website is built.
 ## JavaScript
 Due to this website being a static site, JavaScript is used to create dynamic and interactive components of this site. Here is a list of how JavaScript is used on this site:
 
-* The header of every page uses JavaScript to detect the visitor's current date and dynamically displays a top blurb and occasionally changes the header background on certain dates, including:
+* The header of every page uses JavaScript to detect the visitor's current date, so the header will display a top blurb and in some cases also changes the header background on certain dates, including:
     * LGBTQ+ events, International Women's Day, website anniversary and my birthday;
-    * Release anniversaries of [{% cite "A Summer’s End — Hong Kong 1986" %}](/shrines/asummersend), [{% cite "Star Wars: Knights of the Old Republic" %}](/shrines/starwarskotor) and [{% cite "Cassette Beasts" %}](/shrines/cassettebeasts) on their respective shrines;
+    * Release anniversaries of media with dedicated shrines, including:
+        * [{% cite "A Summer’s End — Hong Kong 1986" %}](/shrines/asummersend)
+        * [{% cite "Star Wars: Knights of the Old Republic" %}](/shrines/starwarskotor)
+        * [{% cite "Cassette Beasts" %}](/shrines/cassettebeasts)
     * Birthdays of characters from {% cite "A Summer’s End — Hong Kong 1986" %} on its shrine.
-* When this site is viewed on mobile devices, the navigation bar uses JavaScript for the following functions:
+* When this site is viewed on mobile devices, the navigation bar uses JavaScript for the following purposes:
     * Toggle the display of the navigation links when the navigation menu button is clicked;
     * Enable using the Escape key to close the navigation manu.
 * Zach Leatherman's [details-utils](https://www.npmjs.com/package/@zachleat/details-utils) JavaScript package is used to automatically expand sidebar table of contents on larger screen sizes.
-* Every page has a button on the bottom right corner to allow you to quickly scroll to the top of the page. This scroll-to-top button uses JavaScript to show or hide the button based on scroll position.
-    * A "Back to top" link that does not use JavaScript is available on each page's bottom footer, but the JavaScript version allows visitors to quickly scroll to the top page without needing to reach the bottom footer.
+* Every page has a button on the bottom right corner to allow you to quickly scroll to the top of the page. This scroll-to-top button uses JavaScript to show or hide the button based on your scroll position.
+    * A "Back to top" link that does not use JavaScript is available on each page's bottom footer, but the JavaScript version allows visitors to quickly scroll to the top of the page without needing to reach the bottom footer.
 * [status.cafe](https://status.cafe/) widget, which is placed on the home page, uses JavaScript to fetch data of my latest status update.
 * [Website Carbon Badge](https://www.websitecarbon.com/badge/), which is placed on the home page, uses JavaScript to calculate the carbon footprint of this website.
-* [Focus First Webring](https://owlsroost.xyz/webring/index.html) and its widget, which is placed on the [Links page](/links), use the JavaScript webring template [onionring.js](https://garlic.garden/onionring/).
+* [Links page](/links) has webring widgets that use JavaScript.
 * [Guestbook](/guestbook) uses JavaScript to send form data to my private Discord channel via Discord webhook, and fetch data from Google Sheets to display messages on the web page (guestbook code by [Vera Konigin](https://groundedwren.neocities.org/pages/demo_controls/guestbookDemo)).
 
 You can still access most of the content of this site with JavaScript disabled, but the above components will not work as intended.
