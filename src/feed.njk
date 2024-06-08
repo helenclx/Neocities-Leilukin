@@ -15,7 +15,7 @@ eleventyExcludeFromCollections: true
         <name>{{ sitemeta.siteAuthor.name }}</name>
         <email>{{ sitemeta.siteAuthor.email }}</email>
     </author>
-    {%- for item in collections["feed items"] | reverse %}
+    {%- for item in collections["feed items"] | reverse | itemLimit(20) %}
         {% set absolutePostUrl %}{{ item.url | url | absoluteUrl(sitemeta.siteUrl) }}{% endset %}
         <entry>
             <title>{{ item.data.title }}</title>
