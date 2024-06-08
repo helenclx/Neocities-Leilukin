@@ -53,17 +53,14 @@
 
 /* Link button */
 .link-btn {
-    font-size: 1.3rem;
     text-align: center;
     display: inline-block;
-    border: 0.15em solid var(--clr-link-btn-bg);
-    border-radius: 0.6em;
-    padding: 0.5em 1em;
+    border: 0.1em solid var(--clr-link-btn-bg);
+    border-radius: 0.5em;
+    padding: 0.4em 0.8em;
     background: var(--clr-link-btn-bg);
     color: var(--clr-link-btn-txt);
-    cursor: pointer;
     font-weight: 700;
-    text-transform: uppercase;
 }
 
 .link-btn,
@@ -73,9 +70,8 @@
 }
 
 .link-btn:hover {
-    cursor: pointer;
     background: var(--clr-link-btn-hover);
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .link-btn:focus {
