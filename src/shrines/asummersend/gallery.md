@@ -35,7 +35,7 @@ I also highly recommend checking out the [official site](https://www.asummersend
 
 ![In-Game Screenshot of A Summer’s End 08](/assets/shrines/asummersend/screenshots/ASE-Screenshot-08.avif){loading="lazy"}
 
-![In-Game Screenshot of A Summer’s End 09](/assets/shrines/asummersend/screenshots/ASE-Screenshot-09.avif)
+![In-Game Screenshot of A Summer’s End 09](/assets/shrines/asummersend/screenshots/ASE-Screenshot-09.avif){loading="lazy"}
 
 ## Passion Patch Screenshots
 
@@ -46,13 +46,13 @@ I had played {% cite "A Summer’s End" %} with the Passion Patch enabled and un
 The sex scenes between Sam and Michelle added by the Passion Patch are easily the best sapphic sex scenes I have ever seen in any game. Furthermore, Oracle and Bone had written a blog post about their thought process behind the [sexual content in {% cite "A Summer’s End" %}](https://www.asummersend.com/blog/sexual-content). Therefore, I want to dedicate this section to screenshots of these scenes.
 
 {% contentWarning "Adult Content" %}
-[![Screenshot of A Summer’s End — Hong Kong 1986 Passion Patch 1](https://images2.imgbox.com/e9/fe/1bxr6bR3_o.png)](https://imgbox.com/1bxr6bR3)
+[![Screenshot of A Summer’s End — Hong Kong 1986 Passion Patch 1](https://i.postimg.cc/T1FwDpN3/HK1986-2021-02-06-16-15-22-789.avif){loading="lazy"}](https://postimg.cc/YLNMcqw5)
 
-[![Screenshot of A Summer’s End — Hong Kong 1986 Passion Patch 2](https://images2.imgbox.com/40/68/KvJZRNMn_o.png)](https://imgbox.com/KvJZRNMn)
+[![Screenshot of A Summer’s End — Hong Kong 1986 Passion Patch 2](https://i.postimg.cc/SRJRRWrP/HK1986-2021-02-06-16-15-32-530.avif){loading="lazy"}](https://postimg.cc/K3hxs3C7)
 
-[![Screenshot of A Summer’s End — Hong Kong 1986 Passion Patch 3](https://images2.imgbox.com/6b/54/d7AYEEa5_o.png)](https://imgbox.com/d7AYEEa5)
+[![Screenshot of A Summer’s End — Hong Kong 1986 Passion Patch 3](https://i.postimg.cc/3rcW6crQ/HK1986-2021-02-06-16-16-42-897.avif){loading="lazy"}](https://postimg.cc/mh7b1VFm)
 
-[![Screenshot of A Summer’s End — Hong Kong 1986 Passion Patch 4](https://images2.imgbox.com/ea/18/Hdgo3wDK_o.png)](https://imgbox.com/Hdgo3wDK)
+[![Screenshot of A Summer’s End — Hong Kong 1986 Passion Patch 4](https://i.postimg.cc/sXn13npS/HK1986-2021-02-06-16-16-55-049.avif){loading="lazy"}](https://postimg.cc/njDnkGSc)
 
-[![Screenshot of A Summer’s End — Hong Kong 1986 Passion Patch 5](https://images2.imgbox.com/81/4a/6YFUKxIK_o.png)](https://imgbox.com/6YFUKxIK)
+[![Screenshot of A Summer’s End — Hong Kong 1986 Passion Patch 5](https://i.postimg.cc/Hs8jC9jc/HK1986-2021-02-06-16-17-03-633.avif){loading="lazy"}](https://postimg.cc/gndGVRVm)
 {% endcontentWarning %}
