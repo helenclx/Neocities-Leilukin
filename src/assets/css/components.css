@@ -36,14 +36,14 @@
 .skip-btn a {
     position: absolute;
     display: inline-block;
-    left: 0px;
+    left: 0;
     top: -1000px;
     overflow: hidden;
     transition: top 0.5s ease;
-    background: #fff;
-    color: #191919;
+    background: var(--clr-content-bg);
+    font-size: 1.25rem;
     z-index: 1000;
-    padding: 0.3em;
+    padding: 0.3em 0.7em;
 }
 
 .skip-btn a:focus {
