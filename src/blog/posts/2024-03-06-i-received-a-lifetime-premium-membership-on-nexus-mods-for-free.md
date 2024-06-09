@@ -5,9 +5,9 @@ date: 2024-03-06
 categories: ["modding"]
 ---
 
-![A partial email message from Nexus Mods about a free lifetime Premium membership reward](https://i.postimg.cc/P5zQQ9dt/thunderbird-2024-03-06-20-45-36-381.png)
+![A partial email message from Nexus Mods about a free lifetime Premium membership reward](/assets/images/posts/nexusmods-lifetime-premium/thunderbird-2024-03-06-20-45-36-381.avif)
 
-\[Image description: A partial email message from Nexus Mods that reads:
+[Image description: A partial email message from Nexus Mods that reads:
 
 > Hey leilukin,
 >
@@ -17,15 +17,15 @@ categories: ["modding"]
 >
 > Redeem now
 
-End desctiption.\]
+End desctiption.]
 
-![Nexus Mods website notification about a lifetime Premium membership reward](https://i.postimg.cc/XqCYnKpJ/Screenshot-2024-03-06-at-20-49-26-Nexus-Mods-Home.png)
+![Nexus Mods website notification about a lifetime Premium membership reward](/assets/images/posts/nexusmods-lifetime-premium/Screenshot-2024-03-06-at-20-49-26-Nexus-Mods-Home.avif)
 
-\[Image description: A notification on the Nexus Mods website that reads, "Your mods reached 30,000 UDLs! Enjoy Lifetime Premium membership on us." End description.\]
+[Image description: A notification on the Nexus Mods website that reads, "Your mods reached 30,000 UDLs! Enjoy Lifetime Premium membership on us." End description.]
 
-![The Membership tab on Nexus Mods account settings showing lifetime Premium membership](https://i.postimg.cc/SjbNRXMG/Screenshot-2024-03-06-at-20-52-27-Nexus-Mods-Users.png)
+![The Membership tab on Nexus Mods account settings showing lifetime Premium membership](/assets/images/posts/nexusmods-lifetime-premium/Screenshot-2024-03-06-at-20-52-27-Nexus-Mods-Users.avif)
 
-\[Image description: The Membership tab in the Nexus Mods account setting page, showing the current membershiup being "Mod Author Reward: Lifetime Premium", starting from 6th Mar 2024 with no end date. End description.\]
+[Image description: The Membership tab in the Nexus Mods account setting page, showing the current membershiup being "Mod Author Reward: Lifetime Premium", starting from 6th Mar 2024 with no end date. End description.]
 
 Wow, I just got informed by Nexus Mods via email and website notification that I have received a lifetime Premium membership for free on Nexus Mods as a mod author reward, since [all my mods that are hosted on Nexus Mods](https://www.nexusmods.com/users/3041255?tab=user+files) have reached 30,000 unique downloads in total!
 
