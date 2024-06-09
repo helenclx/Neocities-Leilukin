@@ -29,6 +29,7 @@
             document.getElementById("statuscafe-content").innerHTML = data.content;
         } catch (error) {
             console.error(error);
+            document.getElementById("statuscafe-content").textContent = `[ERROR] ${error}`;
         }
     };
     fetchStatusCafe();
