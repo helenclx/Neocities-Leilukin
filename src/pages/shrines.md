@@ -20,4 +20,4 @@ Here is a list of shrines I have made for my own website.
 
 ## [{% cite "Cassette Beasts" %}](./cassettebeasts/)
 
-![Key art of Cassette Beasts](/assets/shrines/cassettebeasts/images/CassetteBeasts_keyart_16_9.png){loading="lazy"}
+![Key art of Cassette Beasts](/assets/shrines/cassettebeasts/images/CassetteBeasts_keyart_16_9.avif){loading="lazy"}
