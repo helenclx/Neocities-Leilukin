@@ -86,7 +86,7 @@ module.exports = function (eleventyConfig) {
     );
 
     const renderRules = {
-        footnote_caption: ['[', '[<span class="visually-hidden">Footnote </span>'],
+        footnote_caption: ['[', '[<span class="visually-hidden">Footnote #</span>'],
         footnote_anchor: ['<a', '<a aria-label="Back to content"'],
     };
     Object.keys(renderRules).map(rule => {
