@@ -14,7 +14,7 @@ eleventyNavigation:
 ---
 
 ## My {% cite "Cassette Beasts" %} Articles
-<ul class="item-list">
+<ul>
     {%- for article in collections["cassette beasts articles"] -%}
         <li>
             <p><a href="{{ article.url }}">{{ article.data.articleTitle }}</a></p>
@@ -25,7 +25,7 @@ eleventyNavigation:
 
 ## {% cite "Cassette Beasts" %} Articles I Recommend
 
-<ul class="item-list">
+<ul>
     <li><a href="https://www.pillowfort.social/posts/3642949">Cassette Beasts Level-Up Dialogue Summaries (Meredith)</a> by ArgentDandelion on Pillowfort — An analysis of Meredith's character.</li>
     <li><a href="https://www.pillowfort.social/posts/3792935">Cassette Beasts Level-Up Dialogue Summaries (Viola)</a> by ArgentDandelion on Pillowfort — An analysis of Viola's character.</li>
     <li><a href="https://www.youtube.com/watch?v=jFJ6tMeGsLg" target="blank">A Case Of Autism: Meredith (Cassette Beasts)</a> by Optical Drop — A video essay analysing Meredith's autistic coding.</li>

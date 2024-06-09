@@ -9,7 +9,7 @@ eleventyNavigation:
 
 ## My Articles
 Articles I have written.
-<ul class="item-list">
+<ul>
     {%- for article in collections["my articles"] -%}
         <li>
             <p><a href="{{ article.url }}">{{ article.data.articleTitle }}</a></p>
@@ -24,7 +24,7 @@ Articles I have written.
 
 ## Featured Articles
 Articles featuring other people's interview with me.
-<ul class="item-list">
+<ul>
     {%- for article in collections["featured articles"] -%}
         <li>
             <p><a href="{{ article.url }}">{{ article.data.articleTitle }}</a></p>
