@@ -9,11 +9,11 @@ categories: ["my interviews"]
 
 [Floating in a Sky Full of Pride](https://bawangqueerbooklet.msolidariti.org/), the LGBTQ+ booklet of [MISI:Bawang](https://misibawang.msolidariti.org/), a Malaysian digital booklet project, has been released on Valentine’s Day 2022. Since my submitted art piece, Life of a Bee with Pride, has been selected to be included in the booklet, I had received the honour of being interviewed by MISI:Bawang to share my personal experience with my LGBTQ+ identity, favourite queer art/media, and a ✨ special message to the Malaysian LGBTQ+ community. 🏳‍🌈
 
-![First slide of MISI:Bawang's interview with me for their LGBTQ+ booklet](/assets/images/articles/lgbtq-booklet-interview-misi-bawang/Bawang-Booklet-Interview-Leilukin-1.jpg)
+![First slide of MISI:Bawang's interview with me for their LGBTQ+ booklet](/assets/images/articles/lgbtq-booklet-interview-misi-bawang/Bawang-Booklet-Interview-Leilukin-1.avif)
 
-![Second slide of MISI:Bawang's interview with me for their LGBTQ+ booklet](/assets/images/articles/lgbtq-booklet-interview-misi-bawang/Bawang-Booklet-Interview-Leilukin-2.jpg)
+![Second slide of MISI:Bawang's interview with me for their LGBTQ+ booklet](/assets/images/articles/lgbtq-booklet-interview-misi-bawang/Bawang-Booklet-Interview-Leilukin-2.avif)
 
-![Third slide of MISI:Bawang's interview with me for their LGBTQ+ booklet](/assets/images/articles/lgbtq-booklet-interview-misi-bawang/Bawang-Booklet-Interview-Leilukin-3.jpg)
+![Third slide of MISI:Bawang's interview with me for their LGBTQ+ booklet](/assets/images/articles/lgbtq-booklet-interview-misi-bawang/Bawang-Booklet-Interview-Leilukin-3.avif)
 
 MISI:Bawang has shared their interview with me and other Malaysian LGBTQ+ artists and authors who submitted their work to the booklet on Twitter and Instagram. Here are the [Twitter thread](https://twitter.com/misi_bawang/status/1470247663471763464) and [Instagram post](https://www.instagram.com/p/CXSlIbsJXsM/) that include my interview.
 
