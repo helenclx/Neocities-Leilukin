@@ -12,7 +12,7 @@ Here is a list of shrines I have made for my own website.
 
 ## [{% cite "A Summer’s End — Hong Kong 1986" %}](./asummersend/)
 
-![Key art of A Summer’s End — Hong Kong 1986](/assets/shrines/asummersend/images/ASE_Key_art_intro.png){loading="lazy"}
+![Key art of A Summer’s End — Hong Kong 1986](/assets/shrines/asummersend/images/ASE_Key_art_intro.avif){loading="lazy"}
 
 ## [{% cite "Star Wars: Knights of the Old Republic" %}](./starwarskotor/)
 
