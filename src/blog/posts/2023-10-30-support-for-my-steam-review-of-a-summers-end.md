@@ -9,7 +9,7 @@ As part of my effort to support and promote [A Summer’s End — Hong Kong 1986
 
 Since then, as of the writing of this post on 30 October 2023, my review made to the top of the most helpful reviews in the past 90 days on the [Steam store page of A Summer’s End](https://steamcommunity.com/app/1111370) with 12 votes.
 
-![Screenshot of Leilukin's review of A Summer’s End — Hong Kong 1986 on Steam](https://i.postimg.cc/R0PQhpTy/Screenshot-2023-10-30-at-09-52-13-A-Summer-s-End-Hong-Kong-1986-on-Steam.png)
+![Screenshot of Leilukin's review of A Summer’s End — Hong Kong 1986 on Steam](/assets/images/posts/a-summers-end-review/My-review-for-A-Summer-s-End-on-Steam.avif)
 
 In addition, I have received multiple Steam awards, with Steam Points along with them, including:
 
@@ -17,7 +17,7 @@ In addition, I have received multiple Steam awards, with Steam Points along with
 *   Golden Unicorn, which awards 800 Steam Points, given by one person
 *   Take My Points, which awards 1,600(!) Steam Points, given by one person
 
-Recently, on 22 October 2023, the [guestbook](https://leilukin.123guestbook.com/) of my website here have also received a message from someone named Rob, who expressed appreciation for my Steam review:
+Recently, on 22 October 2023, the [guestbook](https://web.archive.org/web/20240528231121/https%3A%2F%2Fleilukin.123guestbook.com%2F) of my website here have also received a message from someone named Rob, who expressed appreciation for my Steam review:
 
 > Thanks so much for your steam review of A Summer’s End!! So glad you have this board, so I could thank you for the heart warming review. I want to get this game for a friend of mine who is new to speaking english, and the story definitely will resonate with her.
 >
