@@ -55,4 +55,6 @@ The sex scenes between Sam and Michelle added by the Passion Patch are easily th
 [![Sam fingers Michelle, whose breasts and stomach are exposed](https://i.postimg.cc/sXn13npS/HK1986-2021-02-06-16-16-55-049.avif){loading="lazy"}](https://postimg.cc/njDnkGSc)
 
 [![Sam naked on top of Michelle, who caresses Sam's bare breast](https://i.postimg.cc/Hs8jC9jc/HK1986-2021-02-06-16-17-03-633.avif){loading="lazy"}](https://postimg.cc/gndGVRVm)
+
+These screenshots of {% cite "A Summer’s End" %}'s Passion Patch can also be viewed on [my Postimages gallery](https://postimg.cc/gallery/YBhz5TbR), and are available in PNG and AVIF formats.
 {% endcontentWarning %}
