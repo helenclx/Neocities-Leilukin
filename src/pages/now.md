@@ -1,6 +1,6 @@
 ---
 title: Now
-updated: 2024-06-03
+updated: 2024-06-09
 eleventyNavigation:
     key: Now
     order: 3
@@ -16,12 +16,14 @@ You can also check out my [status.cafe profile](https://status.cafe/users/leiluk
 
 ## What I am Working on
 
-### Custom Domain Name and New Hosting for This Site
+### Website Performance Improvement
 
-I finally bought a custom domain name for this website, `leilukin.com`. To be able to use the custom domain name without spending more money to upgrade my Neocities account to the Supporter tier, I have also been busy with setting up this site to be hosted on Netlify.
+After setting up a [custom domain name and migrating this website to Netlify](/blog/posts/2024-05-31-domain-name-hosting-change-leilukins-hub), I have been working on improving the performance of this website to make visitors' experience with browsing this site better.
 
-For more information, read my blog post: [Custom Domain Name and Hosting Change for Leilukin's Hub](/blog/posts/2024-05-31-domain-name-hosting-change-leilukins-hub).
+Important steps to improve this site's performance include preloading assets of the default font (Lexend), removing unneeded Font Awesome assets, and converting most images of this site to AVIF format to reduce file size and bandwidth.
+
+As a result, {{ sitemeta.siteName }} is finally able to score 100 in all categories (Performance, Accessibility, Best practice and SEO on both mobile and desktop views) on [PageSpeed Insights](https://pagespeed.web.dev/).
 
 ### Updating my {% cite "Star Wars: Knights of the Old Republic" %} mods
 
-As part of my ongoing collaboration with [KOtOR Community Portal's mod builds](https://kotor.neocities.org/modding/), recently I have updated [KotOR 1 Twi'lek Male NPC Diversity](/projects/kotor1mods/#kotor-1-twilek-male-npc-diversity), [PartySwap](/projects/kotor2mods/#partyswap) and [PartySwap and Extended Enclave Compatibility Patch](/projects/kotor2mods/#partyswap-and-extended-enclave-compatibility-patch) to ensure my mods are bug-free and compatible with other mods in the mod builds, and to prepare for the next iteration of the mod builds.
+As part of my ongoing collaboration with [KOtOR Community Portal's mod builds](https://kotor.neocities.org/modding/), I have updated [KotOR 1 Twi'lek Male NPC Diversity](/projects/kotor1mods/#kotor-1-twilek-male-npc-diversity), [PartySwap](/projects/kotor2mods/#partyswap) and [PartySwap and Extended Enclave Compatibility Patch](/projects/kotor2mods/#partyswap-and-extended-enclave-compatibility-patch) to ensure my mods are bug-free and compatible with other mods in the mod builds, and to prepare for the next iteration of the mod builds.
