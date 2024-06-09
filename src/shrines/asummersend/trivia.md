@@ -23,7 +23,7 @@ A Summer’s End contains many references to movies and music. This community po
 
 ### Chinese Names
 
-Michelle Cheung's Chinese name is [張鳳霞]{lang="zh"}, while Sam Wong's Chinese name is [黃嘉欣]{lang="zh"}. Oracle and Bone had commented on their idea behind the characters' Chinese names on [this Tumblr post](https://oracleandbone.tumblr.com/post/625313027310436352/hi-im-curious-how-you-came-up-with-sam-and):
+Michelle Cheung's Chinese name is [張鳳霞]{lang="zh"}, while Sam Wong's Chinese name is [黃嘉欣]{lang="zh"}. Oracle and Bone had commented on their idea behind the characters' Chinese names in a [response to a fan's question on Tumblr](https://oracleandbone.tumblr.com/post/625313027310436352/hi-im-curious-how-you-came-up-with-sam-and):
 
 > A part of how we came up with their names was by referencing names of Hong Kong film actresses from their time period as a little homage to them. We also thought of how their names might reflect their upbringing. For example, despite Michelle being younger than Sam, she has a more old fashioned sounding Chinese name. The meaning of their Chinese names was also important to us. We particularly wanted Michelle’s name to have metaphoric meaning that reflected her story as well as the themes of the game.
 
