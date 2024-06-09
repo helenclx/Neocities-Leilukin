@@ -22,7 +22,7 @@ Originally, {{ sitemeta.siteName }} was hosted on [Neocities](https://neocities.
 
 More information about this site can be found on the following pages:
 - [Accessibility statement](/accessibility) for accessibility information
-- [colophon page](/colophon) for technical information
+- [Colophon page](/colophon) for technical information
 
 ### Link to This Site
 
