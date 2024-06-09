@@ -27,7 +27,7 @@ My main KotOR universe.
 
 ### Revan
 
-![Screenshot of Jiaxuan Cheng, the Revan for my main KotOR universe]({{universeAssetBase}}myrevan-jiaxuan-cheng.png)
+![Screenshot of Jiaxuan Cheng, the Revan for my main KotOR universe]({{universeAssetBase}}myrevan-jiaxuan-cheng.avif)
 
 Name
 : Jiaxuan Cheng 程嘉萱
@@ -55,7 +55,7 @@ Romance
 
 ### Jedi Exile
 
-![Screenshot of Yunhua Yang, the Jedi Exile for my main KotOR universe]({{universeAssetBase}}myexile-yunhua-yang.png)
+![Screenshot of Yunhua Yang, the Jedi Exile for my main KotOR universe]({{universeAssetBase}}myexile-yunhua-yang.avif)
 
 Name
 : Yunhua Yang 杨韵华

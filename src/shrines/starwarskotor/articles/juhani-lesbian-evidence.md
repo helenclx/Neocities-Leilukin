@@ -17,8 +17,8 @@ The most crucial evidence comes from `k_hjuh_dialog.dlg`, Juhani’s main dialog
 
 Here is a screenshot of my DLGEditor with the most relevant part of the `k_hjuh_dialog.dlg` file:
 
-{% imgFigure "/assets/shrines/starwarskotor/articles/juhani-lesbian-in-game-evidence.png", "Screenshot of DLG Editor 2.3.2 displaying Juhani's main dialogue file" %}
-([View the screenshot in its original size](/assets/shrines/starwarskotor/articles/juhani-lesbian-in-game-evidence.png))
+{% imgFigure "/assets/shrines/starwarskotor/articles/juhani-lesbian-in-game-evidence.avif", "Screenshot of DLG Editor 2.3.2 displaying Juhani's main dialogue file" %}
+([View the screenshot in its original size](/assets/shrines/starwarskotor/articles/juhani-lesbian-in-game-evidence.avif))
 {% endimgFigure %}
 
 The highlighted dialogue shown in the screenshot (”I feel I must apologize for the way I acted towards you before, in the grove. It was wrong of me.”) is the beginning of your first personal conversation with Juhani after Juhani joins your party. Here is a video of the conversation in question:
