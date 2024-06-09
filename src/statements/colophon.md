@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2024-06-08
+updated: 2024-06-09
 toc: true
 eleventyNavigation:
     order: 13
@@ -56,6 +56,7 @@ Due to this website being a static site, JavaScript is used to create dynamic an
     * Birthdays of characters from {% cite "A Summer’s End — Hong Kong 1986" %} on its shrine.
 * When this site is viewed on mobile devices, the navigation bar uses JavaScript for the following purposes:
     * Toggle the display of the navigation links when the navigation menu button is clicked;
+    * Close the navigation menu if the keyboard user tab out of the manu;
     * Enable using the Escape key to close the navigation manu.
 * Zach Leatherman's [details-utils](https://www.npmjs.com/package/@zachleat/details-utils) JavaScript package is used to automatically expand sidebar table of contents on larger screen sizes.
 * Every page has a button on the bottom right corner to allow you to quickly scroll to the top of the page. This scroll-to-top button uses JavaScript to show or hide the button based on your scroll position.
