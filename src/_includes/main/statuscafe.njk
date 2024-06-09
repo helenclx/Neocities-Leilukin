@@ -1,12 +1,35 @@
 <div id="statuscafe" class="text-box">
     <h3>My Lastest Status</h3>
-    <div id="statuscafe-username"></div>
-    <div id="statuscafe-content"></div>
+    <div id="statuscafe-userinfo"></div>
+    <div id="statuscafe-content">
+        <p>Fetching data from status.cafe...</p>
+    </div>
+
+    <p><a href="https://status.cafe/users/leilukin">View my statuses on status.cafe</a></p>
 </div>
-<script src="https://status.cafe/current-status.js?name=leilukin" defer></script>
 
 <style>
     #statuscafe-content {
         margin: 0 0 0.5em 1em;
     }
 </style>
+
+<script>
+    const fetchStatusCafe = async () => {
+        try {
+            const res = await fetch('https://status.cafe/users/leilukin/status.json');
+            const data = await res.json();
+
+            if (!data.content.length) {
+                document.getElementById("statuscafe-content").innerHTML = "No status yet."
+                return;
+            }
+
+            document.getElementById("statuscafe-userinfo").innerHTML = data.author + ' ' + data.face + ' ' + data.timeAgo;
+            document.getElementById("statuscafe-content").innerHTML = data.content;
+        } catch (error) {
+            console.error(error);
+        }
+    };
+    fetchStatusCafe();
+</script>
