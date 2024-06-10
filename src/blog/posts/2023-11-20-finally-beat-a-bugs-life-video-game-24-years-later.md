@@ -2,7 +2,7 @@
 articleTitle: Finally Beat A Bug's Life The Video Game — 24 Years Later
 desc: My childhood goal of beating A Bug's Life video game was finally fulfilled.
 date: 2023-11-20
-categories: ["life updates"]
+categories: ["a bug's life", "gaming"]
 ---
 
 A Bug's Life was one of my favourite films in my childhood, to the extent I had lost count of how many times I rewatched it even just as a child alone by playing the CD on my house's television over and over. I was such a huge fan of A Bug's Life that I had also played its tie-in game, specifically the 3D action platformer game, and it became one of my childhood favourite video games as well.
