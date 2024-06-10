@@ -99,7 +99,7 @@ On 12 October 2023, Bytten Studio wrote a Steam blog post ["Cassette Beasts - De
 
 ## Influences and Inspirations
 
-The YouTube channel Lockstin & Gnoggin has a video that explains the names and designs of the monsters and Archangels: [EVERY Cassette Beast EXPLAINED! 🖭](https://www.youtube.com/watch?v=GlKQzL6gpxc). The video was [retweeted](https://i.postimg.cc/tRdtkBSF/Screenshot-2023-10-05-at-14-27-39-Lockstin-on-X.png) by Bytten Studio.
+The YouTube channel Lockstin & Gnoggin has a video that explains the names and designs of the monsters and Archangels: [EVERY Cassette Beast EXPLAINED! 🖭](https://www.youtube.com/watch?v=GlKQzL6gpxc). The video was [retweeted](/assets/shrines/cassettebeasts/socmed/Screenshot-2023-10-05-at-14-27-39-Lockstin-on-X.avif) by Bytten Studio.
 
 The idea of copying monster forms to transform into came from Tom Coxon's dream. Jay Baylis, inspired by {% cite "Kamen Rider" %}, later suggested doing the copying and transforming with physical cassette tapes.[^cb-steam-blog-20230228]
 
