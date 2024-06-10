@@ -6,8 +6,8 @@ pagination:
 permalink: /categories/{{ category | slugify }}/
 eleventyExcludeFromCollections: true
 eleventyComputed:
-    title: 'Content Category: "{{ category }}"'
-    desc: All contents under the "{{ category }}" category on {{ sitemeta.siteName | safe }}.
+    title: 'Content Category: "{{ category | safe }}"'
+    desc: All contents under the "{{ category | safe }}" category on {{ sitemeta.siteName | safe }}.
 ---
 
 {% set contentCount = collections.contents | filterByCategory(category) | length %}
