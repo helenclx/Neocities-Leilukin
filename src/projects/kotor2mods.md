@@ -17,7 +17,7 @@ The sheer amount of mod compatibility issues the Steam Workshop can cause to Kot
 
 ## Same-Gender Romances
 
-<h3 class="center-text" style="color: inherit;">Before you ask any questions about my same-gender romance mods for the {% cite "KotOR" %} series, <a href="/shrines/starwarskotor/articles/faq-same-gender-romance-mods">read the FAQ article</a> first!</h3>
+**Before you ask any questions about my same-gender romance mods for the {% cite "KotOR" %} series, [read the FAQ article](/shrines/starwarskotor/articles/faq-same-gender-romance-mods) first!**{style="font-size: var(--fs-h3); color: var(--clr-body-txt);"} {.center-text}
 
 {{ modEntry({
     title: "Atton Rand and Male Exile Romance",
