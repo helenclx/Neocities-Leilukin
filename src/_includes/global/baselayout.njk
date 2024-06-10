@@ -16,9 +16,7 @@
         {% block customCSS %}{% endblock %}
 
         {# Fonts #}
-        <link rel="preload" href="/assets/fonts/lexend/lexend-v19-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
-        <link rel="preload" href="/assets/fonts/lexend/lexend-v19-latin-700.woff2" as="font" type="font/woff2" crossorigin>
-        {% include "global/fontinlinestyle.njk" %}
+        {% include "global/defaultfont.njk" %}
         <link rel="stylesheet" href="{{'/assets/fonts/intel-one-mono/intel-one-mono.css' | url | safe}}">
 
         {# Font Awesome #}
