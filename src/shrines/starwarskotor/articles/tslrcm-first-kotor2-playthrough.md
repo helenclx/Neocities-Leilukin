@@ -3,7 +3,7 @@ articleTitle: "Should You Use The Sith Lords Restored Content Mod in Your First 
 date: 2023-08-30
 desc: "The Sith Lords Restored Content Mod (TSLRCM) is widely regarded as essential for the best KotOR 2 experience, but should you use the mod in your very first KotOR 2 playthrough?"
 tags: kotor 2 articles
-categories: ["star wars kotor 2", "modding"]
+categories: ["star wars kotor 2", "video game mods"]
 ---
 
 Regardless of how much you like {% cite "Star Wars: Knights of the Old Republic II: The Sith Lords" %} or not, there is no denying the fact that the game would be (even) better if Obsidian Entertainment was given more time to develop and polish the game to truly achieve their vision for the game, instead of being rushed to meet the release deadline which resulted in a lot of cut content.

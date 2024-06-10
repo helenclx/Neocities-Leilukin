@@ -4,7 +4,7 @@ date: 2023-07-12
 updated: 2023-10-11
 desc: "Official announcement about me taking over the management and development of DarthTyren's PartySwap mod for Star Wars: Knights of the Old Republic II."
 tags: kotor 2 articles
-categories: ["star wars kotor 2", "modding"]
+categories: ["star wars kotor 2", "video game mods"]
 ---
 
 Starting from 11 July 2023, I, Leilukin, have officially taken over the management and development of DarthTyren's [PartySwap](https://deadlystream.com/files/file/544-partyswap/) mod for Star Wars: Knights of the Old Republic: The Sith Lords.

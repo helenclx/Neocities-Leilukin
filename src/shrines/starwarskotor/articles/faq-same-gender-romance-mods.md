@@ -4,7 +4,7 @@ date: 2021-09-25
 updated: 2024-05-24
 desc: "Frequently asked questions for my same-gender romance mods for Star Wars: Knights of the Old Republic series."
 tags: kotor both articles
-categories: ["star wars kotor", "star wars kotor 2", "modding"]
+categories: ["star wars kotor", "star wars kotor 2", "video game mods"]
 toc: true
 templateEngineOverride: njk,md
 ---

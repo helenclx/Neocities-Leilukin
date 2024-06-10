@@ -2,7 +2,7 @@
 articleTitle: I Received a Lifetime Premium Membership on Nexus Mods for Free
 desc: In light of my mods hosted on Nexus Mods reaching 30,000 unique downloads, I was rewarded a free lifetime Premium membership on Nexus Mods.
 date: 2024-03-06
-categories: ["modding"]
+categories: ["video game mods"]
 ---
 
 ![A partial email message from Nexus Mods about a free lifetime Premium membership reward](/assets/images/posts/nexusmods-lifetime-premium/thunderbird-2024-03-06-20-45-36-381.avif)

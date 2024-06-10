@@ -2,7 +2,7 @@
 pageTitle: "List of Star Wars: Knights of the Old Republic II Mods that Allow Female Exiles to Recruit the Handmaiden as a Party Member"
 desc: "Disappointed that female Jedi Exiles cannot recruit the Handmaiden as a party member? Good news! That is what these mods are for!"
 tags: kotor 2 resources
-categories: ["star wars kotor 2", "modding"]
+categories: ["star wars kotor 2", "video game mods"]
 toc: true
 ---
 
