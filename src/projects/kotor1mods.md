@@ -13,7 +13,7 @@ eleventyNavigation:
 
 {{ modEntry({
     title: "Juhani Dialogue Restoration",
-    bannerFile: "kotor1mods/Juhani-Dialogue-Restoration.png",
+    bannerFile: "kotor1mods/Juhani-Dialogue-Restoration.avif",
     desc: "Restores Juhani's conversations with the player that are unused or easy to miss in vanilla KotOR.",
     downloads: [
         {
@@ -29,7 +29,7 @@ eleventyNavigation:
 
 {{ modEntry({
     title: "Carth Onasi and Male PC Romance",
-    bannerFile: "kotor1mods/Carth-Onasi-and-Male-PC-Romance.png",
+    bannerFile: "kotor1mods/Carth-Onasi-and-Male-PC-Romance.avif",
     desc: "Makes Carth Onasi's romance subplot available for male player characters. [Read the FAQ article](/shrines/starwarskotor/articles/faq-same-gender-romance-mods) before asking questions about my same-gender romance mods for the KotOR series!",
     downloads: [
         {
@@ -45,7 +45,7 @@ eleventyNavigation:
 
 {{ modEntry({
     title: "Bastila and Carth Romance Removal",
-    bannerFile: "kotor1mods/Bastila-and-Carth-Romance-Removal.png",
+    bannerFile: "kotor1mods/Bastila-and-Carth-Romance-Removal.avif",
     desc: "Removes Bastila and Carth's romance by removing all romance-related dialogue from their conversations.",
     downloads: [
         {
@@ -61,7 +61,7 @@ eleventyNavigation:
 
 {{ modEntry({
     title: "Leilukin's Juhani's Outfit Reskin Pack",
-    bannerFile: "kotor1mods/Leilukins-Juhanis-Outfit-Reskin-Pack.png",
+    bannerFile: "kotor1mods/Leilukins-Juhanis-Outfit-Reskin-Pack.avif",
     desc: "Reskins Juhani's outfit by changing the outfit's color scheme, with multiple versions of reskin provided.",
     downloads: [
         {
@@ -77,7 +77,7 @@ eleventyNavigation:
 
 {{ modEntry({
     title: "Jolee in Unique Outfit Introduction",
-    bannerFile: "kotor1mods/Jolee-in-Unique-Outfit-Introduction.png",
+    bannerFile: "kotor1mods/Jolee-in-Unique-Outfit-Introduction.avif",
     desc: "Makes Jolee Bindo wear his signature robe when you meet him on Kashyyyk, before he joins your party.",
     downloads: [
         {
@@ -93,7 +93,7 @@ eleventyNavigation:
 
 {{ modEntry({
     title: "KotOR 1 Improved Party Outfits",
-    bannerFile: "kotor1mods/KotOR-1-Improved-Party-Outfits.png",
+    bannerFile: "kotor1mods/KotOR-1-Improved-Party-Outfits.avif",
     desc: "Adds new items to improve the properties of the default outfits of the human and humanoid party members of TSL, namely Bastila, Canderous, Carth, Jolee, Juhani and Mission.",
     downloads: [
         {
@@ -109,7 +109,7 @@ eleventyNavigation:
 
 {{ modEntry({
     title: "Darth Revan Texture for Star Forge Robes",
-    bannerFile: "kotor1mods/Darth-Revan-Texture-for-Star-Forge-Robes.png",
+    bannerFile: "kotor1mods/Darth-Revan-Texture-for-Star-Forge-Robes.avif",
     desc: "Makes the Star Forge Robes to have the same texture and inventory icon as Darth Revan's Robes.",
     downloads: [
         {
@@ -127,7 +127,7 @@ eleventyNavigation:
 
 {{ modEntry({
     title: "KotOR 1 Twi'lek Male NPC Diversity",
-    bannerFile: "kotor1mods/K1-Twilek-Male-NPC-Diversity.png",
+    bannerFile: "kotor1mods/K1-Twilek-Male-NPC-Diversity.avif",
     desc: "Diversifies the appearances of Twi'lek male NPCs in KotOR 1 by giving the named Twi'lek male NPCs different looks instead of the generic NPC looks.",
     downloads: [
         {
@@ -143,7 +143,7 @@ eleventyNavigation:
 
 {{ modEntry({
     title: "KotOR 1 Twi'lek Female NPC Diversity",
-    bannerFile: "kotor1mods/K1-Twilek-Female-NPC-Diversity.png",
+    bannerFile: "kotor1mods/K1-Twilek-Female-NPC-Diversity.avif",
     desc: "Diversifies the appearances of Twi'lek female NPCs by giving the named Twi'lek female NPCs different looks instead of the generic NPC looks.",
     downloads: [
         {
@@ -159,7 +159,7 @@ eleventyNavigation:
 
 {{ modEntry({
     title: "Belaya's Unique Look",
-    bannerFile: "kotor1mods/Belaya-Unique-Look.png",
+    bannerFile: "kotor1mods/Belaya-Unique-Look.avif",
     desc: "Gives the NPC Belaya a unique look instead of a generic NPC look.",
     downloads: [
         {
@@ -175,7 +175,7 @@ eleventyNavigation:
 
 {{ modEntry({
     title: "Human Xor Restoration",
-    bannerFile: "kotor1mods/Human-Xor-Restoration.png",
+    bannerFile: "kotor1mods/Human-Xor-Restoration.avif",
     desc: "Restores the original appearance of the NPC Xor in the Xbox version of KotOR, by changing his species from a Twi'lek to a human.",
     downloads: [
         {
@@ -191,7 +191,7 @@ eleventyNavigation:
 
 {{ modEntry({
     title: "Human Xor Unique Look",
-    bannerFile: "kotor1mods/Human-Xor-Unique-Look.png",
+    bannerFile: "kotor1mods/Human-Xor-Unique-Look.avif",
     desc: "Changes the NPC Xor's appearance by making him a human with a unique look to make him different from other human NPCs.",
     downloads: [
         {
@@ -207,7 +207,7 @@ eleventyNavigation:
 
 {{ modEntry({
     title: "KotOR 1 No Gendered Dialogue from Male NPCs",
-    bannerFile: "kotor1mods/K1-No-Gendered-Dialogue-Male-NPCs.png",
+    bannerFile: "kotor1mods/K1-No-Gendered-Dialogue-Male-NPCs.avif",
     desc: "MOD_DESC",
     downloads: [
         {
@@ -223,7 +223,7 @@ eleventyNavigation:
 
 {{ modEntry({
     title: "PC Dialogue with Davik's Slaves Change",
-    bannerFile: "kotor1mods/PC-Dialogue-with-Daviks-Slaves-Change.png",
+    bannerFile: "kotor1mods/PC-Dialogue-with-Daviks-Slaves-Change.avif",
     desc: "Removes the option for the player character to flirt with Davik Kang's slaves, or give the player Dark Side options for requesting a massage from the slaves. Threatening the slaves also gives the player Dark Side points.",
     downloads: [
         {
@@ -241,7 +241,7 @@ eleventyNavigation:
 
 {{ modEntry({
     title: "Trask Ulgo Without Tutorials",
-    bannerFile: "kotor1mods/Trask-Ulgo-Without-Tutorials.png",
+    bannerFile: "kotor1mods/Trask-Ulgo-Without-Tutorials.avif",
     desc: "Removes the tutorial elements from the game, while keeps Trask Ulgo as a party member in the first area of the Endar Spire.",
     downloads: [
         {
@@ -259,7 +259,7 @@ eleventyNavigation:
 
 {{ modEntry({
     title: "Mysterious Box Music for Unknown World",
-    bannerFile: "kotor1mods/Mysterious-Box-Music-for-Unknown-World.png",
+    bannerFile: "kotor1mods/Mysterious-Box-Music-for-Unknown-World.avif",
     desc: "This mod will make the Mysterious Box's ambient music played in some areas of the Unknown World.",
     downloads: [
         {
