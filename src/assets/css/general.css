@@ -15,12 +15,12 @@ body {
 main {
     width: 100%;
     display: grid;
-    font-size: var(--sz-main-txt);
+    font-size: var(--fs-main);
 }
 
 h1 {
     color: var(--clr-main-heading);
-    font-size: var(--sz-h1);
+    font-size: var(--fs-h1);
     border-bottom: 0.18rem solid var(--clr-title-border);
     padding-bottom: 0.3em;
     margin-bottom: 0.5em;
@@ -35,11 +35,11 @@ h1, h2, h3 {
 }
 
 h2, .h2 {
-    font-size: var(--sz-h2);
+    font-size: var(--fs-h2);
 }
 
 h3, .h3 {
-    font-size: var(--sz-h3);
+    font-size: var(--fs-h3);
 }
 
 h2:has(+ *[class]:not(.heading-anchor)), .h2:has(+ *[class]),
@@ -48,7 +48,7 @@ h3:has(+ *[class]:not(.heading-anchor)), .h3:has(+ *[class]) {
 }
 
 h4, .h4 {
-    font-size: var(--sz-h4);
+    font-size: var(--fs-h4);
 }
 
 strong {
