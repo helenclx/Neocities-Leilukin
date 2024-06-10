@@ -2,7 +2,7 @@
 articleTitle: Support for My Steam Review of A Summer’s End — Hong Kong 1986
 desc: A thank-you post for the people who have supported my Steam review of A Summer’s End — Hong Kong 1986.
 date: 2023-10-30
-categories: ["a summers end"]
+categories: ["a summer's end"]
 ---
 
 As part of my effort to support and promote [A Summer’s End — Hong Kong 1986](https://www.asummersend.com/), the sapphic visual novel and my absolute favourite piece of queer art ever, I left a [glowing review on Steam](https://steamcommunity.com/id/leilukin/recommended/1111370/) on 17 August 2023, talking about how much A Summer’s End means too me as a Cantonese-speaking Chinese lesbian who grew up with Hong Kong media. I love A Summer’s End so much that I had created a [shrine](/shrines/asummersend/) for it on my own website here.
