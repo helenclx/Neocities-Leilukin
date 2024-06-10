@@ -9,12 +9,9 @@
         <meta property="og:title" content="{% if title %}{{ title }}{% else %}{{ sitemeta.siteName }}{% endif %}">
         {% include "global/metagen.njk" %}
 
-        {# CSS #}
+        {# Style #}
+        {% include "global/defaultfont.njk" %}
         <link rel="stylesheet" href="{{'/assets/css/misc.css' | url | safe}}">
-        <link rel="stylesheet" href="{{'/assets/fonts/noto-sans/noto-sans.css' | url | safe}}">
-
-        {# JavaScript #}
-        <script rel="preload" src="/assets/js/redirect.js" as="script"></script>
 
         {# Favicon #}
         <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
