@@ -2,7 +2,7 @@
 articleTitle: "Floating in a Sky Full of Pride: LGBTQ+ Booklet Artist Interview from MISI:Bawang"
 date: 2022-09-11
 desc: My submission for MISI:Bawang's booklet about LGBTQ+ Malaysians was accepted and published. Here is MISI:Bawang's interview with me regarding my work and my queer identity.
-categories: ["my interviews"]
+categories: ["my interviews", "lgbtq+", "malaysia", "a summer's end"]
 ---
 
 <p class="center-text"><i>(This article is also available on <a href="https://leilukinart.tumblr.com/post/676165415142031360/misibawang-a-malaysian-digital-booklet-project">my art blog on Tumblr</a>)</i></p>
