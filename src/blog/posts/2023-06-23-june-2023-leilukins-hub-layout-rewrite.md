@@ -5,7 +5,7 @@ date: 2023-06-23
 categories: ["site updates"]
 ---
 
-![A screenshot of Leilukin's Hub home page, with its new layout released on June 23, 2023](/assets/layouts/Leilukins-Hub-layout-2023-06.png)
+![A screenshot of Leilukin's Hub home page, with its new layout released on June 23, 2023](/assets/layouts/Leilukins-Hub-layout-2023-06.avif)
 
 Happy Pride Month! It is always Pride on this literally [queer-coded](https://isaacfish.neocities.org/webring/) (as in, literally coded by a queer person) website, so Leilukin's Hub decided to celebrate Pride Month with a major update — rewriting the entire website's layout!
 

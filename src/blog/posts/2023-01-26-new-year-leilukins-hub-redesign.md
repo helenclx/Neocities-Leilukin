@@ -5,7 +5,7 @@ date: 2023-01-26
 categories: ["site updates"]
 ---
 
-![A screenshot of Leilukin's Hub home page, with its layout design released on January 26, 2023](/assets/layouts/Leilukins-Hub-layout-2023-01.png)
+![A screenshot of Leilukin's Hub home page, with its layout design released on January 26, 2023](/assets/layouts/Leilukins-Hub-layout-2023-01.avif)
 
 In light of a new year, the Leilukin's Hub website has received a new design on 26 January 2023!
 
