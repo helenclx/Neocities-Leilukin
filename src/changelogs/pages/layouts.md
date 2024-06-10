@@ -12,7 +12,7 @@ eleventyNavigation:
 {%- macro siteLayout(params) -%}
     ## {{ params.title }}
     {% for screenshot in params.screenshots %}
-        <img src="/assets/layouts/{{ screenshot.imgFile }}" alt="{{ screenshot.imgAlt }}">
+        <img src="/assets/layouts/{{ screenshot.imgFile }}" alt="{{ screenshot.imgAlt }}" loading="lazy">
     {% endfor %}
 {%- endmacro -%}
 
