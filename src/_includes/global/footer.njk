@@ -13,7 +13,6 @@
         </nav>
     {%- endif -%}
 
-    <p><a class="footer__top-link" href="#top">Back to Top</a></p>
     {%- include "global/top-btn.njk" %}
 </footer>
 
@@ -53,24 +52,6 @@
         display: flex;
         gap: 0.7em;
         justify-self: center;
-    }
-
-    .footer__top-link::before,
-    .footer__top-link::after {
-        --arrow-margin: 0.3em;
-        content: "";
-        display: inline-block;
-        border-bottom: 0.6rem solid currentColor;
-        border-left: 0.4rem solid transparent;
-        border-right: 0.4rem solid transparent;
-    }
-
-    .footer__top-link::before {
-        margin: 0 var(--arrow-margin) 0 0;
-    }
-
-    .footer__top-link::after {
-        margin: 0 0 0 var(--arrow-margin);
     }
 
     /* Screen sizes larger than mobile */
