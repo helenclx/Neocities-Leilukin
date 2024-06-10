@@ -1,7 +1,7 @@
 ---
 title: Accessibility
 keyword: accessibility statement
-updated: 2024-06-08
+updated: 2024-06-10
 eleventyNavigation:
     order: 12
 ---
@@ -16,7 +16,8 @@ High-level overview of the accessibility features of this site:
 * Keyboard navigation-friendly: Every interactive element can be focused and interacted with keyboard buttons, with visible outline when focused
 * Logical content and heading flow
 * Links to skip to the main content or the top of the page
-* No autoplay of videos and audio
+* Sufficient text size that can be enlarged without breaking the site layout
+* No autoplaying audio or video
 
 This site uses the [Lexend](https://www.lexend.com/) font family as the default font and [Intel One Mono](https://www.intel.com/content/www/us/en/company-overview/one-monospace-font.html) as the monospace font to improve text readability.
 
