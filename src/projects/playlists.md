@@ -20,7 +20,7 @@ eleventyNavigation:
 
 A collection of Mandarin queer anthems.
 
-I made this playlist after discovering Wikipedia's list of Chinese queer anthems on the article [<span lang="zh">同志國歌</span>](https://zh.wikipedia.org/wiki/%E5%90%8C%E5%BF%97%E5%9C%8B%E6%AD%8C#%E8%8F%AF%E8%AA%9E), the Mandarin article for Gay Anthem.
+I made this playlist after discovering Wikipedia's list of Chinese queer anthems on the article [同志國歌](https://zh.wikipedia.org/wiki/%E5%90%8C%E5%BF%97%E5%9C%8B%E6%AD%8C#%E8%8F%AF%E8%AA%9E){lang="zh"}, the Mandarin article for Gay Anthem.
 
 <a class="link-btn" href="https://open.spotify.com/playlist/5JXAUPZkmv1cFScAfhOkXh">Listen on Spotify</a>
 
