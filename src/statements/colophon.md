@@ -1,7 +1,7 @@
 ---
 title: Colophon
 keyword: colophon page
-updated: 2024-06-09
+updated: 2024-06-10
 toc: true
 eleventyNavigation:
     order: 13
@@ -40,8 +40,8 @@ Information about how this website is built.
 * [markdown-it-footnote](https://www.npmjs.com/package/markdown-it-footnote)
 
 ## Self-hosted Assets
-* [Lexend](https://www.lexend.com/) font family
-* [Intel One Mono](https://www.intel.com/content/www/us/en/company-overview/one-monospace-font.html) typeface
+* [Lexend](https://www.lexend.com/) font family (used as the default font of this site)
+* [Intel One Mono](https://www.intel.com/content/www/us/en/company-overview/one-monospace-font.html) typeface (used as the monospace font of this site)
 * [Font Awesome](https://fontawesome.com/) (brand icons only)
 
 ## JavaScript
@@ -58,7 +58,7 @@ Due to this website being a static site, JavaScript is used to create dynamic an
     * Toggle the display of the navigation links when the navigation menu button is clicked;
     * Close the navigation menu if the keyboard user tab out of the manu;
     * Enable using the Escape key to close the navigation manu.
-* Zach Leatherman's [details-utils](https://www.npmjs.com/package/@zachleat/details-utils) JavaScript package is used to automatically expand sidebar table of contents on larger screen sizes.
+* Zach Leatherman's [details-utils](https://www.npmjs.com/package/@zachleat/details-utils) JavaScript package is used to automatically expand sidebar table of contents on wide screens.
 * Every page has a button on the bottom right corner to allow you to quickly scroll to the top of the page. This scroll-to-top button uses JavaScript to show or hide the button based on your scroll position.
     * A "Back to top" link that does not use JavaScript is available on each page's bottom footer, but the JavaScript version allows visitors to quickly scroll to the top of the page without needing to reach the bottom footer.
 * [status.cafe](https://status.cafe/) widget, which is placed on the home page, uses JavaScript to fetch data of my latest status update.
