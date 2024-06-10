@@ -4,6 +4,8 @@ const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const metagen = require('eleventy-plugin-metagen');
 const emojiReadTime = require("@11tyrocks/eleventy-plugin-emoji-readtime");
 
+const slugify = require("slugify");
+
 module.exports = function (eleventyConfig) {
     // Copy files
     eleventyConfig.addPassthroughCopy("./src/assets/");
@@ -62,7 +64,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addShortcode('cite', (str) => `<cite>${str}</cite>`);
 
     // Paired shortcode: Manual heading anchor
-    eleventyConfig.addPairedShortcode('headingAnchor', (title, hLevel, id) => {
+    eleventyConfig.addPairedShortcode('headingAnchor', (title, hLevel, id=slugify(title)) => {
         return `<div class="heading-wrapper h${hLevel}">
             <h${hLevel} id="${id}">${title}</h2>
             <a class="heading-anchor" href="#${id}" aria-labelledby="${id}"><span hidden="">#</span></a>
