@@ -42,7 +42,7 @@
         {% include "global/toc.njk" %}
     {% endif %}
 
-    {% set contentEl = "article" if isArticle or isStatement else "div" %}
+    {% set contentEl = "article" if isArticle or articleElement else "div" %}
 
     <{{contentEl}} class="content{{' content--divided' if isContentDivided }}">
         {{ content | safe }}

@@ -1,7 +1,7 @@
 {
     "layout": "main/statement",
     "tags": "statements",
-    "isStatement": true,
+    "articleElement": true,
     "permalink": "/{{ page.fileSlug }}/",
     "eleventyComputed": {
         "desc": "{{ sitemeta.siteName }}'s {{ keyword }}.",
