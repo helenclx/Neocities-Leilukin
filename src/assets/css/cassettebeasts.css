@@ -31,14 +31,12 @@
     --clr-main-footer-bg: #9b59b6;
 }
 
-.hero__top-bar {
-    color: var(--clr-navbar-link);
-}
-
-.footer {
-    color: var(--clr-navbar-link);
-}
-
+.hero__top-bar,
+.footer,
 .footer a {
     color: var(--clr-navbar-link);
+}
+
+.footer a:focus {
+    outline-color: var(--clr-navbar-link);
 }
