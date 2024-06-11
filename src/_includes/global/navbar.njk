@@ -1,21 +1,34 @@
+{# Accessible hamburger menu code based on:
+https://kalechips.net/projects/snippets/burger #}
+
+{% set navLinksEl %}{% block navbarLinks %}{{ navbarLinks }}{% endblock %}{% endset %}
+
 <nav class="navbar">
-    <button class="navbar__toggle" aria-label="Navigation menu toggle" aria-expanded="false">
-        <span aria-hidden="true">☰</span>
-        <h2 class="navbar__title">Navigation</h2>
-    </button>
+    <details class="navbar__burger">
+        <summary class="navbar__toggle" id="toggle">☰ Navigation</summary>
+        <nav class="navbar__menu">
+            <ul class="navbar__menu--links">
+                {{ navLinksEl | safe }}
+                <li class="skip"><a href="#toggle">Close Menu</a></li>
+            </ul>
+        </nav>
+    </details>
     <ul class="navbar__links">
-        {% block navbarLinks %}
-            {{ navbarLinks }}
-        {% endblock %}
+        {{ navLinksEl | safe }}
     </ul>
 </nav>
 
 <style>
+    :root {
+        --icon-burger: url(/assets/icons/burger.svg);
+        --icon-close: url(/assets/icons/close.svg);
+        --sz-icon: 2.5rem;
+    }
+
     .navbar {
         background: var(--clr-navbar-bg);
-        padding: 0.6em 1em;
         width: 100%;
-        z-index: 999;
+        z-index: 998;
         position: sticky;
         top: 0;
     }
@@ -24,40 +37,69 @@
     .navbar__title {
         color: var(--clr-navbar-link);
         font-size: 1.3rem;
+        font-weight: 700;
     }
 
     .navbar__toggle {
+        list-style-type: none;
         display: flex;
         align-items: center;
         gap: 0.3em;
-        border: none;
-        padding: 0;
-        margin: 0;
+        padding: 0.6em;
         background-color: inherit;
     }
 
+    .navbar__toggle::-webkit-details-marker {
+        display: none;
+    }
+
     .navbar__toggle:focus,
-    .navbar__links a:focus {
+    .navbar a:focus {
         outline: 0.15em solid var(--clr-navbar-link);
     }
 
+    .navbar a:focus {
+        outline-offset: 0.1em;
+    }
+
+    .navbar__menu--links,
     .navbar__links {
         list-style: none;
-        padding: 0.2em 0 0 0;
-        display: none;
         flex-wrap: wrap;
         gap: 1em;
     }
 
-    .navbar__links--show {
-        display: flex;
-    }
-
+    .navbar__menu--links a,
     .navbar__links a {
         color: var(--clr-navbar-link);
         text-decoration: none;
         cursor: pointer;
         display: block;
+    }
+
+    .navbar__menu--links {
+        display: flex;
+        padding: 0 1em;
+    }
+
+    .skip a {
+        position: absolute;
+        left: -10000px;
+        top: auto;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+    }
+
+    .skip a:focus {
+        position: static;
+        width: auto;
+        height: auto;
+    }
+
+    .navbar__links {
+        display: none;
+        padding: 0.2em 0 0 0;
     }
 
     .navbar__links a:hover {
@@ -74,6 +116,10 @@
             padding: 0 0.6em;
         }
 
+        .navbar__burger {
+            display: none;
+        }
+
         .navbar__toggle {
             display: none;
         }
@@ -88,44 +134,15 @@
 </style>
 
 <script defer>
-    {# Accessible hamburger menu navigation script based on:
-    https://accessibleweb.dev/navigation #}
-    const navbarToggle = document.querySelector(".navbar__toggle");
-    const navbarLinksClass = ".navbar__links";
-    const navbarLinks = document.querySelector(navbarLinksClass);
-    const showNavLinksClass = "navbar__links--show";
-    const navbarLinkItems = document.querySelectorAll(navbarLinksClass + " li a");
+    window.onload = () => {
+        const navbarBurger = document.querySelector(".navbar__burger");
 
-    const openNavigation = () => {
-        navbarLinks.classList.add(showNavLinksClass);
-        navbarToggle.ariaExpanded = "true";
+        navbarBurger.addEventListener("keydown", (event) => {
+            const key = event.code;
+            if (key == "Escape") {
+                navbarBurger.removeAttribute("open");
+                document.querySelector(".navbar__toggle").focus();
+            }
+        });
     };
-
-    const closeNavigation = () => {
-        navbarLinks.classList.remove(showNavLinksClass);
-        navbarToggle.ariaExpanded = "false";
-    };
-
-    const toggleNavigation = () => {
-        const open = navbarToggle.ariaExpanded;
-        open === "false" ? openNavigation() : closeNavigation();
-    }
-
-    navbarToggle.addEventListener("click", toggleNavigation);
-
-    window.addEventListener("keyup", (e) => {
-        if (e.key === "Escape") {
-            navbarToggle.focus();
-            closeNavigation();
-        }
-    });
-
-    const handleBlur = (event) => {
-        const navList = event.currentTarget.closest(navbarLinksClass);
-        if (!event.relatedTarget || !navList.contains(event.relatedTarget)) {
-            closeNavigation();
-        }
-    };
-
-    navbarLinkItems[navbarLinkItems.length - 1].addEventListener("blur", handleBlur);
 </script>
