@@ -54,7 +54,7 @@ Due to this website being a static site, JavaScript is used to create dynamic an
         * [{% cite "Star Wars: Knights of the Old Republic" %}](/shrines/starwarskotor)
         * [{% cite "Cassette Beasts" %}](/shrines/cassettebeasts)
     * Birthdays of characters from {% cite "A Summer’s End — Hong Kong 1986" %} on its shrine.
-* When this site is viewed on mobile devices, the navigation bar uses JavaScript to enable using the Escape key to close the navigation manu.
+* When this site is viewed on mobile devices, the navigation bar's hamburger menu uses JavaScript to enable using the Escape key to close the navigation manu.
 * Zach Leatherman's [details-utils](https://www.npmjs.com/package/@zachleat/details-utils) JavaScript package is used to automatically expand sidebar table of contents on wide screens.
 * Every page has a button on the bottom right corner to allow you to quickly scroll to the top of the page. This scroll-to-top button uses JavaScript to show or hide the button based on your scroll position.
     * A "Back to top" link that does not use JavaScript is available on each page's bottom footer if JavaScript is disabled, but the JavaScript version allows visitors to quickly scroll to the top of the page without needing to reach the bottom footer.
