@@ -61,6 +61,6 @@ Due to this website being a static site, JavaScript is used to create dynamic an
 * [status.cafe](https://status.cafe/) widget, which is placed on the home page, uses JavaScript to fetch data of my latest status update.
 * [Website Carbon Badge](https://www.websitecarbon.com/badge/), which is placed on the home page, uses JavaScript to calculate the carbon footprint of this website.
 * [Links page](/links) has webring widgets that use JavaScript.
-* [Guestbook](/guestbook) uses JavaScript to send form data to my private Discord channel via Discord webhook, and fetch data from Google Sheets to display messages on the web page (guestbook code by [Vera Konigin](https://groundedwren.neocities.org/pages/demo_controls/guestbookDemo)).
+* [Guestbook](/guestbook) uses JavaScript to render a form, send form data to my private Discord channel via Discord webhook, and fetch data from Google Sheets to display messages on the web page (guestbook code by [Vera Konigin](https://groundedwren.neocities.org/pages/demo_controls/guestbookDemo)).
 
 You can still access most of the content of this site with JavaScript disabled, but the above components will not work as intended.
