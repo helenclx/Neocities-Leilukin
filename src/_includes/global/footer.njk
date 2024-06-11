@@ -21,7 +21,7 @@
         margin-top: auto;
         width: 100%;
         background: var(--clr-main-footer-bg);
-        padding: 1rem 1rem 3rem 1rem;
+        padding: 1.5rem 1rem clamp(2rem, calc(100% - 2rem), 3rem);
         text-align: center;
         display: grid;
         gap: 0.3em;
@@ -52,19 +52,5 @@
         display: flex;
         gap: 0.7em;
         justify-self: center;
-    }
-
-    /* Screen sizes larger than mobile */
-    @media only screen and (min-width: 30rem) {
-        .footer {
-            padding: 1rem 1rem 2rem 1rem;
-        }
-    }
-
-    /* Tablet screen size */
-    @media only screen and (min-width: 43.75rem) {
-        .footer {
-            padding: 1rem;
-        }
     }
 </style>
