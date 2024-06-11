@@ -17,6 +17,10 @@
 </footer>
 
 <style>
+    :root {
+        --footer-gap: 0.5em;
+    }
+
     .footer {
         margin-top: auto;
         width: 100%;
@@ -24,33 +28,30 @@
         padding: 1.5rem 1rem clamp(2rem, calc(100% - 2rem), 3rem);
         text-align: center;
         display: grid;
-        gap: 0.3em;
+        gap: var(--footer-gap);
     }
 
-    .footer p {
-        padding: 0;
+    .footer__links,
+    .footer__shrines {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        column-gap: var(--footer-gap);
     }
 
     .footer__links {
         justify-self: center;
         list-style: none;
-        text-align: center;
         margin: 0;
         padding: 0;
-        display: flex;
-        column-gap: 0.5em;
-        flex-wrap: wrap;
-        justify-content: center;
     }
 
     .footer__links li:not(:last-child)::after {
         content: '•';
-        padding-left: 0.5em;
+        padding-left: var(--footer-gap);
     }
 
     .footer__shrines {
-        display: flex;
-        gap: 0.7em;
-        justify-self: center;
+        align-self: center;
     }
 </style>
