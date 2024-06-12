@@ -5,7 +5,9 @@ https://kalechips.net/projects/snippets/burger #}
 
 <nav class="navbar">
     <details class="navbar__burger">
-        <summary class="navbar__toggle" id="toggle">☰ Navigation</summary>
+        <summary class="navbar__toggle" id="toggle">
+            <span aria-hidden="true">☰</span> Navigation
+        </summary>
         <nav class="navbar__menu">
             <ul class="navbar__menu--links">
                 {{ navLinksEl | safe }}
@@ -33,10 +35,9 @@ https://kalechips.net/projects/snippets/burger #}
         top: 0;
     }
 
-    .navbar__toggle,
-    .navbar__title {
+    .navbar__toggle {
         color: var(--clr-navbar-link);
-        font-size: 1.3rem;
+        font-size: 1.25rem;
         font-weight: 700;
     }
 
@@ -45,7 +46,7 @@ https://kalechips.net/projects/snippets/burger #}
         display: flex;
         align-items: center;
         gap: 0.3em;
-        padding: 0.6em;
+        padding: 0.4em 0.6em;
         background-color: inherit;
     }
 
