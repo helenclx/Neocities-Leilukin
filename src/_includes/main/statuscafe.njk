@@ -2,7 +2,9 @@
     <h3>My Lastest Status</h3>
     <div id="statuscafe-userinfo"></div>
     <div id="statuscafe-content">
-        <p>Fetching data from status.cafe...</p>
+        <noscript>
+            <p>Looks like you have JavaScript disabled. JavaScript is required to fetch my latest status from status.cafe and display it here.</p>
+        </noscript>
     </div>
 
     <p><a href="https://status.cafe/users/leilukin">View my statuses on status.cafe</a></p>
@@ -15,6 +17,11 @@
 </style>
 
 <script>
+    const statusCafeContent = document.getElementById("statuscafe-content");
+    statusCafeContent.innerHTML = `
+        <p>Fetching data from status.cafe...</p>
+    `;
+
     const fetchStatusCafe = async () => {
         try {
             const res = await fetch('https://status.cafe/users/leilukin/status.json');
@@ -26,7 +33,7 @@
             }
 
             document.getElementById("statuscafe-userinfo").innerHTML = data.author + ' ' + data.face + ' ' + data.timeAgo;
-            document.getElementById("statuscafe-content").innerHTML = data.content;
+            statusCafeContent.innerHTML = data.content;
         } catch (error) {
             console.error(error);
             document.getElementById("statuscafe-content").textContent = `[ERROR] ${error}`;
