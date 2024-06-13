@@ -82,7 +82,7 @@ module.exports = function (eleventyConfig) {
             <h2 id="footnotes" class="footnotes__title">Footnotes</h2>
             <a class="heading-anchor" href="#footnotes" aria-labelledby="footnotes"><span hidden="">#</span></a>
         </div>\n` +
-        '<ol class="footnotes__list">\n'
+        '<ol class="footnotes-list">\n'
     );
 
     markdownLibrary.renderer.rules.footnote_anchor = (tokens, idx, options, env, slf) => {
