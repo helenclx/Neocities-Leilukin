@@ -53,7 +53,7 @@
 
 .sidebar--sticky {
     position: sticky;
-    top: 4rem;
+    top: var(--sz-navbar-ht);
 }
 
 /* Desktop main content layout */

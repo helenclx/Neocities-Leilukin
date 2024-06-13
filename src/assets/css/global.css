@@ -46,6 +46,7 @@
 
     --sz-paragraph-margin: 1.15em;
     --sz-main-padding: clamp(1rem, 5%, 4rem);
+    --sz-navbar-ht: 4rem;
 }
 
 /* ------------------- */
