@@ -9,10 +9,6 @@
     gap: 1rem;
 }
 
-.content__wrapper {
-    justify-self: center;
-}
-
 .content:not(.content--divided),
 .content__section {
     padding: 1.5rem var(--sz-main-padding);
@@ -65,7 +61,7 @@
     .content__wrapper {
         padding: 0 var(--sz-main-padding);
         grid-template-areas: 'leftbar content rightbar';
-        grid-template-columns: minmax(0, 20%) minmax(0, 2.5fr) minmax(0, 20%);
+        grid-template-columns: minmax(0, 18vw) minmax(min(60ch, 40vw), 2.5fr) minmax(0, 18vw);
     }
 
     .content {
