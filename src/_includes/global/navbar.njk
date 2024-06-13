@@ -145,6 +145,7 @@ https://kalechips.net/projects/snippets/burger #}
             const key = event.code;
             if (key == "Escape") {
                 navbarBurger.removeAttribute("open");
+                navbarBurger.ariaExpanded = false;
                 document.querySelector(".navbar__toggle").focus();
             }
         });
