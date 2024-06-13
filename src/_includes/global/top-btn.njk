@@ -1,19 +1,14 @@
 {% set topLinkTitle = "Back to Top" %}
 
-<a href="#top" class="top-btn hidden" title="{{ topLinkTitle }}">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M7 11l5-5m0 0l5 5m-5-5v12" />
-    </svg>
-    <span class="visually-hidden">{{ topLinkTitle }}</span>
+<a href="#top" class="top-btn" title="{{ topLinkTitle }}">
+    {{ topLinkTitle }}
 </a>
-<noscript>
-    <p><a class="top-link" href="#top">{{ topLinkTitle }}</a></p>
-</noscript>
 
 <style>
     .top-btn,
     .top-btn:hover {
         color: var(--clr-top-btn-txt);
+        text-decoration: none;
     }
 
     .top-btn {
@@ -23,9 +18,11 @@
         z-index: 999;
 
         background-color: var(--clr-top-btn-bg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
         border-radius: 50em;
-        height: 2rem;
-        aspect-ratio: 1 / 1;
+        padding: 0.3em 0.5em;
     }
 
     .top-btn:focus {
@@ -33,8 +30,7 @@
         outline-offset: 0.15em;
     }
 
-    .top-link::before,
-    .top-link::after {
+    .top-btn::before {
         --arrow-margin: 0.3em;
         content: "";
         display: inline-block;
@@ -43,28 +39,7 @@
         border-right: 0.4rem solid transparent;
     }
 
-    .top-link::before {
+    .top-btn::before {
         margin: 0 var(--arrow-margin) 0 0;
     }
-
-    .top-link::after {
-        margin: 0 0 0 var(--arrow-margin);
-    }
 </style>
-
-<script defer>
-    const topButton = document.querySelector(".top-btn");
-    const scrollOffset = 400;
-
-    window.onscroll = () => {
-        if (document.body.scrollTop > scrollOffset || document.documentElement.scrollTop > scrollOffset) {
-            topButton.classList.remove("hidden");
-        } else {
-            topButton.classList.add("hidden");
-        }
-    };
-
-    topButton.addEventListener('click', () => {
-        window.scrollTo({ top: 0, left: 0 });
-    });
-</script>
