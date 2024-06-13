@@ -85,9 +85,17 @@ module.exports = function (eleventyConfig) {
         '<ol class="footnotes__list">\n'
     );
 
+    markdownLibrary.renderer.rules.footnote_anchor = (tokens, idx, options, env, slf) => {
+        let id = slf.rules.footnote_anchor_name(tokens, idx, options, env, slf);
+
+        if (tokens[idx].meta.subId > 0) id += `:${tokens[idx].meta.subId}`;
+
+        /* ↩ with escape code to prevent display as Apple Emoji on iOS */
+        return ` <a aria-label="Back to reference #${id}" href="#fnref${id}" class="footnote-backref">\u21a9\uFE0E</a>`;
+    };
+
     const renderRules = {
         footnote_caption: ['[', '[<span class="visually-hidden">Footnote #</span>'],
-        footnote_anchor: ['<a', '<a aria-label="Back to content"'],
     };
     Object.keys(renderRules).map(rule => {
         let defaultRender = markdownLibrary.renderer.rules[rule];
