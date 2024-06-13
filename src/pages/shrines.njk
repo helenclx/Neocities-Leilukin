@@ -10,14 +10,32 @@ eleventyComputed:
 
 <p>Here is a list of shrines I have made for my own website.</p>
 
-<h2><a href="./asummersend/">{% cite "A Summer’s End — Hong Kong 1986" %}</a></h2>
+<ul class="shrine-index">
+    <li>
+        <h2><a href="./asummersend/">{% cite "A Summer’s End — Hong Kong 1986" %}</a></h2>
+        <img src="/assets/shrines/asummersend/images/ASE_Key_art_intro.avif" alt="Key art of A Summer’s End — Hong Kong 1986" loading="lazy">
+    </li>
+    <li>
+        <h2><a href="./starwarskotor/">{% cite "Star Wars: Knights of the Old Republic" %}</a></h2>
+        <img src="/assets/shrines/starwarskotor/images/swkotor-header.avif" alt="Key art of the Star Wars: Knights of the Old Republic series" loading="lazy">
+    </li>
+    <li>
+        <h2><a href="./cassettebeasts/">{% cite "Cassette Beasts" %}</a></h2>
+        <img src="/assets/shrines/cassettebeasts/images/CassetteBeasts_keyart_16_9.avif" alt="Key art of Cassette Beasts" loading="lazy">
+    </li>
+</ul>
 
-<img src="/assets/shrines/asummersend/images/ASE_Key_art_intro.avif" alt="Key art of A Summer’s End — Hong Kong 1986" loading="lazy">
+<style>
+    .shrine-index {
+        display: grid;
+        gap: 2em;
+        list-style: none;
+        padding: 0;
+        margin: 2em 0 0;
+    }
 
-<h2><a href="./starwarskotor/">{% cite "Star Wars: Knights of the Old Republic" %}</a></h2>
-
-<img src="/assets/shrines/starwarskotor/images/swkotor-header.avif" alt="Key art of the Star Wars: Knights of the Old Republic series" loading="lazy">
-
-<h2><a href="./cassettebeasts/">{% cite "Cassette Beasts" %}</a></h2>
-
-<img src="/assets/shrines/cassettebeasts/images/CassetteBeasts_keyart_16_9.avif" alt="Key art of Cassette Beasts" loading="lazy">
+    .shrine-index li {
+        display: grid;
+        gap: 0.7em;
+    }
+</style>
