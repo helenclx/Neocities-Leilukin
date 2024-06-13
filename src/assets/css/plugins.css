@@ -44,12 +44,12 @@
     padding-top: 1em;
 }
 
-.footnotes-list {
+.footnotes__list {
     display: grid;
     gap: 0.3em;
 }
 
-.footnotes-list :target {
+.footnotes__list :target {
     background-color: var(--clr-quote-bg);
     outline: 0.1em dashed var(--clr-title-border);
 }
