@@ -11,7 +11,7 @@ I use [PageSpeed Insights](https://pagespeed.web.dev/) to measure my website's L
 
 ## Optimising Custom Fonts
 
-During the tests of Leilukin's Hub, PageSpeed Insights reported that the biggest factor in impacting the performance of this website is Cumulative Layout Shift (CLS). It took me a while to figure out using a custom font, namely the [Lexend font family](https://www.lexend.com/), was the cause of CLS of Leilukin's Hub — due to using a custom font as the default font, there was a flash of unstyled text (FOUT) for the entire page of Leilukin's Hub before the Lexend font loaded.
+During the tests of Leilukin's Hub, PageSpeed Insights reported that the biggest factor in impacting the performance of this website is [Cumulative Layout Shift (CLS)](https://web.dev/articles/cls). It took me a while to figure out using a custom font, namely the [Lexend font family](https://www.lexend.com/), was the cause of CLS of Leilukin's Hub — due to using a custom font as the default font, there was a [flash of unstyled text (FOUT)](https://fonts.google.com/knowledge/glossary/fout) for the entire page of Leilukin's Hub before the Lexend font loaded.
 
 This prompted me to research ways to optimise web fonts. Eventually, I solved the issue of FOUT and CLS by preloading the Lexend regular and bold typeface files (I used [google-webfonts-helper](https://gwfh.mranftl.com/fonts) to obtain the font files in WOFF2 format) in the `<head>` element, and turning my CSS stylesheet for Lexend into inline CSS by placing a `<style>` block for the CSS in the `<head>` element. Leilukin's Hub Lighthouse performance score improved as a result.
 
