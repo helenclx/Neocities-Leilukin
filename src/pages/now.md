@@ -1,6 +1,6 @@
 ---
 title: Now
-updated: 2024-06-09
+updated: 2024-06-13
 eleventyNavigation:
     key: Now
     order: 3
@@ -15,6 +15,16 @@ This is my [/now page](https://nownownow.com/about). You can find more pages lik
 You can also check out my [status.cafe profile](https://status.cafe/users/leilukin) for my latest short status updates.
 
 ## What I am Working on
+
+### Reduce Website's JavaScript Reliance
+
+In order to accommodate visitors who have disabled JavaScript, I have been working on reducing this website's dependence on JavaScript to perform basic functions.
+
+Previously, the navigation bar's hamburger menu on mobile needed JavaScript to open and close, while the "Back to top" button used JavaScript to hide or display based on the visitor's scroll position. Now I have removed JavaScript from being needed to perform these functions, though the hamburger menu still uses JavaScript to enable pressing the Escape key to close to improve accessibility for keyboard navigation.
+
+For components that still require JavaScript, such as my status.cafe widget and the Website Carbon badge on the home page, I have added `<noscript>` elements to notify visitors who have JavaScript disabled that JavaScript is required for those components.
+
+You can learn more about how JavaScript is used on this site on the [JavaScript section of the colophon page](/colophon/#javascript).
 
 ### Website Performance Improvement
 
