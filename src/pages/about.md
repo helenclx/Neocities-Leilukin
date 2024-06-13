@@ -40,6 +40,8 @@ I speak Mandarin, English, Cantonese and Malay, though I am most fluent in Manda
 
 I am also autistic, so I use this website as a platform to catalogue my interests.
 
+Leilukin is not my real name, but it is an internet pseudonym that I have used since I was a teenager, so the name has become my online identity.
+
 Social media platforms you can find me on:
 
 * <i class="fa-brands fa-tumblr"></i> [Tumblr](https://lesbiannova.tumblr.com/)
