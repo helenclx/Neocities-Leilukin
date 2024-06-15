@@ -48,7 +48,7 @@
         {{ content | safe }}
 
     {% if tags and tags.includes("posts") %}
-        <nav class="blog__post--pagination" aria-labelledby="blog-pagination">
+        <nav class="blog__post--pagination">
             <h2 class="visually-hidden">Next and Previous Blog Posts</h2>
             {%- if collections.posts %}
                 {%- set previousPost = collections.posts | getPreviousCollectionItem %}
