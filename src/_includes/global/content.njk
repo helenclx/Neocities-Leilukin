@@ -46,6 +46,32 @@
 
     <{{contentEl}} class="content{{' content--divided' if isContentDivided }}">
         {{ content | safe }}
+
+    {% if tags and tags.includes("posts") %}
+        <nav class="blog__post--pagination" aria-labelledby="blog-pagination">
+            <h2 class="visually-hidden">Next and Previous Blog Posts</h2>
+            {%- if collections.posts %}
+                {%- set previousPost = collections.posts | getPreviousCollectionItem %}
+                {%- set nextPost = collections.posts | getNextCollectionItem %}
+                {%- if nextPost or previousPost %}
+                    <ul class="blog__post--nextprev">
+                    {%- if previousPost %}
+                        <li class="blog__post--prev">
+                            <p>Previous Post:</p>
+                            <a href="{{ previousPost.url }}">{{ previousPost.data.articleTitle }}</a>
+                        </li>
+                    {% endif %}
+                    {%- if nextPost %}
+                        <li class="blog__post--next">
+                            <p>Next Post:</p>
+                            <a href="{{ nextPost.url }}">{{ nextPost.data.articleTitle }}</a>
+                        </li>
+                    {% endif %}
+                    </ul>
+                {%- endif %}
+            {%- endif %}
+        </nav>
+    {% endif %}
     </{{contentEl}}>
 
     {% if
@@ -74,5 +100,29 @@
     .breadcrumbs li::after {
         content: '➔';
         padding-left: 0.3em;
+    }
+
+        .blog__post--pagination {
+        padding-top: 1em;
+        margin-top: 2.5em;
+        border-top: 0.1em solid var(--clr-title-border);
+    }
+
+    .blog__post--nextprev {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: grid;
+        gap: 0.7em;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 'prev next';
+    }
+
+    .blog__post--prev {
+        grid-area: prev;
+    }
+
+    .blog__post--next {
+        grid-area: next;
     }
 </style>
