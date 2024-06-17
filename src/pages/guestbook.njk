@@ -19,6 +19,11 @@ eleventyComputed:
     encodedPath="MTI0MzI0MTMxMDY2NDY1OTA3Ni9KUU52ajM2OUJfZDhEaXB5b29VcllBN2dTZmQwMWxCY1ViNy1VNDVPVkxYa0hvRWtNRmRqclk1NTVCLVdaWUc5Q3dMMA=="
     fallbackEmail="{{ sitemeta.siteAuthor.email }}"
 ></gw-comment-form>
+<noscript>
+    <div class="inline-banner" style="margin: 2em 0;">
+        <p>Guestbook form cannot be loaded because you have disabled JavaScript.</p>
+    </div>
+</noscript>
 
 <h2 class="gb__messages--title">Guest Messages</h2>
 
@@ -28,6 +33,11 @@ eleventyComputed:
     isNewestFirst="true"
     gwCommentFormId="guestbookForm"
 ></gw-comment-list>
+<noscript>
+    <div class="inline-banner" style="margin-top: 2em;">
+        <p>Guest messages cannot be loaded because you have disabled JavaScript.</p>
+    </div>
+</noscript>
 
 <link rel="stylesheet" href="{{'/assets/css/svgIconControl.css' | url | safe}}">
 <script src="/assets/js/svgIconControl.js"></script>
