@@ -1,6 +1,6 @@
 ---
 title: Now
-updated: 2024-06-13
+updated: 2024-06-17
 eleventyNavigation:
     key: Now
     order: 3
@@ -13,6 +13,12 @@ eleventyComputed:
 This is my [/now page](https://nownownow.com/about). You can find more pages like this at [nownownow.com](https://nownownow.com/).
 
 You can also check out my [status.cafe profile](https://status.cafe/users/leilukin) for my latest short status updates.
+
+## Participating in the Personal Web
+
+I have been making a more active effort in participating in the personal web and connecting with other webmasters, through various methods including leaving messages on others' guestbooks, sending other webmasters emails, linking to each other's websites, following each other's Neocities profiles, etc.
+
+Furthermore, I joined [32-Bit Cafe](https://32bit.cafe/) on both its Discourse forum and Discord on 15 June 2024.
 
 ## What I am Working on
 
