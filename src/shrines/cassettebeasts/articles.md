@@ -25,8 +25,6 @@ eleventyNavigation:
 
 ## {% cite "Cassette Beasts" %} Articles I Recommend
 
-<ul>
-    <li><a href="https://www.pillowfort.social/posts/3642949">Cassette Beasts Level-Up Dialogue Summaries (Meredith)</a> by ArgentDandelion on Pillowfort — An analysis of Meredith's character.</li>
-    <li><a href="https://www.pillowfort.social/posts/3792935">Cassette Beasts Level-Up Dialogue Summaries (Viola)</a> by ArgentDandelion on Pillowfort — An analysis of Viola's character.</li>
-    <li><a href="https://www.youtube.com/watch?v=jFJ6tMeGsLg" target="blank">A Case Of Autism: Meredith (Cassette Beasts)</a> by Optical Drop — A video essay analysing Meredith's autistic coding.</li>
-</ul>
+* [Cassette Beasts Level-Up Dialogue Summaries (Meredith)](https://www.pillowfort.social/posts/3642949) by ArgentDandelion on Pillowfort — An analysis of Meredith's character.
+* [Cassette Beasts Level-Up Dialogue Summaries (Viola)](https://www.pillowfort.social/posts/3792935) by ArgentDandelion on Pillowfort — An analysis of Viola's character.
+* [A Case Of Autism: Meredith (Cassette Beasts)](https://www.youtube.com/watch?v=jFJ6tMeGsLg) by Optical Drop — A video analysis of Meredith's autistic coding.
