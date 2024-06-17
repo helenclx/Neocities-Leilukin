@@ -85,6 +85,11 @@
     border-radius: 0.2em;
 }
 
+.comment-footer button,
+.show-comment {
+    font-size: initial;
+}
+
 gw-comment-card:not(.collapsed) .show-comment {
 	display: none;
 }
