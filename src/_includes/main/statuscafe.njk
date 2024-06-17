@@ -32,7 +32,7 @@
                 return;
             }
 
-            document.getElementById("statuscafe-userinfo").innerHTML = data.author + ' ' + data.face + ' ' + data.timeAgo;
+            document.getElementById("statuscafe-userinfo").innerHTML = data.face + ' ' + data.timeAgo;
             statusCafeContent.innerHTML = data.content;
         } catch (error) {
             console.error(error);
