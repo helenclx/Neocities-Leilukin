@@ -13,8 +13,8 @@
 
         {# CSS #}
         {% include "global/css-bundle.njk" %}
-    {% if customCSSSheet %}
-        {%- for sheet in customCSSSheet -%}
+    {% if customCSSSheets %}
+        {%- for sheet in customCSSSheets -%}
         <link rel="stylesheet" href="{{'/assets/css/' + sheet + '.css' | url | safe}}">
         {%- endfor -%}
     {% endif %}
