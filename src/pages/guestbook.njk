@@ -1,5 +1,7 @@
 ---
 title: Guestbook
+customCSSSheet: ["svgIconControl", "comments"]
+customJSFiles: ["svgIconControl", "googleSheetsReaderGizmo", "comments"]
 eleventyNavigation:
     key: Guestbook
     order: 9
@@ -38,14 +40,6 @@ eleventyComputed:
         <p>Guest messages cannot be loaded because you have disabled JavaScript.</p>
     </div>
 </noscript>
-
-<link rel="stylesheet" href="{{'/assets/css/svgIconControl.css' | url | safe}}">
-<script src="/assets/js/svgIconControl.js"></script>
-
-<script src="/assets/js/googleSheetsReaderGizmo.js"></script>
-<link rel="stylesheet" href="{{'/assets/css/comments.css' | url | safe}}">
-
-<script src="/assets/js/comments.js"></script>
 
 <style>
     .gb__messages--title {
