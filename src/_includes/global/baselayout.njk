@@ -31,7 +31,12 @@
         {% block favicon %}{% include "global/favicon.njk" %}{% endblock %}
 
         {# JavaScript #}
-        <script src="/assets/js/details-utils.js" defer></script>
+        <script src="{{'/assets/js/details-utils.js'}}" defer></script>
+    {% if customJSFiles %}
+        {%- for jsFile in customJSFiles -%}
+        <script src="{{'/assets/js/' + jsFile + '.js' | url | safe}}" defer></script>
+        {%- endfor -%}
+    {% endif %}
 
         <title>
             {% block pageTitle %}{{ title + " | " if title }}{{ sitemeta.siteName | safe }}{% endblock %}
