@@ -5,7 +5,6 @@ updated: 2023-10-22
 desc: Despite some fundamental similarities, calling Cassette Beasts as just a Pokémon clone is doing the former a massive disserverce, and here are the many reasons why.
 tags: cassette beasts articles
 categories: ["cassette beasts"]
-templateEngineOverride: njk, md
 toc: true
 ---
 
