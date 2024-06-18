@@ -1,3 +1,7 @@
+---
+customCSSSheet: ["starwarskotor"]
+---
+
 {% extends "global/baselayout.njk" %}
 
 {% block metaTitle %}
@@ -6,10 +10,6 @@
 
 {% block pageTitle %}
     {{ title + " | " if title }}Star Wars: Knights of the Old Republic Shrine | {{ sitemeta.siteName | safe }}
-{% endblock %}
-
-{% block customCSS %}
-    <link rel="stylesheet" href="{{'/assets/css/starwarskotor.css' | url | safe}}">
 {% endblock %}
 
 {% block favicon %}

@@ -1,3 +1,7 @@
+---
+customCSSSheet: ["cassettebeasts"]
+---
+
 {% extends "global/baselayout.njk" %}
 
 {% block metaTitle %}
@@ -6,10 +10,6 @@
 
 {% block pageTitle %}
     {{ title + " | " if title }}Cassette Beasts Shrine | {{ sitemeta.siteName | safe }}
-{% endblock %}
-
-{% block customCSS %}
-    <link rel="stylesheet" href="{{'/assets/css/cassettebeasts.css' | url | safe}}">
 {% endblock %}
 
 {% block favicon %}

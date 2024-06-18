@@ -13,7 +13,11 @@
 
         {# CSS #}
         {% include "global/css-bundle.njk" %}
-        {% block customCSS %}{% endblock %}
+    {% if customCSSSheet %}
+        {%- for sheet in customCSSSheet -%}
+        <link rel="stylesheet" href="{{'/assets/css/' + sheet + '.css' | url | safe}}">
+        {%- endfor -%}
+    {% endif %}
 
         {# Fonts #}
         {% include "global/defaultfont.njk" %}
