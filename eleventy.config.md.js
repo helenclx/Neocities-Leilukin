@@ -121,13 +121,13 @@ module.exports = function (eleventyConfig) {
         </figure>`;
     });
 
-    // Paired shorcode: Spoiler accordion
-    eleventyConfig.addPairedShortcode('spoiler', (content, hint) => {
-        const hintMarkup = markdownLibrary.renderInline(hint);
+    // Paired shorcode: Content accordion
+    eleventyConfig.addPairedShortcode('accordion', (content, summary) => {
+        const summaryMarkup = markdownLibrary.renderInline(summary);
         const contentMarkup = markdownLibrary.render(content);
-        return `<details class="spoiler-accordion">
-            <summary class="spoiler-accordion__hint">${hintMarkup}</summary>
-            <div class="spoiler-accordion__spoiler">${contentMarkup}</div>
+        return `<details class="content-accordion">
+            <summary class="content-accordion__summary">${summaryMarkup}</summary>
+            <div class="content-accordion__content">${contentMarkup}</div>
         </details>`;
     });
 

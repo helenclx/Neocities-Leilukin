@@ -80,24 +80,24 @@
     outline-offset: -0.25em;
 }
 
-/* Spoiler Accordion */
-* + .spoiler-accordion {
+/* Content Accordion */
+* + .content-accordion {
     margin-top: var(--sz-paragraph-margin);
 }
 
-.spoiler-accordion {
+.content-accordion {
     padding: 0.5em 0;
 }
 
-.spoiler-accordion__hint {
+.content-accordion__summary {
     font-weight: 700;
 }
 
-.spoiler-accordion__spoiler {
+.content-accordion__content {
     padding: 0.5em 1em;
 }
 
-.spoiler-accordion__spoiler p + p {
+.content-accordion__content p + p {
     margin-top: 1em;
 }
 
