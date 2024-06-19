@@ -1,6 +1,6 @@
 ---
 articleTitle: Palestine Masterlist
-date: 2023-06-19
+date: 2024-06-19
 desc: My masterlist of resources related to Palestine.
 categories: ["palestine"]
 ---
