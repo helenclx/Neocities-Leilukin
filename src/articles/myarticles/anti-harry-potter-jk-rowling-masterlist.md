@@ -1,7 +1,7 @@
 ---
 articleTitle: Anti-Harry Potter and Anti-J. K. Rowling Masterlist
 date: 2023-03-19
-updated: 2024-06-04
+updated: 2024-06-19
 desc: My masterlist of criticisms of the Harry Potter series and J. K. Rowling.
 categories: ["harry potter", "jk rowling"]
 toc: true
@@ -13,9 +13,9 @@ This site is Harry Potter free. Lookin [<i>sic</i>] for it? Leave.
 
 (Credit to Tumblr user [comradesaucegay](https://comradesaucegay.tumblr.com/post/621403039459426304) for this Harry Potter-free website banner){.center-text}
 
-Like many millennials, I grew up with the {% cite "Harry Potter" %} series and was a major fan of the series. I had read the original 7 books and watched their film adaptations. The series was a passion of mine during my early- to mid-teen years. While the Harry Potter novels were far from the first books I read, they were the first fantasy novels I read, and the series’ concept of a magical world set in a contemporary setting fascinated teenage me.
+Like many millennials, I grew up with the {% cite "Harry Potter" %} series and was a major fan of the series. I had read the original 7 books and watched their film adaptations. The series was a passion of mine during my early- to mid-teen years. While the {% cite "Harry Potter" %} novels were far from the first books I read, they were the first fantasy novels I read, and the series’ concept of a magical world set in a contemporary setting fascinated teenage me.
 
-However, even during my {% cite "Harry Potter" %} fixation years, there were things from the series that bothered me, from the idea of house elves being a slave race that naturally love being slaves, to Snape’s unconvincing “redemption” arc. As I got older and became more aware of social issues, I started to notice more problems with the series. In addition, reading more books has also made me realise that even on a technical writing level, the Harry Potter series was mediocre at best. As a result, I had stopped becoming a Harry Potter fan even before J. K. Rowling’s transphobia got mainstream attention.
+However, even during my {% cite "Harry Potter" %} fixation years, there were things from the series that bothered me, from the idea of house elves being a slave race that naturally love being slaves, to Snape’s unconvincing “redemption” arc. As I got older and became more aware of social issues, I started to notice more problems with the series. In addition, reading more books has also made me realise that even on a technical writing level, the {% cite "Harry Potter" %} series was mediocre at best. As a result, I had stopped becoming a {% cite "Harry Potter" %} fan even before J. K. Rowling’s transphobia got mainstream attention.
 
 Unfortunately, many adults with nostalgia goggles still refuse to let go of {% cite "Harry Potter" %}, and they believe {% cite "Harry Potter" %} can be separated or “reclaimed” by J. K. Rowling, despite how much Rowling’s worldview and prejudice are inextricably linked to her writing.
 
@@ -28,6 +28,7 @@ Therefore, I am compiling this masterlist by curating various materials that are
 * [The Antisemitism of ‘Harry Potter’ Returns in ‘Hogwarts Legacy’](https://www.themarysue.com/is-hogwarts-legacy-anti-semitic-hogwarts-legacy-anti-semitic-allegations-explained/) by Jack Doyle (8 February 2023)
 * [Hogwarts Legacy wants to make everyone happy, but Harry Potter gets in the way](https://www.polygon.com/reviews/23603142/hogwarts-legacy-review-harry-potter-jk-rowling-transphobic-ps5-pc-xbox) by by Gita Jackson (17 February 2023)
 * [Is J.K. Rowling transphobic? Let’s let her speak for herself.](https://www.vox.com/culture/23622610/jk-rowling-transphobic-statements-timeline-history-controversy) by Aja Romano (3 March 2023)
+* [Talking Shit About Harry Potter](https://starbreaker.org/blog/entertainment/talking-shit-about-harry-potter/index.html) by Matthew Graybosch (19 June 2024) — This post was prompted by this very masterlist and our email exchange about the topic.
 
 ## Videos
 
