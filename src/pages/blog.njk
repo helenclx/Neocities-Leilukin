@@ -8,6 +8,7 @@ pagination:
     alias: postList
     reverse: true
 permalink: "/{{ page.fileSlug }}{% if pagination.pageNumber > 0 %}/page/{{ pagination.pageNumber + 1 }}{% endif %}/"
+isContentDivided: true
 eleventyNavigation:
     order: 4
 eleventyComputed:
@@ -15,7 +16,12 @@ eleventyComputed:
     desc: Blog hosted on {{ sitemeta.siteAuthor.name }}'s pwesonal website.
 ---
 
-<ul class="blog__posts">
+<section class="content__section">
+    {{ sitemeta.siteName }} also has a tumbleblog at <a href="https://tumbleblog.leilukin.com/">tumbleblog.leilukin.com</a>, where I make shorter or more casual posts. Feel free to check it out!
+</section>
+
+<section class="content__section">
+    <ul class="blog__posts">
     {% for post in postList %}
         <li class="blog__post">
             <h2 class="blog__post--title">
@@ -30,9 +36,10 @@ eleventyComputed:
             <p>{{ post.data.desc }}</p>
         </li>
     {% endfor %}
-</ul>
+    </ul>
 
-{% include "global/pagination-oldnew.njk" %}
+    {% include "global/pagination-oldnew.njk" %}
+</section>
 
 <style>
     .blog__posts,
