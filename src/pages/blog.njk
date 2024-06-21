@@ -52,14 +52,18 @@ eleventyComputed:
     .blog__posts {
         list-style-type: none;
         padding: 0;
-        margin: 0;
-        gap: 1.5em;
+        margin: 1.5em 0 0 0;
     }
 
     .blog__post {
+        --bdr-blogpost: 0.2em solid var(--clr-quote-border);
         gap: 0.6em;
-        padding-bottom: 1.5em;
-        border-bottom: 0.2em solid var(--clr-quote-border);
+        padding: 1.5em 0;
+        border-bottom: var(--bdr-blogpost);
+    }
+
+    .blog__post:first-of-type {
+        border-top: var(--bdr-blogpost);
     }
 
     .blog__post--title {
