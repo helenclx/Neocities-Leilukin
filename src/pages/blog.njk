@@ -17,10 +17,12 @@ eleventyComputed:
 ---
 
 <section class="content__section">
-    {{ sitemeta.siteName }} also has a tumbleblog at <a href="https://tumbleblog.leilukin.com/">tumbleblog.leilukin.com</a>, where I make shorter or more casual posts. Feel free to check it out!
+    <h2>Other Blogs</h2>
+    <p>{{ sitemeta.siteName }} also has a tumbleblog at <a href="https://tumbleblog.leilukin.com/">tumbleblog.leilukin.com</a>, where I make shorter or more casual posts, as well as sharing stuff that I found interesting or inspirational. Feel free to check it out!</p>
 </section>
 
 <section class="content__section">
+    <h2>Blog Posts</h2>
     <ul class="blog__posts">
     {% for post in postList %}
         <li class="blog__post">
