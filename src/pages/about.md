@@ -12,7 +12,9 @@ eleventyNavigation:
 
 {{ sitemeta.siteName }} is a literal queer-coded website (as in, this website is coded by a queer person) that serves as a personal hub for my interests and self-expression, as well as my own corner on the internet outside social media platforms.
 
-On this site, you can find various stuff I have created or curated, as well as articles dedicated to my interests.
+On this site, you can find various stuff I have created or curated.
+
+This website is mostly safe for work, but since I am an adult, I made my website with an adult audience in mind. I add content warnings for not safe for work and adult content.
 
 Feel free to drop a message and say hi on [my guestbook](/guestbook)!
 
