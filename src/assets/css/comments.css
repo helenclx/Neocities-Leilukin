@@ -17,14 +17,20 @@
     margin: 2em 0;
 }
 
+.comment-form,
+.input-horizontal-wrapper {
+    gap: 1em;
+}
+
 .comment-form-title {
     text-align: center;
     margin-bottom: 0 !important;
 }
 
-.comment-form,
-.input-horizontal-wrapper {
-    gap: 1em;
+.comment-form input,
+.comment-form textarea {
+    color: var(--clr-body-txt);
+    background-color: var(--clr-quote-bg);
 }
 
 .input-horizontal-wrapper {
@@ -38,7 +44,8 @@
     gap: 0.2em;
 }
 
-.input-vertical input:focus {
+.input-vertical input:focus,
+.comment-box-container textarea:focus {
     outline: 0.15em solid var(--clr-link);
 }
 
