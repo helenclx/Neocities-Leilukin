@@ -41,7 +41,7 @@
 .input-vertical,
 .comment-box-container {
     display: grid;
-    gap: 0.2em;
+    gap: 0.3em;
 }
 
 .input-vertical input:focus,
