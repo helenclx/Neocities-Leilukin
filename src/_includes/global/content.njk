@@ -37,7 +37,7 @@
     {% endif %}
 </header>
 
-<div class="content__wrapper">
+<content-wrapper>
     {% if toc %}
         {% include "global/toc.njk" %}
     {% endif %}
@@ -84,7 +84,7 @@
     {% endif %}
 
     {% block shrineInfo %}{% endblock %}
-</div>
+</content-wrapper>
 
 <style>
     .breadcrumbs {
