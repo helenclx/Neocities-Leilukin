@@ -17,7 +17,7 @@ eleventyNavigation:
     {%- for article in collections["kotor both articles"] -%}
         <li>
             <p><a href="{{ article.url }}">{{ article.data.articleTitle }}</a></p>
-            <time>{{ article.date | formatDate }}</time>
+            <p>{{ article.date | formatDate }}</p>
         </li>
     {%- endfor -%}
 </ul>
@@ -27,7 +27,7 @@ eleventyNavigation:
     {%- for article in collections["kotor 1 articles"] -%}
         <li>
             <p><a href="{{ article.url }}">{{ article.data.articleTitle }}</a></p>
-            <time>{{ article.date | formatDate }}</time>
+            <p>{{ article.date | formatDate }}</p>
         </li>
     {%- endfor -%}
 </ul>
@@ -37,7 +37,7 @@ eleventyNavigation:
     {%- for article in collections["kotor 2 articles"] -%}
         <li>
             <p><a href="{{ article.url }}">{{ article.data.articleTitle }}</a></p>
-            <time>{{ article.date | formatDate }}</time>
+            <p>{{ article.date | formatDate }}</p>
         </li>
     {%- endfor -%}
 </ul>

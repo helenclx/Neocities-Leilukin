@@ -17,7 +17,7 @@ eleventyNavigation:
     {%- for article in collections["cassette beasts articles"] -%}
         <li>
             <p><a href="{{ article.url }}">{{ article.data.articleTitle }}</a></p>
-            <time>{{ article.date | formatDate }}</time>
+            <p>{{ article.date | formatDate }}</p>
         </li>
     {%- endfor -%}
 </ul>

@@ -12,7 +12,7 @@ Articles I have written.
     {%- for article in collections["my articles"] -%}
         <li>
             <p><a href="{{ article.url }}">{{ article.data.articleTitle }}</a></p>
-            <time>{{ article.date | formatDate }}</time>
+            <p>{{ article.date | formatDate }}</p>
         </li>
     {%- endfor -%}
 </ul>
@@ -27,7 +27,7 @@ Articles featuring other people's interview with me.
     {%- for article in collections["featured articles"] -%}
         <li>
             <p><a href="{{ article.url }}">{{ article.data.articleTitle }}</a></p>
-            <time>{{ article.date | formatDate }}</time>
+            <p>{{ article.date | formatDate }}</p>
         </li>
     {%- endfor -%}
 </ul>
