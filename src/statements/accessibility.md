@@ -25,7 +25,9 @@ This site uses the [Lexend](https://www.lexend.com/) font family as the default 
 
 I use the following tools to test my site for accessibility:
 * WebAIM's [WAVE Browser Extension](https://wave.webaim.org/extension/)
-* Acart Communications' [Contrast Checker](https://contrastchecker.com/)
+* [ANDI Accessibility Testing Tool](https://www.ssa.gov/accessibility/andi/help/install.html)
+* [C. Liam Brown's Colour Contrast Tool](https://cliambrown.com/contrast/)
+* [Acart Communications' Contrast Checker](https://contrastchecker.com/)
 * [NVDA](https://www.nvaccess.org/about-nvda/) screen reader for Windows
 * TalkBack screen reader for Android
 * VoiceOver screen reader for iOS
