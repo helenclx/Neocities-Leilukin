@@ -79,7 +79,7 @@ registerNamespace("GW.Controls.SVGLib", function(ns) {
 	const ICON_CLASS = "icon";
 
 	/**
-     * Icon SVG path definitions
+      * Icon SVG path definitions
     */
 	ns.Icons = {
         "circle-info": {
@@ -322,6 +322,17 @@ registerNamespace("GW.Controls.SVGLib", function(ns) {
             ICON_CITATION
         );
 
+        iconEl.insertAdjacentHTML("afterbegin",
+            `<style>
+                .icon {
+                    fill: black; /*Default color*/
+                    fill: var(--icon-color);
+                    width: 16px;
+                    height: 16px;
+                }
+            </style>`
+        );
+
         createChildElement(
     	iconEl,
     	ns.ElementTypes.title,
@@ -415,6 +426,16 @@ registerNamespace("GW.Controls", function(ns) {
             }
 
             //Markup
+            this.insertAdjacentHTML("beforebegin",
+                `<style>
+                    gw-icon {
+                        display: inline-flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                </style>`
+            );
             this.appendChild(
                 ns.SVGLib.createIcon(
                     this.iconObj,
