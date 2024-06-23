@@ -2,7 +2,6 @@
 title: Now
 updated: 2024-06-17
 eleventyNavigation:
-    key: Now
     order: 3
 eleventyComputed:
     desc: What {{ sitemeta.siteAuthor.name }} is doing now.
