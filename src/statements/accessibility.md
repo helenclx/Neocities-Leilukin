@@ -1,12 +1,14 @@
 ---
 title: Accessibility
 keyword: accessibility statement
-updated: 2024-06-10
+updated: 2024-06-21
 eleventyNavigation:
     order: 12
 ---
 
-Even though this website is primarily meant to be my own space of self-expression, I also want every visitor to my website to have the best possible experience of browsing my website. Therefore, I strive to design this website to be accessible, including to disabled and neurodivergent people, by aiming to meet [Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/WAI/standards-guidelines/wcag/) Level AA standards.
+Even though this website is primarily meant to be my own space of self-expression, I also want every visitor to my website to have the best possible experience of browsing my website. Accessibility is also relevant to me as a disabled and neurodivergent person.
+
+Therefore, I strive to design my website to be accessible, including to fellow disabled and neurodivergent people, by aiming to meet [Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/WAI/standards-guidelines/wcag/) Level AA standards.
 
 High-level overview of the accessibility features of this site:
 * Responsive design and mobile-friendly layout
