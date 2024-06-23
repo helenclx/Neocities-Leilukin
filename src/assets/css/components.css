@@ -132,6 +132,15 @@
     padding: 1em;
 }
 
+/* Adoptables wrapper */
+.adoptables {
+    display: flex;
+    align-items: flex-end;
+    gap: 1em;
+}
+
+p + .adoptables { margin-top: 1em; }
+
 /* Web button lists */
 .web-btn-wrapper {
     display: flex;
