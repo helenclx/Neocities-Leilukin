@@ -6,7 +6,6 @@ const embedEverything = require("eleventy-plugin-embed-everything");
 
 // Configure slug filter
 const slugify = require("slugify");
-
 // Configure markdown-it plugins
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
@@ -74,6 +73,9 @@ module.exports = function (eleventyConfig) {
         .use(require("markdown-it-bracketed-spans"))
         .use(require("markdown-it-deflist"))
         .use(require('markdown-it-footnote'));
+
+    // Configure linkify
+    markdownLibrary.linkify.set({ fuzzyLink: false });
 
     // Configure markdown-it-footnote
     markdownLibrary.renderer.rules.footnote_block_open = () => (
