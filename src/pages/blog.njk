@@ -34,7 +34,7 @@ eleventyComputed:
                     {% endif %}
                 </a>
             </h2>
-            <p>{{ post.date | formatDate }}</p>
+            <p class="blog__post--time">{{ post.date | formatDate }}</p>
             <p>{{ post.data.desc }}</p>
         </li>
     {% endfor %}
@@ -69,10 +69,11 @@ eleventyComputed:
     .blog__post--title {
         font-size: clamp(1.55rem, 1rem + 3vw, 1.8rem);
         line-height: 1.3;
+        margin-bottom: 0 !important;
     }
 
-    .blog__post time {
+    .blog__post--time {
         color: var(--clr-sub-heading);
-        font-weight: 600;
+        font-weight: 700;
     }
 </style>
