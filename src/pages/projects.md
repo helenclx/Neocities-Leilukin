@@ -9,6 +9,11 @@ eleventyComputed:
 ---
 
 {% container "section", "content__section" %}
+## My Other Websites
+* [Leilukin's Hub Tumbleblog](https://tumbleblog.leilukin.com/) — My tumbleblog powered by [Chyrp Lite](https://chyrplite.net/).
+{% endcontainer %}
+
+{% container "section", "content__section" %}
 ## My Drawings
 
 My drawings can be found on my art blog on Tumblr:
@@ -21,8 +26,8 @@ My drawings can be found on my art blog on Tumblr:
 
 I have created mods (short for "modifications") for the following video games:
 
-- [Star Wars: Knights of the Old Republic](./kotor1mods)
-- [Star Wars: Knights of the Old Republic II: The Sith Lords](./kotor2mods)
+* [Star Wars: Knights of the Old Republic](./kotor1mods)
+* [Star Wars: Knights of the Old Republic II: The Sith Lords](./kotor2mods)
 {% endcontainer %}
 
 {% container "section", "content__section" %}
