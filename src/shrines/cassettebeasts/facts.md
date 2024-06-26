@@ -74,7 +74,7 @@ Late 2019
 : Android and iOS versions [announced](https://twitter.com/ByttenStudio/status/1782442549552017482) to be released on 4 June 2024 with a [trailer](https://www.youtube.com/watch?v=hqcDR6-sRVw).
 
 20 May 2024
-: Multiplayer update [live on all platforms](https://www.cassettebeasts.com/2024/05/20/multiplayer-update-out-now/), with a [launch trailer](https://www.youtube.com/watch?v=B-iBugwjaKI).
+: Multiplayer update and version update 1.6.0 [live on all platforms](https://www.cassettebeasts.com/2024/05/20/multiplayer-update-out-now/), with a [launch trailer](https://www.youtube.com/watch?v=B-iBugwjaKI).
 
 31 May 2024
 : Physical edition for Nintendo Switch [announced](https://x.com/SuperRareGames/status/1796557336791621994).
@@ -84,6 +84,9 @@ Late 2019
 
 6 June 2024
 : Physical edition for Nintendo Switch [released](https://x.com/ByttenStudio/status/1798762960485273614) and available for pre-orders on [Super Rare Games](https://superraregames.com/collections/srg-113-cassette-beasts).
+
+26 June 2024
+: Version update 1.6.2 [live on all platforms](https://store.steampowered.com/news/app/1321440/view/4182236270516996189).
 
 ## Accolades
 
