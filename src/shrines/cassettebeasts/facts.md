@@ -213,7 +213,7 @@ Bytten Studio never hinted at any possibility of adding new partners to {% cite 
 
 ### Sunny's lack of screen time and content
 
-Sunny, a minor NPC who appears after the completion of Eugene's quest line, has become immensely popular in the player base despite her limited screen time, wishing she could have a larger role in the game, monst commonly to become a partner.
+Sunny, a minor NPC who appears after the completion of Eugene's quest line, has become immensely popular in the player base despite her limited screen time, wishing she could have a larger role in the game, most commonly to become a partner, with some players even expressing disappointment that Sunny only gets a minor role in the game, and questioning why.
 
 The reason why Sunny has little screen time and content was that she was added late into the game's development and only intended by Bytten Studio as a little side story after Eugene's quest to surprise players. Bytten Studio never intended Sunny to have a huge role or much content, and they did not expect Sunny would become this popular in the player base.
 
